@@ -1,0 +1,129 @@
+{
+  "id": "cartography-3",
+  "moduleId": "cartography",
+  "title": "Legenda: o código do mapa",
+  "summary": "Como ler e interpretar a legenda cartográfica.",
+  "activityType": "layer-toggle",
+  "phenomenon": {
+    "title": "Um mapa sem legenda é ruído visual",
+    "text": "Cores, traços, símbolos e padrões em um mapa não são decoração. São um código. Sem saber decodificá-lo, o mapa não comunica nada. A legenda é o dicionário desse código."
+  },
+  "guided": {
+    "title": "O que uma legenda contém",
+    "text": "A legenda explica cada elemento visual do mapa: o que cada cor representa, o que cada símbolo significa, o que cada tipo de linha indica.",
+    "points": [
+      "Cores: geralmente indicam categorias (biomas, países, tipos de solo).",
+      "Símbolos: pontos representam cidades; estrelas representam capitais.",
+      "Linhas: retas (limites), pontilhadas (rotas), grossas (rios principais).",
+      "Padrões: hachuras indicam áreas de risco, relevo ou uso especial."
+    ]
+  },
+  "relations": {
+    "title": "A legenda como escolha política",
+    "text": "O que entra na legenda é uma decisão. Um mapa de biomas que usa cores próximas para o Cerrado e a Mata Atlântica pode tornar invisível o quanto a Mata Atlântica foi destruída. Cores e símbolos são escolhas que afetam o que vemos — e o que ignoramos."
+  },
+  "caseStudy": {
+    "title": "O mapa do desmatamento",
+    "text": "O INPE monitora o desmatamento na Amazônia por satélite. Em 2019, quando os dados mostraram aumento no desmatamento, o governo federal questionou publicamente os números. O debate não era sobre o território — era sobre o método e a definição do que seria 'desmatamento' na legenda."
+  },
+  "application": "Pegue qualquer mapa. Identifique: qual é a legenda? O que cada símbolo significa? Há algum elemento sem explicação?",
+  "layers": [
+    {
+      "id": "biomas",
+      "label": "Biomas",
+      "color": "#4a8a4a",
+      "visible": true
+    },
+    {
+      "id": "cidades",
+      "label": "Cidades",
+      "color": "#e05a00",
+      "visible": false
+    },
+    {
+      "id": "rodovias",
+      "label": "Rodovias",
+      "color": "#8b5e2e",
+      "visible": false
+    },
+    {
+      "id": "rios",
+      "label": "Rios principais",
+      "color": "#4a90a4",
+      "visible": false
+    },
+    {
+      "id": "desmatamento",
+      "label": "Desmatamento",
+      "color": "#c00000",
+      "visible": false
+    }
+  ],
+  "activity": {
+    "mapId": "brazil-layers",
+    "type": "layer-toggle",
+    "instruction": "Ative e desative as camadas do mapa. Observe como a mesma área parece diferente dependendo do que está sendo mostrado.",
+    "question": "Para entender onde estão as maiores cidades em relação aos rios, quais camadas você deve ativar?",
+    "correct": "cidades-rios",
+    "hintAfter": 1,
+    "options": [
+      {
+        "value": "cidades-rios",
+        "label": "Cidades e Rios"
+      },
+      {
+        "value": "biomas-desmatamento",
+        "label": "Biomas e Desmatamento"
+      },
+      {
+        "value": "apenas-rodovias",
+        "label": "Apenas Rodovias"
+      }
+    ],
+    "feedback": {
+      "correct": "Exato. Para relacionar ocupação humana e hidrografia, ative as camadas de cidades e rios.",
+      "incorrect": "Pense: que informação você precisa combinar para responder sobre cidades e rios?"
+    },
+    "hints": [
+      {
+        "type": "layer",
+        "layerId": "rios",
+        "label": "Ative a camada de Rios."
+      },
+      {
+        "type": "layer",
+        "layerId": "cidades",
+        "label": "Agora ative Cidades e compare a distribuição."
+      }
+    ]
+  },
+  "legend": [
+    {
+      "color": "#4a8a4a",
+      "label": "Biomas"
+    },
+    {
+      "color": "#e05a00",
+      "label": "Cidades"
+    },
+    {
+      "color": "#4a90a4",
+      "label": "Rios"
+    },
+    {
+      "color": "#8b5e2e",
+      "label": "Rodovias"
+    },
+    {
+      "color": "#c00000",
+      "label": "Áreas desmatadas"
+    }
+  ],
+  "teacher": {
+    "objective": "O aluno aprende a combinar camadas para responder perguntas geográficas.",
+    "observe": "Verifique se o aluno entende que cada camada é uma 'pergunta' sobre o espaço.",
+    "answer": "Cidades e Rios. Para entender a relação entre dois fenômenos, é preciso visualizá-los juntos.",
+    "mediation": "Pergunte: 'O que você descobriu ao ativar as duas camadas juntas?'",
+    "time": "50 minutos"
+  }
+}

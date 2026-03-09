@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 450"
+     role="img"
+     aria-label="Mapa mundial simplificado">
+  <defs>
+    <style>
+      .country { stroke: #c8bfa8; stroke-width: 0.8; cursor: pointer; transition: opacity 0.15s; }
+      .country:hover { opacity: 0.75; }
+      .ocean { fill: #b3d4e8; }
+      .region-label { font-family: monospace; font-size: 10px; fill: #1e3a5f; pointer-events: none; }
+    </style>
+  </defs>
+
+  <!-- Oceano -->
+  <rect width="800" height="450" class="ocean"/>
+
+  <!-- América do Norte (simplificada) -->
+  <path class="country" data-id="north-america" data-name="América do Norte"
+        fill="#d4c99a"
+        d="M 60 60 L 200 50 L 230 80 L 220 130 L 200 160 L 170 170
+           L 150 200 L 130 220 L 100 200 L 70 170 L 50 130 Z"/>
+
+  <!-- América Central / Caribe -->
+  <path class="country" data-id="central-america" data-name="América Central"
+        fill="#cfc08a"
+        d="M 150 200 L 200 195 L 210 220 L 190 235 L 165 230 Z"/>
+
+  <!-- América do Sul (com Brasil em destaque) -->
+  <path class="country" data-id="south-america" data-name="América do Sul"
+        fill="#d4c99a"
+        d="M 160 230 L 250 220 L 290 230 L 310 270 L 300 330 L 270 380
+           L 230 400 L 190 390 L 160 350 L 150 300 L 155 260 Z"/>
+  <text class="region-label" x="210" y="310">BRASIL</text>
+
+  <!-- Europa -->
+  <path class="country" data-id="europe" data-name="Europa"
+        fill="#d4c99a"
+        d="M 360 60 L 440 55 L 460 80 L 455 120 L 420 135 L 390 130
+           L 365 110 L 355 85 Z"/>
+  <text class="region-label" x="395" y="100">EUROPA</text>
+
+  <!-- África -->
+  <path class="country" data-id="africa" data-name="África"
+        fill="#d4c99a"
+        d="M 370 130 L 450 120 L 480 150 L 490 220 L 475 300 L 440 350
+           L 400 360 L 370 320 L 355 250 L 350 180 Z"/>
+  <text class="region-label" x="405" y="240">ÁFRICA</text>
+
+  <!-- Oriente Médio -->
+  <path class="country" data-id="middle-east" data-name="Oriente Médio"
+        fill="#c8b882"
+        d="M 460 100 L 530 90 L 550 120 L 540 160 L 500 170 L 470 155 L 455 130 Z"/>
+  <text class="region-label" x="487" y="138">OR. MÉDIO</text>
+
+  <!-- Rússia / Ásia Central -->
+  <path class="country" data-id="russia" data-name="Rússia"
+        fill="#d4c99a"
+        d="M 460 40 L 660 30 L 680 60 L 660 100 L 600 110 L 540 100
+           L 490 80 L 460 60 Z"/>
+  <text class="region-label" x="560" y="75">RÚSSIA</text>
+
+  <!-- Ásia (leste) -->
+  <path class="country" data-id="east-asia" data-name="Ásia Oriental"
+        fill="#d4c99a"
+        d="M 600 100 L 700 90 L 740 130 L 720 190 L 680 210 L 640 200
+           L 600 170 L 580 140 Z"/>
+  <text class="region-label" x="645" y="160">ÁSIA</text>
+
+  <!-- Índia -->
+  <path class="country" data-id="india" data-name="Índia / Sul da Ásia"
+        fill="#cfc08a"
+        d="M 550 150 L 610 145 L 630 190 L 610 240 L 580 260 L 555 230 L 545 190 Z"/>
+
+  <!-- Oceania -->
+  <path class="country" data-id="oceania" data-name="Oceania"
+        fill="#d4c99a"
+        d="M 660 270 L 750 265 L 760 320 L 720 340 L 670 320 L 655 295 Z"/>
+  <text class="region-label" x="695" y="310">OCEANIA</text>
+
+  <!-- Simbologia cartográfica -->
+  <g transform="translate(700, 400)">
+    <circle cx="0" cy="0" r="24" fill="rgba(242,237,227,0.9)" stroke="#c8bfa8" stroke-width="1"/>
+    <polygon points="0,-16 -4,-4 4,-4" fill="#c4a35a"/>
+    <text x="0" y="-17" text-anchor="middle" font-family="monospace" font-size="8" font-weight="bold" fill="#c4a35a">N</text>
+    <polygon points="0,16 -4,4 4,4" fill="#1e3a5f"/>
+  </g>
+
+  <!-- Graticule simplificado (linhas de lat/lon) -->
+  <g stroke="rgba(30,58,95,0.1)" stroke-width="0.5" fill="none">
+    <!-- Equador -->
+    <line x1="0" y1="225" x2="800" y2="225" stroke-dasharray="4,4"/>
+    <!-- Trópico de Capricórnio -->
+    <line x1="0" y1="315" x2="800" y2="315" stroke-dasharray="2,6"/>
+    <!-- Trópico de Câncer -->
+    <line x1="0" y1="135" x2="800" y2="135" stroke-dasharray="2,6"/>
+  </g>
+  <text x="5" y="222" font-family="monospace" font-size="8" fill="#1e3a5f" opacity="0.6">Equador</text>
+</svg>

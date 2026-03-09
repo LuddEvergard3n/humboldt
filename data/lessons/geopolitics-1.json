@@ -1,0 +1,71 @@
+{
+  "id": "geopolitics-1",
+  "moduleId": "geopolitics",
+  "title": "O que é território e por que ele importa",
+  "summary": "Estado, soberania, fronteira e controle territorial.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que os países brigam por terra?",
+    "text": "Em 2022, a Rússia invadiu a Ucrânia. Em 1982, Argentina e Reino Unido foram à guerra pelas Ilhas Malvinas. Conflitos por território são uma constante da história humana. Por trás de todos eles há a mesma questão: quem controla o território, controla os recursos, as rotas e as pessoas."
+  },
+  "guided": {
+    "title": "Os elementos do Estado moderno",
+    "text": "Um Estado moderno tem três elementos fundamentais:",
+    "points": [
+      "Território: espaço delimitado por fronteiras reconhecidas.",
+      "Povo: população que habita esse território e está sujeita às suas leis.",
+      "Soberania: poder de governar sem interferência externa dentro das fronteiras."
+    ]
+  },
+  "relations": {
+    "title": "Território, recursos e poder",
+    "text": "Território não é apenas espaço. É onde estão os recursos: petróleo, água, minerais, terra agricultável, acesso ao mar. Disputas territoriais são quase sempre disputas por recursos. A geopolítica estuda como o controle do espaço se converte em poder."
+  },
+  "caseStudy": {
+    "title": "Quem controla o Ártico?",
+    "text": "O derretimento do gelo polar abriu novas rotas marítimas e revelou reservas de petróleo e gás. Rússia, Canadá, EUA, Noruega e Dinamarca disputam a soberania sobre essas áreas. O que era gelo inabitável tornou-se disputado quando virou recurso."
+  },
+  "application": "Escolha um conflito territorial nos noticiários. Identifique: qual é o território disputado? Quais recursos ele contém? Quem são os atores em disputa?",
+  "activity": {
+    "question": "Uma empresa privada decide construir uma usina em território de outro país sem pedir permissão. Isso viola qual elemento do Estado moderno?",
+    "type": "single-choice",
+    "correct": "soberania",
+    "hintAfter": 2,
+    "options": [
+      {
+        "value": "territorio",
+        "label": "Território"
+      },
+      {
+        "value": "povo",
+        "label": "Povo"
+      },
+      {
+        "value": "soberania",
+        "label": "Soberania"
+      },
+      {
+        "value": "fronteira",
+        "label": "Fronteira"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. Soberania é o poder exclusivo de um Estado de tomar decisões dentro do seu território.",
+      "incorrect": "O território é o espaço. O povo são os habitantes. A fronteira delimita o espaço. Mas o que define quem manda aqui dentro?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Pense no conceito que define 'quem manda aqui dentro'. Território é o espaço; o poder de decidir é..."
+      }
+    ]
+  },
+  "legend": [],
+  "teacher": {
+    "objective": "O aluno distingue os três elementos do Estado moderno e compreende território como recurso de poder.",
+    "observe": "Alunos frequentemente confundem 'território' com 'soberania'. Verifique se a distinção ficou clara.",
+    "answer": "Soberania. É o poder exclusivo de governar dentro das fronteiras.",
+    "mediation": "Use o noticiário: apresente um conflito territorial real e peça que os alunos identifiquem os elementos em disputa.",
+    "time": "50 minutos"
+  }
+}

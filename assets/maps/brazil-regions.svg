@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 500 520"
+     role="img"
+     aria-label="Mapa das regiões do Brasil">
+  <defs>
+    <style>
+      .region { stroke: #f2ede3; stroke-width: 1.5; cursor: pointer; transition: opacity 0.15s; }
+      .region:hover { opacity: 0.75; }
+      .region-label { font-family: 'DM Mono', monospace; font-size: 11px; fill: #1e3a5f; pointer-events: none; }
+    </style>
+  </defs>
+
+  <!-- Oceano / fundo -->
+  <rect width="500" height="520" fill="#b3d4e8"/>
+
+  <!-- =====================================================
+       Regiões do Brasil — formas esquemáticas simplificadas
+       data-id deve corresponder ao valor "correct" nas lições
+       ===================================================== -->
+
+  <!-- Norte -->
+  <path class="region" data-id="norte" data-name="Norte"
+        d="M 60 60 L 320 60 L 340 80 L 300 120 L 260 130 L 240 160 L 200 170
+           L 180 150 L 140 160 L 100 140 L 70 100 Z"
+        fill="#4a8a4a"/>
+  <text class="region-label" x="185" y="105">NORTE</text>
+
+  <!-- Nordeste -->
+  <path class="region" data-id="nordeste" data-name="Nordeste"
+        d="M 260 130 L 300 120 L 340 80 L 400 90 L 430 130 L 420 180
+           L 380 220 L 340 230 L 310 210 L 290 190 L 270 170 L 240 160 Z"
+        fill="#e09820"/>
+  <text class="region-label" x="330" y="165">NORDESTE</text>
+
+  <!-- Centro-Oeste -->
+  <path class="region" data-id="centro-oeste" data-name="Centro-Oeste"
+        d="M 140 160 L 180 150 L 200 170 L 240 160 L 270 170 L 290 190
+           L 310 210 L 300 260 L 270 290 L 230 300 L 190 280 L 160 250
+           L 130 220 L 120 190 Z"
+        fill="#8b2e2e"/>
+  <text class="region-label" x="185" y="228">CENTRO-OESTE</text>
+
+  <!-- Sudeste -->
+  <path class="region" data-id="sudeste" data-name="Sudeste"
+        d="M 290 190 L 310 210 L 340 230 L 380 220 L 400 250 L 390 290
+           L 360 310 L 330 320 L 300 310 L 270 290 L 300 260 Z"
+        fill="#1e5f8a"/>
+  <text class="region-label" x="320" y="270">SUDESTE</text>
+
+  <!-- Sul -->
+  <path class="region" data-id="sul" data-name="Sul"
+        d="M 230 300 L 270 290 L 300 310 L 330 320 L 340 360 L 310 390
+           L 270 400 L 240 380 L 220 350 L 210 320 Z"
+        fill="#5a2e8b"/>
+  <text class="region-label" x="260" y="355">SUL</text>
+
+  <!-- Borda do país (contorno geral) -->
+  <path fill="none" stroke="#8b7d68" stroke-width="1" opacity="0.4"
+        d="M 60 60 L 320 60 L 340 80 L 400 90 L 430 130 L 420 180
+           L 380 220 L 400 250 L 390 290 L 360 310 L 340 360 L 310 390
+           L 270 400 L 240 380 L 220 350 L 210 320 L 230 300 L 190 280
+           L 160 250 L 130 220 L 120 190 L 140 160 L 100 140 L 70 100 Z"/>
+
+  <!-- Rosa dos ventos (canto superior direito) -->
+  <g transform="translate(440, 440)">
+    <circle cx="0" cy="0" r="28" fill="rgba(242,237,227,0.85)" stroke="#c8bfa8" stroke-width="1"/>
+    <polygon points="0,-20 -5,-5 5,-5" fill="#c4a35a"/>
+    <text x="0" y="-22" text-anchor="middle" font-family="monospace" font-size="9" font-weight="bold" fill="#c4a35a">N</text>
+    <polygon points="0,20 -5,5 5,5" fill="#1e3a5f"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#1e3a5f" stroke-width="1"/>
+  </g>
+
+  <!-- Escala gráfica -->
+  <g transform="translate(30, 480)">
+    <rect x="0" y="0" width="80" height="6" fill="#1e3a5f" opacity="0.7"/>
+    <rect x="40" y="0" width="40" height="6" fill="#f2ede3" opacity="0.7" stroke="#1e3a5f" stroke-width="0.5"/>
+    <text x="0"  y="18" font-family="monospace" font-size="9" fill="#1e3a5f">0</text>
+    <text x="72" y="18" font-family="monospace" font-size="9" fill="#1e3a5f">1000 km</text>
+  </g>
+</svg>

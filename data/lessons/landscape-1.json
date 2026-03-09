@@ -1,0 +1,86 @@
+{
+  "id": "landscape-1",
+  "moduleId": "landscape",
+  "title": "Paisagem natural e paisagem humanizada",
+  "summary": "Paisagem é processo histórico, não estado permanente.",
+  "activityType": "before-after",
+  "phenomenon": {
+    "title": "Esta floresta sempre foi floresta?",
+    "text": "Onde hoje é o bairro onde você mora, o que havia há 200 anos? Floresta? Cerrado? Mangue? A paisagem que você vê agora é o resultado de decisões humanas acumuladas — desmatamentos, construções, plantações, aterros. Toda paisagem tem uma história."
+  },
+  "guided": {
+    "title": "Dois tipos de paisagem",
+    "text": "A geografia distingue dois conceitos fundamentais:",
+    "points": [
+      "Paisagem natural: resultado de processos naturais sem interferência humana relevante.",
+      "Paisagem humanizada: resultado da ação humana sobre o espaço natural.",
+      "Na prática, quase toda paisagem atual é humanizada em algum grau.",
+      "A paisagem natural pura praticamente não existe mais no Brasil ou no mundo."
+    ]
+  },
+  "relations": {
+    "title": "A paisagem como registro histórico",
+    "text": "A paisagem é o arquivo da história. Uma favela no morro conta a história da exclusão urbana. Um canavial conta a história da colonização e da escravidão. Um condomínio fechado conta a história da segregação espacial. Ler a paisagem é ler o tempo acumulado no espaço."
+  },
+  "caseStudy": {
+    "title": "A Mata Atlântica de São Paulo",
+    "text": "São Paulo foi fundada em 1554 no meio da Mata Atlântica. Em 500 anos, a cidade de 22 milhões de habitantes tomou o lugar da floresta. Hoje, apenas fragmentos isolados do bioma sobrevivem nas bordas da metrópole — na Serra do Mar e em parques estaduais. A paisagem atual é o resultado de cinco séculos de decisões humanas."
+  },
+  "application": "Procure uma foto aérea antiga do lugar onde você mora. Compare com a imagem de satélite atual. O que mudou? O que era natural e virou construído?",
+  "activity": {
+    "type": "before-after",
+    "instruction": "Arraste o divisor para comparar a paisagem antes e depois da urbanização.",
+    "question": "Qual tipo de mudança transforma uma paisagem natural em paisagem humanizada?",
+    "correct": "acao-humana",
+    "hintAfter": 2,
+    "options": [
+      {
+        "value": "acao-humana",
+        "label": "Ação humana: construção, agricultura, desmatamento"
+      },
+      {
+        "value": "acao-natural",
+        "label": "Ação natural: erosão, vulcanismo, chuvas"
+      },
+      {
+        "value": "passagem",
+        "label": "Simplesmente a passagem do tempo"
+      }
+    ],
+    "compareConfig": {
+      "beforeLabel": "Floresta original",
+      "afterLabel": "Após urbanização"
+    },
+    "feedback": {
+      "correct": "Correto. A paisagem humanizada resulta da ação direta do ser humano sobre o espaço natural.",
+      "incorrect": "Processos naturais transformam paisagens — mas o termo 'humanizada' indica especificamente a ação humana."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A palavra 'humanizada' já contém a resposta: ela vem de 'humano'."
+      }
+    ]
+  },
+  "legend": [
+    {
+      "color": "#2d6e2d",
+      "label": "Vegetação nativa"
+    },
+    {
+      "color": "#8b8b8b",
+      "label": "Área construída"
+    },
+    {
+      "color": "#c4a35a",
+      "label": "Solo exposto / agricultura"
+    }
+  ],
+  "teacher": {
+    "objective": "O aluno distingue paisagem natural de humanizada e compreende a paisagem como processo histórico.",
+    "observe": "Verifique se o aluno percebe a paisagem como resultado acumulado de decisões, não como estado natural permanente.",
+    "answer": "Ação humana. Construção, agricultura e desmatamento transformam a paisagem natural em humanizada.",
+    "mediation": "Mostre fotos do mesmo lugar em diferentes épocas e pergunte: 'O que mudou? Por quê?'",
+    "time": "50 minutos"
+  }
+}

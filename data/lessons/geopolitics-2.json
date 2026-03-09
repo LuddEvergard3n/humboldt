@@ -1,0 +1,157 @@
+{
+  "id": "geopolitics-2",
+  "moduleId": "geopolitics",
+  "title": "Recursos naturais e conflito geopolítico",
+  "summary": "Petróleo, água, minerais e poder.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Tem petróleo = tem problema",
+    "text": "O Oriente Médio tem as maiores reservas de petróleo do mundo — e é a região com mais conflitos armados das últimas décadas. O petróleo move economias, aquece casas e impulsiona exércitos. Quem controla o petróleo, controla poder. Quem não controla, depende."
+  },
+  "guided": {
+    "title": "Três recursos que determinam conflitos",
+    "text": "Na geopolítica contemporânea, três recursos são fontes frequentes de tensão:",
+    "points": [
+      "Petróleo e gás: ainda a principal fonte de energia global. Oriente Médio, Rússia, Venezuela.",
+      "Água: escassez crescente. Rios que cruzam fronteiras — Nilo, Jordão, Tigre-Eufrates — são fontes de tensão.",
+      "Terras raras e minerais estratégicos: lítio, cobalto, urânio — no centro das disputas do século XXI."
+    ]
+  },
+  "relations": {
+    "title": "A maldição dos recursos",
+    "text": "Países ricos em recursos naturais frequentemente têm índices de desenvolvimento humano baixos — é o que economistas chamam de 'maldição dos recursos'. Angola, República do Congo, Venezuela: a riqueza natural não se converte automaticamente em bem-estar."
+  },
+  "caseStudy": {
+    "title": "O lítio e a geopolítica das baterias",
+    "text": "O chamado 'triângulo do lítio' — Bolívia, Argentina e Chile — concentra mais de 60% das reservas mundiais de lítio. Com a transição para veículos elétricos, o lítio tornou-se o 'petróleo do século XXI'. EUA, China e Europa disputam contratos de extração. Um deserto de sal ignorado transformou-se em espaço geopolítico disputado."
+  },
+  "application": "Pesquise de onde vem o petróleo consumido no Brasil. Agora pesquise de onde vem o cobre no seu celular. O que esses exemplos revelam sobre como sua vida cotidiana está conectada à geopolítica dos recursos?",
+  "activity": {
+    "mapId": "world-simple",
+    "type": "flow-map",
+    "instruction": "Observe os fluxos de petróleo no mapa. Identifique as principais rotas de exportação.",
+    "flows": [
+      {
+        "from": [
+          62,
+          42
+        ],
+        "to": [
+          28,
+          48
+        ],
+        "value": 80,
+        "label": "Oriente Médio para Europa",
+        "color": "#8b5e2e"
+      },
+      {
+        "from": [
+          62,
+          42
+        ],
+        "to": [
+          85,
+          40
+        ],
+        "value": 90,
+        "label": "Oriente Médio para Ásia",
+        "color": "#8b5e2e"
+      },
+      {
+        "from": [
+          55,
+          30
+        ],
+        "to": [
+          28,
+          48
+        ],
+        "value": 60,
+        "label": "Rússia para Europa",
+        "color": "#4a7aaa"
+      },
+      {
+        "from": [
+          20,
+          55
+        ],
+        "to": [
+          28,
+          48
+        ],
+        "value": 40,
+        "label": "África Ocidental para Europa",
+        "color": "#2d6e2d"
+      },
+      {
+        "from": [
+          30,
+          60
+        ],
+        "to": [
+          20,
+          40
+        ],
+        "value": 50,
+        "label": "Venezuela para América do Norte",
+        "color": "#c4a35a"
+      }
+    ],
+    "question": "Qual região é o maior exportador de petróleo para a Ásia segundo o mapa?",
+    "correct": "oriente-medio",
+    "hintAfter": 1,
+    "options": [
+      {
+        "value": "russia",
+        "label": "Rússia"
+      },
+      {
+        "value": "oriente-medio",
+        "label": "Oriente Médio"
+      },
+      {
+        "value": "africa",
+        "label": "África Ocidental"
+      },
+      {
+        "value": "venezuela",
+        "label": "Venezuela"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. O Oriente Médio é o maior exportador de petróleo para a Ásia, especialmente para China, Japão e Índia.",
+      "incorrect": "Observe no mapa a seta de maior volume direcionada para a região asiática."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Observe qual seta tem a maior largura e aponta para a região asiática."
+      }
+    ]
+  },
+  "legend": [
+    {
+      "color": "#8b5e2e",
+      "label": "Fluxo do Oriente Médio"
+    },
+    {
+      "color": "#4a7aaa",
+      "label": "Fluxo da Rússia"
+    },
+    {
+      "color": "#2d6e2d",
+      "label": "Fluxo da África Ocidental"
+    },
+    {
+      "color": "#c4a35a",
+      "label": "Fluxo da Venezuela"
+    }
+  ],
+  "teacher": {
+    "objective": "O aluno lê mapas de fluxo e compreende a conexão entre recursos naturais e relações geopolíticas.",
+    "observe": "Verifique se o aluno consegue interpretar a largura das setas como proporção de volume.",
+    "answer": "Oriente Médio — a maior seta aponta para a Ásia.",
+    "mediation": "Pergunte: 'Se o Oriente Médio cortasse o fornecimento amanhã, o que aconteceria?' Instigue o raciocínio consequencial.",
+    "time": "50 minutos"
+  }
+}

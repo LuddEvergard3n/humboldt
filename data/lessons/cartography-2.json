@@ -1,0 +1,88 @@
+{
+  "id": "cartography-2",
+  "moduleId": "cartography",
+  "title": "Escala: o tamanho que escolhemos para ver",
+  "summary": "Relação entre escala cartográfica e nível de detalhe.",
+  "activityType": "scale",
+  "phenomenon": {
+    "title": "Por que o mapa do mundo e o mapa do bairro são tão diferentes?",
+    "text": "Um mapa não é uma fotografia do mundo — é uma redução. A escala é a proporção entre a distância no mapa e a distância real. Essa escolha determina o que cabe no mapa e o que desaparece."
+  },
+  "guided": {
+    "title": "Como ler a escala",
+    "text": "A escala cartográfica aparece como fração (1:50.000) ou como barra gráfica.",
+    "points": [
+      "1:50.000 significa que 1 cm no mapa equivale a 50.000 cm (500 m) no terreno.",
+      "Escala grande = mais detalhe, menos área. Escala pequena = menos detalhe, mais área.",
+      "Mapa de cidade usa escala grande. Mapa-múndi usa escala pequena."
+    ]
+  },
+  "relations": {
+    "title": "Escala e propósito",
+    "text": "A escolha da escala nunca é neutra. Um mapa de conflito territorial mostra fronteiras em escala nacional. Um mapa de evacuação mostra ruas em escala local. Cada escala serve um propósito — e oculta outros."
+  },
+  "caseStudy": {
+    "title": "Os mapas da pandemia e a escala enganosa",
+    "text": "Durante a pandemia de COVID-19, mapas de casos por estado mostravam estados enormes com cores alarmantes — mesmo com densidade populacional baixa. A escala estadual ocultava a concentração real dos casos nas cidades. A escolha da escala muda completamente a leitura do dado."
+  },
+  "application": "Procure no Google Maps a localização da sua escola. Dê zoom máximo, depois zoom mínimo. O que aparece e desaparece? O que muda na sua percepção do espaço?",
+  "activity": {
+    "type": "scale",
+    "instruction": "Mova o controle de escala e observe como a descrição do que é visível muda.",
+    "question": "Em qual escala é possível identificar ruas individuais de uma cidade?",
+    "correct": "grande",
+    "hintAfter": 2,
+    "options": [
+      {
+        "value": "grande",
+        "label": "Escala grande (ex: 1:10.000)"
+      },
+      {
+        "value": "pequena",
+        "label": "Escala pequena (ex: 1:50.000.000)"
+      }
+    ],
+    "scaleConfig": {
+      "min": 1,
+      "max": 10,
+      "initial": 5,
+      "labelMin": "50.000.000",
+      "labelMax": "5.000",
+      "steps": [
+        {
+          "min": 1,
+          "max": 3,
+          "description": "Nesta escala você vê continentes e oceanos. Países aparecem pequenos. Cidades somem."
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "description": "Você consegue ver países com clareza. Estados aparecem. Regiões metropolitanas ficam visíveis."
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "description": "Você vê bairros, ruas, quarteirões. Um parque, uma escola, uma praça — tudo aparece."
+        }
+      ]
+    },
+    "feedback": {
+      "correct": "Exato. Escala grande, denominador pequeno, mais detalhe. Ruas só aparecem em escalas grandes.",
+      "incorrect": "Uma escala pequena cobre muito espaço e perde o detalhe local. Para ver ruas, precisamos de escala grande."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Se o mapa mostra o mundo inteiro numa folha A4, há espaço para mostrar ruas individuais?"
+      }
+    ]
+  },
+  "legend": [],
+  "teacher": {
+    "objective": "O aluno compreende a relação inversa entre escala e detalhe.",
+    "observe": "Muitos alunos confundem 'escala grande' com 'mostra muito'. Verifique se entenderam a relação.",
+    "answer": "Escala grande (1:10.000). Quanto menor o denominador, maior o detalhe.",
+    "mediation": "Mostre a escala gráfica de dois mapas diferentes e pergunte qual mostra mais detalhe.",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,218 @@
+/* ==========================================================
+   mobile.css — Responsividade e mobile-first
+   Humboldt / Atlas Interativo de Geografia
+   ========================================================== */
+
+/* --- Tablet: <= 1024px ---------------------------------- */
+@media (max-width: 1024px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+  }
+
+  .view-lesson {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .lesson-main {
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .lesson-sidebar {
+    position: static;
+    max-height: none;
+    background: var(--color-bg-panel);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .module-header {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Mobile: <= 768px ----------------------------------- */
+@media (max-width: 768px) {
+  :root {
+    --size-4xl: 2.25rem;
+    --size-3xl: 1.75rem;
+    --size-2xl: 1.5rem;
+  }
+
+  /* Header mobile */
+  .header-inner {
+    padding: var(--space-3) var(--space-4);
+    flex-wrap: wrap;
+  }
+
+  .nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-inv);
+    z-index: 200;
+  }
+
+  #nav-links {
+    display: none;
+    position: fixed;
+    inset: 0;
+    top: 56px;
+    background: var(--color-primary);
+    flex-direction: column;
+    align-items: stretch;
+    padding: var(--space-6);
+    gap: var(--space-2);
+    z-index: 150;
+    overflow-y: auto;
+  }
+
+  #nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a,
+  .nav-dropdown-btn,
+  .btn-teacher {
+    font-size: var(--size-base);
+    padding: var(--space-4);
+    border-radius: var(--radius);
+    display: flex;
+    width: 100%;
+  }
+
+  .nav-dropdown {
+    position: static;
+    background: rgba(255,255,255,0.08);
+    box-shadow: none;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: var(--radius);
+    padding: var(--space-2);
+    margin-top: var(--space-2);
+  }
+
+  .has-dropdown:hover .nav-dropdown,
+  .has-dropdown:focus-within .nav-dropdown {
+    display: none;
+  }
+
+  .has-dropdown.open .nav-dropdown {
+    display: block;
+  }
+
+  /* Layout mobile */
+  .view-home {
+    padding: var(--space-8) var(--space-4);
+  }
+
+  .home-hero {
+    padding-bottom: var(--space-8);
+    margin-bottom: var(--space-8);
+  }
+
+  .modules-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .view-module {
+    padding: var(--space-8) var(--space-4);
+  }
+
+  .view-lesson {
+    display: block;
+  }
+
+  .lesson-main {
+    padding: var(--space-6) var(--space-4);
+  }
+
+  .lesson-sidebar {
+    padding: var(--space-4);
+  }
+
+  /* Mapa: full width no mobile */
+  .map-container {
+    border-radius: var(--radius);
+  }
+
+  /* Comparação antes/depois */
+  .compare-container {
+    border-radius: var(--radius);
+  }
+
+  /* Atividades */
+  .activity-area {
+    padding: var(--space-4);
+  }
+
+  .phenomenon-box {
+    padding: var(--space-4) var(--space-5);
+  }
+
+  /* A11y panel reposicionado */
+  .a11y-panel {
+    bottom: var(--space-4);
+    right: var(--space-4);
+  }
+
+  /* Breadcrumb mais compacto */
+  .breadcrumb {
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+
+  /* Legenda compacta */
+  .map-legend {
+    font-size: var(--size-xs);
+  }
+}
+
+/* --- Mobile pequeno: <= 480px -------------------------- */
+@media (max-width: 480px) {
+  :root {
+    --size-4xl: 1.875rem;
+    --size-3xl: 1.5rem;
+  }
+
+  .lesson-card {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .btn-lg {
+    padding: var(--space-3) var(--space-6);
+    font-size: var(--size-sm);
+  }
+
+  .teacher-box dl {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Print -------------------------------------------- */
+@media print {
+  #site-header, #site-footer, .a11y-panel,
+  .btn, .layer-controls, .nav-toggle {
+    display: none !important;
+  }
+
+  body { background: white; }
+
+  .map-container {
+    box-shadow: none;
+    border: 1px solid #999;
+  }
+
+  .view-lesson {
+    display: block;
+  }
+}
+
+/* --- Reduced motion --------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+  }
+}

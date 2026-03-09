@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Humboldt — Atlas Interativo de Leitura do Espaço e das Relações Geográficas" />
+  <meta name="theme-color" content="#1e3a5f" />
+
+  <title>Humboldt — Atlas Interativo</title>
+
+  <!-- Fonts: academic, legível, cartográfico -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho principal -->
+  <header id="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#home" class="logo" aria-label="Humboldt — início">
+        <span class="logo-symbol">&#9632;</span>
+        <span class="logo-name">Humboldt</span>
+      </a>
+      <nav id="main-nav" role="navigation" aria-label="Navegação principal">
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+          <span class="sr-only">Menu</span>
+          <span class="hamburger"></span>
+        </button>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#home" data-nav="home">Início</a></li>
+          <li class="has-dropdown">
+            <button class="nav-dropdown-btn" aria-expanded="false">Módulos</button>
+            <ul class="nav-dropdown">
+              <li><a href="#module/cartography">Cartografia Viva</a></li>
+              <li><a href="#module/landscape">Paisagem e Transformação</a></li>
+              <li><a href="#module/brazil">Brasil Espacial</a></li>
+              <li><a href="#module/population">População e Migração</a></li>
+              <li><a href="#module/urbanization">Cidade, Campo e Trabalho</a></li>
+              <li><a href="#module/economy">Economia e Globalização</a></li>
+              <li><a href="#module/geopolitics">Geopolítica</a></li>
+            </ul>
+          </li>
+          <li><a href="#scale/local" data-nav="scale">Por Escala</a></li>
+          <li><a href="#phenomenon/water" data-nav="phenomenon">Por Fenômeno</a></li>
+          <li>
+            <button id="teacher-mode-btn" class="btn-teacher" aria-pressed="false">
+              Modo Professor
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal: o router renderiza aqui -->
+  <main id="main-content" role="main" tabindex="-1">
+
+    <!-- Tela de carregamento -->
+    <div id="loading-screen" class="loading-screen" aria-live="polite" aria-label="Carregando">
+      <div class="loading-inner">
+        <span class="loading-symbol">&#9632;</span>
+        <p>Carregando atlas...</p>
+      </div>
+    </div>
+
+    <!-- Container das views renderizadas pelo router -->
+    <div id="view-container"></div>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer id="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-brand">Humboldt &mdash; Atlas Interativo de Geografia</p>
+      <p class="footer-ecosystem">
+        Parte do ecossistema educacional:
+        <a href="https://luddevergard3n.github.io/Herodoto/" target="_blank" rel="noopener">Heródoto</a>
+        &middot;
+        <a href="https://luddevergard3n.github.io/euclides/" target="_blank" rel="noopener">Euclides</a>
+        &middot;
+        <a href="https://luddevergard3n.github.io/quintiliano/" target="_blank" rel="noopener">Quintiliano</a>
+        &middot;
+        <a href="https://luddevergard3n.github.io/johnson-english/" target="_blank" rel="noopener">Johnson English</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Painel de acessibilidade -->
+  <div id="a11y-panel" class="a11y-panel" role="complementary" aria-label="Opções de acessibilidade">
+    <button id="a11y-toggle" class="a11y-toggle-btn" aria-label="Acessibilidade" aria-expanded="false">A</button>
+    <div class="a11y-controls" id="a11y-controls" hidden>
+      <div class="a11y-controls-header">
+        <span class="a11y-controls-title">Acessibilidade</span>
+        <button class="a11y-close-btn" id="a11y-close" aria-label="Fechar painel">&times;</button>
+      </div>
+      <label>
+        Tamanho do texto
+        <input type="range" id="font-size-control" min="14" max="22" value="16" step="1" />
+      </label>
+      <label class="toggle-label">
+        <input type="checkbox" id="high-contrast-control" />
+        Alto contraste
+      </label>
+    </div>
+  </div>
+
+  <!-- Scripts: ES2022 modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

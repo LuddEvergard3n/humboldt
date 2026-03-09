@@ -1,0 +1,80 @@
+{
+  "id": "cartography-1",
+  "moduleId": "cartography",
+  "title": "Orientação: como nos localizamos no espaço",
+  "summary": "Rosa dos ventos, pontos cardeais e colaterais.",
+  "activityType": "compass",
+  "phenomenon": {
+    "title": "Você sabe onde está o Norte agora?",
+    "text": "Antes dos satélites, navegadores cruzavam oceanos usando apenas o Sol, as estrelas e uma bússola. Eles sabiam exatamente onde estava o Norte — e isso determinava vida ou morte. Hoje, toda leitura de mapa começa pela mesma pergunta: onde está o Norte?"
+  },
+  "guided": {
+    "title": "Como ler a orientação",
+    "text": "Todo mapa tem uma convenção de orientação. A maioria é orientado com o Norte para cima — mas não todos.",
+    "points": [
+      "Os quatro pontos cardeais são: Norte (N), Sul (S), Leste (L) e Oeste (O).",
+      "Entre eles existem os pontos colaterais: Nordeste, Noroeste, Sudeste e Sudoeste.",
+      "A bússola aponta para o Norte Magnético — ligeiramente diferente do Norte Geográfico."
+    ]
+  },
+  "relations": {
+    "title": "Orientação e poder",
+    "text": "Durante séculos, mapas europeus colocavam a Europa no centro e no topo. Isso não é neutro: a orientação de um mapa expressa um ponto de vista. Mapas do Hemisfério Sul invertidos mostram como essa escolha é uma convenção, não uma lei da natureza."
+  },
+  "caseStudy": {
+    "title": "O mapa que colocou o Sul no topo",
+    "text": "Em 1979, o australiano Stuart McArthur publicou um mapa com o Sul no topo. O mapa provocou reações: parecia errado. Mas tecnicamente não havia nenhum erro. Ele revelava que o Norte no topo é uma escolha cultural, não geográfica."
+  },
+  "application": "Abra o Google Maps e verifique: para que lado fica o Norte no seu bairro? Como isso afeta a maneira como você imagina a cidade onde mora?",
+  "activity": {
+    "question": "Em um mapa convencional orientado com o Norte para cima, se você está caminhando em direção à parte inferior do mapa, em qual direção você está indo?",
+    "type": "single-choice",
+    "hintAfter": 2,
+    "correct": "sul",
+    "options": [
+      {
+        "value": "norte",
+        "label": "Norte"
+      },
+      {
+        "value": "sul",
+        "label": "Sul"
+      },
+      {
+        "value": "leste",
+        "label": "Leste"
+      },
+      {
+        "value": "oeste",
+        "label": "Oeste"
+      }
+    ],
+    "feedback": {
+      "correct": "Exato. Na convenção padrão, o topo do mapa aponta para o Norte — logo, a parte inferior indica o Sul.",
+      "incorrect": "Pense na rosa dos ventos. Se o Norte está no topo, o que está na parte de baixo?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Observe o N na rosa dos ventos. Se ele está no topo, o S está no oposto — na parte inferior."
+      }
+    ]
+  },
+  "legend": [
+    {
+      "color": "#c4a35a",
+      "label": "Norte — ponto vermelho da seta"
+    },
+    {
+      "color": "#1e3a5f",
+      "label": "Sul, Leste, Oeste — pontos azuis"
+    }
+  ],
+  "teacher": {
+    "objective": "O aluno compreende que orientação é uma convenção e sabe identificar os pontos cardeais e colaterais.",
+    "observe": "Verifique se o aluno entende que 'Norte no topo' é uma escolha, não um fato natural.",
+    "answer": "Sul. O Norte está no topo; portanto, o Sul está na parte inferior.",
+    "mediation": "Pergunte: 'Por que colocamos o Norte sempre no topo?' Leve o aluno a perceber que é uma convenção histórica europeia.",
+    "time": "50 minutos"
+  }
+}

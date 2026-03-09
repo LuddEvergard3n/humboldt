@@ -1,0 +1,33 @@
+# Humboldt — .gitignore
+
+# Dependências Node (apenas para testes)
+node_modules/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Variáveis de ambiente (se houver no futuro)
+.env
+.env.local
+
+# Build (não há build neste projeto, mas previne acidentes)
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/

@@ -1,0 +1,136 @@
+{
+  "id": "population-1",
+  "moduleId": "population",
+  "title": "Por que as pessoas migram",
+  "summary": "Fatores de expulsão, atração e os grandes fluxos migratórios.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Em 2023, havia 117 milhões de pessoas deslocadas no mundo",
+    "text": "Mais do que em qualquer outro momento da história registrada. Guerras, crises climáticas, perseguições políticas e pobreza extrema movem populações inteiras. A migração não é anomalia — é resposta humana ao desequilíbrio entre onde as pessoas estão e onde podem ter vida digna."
+  },
+  "guided": {
+    "title": "Fatores que determinam a migração",
+    "text": "Geógrafos identificam dois tipos de fatores migratórios:",
+    "points": [
+      "Fatores de expulsão (push): guerra, seca, desemprego, perseguição, fome.",
+      "Fatores de atração (pull): empregos, segurança, serviços, liberdade, clima.",
+      "A migração é quase sempre uma resposta a uma combinação dos dois.",
+      "Migrante: quem se desloca voluntariamente. Refugiado: quem é forçado a fugir."
+    ]
+  },
+  "relations": {
+    "title": "Migração, desigualdade e globalização",
+    "text": "Os grandes fluxos migratórios contemporâneos seguem um padrão: de países com menor IDH para países com maior IDH, de regiões em conflito para regiões estáveis, de zonas afetadas pela crise climática para zonas com mais recursos. A migração é o mapa da desigualdade global em movimento."
+  },
+  "caseStudy": {
+    "title": "A seca e a migração nordestina",
+    "text": "Entre 1930 e 1980, o Nordeste perdeu milhões de habitantes para o Sudeste — especialmente São Paulo. A seca, o latifúndio e a falta de oportunidades eram os fatores de expulsão; a industrialização paulistana era o fator de atração. Hoje, com investimentos e universidades no Nordeste, esse fluxo se reduziu — e em alguns casos se inverteu."
+  },
+  "application": "Alguém da sua família migrou em alguma geração? De onde veio? Por quê? Identifique os fatores de expulsão e atração dessa história.",
+  "activity": {
+    "type": "flow-map",
+    "instruction": "Observe os fluxos migratórios no mapa. Identifique padrões de origem e destino.",
+    "flows": [
+      {
+        "from": [
+          55,
+          30
+        ],
+        "to": [
+          28,
+          48
+        ],
+        "value": 70,
+        "label": "Síria/Oriente Médio para Europa",
+        "color": "#c4883a"
+      },
+      {
+        "from": [
+          20,
+          55
+        ],
+        "to": [
+          28,
+          45
+        ],
+        "value": 50,
+        "label": "África para Europa",
+        "color": "#c4883a"
+      },
+      {
+        "from": [
+          35,
+          60
+        ],
+        "to": [
+          20,
+          40
+        ],
+        "value": 80,
+        "label": "América Central para EUA",
+        "color": "#4a7aaa"
+      },
+      {
+        "from": [
+          35,
+          65
+        ],
+        "to": [
+          35,
+          60
+        ],
+        "value": 40,
+        "label": "Venezuela para Brasil/Argentina",
+        "color": "#2d6e2d"
+      }
+    ],
+    "question": "Com base no mapa de fluxos, de qual região partem os maiores movimentos migratórios em direção à Europa?",
+    "correct": "africa-oriente",
+    "hintAfter": 1,
+    "options": [
+      {
+        "value": "africa-oriente",
+        "label": "África e Oriente Médio"
+      },
+      {
+        "value": "america-latina",
+        "label": "América Latina"
+      },
+      {
+        "value": "asia-pacifico",
+        "label": "Ásia-Pacífico"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. Os maiores fluxos migratórios para a Europa partem da África subsaariana e do Oriente Médio.",
+      "incorrect": "Observe no mapa as setas que apontam para a Europa e identifique de onde elas partem."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Observe as setas que têm a Europa como destino. De quais continentes elas partem?"
+      }
+    ]
+  },
+  "legend": [
+    {
+      "color": "#c4883a",
+      "label": "Fluxos para a Europa"
+    },
+    {
+      "color": "#4a7aaa",
+      "label": "Fluxos para a América do Norte"
+    },
+    {
+      "color": "#2d6e2d",
+      "label": "Fluxos internos na América do Sul"
+    }
+  ],
+  "teacher": {
+    "objective": "O aluno compreende os fatores de expulsão e atração e lê mapas de fluxos migratórios.",
+    "observe": "Verifique se o aluno consegue ir além de 'as pessoas migram porque querem' e identificar causas estruturais.",
+    "answer": "África e Oriente Médio — as duas setas de maior volume em direção à Europa.",
+    "mediation": "Pergunte: 'Por que alguém deixa seu país? O que é necessário para que isso aconteça?' Conduza para os fatores push e pull.",
+    "time": "50 minutos"
+  }
+}

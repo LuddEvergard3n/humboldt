@@ -1,0 +1,154 @@
+{
+  "id": "brazil-2",
+  "moduleId": "brazil",
+  "title": "Biomas: os seis ecossistemas do Brasil",
+  "summary": "Distribuição, características e ameaças dos biomas brasileiros.",
+  "activityType": "layer-toggle",
+  "phenomenon": {
+    "title": "O Brasil tem seis biomas — e está perdendo todos eles",
+    "text": "Nenhum país do mundo tem a biodiversidade do Brasil. Seis biomas completamente distintos — da Amazônia ao Pampa — coexistem em um único território. E cada um deles está sob pressão: desmatamento, queimadas, expansão agrícola e mudança climática."
+  },
+  "guided": {
+    "title": "Os seis biomas brasileiros",
+    "text": "Cada bioma tem flora, fauna, clima e regime hídrico próprios:",
+    "points": [
+      "Amazônia: a maior floresta tropical do mundo, cerca de 49% do território.",
+      "Cerrado: savana tropical, 'berço das águas' — nasce aqui a maioria dos grandes rios.",
+      "Mata Atlântica: bioma mais destruído — resta menos de 12% da cobertura original.",
+      "Caatinga: única no mundo, exclusivamente brasileira, adaptada à semiaridez.",
+      "Pampa: campos sulinos, pecuária, ameaçado pela sojicultura.",
+      "Pantanal: maior área úmida continental do mundo, extremamente vulnerável ao fogo."
+    ]
+  },
+  "relations": {
+    "title": "Bioma, clima e ocupação humana",
+    "text": "A destruição da Amazônia não é apenas ambiental — é hídrica e climática. Os chamados 'rios voadores' amazônicos carregam umidade para o Sul e Sudeste. O desmatamento altera chuvas, afeta a agricultura e pode causar 'savanização' da Amazônia. Bioma e clima não são temas separados."
+  },
+  "caseStudy": {
+    "title": "O Cerrado e a crise hídrica de São Paulo",
+    "text": "O Cerrado é chamado de 'berço das águas' porque é onde nascem os principais rios brasileiros. Em 2014-2015, São Paulo enfrentou a pior crise hídrica em décadas. Parte da explicação estava no desmatamento do Cerrado: sem floresta, o solo absorve menos água, os lençóis freáticos não se recarregam e os rios minguam."
+  },
+  "application": "Em qual bioma você mora? Há alguma vegetação nativa próxima? O que aconteceu com ela nos últimos 50 anos?",
+  "layers": [
+    {
+      "id": "bioma-amazonia",
+      "label": "Amazônia",
+      "color": "#2d6e2d",
+      "visible": true
+    },
+    {
+      "id": "bioma-cerrado",
+      "label": "Cerrado",
+      "color": "#c4a000",
+      "visible": true
+    },
+    {
+      "id": "bioma-atlantica",
+      "label": "Mata Atlântica",
+      "color": "#1a8a3a",
+      "visible": true
+    },
+    {
+      "id": "bioma-caatinga",
+      "label": "Caatinga",
+      "color": "#c4883a",
+      "visible": true
+    },
+    {
+      "id": "bioma-pampa",
+      "label": "Pampa",
+      "color": "#7ab040",
+      "visible": true
+    },
+    {
+      "id": "bioma-pantanal",
+      "label": "Pantanal",
+      "color": "#4a90a4",
+      "visible": true
+    },
+    {
+      "id": "desmatamento",
+      "label": "Desmatamento",
+      "color": "#c00000",
+      "visible": false
+    }
+  ],
+  "activity": {
+    "mapId": "brazil-biomes",
+    "type": "layer-toggle",
+    "instruction": "Ative a camada de desmatamento e observe em quais biomas a pressão é maior.",
+    "question": "Qual bioma brasileiro já perdeu mais de 85% da sua cobertura original?",
+    "correct": "mata-atlantica",
+    "hintAfter": 1,
+    "options": [
+      {
+        "value": "amazonia",
+        "label": "Amazônia"
+      },
+      {
+        "value": "mata-atlantica",
+        "label": "Mata Atlântica"
+      },
+      {
+        "value": "cerrado",
+        "label": "Cerrado"
+      },
+      {
+        "value": "caatinga",
+        "label": "Caatinga"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. A Mata Atlântica cobria originalmente cerca de 15% do território. Hoje resta menos de 12% da cobertura original — o bioma mais fragmentado do país.",
+      "incorrect": "Pense onde estão as maiores cidades e a colonização mais antiga do Brasil. Qual bioma foi ocupado primeiro?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O bioma que cobre o litoral dos estados mais populosos foi o primeiro a ser desmatado."
+      },
+      {
+        "type": "layer",
+        "layerId": "bioma-atlantica",
+        "label": "Observe a Mata Atlântica e compare com a área de desmatamento."
+      }
+    ]
+  },
+  "legend": [
+    {
+      "color": "#2d6e2d",
+      "label": "Amazônia"
+    },
+    {
+      "color": "#c4a000",
+      "label": "Cerrado"
+    },
+    {
+      "color": "#1a8a3a",
+      "label": "Mata Atlântica"
+    },
+    {
+      "color": "#c4883a",
+      "label": "Caatinga"
+    },
+    {
+      "color": "#7ab040",
+      "label": "Pampa"
+    },
+    {
+      "color": "#4a90a4",
+      "label": "Pantanal"
+    },
+    {
+      "color": "#c00000",
+      "label": "Desmatamento"
+    }
+  ],
+  "teacher": {
+    "objective": "O aluno identifica os seis biomas e compreende a relação entre desmatamento e consequências hidrológicas.",
+    "observe": "Verifique se o aluno conecta desmatamento com consequências além do próprio bioma.",
+    "answer": "Mata Atlântica. Menos de 12% da cobertura original permanece.",
+    "mediation": "Pergunte: 'Onde você mora fica em qual bioma? O que aconteceu com esse bioma?'",
+    "time": "50 minutos"
+  }
+}

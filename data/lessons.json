@@ -1,0 +1,596 @@
+{
+  "lessons": [
+    {
+      "id": "cartography-1",
+      "moduleId": "cartography",
+      "title": "Orientação: como nos localizamos no espaço",
+      "summary": "Rosa dos ventos, pontos cardeais e colaterais.",
+      "activityType": "compass",
+      "phenomenon": {
+        "title": "Você sabe onde está o Norte agora?",
+        "text": "Antes dos satélites, navegadores cruzavam oceanos usando apenas o Sol, as estrelas e uma bússola. Eles sabiam exatamente onde estava o Norte — e isso determinava vida ou morte. Hoje, toda leitura de mapa começa pela mesma pergunta: onde está o Norte?"
+      },
+      "guided": {
+        "title": "Como ler a orientação",
+        "text": "Todo mapa tem uma convenção de orientação. A maioria é orientado com o Norte para cima — mas não todos.",
+        "points": [
+          "Os quatro pontos cardeais são: Norte (N), Sul (S), Leste (L) e Oeste (O).",
+          "Entre eles existem os pontos colaterais: Nordeste, Noroeste, Sudeste e Sudoeste.",
+          "A bússola aponta para o Norte Magnético — ligeiramente diferente do Norte Geográfico."
+        ]
+      },
+      "relations": {
+        "title": "Orientação e poder",
+        "text": "Durante séculos, mapas europeus colocavam a Europa no centro e no topo. Isso não é neutro: a orientação de um mapa expressa um ponto de vista. Mapas do Hemisfério Sul invertidos mostram como essa escolha é uma convenção, não uma lei da natureza."
+      },
+      "caseStudy": {
+        "title": "O mapa que colocou o Sul no topo",
+        "text": "Em 1979, o australiano Stuart McArthur publicou um mapa com o Sul no topo. O mapa provocou reações: parecia errado. Mas tecnicamente não havia nenhum erro. Ele revelava que o Norte no topo é uma escolha cultural, não geográfica."
+      },
+      "application": "Abra o Google Maps e verifique: para que lado fica o Norte no seu bairro? Como isso afeta a maneira como você imagina a cidade onde mora?",
+      "activity": {
+        "question": "Em um mapa convencional orientado com o Norte para cima, se você está caminhando em direção à parte inferior do mapa, em qual direção você está indo?",
+        "type": "single-choice",
+        "hintAfter": 2,
+        "correct": "sul",
+        "options": [
+          { "value": "norte", "label": "Norte" },
+          { "value": "sul",   "label": "Sul" },
+          { "value": "leste", "label": "Leste" },
+          { "value": "oeste", "label": "Oeste" }
+        ],
+        "feedback": {
+          "correct": "Exato. Na convenção padrão, o topo do mapa aponta para o Norte — logo, a parte inferior indica o Sul.",
+          "incorrect": "Pense na rosa dos ventos. Se o Norte está no topo, o que está na parte de baixo?"
+        },
+        "hints": [
+          { "type": "text", "content": "Observe o N na rosa dos ventos. Se ele está no topo, o S está no oposto — na parte inferior." }
+        ]
+      },
+      "legend": [
+        { "color": "#c4a35a", "label": "Norte — ponto vermelho da seta" },
+        { "color": "#1e3a5f", "label": "Sul, Leste, Oeste — pontos azuis" }
+      ],
+      "teacher": {
+        "objective": "O aluno compreende que orientação é uma convenção e sabe identificar os pontos cardeais e colaterais.",
+        "observe": "Verifique se o aluno entende que 'Norte no topo' é uma escolha, não um fato natural.",
+        "answer": "Sul. O Norte está no topo; portanto, o Sul está na parte inferior.",
+        "mediation": "Pergunte: 'Por que colocamos o Norte sempre no topo?' Leve o aluno a perceber que é uma convenção histórica europeia.",
+        "time": "50 minutos"
+      }
+    },
+    {
+      "id": "cartography-2",
+      "moduleId": "cartography",
+      "title": "Escala: o tamanho que escolhemos para ver",
+      "summary": "Relação entre escala cartográfica e nível de detalhe.",
+      "activityType": "scale",
+      "phenomenon": {
+        "title": "Por que o mapa do mundo e o mapa do bairro são tão diferentes?",
+        "text": "Um mapa não é uma fotografia do mundo — é uma redução. A escala é a proporção entre a distância no mapa e a distância real. Essa escolha determina o que cabe no mapa e o que desaparece."
+      },
+      "guided": {
+        "title": "Como ler a escala",
+        "text": "A escala cartográfica aparece como fração (1:50.000) ou como barra gráfica.",
+        "points": [
+          "1:50.000 significa que 1 cm no mapa equivale a 50.000 cm (500 m) no terreno.",
+          "Escala grande = mais detalhe, menos área. Escala pequena = menos detalhe, mais área.",
+          "Mapa de cidade usa escala grande. Mapa-múndi usa escala pequena."
+        ]
+      },
+      "relations": {
+        "title": "Escala e propósito",
+        "text": "A escolha da escala nunca é neutra. Um mapa de conflito territorial mostra fronteiras em escala nacional. Um mapa de evacuação mostra ruas em escala local. Cada escala serve um propósito — e oculta outros."
+      },
+      "caseStudy": {
+        "title": "Os mapas da pandemia e a escala enganosa",
+        "text": "Durante a pandemia de COVID-19, mapas de casos por estado mostravam estados enormes com cores alarmantes — mesmo com densidade populacional baixa. A escala estadual ocultava a concentração real dos casos nas cidades. A escolha da escala muda completamente a leitura do dado."
+      },
+      "application": "Procure no Google Maps a localização da sua escola. Dê zoom máximo, depois zoom mínimo. O que aparece e desaparece? O que muda na sua percepção do espaço?",
+      "activity": {
+        "type": "scale",
+        "instruction": "Mova o controle de escala e observe como a descrição do que é visível muda.",
+        "question": "Em qual escala é possível identificar ruas individuais de uma cidade?",
+        "correct": "grande",
+        "hintAfter": 2,
+        "options": [
+          { "value": "grande",  "label": "Escala grande (ex: 1:10.000)" },
+          { "value": "pequena", "label": "Escala pequena (ex: 1:50.000.000)" }
+        ],
+        "scaleConfig": {
+          "min": 1, "max": 10, "initial": 5,
+          "labelMin": "50.000.000", "labelMax": "5.000",
+          "steps": [
+            { "min": 1, "max": 3, "description": "Nesta escala você vê continentes e oceanos. Países aparecem pequenos. Cidades somem." },
+            { "min": 4, "max": 6, "description": "Você consegue ver países com clareza. Estados aparecem. Regiões metropolitanas ficam visíveis." },
+            { "min": 7, "max": 10, "description": "Você vê bairros, ruas, quarteirões. Um parque, uma escola, uma praça — tudo aparece." }
+          ]
+        },
+        "feedback": {
+          "correct": "Exato. Escala grande, denominador pequeno, mais detalhe. Ruas só aparecem em escalas grandes.",
+          "incorrect": "Uma escala pequena cobre muito espaço e perde o detalhe local. Para ver ruas, precisamos de escala grande."
+        },
+        "hints": [
+          { "type": "text", "content": "Se o mapa mostra o mundo inteiro numa folha A4, há espaço para mostrar ruas individuais?" }
+        ]
+      },
+      "legend": [],
+      "teacher": {
+        "objective": "O aluno compreende a relação inversa entre escala e detalhe.",
+        "observe": "Muitos alunos confundem 'escala grande' com 'mostra muito'. Verifique se entenderam a relação.",
+        "answer": "Escala grande (1:10.000). Quanto menor o denominador, maior o detalhe.",
+        "mediation": "Mostre a escala gráfica de dois mapas diferentes e pergunte qual mostra mais detalhe.",
+        "time": "50 minutos"
+      }
+    },
+    {
+      "id": "cartography-3",
+      "moduleId": "cartography",
+      "title": "Legenda: o código do mapa",
+      "summary": "Como ler e interpretar a legenda cartográfica.",
+      "activityType": "layer-toggle",
+      "phenomenon": {
+        "title": "Um mapa sem legenda é ruído visual",
+        "text": "Cores, traços, símbolos e padrões em um mapa não são decoração. São um código. Sem saber decodificá-lo, o mapa não comunica nada. A legenda é o dicionário desse código."
+      },
+      "guided": {
+        "title": "O que uma legenda contém",
+        "text": "A legenda explica cada elemento visual do mapa: o que cada cor representa, o que cada símbolo significa, o que cada tipo de linha indica.",
+        "points": [
+          "Cores: geralmente indicam categorias (biomas, países, tipos de solo).",
+          "Símbolos: pontos representam cidades; estrelas representam capitais.",
+          "Linhas: retas (limites), pontilhadas (rotas), grossas (rios principais).",
+          "Padrões: hachuras indicam áreas de risco, relevo ou uso especial."
+        ]
+      },
+      "relations": {
+        "title": "A legenda como escolha política",
+        "text": "O que entra na legenda é uma decisão. Um mapa de biomas que usa cores próximas para o Cerrado e a Mata Atlântica pode tornar invisível o quanto a Mata Atlântica foi destruída. Cores e símbolos são escolhas que afetam o que vemos — e o que ignoramos."
+      },
+      "caseStudy": {
+        "title": "O mapa do desmatamento",
+        "text": "O INPE monitora o desmatamento na Amazônia por satélite. Em 2019, quando os dados mostraram aumento no desmatamento, o governo federal questionou publicamente os números. O debate não era sobre o território — era sobre o método e a definição do que seria 'desmatamento' na legenda."
+      },
+      "application": "Pegue qualquer mapa. Identifique: qual é a legenda? O que cada símbolo significa? Há algum elemento sem explicação?",
+      "layers": [
+        { "id": "biomas",      "label": "Biomas",          "color": "#4a8a4a", "visible": true  },
+        { "id": "cidades",     "label": "Cidades",         "color": "#e05a00", "visible": false },
+        { "id": "rodovias",    "label": "Rodovias",        "color": "#8b5e2e", "visible": false },
+        { "id": "rios",        "label": "Rios principais", "color": "#4a90a4", "visible": false },
+        { "id": "desmatamento","label": "Desmatamento",    "color": "#c00000", "visible": false }
+      ],
+      "activity": {
+        "mapId": "brazil-layers",
+        "type": "layer-toggle",
+        "instruction": "Ative e desative as camadas do mapa. Observe como a mesma área parece diferente dependendo do que está sendo mostrado.",
+        "question": "Para entender onde estão as maiores cidades em relação aos rios, quais camadas você deve ativar?",
+        "correct": "cidades-rios",
+        "hintAfter": 1,
+        "options": [
+          { "value": "cidades-rios",        "label": "Cidades e Rios" },
+          { "value": "biomas-desmatamento", "label": "Biomas e Desmatamento" },
+          { "value": "apenas-rodovias",     "label": "Apenas Rodovias" }
+        ],
+        "feedback": {
+          "correct": "Exato. Para relacionar ocupação humana e hidrografia, ative as camadas de cidades e rios.",
+          "incorrect": "Pense: que informação você precisa combinar para responder sobre cidades e rios?"
+        },
+        "hints": [
+          { "type": "layer", "layerId": "rios",    "label": "Ative a camada de Rios." },
+          { "type": "layer", "layerId": "cidades", "label": "Agora ative Cidades e compare a distribuição." }
+        ]
+      },
+      "legend": [
+        { "color": "#4a8a4a", "label": "Biomas" },
+        { "color": "#e05a00", "label": "Cidades" },
+        { "color": "#4a90a4", "label": "Rios" },
+        { "color": "#8b5e2e", "label": "Rodovias" },
+        { "color": "#c00000", "label": "Áreas desmatadas" }
+      ],
+      "teacher": {
+        "objective": "O aluno aprende a combinar camadas para responder perguntas geográficas.",
+        "observe": "Verifique se o aluno entende que cada camada é uma 'pergunta' sobre o espaço.",
+        "answer": "Cidades e Rios. Para entender a relação entre dois fenômenos, é preciso visualizá-los juntos.",
+        "mediation": "Pergunte: 'O que você descobriu ao ativar as duas camadas juntas?'",
+        "time": "50 minutos"
+      }
+    },
+    {
+      "id": "brazil-1",
+      "moduleId": "brazil",
+      "title": "As cinco regiões do Brasil",
+      "summary": "Divisão regional, características e diferenças.",
+      "activityType": "map-click",
+      "phenomenon": {
+        "title": "Por que o Brasil é dividido em regiões?",
+        "text": "O Brasil tem dimensões continentais — 8,5 milhões de km². Nenhum outro país tem essa diversidade interna de clima, relevo, cultura e economia em território único. A divisão em regiões é uma ferramenta para entender esse espaço — mas é uma convenção, não uma barreira física."
+      },
+      "guided": {
+        "title": "As cinco macro-regiões",
+        "text": "O IBGE divide o Brasil em cinco regiões com características distintas:",
+        "points": [
+          "Norte: maior região, menos habitada, Amazônia, menor densidade demográfica.",
+          "Nordeste: maior diversidade interna, semiárido no interior, forte herança cultural.",
+          "Centro-Oeste: expansão do agronegócio, Cerrado, Pantanal, Brasília.",
+          "Sudeste: maior concentração de riqueza e população — São Paulo, Rio, MG, ES.",
+          "Sul: colonização europeia, clima subtropical, menor extensão territorial."
+        ]
+      },
+      "relations": {
+        "title": "Região não é destino",
+        "text": "A divisão regional organiza a leitura do espaço — mas não define o futuro. O Nordeste tem hoje polos tecnológicos e universidades federais. O Norte tem a maior biodiversidade do planeta. As regiões mudam porque o espaço é processo, não fotografia."
+      },
+      "caseStudy": {
+        "title": "Nordeste: do estigma ao polo de crescimento",
+        "text": "Entre 2003 e 2014, o Nordeste registrou as maiores taxas de crescimento econômico do Brasil — acima da média nacional. A criação de universidades federais, polos de tecnologia em Recife e Campina Grande e investimentos em infraestrutura transformaram o que muitos manuais descreviam apenas como 'região problema'."
+      },
+      "application": "Você mora em qual região do Brasil? Quais características da sua região você consegue perceber no cotidiano — no clima, na comida, na paisagem, nas atividades econômicas ao seu redor?",
+      "activity": {
+        "mapId": "brazil-regions",
+        "instruction": "Clique na região do mapa que corresponde ao Centro-Oeste.",
+        "type": "map-click",
+        "correct": "centro-oeste",
+        "hintAfter": 2,
+        "feedback": {
+          "correct": "Correto. O Centro-Oeste ocupa o interior do Brasil, com MT, MS, GO e DF.",
+          "incorrect": "Observe a posição central do país. O Centro-Oeste é a região que inclui Brasília."
+        },
+        "hints": [
+          { "type": "text", "content": "Brasília — a capital federal — fica no Centro-Oeste." },
+          { "type": "focus", "regionId": "centro-oeste", "label": "A região fica no centro geográfico do país." }
+        ]
+      },
+      "legend": [
+        { "color": "#4a8a4a", "label": "Norte" },
+        { "color": "#e09820", "label": "Nordeste" },
+        { "color": "#8b2e2e", "label": "Centro-Oeste" },
+        { "color": "#1e5f8a", "label": "Sudeste" },
+        { "color": "#5a2e8b", "label": "Sul" }
+      ],
+      "teacher": {
+        "objective": "O aluno identifica as cinco regiões e suas características principais no mapa.",
+        "observe": "Verifique se o aluno distingue Norte e Nordeste — é a confusão mais comum.",
+        "answer": "O Centro-Oeste inclui MT, MS, GO e DF.",
+        "mediation": "Projete o mapa e peça para alunos apontarem cada região antes da atividade.",
+        "time": "50 minutos"
+      }
+    },
+    {
+      "id": "brazil-2",
+      "moduleId": "brazil",
+      "title": "Biomas: os seis ecossistemas do Brasil",
+      "summary": "Distribuição, características e ameaças dos biomas brasileiros.",
+      "activityType": "layer-toggle",
+      "phenomenon": {
+        "title": "O Brasil tem seis biomas — e está perdendo todos eles",
+        "text": "Nenhum país do mundo tem a biodiversidade do Brasil. Seis biomas completamente distintos — da Amazônia ao Pampa — coexistem em um único território. E cada um deles está sob pressão: desmatamento, queimadas, expansão agrícola e mudança climática."
+      },
+      "guided": {
+        "title": "Os seis biomas brasileiros",
+        "text": "Cada bioma tem flora, fauna, clima e regime hídrico próprios:",
+        "points": [
+          "Amazônia: a maior floresta tropical do mundo, cerca de 49% do território.",
+          "Cerrado: savana tropical, 'berço das águas' — nasce aqui a maioria dos grandes rios.",
+          "Mata Atlântica: bioma mais destruído — resta menos de 12% da cobertura original.",
+          "Caatinga: única no mundo, exclusivamente brasileira, adaptada à semiaridez.",
+          "Pampa: campos sulinos, pecuária, ameaçado pela sojicultura.",
+          "Pantanal: maior área úmida continental do mundo, extremamente vulnerável ao fogo."
+        ]
+      },
+      "relations": {
+        "title": "Bioma, clima e ocupação humana",
+        "text": "A destruição da Amazônia não é apenas ambiental — é hídrica e climática. Os chamados 'rios voadores' amazônicos carregam umidade para o Sul e Sudeste. O desmatamento altera chuvas, afeta a agricultura e pode causar 'savanização' da Amazônia. Bioma e clima não são temas separados."
+      },
+      "caseStudy": {
+        "title": "O Cerrado e a crise hídrica de São Paulo",
+        "text": "O Cerrado é chamado de 'berço das águas' porque é onde nascem os principais rios brasileiros. Em 2014-2015, São Paulo enfrentou a pior crise hídrica em décadas. Parte da explicação estava no desmatamento do Cerrado: sem floresta, o solo absorve menos água, os lençóis freáticos não se recarregam e os rios minguam."
+      },
+      "application": "Em qual bioma você mora? Há alguma vegetação nativa próxima? O que aconteceu com ela nos últimos 50 anos?",
+      "layers": [
+        { "id": "bioma-amazonia",   "label": "Amazônia",      "color": "#2d6e2d", "visible": true  },
+        { "id": "bioma-cerrado",    "label": "Cerrado",       "color": "#c4a000", "visible": true  },
+        { "id": "bioma-atlantica",  "label": "Mata Atlântica","color": "#1a8a3a", "visible": true  },
+        { "id": "bioma-caatinga",   "label": "Caatinga",      "color": "#c4883a", "visible": true  },
+        { "id": "bioma-pampa",      "label": "Pampa",         "color": "#7ab040", "visible": true  },
+        { "id": "bioma-pantanal",   "label": "Pantanal",      "color": "#4a90a4", "visible": true  },
+        { "id": "desmatamento",     "label": "Desmatamento",  "color": "#c00000", "visible": false }
+      ],
+      "activity": {
+        "mapId": "brazil-biomes",
+        "type": "layer-toggle",
+        "instruction": "Ative a camada de desmatamento e observe em quais biomas a pressão é maior.",
+        "question": "Qual bioma brasileiro já perdeu mais de 85% da sua cobertura original?",
+        "correct": "mata-atlantica",
+        "hintAfter": 1,
+        "options": [
+          { "value": "amazonia",      "label": "Amazônia" },
+          { "value": "mata-atlantica","label": "Mata Atlântica" },
+          { "value": "cerrado",       "label": "Cerrado" },
+          { "value": "caatinga",      "label": "Caatinga" }
+        ],
+        "feedback": {
+          "correct": "Correto. A Mata Atlântica cobria originalmente cerca de 15% do território. Hoje resta menos de 12% da cobertura original — o bioma mais fragmentado do país.",
+          "incorrect": "Pense onde estão as maiores cidades e a colonização mais antiga do Brasil. Qual bioma foi ocupado primeiro?"
+        },
+        "hints": [
+          { "type": "text", "content": "O bioma que cobre o litoral dos estados mais populosos foi o primeiro a ser desmatado." },
+          { "type": "layer", "layerId": "bioma-atlantica", "label": "Observe a Mata Atlântica e compare com a área de desmatamento." }
+        ]
+      },
+      "legend": [
+        { "color": "#2d6e2d", "label": "Amazônia" },
+        { "color": "#c4a000", "label": "Cerrado" },
+        { "color": "#1a8a3a", "label": "Mata Atlântica" },
+        { "color": "#c4883a", "label": "Caatinga" },
+        { "color": "#7ab040", "label": "Pampa" },
+        { "color": "#4a90a4", "label": "Pantanal" },
+        { "color": "#c00000", "label": "Desmatamento" }
+      ],
+      "teacher": {
+        "objective": "O aluno identifica os seis biomas e compreende a relação entre desmatamento e consequências hidrológicas.",
+        "observe": "Verifique se o aluno conecta desmatamento com consequências além do próprio bioma.",
+        "answer": "Mata Atlântica. Menos de 12% da cobertura original permanece.",
+        "mediation": "Pergunte: 'Onde você mora fica em qual bioma? O que aconteceu com esse bioma?'",
+        "time": "50 minutos"
+      }
+    },
+    {
+      "id": "geopolitics-1",
+      "moduleId": "geopolitics",
+      "title": "O que é território e por que ele importa",
+      "summary": "Estado, soberania, fronteira e controle territorial.",
+      "activityType": "single-choice",
+      "phenomenon": {
+        "title": "Por que os países brigam por terra?",
+        "text": "Em 2022, a Rússia invadiu a Ucrânia. Em 1982, Argentina e Reino Unido foram à guerra pelas Ilhas Malvinas. Conflitos por território são uma constante da história humana. Por trás de todos eles há a mesma questão: quem controla o território, controla os recursos, as rotas e as pessoas."
+      },
+      "guided": {
+        "title": "Os elementos do Estado moderno",
+        "text": "Um Estado moderno tem três elementos fundamentais:",
+        "points": [
+          "Território: espaço delimitado por fronteiras reconhecidas.",
+          "Povo: população que habita esse território e está sujeita às suas leis.",
+          "Soberania: poder de governar sem interferência externa dentro das fronteiras."
+        ]
+      },
+      "relations": {
+        "title": "Território, recursos e poder",
+        "text": "Território não é apenas espaço. É onde estão os recursos: petróleo, água, minerais, terra agricultável, acesso ao mar. Disputas territoriais são quase sempre disputas por recursos. A geopolítica estuda como o controle do espaço se converte em poder."
+      },
+      "caseStudy": {
+        "title": "Quem controla o Ártico?",
+        "text": "O derretimento do gelo polar abriu novas rotas marítimas e revelou reservas de petróleo e gás. Rússia, Canadá, EUA, Noruega e Dinamarca disputam a soberania sobre essas áreas. O que era gelo inabitável tornou-se disputado quando virou recurso."
+      },
+      "application": "Escolha um conflito territorial nos noticiários. Identifique: qual é o território disputado? Quais recursos ele contém? Quem são os atores em disputa?",
+      "activity": {
+        "question": "Uma empresa privada decide construir uma usina em território de outro país sem pedir permissão. Isso viola qual elemento do Estado moderno?",
+        "type": "single-choice",
+        "correct": "soberania",
+        "hintAfter": 2,
+        "options": [
+          { "value": "territorio", "label": "Território" },
+          { "value": "povo",       "label": "Povo" },
+          { "value": "soberania",  "label": "Soberania" },
+          { "value": "fronteira",  "label": "Fronteira" }
+        ],
+        "feedback": {
+          "correct": "Correto. Soberania é o poder exclusivo de um Estado de tomar decisões dentro do seu território.",
+          "incorrect": "O território é o espaço. O povo são os habitantes. A fronteira delimita o espaço. Mas o que define quem manda aqui dentro?"
+        },
+        "hints": [
+          { "type": "text", "content": "Pense no conceito que define 'quem manda aqui dentro'. Território é o espaço; o poder de decidir é..." }
+        ]
+      },
+      "legend": [],
+      "teacher": {
+        "objective": "O aluno distingue os três elementos do Estado moderno e compreende território como recurso de poder.",
+        "observe": "Alunos frequentemente confundem 'território' com 'soberania'. Verifique se a distinção ficou clara.",
+        "answer": "Soberania. É o poder exclusivo de governar dentro das fronteiras.",
+        "mediation": "Use o noticiário: apresente um conflito territorial real e peça que os alunos identifiquem os elementos em disputa.",
+        "time": "50 minutos"
+      }
+    },
+    {
+      "id": "geopolitics-2",
+      "moduleId": "geopolitics",
+      "title": "Recursos naturais e conflito geopolítico",
+      "summary": "Petróleo, água, minerais e poder.",
+      "activityType": "flow-map",
+      "phenomenon": {
+        "title": "Tem petróleo = tem problema",
+        "text": "O Oriente Médio tem as maiores reservas de petróleo do mundo — e é a região com mais conflitos armados das últimas décadas. O petróleo move economias, aquece casas e impulsiona exércitos. Quem controla o petróleo, controla poder. Quem não controla, depende."
+      },
+      "guided": {
+        "title": "Três recursos que determinam conflitos",
+        "text": "Na geopolítica contemporânea, três recursos são fontes frequentes de tensão:",
+        "points": [
+          "Petróleo e gás: ainda a principal fonte de energia global. Oriente Médio, Rússia, Venezuela.",
+          "Água: escassez crescente. Rios que cruzam fronteiras — Nilo, Jordão, Tigre-Eufrates — são fontes de tensão.",
+          "Terras raras e minerais estratégicos: lítio, cobalto, urânio — no centro das disputas do século XXI."
+        ]
+      },
+      "relations": {
+        "title": "A maldição dos recursos",
+        "text": "Países ricos em recursos naturais frequentemente têm índices de desenvolvimento humano baixos — é o que economistas chamam de 'maldição dos recursos'. Angola, República do Congo, Venezuela: a riqueza natural não se converte automaticamente em bem-estar."
+      },
+      "caseStudy": {
+        "title": "O lítio e a geopolítica das baterias",
+        "text": "O chamado 'triângulo do lítio' — Bolívia, Argentina e Chile — concentra mais de 60% das reservas mundiais de lítio. Com a transição para veículos elétricos, o lítio tornou-se o 'petróleo do século XXI'. EUA, China e Europa disputam contratos de extração. Um deserto de sal ignorado transformou-se em espaço geopolítico disputado."
+      },
+      "application": "Pesquise de onde vem o petróleo consumido no Brasil. Agora pesquise de onde vem o cobre no seu celular. O que esses exemplos revelam sobre como sua vida cotidiana está conectada à geopolítica dos recursos?",
+      "activity": {
+        "mapId": "world-simple",
+        "type": "flow-map",
+        "instruction": "Observe os fluxos de petróleo no mapa. Identifique as principais rotas de exportação.",
+        "flows": [
+          { "from": [62, 42], "to": [28, 48], "value": 80, "label": "Oriente Médio para Europa",     "color": "#8b5e2e" },
+          { "from": [62, 42], "to": [85, 40], "value": 90, "label": "Oriente Médio para Ásia",       "color": "#8b5e2e" },
+          { "from": [55, 30], "to": [28, 48], "value": 60, "label": "Rússia para Europa",             "color": "#4a7aaa" },
+          { "from": [20, 55], "to": [28, 48], "value": 40, "label": "África Ocidental para Europa",   "color": "#2d6e2d" },
+          { "from": [30, 60], "to": [20, 40], "value": 50, "label": "Venezuela para América do Norte","color": "#c4a35a" }
+        ],
+        "question": "Qual região é o maior exportador de petróleo para a Ásia segundo o mapa?",
+        "correct": "oriente-medio",
+        "hintAfter": 1,
+        "options": [
+          { "value": "russia",        "label": "Rússia" },
+          { "value": "oriente-medio", "label": "Oriente Médio" },
+          { "value": "africa",        "label": "África Ocidental" },
+          { "value": "venezuela",     "label": "Venezuela" }
+        ],
+        "feedback": {
+          "correct": "Correto. O Oriente Médio é o maior exportador de petróleo para a Ásia, especialmente para China, Japão e Índia.",
+          "incorrect": "Observe no mapa a seta de maior volume direcionada para a região asiática."
+        },
+        "hints": [
+          { "type": "text", "content": "Observe qual seta tem a maior largura e aponta para a região asiática." }
+        ]
+      },
+      "legend": [
+        { "color": "#8b5e2e", "label": "Fluxo do Oriente Médio" },
+        { "color": "#4a7aaa", "label": "Fluxo da Rússia" },
+        { "color": "#2d6e2d", "label": "Fluxo da África Ocidental" },
+        { "color": "#c4a35a", "label": "Fluxo da Venezuela" }
+      ],
+      "teacher": {
+        "objective": "O aluno lê mapas de fluxo e compreende a conexão entre recursos naturais e relações geopolíticas.",
+        "observe": "Verifique se o aluno consegue interpretar a largura das setas como proporção de volume.",
+        "answer": "Oriente Médio — a maior seta aponta para a Ásia.",
+        "mediation": "Pergunte: 'Se o Oriente Médio cortasse o fornecimento amanhã, o que aconteceria?' Instigue o raciocínio consequencial.",
+        "time": "50 minutos"
+      }
+    },
+    {
+      "id": "landscape-1",
+      "moduleId": "landscape",
+      "title": "Paisagem natural e paisagem humanizada",
+      "summary": "Paisagem é processo histórico, não estado permanente.",
+      "activityType": "before-after",
+      "phenomenon": {
+        "title": "Esta floresta sempre foi floresta?",
+        "text": "Onde hoje é o bairro onde você mora, o que havia há 200 anos? Floresta? Cerrado? Mangue? A paisagem que você vê agora é o resultado de decisões humanas acumuladas — desmatamentos, construções, plantações, aterros. Toda paisagem tem uma história."
+      },
+      "guided": {
+        "title": "Dois tipos de paisagem",
+        "text": "A geografia distingue dois conceitos fundamentais:",
+        "points": [
+          "Paisagem natural: resultado de processos naturais sem interferência humana relevante.",
+          "Paisagem humanizada: resultado da ação humana sobre o espaço natural.",
+          "Na prática, quase toda paisagem atual é humanizada em algum grau.",
+          "A paisagem natural pura praticamente não existe mais no Brasil ou no mundo."
+        ]
+      },
+      "relations": {
+        "title": "A paisagem como registro histórico",
+        "text": "A paisagem é o arquivo da história. Uma favela no morro conta a história da exclusão urbana. Um canavial conta a história da colonização e da escravidão. Um condomínio fechado conta a história da segregação espacial. Ler a paisagem é ler o tempo acumulado no espaço."
+      },
+      "caseStudy": {
+        "title": "A Mata Atlântica de São Paulo",
+        "text": "São Paulo foi fundada em 1554 no meio da Mata Atlântica. Em 500 anos, a cidade de 22 milhões de habitantes tomou o lugar da floresta. Hoje, apenas fragmentos isolados do bioma sobrevivem nas bordas da metrópole — na Serra do Mar e em parques estaduais. A paisagem atual é o resultado de cinco séculos de decisões humanas."
+      },
+      "application": "Procure uma foto aérea antiga do lugar onde você mora. Compare com a imagem de satélite atual. O que mudou? O que era natural e virou construído?",
+      "activity": {
+        "type": "before-after",
+        "instruction": "Arraste o divisor para comparar a paisagem antes e depois da urbanização.",
+        "question": "Qual tipo de mudança transforma uma paisagem natural em paisagem humanizada?",
+        "correct": "acao-humana",
+        "hintAfter": 2,
+        "options": [
+          { "value": "acao-humana", "label": "Ação humana: construção, agricultura, desmatamento" },
+          { "value": "acao-natural","label": "Ação natural: erosão, vulcanismo, chuvas" },
+          { "value": "passagem",    "label": "Simplesmente a passagem do tempo" }
+        ],
+        "compareConfig": {
+          "beforeLabel": "Floresta original",
+          "afterLabel": "Após urbanização"
+        },
+        "feedback": {
+          "correct": "Correto. A paisagem humanizada resulta da ação direta do ser humano sobre o espaço natural.",
+          "incorrect": "Processos naturais transformam paisagens — mas o termo 'humanizada' indica especificamente a ação humana."
+        },
+        "hints": [
+          { "type": "text", "content": "A palavra 'humanizada' já contém a resposta: ela vem de 'humano'." }
+        ]
+      },
+      "legend": [
+        { "color": "#2d6e2d", "label": "Vegetação nativa" },
+        { "color": "#8b8b8b", "label": "Área construída" },
+        { "color": "#c4a35a", "label": "Solo exposto / agricultura" }
+      ],
+      "teacher": {
+        "objective": "O aluno distingue paisagem natural de humanizada e compreende a paisagem como processo histórico.",
+        "observe": "Verifique se o aluno percebe a paisagem como resultado acumulado de decisões, não como estado natural permanente.",
+        "answer": "Ação humana. Construção, agricultura e desmatamento transformam a paisagem natural em humanizada.",
+        "mediation": "Mostre fotos do mesmo lugar em diferentes épocas e pergunte: 'O que mudou? Por quê?'",
+        "time": "50 minutos"
+      }
+    },
+    {
+      "id": "population-1",
+      "moduleId": "population",
+      "title": "Por que as pessoas migram",
+      "summary": "Fatores de expulsão, atração e os grandes fluxos migratórios.",
+      "activityType": "flow-map",
+      "phenomenon": {
+        "title": "Em 2023, havia 117 milhões de pessoas deslocadas no mundo",
+        "text": "Mais do que em qualquer outro momento da história registrada. Guerras, crises climáticas, perseguições políticas e pobreza extrema movem populações inteiras. A migração não é anomalia — é resposta humana ao desequilíbrio entre onde as pessoas estão e onde podem ter vida digna."
+      },
+      "guided": {
+        "title": "Fatores que determinam a migração",
+        "text": "Geógrafos identificam dois tipos de fatores migratórios:",
+        "points": [
+          "Fatores de expulsão (push): guerra, seca, desemprego, perseguição, fome.",
+          "Fatores de atração (pull): empregos, segurança, serviços, liberdade, clima.",
+          "A migração é quase sempre uma resposta a uma combinação dos dois.",
+          "Migrante: quem se desloca voluntariamente. Refugiado: quem é forçado a fugir."
+        ]
+      },
+      "relations": {
+        "title": "Migração, desigualdade e globalização",
+        "text": "Os grandes fluxos migratórios contemporâneos seguem um padrão: de países com menor IDH para países com maior IDH, de regiões em conflito para regiões estáveis, de zonas afetadas pela crise climática para zonas com mais recursos. A migração é o mapa da desigualdade global em movimento."
+      },
+      "caseStudy": {
+        "title": "A seca e a migração nordestina",
+        "text": "Entre 1930 e 1980, o Nordeste perdeu milhões de habitantes para o Sudeste — especialmente São Paulo. A seca, o latifúndio e a falta de oportunidades eram os fatores de expulsão; a industrialização paulistana era o fator de atração. Hoje, com investimentos e universidades no Nordeste, esse fluxo se reduziu — e em alguns casos se inverteu."
+      },
+      "application": "Alguém da sua família migrou em alguma geração? De onde veio? Por quê? Identifique os fatores de expulsão e atração dessa história.",
+      "activity": {
+        "type": "flow-map",
+        "instruction": "Observe os fluxos migratórios no mapa. Identifique padrões de origem e destino.",
+        "flows": [
+          { "from": [55, 30], "to": [28, 48], "value": 70, "label": "Síria/Oriente Médio para Europa", "color": "#c4883a" },
+          { "from": [20, 55], "to": [28, 45], "value": 50, "label": "África para Europa",              "color": "#c4883a" },
+          { "from": [35, 60], "to": [20, 40], "value": 80, "label": "América Central para EUA",        "color": "#4a7aaa" },
+          { "from": [35, 65], "to": [35, 60], "value": 40, "label": "Venezuela para Brasil/Argentina",  "color": "#2d6e2d" }
+        ],
+        "question": "Com base no mapa de fluxos, de qual região partem os maiores movimentos migratórios em direção à Europa?",
+        "correct": "africa-oriente",
+        "hintAfter": 1,
+        "options": [
+          { "value": "africa-oriente", "label": "África e Oriente Médio" },
+          { "value": "america-latina", "label": "América Latina" },
+          { "value": "asia-pacifico",  "label": "Ásia-Pacífico" }
+        ],
+        "feedback": {
+          "correct": "Correto. Os maiores fluxos migratórios para a Europa partem da África subsaariana e do Oriente Médio.",
+          "incorrect": "Observe no mapa as setas que apontam para a Europa e identifique de onde elas partem."
+        },
+        "hints": [
+          { "type": "text", "content": "Observe as setas que têm a Europa como destino. De quais continentes elas partem?" }
+        ]
+      },
+      "legend": [
+        { "color": "#c4883a", "label": "Fluxos para a Europa" },
+        { "color": "#4a7aaa", "label": "Fluxos para a América do Norte" },
+        { "color": "#2d6e2d", "label": "Fluxos internos na América do Sul" }
+      ],
+      "teacher": {
+        "objective": "O aluno compreende os fatores de expulsão e atração e lê mapas de fluxos migratórios.",
+        "observe": "Verifique se o aluno consegue ir além de 'as pessoas migram porque querem' e identificar causas estruturais.",
+        "answer": "África e Oriente Médio — as duas setas de maior volume em direção à Europa.",
+        "mediation": "Pergunte: 'Por que alguém deixa seu país? O que é necessário para que isso aconteça?' Conduza para os fatores push e pull.",
+        "time": "50 minutos"
+      }
+    }
+  ]
+}

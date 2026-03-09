@@ -1,0 +1,82 @@
+{
+  "id": "brazil-1",
+  "moduleId": "brazil",
+  "title": "As cinco regiões do Brasil",
+  "summary": "Divisão regional, características e diferenças.",
+  "activityType": "map-click",
+  "phenomenon": {
+    "title": "Por que o Brasil é dividido em regiões?",
+    "text": "O Brasil tem dimensões continentais — 8,5 milhões de km². Nenhum outro país tem essa diversidade interna de clima, relevo, cultura e economia em território único. A divisão em regiões é uma ferramenta para entender esse espaço — mas é uma convenção, não uma barreira física."
+  },
+  "guided": {
+    "title": "As cinco macro-regiões",
+    "text": "O IBGE divide o Brasil em cinco regiões com características distintas:",
+    "points": [
+      "Norte: maior região, menos habitada, Amazônia, menor densidade demográfica.",
+      "Nordeste: maior diversidade interna, semiárido no interior, forte herança cultural.",
+      "Centro-Oeste: expansão do agronegócio, Cerrado, Pantanal, Brasília.",
+      "Sudeste: maior concentração de riqueza e população — São Paulo, Rio, MG, ES.",
+      "Sul: colonização europeia, clima subtropical, menor extensão territorial."
+    ]
+  },
+  "relations": {
+    "title": "Região não é destino",
+    "text": "A divisão regional organiza a leitura do espaço — mas não define o futuro. O Nordeste tem hoje polos tecnológicos e universidades federais. O Norte tem a maior biodiversidade do planeta. As regiões mudam porque o espaço é processo, não fotografia."
+  },
+  "caseStudy": {
+    "title": "Nordeste: do estigma ao polo de crescimento",
+    "text": "Entre 2003 e 2014, o Nordeste registrou as maiores taxas de crescimento econômico do Brasil — acima da média nacional. A criação de universidades federais, polos de tecnologia em Recife e Campina Grande e investimentos em infraestrutura transformaram o que muitos manuais descreviam apenas como 'região problema'."
+  },
+  "application": "Você mora em qual região do Brasil? Quais características da sua região você consegue perceber no cotidiano — no clima, na comida, na paisagem, nas atividades econômicas ao seu redor?",
+  "activity": {
+    "mapId": "brazil-regions",
+    "instruction": "Clique na região do mapa que corresponde ao Centro-Oeste.",
+    "type": "map-click",
+    "correct": "centro-oeste",
+    "hintAfter": 2,
+    "feedback": {
+      "correct": "Correto. O Centro-Oeste ocupa o interior do Brasil, com MT, MS, GO e DF.",
+      "incorrect": "Observe a posição central do país. O Centro-Oeste é a região que inclui Brasília."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Brasília — a capital federal — fica no Centro-Oeste."
+      },
+      {
+        "type": "focus",
+        "regionId": "centro-oeste",
+        "label": "A região fica no centro geográfico do país."
+      }
+    ]
+  },
+  "legend": [
+    {
+      "color": "#4a8a4a",
+      "label": "Norte"
+    },
+    {
+      "color": "#e09820",
+      "label": "Nordeste"
+    },
+    {
+      "color": "#8b2e2e",
+      "label": "Centro-Oeste"
+    },
+    {
+      "color": "#1e5f8a",
+      "label": "Sudeste"
+    },
+    {
+      "color": "#5a2e8b",
+      "label": "Sul"
+    }
+  ],
+  "teacher": {
+    "objective": "O aluno identifica as cinco regiões e suas características principais no mapa.",
+    "observe": "Verifique se o aluno distingue Norte e Nordeste — é a confusão mais comum.",
+    "answer": "O Centro-Oeste inclui MT, MS, GO e DF.",
+    "mediation": "Projete o mapa e peça para alunos apontarem cada região antes da atividade.",
+    "time": "50 minutos"
+  }
+}

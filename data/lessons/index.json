@@ -1,0 +1,56 @@
+{
+  "cartography-1": {
+    "moduleId": "cartography",
+    "title": "Orientação: como nos localizamos no espaço",
+    "summary": "Rosa dos ventos, pontos cardeais e colaterais.",
+    "activityType": "compass"
+  },
+  "cartography-2": {
+    "moduleId": "cartography",
+    "title": "Escala: o tamanho que escolhemos para ver",
+    "summary": "Relação entre escala cartográfica e nível de detalhe.",
+    "activityType": "scale"
+  },
+  "cartography-3": {
+    "moduleId": "cartography",
+    "title": "Legenda: o código do mapa",
+    "summary": "Como ler e interpretar a legenda cartográfica.",
+    "activityType": "layer-toggle"
+  },
+  "brazil-1": {
+    "moduleId": "brazil",
+    "title": "As cinco regiões do Brasil",
+    "summary": "Divisão regional, características e diferenças.",
+    "activityType": "map-click"
+  },
+  "brazil-2": {
+    "moduleId": "brazil",
+    "title": "Biomas: os seis ecossistemas do Brasil",
+    "summary": "Distribuição, características e ameaças dos biomas brasileiros.",
+    "activityType": "layer-toggle"
+  },
+  "geopolitics-1": {
+    "moduleId": "geopolitics",
+    "title": "O que é território e por que ele importa",
+    "summary": "Estado, soberania, fronteira e controle territorial.",
+    "activityType": "single-choice"
+  },
+  "geopolitics-2": {
+    "moduleId": "geopolitics",
+    "title": "Recursos naturais e conflito geopolítico",
+    "summary": "Petróleo, água, minerais e poder.",
+    "activityType": "flow-map"
+  },
+  "landscape-1": {
+    "moduleId": "landscape",
+    "title": "Paisagem natural e paisagem humanizada",
+    "summary": "Paisagem é processo histórico, não estado permanente.",
+    "activityType": "before-after"
+  },
+  "population-1": {
+    "moduleId": "population",
+    "title": "Por que as pessoas migram",
+    "summary": "Fatores de expulsão, atração e os grandes fluxos migratórios.",
+    "activityType": "flow-map"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "modules": [
+    {
+      "id": "cartography",
+      "order": 1,
+      "title": "Cartografia Viva",
+      "tagline": "Aprender a ler mapa como linguagem.",
+      "objective": "Ensinar o aluno a ler mapas como sistema de comunicação: orientação, escala, legenda, coordenadas e projeções.",
+      "concepts": ["escala", "legenda", "coordenadas", "projeção", "orientação", "localização"],
+      "scales": ["local", "regional", "nacional", "global"],
+      "phenomena": ["city", "border"],
+      "lessons": 5,
+      "estimatedTime": "5 aulas de 50 min"
+    },
+    {
+      "id": "landscape",
+      "order": 2,
+      "title": "Paisagem e Transformação",
+      "tagline": "Paisagem é processo, não fotografia.",
+      "objective": "Ensinar que a paisagem é resultado de ações humanas e naturais ao longo do tempo — e que ela está sempre mudando.",
+      "concepts": ["paisagem natural", "paisagem humanizada", "uso do solo", "transformação ambiental"],
+      "scales": ["local", "regional"],
+      "phenomena": ["city", "water", "climate"],
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min"
+    },
+    {
+      "id": "brazil",
+      "order": 3,
+      "title": "Brasil Espacial",
+      "tagline": "O território brasileiro como sistema vivo.",
+      "objective": "Compreender o Brasil como território dinâmico: regiões, biomas, rede urbana, desigualdade e agronegócio.",
+      "concepts": ["regiões", "biomas", "rede urbana", "desigualdade regional", "migração interna"],
+      "scales": ["regional", "nacional"],
+      "phenomena": ["migration", "inequality", "city"],
+      "lessons": 5,
+      "estimatedTime": "5 aulas de 50 min"
+    },
+    {
+      "id": "population",
+      "order": 4,
+      "title": "População e Migração",
+      "tagline": "Dinâmica populacional e fluxos humanos.",
+      "objective": "Ensinar crescimento, distribuição, estrutura etária e os grandes processos migratórios.",
+      "concepts": ["crescimento populacional", "migração", "refugiados", "estrutura etária", "concentração"],
+      "scales": ["regional", "nacional", "global"],
+      "phenomena": ["migration", "inequality"],
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min"
+    },
+    {
+      "id": "urbanization",
+      "order": 5,
+      "title": "Cidade, Campo e Trabalho",
+      "tagline": "Espaço, produção e sociedade se organizam.",
+      "objective": "Mostrar como urbanização, periferização, transporte e trabalho moldam o espaço.",
+      "concepts": ["urbanização", "periferização", "mobilidade urbana", "trabalho rural", "trabalho urbano"],
+      "scales": ["local", "regional", "nacional"],
+      "phenomena": ["city", "transport", "inequality"],
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min"
+    },
+    {
+      "id": "economy",
+      "order": 6,
+      "title": "Economia e Globalização",
+      "tagline": "Circulação, rede, comércio e desigualdade global.",
+      "objective": "Explicar como fluxos comerciais, divisão internacional do trabalho e corporações organizam o espaço global.",
+      "concepts": ["blocos econômicos", "DIT", "fluxos comerciais", "corporações", "globalização"],
+      "scales": ["nacional", "global"],
+      "phenomena": ["transport", "inequality", "energy"],
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min"
+    },
+    {
+      "id": "geopolitics",
+      "order": 7,
+      "title": "Geopolítica",
+      "tagline": "Território, fronteira, guerra, energia e poder.",
+      "objective": "Ensinar a lógica territorial do Estado, disputas por recursos, conflitos e alianças geopolíticas.",
+      "concepts": ["Estado", "fronteira", "conflito", "território", "recursos naturais", "blocos geopolíticos"],
+      "scales": ["regional", "nacional", "global"],
+      "phenomena": ["border", "energy", "water", "migration"],
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min"
+    },
+    {
+      "id": "globalization",
+      "order": 8,
+      "title": "Redes e Globalização",
+      "tagline": "Tecnologia, informação e mundialização.",
+      "objective": "Compreender a globalização como processo desigual de integração econômica, cultural e informacional.",
+      "concepts": ["rede", "tecnologia", "informação", "mundialização", "desigualdade global"],
+      "scales": ["global"],
+      "phenomena": ["transport", "inequality"],
+      "lessons": 3,
+      "estimatedTime": "3 aulas de 50 min"
+    }
+  ]
+}
