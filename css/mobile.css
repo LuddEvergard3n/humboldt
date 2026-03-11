@@ -101,18 +101,26 @@
     display: block;
   }
 
-  /* Layout mobile */
-  .view-home {
-    padding: var(--space-8) var(--space-4);
+  /* Layout mobile — home */
+  .hero-inner,
+  .ops-inner,
+  .modules-inner {
+    padding: 0 var(--space-4);
   }
 
-  .home-hero {
-    padding-bottom: var(--space-8);
-    margin-bottom: var(--space-8);
-  }
+  .hero-globe { order: -1; }
 
   .modules-grid {
     grid-template-columns: 1fr;
+  }
+
+  .ops-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .scale-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .view-module {

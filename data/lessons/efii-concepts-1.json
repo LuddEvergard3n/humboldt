@@ -1,0 +1,71 @@
+{
+  "id": "efii-concepts-1",
+  "moduleId": "efii-concepts",
+  "title": "Espaço geográfico: o espaço produzido pela sociedade",
+  "summary": "O conceito central da Geografia: o espaço como produto social.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A natureza existe sem o ser humano — mas o espaço geográfico, não",
+    "text": "Uma floresta virgem é natureza. Quando povos indígenas a habitam, criam trilhas, roças, nomes para cada planta e animal — ela vira espaço geográfico. O espaço geográfico é sempre a natureza transformada pela ação humana ao longo do tempo."
+  },
+  "guided": {
+    "title": "O que é espaço geográfico?",
+    "text": "Para o geógrafo Milton Santos, espaço geográfico é um 'conjunto indissociável de sistemas de objetos e sistemas de ações'.",
+    "points": [
+      "Sistemas de objetos: tudo que existe no espaço — rios, cidades, estradas, satélites, florestas.",
+      "Sistemas de ações: tudo que fazemos no espaço — produzir, consumir, migrar, governar, poluir.",
+      "O espaço não é apenas um palco onde a história acontece — ele é parte ativa da história.",
+      "Espaços diferentes produzem sociedades diferentes, e vice-versa."
+    ]
+  },
+  "relations": {
+    "title": "A desigualdade está inscrita no espaço",
+    "text": "Olhando o espaço de uma cidade, conseguimos ver a desigualdade: bairros ricos têm mais árvores, melhor saneamento. Bairros pobres têm mais lixão, menos parque. A distribuição espacial dos recursos revela quem tem poder em uma sociedade."
+  },
+  "caseStudy": {
+    "title": "Milton Santos e o espaço banal",
+    "text": "O geógrafo baiano Milton Santos (1926-2001) foi o maior pensador geográfico brasileiro. Desenvolveu o conceito de espaço banal — o espaço de todos, onde coexistem grandes empresas e pequenos vendedores ambulantes, o global e o local."
+  },
+  "application": "Olhe para o bairro onde você mora. O que ali foi construído pela natureza? O que foi construído pelas pessoas? O que foi destruído? Isso é o espaço geográfico.",
+  "activity": {
+    "question": "O que torna um espaço em 'espaço geográfico'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "sociedade",
+    "options": [
+      {
+        "value": "sociedade",
+        "label": "A ação humana que transforma e dá significado ao espaço natural"
+      },
+      {
+        "value": "tamanho",
+        "label": "Seu tamanho — só grandes territórios são espaços geográficos"
+      },
+      {
+        "value": "mapa",
+        "label": "Estar representado em um mapa"
+      },
+      {
+        "value": "cidade",
+        "label": "Ser uma cidade — espaços rurais não são geográficos"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O espaço geográfico é a natureza transformada pela sociedade.",
+      "incorrect": "A chave está na presença humana. O que diferencia uma floresta virgem de uma floresta onde vivem comunidades?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O que transforma espaço natural em espaço geográfico é a presença e a ação das sociedades."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o espaço geográfico como produto social e usa essa lente para analisar qualquer ambiente.",
+    "observe": "Apresente Milton Santos brevemente. É importante que alunos brasileiros conheçam um dos maiores geógrafos do mundo.",
+    "answer": "A ação humana que transforma e dá significado ao espaço.",
+    "mediation": "Mostre foto de floresta intocada e da mesma área com aldeia indígena. O que mudou? O espaço é o mesmo?",
+    "time": "50 minutos"
+  }
+}

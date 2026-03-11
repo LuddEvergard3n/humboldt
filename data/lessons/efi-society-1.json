@@ -1,0 +1,71 @@
+{
+  "id": "efi-society-1",
+  "moduleId": "efi-society",
+  "title": "Modos de vida: como as pessoas vivem em diferentes lugares",
+  "summary": "Diversidade cultural e modos de organização da vida cotidiana.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que as casas são tão diferentes no mundo?",
+    "text": "No Ártico, Inuit constroem iglus de gelo. Na Amazônia, casas palafita ficam sobre a água. Em Tóquio, microapartamentos de 20m². No sertão nordestino, casas de taipa. Cada forma de morar é uma resposta ao ambiente, ao clima e à cultura local."
+  },
+  "guided": {
+    "title": "Modos de vida",
+    "text": "Modo de vida é a forma como um grupo de pessoas se organiza para viver: o que comem, onde moram, como trabalham e como se relacionam.",
+    "points": [
+      "Modos de vida variam conforme o ambiente: litoral, sertão, floresta, cidade, campo.",
+      "Modos de vida variam conforme a cultura: idioma, religião, tradições, festas.",
+      "Modos de vida mudam com o tempo: uma comunidade de pescadores pode virar um polo tecnológico.",
+      "Não existe modo de vida certo ou errado — cada um é uma adaptação a condições específicas."
+    ]
+  },
+  "relations": {
+    "title": "Identidade e lugar",
+    "text": "O lugar onde crescemos molda quem somos: o sotaque, a comida favorita, as brincadeiras da infância. Migrantes carregam esses elementos para novos lugares e criam modos de vida híbridos. São Paulo é uma cidade de migrantes: nordestinos, japoneses, italianos, bolivianos — todos deixaram marcas."
+  },
+  "caseStudy": {
+    "title": "Os ribeirinhos da Amazônia",
+    "text": "As comunidades ribeirinhas do Amazonas vivem em ritmo das cheias e secas do rio. Todo o calendário, a casa, a alimentação e o transporte são organizados em torno do rio."
+  },
+  "application": "Entreviste um familiar mais velho: como era a vida dele quando criança? O que mudou? O que continua igual?",
+  "activity": {
+    "question": "O que determina o modo de vida de uma comunidade?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "ambiente-cultura",
+    "options": [
+      {
+        "value": "ambiente-cultura",
+        "label": "A combinação de ambiente, cultura e história de cada lugar"
+      },
+      {
+        "value": "rico-pobre",
+        "label": "Somente a riqueza ou pobreza das pessoas"
+      },
+      {
+        "value": "governo",
+        "label": "As leis que o governo define"
+      },
+      {
+        "value": "tv",
+        "label": "Os programas de televisão que assistem"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Modos de vida são moldados pelo ambiente natural, pela cultura acumulada e pela história de cada lugar.",
+      "incorrect": "Pense em duas comunidades igualmente pobres em ambientes diferentes: o pescador litorâneo e o sertanejo. Seus modos de vida são iguais?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Por que os Inuit constroem iglus e os amazônidas constroem palafitas? O que explica essa diferença?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve modos de vida de diferentes comunidades e identifica como ambiente e cultura os moldam.",
+    "observe": "Evite hierarquizar modos de vida. Enfatize adaptação.",
+    "answer": "A combinação de ambiente, cultura e história.",
+    "mediation": "Mostre fotos de moradias no mundo. Pergunte: o que essa casa nos conta sobre o ambiente e a cultura desse lugar?",
+    "time": "50 minutos"
+  }
+}

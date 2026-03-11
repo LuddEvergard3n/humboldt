@@ -1,0 +1,71 @@
+{
+  "id": "landscape-2",
+  "moduleId": "landscape",
+  "title": "A paisagem como processo: transformação ao longo do tempo",
+  "summary": "Como a paisagem muda com as ações humanas e os processos naturais.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O que existia no lugar onde você mora antes de ser construído?",
+    "text": "Toda cidade foi antes outra coisa: floresta, campo, várzea, dunas. São Paulo foi mata atlântica. Dubai foi deserto. Los Angeles foi chaparral árido. A paisagem que vemos hoje é apenas um fotograma de um filme muito longo — e o próximo fotograma já está sendo filmado agora."
+  },
+  "guided": {
+    "title": "Paisagem como processo dinâmico",
+    "text": "A paisagem não é estática — é o resultado de processos contínuos que atuam em diferentes escalas de tempo.",
+    "points": [
+      "Processos naturais: erosão, sedimentação, vulcanismo, variação climática — atuam em escalas de milênios.",
+      "Processos humanos: urbanização, agricultura, desmatamento, recuperação — atuam em décadas ou anos.",
+      "A paisagem atual é sempre transitória: um estado entre um passado e um futuro.",
+      "Ler a paisagem é identificar as camadas de tempo sobrepostas no espaço."
+    ]
+  },
+  "relations": {
+    "title": "Palimpsesto geográfico",
+    "text": "Geógrafos usam a metáfora do palimpsesto — o pergaminho medieval reutilizado onde textos antigos aparecem embaixo dos novos. A paisagem é assim: cada nova camada humana se sobrepõe às anteriores sem apagar completamente o passado. Em São Paulo, o traçado dos rios canalizados ainda determina onde ficam os fundos de vale. O passado permanece, mesmo escondido."
+  },
+  "caseStudy": {
+    "title": "A Amazônia não é uma floresta virgem",
+    "text": "Pesquisas arqueológicas recentes mostram que a Amazônia abrigou civilizações densas antes de 1500 — com cidades, estradas e agricultura intensiva. O solo negro fértil (terra preta de índio) é resultado de séculos de manejo humano. A floresta que parece intocada é, em parte, um jardim abandonado. Isso muda completamente como pensamos na relação entre natureza e cultura."
+  },
+  "application": "Pesquise fotos aéreas do seu município em diferentes épocas (Google Earth tem imagens históricas). O que mudou? Onde havia vegetação? Onde havia campos? O que foi construído?",
+  "activity": {
+    "question": "Por que dizemos que a paisagem é um 'processo' e não apenas um 'estado'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "dinamica",
+    "options": [
+      {
+        "value": "dinamica",
+        "label": "Porque a paisagem está em permanente transformação por agentes naturais e humanos"
+      },
+      {
+        "value": "fotografar",
+        "label": "Porque precisamos fotografar a paisagem para entendê-la"
+      },
+      {
+        "value": "movimento",
+        "label": "Porque as pessoas se movem dentro da paisagem"
+      },
+      {
+        "value": "clima",
+        "label": "Porque o clima muda as estações do ano"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Paisagem não é cenário fixo — é resultado de processos em andamento. O que vemos hoje é uma fase de uma transformação contínua.",
+      "incorrect": "Processo implica mudança ao longo do tempo. O que está sempre mudando na paisagem?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Uma foto da cidade em 1950 e outra hoje mostram a mesma paisagem? O que isso diz sobre a natureza da paisagem?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a paisagem como produto dinâmico de processos naturais e humanos que atuam em diferentes escalas de tempo.",
+    "observe": "Explore a ideia de que 'natureza intocada' é frequentemente uma ilusão. A Amazônia, o Cerrado e a Mata Atlântica têm marcas humanas milenares.",
+    "answer": "Porque a paisagem está em permanente transformação por agentes naturais e humanos.",
+    "mediation": "Use Google Earth Pro (gratuito) para mostrar imagens históricas do bairro da escola. O antes e o depois como metodologia.",
+    "time": "50 minutos"
+  }
+}

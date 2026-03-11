@@ -1,0 +1,72 @@
+{
+  "id": "em-cartography-2",
+  "moduleId": "em-cartography",
+  "title": "SIG e geoprocessamento: a geografía na era dos dados",
+  "summary": "Sistemas de informação geográfica e suas aplicações contemporâneas.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O aplicativo de delivery no seu celular é, na essência, um sistema de informação geográfica.",
+    "text": "Quando o iFood calcula a rota do entregador, estima o tempo de chegada e sugere o restaurante mais próximo, está processando dados geográficos em tempo real. Quando o Uber encontra o motorista mais próximo, o mesmo. Quando o INPE detecta desmatamento por satélite, o mesmo. SIG é a tecnologia que transformou a geografia em ferramenta cotidiana."
+  },
+  "guided": {
+    "title": "O que é SIG",
+    "text": "Sistema de Informação Geográfica (SIG) é um conjunto de ferramentas para coletar, armazenar, processar, analisar e visualizar dados espaciais.",
+    "points": [
+      "Camadas (layers): o SIG sobrepõe camadas de informação — topografia, estradas, uso do solo, dados socioeconômicos.",
+      "Raster vs. vetor: dados de imagens de satélite (raster) vs. pontos, linhas e polígonos (vetor).",
+      "Sensoriamento remoto: imagens de satélite processadas para extrair informação — vegetação, temperatura, umidade.",
+      "QGIS: software gratuito e aberto para SIG. Alternativa profissional ao ArcGIS.",
+      "Aplicações: PRODES (monitoramento de desmatamento), IBGE (censo espacial), prefeituras (plano diretor)."
+    ]
+  },
+  "relations": {
+    "title": "Big data geoespacial",
+    "text": "Smartphones geram trilhões de pontos geoespaciais por dia — onde estamos, onde compramos, como nos movemos. Empresas e governos usam esses dados para otimizar logística, planejar cidades, direcionar publicidade e monitorar populações. A questão não é mais a falta de dados geográficos — é como usá-los sem violar privacidade e sem reproduzir discriminações (algoritmos de roteamento que evitam bairros pobres, por exemplo)."
+  },
+  "caseStudy": {
+    "title": "O PRODES e o monitoramento do desmatamento",
+    "text": "O INPE usa imagens do satélite Landsat para monitorar o desmatamento amazônico desde 1988 — o sistema PRODES. Em 2020, quando os dados mostraram desmatamento recorde, o governo federal questionou a metodologia em vez de aceitar os dados. Isso criou uma crise de governança: quando um governo rejeita dados que contradizem sua política, o que acontece com a ciência aplicada à gestão territorial?"
+  },
+  "application": "Acesse o MapBiomas (mapbiomas.org) e explore a cobertura vegetal do município onde você mora ao longo de 30 anos. Quais mudanças ocorreram? Quais classes de cobertura cresceram e quais diminuíram?",
+  "activity": {
+    "question": "O que diferencia o geoprocessamento do simples uso de mapas?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "analise-computacional",
+    "options": [
+      {
+        "value": "analise-computacional",
+        "label": "O geoprocessamento permite análise computacional de múltiplas camadas de dados espaciais — identificando padrões impossíveis de ver manualmente"
+      },
+      {
+        "value": "satelite",
+        "label": "O geoprocessamento usa satélites; mapas tradicionais não"
+      },
+      {
+        "value": "precisao",
+        "label": "O geoprocessamento é mais preciso que mapas impressos"
+      },
+      {
+        "value": "digital",
+        "label": "Geoprocessamento é simplesmente a versão digital dos mapas tradicionais"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O diferencial do geoprocessamento é a capacidade analítica: cruzar camadas (desmatamento + propriedades rurais + rios), calcular distâncias, identificar padrões estatísticos — tudo automaticamente.",
+      "incorrect": "A diferença não é apenas tecnológica. É analítica: geoprocessamento permite cruzar, calcular e identificar padrões em múltiplas variáveis espaciais simultaneamente."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Com um mapa impresso, você vê o desmatamento. Com SIG, você consegue calcular quantos hectares, em quais propriedades, a que distância dos rios, em quais municípios. O que mudou?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o conceito de SIG e suas aplicações, e consegue usar ferramentas básicas de visualização geoespacial online.",
+    "observe": "Leve para a aula: MapBiomas, Google Earth Engine, Atlas Brasil. São ferramentas gratuitas que os alunos podem usar agora.",
+    "answer": "Análise computacional de múltiplas camadas de dados espaciais — identificando padrões impossíveis de ver manualmente.",
+    "mediation": "Acesse o MapBiomas na sala e explore a cobertura vegetal do município. Mostre como cruzar camadas de dados. O que o aluno consegue descobrir em 10 minutos?",
+    "time": "50 minutos"
+  }
+}

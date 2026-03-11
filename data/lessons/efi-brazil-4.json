@@ -1,0 +1,73 @@
+{
+  "id": "efi-brazil-4",
+  "moduleId": "efi-brazil",
+  "title": "Biomas brasileiros: a natureza que nos define",
+  "summary": "Os seis biomas do Brasil e sua importância ambiental.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que o Brasil é considerado o país mais biodiverso do mundo?",
+    "text": "O Brasil abriga cerca de 20% de todas as espécies de animais e plantas do planeta. Isso acontece porque temos seis biomas muito diferentes — da floresta úmida ao semiárido — e estamos localizados nos trópicos, onde a vida é mais abundante."
+  },
+  "guided": {
+    "title": "Os seis biomas brasileiros",
+    "text": "Um bioma é um conjunto de ecossistemas com características climáticas e de vegetação similares.",
+    "points": [
+      "Amazônia: maior floresta tropical do mundo, 49% do território nacional.",
+      "Cerrado: savana tropical, berço das águas — nasce a maioria dos rios brasileiros.",
+      "Caatinga: único bioma exclusivamente brasileiro, adaptado ao semiárido.",
+      "Mata Atlântica: restam apenas 12% — o bioma mais ameaçado. Onde vivem 70% dos brasileiros.",
+      "Pampa: campos temperados do Sul.",
+      "Pantanal: maior área úmida do mundo — altíssima biodiversidade."
+    ]
+  },
+  "relations": {
+    "title": "Biomas sob ameaça",
+    "text": "O desmatamento destruiu 88% da Mata Atlântica original. O Cerrado perdeu mais de 50% da sua vegetação nativa. A Amazônia sofre pressão crescente. A perda de biomas significa perda de água, de espécies e de clima estável."
+  },
+  "caseStudy": {
+    "title": "O Pantanal queimou",
+    "text": "Em 2020, o Pantanal teve o pior incêndio da história: 4,4 milhões de hectares queimados — 29% de toda a área. Animais morreram por milhares. A recuperação levará décadas."
+  },
+  "application": "Em qual bioma fica a sua cidade? Pesquise uma espécie animal ou vegetal característica desse bioma.",
+  "activity": {
+    "question": "Qual bioma é chamado de 'berço das águas' porque origina a maioria dos rios brasileiros?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "cerrado",
+    "options": [
+      {
+        "value": "cerrado",
+        "label": "Cerrado — suas chapadas alimentam os principais rios do Brasil"
+      },
+      {
+        "value": "amazonia",
+        "label": "Amazônia — tem os maiores rios"
+      },
+      {
+        "value": "pantanal",
+        "label": "Pantanal — é uma área alagada"
+      },
+      {
+        "value": "caatinga",
+        "label": "Caatinga — tem muitos rios temporários"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O Cerrado tem um lençol freático enorme. Seus rios alimentam o São Francisco, o Paraná, o Tocantins e muitos outros.",
+      "incorrect": "Pense em qual bioma fica nas chapadas e planaltos do Brasil Central — de onde nascem os grandes rios."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O bioma do Brasil Central, nas chapadas e planaltos, é o berço das águas."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno localiza os seis biomas no mapa e compreende a importância ambiental de cada um.",
+    "observe": "Verifique se o aluno não confunde bioma com região geográfica. A Mata Atlântica está no Nordeste, Sudeste e Sul.",
+    "answer": "Cerrado — berço das águas.",
+    "mediation": "Mostre fotos dos seis biomas. Peça que identifiquem características visuais. Depois mostrem no mapa.",
+    "time": "50 minutos"
+  }
+}

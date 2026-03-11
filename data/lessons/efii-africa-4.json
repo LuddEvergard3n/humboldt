@@ -1,0 +1,72 @@
+{
+  "id": "efii-africa-4",
+  "moduleId": "efii-africa",
+  "title": "África e as mudanças climáticas: quem paga a conta?",
+  "summary": "O continente menos poluidor sofre as consequências mais graves do aquecimento global.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A África emite 4% do CO₂ global — mas já perde 5% do PIB para o clima",
+    "text": "A África subsaariana é responsável por menos de 4% das emissões globais de CO₂ históricas. Mas é o continente onde as consequências do aquecimento global são mais devastadoras: secas no Sahel, ciclones em Moçambique, subida do nível do mar ameaçando o delta do Nilo. Quem poluiu pouco paga a conta de quem poluiu muito — essa é a injustiça climática."
+  },
+  "guided": {
+    "title": "Impactos climáticos na África",
+    "text": "O aquecimento global amplifica vulnerabilidades já existentes na África.",
+    "points": [
+      "Sahel: faixa semiárida entre o Saara e a savana sofre seca crescente — 10 milhões ameaçados de fome.",
+      "Chifre da África: Etiópia, Somália, Quênia — ciclos de seca cada vez mais frequentes e intensos.",
+      "África do Sul: diminuição de chuvas no Cabo; \"Dia Zero\" em Cape Town (2018) quase sem água.",
+      "Costas africanas: subida do nível do mar ameaça delta do Nilo (Egito) e Lagos (Nigéria).",
+      "Agricultura: 60% da população africana depende da agricultura de subsistência — altamente vulnerável ao clima."
+    ]
+  },
+  "relations": {
+    "title": "Injustiça climática e negociações internacionais",
+    "text": "Nas conferências de clima (COPs), países africanos cobram \"perdas e danos\" — compensação dos países ricos pelos impactos que eles não causaram. Na COP27 (2022), foi criado um fundo para isso — mas com recursos ainda insuficientes. A África quer desenvolvimento, não apenas adaptação: o argumento é que países pobres têm o direito de se industrializar como os ricos fizeram."
+  },
+  "caseStudy": {
+    "title": "O Lago Chade: de mar interior a sombra de si mesmo",
+    "text": "Em 1963, o Lago Chade tinha 25.000 km² — do tamanho do estado de Sergipe. Hoje tem menos de 1.500 km². Secou por combinação de irrigação agrícola excessiva e mudanças climáticas. 30 milhões de pessoas dependem do lago; a seca criou instabilidade e alimentou o surgimento do Boko Haram na região."
+  },
+  "application": "Pesquise: o Brasil tem mais emissões de CO₂ que toda a África combinada? O que explica isso?",
+  "activity": {
+    "question": "Qual frase melhor descreve o conceito de \"injustiça climática\" no contexto africano?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "pouco-poluiu",
+    "options": [
+      {
+        "value": "pouco-poluiu",
+        "label": "A África sofre impactos graves do clima, mas emitiu histórica e proporcionalmente muito menos CO₂ que os países ricos"
+      },
+      {
+        "value": "nao-tem",
+        "label": "A África não tem tecnologia para lidar com o aquecimento global"
+      },
+      {
+        "value": "mais-rico",
+        "label": "Países ricos têm mais recursos para se adaptar, por isso sofrem menos"
+      },
+      {
+        "value": "deserto",
+        "label": "O fato de parte da África já ser desértica facilita a adaptação"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A injustiça climática é exatamente essa assimetria: quem menos contribuiu para o problema sofre mais as consequências.",
+      "incorrect": "Pense em quem poluiu historicamente (Europa, EUA) e quem sofre as secas, ciclones e subida do mar hoje."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Compare: emissões históricas de CO₂ da Europa vs. África. Agora compare: quem sofre mais secas e ciclones?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno articula o conceito de injustiça climática e identifica a assimetria entre emissões históricas e vulnerabilidade ao aquecimento.",
+    "observe": "Conecte com o debate de desenvolvimento sustentável: países pobres têm o \"direito de poluir\" para se desenvolver?",
+    "answer": "A África emite pouco mas sofre muito — injustiça climática.",
+    "mediation": "Pergunte: \"Se a África quiser se industrializar como a Europa fez, quem tem o direito de dizer não? Por quê?\"",
+    "time": "50 minutos"
+  }
+}

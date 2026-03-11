@@ -1,0 +1,72 @@
+{
+  "id": "em-brazil-challenges-4",
+  "moduleId": "em-brazil-challenges",
+  "title": "O Brasil no mundo: inserção internacional e política externa",
+  "summary": "A posição do Brasil na geopolítica global e suas estratégias de inserção internacional.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O Brasil é a 9ª maior economia do mundo, mas tem o 17º orçamento de defesa e o 4º maior território.",
+    "text": "O Brasil é uma potência em potencial: 8,5 milhões de km², 215 milhões de habitantes, economias diversificada, recursos naturais imensos, energia renovável abundante. Mas sua projeção no poder global é desproporcional ao seu tamanho. A política externa brasileira oscila entre o protagonismo (Lula I) e o isolamento (Bolsonaro) — refletindo uma tensão genuína sobre que papel o Brasil deve desempenhar no mundo."
+  },
+  "guided": {
+    "title": "A política externa brasileira",
+    "text": "A política externa do Brasil tem princípios constitucionais e estratégias que variam por governo.",
+    "points": [
+      "Princípios constitucionais: autodeterminação dos povos, não-intervenção, defesa da paz, solução pacífica de conflitos.",
+      "Itamaraty: o Ministério das Relações Exteriores brasileiro — uma das diplomacias mais profissionais do mundo.",
+      "BRICS: aliança com Rússia, Índia, China, África do Sul — novo bloco de potências emergentes, expandido em 2024.",
+      "G20: o Brasil presidiu o G20 em 2024 — a principal vitrine de política externa da última década.",
+      "Dilema: alinhar com EUA (segurança, tecnologia) ou com China (principal parceiro comercial)? O Brasil tenta os dois."
+    ]
+  },
+  "relations": {
+    "title": "O soft power brasileiro",
+    "text": "Soft power é a capacidade de influenciar outros países por atração — cultura, valores, exemplos — e não pela força. O Brasil tem soft power real: futebol, música (samba, bossa nova, funk), gastronomia, telenovelas, diversidade cultural. Mas também tem hard power potencial: exércitos bem treinados, tecnologia aeroespacial (Embraer), nuclear (usinas), agronegócio. A questão é como usar esses ativos estrategicamente."
+  },
+  "caseStudy": {
+    "title": "A presidência brasileira do G20 (2024)",
+    "text": "Em 2024, o Brasil presidiu o G20 — o fórum dos 19 maiores países mais a UE. A agenda Lula priorizou três temas: combate à desigualdade global, tributação de super-ricos e reforma da governança global. A Declaração de Nova Delhi (2023) havia travado no conflito Ucrânia-Rússia — Lula usou a presidência para retomar o consenso. Um exemplo de como a presidência de um fórum pode ser um instrumento de política externa."
+  },
+  "application": "Pesquise: quais são os 5 principais parceiros comerciais do Brasil? Quais são os organismos internacionais nos quais o Brasil tem assento ou candidatura? O que isso diz sobre a estratégia de inserção brasileira?",
+  "activity": {
+    "question": "O que é 'soft power' e como o Brasil o exerce?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "atracao-cultural",
+    "options": [
+      {
+        "value": "atracao-cultural",
+        "label": "Capacidade de influenciar outros países por atração — cultura, valores e exemplos, e não pela força ou coerção"
+      },
+      {
+        "value": "economico",
+        "label": "O poder econômico de um país, medido pelo PIB"
+      },
+      {
+        "value": "militar",
+        "label": "O poder de destruição suave, como drones e guerras tecnológicas"
+      },
+      {
+        "value": "diplomatico",
+        "label": "A capacidade de negociar acordos favoráveis diplomaticamente"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Soft power (conceito de Joseph Nye) é a capacidade de atrair — o futebol brasileiro, a diversidade cultural, a posição de mediador em conflitos são exemplos de soft power que constroem a imagem do Brasil no mundo.",
+      "incorrect": "Soft power é oposto ao poder militar (hard power). É sobre atração, não coerção. O que faz outros países admirarem ou seguirem um país sem ser forçados?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Hard power: exércitos e sanções. Soft power: o que faz um país ser admirado e seguido voluntariamente? O Brasil é admirado por quê no mundo?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a inserção internacional do Brasil e as estratégias de política externa diante dos desafios do mundo multipolar.",
+    "observe": "Conecte com atualidade: presidência do G20, BRICS, COP30 no Brasil em 2025. O Brasil está no centro de debates globais — é uma oportunidade pedagógica rara.",
+    "answer": "Capacidade de influenciar por atração cultural, valores e exemplos — oposto ao hard power.",
+    "mediation": "Mapa dos acordos bilaterais e multilaterais do Brasil. Com quem o Brasil tem acordos? Quais blocos? O que esses acordos revelam sobre a estratégia brasileira?",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "em-geopolitics-1",
+  "moduleId": "em-geopolitics",
+  "title": "Ordem mundial: de bipolar a multipolar",
+  "summary": "A evolução do sistema internacional do pós-guerra ao mundo contemporâneo.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Em 1991, o mundo tinha uma superpotência. Em 2024, tem três — e talvez mais.",
+    "text": "Com o fim da URSS em 1991, os EUA pareciam inaugurar um mundo unipolar — a 'Nova Ordem Mundial' de Bush pai. Mas a ascensão da China, o revisionismo russo e a emergência de potências regionais como Índia, Brasil e Turquia criaram um mundo muito mais fragmentado. A ordem unipolar durou menos de duas décadas."
+  },
+  "guided": {
+    "title": "As ordens mundiais do século XX ao XXI",
+    "text": "A ordem mundial é a configuração do poder entre Estados num período histórico.",
+    "points": [
+      "Bipolar (1947-1991): EUA vs. URSS. Guerra Fria, corrida nuclear, divisão do mundo em blocos.",
+      "Unipolar (1991-2008): hegemonia americana. Expansão da OTAN, intervenções no Iraque e na Iugoslávia.",
+      "Multipolar emergente (2008-hoje): China ascende, Rússia revisiona, Global South articula.",
+      "Guerra da Geórgia (2008) e Crise Financeira Global (2008): dois eventos que marcaram o fim da unipolaridade.",
+      "Multipolaridade não significa paz — pode significar mais instabilidade por falta de árbitro único."
+    ]
+  },
+  "relations": {
+    "title": "A ONU e a governança global",
+    "text": "A ONU foi criada em 1945 pelos vencedores da Segunda Guerra. O Conselho de Segurança tem 5 membros permanentes com poder de veto: EUA, Reino Unido, França, Rússia e China. Esses países podem bloquear qualquer resolução. O resultado: a ONU frequentemente paralisa nas crises mais graves — exatamente quando seria mais necessária."
+  },
+  "caseStudy": {
+    "title": "A guerra na Ucrânia e a ordem internacional",
+    "text": "A invasão russa da Ucrânia em fevereiro de 2022 foi a maior guerra convencional na Europa desde 1945. Ela testou a ordem internacional em múltiplas frentes: a ONU foi bloqueada pelo veto russo; a OTAN expandiu para Finlândia e Suécia; sanções econômicas sem precedentes foram aplicadas à Rússia; e o Sul Global se dividiu — muitos países recusaram condenar a Rússia. A guerra mostrou que a ordem pós-1991 acabou."
+  },
+  "application": "Pesquise: como o Brasil votou nas resoluções da ONU sobre a guerra na Ucrânia? O que essa posição revela sobre a política externa brasileira?",
+  "activity": {
+    "question": "O que caracteriza a ordem mundial 'multipolar' emergente?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "varios-polos",
+    "options": [
+      {
+        "value": "varios-polos",
+        "label": "Múltiplos centros de poder com capacidade de influenciar a ordem global, sem um único país dominante"
+      },
+      {
+        "value": "paz",
+        "label": "Um mundo mais pacífico pela distribuição do poder entre muitos países"
+      },
+      {
+        "value": "organizacoes",
+        "label": "O poder transferido de países para organizações internacionais"
+      },
+      {
+        "value": "economico",
+        "label": "Uma ordem baseada apenas em poder econômico, sem poder militar"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Multipolaridade é a distribuição do poder entre vários polos (EUA, China, Rússia, UE, potências regionais) sem hegemonia única. Não implica necessariamente paz — pode gerar mais instabilidade.",
+      "incorrect": "Multipolaridade não é sinônimo de paz. Historicamente, mundos multipolares (como a Europa pré-1914) foram instáveis."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "'Multi' = muitos. 'Polar' = polo de poder. O que acontece quando há muitos centros de poder sem árbitro único?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve a evolução da ordem mundial e analisa as implicações da multipolaridade para a estabilidade internacional.",
+    "observe": "Conecte com política externa brasileira: o Brasil tenta atuar em múltiplos fóruns (BRICS, G20, ONU). Por que essa estratégia faz sentido num mundo multipolar?",
+    "answer": "Múltiplos centros de poder sem hegemonia única.",
+    "mediation": "Linha do tempo das ordens mundiais com os eventos que marcaram transições. Pergunte: o que viria depois do multipolar?",
+    "time": "50 minutos"
+  }
+}

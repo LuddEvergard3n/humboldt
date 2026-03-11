@@ -1,0 +1,72 @@
+{
+  "id": "efii-americas-2",
+  "moduleId": "efii-americas",
+  "title": "Os EUA: potência global e território continental",
+  "summary": "Geografia física, humana e econômica dos Estados Unidos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Como um país com 4% da população mundial controla 25% da economia?",
+    "text": "Os EUA têm o maior PIB do mundo, as universidades mais citadas, as maiores empresas de tecnologia, as forças armadas mais poderosas. Mas também têm a maior desigualdade entre países ricos. Entender a geografia dos EUA é entender muito da ordem mundial contemporânea."
+  },
+  "guided": {
+    "title": "Estados Unidos: síntese geográfica",
+    "text": "Os EUA são o terceiro maior país do mundo em área e o terceiro em população.",
+    "points": [
+      "Território: 9,8 milhões de km² com grande diversidade natural — da tundra do Alasca ao deserto do Arizona.",
+      "População: 335 milhões. País de imigrantes — grande diversidade étnica e cultural.",
+      "Economia: PIB de US$ 25 trilhões. Liderança em tecnologia (Silicon Valley), finanças (Wall Street) e agronegócio.",
+      "Regiões: Nordeste industrial, Cinturão do Sol (Sun Belt) em crescimento, Meio-Oeste agrícola, Sul historicamente conservador.",
+      "Poder militar: mais de 800 bases militares em 80 países. Hegemonia desde 1945."
+    ]
+  },
+  "relations": {
+    "title": "O poder americano na América Latina",
+    "text": "Os EUA intervieram militarmente ou politicamente em mais de 50 países da América Latina no século XX. A Doutrina Monroe (1823) declarou as Américas zona de influência americana. Isso moldou ditaduras, economias e migrações em toda a região."
+  },
+  "caseStudy": {
+    "title": "A fronteira EUA-México",
+    "text": "A fronteira entre EUA e México é a mais cruzada ilegalmente do mundo — cerca de 2 milhões de tentativas por ano. De um lado, um dos países mais ricos. Do outro, um país com extrema desigualdade interna. Uma fronteira que sintetiza desigualdade global, migração e geopolítica."
+  },
+  "application": "Pesquise: quais são os três principais parceiros comerciais dos EUA? E do Brasil? O que isso revela sobre a posição de cada país na economia global?",
+  "activity": {
+    "question": "Qual termo descreve a posição dos EUA como principal potência mundial desde 1945?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "hegemonia",
+    "options": [
+      {
+        "value": "hegemonia",
+        "label": "Hegemonia — liderança política, econômica e militar global"
+      },
+      {
+        "value": "imperialismo",
+        "label": "Imperialismo — já foi superado"
+      },
+      {
+        "value": "democracia",
+        "label": "Democracia — apenas um regime político"
+      },
+      {
+        "value": "capitalismo",
+        "label": "Capitalismo — sistema econômico, não posição geopolítica"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Hegemonia descreve a liderança global americana em múltiplas dimensões — econômica, militar e cultural.",
+      "incorrect": "A palavra específica para a posição de uma nação como líder global em várias dimensões ao mesmo tempo é..."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Hegemonia = liderança dominante em múltiplos domínios (economia, militares, cultura) em escala global."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve a posição dos EUA na ordem mundial e compreende como a sua geografia física e história explicam essa posição.",
+    "observe": "Evite visão acrítica dos EUA. Apresente tanto o poder quanto as contradições internas e externas.",
+    "answer": "Hegemonia — liderança política, econômica e militar global.",
+    "mediation": "Pesquise com a turma: onde estão bases militares americanas? Mapeie no globo. O que esse padrão revela?",
+    "time": "50 minutos"
+  }
+}

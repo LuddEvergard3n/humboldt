@@ -1,0 +1,72 @@
+{
+  "id": "em-cartography-3",
+  "moduleId": "em-cartography",
+  "title": "Análise espacial: padrões, clusters e anomalias no espaço",
+  "summary": "Como identificar e interpretar padrões espaciais em dados geográficos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que municípios ricos tendem a ter vizinhos ricos — e municípios pobres, vizinhos pobres?",
+    "text": "O IDH de um município está fortemente correlacionado com o IDH dos municípios vizinhos. Esse padrão — autocorrelação espacial — aparece em praticamente todos os fenômenos sociais: criminalidade, renda, saúde, educação. Espaços não são independentes: vizinhos se influenciam. Essa é a premissa central da análise espacial."
+  },
+  "guided": {
+    "title": "Conceitos de análise espacial",
+    "text": "A análise espacial é a aplicação de métodos estatísticos e computacionais para identificar padrões em dados geográficos.",
+    "points": [
+      "Autocorrelação espacial: a tendência de valores similares se agruparem no espaço (Moran's I).",
+      "Cluster: concentração de fenômenos numa área — hotspot de criminalidade, polo industrial, cluster de pobreza.",
+      "Anomalia espacial: valor que destoa fortemente do entorno — município rico num estado pobre.",
+      "Interpolação: estimativa de valores em locais sem medição, com base nos vizinhos medidos.",
+      "Regressão geográfica ponderada (GWR): análise estatística que considera a posição espacial das observações."
+    ]
+  },
+  "relations": {
+    "title": "Determinismo vs. possibilismo geográfico",
+    "text": "O determinismo geográfico (séc. XIX) afirmava que o ambiente físico determina as culturas e capacidades humanas — argumento usado para justificar o colonialismo. O possibilismo (Vidal de la Blache) responde: o ambiente cria possibilidades e restrições, mas as sociedades escolhem como responder. A análise espacial contemporânea tenta ir além dos dois: identificar correlações sem assumir causalidade e sem determinar destinos."
+  },
+  "caseStudy": {
+    "title": "O cluster de câncer e a identificação de causas ambientais",
+    "text": "Clusters de doenças — concentrações acima do esperado numa área — são ferramentas clássicas de epidemiologia espacial. A identificação de um cluster de leucemia infantil em volta de uma usina nuclear na Inglaterra nos anos 1980 abriu investigações sobre radiação e saúde pública. No Brasil, clusters de intoxicação por agrotóxicos no Centro-Oeste são monitorados para correlacionar com áreas de aplicação aérea."
+  },
+  "application": "Acesse o DATASUS (tabnet.datasus.gov.br) e mapeie a incidência de dengue nos municípios do seu estado. Você consegue identificar clusters? O que pode explicar a concentração nesses locais?",
+  "activity": {
+    "question": "O que é 'autocorrelação espacial' e por que ela importa para a análise geográfica?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "vizinhos-similares",
+    "options": [
+      {
+        "value": "vizinhos-similares",
+        "label": "A tendência de lugares vizinhos apresentarem valores similares — fenômenos sociais raramente se distribuem aleatoriamente no espaço"
+      },
+      {
+        "value": "correlacao",
+        "label": "A correlação matemática entre duas variáveis no mesmo mapa"
+      },
+      {
+        "value": "repetição",
+        "label": "A repetição do mesmo padrão geográfico em diferentes escalas"
+      },
+      {
+        "value": "tempo",
+        "label": "A correlação entre fenômenos que ocorrem no mesmo lugar em diferentes momentos"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Autocorrelação espacial (positiva) é quando valores altos tendem a se agregar perto de outros valores altos — o que sugere que há processos espaciais atuando além do acaso.",
+      "incorrect": "Autocorrelação espacial é específica à dimensão espacial — a tendência de lugares vizinhos se assemelharem mais do que o acaso esperaria."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Bairros ricos tendem a ter vizinhos ricos. Bairros pobres tendem a ter vizinhos pobres. Isso é acaso ou há um padrão? Como você chamaria esse padrão?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende os conceitos básicos de análise espacial e aplica o raciocínio espacial para identificar padrões em dados geográficos reais.",
+    "observe": "Foque na capacidade de raciocinar espacialmente — identificar padrões, levantar hipóteses causais e questionar correlações. A ferramenta é secundária.",
+    "answer": "Tendência de lugares vizinhos apresentarem valores similares — fenômenos não se distribuem aleatoriamente no espaço.",
+    "mediation": "Mostre mapa de IDH municipal. Peça que identifiquem clusters de municípios ricos e pobres. Por que esses clusters existem? O que os mantém coesos?",
+    "time": "50 minutos"
+  }
+}

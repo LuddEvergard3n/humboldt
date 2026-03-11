@@ -1,0 +1,72 @@
+{
+  "id": "economy-1",
+  "moduleId": "economy",
+  "title": "Sistemas econômicos: capitalismo, socialismo e variantes",
+  "summary": "Como as sociedades organizam a produção, distribuição e consumo de riqueza.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que a China é comunista no governo e capitalista na economia?",
+    "text": "A China tem o Partido Comunista no poder desde 1949, mas é a segunda maior economia de mercado do mundo. Sua Constituição ainda menciona o socialismo como objetivo, mas Shenzhen tem a maior bolsa de valores da Ásia. Esse paradoxo ilustra que sistemas econômicos reais são sempre misturas — e que os rótulos dizem menos do que a prática."
+  },
+  "guided": {
+    "title": "Sistemas econômicos",
+    "text": "Um sistema econômico define quem detém os meios de produção, como os recursos são alocados e como a riqueza é distribuída.",
+    "points": [
+      "Capitalismo: meios de produção privados, alocação pelo mercado, lucro como motor. Predominante no mundo.",
+      "Socialismo: meios de produção coletivos ou estatais, planejamento central ou cogestão. Ex: Cuba, URSS (extinto).",
+      "Economia mista: combinação de mercado e intervenção estatal. Ex: todos os países desenvolvidos na prática.",
+      "Neoliberalismo: variante do capitalismo que defende mínima intervenção estatal, privatizações e livre comércio.",
+      "Social-democracia: capitalismo com forte Estado de bem-estar social. Ex: países escandinavos."
+    ]
+  },
+  "relations": {
+    "title": "O debate sobre o papel do Estado",
+    "text": "O principal debate econômico do século XX e XXI é sobre o quanto o Estado deve intervir na economia. A crise de 1929 mostrou que o mercado sem regulação colapsa. A crise da URSS mostrou que o planejamento central sem mercado também colapsa. O equilíbrio entre os dois é o campo de batalha da política econômica contemporânea."
+  },
+  "caseStudy": {
+    "title": "A Suécia: capitalismo com redistribuição máxima",
+    "text": "A Suécia é capitalista: tem bolsa de valores, empresas privadas, propriedade individual. Mas tributa pesadamente (carga tributária de 43% do PIB) e oferece saúde, educação, creche e aposentadoria universais. Resultado: um dos países com maior IDH e menor desigualdade do mundo. Um capitalismo que redistribui de forma que outros capitalismo não fazem."
+  },
+  "application": "Pesquise: qual é a carga tributária do Brasil como % do PIB? O que o governo oferece em troca? Compare com a Suécia e os EUA.",
+  "activity": {
+    "question": "O que distingue o capitalismo do socialismo como sistemas econômicos?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "propriedade",
+    "options": [
+      {
+        "value": "propriedade",
+        "label": "No capitalismo, os meios de produção são privados; no socialismo, são coletivos ou estatais"
+      },
+      {
+        "value": "liberdade",
+        "label": "O capitalismo tem liberdade; o socialismo não tem"
+      },
+      {
+        "value": "riqueza",
+        "label": "O capitalismo gera riqueza; o socialismo não gera"
+      },
+      {
+        "value": "democracia",
+        "label": "O capitalismo é democrático; o socialismo é autoritário"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A distinção fundamental é sobre a posse dos meios de produção — fábricas, terras, recursos. Isso determina quem decide o que produzir e para quem.",
+      "incorrect": "Liberdade e democracia não são exclusivas do capitalismo — há capitalismos autoritários e socialismos com eleições. O critério definitório é a propriedade dos meios de produção."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Meios de produção: fábricas, terras, máquinas. Quem os possui determina quem decide o que produzir e como distribuir."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue sistemas econômicos e analisa suas variantes reais com base em exemplos históricos e contemporâneos.",
+    "observe": "Evite apresentar capitalismo e socialismo como bem vs. mal. Ambos têm variantes, histórias e contradições complexas.",
+    "answer": "Propriedade dos meios de produção: privada no capitalismo, coletiva/estatal no socialismo.",
+    "mediation": "Peça que os alunos descrevam a economia do Brasil, EUA, China e Cuba usando os conceitos. Nenhum encaixa perfeitamente em um rótulo.",
+    "time": "50 minutos"
+  }
+}

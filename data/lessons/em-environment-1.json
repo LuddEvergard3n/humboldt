@@ -1,0 +1,72 @@
+{
+  "id": "em-environment-1",
+  "moduleId": "em-environment",
+  "title": "Mudança climática: ciência, impactos e negacionismo",
+  "summary": "O que sabemos sobre o aquecimento global, por que acontece e por que é difícil agir.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "2023 foi o ano mais quente desde que existem registros — e provavelmente nos últimos 125.000 anos.",
+    "text": "O serviço climático europeu Copernicus registrou 2023 como o ano mais quente da história instrumental. A temperatura média global foi 1,45°C acima da média pré-industrial. O Acordo de Paris estabeleceu o limite de 1,5°C como patamar crítico. Já estamos encostados nele — e as emissões globais ainda crescem."
+  },
+  "guided": {
+    "title": "A ciência da mudança climática",
+    "text": "O consenso científico sobre as causas humanas da mudança climática é sólido — 97% dos climatologistas concordam.",
+    "points": [
+      "Efeito estufa natural: CO₂, vapor d'água e metano retêm calor — sem isso, a Terra seria inabitável.",
+      "Efeito estufa intensificado: queima de combustíveis fósseis desde 1850 aumentou o CO₂ atmosférico de 280 para 420 ppm.",
+      "Feedback positivo: gelo derrete → menos reflexão solar → mais aquecimento → mais gelo derrete.",
+      "Impactos: elevação do nível do mar, eventos extremos mais frequentes, extinções, insegurança alimentar.",
+      "Negacionismo: financiado sistematicamente pela indústria de combustíveis fósseis desde os anos 1970 — documentado em processos judiciais."
+    ]
+  },
+  "relations": {
+    "title": "Justiça climática",
+    "text": "Os países mais vulneráveis às mudanças climáticas são os que menos contribuíram para as emissões históricas. Bangladesh emite 0,5 toneladas de CO₂ per capita e enfrenta inundações anuais crescentes. Os EUA emitem 14 toneladas per capita e têm recursos para se adaptar. A crise climática é também uma crise de justiça geográfica."
+  },
+  "caseStudy": {
+    "title": "O Acordo de Paris e seus limites",
+    "text": "O Acordo de Paris (2015) comprometeu 195 países a manter o aquecimento abaixo de 2°C. Mas as contribuições são voluntárias — não há mecanismo de coerção. Em 2023, a ONU calculou que as políticas atuais levariam a 2,5-2,9°C de aquecimento. O acordo criou uma arquitetura de compromissos sem a estrutura de cumprimento necessária para que funcionem."
+  },
+  "application": "Pesquise: quais são os 5 maiores emissores de CO₂ do mundo? Como as emissões per capita diferem das emissões totais? Por que essa distinção importa para a justiça climática?",
+  "activity": {
+    "question": "Por que países mais pobres são desproporcionalmente vulneráveis à mudança climática apesar de serem menos responsáveis por ela?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "capacidade-adaptacao",
+    "options": [
+      {
+        "value": "capacidade-adaptacao",
+        "label": "Têm menor capacidade de adaptação (infraestrutura, recursos financeiros) e maior dependência de sistemas naturais vulneráveis"
+      },
+      {
+        "value": "localizacao",
+        "label": "Ficam geograficamente mais próximos do equador, onde o aquecimento é maior"
+      },
+      {
+        "value": "populacao",
+        "label": "Têm populações maiores, então mais pessoas são expostas"
+      },
+      {
+        "value": "emissoes",
+        "label": "Emitem mais gases de efeito estufa localmente"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A vulnerabilidade climática é determinada tanto pela exposição física quanto pela capacidade de resposta. Países pobres têm menos infraestrutura de proteção, menos poupança para recuperação e mais dependência da agricultura de subsistência — altamente sensível ao clima.",
+      "incorrect": "A localização importa, mas não é o fator principal. A capacidade de adaptação — que depende de recursos econômicos e instituições — é o que distingue países vulneráveis dos resilientes."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Um furacão atinge Bangladesh e a Flórida. Por que Bangladesh sofre muito mais, mesmo com furacões de intensidade similar?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende as causas científicas da mudança climática, seus impactos diferenciados e o conceito de justiça climática.",
+    "observe": "Discuta o negacionismo como fenômeno político e econômico, não apenas científico. Quem financia? Quais interesses?",
+    "answer": "Menor capacidade de adaptação e maior dependência de sistemas naturais vulneráveis ao clima.",
+    "mediation": "Mostre mapa do Climate Vulnerability Index. O que países mais vulneráveis têm em comum? E os menos vulneráveis?",
+    "time": "50 minutos"
+  }
+}

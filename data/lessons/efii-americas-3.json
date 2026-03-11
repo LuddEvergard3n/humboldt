@@ -1,0 +1,72 @@
+{
+  "id": "efii-americas-3",
+  "moduleId": "efii-americas",
+  "title": "América Latina: desigualdade e desenvolvimento",
+  "summary": "Urbanização, recursos naturais e desigualdade na América Latina.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A América Latina tem recursos imensos — então por que é tão desigual?",
+    "text": "O Brasil tem o maior rebanho bovino exportador. O Chile tem 40% do cobre mundial. A Venezuela tem petróleo de sobra. E ainda assim, a região tem o maior índice de desigualdade de renda do planeta. Riqueza de recursos não garante desenvolvimento — depende de quem controla esses recursos e como são distribuídos."
+  },
+  "guided": {
+    "title": "América Latina: padrões comuns",
+    "text": "Apesar da diversidade, países da América Latina compartilham padrões histórico-geográficos.",
+    "points": [
+      "Herança colonial: monocultura exportadora, concentração fundiária, extração de recursos.",
+      "Urbanização intensa: mais de 80% vive em cidades — das mais altas taxas do mundo.",
+      "Megacidades: São Paulo, Cidade do México e Buenos Aires estão entre as 10 maiores do mundo.",
+      "Desigualdade: o Coeficiente de Gini mais alto do mundo está concentrado na América Latina.",
+      "Dependência de commodities: economia baseada em matérias-primas brutas vulnerável ao mercado global."
+    ]
+  },
+  "relations": {
+    "title": "Commodities e dependência",
+    "text": "Países que exportam principalmente commodities ficam vulneráveis às flutuações dos preços internacionais. Quando o preço da soja sobe, o Brasil cresce. Quando cai, entra em crise. Economistas chamam isso de 'maldição dos recursos': abundância de commodities inibe industrialização e diversificação."
+  },
+  "caseStudy": {
+    "title": "Venezuela: do petróleo à crise",
+    "text": "A Venezuela tinha o maior PIB per capita da América do Sul nos anos 1970, graças ao petróleo. Mas não diversificou a economia. Quando o preço do petróleo caiu (2014-2016), a crise foi catastrófica: hiperinflação, falta de alimentos e medicamentos, e a maior migração da história da América Latina — 7 milhões de pessoas fugiram do país."
+  },
+  "application": "Pesquise: quais são os cinco maiores exportadores da América Latina? O que eles exportam? Qual é a origem da riqueza de cada um?",
+  "activity": {
+    "question": "O que é 'dependência de commodities' na América Latina?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "materia-prima",
+    "options": [
+      {
+        "value": "materia-prima",
+        "label": "Economia baseada em exportação de matérias-primas brutas, vulnerável a flutuações de preço"
+      },
+      {
+        "value": "importacao",
+        "label": "Importar mais do que exportar"
+      },
+      {
+        "value": "agriculture",
+        "label": "Ter agricultura como única atividade"
+      },
+      {
+        "value": "tecnologia",
+        "label": "Depender de tecnologia importada"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Dependência de commodities significa que a economia se baseia em exportar matérias-primas (soja, petróleo, cobre) sem agregar muito valor — ficando vulnerável a preços externos.",
+      "incorrect": "Pense: se o Brasil exporta soja e o preço cai lá fora, o Brasil perde renda. O que acontece com uma economia assim?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Commodity = matéria-prima sem processamento. Exportar soja vs. exportar celular — qual agrega mais valor?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica padrões comuns na América Latina e analisa como a herança colonial influencia o desenvolvimento contemporâneo.",
+    "observe": "Conecte com debates atuais: políticas de industrialização, reforma agrária, integração regional (MERCOSUL, CELAC).",
+    "answer": "Economia baseada em exportação de matérias-primas, vulnerável a preços externos.",
+    "mediation": "Mostre gráfico de preços da soja nos últimos 20 anos e PIB do Brasil no mesmo período. Qual é a correlação?",
+    "time": "50 minutos"
+  }
+}

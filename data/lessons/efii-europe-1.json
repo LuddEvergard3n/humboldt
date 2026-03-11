@@ -1,0 +1,72 @@
+{
+  "id": "efii-europe-1",
+  "moduleId": "efii-europe",
+  "title": "Europa: industrialização, conflitos e integração",
+  "summary": "Da Revolução Industrial à União Europeia: como a Europa moldou o mundo moderno.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que a Europa, tão pequena, dominou o mundo por 500 anos?",
+    "text": "A Europa corresponde a apenas 7% da superfície terrestre e hoje tem 10% da população mundial. Ainda assim, durante séculos colonizou todos os continentes, definiu fronteiras, impôs idiomas e moldou economias globais. Entender a Europa é entender a origem da ordem mundial contemporânea — e também das suas contradições."
+  },
+  "guided": {
+    "title": "Europa: síntese geográfica",
+    "text": "A Europa é o menor continente por área, mas um dos mais influentes historicamente.",
+    "points": [
+      "Localização: península do extremo oeste da massa continental euroasiática.",
+      "Diversidade física: Alpes (barreira central), grandes planícies ao norte e leste, Mediterrâneo ao sul.",
+      "Diversidade humana: mais de 40 países, dezenas de línguas, três grandes famílias linguísticas.",
+      "Revolução Industrial (séc. XVIII-XIX): nasceu na Grã-Bretanha e transformou o mundo — urbanização, fábricas, ferrovias, imperialismo.",
+      "União Europeia: projeto de integração pós-guerras mundiais, hoje com 27 países e moeda única (euro)."
+    ]
+  },
+  "relations": {
+    "title": "As guerras mundiais e a reconstrução",
+    "text": "A Europa foi palco das duas guerras mais destruidoras da história. A Primeira Guerra (1914-1918) matou 20 milhões; a Segunda (1939-1945), 70 milhões. Da destruição veio a lição: integração econômica como garantia de paz. O projeto europeu nasceu dessa ideia — e ainda é a experiência mais avançada de integração supranacional do mundo."
+  },
+  "caseStudy": {
+    "title": "O Brexit e os limites da integração",
+    "text": "Em 2016, o Reino Unido votou por deixar a União Europeia — o Brexit. As razões: soberania nacional, controle da imigração, rejeição às regras de Bruxelas. Em 2020, saiu formalmente. Consequências: fronteiras comerciais com a UE, perda de livre circulação de britânicos, tensões na Irlanda do Norte. Um experimento geopolítico em tempo real sobre os limites da integração supranacional."
+  },
+  "application": "Pesquise: quais países europeus não fazem parte da União Europeia? Por que alguns escolheram ficar de fora (ex: Suíça, Noruega)?",
+  "activity": {
+    "question": "Qual evento histórico diretamente motivou a criação do projeto de integração europeia?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "guerras",
+    "options": [
+      {
+        "value": "guerras",
+        "label": "As duas guerras mundiais — a integração econômica foi pensada como garantia de paz"
+      },
+      {
+        "value": "colonial",
+        "label": "O fim do colonialismo europeu na África e Ásia"
+      },
+      {
+        "value": "urss",
+        "label": "A ameaça da expansão soviética durante a Guerra Fria"
+      },
+      {
+        "value": "comercio",
+        "label": "A necessidade de competir com os EUA no comércio global"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A União Europeia nasceu da convicção de que países economicamente integrados não se fazem guerra. O trauma das guerras mundiais foi o motor da integração.",
+      "incorrect": "Embora outros fatores tenham contribuído, o projeto europeu tem raiz direta na devastação das guerras mundiais."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Dois conflitos que destruíram a Europa. O que países vizinhos fariam para garantir que não se repetissem?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a posição histórica da Europa na ordem mundial e o processo de integração supranacional da União Europeia.",
+    "observe": "Conecte com atualidade: guerra na Ucrânia, populismo europeu, Brexit, crise de refugiados. A Europa está em disputa sobre seu próprio projeto.",
+    "answer": "As guerras mundiais — integração como garantia de paz.",
+    "mediation": "Mapa da Europa antes e depois da UE. Quais fronteiras mudaram? Quais países surgiram ou desapareceram no século XX?",
+    "time": "50 minutos"
+  }
+}

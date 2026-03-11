@@ -1,0 +1,72 @@
+{
+  "id": "landscape-3",
+  "moduleId": "landscape",
+  "title": "Paisagem urbana: a cidade como texto a ser lido",
+  "summary": "Como a morfologia urbana revela desigualdade, história e planejamento.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que bairros ricos têm mais árvores?",
+    "text": "Estudos em dezenas de cidades mostram que a cobertura vegetal urbana segue a renda: bairros ricos têm de 2 a 5 vezes mais árvores que bairros pobres. Isso não é acidente — é resultado de décadas de investimento diferenciado. A paisagem urbana não é neutra: ela é um registro espacial das desigualdades."
+  },
+  "guided": {
+    "title": "Elementos da paisagem urbana",
+    "text": "A paisagem urbana pode ser lida como um texto — cada elemento revela algo sobre a sociedade que o produziu.",
+    "points": [
+      "Morfologia urbana: a forma das ruas, quarteirões e edificações. Cidades planejadas têm traçado regular; cidades crescidas organicamente têm traçado irregular.",
+      "Uso do solo: o que acontece em cada parte da cidade — residencial, comercial, industrial, verde, institucional.",
+      "Verticalidade: arranha-céus indicam valorização e densidade. Periferias tendem a ser horizontais e esparsas.",
+      "Infraestrutura: pavimentação, saneamento, iluminação — sua distribuição revela prioridades políticas.",
+      "Segregação socioespacial: a separação física de grupos sociais na cidade — um fenômeno com raízes históricas e consequências atuais."
+    ]
+  },
+  "relations": {
+    "title": "Centro × periferia",
+    "text": "A estrutura centro-periferia organiza a maioria das metrópoles brasileiras: o centro tem mais serviços, empregos e infraestrutura. A periferia tem mais moradores, mas menos recursos. Quem mora longe paga duplamente: no transporte e no tempo. Um trabalhador que mora a 2 horas do trabalho perde cerca de 1.000 horas por ano só em deslocamento."
+  },
+  "caseStudy": {
+    "title": "O Minhocão como espelho da cidade",
+    "text": "O Elevado Costa e Silva (Minhocão), em São Paulo, foi construído em 1971 para resolver o trânsito do centro. Resultou em desvalorização dos imóveis vizinhos, ruído constante e abandono do entorno. Décadas depois, a pressão popular transformou o elevado em parque aos domingos. Em 2022, a prefeitura anunciou a demolição. Uma estrutura urbana, três fases — cada uma revelando a política da época."
+  },
+  "application": "Observe a paisagem de dois bairros da sua cidade: um central e um periférico. Liste as diferenças em: pavimentação, árvores, tipo de construção, serviços visíveis. O que essas diferenças revelam?",
+  "activity": {
+    "question": "O que é segregação socioespacial?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "separacao",
+    "options": [
+      {
+        "value": "separacao",
+        "label": "A separação física de grupos sociais no espaço urbano, com acesso diferenciado a serviços e infraestrutura"
+      },
+      {
+        "value": "bairro",
+        "label": "A divisão de uma cidade em bairros com nomes diferentes"
+      },
+      {
+        "value": "transporte",
+        "label": "A separação de vias para carros e ônibus nas cidades"
+      },
+      {
+        "value": "zoneamento",
+        "label": "A divisão legal de áreas para uso residencial e comercial"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Segregação socioespacial é quando grupos sociais diferentes ocupam partes distintas da cidade — e essa separação gera acesso desigual a oportunidades.",
+      "incorrect": "Segregação vai além de divisão administrativa. Pense em quem mora onde e o que isso significa em termos de acesso a serviços."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Em qual bairro de São Paulo você preferiaria ser atendido em emergência médica: Jardins ou Cidade Tiradentes? Por quê?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno lê a paisagem urbana como registro das desigualdades sociais e identifica os principais elementos da morfologia urbana.",
+    "observe": "Evite culpar os moradores de periferias pela condição do lugar. Enfatize que a segregação é produto de decisões históricas de investimento, não de escolha individual.",
+    "answer": "Separação física de grupos sociais com acesso desigual a serviços e infraestrutura.",
+    "mediation": "Use imagens de satélite comparando dois bairros. Peça que identifiquem: onde há mais verde? Ruas mais largas? Construções mais altas? O que isso indica?",
+    "time": "50 minutos"
+  }
+}

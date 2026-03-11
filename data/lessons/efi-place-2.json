@@ -1,0 +1,70 @@
+{
+  "id": "efi-place-2",
+  "moduleId": "efi-place",
+  "title": "Pontos de referência e trajetos",
+  "summary": "Como nos orientamos no espaço usando marcos e caminhos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Como você explica o caminho para um amigo?",
+    "text": "Quando precisamos explicar um caminho, usamos pontos de referência: 'vira à esquerda no semáforo', 'passa pela padaria'. Esses marcos são nossa bússola no espaço cotidiano."
+  },
+  "guided": {
+    "title": "Pontos de referência",
+    "text": "Pontos de referência são elementos que se destacam na paisagem e nos ajudam a nos localizar.",
+    "points": [
+      "Podem ser naturais: uma árvore grande, um morro, um rio.",
+      "Podem ser construídos: uma torre de igreja, um mercado, uma escola.",
+      "O bom ponto de referência é fácil de ver e memorizar."
+    ]
+  },
+  "relations": {
+    "title": "Trajeto e mapa mental",
+    "text": "Toda pessoa tem um 'mapa mental' da cidade: a rota que conhece, os atalhos que descobriu. Esse mapa é subjetivo. A Cartografia transforma esses mapas mentais em representações precisas e compartilháveis."
+  },
+  "caseStudy": {
+    "title": "O guia cego de Nova Iorque",
+    "text": "Pesquisadores estudaram como pessoas cegas se orientam em cidades. Elas usam pontos de referência não visuais: o cheiro de padaria, o barulho do metrô, a textura do calçamento. Isso mostra que a orientação espacial usa todos os sentidos."
+  },
+  "application": "Escolha um trajeto que você faz toda semana. Liste três pontos de referência que você usa nesse percurso.",
+  "activity": {
+    "question": "O que é um ponto de referência?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "marco",
+    "options": [
+      {
+        "value": "marco",
+        "label": "Um elemento da paisagem que se destaca e nos ajuda a nos localizar"
+      },
+      {
+        "value": "mapa",
+        "label": "Um mapa impresso da cidade"
+      },
+      {
+        "value": "nome-rua",
+        "label": "O nome de uma rua"
+      },
+      {
+        "value": "gps",
+        "label": "Um aplicativo de GPS"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Pontos de referência são marcos — naturais ou construídos — que usamos para nos orientar.",
+      "incorrect": "Pense em algo que você usa para saber onde está, antes de olhar qualquer mapa."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Uma árvore centenária, uma torre ou uma escola podem ser pontos de referência."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica pontos de referência no espaço cotidiano e descreve trajetos usando-os.",
+    "observe": "Verifique se o aluno distingue entre instrução genérica e ponto de referência específico.",
+    "answer": "Elemento da paisagem destacado que ajuda na orientação.",
+    "mediation": "Peça que o aluno descreva como ir da escola à sua casa. Identifique os pontos de referência.",
+    "time": "50 minutos"
+  }
+}

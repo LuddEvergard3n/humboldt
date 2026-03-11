@@ -1,0 +1,72 @@
+{
+  "id": "em-brazil-challenges-2",
+  "moduleId": "em-brazil-challenges",
+  "title": "Infraestrutura brasileira: gargalos e oportunidades",
+  "summary": "Logística, energia e telecomunicações como determinantes do desenvolvimento.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O Brasil perde R$ 800 bilhões por ano com ineficiências logísticas — o 'Custo Brasil'.",
+    "text": "Um saco de soja produzido em Mato Grosso percorre 2.000 km por rodovia péssima até o porto de Santos — quando poderia ir por ferrovia ou hidrovia. O frete rodoviário brasileiro é caro, os portos são congestionados e a malha ferroviária tem metade do tamanho que deveria. O 'Custo Brasil' — a soma de ineficiências que encarecem a produção — é estimado em 15-20% do PIB anualmente."
+  },
+  "guided": {
+    "title": "A infraestrutura brasileira",
+    "text": "A infraestrutura é a espinha dorsal do desenvolvimento — e o Brasil tem gargalos significativos em todos os modais.",
+    "points": [
+      "Rodovias: 75% das cargas e 95% dos passageiros andam de caminhão ou ônibus. Mais caro e menos eficiente que ferrovia.",
+      "Ferrovias: o Brasil tem 30.000 km de ferrovia — metade do que a Argentina, 1/10 dos EUA. Concentradas no Sudeste.",
+      "Hidrovias: a Hidrovia do Paraguai-Paraná e a Amazônica são subutilizadas. Barco é mais barato que caminhão por tonelada-km.",
+      "Energia: 85% renovável na eletricidade. Mas distribição e transmissão têm perdas e vulnerabilidade.",
+      "Saneamento: 35 milhões sem esgoto — custa mais tratar doenças do que construir a infraestrutura preventiva."
+    ]
+  },
+  "relations": {
+    "title": "PAC e os ciclos de investimento em infraestrutura",
+    "text": "O Brasil teve ciclos de investimento intenso em infraestrutura: JK (Brasília, rodovias federais), Regime Militar (Itaipu, Transamazônica), PAC 1 e 2 (2007-2014). Cada ciclo deixou obras — mas também dívidas e impactos socioambientais. A continuidade do investimento é o principal desafio: no Brasil, a infraestrutura é frequentemente usada como variável de ajuste fiscal nos momentos de crise."
+  },
+  "caseStudy": {
+    "title": "O Porto de Santos e o gargalo logístico",
+    "text": "O Porto de Santos é o maior da América Latina e movimenta 30% do comércio exterior brasileiro. Em 2023, chegou a ter filas de 60 km de caminhões esperando para descarregar. O gargalo não é só o porto — é a ausência de ferrovias conectando o porto ao interior. O Arco Ferroviário de São Paulo, planejado há décadas, ainda não foi concluído. Cada dia de atraso custa ao agronegócio e ao consumidor."
+  },
+  "application": "Pesquise: qual é a principal modal de transporte de cargas do Brasil? Compare com os EUA e a Alemanha. O que explica a diferença? Quais são as consequências econômicas e ambientais?",
+  "activity": {
+    "question": "Por que o Brasil é chamado de 'país de base rodoviária' e quais são os problemas desse modelo?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "caro-poluente",
+    "options": [
+      {
+        "value": "caro-poluente",
+        "label": "Porque 75% das cargas vão por rodovia, o modal mais caro e poluente por tonelada-km — resultado de décadas de política de investimento no JK e depois"
+      },
+      {
+        "value": "estradas",
+        "label": "Porque o Brasil tem mais estradas que qualquer outro país da América do Sul"
+      },
+      {
+        "value": "carros",
+        "label": "Porque os brasileiros preferem o automóvel e isso influenciou a política de transporte"
+      },
+      {
+        "value": "petroleo",
+        "label": "Porque o Brasil tem petróleo e quis estimular seu uso no transporte"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A matriz rodoviária brasileira é resultado de escolhas políticas dos anos 1950-60 (JK, indústria automobilística). Rodovia é o modal mais caro por tonelada-km e o mais emissor de CO₂ — e o Brasil depende dele para 75% de suas cargas.",
+      "incorrect": "A dependência rodoviária não é cultural nem geográfica — é resultado de decisões políticas que favoreceram a indústria automobilística em detrimento de ferrovias e hidrovias."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "JK: 'cinquenta anos em cinco'. O que ele construiu? Rodovias e indústria de automóveis. O que ele não construiu? Ferrovias."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a infraestrutura brasileira como condicionante do desenvolvimento e compreende os gargalos logísticos e suas consequências econômicas e ambientais.",
+    "observe": "Conecte com a produção agropecuária: o custo do frete afeta diretamente o preço dos alimentos. A infraestrutura é uma questão de custo de vida, não apenas de engenharia.",
+    "answer": "75% das cargas por rodovia — modal mais caro e poluente, resultado de escolhas políticas dos anos 1950.",
+    "mediation": "Calcule junto com os alunos: quanto custa transportar 1 tonelada de soja de Mato Grosso a Santos por caminhão vs. ferrovia vs. hidrovia? Onde o dinheiro vai?",
+    "time": "50 minutos"
+  }
+}

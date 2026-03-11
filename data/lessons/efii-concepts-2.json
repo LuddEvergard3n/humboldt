@@ -1,0 +1,71 @@
+{
+  "id": "efii-concepts-2",
+  "moduleId": "efii-concepts",
+  "title": "Lugar, paisagem e território: três formas de ver o espaço",
+  "summary": "Os conceitos-chave da análise geográfica.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Um rio pode ser um lugar, uma paisagem e um território ao mesmo tempo?",
+    "text": "O Rio São Francisco é simultaneamente: uma paisagem (o que vemos — água, mata ciliar, barcos); um lugar (com significado para os ribeirinhos que ali vivem); e um território (disputado por estados, agricultores, indígenas e o governo). Três conceitos, um mesmo espaço."
+  },
+  "guided": {
+    "title": "Conceitos geográficos fundamentais",
+    "text": "A Geografia usa conceitos específicos para analisar o espaço de forma rigorosa.",
+    "points": [
+      "Lugar: espaço vivido, carregado de significado e identidade. É subjetivo — meu lugar é diferente do seu.",
+      "Paisagem: tudo que podemos perceber num espaço. É objetiva e subjetiva ao mesmo tempo.",
+      "Território: espaço definido e controlado por relações de poder — de um Estado, uma comunidade, uma empresa.",
+      "Região: conjunto de lugares com características comuns que justificam agrupá-los para análise."
+    ]
+  },
+  "relations": {
+    "title": "Território e poder",
+    "text": "Todo território implica poder: quem define suas fronteiras, quem entra e quem sai. Disputas territoriais existem quando grupos diferentes reivindicam o mesmo espaço."
+  },
+  "caseStudy": {
+    "title": "Os sem-teto e o direito ao lugar",
+    "text": "Movimentos de sem-teto ocupam terrenos vazios em cidades — criando acampamentos que se tornam lugares vividos. Para o movimento, é o exercício do direito à moradia. Para o proprietário, é invasão do seu território. Dois pontos de vista sobre o mesmo espaço."
+  },
+  "application": "Escolha um espaço que você conhece bem. Descreva-o como: (1) paisagem — o que você vê; (2) lugar — o que ele significa; (3) território — quem controla.",
+  "activity": {
+    "question": "Qual conceito descreve o espaço sob o ponto de vista do controle e do poder?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "territorio",
+    "options": [
+      {
+        "value": "territorio",
+        "label": "Território — espaço definido e controlado por relações de poder"
+      },
+      {
+        "value": "lugar",
+        "label": "Lugar — espaço carregado de significado pessoal"
+      },
+      {
+        "value": "paisagem",
+        "label": "Paisagem — o que podemos perceber num espaço"
+      },
+      {
+        "value": "regiao",
+        "label": "Região — conjunto de lugares com características comuns"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Território é a dimensão do poder no espaço. Quem controla? Quem decide? Quem pode entrar?",
+      "incorrect": "Pense em fronteiras, controle de acesso, disputas. Qual conceito está associado ao poder sobre um espaço?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Estado, fronteiras, soberania, controle — qual conceito geográfico está ligado a essas ideias?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue e aplica os conceitos de lugar, paisagem, território e região em análises geográficas.",
+    "observe": "Evite tratar os conceitos como definições a memorizar. Explore-os como ferramentas de análise.",
+    "answer": "Território — dimensão do poder sobre o espaço.",
+    "mediation": "Peça que analisem a escola usando os quatro conceitos: É um lugar? Uma paisagem? Um território? Uma região?",
+    "time": "50 minutos"
+  }
+}

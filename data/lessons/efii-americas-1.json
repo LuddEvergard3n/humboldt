@@ -1,0 +1,71 @@
+{
+  "id": "efii-americas-1",
+  "moduleId": "efii-americas",
+  "title": "As Américas: formação e divisão",
+  "summary": "Do 'Novo Mundo' à América Latina e Anglo-Saxônica.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que metade da América fala espanhol ou português e a outra fala inglês?",
+    "text": "Essa divisão linguística reflete séculos de colonização: ibérica (Portugal e Espanha) ao sul, inglesa ao norte. Essa diferença colonial criou dois mundos dentro do mesmo continente — com economias, instituições e desigualdades muito diferentes."
+  },
+  "guided": {
+    "title": "Divisão do continente americano",
+    "text": "O continente americano é frequentemente dividido com base em critérios históricos e culturais.",
+    "points": [
+      "América Anglo-Saxônica: EUA e Canadá — colonização britânica, língua inglesa, industrialização precoce.",
+      "América Latina: México, América Central e do Sul — colonização ibérica, línguas latinas, desenvolvimento tardio.",
+      "América Central e Caribe: região de transição, grande diversidade cultural, herança colonial variada.",
+      "A divisão Norte/Sul é geográfica. A divisão Anglo/Latina é histórico-cultural."
+    ]
+  },
+  "relations": {
+    "title": "Desigualdade no continente",
+    "text": "A América tem os países mais ricos (EUA, Canadá) e alguns dos mais desiguais do mundo (Brasil, Guatemala, Honduras). Essa desigualdade tem raízes coloniais: colônias de exploração (América Latina) vs. colônias de povoamento (América Anglo-Saxônica) criaram estruturas econômicas muito diferentes."
+  },
+  "caseStudy": {
+    "title": "O NAFTA e as desigualdades no México",
+    "text": "Em 1994, o México entrou no NAFTA — acordo de livre comércio com EUA e Canadá. O acordo trouxe indústrias, mas destruiu a agricultura camponesa que não conseguiu competir com o milho subsidiado americano. Milhões de agricultores migraram para as cidades ou para os EUA. Um exemplo de como acordos comerciais redefinem territórios."
+  },
+  "application": "Compare: qual é o IDH (Índice de Desenvolvimento Humano) do Brasil, dos EUA e do Haiti? O que explica essas diferenças?",
+  "activity": {
+    "question": "O que define a América Latina como um conjunto?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "colonial",
+    "options": [
+      {
+        "value": "colonial",
+        "label": "Herança da colonização ibérica (Portugal e Espanha) e uso de línguas latinas"
+      },
+      {
+        "value": "pobre",
+        "label": "Todos os países são pobres"
+      },
+      {
+        "value": "tropico",
+        "label": "Todos ficam na zona tropical"
+      },
+      {
+        "value": "mesmo-idioma",
+        "label": "Todos falam o mesmo idioma"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! 'Latina' vem das línguas latinas (espanhol, português, francês). O critério é histórico-cultural — colonização ibérica.",
+      "incorrect": "Países como Argentina e Chile têm clima temperado. E o Brasil fala português, não espanhol. O que une todos esses países?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "'Latina' vem de línguas latinas. Quais países das Américas foram colonizados por ibéricos?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue América Latina de América Anglo-Saxônica e explica a origem histórica dessa divisão.",
+    "observe": "Cuidado com estereótipos: América Latina não é homogênea. Há diversidade enorme.",
+    "answer": "Herança da colonização ibérica e uso de línguas latinas.",
+    "mediation": "Compare colonização de exploração (Brasil/Peru) vs. colonização de povoamento (EUA/Canadá). Quais as consequências para o desenvolvimento?",
+    "time": "50 minutos"
+  }
+}

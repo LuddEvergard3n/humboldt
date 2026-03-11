@@ -1,0 +1,72 @@
+{
+  "id": "em-urban-regional-1",
+  "moduleId": "em-urban-regional",
+  "title": "Planejamento urbano: quem decide como a cidade cresce?",
+  "summary": "Plano diretor, zoneamento e as forças que moldam o espaço urbano.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "São Paulo tem um Plano Diretor de 1.000 páginas — e ainda cresce de forma caótica.",
+    "text": "Toda grande cidade brasileira tem plano diretor — lei que define o que pode ser construído onde, a que altura e com que densidade. São Paulo revisou o seu em 2014 e 2023. E ainda assim tem enchentes, trânsito e desigualdade habitacional estruturais. Isso não significa que planejamento urbano não funciona — significa que o espaço urbano é um campo de forças onde o plano compete com o capital imobiliário, a especulação e a política."
+  },
+  "guided": {
+    "title": "Instrumentos do planejamento urbano",
+    "text": "O planejamento urbano usa instrumentos jurídicos e econômicos para orientar o crescimento das cidades.",
+    "points": [
+      "Plano Diretor: lei municipal que define o uso do solo, as áreas de expansão e os instrumentos urbanísticos.",
+      "Zoneamento: divisão da cidade em zonas com regras específicas (residencial, comercial, misto, industrial).",
+      "Outorga onerosa: o município cobra por potencial construtivo adicional — receita que financia urbanização.",
+      "IPTU progressivo: imposto sobre imóveis ociosos aumenta progressivamente — pressiona para que a terra cumpra função social.",
+      "Função social da propriedade: princípio constitucional — a propriedade deve ser produtiva ou habitável, não apenas especulada."
+    ]
+  },
+  "relations": {
+    "title": "Especulação imobiliária e gentrificação",
+    "text": "Gentrificação é o processo pelo qual bairros populares são revalorizados e seus moradores originais são expulsos pela alta dos preços. O centro histórico de São Paulo, a Lapa no Rio de Janeiro, o Pelourinho em Salvador passaram por processos assim. Planejamento urbano que não considera os mais pobres pode produzir exatamente o contrário do que se pretende."
+  },
+  "caseStudy": {
+    "title": "Curitiba e os limites do modelo",
+    "text": "Curitiba é internacionalmente citada como exemplo de planejamento urbano: sistema de ônibus articulados, parques lineares, eixos de adensamento. Mas os indicadores da Região Metropolitana são muito piores. Moradores pobres foram empurrados para municípios vizinhos sem os benefícios do planejamento. O modelo de Curitiba funciona para quem está dentro do limite do município planejado."
+  },
+  "application": "Pesquise: sua cidade tem Plano Diretor? Quando foi atualizado? Quais são as principais zonas definidas? Há previsão de IPTU progressivo para imóveis ociosos?",
+  "activity": {
+    "question": "O que é 'função social da propriedade'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "uso-produtivo",
+    "options": [
+      {
+        "value": "uso-produtivo",
+        "label": "O princípio de que a propriedade deve ser usada de forma produtiva ou habitável, não apenas especulada"
+      },
+      {
+        "value": "compartilhada",
+        "label": "A obrigação de compartilhar a propriedade com quem precisa"
+      },
+      {
+        "value": "publica",
+        "label": "A conversão de propriedades privadas em uso público"
+      },
+      {
+        "value": "tributaria",
+        "label": "A tributação progressiva sobre imóveis de alto valor"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Função social da propriedade (CF 1988, Art. 5°) significa que a propriedade que não cumpre função produtiva ou habitacional pode ser objeto de desapropriação ou tributação progressiva.",
+      "incorrect": "Função social da propriedade é um princípio constitucional sobre o uso da propriedade — não sobre compartilhamento ou publicização automática."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A Constituição diz: a propriedade é um direito, mas tem obrigação social. Um terreno vazio no centro da cidade por 20 anos cumpre essa obrigação?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende os instrumentos do planejamento urbano e analisa os conflitos de interesse que determinam como as cidades crescem.",
+    "observe": "Conecte com o bairro dos alunos. O crescimento dele foi planejado? Houve intervenção pública? Quem se beneficiou?",
+    "answer": "Princípio de que a propriedade deve ser usada produtivamente ou habitacionalmente, não apenas especulada.",
+    "mediation": "Análise do Plano Diretor do município em aula. Qual é a zona onde fica a escola? Quais são as regras? O que está previsto para os próximos anos?",
+    "time": "50 minutos"
+  }
+}

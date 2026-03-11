@@ -1,0 +1,72 @@
+{
+  "id": "efii-physical-2",
+  "moduleId": "efii-physical",
+  "title": "Relevo: montanhas, planícies e planaltos",
+  "summary": "As formas da superfície terrestre e os processos que as criam.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que o Rio de Janeiro tem um Pão de Açúcar e Brasília tem uma chapada plana?",
+    "text": "Cada forma de relevo conta uma história de milhões de anos: pressão de placas, erosão de rios, desgaste do vento. O Pão de Açúcar é um inselberg — maciço rochoso resistindo à erosão. O Planalto Central é uma chapada — rocha antiga nivelada pela erosão. Ler o relevo é ler a história geológica de um lugar."
+  },
+  "guided": {
+    "title": "As formas do relevo",
+    "text": "O relevo resulta da combinação de agentes internos (tectônica, vulcanismo) e agentes externos (erosão, sedimentação).",
+    "points": [
+      "Montanha: elevação acentuada, originada por tectônica. Acima de 1.000 m no Brasil.",
+      "Planalto (chapada): superfície elevada e relativamente plana, desgastada pela erosão.",
+      "Planície: superfície baixa e plana, formada por sedimentação (ex: Planície Amazônica).",
+      "Depressão: área mais baixa que as vizinhas, mas acima do nível do mar.",
+      "Serra: conjunto de morros alinhados, geralmente na borda de planaltos."
+    ]
+  },
+  "relations": {
+    "title": "Relevo e vida humana",
+    "text": "O relevo influencia onde as cidades crescem, onde as estradas passam, onde a chuva cai, onde o solo é mais fértil. Cidades tendem a se fixar em planícies às margens de rios. Mas planícies também inundam. O relevo nunca é só paisagem — é condicionante da vida."
+  },
+  "caseStudy": {
+    "title": "As enchentes de Petrópolis",
+    "text": "Petrópolis, na Serra Fluminense, sofre enchentes e deslizamentos recorrentes. Em 2022, mais de 230 pessoas morreram em um único evento. A causa é a combinação de relevo acidentado, chuvas intensas de verão e ocupação desordenada de encostas. O relevo não escolhe vítimas — mas a pobreza determina quem mora nas encostas mais perigosas."
+  },
+  "application": "Observe o relevo ao redor da sua cidade: ela fica em planície, planalto ou vale? Como isso afeta o trânsito, as enchentes e a temperatura?",
+  "activity": {
+    "question": "O que diferencia um planalto de uma planície?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "altitude",
+    "options": [
+      {
+        "value": "altitude",
+        "label": "O planalto é elevado e relativamente plano; a planície é baixa e plana"
+      },
+      {
+        "value": "forma",
+        "label": "O planalto é ondulado; a planície é completamente plana"
+      },
+      {
+        "value": "tamanho",
+        "label": "O planalto é maior que a planície"
+      },
+      {
+        "value": "agua",
+        "label": "O planalto tem rios; a planície não tem"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Tanto o planalto quanto a planície são relativamente planos — a diferença é a altitude. O planalto é elevado; a planície é baixa.",
+      "incorrect": "Os dois podem ser planos. O que os diferencia é a altitude — quão alto cada um está."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Planície = baixo e plano. Planalto = alto e relativamente plano. A diferença é a altitude."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica as principais formas de relevo e compreende como elas influenciam a organização do espaço humano.",
+    "observe": "Relacione relevo com riscos: deslizamentos em serras, enchentes em planícies. Conecte com notícias recentes.",
+    "answer": "Planalto é elevado e relativamente plano; planície é baixa e plana.",
+    "mediation": "Use argila para modelar as formas de relevo. Peça que identifiquem o tipo em fotos de lugares reais.",
+    "time": "50 minutos"
+  }
+}

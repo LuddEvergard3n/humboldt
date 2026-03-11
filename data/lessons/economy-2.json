@@ -1,0 +1,72 @@
+{
+  "id": "economy-2",
+  "moduleId": "economy",
+  "title": "Comércio internacional e divisão do trabalho",
+  "summary": "Por que os países se especializam e como o comércio global é organizado.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O Brasil exporta soja bruta e importa óleo de soja processado da Argentina.",
+    "text": "O Brasil colhe soja, embarca em navios e vende para a China. A China processa, fabrica óleo, proteína e margarina — e vende para o mundo com maior valor agregado. Enquanto isso, o Brasil importa da Argentina o mesmo óleo que poderia ter processado aqui. Esse padrão não é acidente — é o resultado de um século de divisão internacional do trabalho."
+  },
+  "guided": {
+    "title": "Divisão internacional do trabalho",
+    "text": "A divisão internacional do trabalho é a especialização de cada país em determinadas atividades na cadeia produtiva global.",
+    "points": [
+      "Centro: países ricos exportam produtos industrializados e serviços de alto valor (tecnologia, finanças, farmacêutica).",
+      "Periferia: países pobres exportam commodities e trabalho barato.",
+      "Semiperiferia: países como Brasil, China, México — industrializados, mas com inserção subordinada.",
+      "Teoria das vantagens comparativas (Ricardo): cada país deve produzir o que faz com menor custo relativo.",
+      "Crítica: vantagens comparativas são construídas politicamente — não são naturais."
+    ]
+  },
+  "relations": {
+    "title": "A OMC e as regras do comércio global",
+    "text": "A Organização Mundial do Comércio (OMC) regula o comércio entre países. Defende o livre comércio e proíbe subsídios e tarifas excessivas — mas as regras favorecem os países que já têm vantagem industrial. Países ricos subsidiam sua agricultura bilateralmente e depois exigem que países pobres abram seus mercados. Uma assimetria estrutural nas regras do jogo global."
+  },
+  "caseStudy": {
+    "title": "O Brasil e a desindustrialização",
+    "text": "O Brasil chegou a ter 35% do PIB na indústria nos anos 1980. Hoje tem menos de 20%. A concorrência chinesa, a valorização do real e a falta de política industrial acelerada reduziram a participação industrial. O país ficou mais dependente de commodities — soja, minério, petróleo — exatamente o padrão colonial que a industrialização tentava superar."
+  },
+  "application": "Pesquise: quais são os 5 principais produtos exportados pelo Brasil? Qual é o grau de processamento de cada um? Compare com a pauta de exportações da Coreia do Sul.",
+  "activity": {
+    "question": "O que é 'valor agregado' e por que ele importa para o comércio internacional?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "transformacao",
+    "options": [
+      {
+        "value": "transformacao",
+        "label": "É o valor adicionado ao produto pelo processamento — transformar soja em óleo gera mais riqueza que exportar soja bruta"
+      },
+      {
+        "value": "preco",
+        "label": "É o preço final do produto no mercado internacional"
+      },
+      {
+        "value": "qualidade",
+        "label": "É a qualidade do produto medida por padrões internacionais"
+      },
+      {
+        "value": "imposto",
+        "label": "É o imposto cobrado sobre o produto exportado"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Valor agregado é o quanto de transformação (e portanto de riqueza gerada) existe em um produto. Um chip de silício tem muito mais valor agregado que a areia que o originou.",
+      "incorrect": "Pense: um quilo de soja bruta vs. um quilo de óleo de soja processado. Qual tem mais trabalho embutido? Qual gera mais renda para quem produziu?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Soja bruta: apenas colhida. Óleo de soja: colhida, transportada, processada, embalada. Qual etapa adiciona mais valor?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a divisão internacional do trabalho e analisa a posição do Brasil na hierarquia do comércio global.",
+    "observe": "Conecte com debate atual: reindustrialização, política industrial, o papel do BNDES. O Brasil pode mudar sua posição na divisão do trabalho?",
+    "answer": "Valor agregado é o acréscimo de valor pelo processamento — produtos industrializados têm mais que commodities brutas.",
+    "mediation": "Cadeia produtiva do smartphone: de onde vêm as partes? Quem lucra mais em cada etapa? Visualize no quadro.",
+    "time": "50 minutos"
+  }
+}

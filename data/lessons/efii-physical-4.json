@@ -1,0 +1,72 @@
+{
+  "id": "efii-physical-4",
+  "moduleId": "efii-physical",
+  "title": "Hidrografia: rios, bacias e o ciclo da água",
+  "summary": "Os sistemas hídricos e sua importância para o espaço geográfico.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Todos os rios do Brasil chegam ao mesmo oceano — pelos caminhos mais diferentes",
+    "text": "O Amazonas flui 6.400 km para o Atlântico. O Paraná vai para o Sul e desemboca no Rio da Prata. O São Francisco nasce em Minas e termina na Bahia. Cada rio pertence a uma bacia hidrográfica distinta — sistemas que organizam a água do planeta."
+  },
+  "guided": {
+    "title": "Conceitos de hidrografia",
+    "text": "A hidrografia estuda a distribuição e o movimento das águas continentais.",
+    "points": [
+      "Bacia hidrográfica: toda a área que drena para um rio principal e seus afluentes.",
+      "Divisor de águas: linha de relevo que separa bacias — a chuva de um lado vai para um rio; do outro, para outro.",
+      "Regime fluvial: variação da vazão de um rio ao longo do ano.",
+      "Foz: onde o rio encontra o mar ou outro rio. Pode ser delta (vários braços) ou estuário (único braço largo).",
+      "A bacia amazônica é a maior do mundo: 7 milhões de km²."
+    ]
+  },
+  "relations": {
+    "title": "Rios e desenvolvimento",
+    "text": "Historicamente, civilizações nascem às margens de rios: Egito/Nilo, Mesopotâmia/Tigre-Eufrates, China/Yangtze. No Brasil, o São Francisco foi chamado de 'Rio da Integração Nacional' — único jeito de viajar pelo Nordeste antes das estradas."
+  },
+  "caseStudy": {
+    "title": "A transposição do Rio São Francisco",
+    "text": "O projeto de transposição do São Francisco (iniciado em 2007) construiu 700 km de canais para levar água do rio ao semiárido. Defensores: leva água a milhões que dependem de cisternas. Críticos: pode prejudicar o próprio rio e populações ribeirinhas. Um debate geográfico real sobre água e poder."
+  },
+  "application": "Pesquise a qual bacia hidrográfica pertence o principal rio da sua região. Quantos estados essa bacia abrange?",
+  "activity": {
+    "question": "O que é uma bacia hidrográfica?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "area-drenagem",
+    "options": [
+      {
+        "value": "area-drenagem",
+        "label": "Toda a área cujas águas drenam para um mesmo rio principal"
+      },
+      {
+        "value": "lago",
+        "label": "Um grande lago natural"
+      },
+      {
+        "value": "rio-principal",
+        "label": "Apenas o rio principal, sem os afluentes"
+      },
+      {
+        "value": "porto",
+        "label": "Um porto às margens de um rio"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A bacia hidrográfica é toda a área — com todos os rios e riachos — que drena para um mesmo ponto de saída.",
+      "incorrect": "Pense em como a água da chuva se organiza: ela vai para riachos, que vão para rios, que vão para um rio maior. Toda essa área é a..."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Imagine um funil: toda água que cai na borda converge para o bico. A área total desse funil é a bacia."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno define bacia hidrográfica, localiza as principais bacias brasileiras no mapa e compreende a importância dos rios para o desenvolvimento.",
+    "observe": "Conecte com água: bacia hidrográfica é a unidade de gestão dos recursos hídricos.",
+    "answer": "Toda a área cujas águas drenam para um mesmo rio principal.",
+    "mediation": "Mostre mapa de bacias hidrográficas do Brasil. Pergunte: se houver poluição num afluente, onde o impacto chega?",
+    "time": "50 minutos"
+  }
+}

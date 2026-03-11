@@ -1,0 +1,72 @@
+{
+  "id": "geopolitics-3",
+  "moduleId": "geopolitics",
+  "title": "Blocos econômicos: a geografia das alianças comerciais",
+  "summary": "Como países se unem para competir na economia global.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que o Brasil paga imposto para exportar para os EUA, mas não para a Argentina?",
+    "text": "Porque o Brasil e a Argentina fazem parte do MERCOSUL — um bloco econômico que elimina tarifas entre os membros. Blocos econômicos são alianças de países para facilitar o comércio e aumentar poder de negociação."
+  },
+  "guided": {
+    "title": "Blocos econômicos",
+    "text": "Um bloco econômico é uma aliança de países que estabelece regras especiais de comércio entre si.",
+    "points": [
+      "Zona de livre comércio: eliminação de tarifas entre membros. Ex: NAFTA/USMCA.",
+      "União aduaneira: tarifas unificadas para países de fora. Ex: MERCOSUL.",
+      "Mercado comum: livre circulação de mercadorias, serviços, capital e pessoas. Ex: União Europeia.",
+      "União econômica e monetária: moeda única. Ex: Zona do Euro.",
+      "Principais blocos: UE, NAFTA/USMCA, MERCOSUL, ASEAN, União Africana."
+    ]
+  },
+  "relations": {
+    "title": "A UE: o experimento mais ambicioso",
+    "text": "A União Europeia é o bloco mais integrado do mundo: moeda única (euro), parlamento eleito, tribunal de justiça, livre circulação de pessoas. Nasceu como resposta às guerras mundiais — a ideia de que países interdependentes economicamente não se fazem guerra. O Brexit (2020) foi um teste brutal desse projeto."
+  },
+  "caseStudy": {
+    "title": "MERCOSUL: potencial e crise",
+    "text": "O MERCOSUL (1991) une Brasil, Argentina, Uruguai, Paraguai e Venezuela (suspensa). É o quinto maior bloco econômico do mundo. O acordo com a UE, negociado por 20 anos e fechado em 2023, ainda enfrenta resistências — especialmente da França, que teme a concorrência agrícola brasileira."
+  },
+  "application": "Pesquise: quais são os três maiores parceiros comerciais do Brasil? Eles fazem parte do MERCOSUL ou de outros blocos?",
+  "activity": {
+    "question": "O que diferencia uma zona de livre comércio de uma união aduaneira?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "tarifa-externa",
+    "options": [
+      {
+        "value": "tarifa-externa",
+        "label": "A união aduaneira tem tarifa externa comum para países de fora do bloco"
+      },
+      {
+        "value": "moeda",
+        "label": "A união aduaneira tem moeda única"
+      },
+      {
+        "value": "paises",
+        "label": "A zona de livre comércio tem mais países"
+      },
+      {
+        "value": "tempo",
+        "label": "A união aduaneira existe há mais tempo"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Na zona de livre comércio, cada país define sua própria tarifa para países de fora. Na união aduaneira, os membros têm a mesma tarifa externa comum.",
+      "incorrect": "Pense: no MERCOSUL (união aduaneira), o Brasil e a Argentina cobram o mesmo imposto de produtos chineses. Isso seria zona de livre comércio?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Zona de livre comércio = sem tarifas entre membros. União aduaneira = isso + mesma tarifa para países de fora."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue os níveis de integração econômica e localiza os principais blocos no mapa mundial.",
+    "observe": "Conecte com notícias: acordo MERCOSUL-UE, tensões no NAFTA/USMCA, expansão da ASEAN.",
+    "answer": "A união aduaneira tem tarifa externa comum para não-membros.",
+    "mediation": "Jogo dos blocos: cada grupo de alunos representa um bloco. Negociem tarifas. Quem consegue o melhor acordo?",
+    "time": "50 minutos"
+  }
+}

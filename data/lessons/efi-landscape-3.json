@@ -1,0 +1,72 @@
+{
+  "id": "efi-landscape-3",
+  "moduleId": "efi-landscape",
+  "title": "Água: de onde vem e para onde vai",
+  "summary": "O ciclo da água e seu uso no dia a dia.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A água que você bebe hoje pode ter estado num dinossauro",
+    "text": "A Terra tem a mesma quantidade de água há bilhões de anos — ela só muda de lugar e de estado. A água que está no copo hoje já passou pelos oceanos, pelas nuvens, pelos rios e pela terra. Isso é o ciclo hidrológico."
+  },
+  "guided": {
+    "title": "O ciclo da água",
+    "text": "A água se move constantemente entre os oceanos, a atmosfera, o solo e os seres vivos.",
+    "points": [
+      "Evaporação: o Sol aquece a água dos oceanos, que vira vapor e sobe.",
+      "Condensação: o vapor esfria em altitude e forma nuvens.",
+      "Precipitação: a água cai como chuva, neve ou granizo.",
+      "Escoamento: a água corre pelos rios, infiltra no solo ou volta aos oceanos.",
+      "A Amazônia transpira tanta umidade que cria seus próprios rios voadores."
+    ]
+  },
+  "relations": {
+    "title": "A crise da água",
+    "text": "Apesar de 71% da Terra ser coberta por água, apenas 2,5% é doce — e a maior parte está congelada nos polos. Com populações crescendo e clima mudando, a disputa por água limpa será um dos maiores desafios do século XXI."
+  },
+  "caseStudy": {
+    "title": "A crise hídrica em São Paulo",
+    "text": "Em 2014-2015, a represa Cantareira — que abastece 9 milhões de pessoas — ficou com menos de 5% da capacidade. A crise mostrou que a água urbana depende de floresta e de gestão."
+  },
+  "application": "Por um dia, preste atenção em cada vez que você usa água. Conte quantas vezes. O que você poderia economizar?",
+  "activity": {
+    "question": "O que é o ciclo hidrológico?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "ciclo",
+    "options": [
+      {
+        "value": "ciclo",
+        "label": "O movimento contínuo da água entre oceanos, atmosfera e terra"
+      },
+      {
+        "value": "rio",
+        "label": "O caminho que um rio percorre até o mar"
+      },
+      {
+        "value": "chuva",
+        "label": "A queda de água das nuvens"
+      },
+      {
+        "value": "torneira",
+        "label": "O sistema de encanamento das cidades"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O ciclo hidrológico é o movimento contínuo da água — evaporação, condensação, precipitação e escoamento.",
+      "incorrect": "O ciclo hidrológico envolve muito mais que só chuva ou rio. É o movimento completo da água no planeta."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A água evapora, vira nuvem, cai como chuva e volta aos rios. Como se chama esse processo todo?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve as etapas do ciclo da água e compreende sua importância para a vida e o abastecimento.",
+    "observe": "Verifique se o aluno entende que água não some — ela muda de estado e de lugar.",
+    "answer": "Movimento contínuo da água entre oceanos, atmosfera e terra.",
+    "mediation": "Demonstre o ciclo com recipiente fechado com água aquecida: o vapor condensa no plástico e forma 'chuva'.",
+    "time": "50 minutos"
+  }
+}

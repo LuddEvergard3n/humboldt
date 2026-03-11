@@ -1,0 +1,71 @@
+{
+  "id": "em-geopolitics-2",
+  "moduleId": "em-geopolitics",
+  "title": "China e EUA: a rivalidade que define o século XXI",
+  "summary": "A competição entre as duas maiores potências e suas implicações globais.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Os EUA e a China têm a maior relação comercial bilateral do mundo — e são rivais geopolíticos.",
+    "text": "Em 2023, EUA e China trocaram US$ 665 bilhões em comércio — a maior parceria bilateral do planeta. Ao mesmo tempo, os EUA impõem sanções a empresas chinesas de chips, a China financia países para reduzir dependência do dólar, e militares dos dois países se confrontam no Mar do Sul da China. Uma rivalidade entre países que não podem se dar ao luxo de se desconectar."
+  },
+  "guided": {
+    "title": "A rivalidade EUA-China",
+    "text": "A competição EUA-China é multidimensional — tecnológica, econômica, militar e ideológica.",
+    "points": [
+      "Tecnologia: a batalha pelos chips. EUA bloquearam exportação de semicondutores avançados à China (2022). A China investe US$ 150 bilhões para desenvolver chips próprios.",
+      "Moeda: a China quer reduzir o papel do dólar como moeda de reserva global. BRICS discutem moeda alternativa.",
+      "Militar: Taiwan é o principal ponto de atrito. A China considera Taiwan sua própria província; os EUA garantem sua segurança.",
+      "Influência: Belt and Road (China) vs. PGII (Partnership for Global Infrastructure) dos EUA — corrida por influência nos países em desenvolvimento."
+    ]
+  },
+  "relations": {
+    "title": "O dilema de Tucídides",
+    "text": "O historiador grego Tucídides observou que quando uma potência ascendente ameaça o domínio de uma potência estabelecida, guerra é o resultado mais provável. O professor Graham Allison aplicou o conceito ao duelo EUA-China: em 16 dos 17 casos históricos similares, houve guerra. A pergunta não é se haverá conflito — é se a história pode ser reescrita."
+  },
+  "caseStudy": {
+    "title": "A crise de Taiwan",
+    "text": "Taiwan fabrica 90% dos chips mais avançados do mundo (TSMC). Se a China controlar Taiwan, controla o componente mais crítico da economia digital global. Por isso os EUA garantem a defesa de Taiwan. A China considera qualquer ingerência estrangeira em Taiwan uma violação de soberania. Um ponto de atrito com potencial para conflito que afetaria todas as cadeias produtivas do planeta."
+  },
+  "application": "Pesquise: como a rivalidade EUA-China afeta o Brasil? Quem é o maior parceiro comercial do Brasil — EUA ou China? O que isso significa para a política externa brasileira?",
+  "activity": {
+    "question": "Por que Taiwan é um ponto crítico na rivalidade EUA-China?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "chips-soberania",
+    "options": [
+      {
+        "value": "chips-soberania",
+        "label": "Taiwan fabrica os chips mais avançados do mundo — controlar Taiwan significa controlar componente crítico da economia global"
+      },
+      {
+        "value": "militar",
+        "label": "Taiwan tem a segunda maior força militar da Ásia"
+      },
+      {
+        "value": "estreito",
+        "label": "O Estreito de Taiwan controla todas as rotas marítimas do Pacífico"
+      },
+      {
+        "value": "democracia",
+        "label": "Taiwan é a única democracia da Ásia e um símbolo político"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A TSMC em Taiwan fabrica chips que não existe equivalente nos EUA, China ou Europa. Quem controla Taiwan potencialmente controla o componente mais crítico da economia digital global.",
+      "incorrect": "A dimensão econômica e tecnológica é central. Taiwan fabrica os chips mais avançados do mundo — tornando seu controle estrategicamente vital."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Todo smartphone, computador e carro moderno usa chips. 90% dos chips mais avançados vêm de onde?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a rivalidade EUA-China como o eixo central da geopolítica do século XXI e compreende suas implicações para países como o Brasil.",
+    "observe": "Evite simplificar para 'EUA = bom, China = mau' ou vice-versa. Apresente interesses e perspectivas de ambos os lados.",
+    "answer": "Taiwan fabrica a maior parte dos chips avançados mundiais — sua posse significaria controle de componente crítico da economia global.",
+    "mediation": "Mapa de cadeias produtivas de chips: de onde vêm os materiais, onde são projetados, onde fabricados, onde vendidos. Quantos países dependem de Taiwan?",
+    "time": "50 minutos"
+  }
+}

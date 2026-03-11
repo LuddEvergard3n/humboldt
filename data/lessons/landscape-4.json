@@ -1,0 +1,73 @@
+{
+  "id": "landscape-4",
+  "moduleId": "landscape",
+  "title": "Paisagem cultural: como as sociedades marcam o território",
+  "summary": "Arquitetura, língua, religião e tradição como leitura geográfica de um lugar.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Uma estátua de Cristo, um minarete, um templo budista — cada um conta a história de quem esteve ali",
+    "text": "Quando você olha para uma cidade, vê camadas de história: igrejas barrocas que marcam o colonialismo ibérico, traçados urbanos em grade que revelam planejamento norte-americano, favelas que denunciam desigualdade, estádios que mostram cultura esportiva. A paisagem cultural é o texto que uma sociedade escreve no território — e você pode ler esse texto se souber a linguagem."
+  },
+  "guided": {
+    "title": "Paisagem cultural: conceito e elementos",
+    "text": "A paisagem cultural é o resultado da ação humana sobre o espaço natural ao longo do tempo.",
+    "points": [
+      "Paisagem cultural: modificação da natureza pela ação cultural, religiosa, econômica e política de grupos humanos.",
+      "Elementos: arquitetura, idioma dos letreiros, organização das ruas, tipos de vegetação cultivada, monumentos.",
+      "Palimpsesto: a paisagem como texto reescrito — camadas de diferentes épocas sobrepostas.",
+      "Identidade territorial: a paisagem como expressão de quem somos — elementos culturais que definem pertencimento.",
+      "Conflito de paisagens: quando uma paisagem cultural dominante apaga outra — destruição de patrimônio, renomeação de ruas.",
+      "Paisagem e poder: quem decide o que construir, preservar ou demolir exerce poder cultural sobre o território."
+    ]
+  },
+  "relations": {
+    "title": "As cidades como palimpsesto",
+    "text": "Roma tem camadas de dois mil anos visíveis ao mesmo tempo: ruínas romanas ao lado de igrejas medievais ao lado de prédios modernos. Salvador tem arquitetura colonial portuguesa sobre ruínas de terreiros e candomblé. A paisagem nunca começa do zero — ela sobrescreve o que existia. E o que foi apagado também diz muito sobre quem apagou."
+  },
+  "caseStudy": {
+    "title": "Brasília: quando o Estado cria uma paisagem",
+    "text": "Brasília foi inventada do zero em 1960 para ser a capital de uma nação moderna. O plano urbanístico de Lúcio Costa e a arquitetura de Niemeyer expressam uma visão de futuro — avião visto de cima, governo no centro, funcionalidade modernista. Mas a paisagem real de Brasília não é só o Plano Piloto: são as cidades-satélites onde moram os trabalhadores que construíram e mantêm a capital. A paisagem projetada convive com a paisagem real da desigualdade."
+  },
+  "application": "Analise a paisagem do bairro onde você mora: quais elementos revelam a história do lugar? Há camadas de diferentes épocas visíveis?",
+  "activity": {
+    "question": "O conceito de \"paisagem como palimpsesto\" significa que:",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "camadas-tempo",
+    "options": [
+      {
+        "value": "camadas-tempo",
+        "label": "A paisagem acumula camadas de diferentes épocas, com marcas de cada período histórico sobrepostas"
+      },
+      {
+        "value": "escrita",
+        "label": "A paisagem pode ser descrita e documentada por escrito como um texto"
+      },
+      {
+        "value": "pergaminho",
+        "label": "Paisagens antigas são preservadas como documentos históricos valiosos"
+      },
+      {
+        "value": "apagamento",
+        "label": "Cada nova sociedade apaga completamente a paisagem anterior para criar a sua"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Palimpsesto é um pergaminho reescrito por cima do texto anterior — a paisagem acumula camadas visíveis de diferentes períodos históricos.",
+      "incorrect": "Um palimpsesto nunca apaga tudo — sobram traços do original. A paisagem cultural funciona assim: o novo se sobrepõe ao velho sem apagá-lo completamente."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Palimpsesto: papiro medieval raspado para reescrever por cima. Mas o texto original ainda aparecia. A paisagem urbana é assim — camadas de épocas diferentes visíveis ao mesmo tempo."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno lê a paisagem cultural como documento histórico e geográfico, identificando marcas de diferentes períodos e grupos culturais.",
+    "observe": "Faça um exercício prático: peça ao aluno para fotografar e analisar uma paisagem do bairro escolar.",
+    "answer": "A paisagem acumula camadas históricas sobrepostas, como um texto reescrito por cima do original.",
+    "mediation": "Mostre fotos de Roma com camadas visíveis. Pergunte: \"Se você fosse um arqueólogo do futuro, o que descobriria olhando para a paisagem da sua cidade?\"",
+    "time": "50 minutos"
+  }
+}

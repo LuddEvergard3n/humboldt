@@ -74,43 +74,38 @@
     }
   ],
   "activity": {
-    "mapId": "brazil-biomes",
+    "question": "Use as camadas para comparar a distribuição de população, PIB e IDH entre as regiões brasileiras. O que explica as diferenças?",
     "type": "layer-toggle",
-    "instruction": "Ative a camada de desmatamento e observe em quais biomas a pressão é maior.",
-    "question": "Qual bioma brasileiro já perdeu mais de 85% da sua cobertura original?",
-    "correct": "mata-atlantica",
-    "hintAfter": 1,
-    "options": [
+    "layers": [
       {
-        "value": "amazonia",
-        "label": "Amazônia"
+        "id": "regioes",
+        "label": "Regiões do Brasil",
+        "visible": true
       },
       {
-        "value": "mata-atlantica",
-        "label": "Mata Atlântica"
+        "id": "populacao",
+        "label": "Densidade demográfica",
+        "visible": false
       },
       {
-        "value": "cerrado",
-        "label": "Cerrado"
+        "id": "pib",
+        "label": "PIB per capita",
+        "visible": false
       },
       {
-        "value": "caatinga",
-        "label": "Caatinga"
+        "id": "idh",
+        "label": "IDH municipal",
+        "visible": false
       }
     ],
     "feedback": {
-      "correct": "Correto. A Mata Atlântica cobria originalmente cerca de 15% do território. Hoje resta menos de 12% da cobertura original — o bioma mais fragmentado do país.",
-      "incorrect": "Pense onde estão as maiores cidades e a colonização mais antiga do Brasil. Qual bioma foi ocupado primeiro?"
+      "correct": "Sul e Sudeste concentram população, PIB e IDH mais altos. Norte e Nordeste têm IDH menor apesar de vastos territórios. A desigualdade regional é estrutural — produto de investimentos históricos desiguais.",
+      "incorrect": "Ative as camadas de PIB e IDH juntas com as regiões. O que você percebe na comparação Norte/Nordeste vs. Sul/Sudeste?"
     },
     "hints": [
       {
         "type": "text",
-        "content": "O bioma que cobre o litoral dos estados mais populosos foi o primeiro a ser desmatado."
-      },
-      {
-        "type": "layer",
-        "layerId": "bioma-atlantica",
-        "label": "Observe a Mata Atlântica e compare com a área de desmatamento."
+        "content": "São Paulo tem PIB per capita 3x maior que o Maranhão. Isso não é coincidência — é produto de onde o Estado investiu historicamente."
       }
     ]
   },

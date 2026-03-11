@@ -1,0 +1,73 @@
+{
+  "id": "efii-concepts-4",
+  "moduleId": "efii-concepts",
+  "title": "Território: poder, limites e soberania",
+  "summary": "O que é território e como Estados, povos e empresas disputam espaço.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A Amazônia é território brasileiro — mas 25% dela é terra indígena sem Estado",
+    "text": "O Brasil afirma soberania sobre cada centímetro da Amazônia. Mas dentro dela, 600 grupos indígenas exercem poder sobre seus territórios de modo autônomo — com regras próprias, lideranças próprias e, em alguns casos, sem contato com o Estado brasileiro. Quem tem soberania real nessas áreas? O Estado que tem o papel, ou os povos que têm a prática cotidiana? Território não é apenas uma linha no mapa."
+  },
+  "guided": {
+    "title": "Conceito de território",
+    "text": "Território é espaço organizado por relações de poder — não apenas área com fronteiras.",
+    "points": [
+      "Território: espaço apropriado e controlado por um agente (Estado, comunidade, empresa) por meio do poder.",
+      "Territorialidade: o conjunto de práticas que definem e mantêm o controle sobre um território.",
+      "Estado-nação: forma dominante de território no mundo moderno — soberania, fronteiras, monopólio da violência legítima.",
+      "Territórios não-estatais: terras indígenas, domínios de crime organizado, condomínios fechados — exercem poder territorial sem ser Estados.",
+      "Desterritorialização: processos que enfraquecem territórios — digitalização, globalização, migrações.",
+      "Reterritorialização: criação de novos territórios — novas fronteiras, novos estados, comunidades digitais."
+    ]
+  },
+  "relations": {
+    "title": "Empresas como atores territoriais",
+    "text": "Multinacionais controlam territórios de fato sem soberania formal: zonas de processamento de exportação (ZPEs) onde as leis nacionais são flexibilizadas, plataformas petrolíferas em alto-mar, dados de milhões de usuários. A Amazon (empresa) \"conhece\" o comportamento de compra de 200 milhões de pessoas melhor que qualquer Estado. Isso é uma forma de poder territorial — sem mapa, mas real."
+  },
+  "caseStudy": {
+    "title": "Kosovo: quando um povo cria um Estado",
+    "text": "Kosovo era uma província da Sérvia. Em 2008, declarou independência unilateral após uma guerra e intervenção da OTAN. Hoje é reconhecido por 100 países, mas não por outros 90 — incluindo Brasil e China. A ONU não pode admiti-lo porque a Rússia usa veto. Kosovo existe, tem governo, fronteiras, exército — mas juridicamente está em limbo. É um Estado sem consenso internacional."
+  },
+  "application": "Pesquise: quais são os países que não têm saída para o mar (landlocked)? Quais desvantagens isso cria em termos territoriais?",
+  "activity": {
+    "question": "O que melhor define o conceito geográfico de \"território\"?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "espaco-poder",
+    "options": [
+      {
+        "value": "espaco-poder",
+        "label": "Espaço organizado por relações de poder, onde um agente exerce controle e define regras"
+      },
+      {
+        "value": "area-delimitada",
+        "label": "Área física delimitada por fronteiras naturais como rios e montanhas"
+      },
+      {
+        "value": "regiao-climatica",
+        "label": "Região com características físicas homogêneas como clima e vegetação"
+      },
+      {
+        "value": "nacao",
+        "label": "Sinônimo de nação — o país onde um povo historicamente vive"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Território é espaço + poder. Sem relação de poder e controle, é apenas espaço físico — não território.",
+      "incorrect": "Território vai além da área física. O que define um território é quem o controla e como — a relação de poder."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Pense: uma favela tem território? Uma tribo indígena? Uma empresa numa ZPE? O que esses casos têm em comum?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende território como construção social baseada em poder, não como simples área física delimitada.",
+    "observe": "Explore exemplos próximos: o espaço escolar tem territórios? Quem controla o corredor, o banheiro, a quadra?",
+    "answer": "Espaço organizado por relações de poder — o controle é o elemento central, não a área física.",
+    "mediation": "Mostre mapa de territórios indígenas sobrepostos ao mapa político do Brasil. Pergunte: \"Quem tem território aqui?\"",
+    "time": "50 minutos"
+  }
+}

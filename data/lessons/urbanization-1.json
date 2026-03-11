@@ -1,0 +1,72 @@
+{
+  "id": "urbanization-1",
+  "moduleId": "urbanization",
+  "title": "Urbanização mundial: por que o planeta virou urbano",
+  "summary": "O processo histórico de urbanização e suas causas globais.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Em 2008, pela primeira vez na história, mais da metade da humanidade vivia em cidades.",
+    "text": "Em 1800, menos de 3% da população mundial era urbana. Em 1950, 30%. Em 2008, 50%. Em 2050, projeta-se 68%. Em menos de 200 anos, transformamos uma espécie rural em urbana. Esse é o processo mais rápido e profundo de mudança na forma como os seres humanos organizam seu espaço."
+  },
+  "guided": {
+    "title": "O que causa a urbanização",
+    "text": "A urbanização é impulsionada por dois tipos de forças que atuam simultaneamente.",
+    "points": [
+      "Fatores de atração urbana: empregos na indústria e serviços, acesso à saúde e educação, infraestrutura, oportunidades.",
+      "Fatores de expulsão rural: mecanização da agricultura (menos empregos no campo), concentração fundiária, secas e desastres.",
+      "Industrialização: a fábrica precisa de trabalhadores concentrados — as cidades crescem em torno das indústrias.",
+      "Urbanização nos países ricos: gradual, ao longo de 150 anos (séc. XIX-XX).",
+      "Urbanização nos países pobres: acelerada, em décadas — gerando metrópoles sem infraestrutura adequada."
+    ]
+  },
+  "relations": {
+    "title": "Megacidades",
+    "text": "Megacidade é uma aglomeração urbana com mais de 10 milhões de habitantes. Em 1950, havia apenas 2 (Nova Iorque e Tóquio). Em 2023, são 34. A maioria está no Sul Global: Tóquio (37 mi), Delhi (32 mi), Shanghai (29 mi), São Paulo (22 mi), Cidade do México (21 mi). Cidades que nunca foram projetadas para esse tamanho."
+  },
+  "caseStudy": {
+    "title": "Lagos: a megacidade que ninguém planejou",
+    "text": "Lagos, na Nigéria, cresce 600.000 pessoas por ano — equivale a uma cidade do tamanho de Manaus aparecendo a cada dois anos. Em 1950 tinha 300.000 habitantes. Hoje tem 16 milhões. Sem planejamento, sem saneamento adequado, sem sistema de transporte estruturado. E ainda assim é um dos centros econômicos mais dinâmicos da África, com mercados informais que movimentam bilhões. A urbanização do século XXI acontece assim: caótica, desigual e irreversível."
+  },
+  "application": "Pesquise: qual é a taxa de urbanização do seu estado? Compare com a taxa brasileira e a mundial. O seu estado está mais ou menos urbanizado que a média?",
+  "activity": {
+    "question": "O que explica a urbanização acelerada dos países em desenvolvimento no século XX?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "industrializacao-expulsao",
+    "options": [
+      {
+        "value": "industrializacao-expulsao",
+        "label": "A industrialização nas cidades + expulsão do campo pela mecanização e concentração fundiária"
+      },
+      {
+        "value": "clima",
+        "label": "O clima urbano, mais ameno, atrai pessoas do campo"
+      },
+      {
+        "value": "governo",
+        "label": "Políticas governamentais que obrigam pessoas a viver em cidades"
+      },
+      {
+        "value": "natural",
+        "label": "O crescimento natural da população, que sempre foi urbana"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A urbanização resulta de forças que atraem (empregos urbanos) e expulsam (campo mecanizado, sem terra). Os dois vetores atuam simultaneamente.",
+      "incorrect": "A urbanização não é natural nem involuntária. É resultado de estruturas econômicas e políticas que tornam a cidade mais atraente e o campo menos viável."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Por que alguém sai do campo? Por que vai para a cidade? As duas perguntas juntas explicam a urbanização."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno explica as causas da urbanização global e distingue os padrões dos países ricos e dos países em desenvolvimento.",
+    "observe": "Evite romantizar o campo ou demonizar a cidade. A urbanização é um processo complexo com aspectos positivos e negativos.",
+    "answer": "Industrialização + expulsão do campo pela mecanização e concentração fundiária.",
+    "mediation": "Linha do tempo da urbanização mundial com fotos de metrópoles em diferentes épocas. O que mudou na paisagem urbana?",
+    "time": "50 minutos"
+  }
+}

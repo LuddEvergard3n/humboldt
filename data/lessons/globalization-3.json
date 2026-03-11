@@ -1,0 +1,71 @@
+{
+  "id": "globalization-3",
+  "moduleId": "globalization",
+  "title": "Globalização, desigualdade e resistências",
+  "summary": "Quem ganha e quem perde na globalização — e as respostas políticas.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A globalização reduziu a pobreza — mas aumentou a desigualdade.",
+    "text": "Entre 1990 e 2020, 1 bilhão de pessoas saíram da pobreza extrema — principalmente na China e na Índia. A globalização contribuiu para isso. Ao mesmo tempo, a desigualdade dentro dos países cresceu: os 1% mais ricos capturam uma parcela crescente da riqueza global. Como um processo pode fazer as duas coisas ao mesmo tempo?"
+  },
+  "guided": {
+    "title": "Globalização: ganhadores e perdedores",
+    "text": "Os benefícios e custos da globalização não são distribuídos igualmente.",
+    "points": [
+      "Ganhadores: consumidores de países ricos (produtos mais baratos), trabalhadores qualificados, empresas transnacionais, países exportadores de commodities em momentos de alta de preços.",
+      "Perdedores: trabalhadores industriais de países ricos (empregos deslocados para países mais baratos), países que não conseguem competir, comunidades locais impactadas por grandes investimentos.",
+      "A 'maldição dos recursos' se agrava com a globalização: países exportadores de commodities ficam mais vulneráveis a preços externos.",
+      "Desindustrialização precoce: alguns países em desenvolvimento perdem indústria antes de se tornarem ricos — diferente do padrão histórico dos países desenvolvidos."
+    ]
+  },
+  "relations": {
+    "title": "Resistências à globalização",
+    "text": "A globalização gera reações políticas: protecionismo (tarifas para proteger a indústria local), populismo nacionalista (Brexit, Trump, Bolsonaro), movimentos altermundialistas (que propõem outra globalização, mais justa). Nenhum país pode realmente se isolar da economia global — mas todos podem escolher em quais termos participam."
+  },
+  "caseStudy": {
+    "title": "A China e as regras do jogo",
+    "text": "A China entrou na OMC (Organização Mundial do Comércio) em 2001 e usou as regras do livre comércio para se tornar a fábrica do mundo. Ao mesmo tempo, subsidiou empresas estatais, protegeu setores estratégicos e ignorou regras de propriedade intelectual quando lhe convinha. Em 20 anos, se tornou a segunda maior economia. Uma estratégia que usou a globalização sem ser usada por ela."
+  },
+  "application": "Debate: a globalização foi boa ou ruim para o Brasil? Encontre um argumento sólido para cada lado antes de decidir sua posição.",
+  "activity": {
+    "question": "Por que a globalização pode reduzir a pobreza e aumentar a desigualdade ao mesmo tempo?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "distribuicao-desigual",
+    "options": [
+      {
+        "value": "distribuicao-desigual",
+        "label": "Porque o crescimento econômico gerado não é distribuído igualmente — os mais ricos capturam proporcionalmente mais"
+      },
+      {
+        "value": "contradição",
+        "label": "É uma contradição impossível — globalização não pode fazer as duas coisas"
+      },
+      {
+        "value": "regioes",
+        "label": "Porque reduz pobreza em algumas regiões e aumenta desigualdade em outras, mas nunca no mesmo lugar"
+      },
+      {
+        "value": "tempo",
+        "label": "Porque primeiro aumenta a desigualdade e depois reduz a pobreza, em sequência"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O crescimento global criou riqueza, mas a distribuição dessa riqueza é muito desigual. Uma maré que sobe levanta todos os barcos — mas os iates sobem mais que as canoas.",
+      "incorrect": "Os dois fenômenos podem ocorrer simultaneamente. Pense: se o PIB cresce 10% e os mais ricos ficam com 8% desse crescimento, o que acontece com a desigualdade mesmo havendo crescimento geral?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Se o bolo cresce, mas uma fatia fica maior a cada ano, o que acontece com as outras fatias?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa criticamente a globalização, identificando seus benefícios e custos distribuídos de forma desigual, e avalia as respostas políticas ao processo.",
+    "observe": "Evite simplificar: globalização não é só boa nem só má. O desafio intelectual é sustentar a complexidade — crescimento E desigualdade, integração E exclusão.",
+    "answer": "O crescimento gerado não é distribuído igualmente — os mais ricos capturam proporcionalmente mais.",
+    "mediation": "Gráfico do índice de Gini mundial e do PIB per capita de 1990 a 2020. Mostre os dois crescendo ao mesmo tempo. Por quê?",
+    "time": "50 minutos"
+  }
+}

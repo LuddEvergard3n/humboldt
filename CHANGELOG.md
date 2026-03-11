@@ -3,6 +3,55 @@
 Todas as alterações significativas do projeto são documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
+
+## [0.7.0] — 2025-03-11
+
+### Adicionado
+
+**Conteúdo — 16 novas lições (80 → 96 total):**
+- `efii-africa-3`: Urbanização africana — Lagos, Cairo, Kinshasa e o crescimento mais acelerado do planeta (activity: `layer-toggle`)
+- `efii-africa-4`: África e as mudanças climáticas — injustiça climática e impactos no continente menos poluidor
+- `population-3`: Transição demográfica — fases do ciclo e envelhecimento populacional
+- `population-4`: Refugiados e deslocados — 100 milhões fora de casa, fluxos e o sistema internacional (activity: `flow-map`)
+- `efii-americas-4`: América Central e Caribe — Triângulo Norte, migração e influência norte-americana (activity: `map-click`)
+- `efii-americas-5`: Amazônia e Patagônia — rios voadores, Atacama e a Corrente de Humboldt
+- `efii-europe-4`: União Europeia — integração, Brexit e a crise grega (activity: `map-click`)
+- `efii-europe-5`: Europa e imigração — envelhecimento, rotas mediterrânea e balcânica (activity: `flow-map`)
+- `efii-concepts-4`: Território — poder, soberania e atores não-estatais
+- `efii-concepts-5`: Redes e fluxos — cabos submarinos, Pix e o espaço invisível
+- `urbanization-4`: Metrópoles globais — hierarquia urbana e São Paulo em perspectiva (activity: `before-after`)
+- `urbanization-5`: Segregação urbana — periferização, gentrificação e desigualdade racial
+- `globalization-4`: Cadeias produtivas globais — do coltan ao iPhone (activity: `flow-map`)
+- `globalization-5`: Resistências à globalização — Slow Food, glocalização e soberania alimentar
+- `landscape-4`: Paisagem cultural — palimpsesto, Brasília e identidade territorial
+- `landscape-5`: Paisagem e tempo geológico — relevo, recursos e o Pantanal (activity: `layer-toggle`)
+
+**Diversificação de atividades — 3 lições convertidas:**
+- `efii-physical-3`: `single-choice` → `layer-toggle` (biomas × clima × altitude)
+- `brazil-2`: `single-choice` → `layer-toggle` (regiões × PIB × IDH × densidade)
+- `population-1`: `single-choice` → `before-after` (pirâmide etária 1980 × 2020)
+
+**Fenômenos — campo `phenomena` adicionado a todos os 22 módulos:**
+- Mapeamento completo: 8 fenômenos × 18 módulos com cobertura relevante
+- `inequality`: 11 módulos · `migration`: 9 · `water/city/border/energy/transport`: 6 · `climate`: 4
+
+### Corrigido
+
+- Views de escala e fenômeno: removido `modules-inner` como container (causava double-padding)
+- Views de escala e fenômeno: substituído `--space-10` (token inexistente) por `--space-12`
+- `lesson-card`: `gap: var(--space-5)` → `gap: var(--space-4)` (token inexistente zerava o gap)
+- `.lesson-card-type { display: none }` — rótulos em inglês removidos da listagem de lições
+- `index.json`: formato corrigido de `{ lessons: [] }` para `{ id: { moduleId, title... } }` (esperado pelos testes)
+- `data-tests.js`: validação de `activity.correct` agora ignora tipos sem resposta binária (`layer-toggle`, `flow-map`, `before-after`, `map-click`, `compass`, `scale`)
+
+### Alterado
+
+- `modules.json`: contagem de lições atualizada em 8 módulos expandidos
+- `data/lessons/index.json`: 96 entradas (era 80)
+- `README.md`: tabelas de conteúdo, schema de lição e estrutura de arquivos atualizados para refletir estado atual
+
+---
+
 ---
 
 ## [1.0.1] — 2025-03-08

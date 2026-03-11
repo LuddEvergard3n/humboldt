@@ -1,0 +1,61 @@
+{
+  "id": "urbanization-4",
+  "moduleId": "urbanization",
+  "title": "Metrópoles globais: hierarquia urbana e poder",
+  "summary": "Por que Nova York, Londres e Tóquio comandam o planeta — e o que define uma cidade global.",
+  "activityType": "before-after",
+  "phenomenon": {
+    "title": "São Paulo toma decisões que afetam o Rio Grande do Sul — mas não o contrário",
+    "text": "Sede de 40% dos bancos brasileiros, 60% das sedes de multinacionais e a maior bolsa de valores do país, São Paulo comanda a economia nacional sem ser capital política. A decisão de uma empresa sobre onde instalar uma fábrica, feita num escritório em Pinheiros, afeta empregos em Caxias do Sul. Isso é hierarquia urbana: algumas cidades mandam, outras obedecem — não por lei, mas por concentração de poder econômico."
+  },
+  "guided": {
+    "title": "Hierarquia urbana e cidades globais",
+    "text": "As cidades não são iguais: existem níveis de importância e influência no sistema urbano.",
+    "points": [
+      "Metrópole global (Alpha++): Nova York, Londres, Tóquio — controlam finanças e decisões mundiais.",
+      "Metrópole global (Alpha): São Paulo, Paris, Dubai, Cingapura — influência continental e setorial.",
+      "Metrópole regional: Buenos Aires, Bogotá, Lagos — dominam seus países ou regiões.",
+      "Capital nacional: organiza seu país sem necessariamente ter influência internacional.",
+      "Centro regional, local: influência limitada ao território próximo.",
+      "Rede de cidades: as relações entre cidades criam o sistema urbano — nenhuma cidade existe isolada."
+    ]
+  },
+  "relations": {
+    "title": "A cidade que comanda sem ser capital",
+    "text": "São Paulo é o maior caso de dissociação entre poder político e econômico no Brasil: Brasília é a capital, mas São Paulo é o comando econômico. No mundo, Nova York não é capital dos EUA, mas comanda mais que Washington em muitas decisões. Dubai não é capital dos Emirados (é Abu Dhabi), mas concentra negócios e turismo. O poder urbano não segue necessariamente o poder político."
+  },
+  "caseStudy": {
+    "title": "Cingapura: cidade-Estado que comanda a Ásia",
+    "text": "Cingapura tem 6 milhões de habitantes e 728 km² — menor que o município de São Paulo. Mas é o maior porto de transbordo do mundo, segundo centro financeiro da Ásia e hub de tecnologia. Sua localização no Estreito de Málaca — por onde passa 40% do comércio marítimo mundial — transformou uma ilha sem recursos naturais na cidade mais rica per capita da Ásia."
+  },
+  "application": "Pesquise: qual é a diferença entre megacidade (por população) e cidade global (por influência)? Dê um exemplo de cidade que é uma mas não a outra.",
+  "activity": {
+    "question": "Compare São Paulo em 1950 e 2020. O que mudou na estrutura urbana da cidade?",
+    "type": "before-after",
+    "before": {
+      "label": "São Paulo — 1950",
+      "description": "2,5 milhões de habitantes. Área urbanizada concentrada na várzea do Tietê. Centro histórico dominante. Poucos bairros além da Avenida Paulista."
+    },
+    "after": {
+      "label": "São Paulo — 2020",
+      "description": "12 milhões de habitantes. Mancha urbana contínua com ABC, Guarulhos e Osasco. 39 municípios na Grande SP. Centro histórico degradado; poder econômico migrou para Faria Lima."
+    },
+    "feedback": {
+      "correct": "São Paulo cresceu 5x em população e muito mais em área — criando periferização, fragmentação e policentralidade. O centro histórico perdeu poder para novos centros financeiros.",
+      "incorrect": "Compare: onde estava o poder econômico em 1950 e onde está hoje? O que substituiu o centro histórico?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A Avenida Paulista foi residencial até 1960. A Faria Lima só virou centro financeiro nos anos 1990. O poder urbano se move dentro da cidade."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a hierarquia urbana, identifica os diferentes níveis de cidades e reconhece como o poder econômico se distribui no sistema urbano.",
+    "observe": "Use o índice GaWC de cidades globais como referência — e discuta critérios: por que uma cidade \"comanda\"?",
+    "answer": "São Paulo cresceu de 2,5M para 12M, expandiu sua área urbana, criou policentralidade e integrou município a outras cidades da Grande SP.",
+    "mediation": "Pergunte: \"Se São Paulo parasse por uma semana, o que aconteceria com a economia brasileira? E se Belém parasse?\"",
+    "time": "50 minutos"
+  }
+}

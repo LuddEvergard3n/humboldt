@@ -1,0 +1,72 @@
+{
+  "id": "em-environment-3",
+  "moduleId": "em-environment",
+  "title": "Desenvolvimento sustentável: conceito, contradições e alternativas",
+  "summary": "O que significa 'desenvolvimento sustentável' e por que é difícil de praticar.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "'Desenvolvimento sustentável' é o conceito mais usado — e mais contestado — da agenda ambiental.",
+    "text": "Desde o Relatório Brundtland (1987), 'desenvolvimento sustentável' significa atender as necessidades do presente sem comprometer as gerações futuras. Mas países ricos desenvolveram se consumindo os recursos naturais sem restrição. Agora pedem que países pobres cresçam 'de forma sustentável'. Quem define o que é sustentável? Quem arca com os custos?"
+  },
+  "guided": {
+    "title": "O que é desenvolvimento sustentável",
+    "text": "O desenvolvimento sustentável propõe integrar três dimensões que historicamente se opuseram.",
+    "points": [
+      "Dimensão econômica: crescimento que gera renda e empregos.",
+      "Dimensão social: redução da pobreza e das desigualdades.",
+      "Dimensão ambiental: uso dos recursos dentro dos limites de regeneração.",
+      "Os 17 ODS (Objetivos de Desenvolvimento Sustentável) da ONU (2015-2030) operacionalizam esse conceito.",
+      "A crítica: crescimento econômico e preservação ambiental podem ser estruturalmente incompatíveis no sistema capitalista atual."
+    ]
+  },
+  "relations": {
+    "title": "Economia circular",
+    "text": "A economia linear — extrair, produzir, descartar — está no limite. A economia circular propõe fechar os ciclos: produtos projetados para reparação, reutilização e reciclagem. Nenhum resíduo, nenhuma extração desnecessária. É uma mudança no sistema produtivo, não apenas na reciclagem individual."
+  },
+  "caseStudy": {
+    "title": "A Holanda e a agricultura de alta tecnologia",
+    "text": "A Holanda é o segundo maior exportador de alimentos do mundo, atrás apenas dos EUA — num país com o tamanho do estado de Santa Catarina. Consegue isso com estufas com LED, agricultura hidropônica, reuso total de água e uso mínimo de pesticidas. Produz 40 vezes mais tomates por m² que a média mundial. Um modelo de intensificação sustentável — mas que exige capital e tecnologia que países pobres não têm."
+  },
+  "application": "Escolha um produto que você consome regularmente. Mapeie sua cadeia produtiva do ponto de vista ambiental: de onde vêm os insumos? O que é gerado como resíduo? Como poderia ser mais circular?",
+  "activity": {
+    "question": "Por que o conceito de 'desenvolvimento sustentável' é politicamente disputado?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "quem-paga",
+    "options": [
+      {
+        "value": "quem-paga",
+        "label": "Porque define quem deve arcar com os custos da sustentabilidade — países ricos que já se desenvolveram ou países pobres que ainda querem crescer"
+      },
+      {
+        "value": "cientifico",
+        "label": "Porque não há consenso científico sobre o que é sustentável"
+      },
+      {
+        "value": "politico",
+        "label": "Porque governos têm opiniões diferentes sobre meio ambiente"
+      },
+      {
+        "value": "economico",
+        "label": "Porque sustentabilidade sempre reduz o crescimento econômico"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A disputa central é sobre responsabilidade histórica e custos: países ricos se desenvolveram sem restrições ambientais e agora estabelecem regras para países pobres. Isso cria tensões legítimas sobre quem paga a conta.",
+      "incorrect": "O consenso científico sobre os limites ambientais existe. O que é disputado é político: quem deve mudar seu comportamento, quanto e quem financia."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Se um país rico já desmatou sua floresta para crescer, com que autoridade exige que países pobres preservem a deles?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o conceito de desenvolvimento sustentável, suas dimensões e as tensões políticas em torno de sua aplicação.",
+    "observe": "Estimule pensamento crítico: desenvolvimento sustentável é possível dentro do capitalismo? Ou exige mudanças sistêmicas mais profundas?",
+    "answer": "A disputa é sobre quem arca com os custos — países já desenvolvidos ou países que querem crescer.",
+    "mediation": "Debate estruturado: divida a turma em países ricos e pobres na ONU. Negociem um acordo sobre emissões. Quem cede o quê?",
+    "time": "50 minutos"
+  }
+}

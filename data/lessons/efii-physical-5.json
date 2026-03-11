@@ -1,0 +1,73 @@
+{
+  "id": "efii-physical-5",
+  "moduleId": "efii-physical",
+  "title": "Vegetação e biomas: a cobertura viva da Terra",
+  "summary": "Grandes formações vegetais e sua relação com clima e solo.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que há selva densa no Amazonas e cactos no sertão, no mesmo país?",
+    "text": "A vegetação é o espelho do clima e do solo. Na Amazônia, chuvas abundantes o ano todo criam a floresta mais densa. No sertão, a seca de meses produz plantas com espinhos, raízes profundas e caules que acumulam água. A vegetação não é decoração da paisagem — é o resultado de milhões de anos de adaptação."
+  },
+  "guided": {
+    "title": "Grandes formações vegetais do mundo",
+    "text": "As formações vegetais seguem padrões climáticos e se distribuem em bandas ao redor do planeta.",
+    "points": [
+      "Floresta tropical úmida: equatorial, chuvas abundantes, maior biodiversidade. Ex: Amazônia.",
+      "Savana: tropical, estação seca definida. Ex: Cerrado (Brasil), Savana Africana.",
+      "Deserto: muito seco, vegetação esparsa ou ausente. Ex: Saara, Atacama.",
+      "Floresta temperada: climas temperados com quatro estações. Ex: Europa, leste dos EUA.",
+      "Taiga: floresta de coníferas do hemisfério norte, clima subpolar.",
+      "Tundra: polar, solo gelado, vegetação rasteira de musgos e líquens."
+    ]
+  },
+  "relations": {
+    "title": "Desmatamento e consequências",
+    "text": "Quando a vegetação é removida, o ciclo da água se altera (menos evapotranspiração = menos chuva), o solo se expõe à erosão, a biodiversidade colapsa e o carbono armazenado é liberado como CO₂. O desmatamento amazônico está mudando o regime de chuvas do Centro-Sul do Brasil."
+  },
+  "caseStudy": {
+    "title": "Os rios voadores da Amazônia",
+    "text": "A floresta amazônica transpira tanta umidade que cria rios voadores — correntes aéreas de vapor que viajam para o Sul e causam chuvas no Centro-Sul do Brasil e na Argentina. Quando a floresta é desmatada, esses rios enfraquecem. Isso explica por que a seca em SP pode estar ligada ao desmatamento no PA."
+  },
+  "application": "Pesquise: qual é a vegetação original da sua região? Quanto ainda resta? Quais espécies estão ameaçadas?",
+  "activity": {
+    "question": "Por que o Cerrado é chamado de 'berço das águas' mesmo sendo uma savana seca?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "lencol",
+    "options": [
+      {
+        "value": "lencol",
+        "label": "Tem um imenso lençol freático que alimenta os principais rios brasileiros"
+      },
+      {
+        "value": "chuva",
+        "label": "É o lugar do Brasil que mais chove"
+      },
+      {
+        "value": "rio",
+        "label": "Tem o maior rio do mundo passando por dentro"
+      },
+      {
+        "value": "cachoeira",
+        "label": "Tem as maiores cataratas do planeta"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! As chuvas do Cerrado infiltram no solo esponjoso das chapadas e alimentam lençóis que originam rios como o São Francisco, o Tocantins e o Paraná.",
+      "incorrect": "O Cerrado tem uma esponja embaixo das chapadas — um lençol freático enorme que alimenta os grandes rios brasileiros."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A água que cai no Cerrado não escoa: infiltra. Isso alimenta lençóis que dão origem a rios importantes."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica as principais formações vegetais do mundo e do Brasil, relacionando vegetação com clima, solo e atividade humana.",
+    "observe": "Conecte com biomas brasileiros vistos no EFI. Aprofunde: por que a Mata Atlântica foi destruída? Porque estava onde o Brasil foi colonizado.",
+    "answer": "Lençol freático nas chapadas alimenta os principais rios brasileiros.",
+    "mediation": "Mostre mapa de vegetação do Brasil sobreposto ao mapa de clima. O que coincide? Por quê?",
+    "time": "50 minutos"
+  }
+}

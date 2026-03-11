@@ -1,0 +1,72 @@
+{
+  "id": "brazil-4",
+  "moduleId": "brazil",
+  "title": "Urbanização brasileira: uma cidade de 50 anos",
+  "summary": "A acelerada transformação do Brasil rural em urbano.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Em 1940, 70% dos brasileiros viviam no campo. Em 1980, 70% viviam nas cidades.",
+    "text": "Em apenas 40 anos, o Brasil fez o que países europeus levaram 200 anos para fazer: se urbanizou. Esse processo foi caótico, rápido e profundamente desigual — e criou as metrópoles, as favelas, o trânsito, as periferias e os problemas ambientais que conhecemos hoje."
+  },
+  "guided": {
+    "title": "A urbanização brasileira",
+    "text": "A urbanização acelerada do Brasil teve causas e consequências específicas.",
+    "points": [
+      "Causas: industrialização (a partir de 1930), mecanização do campo (expulsou trabalhadores), atração das cidades.",
+      "Êxodo rural: migração em massa do campo para a cidade — principalmente Nordeste para Sudeste.",
+      "Metropolização: concentração em poucas grandes cidades. São Paulo e Rio cresceram explosivamente.",
+      "Periferização: quem chegou sem recurso foi para a periferia — longe do centro, com menos serviços.",
+      "Favelização: 11 milhões de pessoas vivem em favelas no Brasil."
+    ]
+  },
+  "relations": {
+    "title": "Urbanização e desigualdade",
+    "text": "A urbanização brasileira criou cidades com extremos: condomínios fechados com piscina a poucos km de favelas sem esgoto. A cidade brasileira é um mapa da desigualdade — onde você mora determina a qualidade da educação, saúde, transporte e segurança que você terá."
+  },
+  "caseStudy": {
+    "title": "Heliópolis: a maior favela de São Paulo",
+    "text": "Heliópolis tem 200.000 habitantes — maior que muitas cidades brasileiras. Surgiu nos anos 1940 como acampamento de migrantes nordestinos. Hoje tem associações de moradores, escola de música famosa (Projeto Guri) e articulação política. Uma cidade dentro da cidade — não apenas carência, mas organização e resistência."
+  },
+  "application": "Pesquise: qual é a taxa de urbanização do estado onde você mora? Em qual cidade está concentrada a maior parte da população?",
+  "activity": {
+    "question": "O que é êxodo rural?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "migracao-campo",
+    "options": [
+      {
+        "value": "migracao-campo",
+        "label": "A migração em massa de pessoas do campo para a cidade"
+      },
+      {
+        "value": "abandono",
+        "label": "O abandono de terras agrícolas por falta de chuva"
+      },
+      {
+        "value": "volta",
+        "label": "O retorno de migrantes urbanos ao campo"
+      },
+      {
+        "value": "turismo",
+        "label": "Turismo rural de moradores urbanos"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Êxodo rural é o movimento de saída do campo para a cidade — intenso no Brasil entre 1940 e 1980.",
+      "incorrect": "Êxodo significa saída. Qual é o movimento de saída que explica a urbanização acelerada do Brasil?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "'Êxodo' = saída. De onde saíram e para onde foram as pessoas que causaram a urbanização brasileira?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve o processo de urbanização brasileiro, identifica suas causas e consequências espaciais e sociais.",
+    "observe": "Conecte com a realidade local. Se a escola está em cidade pequena: houve êxodo? Se em grande cidade: o bairro tem favelização?",
+    "answer": "Migração em massa do campo para a cidade.",
+    "mediation": "Mostre crescimento de São Paulo em fotos aéreas: 1940, 1960, 1980, 2000, hoje. O que se expandiu? Para onde?",
+    "time": "50 minutos"
+  }
+}

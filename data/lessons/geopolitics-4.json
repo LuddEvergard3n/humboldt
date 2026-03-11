@@ -1,0 +1,72 @@
+{
+  "id": "geopolitics-4",
+  "moduleId": "geopolitics",
+  "title": "Conflitos territoriais: disputas que moldam o mundo",
+  "summary": "Por que países ainda disputam territórios no século XXI.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que a Ucrânia ainda está em guerra?",
+    "text": "A invasão russa da Ucrânia em 2022 envolve questões geográficas que afetam o mundo todo: quem controla o Mar Negro e seus portos, onde passa o gasoduto europeu, quem tem acesso às terras agrícolas do leste europeu, e onde termina a zona de influência da OTAN. Toda guerra tem uma geografia."
+  },
+  "guided": {
+    "title": "Tipos de conflitos territoriais",
+    "text": "Conflitos territoriais têm origens diversas — mas sempre envolvem disputas por espaço e recursos.",
+    "points": [
+      "Fronteiras coloniais artificiais: África e Oriente Médio — fronteiras desenhadas sem considerar etnias e culturas.",
+      "Recursos naturais: petróleo, água, minérios — conflitos no Oriente Médio, África e Mar do Sul da China.",
+      "Disputas étnicas/religiosas: Israel-Palestina, Caxemira (Índia-Paquistão), Bálcãs.",
+      "Influência geopolítica: Ucrânia (OTAN × Rússia), Taiwan (China × EUA).",
+      "Separatismo: Catalunha, Escócia, Tibet, Curdistão — grupos que querem seu próprio Estado."
+    ]
+  },
+  "relations": {
+    "title": "Autodeterminação vs. integridade territorial",
+    "text": "Dois princípios do direito internacional frequentemente colidem: autodeterminação dos povos (todo povo tem direito de definir seu governo) e integridade territorial (as fronteiras dos países devem ser respeitadas). Quando a Crimeia votou pela independência da Ucrânia (2014), qual princípio deveria prevalecer?"
+  },
+  "caseStudy": {
+    "title": "O Mar do Sul da China",
+    "text": "O Mar do Sul da China é disputado por China, Filipinas, Vietnã, Malásia e Taiwan. A razão: 30% do comércio marítimo mundial passa por lá, e há petróleo no fundo. A China construiu ilhas artificiais com bases militares — violando decisão do Tribunal Internacional."
+  },
+  "application": "Pesquise um conflito territorial atual (além da Ucrânia). Quais são as partes? O que está em disputa? Há interferência de potências externas?",
+  "activity": {
+    "question": "Qual é a principal razão que faz o Mar do Sul da China ser alvo de disputas territoriais?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "recursos-comercio",
+    "options": [
+      {
+        "value": "recursos-comercio",
+        "label": "Petróleo no fundo do mar e passagem de 30% do comércio mundial"
+      },
+      {
+        "value": "pesca",
+        "label": "Disputas sobre direitos de pesca local"
+      },
+      {
+        "value": "turismo",
+        "label": "As ilhas são atrações turísticas valiosas"
+      },
+      {
+        "value": "historia",
+        "label": "Questões históricas sobre quem descobriu as ilhas primeiro"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Recursos energéticos e posição estratégica no comércio global tornam o Mar do Sul da China geopoliticamente crucial.",
+      "incorrect": "Pense em termos geopolíticos: o que torna um espaço marítimo estrategicamente valioso para grandes potências?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O que torna um mar estratégico? Recursos e rotas comerciais — quanto vale 30% do comércio mundial?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica as causas de conflitos territoriais contemporâneos e aplica conceitos geopolíticos na sua análise.",
+    "observe": "Mantenha equilíbrio nas análises. Conflitos raramente têm 'lado certo'. Explore múltiplas perspectivas.",
+    "answer": "Petróleo e posição estratégica no comércio global.",
+    "mediation": "Mapa de conflitos ativos no mundo. Pergunte: o que esses conflitos têm em comum? Onde estão concentrados?",
+    "time": "50 minutos"
+  }
+}

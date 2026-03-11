@@ -1,0 +1,72 @@
+{
+  "id": "efii-africa-1",
+  "moduleId": "efii-africa",
+  "title": "África: diversidade, colonialismo e descolonização",
+  "summary": "O continente mais diverso do mundo e o legado do colonialismo.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A África tem 54 países — e as fronteiras foram desenhadas por europeus",
+    "text": "Em 1884, potências europeias se reuniram em Berlim e dividiram a África em colônias como se estivessem cortando um bolo — sem consultar nenhum africano. As fronteiras cortaram povos, línguas e reinos. Quando as colônias se tornaram países independentes (1950-1970), herdaram fronteiras artificiais que ainda hoje geram conflitos."
+  },
+  "guided": {
+    "title": "África: síntese geográfica",
+    "text": "A África é o segundo maior continente em área e população — e o mais diverso do planeta.",
+    "points": [
+      "Área: 30 milhões de km², maior que EUA + China + Europa juntos.",
+      "População: 1,4 bilhão de pessoas, 54 países, mais de 2.000 línguas.",
+      "Diversidade física: Saara (maior deserto quente), Floresta do Congo (segunda maior floresta tropical), Rift Valley, Nilo.",
+      "Colonialismo: até 1914, 90% do continente era controlado por europeus.",
+      "Descolonização: entre 1955 e 1975, a maioria dos países alcançou independência — mas herdando fronteiras artificiais."
+    ]
+  },
+  "relations": {
+    "title": "O legado colonial",
+    "text": "O colonialismo africano extraiu recursos, forçou trabalho, destruiu estruturas políticas locais e criou fronteiras artificiais. Mas é um erro ver a África apenas por essa lente — é um continente com economias em crescimento acelerado, cidades globais como Lagos e Nairóbi, e culturas riquíssimas."
+  },
+  "caseStudy": {
+    "title": "Rwanda: de genocídio a país modelo",
+    "text": "Em 1994, o Ruanda viveu um dos piores genocídios do século XX: 800.000 pessoas mortas em 100 dias, resultado de divisões étnicas amplificadas pelo colonialismo belga. Em 30 anos, o país se reconstruiu e hoje tem dos mais altos crescimentos econômicos da África e alta presença de mulheres no parlamento."
+  },
+  "application": "Pesquise: quais são os cinco países mais populosos da África? Em quais idiomas eles falam? Por que esses idiomas são oficiais?",
+  "activity": {
+    "question": "A Conferência de Berlim (1884) foi importante para a África porque:",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "divisao",
+    "options": [
+      {
+        "value": "divisao",
+        "label": "Dividiu o continente entre potências europeias sem consultar africanos"
+      },
+      {
+        "value": "paz",
+        "label": "Encerrou guerras entre tribos africanas"
+      },
+      {
+        "value": "comercio",
+        "label": "Criou acordos comerciais entre África e Europa"
+      },
+      {
+        "value": "independencia",
+        "label": "Concedeu independência às colônias africanas"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A Conferência de Berlim foi a partilha da África pelos europeus — evento central do imperialismo colonial.",
+      "incorrect": "A Conferência de Berlim não beneficiou os africanos. Nenhum africano foi convidado para decidir o destino do seu continente."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Potências europeias reunidas para dividir a África. Africanos foram consultados? O que aconteceu com reinos e povos existentes?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende como o colonialismo moldou a África contemporânea e evita visões simplistas ou estereotipadas do continente.",
+    "observe": "Conteste a visão da África como lugar de pobreza e conflito apenas. Mostre crescimento econômico, inovação e diversidade cultural.",
+    "answer": "Dividiu o continente entre potências europeias sem consultar africanos.",
+    "mediation": "Mostre mapa de línguas da África sobreposto ao mapa de países. As fronteiras fazem sentido linguisticamente? Por quê?",
+    "time": "50 minutos"
+  }
+}

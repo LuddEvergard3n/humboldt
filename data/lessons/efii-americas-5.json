@@ -1,0 +1,73 @@
+{
+  "id": "efii-americas-5",
+  "moduleId": "efii-americas",
+  "title": "Amazon e Patagônia: extremos da América do Sul",
+  "summary": "A maior floresta e o extremo sul — dois ambientes que definem a escala do continente.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A Amazônia regula o clima do Brasil inteiro — inclusive o Sudeste",
+    "text": "Quando chove em São Paulo, parte dessa chuva veio da Amazônia. As árvores amazônicas bombeiam água do solo para a atmosfera — os chamados \"rios voadores\" — que caminham para o Sul e Sudeste. Desmatar a Amazônia não afeta só a floresta: afeta a agricultura do Mato Grosso, as hidrelétricas do Paraná, o abastecimento de água de São Paulo. A Amazônia é infraestrutura climática do Brasil inteiro."
+  },
+  "guided": {
+    "title": "Amazônia e Patagônia: extremos geográficos",
+    "text": "América do Sul abriga dois dos ambientes mais extremos do planeta.",
+    "points": [
+      "Amazônia: 7 milhões de km², 9 países, 10% das espécies do planeta, maior rio em volume do mundo.",
+      "Desmatamento: Brasil perdeu 800 mil km² de floresta desde 1970 — área maior que o estado de São Paulo.",
+      "Rios voadores: correntes de vapor d'água que transportam umidade da Amazônia para o Sul do Brasil.",
+      "Patagônia: 1 milhão de km² de estepes, geleiras e ventos constantes entre Argentina e Chile.",
+      "Geleiras patagônicas: derretem 1 m por ano em média; a América do Sul terá escassez de água glacial em 50 anos.",
+      "Corrente do Humboldt: corrente fria no Pacífico que cria o Atacama — deserto mais árido do mundo ao lado do oceano."
+    ]
+  },
+  "relations": {
+    "title": "Soberania e recursos naturais",
+    "text": "A Amazônia concentra 20% da água doce do planeta e reservas imensas de minérios, petróleo e biodiversidade. Países ricos argumentam que a floresta é \"patrimônio da humanidade\" — o que o Brasil entende como ameaça à soberania. O debate sobre quem decide o destino da Amazônia é geopolítico: o país que a detém tem o direito de usá-la como desejar?"
+  },
+  "caseStudy": {
+    "title": "Iquique e o Atacama: o deserto que produz lítio",
+    "text": "O Salar de Atacama, no Chile, tem as maiores reservas de lítio do mundo — mineral essencial para baterias de carros elétricos. A transição energética global depende de um lugar que parece o fim do mundo. Chile, Argentina e Bolívia, que juntos formam o \"Triângulo do Lítio\", negociam com EUA, China e Europa o controle desse recurso estratégico do século XXI."
+  },
+  "application": "Pesquise: o que são os \"rios voadores\" e como eles foram descobertos? Por que afetam a chuva em São Paulo?",
+  "activity": {
+    "question": "O que explica a existência do Atacama — o deserto mais árido do mundo — ao lado do Oceano Pacífico?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "corrente-fria",
+    "options": [
+      {
+        "value": "corrente-fria",
+        "label": "A Corrente de Humboldt esfria o ar úmido, que perde umidade antes de atingir o continente"
+      },
+      {
+        "value": "distancia",
+        "label": "O Atacama fica distante do oceano e não recebe ventos úmidos"
+      },
+      {
+        "value": "andes",
+        "label": "Os Andes bloqueiam toda a umidade que viria do Atlântico"
+      },
+      {
+        "value": "latitude",
+        "label": "A latitude subtropical cria zonas de alta pressão que impedem chuvas"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A Corrente de Humboldt traz água fria do Antártico. O ar quente e úmido do Pacífico, ao encontrar essa corrente fria, perde umidade sobre o oceano — e chega seco ao continente.",
+      "incorrect": "O paradoxo é que o oceano está ali — mas a água é fria demais para evaporar o suficiente. Pense no que acontece com ar úmido ao encontrar água muito fria."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Correntes oceânicas frias reduzem a evaporação. Menos evaporação = menos umidade = menos chuva. A Corrente de Humboldt vem da Antártica."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende as relações entre correntes oceânicas, clima e biodiversidade e identifica a Amazônia como sistema climático de escala continental.",
+    "observe": "Explore o conceito de \"serviços ecossistêmicos\" — o que a floresta faz pelo clima que não aparece no PIB.",
+    "answer": "A Corrente de Humboldt esfria o ar oceânico, que perde umidade antes de atingir o continente.",
+    "mediation": "Mostre o mapa da Corrente de Humboldt. Pergunte: \"Se a corrente esquentar (El Niño), o que acontece com o Atacama?\"",
+    "time": "50 minutos"
+  }
+}

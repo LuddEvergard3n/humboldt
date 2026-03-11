@@ -1,0 +1,72 @@
+{
+  "id": "efii-europe-3",
+  "moduleId": "efii-europe",
+  "title": "Oriente Médio e Oceania: geopolítica do petróleo e do Pacífico",
+  "summary": "Conflitos, recursos estratégicos e a posição geopolítica do Pacífico.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que o Oriente Médio nunca para de ser notícia?",
+    "text": "O Oriente Médio tem menos de 5% da população mundial, mas ocupa permanentemente o centro das notícias geopolíticas. A explicação é geográfica: a região concentra 48% das reservas mundiais de petróleo, está na encruzilhada de três continentes, e tem fronteiras traçadas por potências coloniais sem considerar etnias, religiões ou reinos históricos."
+  },
+  "guided": {
+    "title": "Oriente Médio: geopolítica dos recursos",
+    "text": "O Oriente Médio é definido pela combinação de recursos estratégicos, identidades religiosas e herança colonial.",
+    "points": [
+      "Petróleo: Arábia Saudita, Iraque, Irã, Emirados — 48% das reservas mundiais.",
+      "Conflito Israel-Palestina: origem em 1948, ainda sem solução. Envolve disputas territoriais, religiosas e identitárias.",
+      "Fronteiras coloniais: o Acordo Sykes-Picot (1916) dividiu a região entre Grã-Bretanha e França sem considerar as populações locais.",
+      "Sunitas vs. Xiitas: divisão interna ao Islã que alimenta conflitos entre potências regionais (Arábia Saudita vs. Irã).",
+      "Oceania: continente/região do Pacífico Sul com Austrália e Nova Zelândia como economias avançadas e ilhas do Pacífico vulneráveis ao aumento do nível do mar."
+    ]
+  },
+  "relations": {
+    "title": "O fim do petróleo e a transição energética",
+    "text": "A dependência do mundo do petróleo do Oriente Médio está diminuindo com a transição para energias renováveis — mas mais lentamente do que esperado. Países como Arábia Saudita e Emirados estão diversificando suas economias (turismo, tecnologia, finanças) antes que o petróleo perca valor. A geopolítica da energia está mudando — e com ela, a importância relativa da região."
+  },
+  "caseStudy": {
+    "title": "As ilhas que vão sumir",
+    "text": "Kiribati, Tuvalu e Maldivas são países insulares no Pacífico e Índico com altitude máxima de 2-3 metros. Com o aumento do nível do mar causado pelo aquecimento global, podem ser os primeiros países a desaparecer literalmente do mapa. O governo de Kiribati já comprou terras na Fiji para realocar sua população. Uma crise geopolítica inédita: nações sem território."
+  },
+  "application": "Pesquise: qual é o maior produtor de energia solar do mundo hoje? Como isso afeta o poder dos países exportadores de petróleo?",
+  "activity": {
+    "question": "Qual é a principal razão pela qual o Oriente Médio é central na geopolítica global?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "petroleo-posicao",
+    "options": [
+      {
+        "value": "petroleo-posicao",
+        "label": "A concentração de 48% das reservas mundiais de petróleo e a posição estratégica entre três continentes"
+      },
+      {
+        "value": "religiao",
+        "label": "O fato de ser o berço das três religiões monoteístas"
+      },
+      {
+        "value": "populacao",
+        "label": "A grande população da região — mais de 400 milhões de pessoas"
+      },
+      {
+        "value": "clima",
+        "label": "O clima árido que limita a agricultura e cria disputas por água"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Recursos energéticos + posição geográfica de encruzilhada tornam o Oriente Médio insubstituível na geopolítica atual — embora a transição energética esteja mudando esse equilíbrio.",
+      "incorrect": "Embora religião e água também importem, é o petróleo combinado com a posição estratégica que explica a atenção geopolítica permanente."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O que faz um lugar estratégico? Recursos que todos precisam + posição que ninguém pode ignorar."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica os fatores que tornam o Oriente Médio central na geopolítica e compreende a vulnerabilidade climática da Oceania.",
+    "observe": "Mantenha equilíbrio ao abordar Israel-Palestina. Apresente as posições das partes sem tomar partido — é um conflito com narrativas legítimas em disputa.",
+    "answer": "Concentração de reservas de petróleo e posição estratégica entre continentes.",
+    "mediation": "Mapa de reservas de petróleo + rotas de exportação. Pergunte: se o Estreito de Ormuz fechar, o que acontece com o preço do combustível no Brasil?",
+    "time": "50 minutos"
+  }
+}

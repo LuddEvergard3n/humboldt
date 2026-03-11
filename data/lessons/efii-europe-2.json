@@ -1,0 +1,72 @@
+{
+  "id": "efii-europe-2",
+  "moduleId": "efii-europe",
+  "title": "Ásia: o maior continente e o século asiático",
+  "summary": "China, Índia e o deslocamento do poder econômico global para o Oriente.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Em 2023, a China ultrapassou o Japão e se tornou o maior exportador de carros do mundo.",
+    "text": "Há 40 anos, a China fabricava bicicletas. Hoje fabrica satélites, chips, carros elétricos e estações espaciais. A Índia ultrapassou a China como país mais populoso do mundo em 2023. O século XXI está sendo chamado de 'Século Asiático' — e entender essa transformação é entender o futuro da geopolítica global."
+  },
+  "guided": {
+    "title": "Ásia: síntese geográfica",
+    "text": "A Ásia é o maior e mais populoso continente — 44% da superfície terrestre e 60% da população mundial.",
+    "points": [
+      "Diversidade extrema: dos desertos da Arábia às florestas tropicais do Sudeste Asiático, dos Himalaias às planícies da Sibéria.",
+      "China: 1,4 bilhão de habitantes, segunda maior economia do mundo, potência militar crescente.",
+      "Índia: 1,44 bilhão (maior população do mundo desde 2023), democracia, potência emergente em tecnologia.",
+      "Japão e Coreia do Sul: potências tecnológicas com economias avançadas e populações envelhecidas.",
+      "Oriente Médio: região estratégica pelo petróleo — responsável por 30% das reservas mundiais."
+    ]
+  },
+  "relations": {
+    "title": "A Rota da Seda do século XXI",
+    "text": "A Iniciativa Cinturão e Rota (Belt and Road Initiative), lançada pela China em 2013, é o maior projeto de infraestrutura da história: portos, ferrovias, estradas e dutos ligando a China à Europa, África e América Latina. Mais de 140 países aderiram. É a versão do século XXI da antiga Rota da Seda — e também um instrumento de expansão de influência geopolítica chinesa."
+  },
+  "caseStudy": {
+    "title": "Shenzhen: de aldeia de pescadores a metrópole global",
+    "text": "Em 1979, Shenzhen, na China, era uma aldeia de 30.000 pescadores. Deng Xiaoping a designou a primeira 'Zona Econômica Especial' — área com regras de mercado dentro de um país socialista. Em 40 anos, virou uma metrópole de 18 milhões com a bolsa de valores mais movimentada da Ásia. A transformação mais rápida de uma cidade na história humana."
+  },
+  "application": "Pesquise: quais são os três maiores parceiros comerciais do Brasil na Ásia? Como essa relação mudou nos últimos 20 anos?",
+  "activity": {
+    "question": "Por que o século XXI é chamado de 'Século Asiático'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "poder-economico",
+    "options": [
+      {
+        "value": "poder-economico",
+        "label": "Porque o poder econômico e político global está se deslocando para países asiáticos como China e Índia"
+      },
+      {
+        "value": "populacao",
+        "label": "Apenas porque a Ásia tem a maior população do mundo"
+      },
+      {
+        "value": "tecnologia",
+        "label": "Porque todos os avanços tecnológicos virão da Ásia"
+      },
+      {
+        "value": "guerra",
+        "label": "Porque os principais conflitos militares do século serão na Ásia"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O deslocamento do centro econômico global do Atlântico para o Pacífico é o principal processo geopolítico em curso. China e Índia lideram esse movimento.",
+      "incorrect": "A expressão 'Século Asiático' é sobre deslocamento de poder e influência — não apenas sobre população ou tecnologia."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Em 1900, o poder estava na Europa. Em 1945, passou aos EUA. Para onde está indo no século XXI?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a ascensão asiática como processo geopolítico e identifica as principais potências e dinâmicas do continente.",
+    "observe": "Conecte com o cotidiano: produtos eletrônicos (China), software (Índia), carros (Japão/Coreia). A Ásia já está no dia a dia de todos.",
+    "answer": "Deslocamento do poder econômico e político global para países asiáticos.",
+    "mediation": "Mostre evolução do PIB da China e Índia vs. EUA e Europa nos últimos 40 anos. O que o gráfico diz sobre o futuro?",
+    "time": "50 minutos"
+  }
+}

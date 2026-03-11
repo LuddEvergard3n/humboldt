@@ -1,0 +1,72 @@
+{
+  "id": "efi-place-4",
+  "moduleId": "efi-place",
+  "title": "A rosa dos ventos: Norte, Sul, Leste, Oeste",
+  "summary": "Pontos cardeais e como nos orientamos pela natureza.",
+  "activityType": "compass",
+  "phenomenon": {
+    "title": "Para onde o Sol nasce todo dia?",
+    "text": "Muito antes do GPS, os seres humanos orientavam-se pelo Sol: ele nasce sempre a Leste e se põe a Oeste. Com essa informação, qualquer pessoa conseguia saber os quatro pontos cardeais. Essa é a base de toda orientação geográfica."
+  },
+  "guided": {
+    "title": "Os pontos cardeais",
+    "text": "Os quatro pontos cardeais dividem o espaço ao redor de quem observa.",
+    "points": [
+      "Norte (N): direção do Polo Norte. No Brasil, o Sol do meio-dia fica a Norte.",
+      "Sul (S): direção oposta ao Norte.",
+      "Leste (L) ou Este (E): onde o Sol nasce. Também chamado de Oriente.",
+      "Oeste (O): onde o Sol se põe. Também chamado de Ocidente.",
+      "Entre os cardeais existem os colaterais: Nordeste, Noroeste, Sudeste, Sudoeste."
+    ]
+  },
+  "relations": {
+    "title": "Norte magnético × Norte geográfico",
+    "text": "A bússola aponta para o Norte Magnético — o polo do campo magnético da Terra — que não é exatamente o mesmo que o Norte Geográfico. A diferença se chama declinação magnética. Navegadores precisam corrigi-la em seus cálculos."
+  },
+  "caseStudy": {
+    "title": "Como os Inuit navegam sem bússola",
+    "text": "Os Inuit do Ártico desenvolveram orientação baseada no vento, na neve e nas estrelas. Quando os GPS pararam de funcionar em 2019 por interferência solar, esse conhecimento tradicional voltou a ser essencial."
+  },
+  "application": "Amanhã de manhã, observe de onde o Sol está nascendo. Com base nisso, identifique onde ficam o Norte, o Sul e o Oeste em relação à sua posição.",
+  "activity": {
+    "question": "Se o Sol está nascendo agora bem à sua frente, em qual direção você está olhando?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "leste",
+    "options": [
+      {
+        "value": "leste",
+        "label": "Leste — onde o Sol nasce"
+      },
+      {
+        "value": "norte",
+        "label": "Norte"
+      },
+      {
+        "value": "sul",
+        "label": "Sul"
+      },
+      {
+        "value": "oeste",
+        "label": "Oeste — onde o Sol se põe"
+      }
+    ],
+    "feedback": {
+      "correct": "Exato! O Sol sempre nasce no Leste (Oriente). Se você está olhando para ele, está de frente para o Leste.",
+      "incorrect": "Lembre: o Sol nasce sempre na mesma direção todos os dias. Qual é essa direção?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O Sol nasce no Leste (Oriente) e se põe no Oeste (Ocidente)."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica os quatro pontos cardeais usando o Sol como referência e sabe posicioná-los na rosa dos ventos.",
+    "observe": "Verifique se o aluno consegue determinar os pontos cardeais sem a rosa dos ventos, usando apenas o Sol.",
+    "answer": "Leste — o Sol sempre nasce nessa direção.",
+    "mediation": "Leve a turma para fora da escola. Pergunte: de que lado o Sol está? Use as sombras para confirmar.",
+    "time": "50 minutos"
+  }
+}

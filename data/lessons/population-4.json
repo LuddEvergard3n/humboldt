@@ -1,0 +1,91 @@
+{
+  "id": "population-4",
+  "moduleId": "population",
+  "title": "Refugiados e deslocados: geografias do desespero",
+  "summary": "Por que 100 milhões de pessoas estão fora de suas casas e o que isso significa.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "100 milhões de pessoas deslocadas — o maior número desde a Segunda Guerra",
+    "text": "Em 2022, pela primeira vez na história, mais de 100 milhões de pessoas estavam forçadamente deslocadas de suas casas — fugindo de guerras, perseguições e catástrofes climáticas. Metade são refugiados (cruzaram uma fronteira internacional) e metade são deslocados internos (fugiram mas continuam no próprio país). Síria, Afeganistão, Venezuela, Ucrânia, Congo — as crises se acumulam sem resolução."
+  },
+  "guided": {
+    "title": "Quem são os refugiados",
+    "text": "O termo \"refugiado\" tem definição jurídica precisa — e muita gente confunde com imigrante.",
+    "points": [
+      "Refugiado (ONU): pessoa que cruzou fronteira internacional fugindo de perseguição por raça, religião, nacionalidade, grupo social ou opinião política.",
+      "Deslocado interno: foge de violência ou catástrofe, mas não cruza fronteira internacional — não tem proteção da lei internacional.",
+      "Solicitante de asilo: pede reconhecimento como refugiado — aguarda decisão do país receptor.",
+      "Migrante econômico: move-se por razões econômicas, não perseguição — tem direitos diferentes.",
+      "Maiores origens: Síria (6,8M), Venezuela (5,4M), Ucrânia (5,9M após 2022), Afeganistão (5,7M).",
+      "Brasil: recebeu 500 mil refugiados em 2023, principalmente venezuelanos."
+    ]
+  },
+  "relations": {
+    "title": "Fronteiras e o direito de se mover",
+    "text": "O sistema internacional de refugiados foi criado após a 2ª Guerra Mundial — pensado para perseguição estatal, não para deslocamento climático em massa. Mas hoje, inundações em Bangladesh, secas no Sahel e furacões no Caribe forçam deslocamentos que não se encaixam na definição jurídica de refugiado. O direito internacional não acompanhou a realidade geográfica do século XXI."
+  },
+  "caseStudy": {
+    "title": "Roraima e a crise venezuelana",
+    "text": "Desde 2015, mais de 700 mil venezuelanos cruzaram para o Brasil principalmente por Roraima — estado com menos de 700 mil habitantes que de repente recebeu um influxo equivalente à sua própria população. O governo brasileiro criou a Operação Acolhida para registrar, vacinar e interiorizar refugiados para outros estados. Modelo internacional reconhecido pela ONU — mas também fonte de tensão social local."
+  },
+  "application": "Pesquise: quais são os três países que hospedam mais refugiados no mundo? São países ricos? O que isso diz sobre o sistema internacional?",
+  "activity": {
+    "question": "Observe o mapa de fluxos de refugiados. Para onde as pessoas fogem? Os países mais ricos recebem mais ou menos refugiados do que os vizinhos dos países em crise?",
+    "type": "flow-map",
+    "flows": [
+      {
+        "from": "Síria",
+        "to": "Turquia",
+        "value": 3600000,
+        "label": "3,6M"
+      },
+      {
+        "from": "Síria",
+        "to": "Líbano",
+        "value": 800000,
+        "label": "800K"
+      },
+      {
+        "from": "Venezuela",
+        "to": "Colômbia",
+        "value": 2500000,
+        "label": "2,5M"
+      },
+      {
+        "from": "Venezuela",
+        "to": "Brasil",
+        "value": 500000,
+        "label": "500K"
+      },
+      {
+        "from": "Afeganistão",
+        "to": "Paquistão",
+        "value": 1400000,
+        "label": "1,4M"
+      },
+      {
+        "from": "Ucrânia",
+        "to": "Polônia",
+        "value": 1000000,
+        "label": "1M"
+      }
+    ],
+    "feedback": {
+      "correct": "Os países vizinhos às crises — geralmente países em desenvolvimento — recebem a maior parte dos refugiados. Turquia hospeda mais refugiados que qualquer país europeu.",
+      "incorrect": "Compare os volumes de fluxo. Quais países recebem mais? São ricos ou vizinhos das zonas de conflito?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Turquia tem 3,6 milhões de sírios. Toda a Europa tem cerca de 1 milhão. Os números contradizem a narrativa da \"invasão\"."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue refugiado de migrante econômico, conhece os principais fluxos atuais e analisa criticamente o sistema internacional de proteção.",
+    "observe": "Combata estereótipos: a maioria dos refugiados não vai para países ricos — fica em países vizinhos, geralmente pobres.",
+    "answer": "Os países vizinhos às crises (Turquia, Colômbia, Paquistão) recebem muito mais refugiados que os países ricos.",
+    "mediation": "Mostre o mapa de fluxos. Pergunte: \"Por que as pessoas não vão para a Europa ou EUA se podem?\" (distância, dinheiro, documentos, muros)",
+    "time": "50 minutos"
+  }
+}

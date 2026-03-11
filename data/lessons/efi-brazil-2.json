@@ -1,0 +1,72 @@
+{
+  "id": "efi-brazil-2",
+  "moduleId": "efi-brazil",
+  "title": "As cinco regiões do Brasil",
+  "summary": "Norte, Nordeste, Centro-Oeste, Sudeste e Sul: características.",
+  "activityType": "map-click",
+  "phenomenon": {
+    "title": "Por que o Brasil é tão diferente de região para região?",
+    "text": "Num mesmo país, temos a maior floresta tropical do mundo (Norte), o semiárido (Nordeste), o cerrado (Centro-Oeste), as metrópoles industriais (Sudeste) e um clima europeu com neve (Sul). O Brasil é tão grande que cabe vários países dentro dele."
+  },
+  "guided": {
+    "title": "As cinco regiões",
+    "text": "O IBGE dividiu o Brasil em cinco regiões para fins de organização e análise.",
+    "points": [
+      "Norte: maior área, menor densidade. Amazônia, rios imensos, floresta tropical.",
+      "Nordeste: maior região em número de estados (9). Semiárido, litoral, caatinga.",
+      "Centro-Oeste: cerrado, pantanal, agronegócio, Brasília.",
+      "Sudeste: mais populoso e rico economicamente. São Paulo, Rio, Belo Horizonte.",
+      "Sul: clima subtropical, colonização europeia, gaúchos, paranaenses, catarinenses."
+    ]
+  },
+  "relations": {
+    "title": "Por que as regiões existem?",
+    "text": "A divisão regional é uma ferramenta de análise — não uma lei da natureza. O IBGE usa as regiões para organizar dados e políticas públicas. Regionalizações são sempre simplificações."
+  },
+  "caseStudy": {
+    "title": "O Nordeste que mais cresce",
+    "text": "Por décadas, o Nordeste foi associado apenas à pobreza e à seca. Mas nos anos 2000-2020, a região teve crescimento econômico acelerado. Cidades como Fortaleza, Recife e Salvador tornaram-se polos de tecnologia e serviços. A região mudou — e os estereótipos ficaram para trás."
+  },
+  "application": "Escolha uma região do Brasil diferente da sua. Pesquise: qual é o clima, o bioma principal e a comida típica.",
+  "activity": {
+    "question": "Qual região do Brasil tem a maior floresta tropical do mundo?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "norte",
+    "options": [
+      {
+        "value": "norte",
+        "label": "Região Norte — onde fica a Amazônia"
+      },
+      {
+        "value": "nordeste",
+        "label": "Região Nordeste — onde fica a Caatinga"
+      },
+      {
+        "value": "sudeste",
+        "label": "Região Sudeste — onde fica São Paulo"
+      },
+      {
+        "value": "centro-oeste",
+        "label": "Região Centro-Oeste — onde fica o Pantanal"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A Região Norte abrange a maior parte da Amazônia — a maior floresta tropical do planeta.",
+      "incorrect": "A floresta amazônica fica na parte de cima do Brasil, onde estão estados como Amazonas, Pará e Acre."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A Amazônia fica na parte norte do Brasil. Qual é a região que corresponde a essa área?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno localiza as cinco regiões no mapa e associa cada uma a características físicas e culturais básicas.",
+    "observe": "Questione se os alunos conhecem estereótipos regionais. Problematize e apresente dados atuais.",
+    "answer": "Região Norte — Amazônia.",
+    "mediation": "Jogo: dê dicas (bioma, capital, economia) e os alunos adivinham a região.",
+    "time": "50 minutos"
+  }
+}

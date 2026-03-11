@@ -1,0 +1,70 @@
+{
+  "id": "efi-landscape-1",
+  "moduleId": "efi-landscape",
+  "title": "Elementos naturais e humanizados da paisagem",
+  "summary": "Distinguir o que a natureza criou do que as pessoas modificaram.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Olhe pela janela: o que a natureza fez e o que as pessoas fizeram?",
+    "text": "Uma cidade é sempre uma mistura: o rio que existia antes das casas, a árvore que alguém plantou na calçada, o asfalto que cobriu a terra. A paisagem é uma conversa constante entre natureza e sociedade."
+  },
+  "guided": {
+    "title": "Elementos da paisagem",
+    "text": "A paisagem é tudo o que podemos observar num determinado lugar — com os olhos, os ouvidos e os outros sentidos.",
+    "points": [
+      "Elementos naturais: rios, montanhas, vegetação nativa, clima, solo, animais silvestres.",
+      "Elementos humanizados: casas, ruas, pontes, plantações, canais, parques urbanos.",
+      "Muitos elementos são mistos: uma plantação usa solo natural, mas modificado pelo ser humano."
+    ]
+  },
+  "relations": {
+    "title": "A paisagem muda com o tempo",
+    "text": "Uma foto aérea de São Paulo de 1950 e uma de hoje parecem mostrar cidades diferentes. O rio Tietê foi retificado, a mata foi substituída por bairros. A paisagem é dinâmica — registra o tempo e as escolhas humanas."
+  },
+  "caseStudy": {
+    "title": "Manaus e a floresta",
+    "text": "Manaus é uma cidade de 2 milhões de habitantes rodeada pela floresta amazônica. Saindo do centro, em minutos você entra num ambiente completamente natural. Essa fronteira entre cidade e floresta é uma das mais dramáticas do mundo."
+  },
+  "application": "Tire três fotos do seu bairro (ou desenhe). Em cada uma, identifique pelo menos um elemento natural e um humanizado.",
+  "activity": {
+    "question": "Qual dos itens abaixo é um elemento HUMANIZADO da paisagem?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "ponte",
+    "options": [
+      {
+        "value": "ponte",
+        "label": "Uma ponte de concreto sobre um rio"
+      },
+      {
+        "value": "montanha",
+        "label": "Uma montanha de granito"
+      },
+      {
+        "value": "nuvem",
+        "label": "Uma nuvem de tempestade"
+      },
+      {
+        "value": "rio",
+        "label": "Um rio em seu leito natural"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A ponte foi construída por pessoas — é um elemento humanizado.",
+      "incorrect": "Elemento humanizado é tudo criado ou modificado pelo ser humano. Qual das opções é assim?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Humanizado = feito ou muito modificado pelas pessoas."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue elementos naturais de humanizados na paisagem.",
+    "observe": "Explore casos ambíguos: um parque urbano tem gramado (humanizado) e árvores (podem ser nativas).",
+    "answer": "A ponte — construída por pessoas.",
+    "mediation": "Mostre fotos antes/depois de um lugar local que foi urbanizado. Peça que identifiquem o que mudou.",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "efii-physical-3",
+  "moduleId": "efii-physical",
+  "title": "Clima: fatores, zonas e tipos climáticos",
+  "summary": "O que determina o clima de cada região do planeta.",
+  "activityType": "layer-toggle",
+  "phenomenon": {
+    "title": "Por que Londres tem um clima tão diferente de Lagos, mesmo em longitude similar?",
+    "text": "Londres (51°N) é temperada e nublada. Lagos, na Nigéria (6°N), é quente e úmida. A diferença está na latitude: Londres está longe do equador; Lagos quase no equador. A latitude é o fator mais importante do clima — mas não é o único."
+  },
+  "guided": {
+    "title": "Fatores que determinam o clima",
+    "text": "O clima de uma região é determinado pela combinação de vários fatores.",
+    "points": [
+      "Latitude: quanto mais próximo do equador, mais quente. O ângulo de incidência solar muda com a latitude.",
+      "Altitude: a cada 100 m de altitude, a temperatura cai cerca de 0,65°C.",
+      "Maritimidade/Continentalidade: áreas perto do mar têm clima mais ameno.",
+      "Correntes marítimas: correntes frias esfriam o litoral; correntes quentes aquecem.",
+      "O Brasil tem cinco tipos climáticos: equatorial, tropical, tropical semiárido, subtropical úmido e tropical de altitude."
+    ]
+  },
+  "relations": {
+    "title": "Zonas climáticas",
+    "text": "A Terra se divide em grandes zonas climáticas determinadas pela latitude: Equatorial (0-10°), Tropical (10-23°5), Subtropical (23°5-40°), Temperada (40-60°), Subpolar (60-70°) e Polar (70-90°)."
+  },
+  "caseStudy": {
+    "title": "Por que o Atacama é o deserto mais seco do mundo?",
+    "text": "O Deserto do Atacama, no Chile e Peru, fica entre o oceano Pacífico e os Andes — mas recebe quase zero chuva. A Corrente de Humboldt (fria) resfria o ar, impedindo a formação de nuvens. Depois, os Andes bloqueiam a umidade do leste. Dois fatores climáticos agindo juntos criam o lugar mais árido do planeta."
+  },
+  "application": "Pesquise: qual é o tipo climático da sua cidade? Como esse clima influencia a vegetação nativa, as atividades agrícolas e o modo de vida da população local?",
+  "activity": {
+    "question": "Use as camadas para identificar os biomas e os climas do Brasil. Existe relação entre temperatura, chuva e vegetação?",
+    "type": "layer-toggle",
+    "layers": [
+      {
+        "id": "biomas",
+        "label": "Biomas",
+        "visible": true
+      },
+      {
+        "id": "chuva",
+        "label": "Precipitação anual",
+        "visible": false
+      },
+      {
+        "id": "temperatura",
+        "label": "Temperatura média",
+        "visible": false
+      },
+      {
+        "id": "altimetria",
+        "label": "Altitude",
+        "visible": false
+      }
+    ],
+    "feedback": {
+      "correct": "Amazônia = alta chuva + alta temperatura. Caatinga = baixa chuva + alta temperatura. Pampa = baixa temperatura. A vegetação é resposta direta ao clima — sobreponha as camadas para ver a correlação.",
+      "incorrect": "Ative chuva e biomas ao mesmo tempo. Onde chove mais, qual bioma existe? Onde chove menos?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A Amazônia tem 2.000mm de chuva por ano. A Caatinga tem 300–700mm. Compare com os biomas e veja o padrão."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno explica como latitude, altitude, maritimidade e outros fatores determinam o clima de uma região.",
+    "observe": "Verifique se o aluno não confunde 'clima' com 'tempo'. Clima é padrão de longo prazo.",
+    "answer": "O ângulo perpendicular de incidência solar concentra mais energia por área.",
+    "mediation": "Demonstre com lanterna: aponte perpendicular vs. inclinada num papel. Meça a área iluminada.",
+    "time": "50 minutos"
+  }
+}

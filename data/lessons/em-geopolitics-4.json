@@ -1,0 +1,72 @@
+{
+  "id": "em-geopolitics-4",
+  "moduleId": "em-geopolitics",
+  "title": "Conflitos do século XXI: novas formas de guerra",
+  "summary": "Guerras híbridas, ciberguerra, terrorismo e conflitos por recursos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A Rússia apagou a rede elétrica da Ucrânia com software — sem disparar um tiro.",
+    "text": "Em 2015 e 2016, hackers russos derrubaram partes da rede elétrica da Ucrânia deixando 230.000 pessoas sem luz no inverno. Em 2022, ataques cibernéticos precederem a invasão física. A guerra do século XXI se trava também no ciberespaço — onde não há fronteiras, os agressores são anônimos e civis são alvos."
+  },
+  "guided": {
+    "title": "Novas formas de conflito",
+    "text": "O século XXI trouxe formas de conflito que escapam das categorias tradicionais da guerra.",
+    "points": [
+      "Guerra híbrida: combinação de guerra convencional, desinformação, ciberataques e pressão econômica. Ex: Rússia na Ucrânia.",
+      "Ciberguerra: ataques a infraestrutura digital (redes elétricas, bancos, hospitais). Sem declaração formal de guerra.",
+      "Terrorismo transnacional: Al-Qaeda, Estado Islâmico — atores não estatais com alcance global.",
+      "Conflitos por recursos: água, minerais, terras — crescem com mudança climática e demanda por minerais críticos.",
+      "Zonas cinzentas: ações abaixo do limiar da guerra declarada — sanções, espionagem, subversão política."
+    ]
+  },
+  "relations": {
+    "title": "Desinformação como arma",
+    "text": "A guerra de informação não é nova — mas a internet a tornou massiva e barata. Campanhas de desinformação podem influenciar eleições (interferência russa em 2016 nos EUA), polarizar sociedades, recrutar combatentes e semear desconfiança nas instituições. Uma democracia atacada por desinformação pode se destruir de dentro sem precisar de um exército invasor."
+  },
+  "caseStudy": {
+    "title": "O Estado Islâmico e o novo terrorismo",
+    "text": "O Estado Islâmico (ISIS) chegou a controlar um território do tamanho da Grã-Bretanha no Iraque e na Síria (2014-2019). Sem estado-nação de base, recrutou combatentes de 80 países via redes sociais, financiou-se com petróleo e tráfico, e praticou atrocidades documentadas em vídeo como ferramenta de terror e propaganda. Uma organização que usou as ferramentas da globalização para construir um 'califado' medieval."
+  },
+  "application": "Pesquise: o Brasil já sofreu ataques cibernéticos significativos? Quais setores foram afetados? Qual é a capacidade de defesa cibernética do Estado brasileiro?",
+  "activity": {
+    "question": "O que caracteriza a 'guerra híbrida'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "combinacao-metodos",
+    "options": [
+      {
+        "value": "combinacao-metodos",
+        "label": "A combinação de operações militares convencionais com ciberataques, desinformação e pressão econômica"
+      },
+      {
+        "value": "sem-uniforme",
+        "label": "Combatentes sem uniforme militar — guerrilha e terrorismo"
+      },
+      {
+        "value": "nuclear",
+        "label": "A ameaça de uso de armas nucleares como instrumento de coerção"
+      },
+      {
+        "value": "drones",
+        "label": "O uso de drones e tecnologia avançada no campo de batalha"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Guerra híbrida é a integração de múltiplos domínios — físico, digital, informacional, econômico — para atingir objetivos estratégicos sem declarar guerra formalmente.",
+      "incorrect": "Guerra híbrida é um conceito mais amplo. É sobre integrar múltiplas formas de pressão — militar, cyber, informacional e econômica — num esforço coordenado."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "'Híbrido' = mistura. Uma guerra que mistura o que, exatamente? Pense nas ferramentas que a Rússia usou na Ucrânia antes e durante a invasão."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica as novas formas de conflito do século XXI e compreende como elas alteram os conceitos tradicionais de guerra, segurança e soberania.",
+    "observe": "Conecte com a vida dos alunos: desinformação afeta eleições, ciberataques afetam hospitais. A segurança nacional hoje passa pelo celular de cada cidadão.",
+    "answer": "Combinação de operações militares com ciberataques, desinformação e pressão econômica.",
+    "mediation": "Analise um caso concreto de desinformação recente. Como se originou? Como se espalhou? Quais foram os efeitos? Como identificar?",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "brazil-3",
+  "moduleId": "brazil",
+  "title": "Formação territorial do Brasil",
+  "summary": "Como o Brasil adquiriu seu território atual em 500 anos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O Brasil de 1500 não existia. Como surgiu esse território de 8,5 milhões de km²?",
+    "text": "O território do Brasil não nasceu pronto. Foi construído ao longo de séculos: pela violência da colonização, pelas missões jesuítas, pela pressão dos bandeirantes, por tratados diplomáticos e por guerras. Cada fronteira conta uma história de disputas, negociações e, quase sempre, exclusão dos povos originários."
+  },
+  "guided": {
+    "title": "A construção do território brasileiro",
+    "text": "O Brasil atual é o resultado de um processo histórico de expansão e consolidação territorial.",
+    "points": [
+      "1494: Tratado de Tordesilhas — divide o Novo Mundo entre Portugal (leste) e Espanha (oeste).",
+      "Séc. XVI-XVIII: Bandeirantes expandem o território para além da linha de Tordesilhas.",
+      "1750: Tratado de Madrid — substitui Tordesilhas pelo princípio do uti possidetis (quem ocupa, possui).",
+      "1822: Independência — território herdado do período colonial.",
+      "Séc. XIX-XX: Barão do Rio Branco resolve diplomaticamente disputas com todos os vizinhos."
+    ]
+  },
+  "relations": {
+    "title": "Uti possidetis e fronteiras",
+    "text": "O princípio do uti possidetis — quem ocupa, possui — foi fundamental para a formação do território brasileiro. Portugal ocupava muito mais terra do que Tordesilhas permitia. O Tratado de Madrid (1750) reconheceu essa realidade."
+  },
+  "caseStudy": {
+    "title": "O Acre: um estado comprado",
+    "text": "O Acre era boliviano. Em 1899, seringueiros brasileiros se rebelaram e declararam independência. O Brasil negociou com a Bolívia e comprou o Acre em 1903 pelo Tratado de Petrópolis. Uma fronteira definida por borracha, dinheiro e diplomacia."
+  },
+  "application": "Pesquise: quantos países fazem fronteira com o Brasil? Qual é o único país da América do Sul com quem o Brasil NÃO faz fronteira?",
+  "activity": {
+    "question": "O Tratado de Tordesilhas (1494) estabeleceu que:",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "linha",
+    "options": [
+      {
+        "value": "linha",
+        "label": "Uma linha dividia o mundo entre Portugal (leste) e Espanha (oeste)"
+      },
+      {
+        "value": "brasil",
+        "label": "O Brasil pertencia completamente a Portugal"
+      },
+      {
+        "value": "paz",
+        "label": "Portugal e Espanha não podiam guerrear no Atlântico"
+      },
+      {
+        "value": "indios",
+        "label": "Os povos indígenas teriam seus territórios respeitados"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Tordesilhas dividiu o Atlântico e as terras descobertas com uma linha vertical — tudo a leste seria de Portugal, tudo a oeste da Espanha.",
+      "incorrect": "Tordesilhas foi uma divisão geográfica entre as duas potências. Nenhum povo americano foi consultado."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Dois países dividindo o mundo entre si. Como você traçaria essa divisão? Tordesilhas usou uma linha vertical."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve o processo de formação territorial do Brasil e identifica os principais tratados e eventos que definiram as fronteiras atuais.",
+    "observe": "Questione a ausência dos povos indígenas no processo. O território foi 'construído' sobre quais populações?",
+    "answer": "Uma linha divisória dava a Portugal o leste e à Espanha o oeste.",
+    "mediation": "Mostre mapas do Brasil em diferentes momentos: 1500, 1700, 1800, 1900, hoje. O que mudou? Por quê?",
+    "time": "50 minutos"
+  }
+}

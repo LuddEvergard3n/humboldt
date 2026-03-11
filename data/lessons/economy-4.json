@@ -1,0 +1,72 @@
+{
+  "id": "economy-4",
+  "moduleId": "economy",
+  "title": "O setor de serviços e a economia do conhecimento",
+  "summary": "A terciarização da economia e o papel do conhecimento como fator de produção.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A empresa mais valiosa do mundo (Apple) não fabrica nada — terceiriza tudo.",
+    "text": "A Apple projeta no California, fabrica em Taiwan e China, distribui globalmente, e captura a maior parte do valor na etapa que não envolve nenhuma fábrica: o design, o software e a marca. Em 2023, valia US$ 3 trilhões. Isso sintetiza a mudança estrutural da economia global: o valor migrou da fábrica para o conhecimento."
+  },
+  "guided": {
+    "title": "Setores econômicos e terciarização",
+    "text": "A economia se organiza em setores que dominaram em diferentes épocas históricas.",
+    "points": [
+      "Setor primário: extração da natureza — agricultura, mineração, pesca. Dominou até a Revolução Industrial.",
+      "Setor secundário: indústria de transformação. Dominou nos séculos XIX e XX.",
+      "Setor terciário: serviços — comércio, transporte, educação, saúde, finanças, tecnologia. Domina hoje nos países ricos.",
+      "Quaternário: serviços de conhecimento intensivo — P&D, consultoria, TI, educação superior.",
+      "Terciarização: processo pelo qual serviços substituem a indústria como principal setor da economia."
+    ]
+  },
+  "relations": {
+    "title": "A economia da plataforma",
+    "text": "Uber, Airbnb, iFood, Amazon não produzem carros, quartos nem comida — conectam oferta e demanda e ficam com uma parte do valor. São plataformas digitais que controlam o mercado sem possuir os ativos. Esse modelo criou empresas bilionárias e também um novo tipo de trabalho precarizado — o trabalhador que tem a liberdade de ser seu próprio patrão e a insegurança de não ter nenhuma proteção trabalhista."
+  },
+  "caseStudy": {
+    "title": "A Índia e o outsourcing tecnológico",
+    "text": "Nos anos 1990, empresas americanas perceberam que podiam contratar programadores indianos qualificados por 1/5 do custo americano. Bangalore virou o polo tecnológico da Índia — 'Silicon Valley do Oriente'. Hoje, a Índia é o maior exportador de serviços de TI do mundo, com US$ 200 bilhões anuais. Um país que pulou a industrialização pesada e entrou direto na economia do conhecimento."
+  },
+  "application": "Pesquise: qual é a participação dos três setores econômicos no PIB do Brasil? Como isso mudou entre 1970 e hoje? O que explica a mudança?",
+  "activity": {
+    "question": "O que é 'terciarização da economia'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "servicos-dominam",
+    "options": [
+      {
+        "value": "servicos-dominam",
+        "label": "O processo pelo qual o setor de serviços passa a ter maior participação no PIB do que a indústria e a agricultura"
+      },
+      {
+        "value": "terceiro-mundo",
+        "label": "A economia dos países do Terceiro Mundo, baseada em commodities"
+      },
+      {
+        "value": "trabalho-temporario",
+        "label": "O aumento do trabalho temporário e terceirizado nas empresas"
+      },
+      {
+        "value": "tres-setores",
+        "label": "O surgimento dos três setores econômicos na história"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Terciarização é a transição estrutural em que serviços (comércio, finanças, tecnologia, saúde, educação) superam indústria e agricultura no PIB e no emprego.",
+      "incorrect": "Terciarização se refere ao setor terciário (serviços) — não a países em desenvolvimento nem a formas de contrato de trabalho."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Primário = campo. Secundário = fábrica. Terciário = serviços. Terciarização é quando o terciário passa a dominar."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a terciarização da economia e analisa as implicações da economia do conhecimento para países em diferentes posições no sistema global.",
+    "observe": "Conecte com o mercado de trabalho que os alunos vão encontrar. Quais habilidades terão valor na economia do conhecimento?",
+    "answer": "Processo pelo qual os serviços passam a dominar o PIB e o emprego.",
+    "mediation": "Peça que os alunos listem os 10 trabalhos que imaginam fazer. Qual setor cada um pertence? O que isso diz sobre as expectativas deles?",
+    "time": "50 minutos"
+  }
+}

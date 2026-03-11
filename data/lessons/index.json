@@ -1,4 +1,40 @@
 {
+  "brazil-1": {
+    "moduleId": "brazil",
+    "title": "As cinco regiões do Brasil",
+    "summary": "Divisão regional, características e diferenças.",
+    "activityType": "map-click"
+  },
+  "brazil-2": {
+    "moduleId": "brazil",
+    "title": "Biomas: os seis ecossistemas do Brasil",
+    "summary": "Distribuição, características e ameaças dos biomas brasileiros.",
+    "activityType": "layer-toggle"
+  },
+  "brazil-3": {
+    "moduleId": "brazil",
+    "title": "Formação territorial do Brasil",
+    "summary": "Como o Brasil adquiriu seu território atual em 500 anos.",
+    "activityType": "single-choice"
+  },
+  "brazil-4": {
+    "moduleId": "brazil",
+    "title": "Urbanização brasileira: uma cidade de 50 anos",
+    "summary": "A acelerada transformação do Brasil rural em urbano.",
+    "activityType": "single-choice"
+  },
+  "brazil-5": {
+    "moduleId": "brazil",
+    "title": "Questão agrária: terra, poder e conflito no Brasil",
+    "summary": "Concentração fundiária, reforma agrária e o MST.",
+    "activityType": "single-choice"
+  },
+  "brazil-6": {
+    "moduleId": "brazil",
+    "title": "Industrialização e desenvolvimento regional desigual",
+    "summary": "Como a indústria se distribuiu no Brasil e por que a desigualdade regional persiste.",
+    "activityType": "single-choice"
+  },
   "cartography-1": {
     "moduleId": "cartography",
     "title": "Orientação: como nos localizamos no espaço",
@@ -17,17 +53,389 @@
     "summary": "Como ler e interpretar a legenda cartográfica.",
     "activityType": "layer-toggle"
   },
-  "brazil-1": {
-    "moduleId": "brazil",
+  "cartography-4": {
+    "moduleId": "cartography",
+    "title": "Coordenadas geográficas: latitude e longitude",
+    "summary": "Sistema de localização precisa sobre a superfície terrestre.",
+    "activityType": "single-choice"
+  },
+  "cartography-5": {
+    "moduleId": "cartography",
+    "title": "Projeções cartográficas: como achatar o mundo",
+    "summary": "Por que todo mapa distorce e como escolher a projeção certa.",
+    "activityType": "single-choice"
+  },
+  "economy-1": {
+    "moduleId": "economy",
+    "title": "Sistemas econômicos: capitalismo, socialismo e variantes",
+    "summary": "Como as sociedades organizam a produção, distribuição e consumo de riqueza.",
+    "activityType": "single-choice"
+  },
+  "economy-2": {
+    "moduleId": "economy",
+    "title": "Comércio internacional e divisão do trabalho",
+    "summary": "Por que os países se especializam e como o comércio global é organizado.",
+    "activityType": "single-choice"
+  },
+  "economy-3": {
+    "moduleId": "economy",
+    "title": "Desigualdade econômica global: Norte, Sul e as exceções",
+    "summary": "A distribuição da riqueza entre países e os mecanismos que perpetuam a desigualdade.",
+    "activityType": "single-choice"
+  },
+  "economy-4": {
+    "moduleId": "economy",
+    "title": "O setor de serviços e a economia do conhecimento",
+    "summary": "A terciarização da economia e o papel do conhecimento como fator de produção.",
+    "activityType": "single-choice"
+  },
+  "efi-brazil-1": {
+    "moduleId": "efi-brazil",
+    "title": "Do bairro ao país: escalas do espaço",
+    "summary": "Município, estado e país: como o Brasil se organiza.",
+    "activityType": "single-choice"
+  },
+  "efi-brazil-2": {
+    "moduleId": "efi-brazil",
     "title": "As cinco regiões do Brasil",
-    "summary": "Divisão regional, características e diferenças.",
+    "summary": "Norte, Nordeste, Centro-Oeste, Sudeste e Sul: características.",
     "activityType": "map-click"
   },
-  "brazil-2": {
-    "moduleId": "brazil",
-    "title": "Biomas: os seis ecossistemas do Brasil",
-    "summary": "Distribuição, características e ameaças dos biomas brasileiros.",
+  "efi-brazil-3": {
+    "moduleId": "efi-brazil",
+    "title": "Diversidade cultural: o Brasil é muitos",
+    "summary": "Povos indígenas, afrodescendentes, imigrantes e a formação do povo brasileiro.",
+    "activityType": "single-choice"
+  },
+  "efi-brazil-4": {
+    "moduleId": "efi-brazil",
+    "title": "Biomas brasileiros: a natureza que nos define",
+    "summary": "Os seis biomas do Brasil e sua importância ambiental.",
+    "activityType": "single-choice"
+  },
+  "efi-landscape-1": {
+    "moduleId": "efi-landscape",
+    "title": "Elementos naturais e humanizados da paisagem",
+    "summary": "Distinguir o que a natureza criou do que as pessoas modificaram.",
+    "activityType": "single-choice"
+  },
+  "efi-landscape-2": {
+    "moduleId": "efi-landscape",
+    "title": "Campo e cidade: modos de vida diferentes",
+    "summary": "Comparar características do ambiente rural e urbano.",
+    "activityType": "single-choice"
+  },
+  "efi-landscape-3": {
+    "moduleId": "efi-landscape",
+    "title": "Água: de onde vem e para onde vai",
+    "summary": "O ciclo da água e seu uso no dia a dia.",
+    "activityType": "single-choice"
+  },
+  "efi-landscape-4": {
+    "moduleId": "efi-landscape",
+    "title": "Tempo e clima: qual é a diferença?",
+    "summary": "Distinguir condições atmosféricas diárias do padrão climático.",
+    "activityType": "single-choice"
+  },
+  "efi-place-1": {
+    "moduleId": "efi-place",
+    "title": "Onde eu estou? Meu lugar no mundo",
+    "summary": "Casa, escola e bairro como primeiros espaços geográficos.",
+    "activityType": "single-choice"
+  },
+  "efi-place-2": {
+    "moduleId": "efi-place",
+    "title": "Pontos de referência e trajetos",
+    "summary": "Como nos orientamos no espaço usando marcos e caminhos.",
+    "activityType": "single-choice"
+  },
+  "efi-place-3": {
+    "moduleId": "efi-place",
+    "title": "Noções de posição: perto, longe, dentro, fora",
+    "summary": "Vocabulário espacial básico e relações de posição.",
+    "activityType": "single-choice"
+  },
+  "efi-place-4": {
+    "moduleId": "efi-place",
+    "title": "A rosa dos ventos: Norte, Sul, Leste, Oeste",
+    "summary": "Pontos cardeais e como nos orientamos pela natureza.",
+    "activityType": "compass"
+  },
+  "efi-place-5": {
+    "moduleId": "efi-place",
+    "title": "Croquis e maquetes: representando o espaço",
+    "summary": "Como desenhamos e modelamos o espaço ao redor.",
+    "activityType": "single-choice"
+  },
+  "efi-society-1": {
+    "moduleId": "efi-society",
+    "title": "Modos de vida: como as pessoas vivem em diferentes lugares",
+    "summary": "Diversidade cultural e modos de organização da vida cotidiana.",
+    "activityType": "single-choice"
+  },
+  "efi-society-2": {
+    "moduleId": "efi-society",
+    "title": "Trabalho no campo e na cidade",
+    "summary": "As atividades econômicas básicas e como elas organizam o espaço.",
+    "activityType": "single-choice"
+  },
+  "efi-society-3": {
+    "moduleId": "efi-society",
+    "title": "Comunidade e convivência: espaços compartilhados",
+    "summary": "Espaços públicos, direitos e responsabilidades coletivas.",
+    "activityType": "single-choice"
+  },
+  "efii-africa-1": {
+    "moduleId": "efii-africa",
+    "title": "África: diversidade, colonialismo e descolonização",
+    "summary": "O continente mais diverso do mundo e o legado do colonialismo.",
+    "activityType": "single-choice"
+  },
+  "efii-africa-2": {
+    "moduleId": "efii-africa",
+    "title": "África: recursos naturais, economia e conflitos",
+    "summary": "O paradoxo da riqueza natural e o subdesenvolvimento.",
+    "activityType": "single-choice"
+  },
+  "efii-africa-3": {
+    "moduleId": "efii-africa",
+    "title": "Urbanização africana: megacidades e desafios",
+    "summary": "Lagos, Cairo, Kinshasa e o crescimento urbano mais acelerado do mundo.",
     "activityType": "layer-toggle"
+  },
+  "efii-africa-4": {
+    "moduleId": "efii-africa",
+    "title": "África e as mudanças climáticas: quem paga a conta?",
+    "summary": "O continente menos poluidor sofre as consequências mais graves do aquecimento global.",
+    "activityType": "single-choice"
+  },
+  "efii-americas-1": {
+    "moduleId": "efii-americas",
+    "title": "As Américas: formação e divisão",
+    "summary": "Do 'Novo Mundo' à América Latina e Anglo-Saxônica.",
+    "activityType": "single-choice"
+  },
+  "efii-americas-2": {
+    "moduleId": "efii-americas",
+    "title": "Os EUA: potência global e território continental",
+    "summary": "Geografia física, humana e econômica dos Estados Unidos.",
+    "activityType": "single-choice"
+  },
+  "efii-americas-3": {
+    "moduleId": "efii-americas",
+    "title": "América Latina: desigualdade e desenvolvimento",
+    "summary": "Urbanização, recursos naturais e desigualdade na América Latina.",
+    "activityType": "single-choice"
+  },
+  "efii-americas-4": {
+    "moduleId": "efii-americas",
+    "title": "América Central e Caribe: corredor de povos",
+    "summary": "Pequenos territórios, grandes migrações e a sombra dos EUA.",
+    "activityType": "map-click"
+  },
+  "efii-americas-5": {
+    "moduleId": "efii-americas",
+    "title": "Amazon e Patagônia: extremos da América do Sul",
+    "summary": "A maior floresta e o extremo sul — dois ambientes que definem a escala do continente.",
+    "activityType": "single-choice"
+  },
+  "efii-concepts-1": {
+    "moduleId": "efii-concepts",
+    "title": "Espaço geográfico: o espaço produzido pela sociedade",
+    "summary": "O conceito central da Geografia: o espaço como produto social.",
+    "activityType": "single-choice"
+  },
+  "efii-concepts-2": {
+    "moduleId": "efii-concepts",
+    "title": "Lugar, paisagem e território: três formas de ver o espaço",
+    "summary": "Os conceitos-chave da análise geográfica.",
+    "activityType": "single-choice"
+  },
+  "efii-concepts-3": {
+    "moduleId": "efii-concepts",
+    "title": "Escala geográfica: de local a global",
+    "summary": "Como o ponto de observação muda o que entendemos sobre o espaço.",
+    "activityType": "single-choice"
+  },
+  "efii-concepts-4": {
+    "moduleId": "efii-concepts",
+    "title": "Território: poder, limites e soberania",
+    "summary": "O que é território e como Estados, povos e empresas disputam espaço.",
+    "activityType": "single-choice"
+  },
+  "efii-concepts-5": {
+    "moduleId": "efii-concepts",
+    "title": "Redes e fluxos: o espaço que não aparece no mapa",
+    "summary": "Dinheiro, dados, pessoas e mercadorias que conectam os lugares.",
+    "activityType": "single-choice"
+  },
+  "efii-europe-1": {
+    "moduleId": "efii-europe",
+    "title": "Europa: industrialização, conflitos e integração",
+    "summary": "Da Revolução Industrial à União Europeia: como a Europa moldou o mundo moderno.",
+    "activityType": "single-choice"
+  },
+  "efii-europe-2": {
+    "moduleId": "efii-europe",
+    "title": "Ásia: o maior continente e o século asiático",
+    "summary": "China, Índia e o deslocamento do poder econômico global para o Oriente.",
+    "activityType": "single-choice"
+  },
+  "efii-europe-3": {
+    "moduleId": "efii-europe",
+    "title": "Oriente Médio e Oceania: geopolítica do petróleo e do Pacífico",
+    "summary": "Conflitos, recursos estratégicos e a posição geopolítica do Pacífico.",
+    "activityType": "single-choice"
+  },
+  "efii-europe-4": {
+    "moduleId": "efii-europe",
+    "title": "União Europeia: integração, crises e Brexit",
+    "summary": "O maior experimento de integração regional da história — e seus limites.",
+    "activityType": "map-click"
+  },
+  "efii-europe-5": {
+    "moduleId": "efii-europe",
+    "title": "Europa e imigração: o continente que envelhece",
+    "summary": "Por que a Europa precisa de imigrantes — e por que resiste a eles.",
+    "activityType": "flow-map"
+  },
+  "efii-physical-1": {
+    "moduleId": "efii-physical",
+    "title": "A Terra por dentro: estrutura e placas tectônicas",
+    "summary": "Do núcleo à crosta: como o interior molda a superfície.",
+    "activityType": "single-choice"
+  },
+  "efii-physical-2": {
+    "moduleId": "efii-physical",
+    "title": "Relevo: montanhas, planícies e planaltos",
+    "summary": "As formas da superfície terrestre e os processos que as criam.",
+    "activityType": "single-choice"
+  },
+  "efii-physical-3": {
+    "moduleId": "efii-physical",
+    "title": "Clima: fatores, zonas e tipos climáticos",
+    "summary": "O que determina o clima de cada região do planeta.",
+    "activityType": "layer-toggle"
+  },
+  "efii-physical-4": {
+    "moduleId": "efii-physical",
+    "title": "Hidrografia: rios, bacias e o ciclo da água",
+    "summary": "Os sistemas hídricos e sua importância para o espaço geográfico.",
+    "activityType": "single-choice"
+  },
+  "efii-physical-5": {
+    "moduleId": "efii-physical",
+    "title": "Vegetação e biomas: a cobertura viva da Terra",
+    "summary": "Grandes formações vegetais e sua relação com clima e solo.",
+    "activityType": "single-choice"
+  },
+  "em-brazil-challenges-1": {
+    "moduleId": "em-brazil-challenges",
+    "title": "Brasil: desafios socioambientais do século XXI",
+    "summary": "Desmatamento, saneamento, mudança climática e a posição ambiental do Brasil no mundo.",
+    "activityType": "single-choice"
+  },
+  "em-brazil-challenges-2": {
+    "moduleId": "em-brazil-challenges",
+    "title": "Infraestrutura brasileira: gargalos e oportunidades",
+    "summary": "Logística, energia e telecomunicações como determinantes do desenvolvimento.",
+    "activityType": "single-choice"
+  },
+  "em-brazil-challenges-3": {
+    "moduleId": "em-brazil-challenges",
+    "title": "Desigualdade social e racial no espaço brasileiro",
+    "summary": "Como raça, gênero e classe determinam o acesso ao espaço e às oportunidades.",
+    "activityType": "single-choice"
+  },
+  "em-brazil-challenges-4": {
+    "moduleId": "em-brazil-challenges",
+    "title": "O Brasil no mundo: inserção internacional e política externa",
+    "summary": "A posição do Brasil na geopolítica global e suas estratégias de inserção internacional.",
+    "activityType": "single-choice"
+  },
+  "em-cartography-1": {
+    "moduleId": "em-cartography",
+    "title": "Cartografia temática: mapas que representam fenômenos sociais",
+    "summary": "Como dados demográficos, econômicos e ambientais se tornam mapas analíticos.",
+    "activityType": "single-choice"
+  },
+  "em-cartography-2": {
+    "moduleId": "em-cartography",
+    "title": "SIG e geoprocessamento: a geografía na era dos dados",
+    "summary": "Sistemas de informação geográfica e suas aplicações contemporâneas.",
+    "activityType": "single-choice"
+  },
+  "em-cartography-3": {
+    "moduleId": "em-cartography",
+    "title": "Análise espacial: padrões, clusters e anomalias no espaço",
+    "summary": "Como identificar e interpretar padrões espaciais em dados geográficos.",
+    "activityType": "single-choice"
+  },
+  "em-environment-1": {
+    "moduleId": "em-environment",
+    "title": "Mudança climática: ciência, impactos e negacionismo",
+    "summary": "O que sabemos sobre o aquecimento global, por que acontece e por que é difícil agir.",
+    "activityType": "single-choice"
+  },
+  "em-environment-2": {
+    "moduleId": "em-environment",
+    "title": "Biomas ameaçados e perda de biodiversidade",
+    "summary": "A sexta extinção em massa e os principais ecossistemas sob pressão.",
+    "activityType": "single-choice"
+  },
+  "em-environment-3": {
+    "moduleId": "em-environment",
+    "title": "Desenvolvimento sustentável: conceito, contradições e alternativas",
+    "summary": "O que significa 'desenvolvimento sustentável' e por que é difícil de praticar.",
+    "activityType": "single-choice"
+  },
+  "em-environment-4": {
+    "moduleId": "em-environment",
+    "title": "Transição energética: do petróleo às renováveis",
+    "summary": "A mudança na matriz energética global e suas implicações geopolíticas.",
+    "activityType": "single-choice"
+  },
+  "em-geopolitics-1": {
+    "moduleId": "em-geopolitics",
+    "title": "Ordem mundial: de bipolar a multipolar",
+    "summary": "A evolução do sistema internacional do pós-guerra ao mundo contemporâneo.",
+    "activityType": "single-choice"
+  },
+  "em-geopolitics-2": {
+    "moduleId": "em-geopolitics",
+    "title": "China e EUA: a rivalidade que define o século XXI",
+    "summary": "A competição entre as duas maiores potências e suas implicações globais.",
+    "activityType": "single-choice"
+  },
+  "em-geopolitics-3": {
+    "moduleId": "em-geopolitics",
+    "title": "Organizações internacionais e governança global",
+    "summary": "ONU, OMC, FMI, OTAN: como as instituições internacionais funcionam e seus limites.",
+    "activityType": "single-choice"
+  },
+  "em-geopolitics-4": {
+    "moduleId": "em-geopolitics",
+    "title": "Conflitos do século XXI: novas formas de guerra",
+    "summary": "Guerras híbridas, ciberguerra, terrorismo e conflitos por recursos.",
+    "activityType": "single-choice"
+  },
+  "em-urban-regional-1": {
+    "moduleId": "em-urban-regional",
+    "title": "Planejamento urbano: quem decide como a cidade cresce?",
+    "summary": "Plano diretor, zoneamento e as forças que moldam o espaço urbano.",
+    "activityType": "single-choice"
+  },
+  "em-urban-regional-2": {
+    "moduleId": "em-urban-regional",
+    "title": "Desequilíbrios regionais: por que o Brasil é tão desigual internamente?",
+    "summary": "A questão regional brasileira e as políticas de desenvolvimento territorial.",
+    "activityType": "single-choice"
+  },
+  "em-urban-regional-3": {
+    "moduleId": "em-urban-regional",
+    "title": "Políticas territoriais e o Estado como agente espacial",
+    "summary": "Como o Estado transforma o território — estradas, usinas, planos e suas consequências.",
+    "activityType": "single-choice"
   },
   "geopolitics-1": {
     "moduleId": "geopolitics",
@@ -41,16 +449,130 @@
     "summary": "Petróleo, água, minerais e poder.",
     "activityType": "flow-map"
   },
+  "geopolitics-3": {
+    "moduleId": "geopolitics",
+    "title": "Blocos econômicos: a geografia das alianças comerciais",
+    "summary": "Como países se unem para competir na economia global.",
+    "activityType": "single-choice"
+  },
+  "geopolitics-4": {
+    "moduleId": "geopolitics",
+    "title": "Conflitos territoriais: disputas que moldam o mundo",
+    "summary": "Por que países ainda disputam territórios no século XXI.",
+    "activityType": "single-choice"
+  },
+  "globalization-1": {
+    "moduleId": "globalization",
+    "title": "O que é globalização e quando começou?",
+    "summary": "A globalização como processo histórico de integração de mercados, culturas e territórios.",
+    "activityType": "single-choice"
+  },
+  "globalization-2": {
+    "moduleId": "globalization",
+    "title": "Redes e fluxos: como o mundo se conecta",
+    "summary": "Fluxos de mercadorias, capital, pessoas e informação na economia global.",
+    "activityType": "single-choice"
+  },
+  "globalization-3": {
+    "moduleId": "globalization",
+    "title": "Globalização, desigualdade e resistências",
+    "summary": "Quem ganha e quem perde na globalização — e as respostas políticas.",
+    "activityType": "single-choice"
+  },
+  "globalization-4": {
+    "moduleId": "globalization",
+    "title": "Cadeias produtivas globais: de onde vêm as coisas",
+    "summary": "Como um iPhone, um tênis e uma camiseta percorrem o mundo antes de chegar até você.",
+    "activityType": "flow-map"
+  },
+  "globalization-5": {
+    "moduleId": "globalization",
+    "title": "Resistências à globalização: localismo e identidade",
+    "summary": "Quando as pessoas e os povos reagem à homogeneização cultural global.",
+    "activityType": "single-choice"
+  },
   "landscape-1": {
     "moduleId": "landscape",
     "title": "Paisagem natural e paisagem humanizada",
     "summary": "Paisagem é processo histórico, não estado permanente.",
     "activityType": "before-after"
   },
+  "landscape-2": {
+    "moduleId": "landscape",
+    "title": "A paisagem como processo: transformação ao longo do tempo",
+    "summary": "Como a paisagem muda com as ações humanas e os processos naturais.",
+    "activityType": "single-choice"
+  },
+  "landscape-3": {
+    "moduleId": "landscape",
+    "title": "Paisagem urbana: a cidade como texto a ser lido",
+    "summary": "Como a morfologia urbana revela desigualdade, história e planejamento.",
+    "activityType": "single-choice"
+  },
+  "landscape-4": {
+    "moduleId": "landscape",
+    "title": "Paisagem cultural: como as sociedades marcam o território",
+    "summary": "Arquitetura, língua, religião e tradição como leitura geográfica de um lugar.",
+    "activityType": "single-choice"
+  },
+  "landscape-5": {
+    "moduleId": "landscape",
+    "title": "Paisagem e tempo geológico: a longa história da Terra",
+    "summary": "Montanhas, vales e planícies como registros de processos de milhões de anos.",
+    "activityType": "layer-toggle"
+  },
   "population-1": {
     "moduleId": "population",
-    "title": "Por que as pessoas migram",
-    "summary": "Fatores de expulsão, atração e os grandes fluxos migratórios.",
+    "title": "Dinâmica populacional: quem somos e quantos somos",
+    "summary": "Crescimento, densidade, estrutura etária e transição demográfica.",
+    "activityType": "before-after"
+  },
+  "population-2": {
+    "moduleId": "population",
+    "title": "Migrações: por que as pessoas se movem",
+    "summary": "Causas, tipos e impactos dos movimentos populacionais.",
+    "activityType": "single-choice"
+  },
+  "population-3": {
+    "moduleId": "population",
+    "title": "Transição demográfica: como as populações mudam",
+    "summary": "Do alto crescimento ao envelhecimento — o ciclo que todos os países percorrem.",
+    "activityType": "single-choice"
+  },
+  "population-4": {
+    "moduleId": "population",
+    "title": "Refugiados e deslocados: geografias do desespero",
+    "summary": "Por que 100 milhões de pessoas estão fora de suas casas e o que isso significa.",
     "activityType": "flow-map"
+  },
+  "urbanization-1": {
+    "moduleId": "urbanization",
+    "title": "Urbanização mundial: por que o planeta virou urbano",
+    "summary": "O processo histórico de urbanização e suas causas globais.",
+    "activityType": "single-choice"
+  },
+  "urbanization-2": {
+    "moduleId": "urbanization",
+    "title": "Metrópoles e redes urbanas: como as cidades se organizam",
+    "summary": "Hierarquia urbana, metropolização e a rede de cidades brasileira.",
+    "activityType": "single-choice"
+  },
+  "urbanization-3": {
+    "moduleId": "urbanization",
+    "title": "Problemas urbanos: mobilidade, habitação e meio ambiente",
+    "summary": "Os principais desafios das cidades contemporâneas.",
+    "activityType": "single-choice"
+  },
+  "urbanization-4": {
+    "moduleId": "urbanization",
+    "title": "Metrópoles globais: hierarquia urbana e poder",
+    "summary": "Por que Nova York, Londres e Tóquio comandam o planeta — e o que define uma cidade global.",
+    "activityType": "before-after"
+  },
+  "urbanization-5": {
+    "moduleId": "urbanization",
+    "title": "Segregação urbana: a cidade dividida",
+    "summary": "Como renda, raça e poder organizam o espaço urbano brasileiro.",
+    "activityType": "single-choice"
   }
 }

@@ -1,0 +1,71 @@
+{
+  "id": "efi-society-3",
+  "moduleId": "efi-society",
+  "title": "Comunidade e convivência: espaços compartilhados",
+  "summary": "Espaços públicos, direitos e responsabilidades coletivas.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que a praça é de todo mundo — e de ninguém ao mesmo tempo?",
+    "text": "Uma praça é pública: qualquer pessoa pode entrar. Mas isso cria um paradoxo: se é de todo mundo, quem cuida? Quando ninguém sente que é responsável, o espaço se degrada. Quando a comunidade se apropria — planta, limpa, usa — a praça floresce."
+  },
+  "guided": {
+    "title": "Espaços públicos e privados",
+    "text": "Os espaços se organizam entre o que é privado (de alguém) e o que é público (de todos).",
+    "points": [
+      "Espaço privado: casa, apartamento — o uso é controlado pelo dono.",
+      "Espaço público: rua, praça, parque, calçada, escola pública — o uso é de todos.",
+      "Espaços semipúblicos: shoppings, mercados — privados mas com acesso coletivo.",
+      "A qualidade do espaço público é um indicador da qualidade de vida de uma cidade."
+    ]
+  },
+  "relations": {
+    "title": "Pertencimento e responsabilidade",
+    "text": "Quando as pessoas se sentem parte de um lugar, cuidam dele. Programas de adoção de praças mostram que o sentimento de pertencimento muda o comportamento coletivo."
+  },
+  "caseStudy": {
+    "title": "O Parque Minhocão",
+    "text": "O Minhocão é um elevado de concreto em São Paulo. Aos domingos, quando fechado para veículos, moradores invadem o asfalto: ciclistas, famílias, músicos, skatistas. A pressão popular transformou o Minhocão num parque linear — um espaço público criado pela comunidade que o adotou."
+  },
+  "application": "Identifique um espaço público no seu bairro. Ele está bem cuidado? Quem o usa? O que você mudaria nele?",
+  "activity": {
+    "question": "O que é um espaço público?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "todos",
+    "options": [
+      {
+        "value": "todos",
+        "label": "Um espaço de uso coletivo, acessível a qualquer pessoa"
+      },
+      {
+        "value": "governo",
+        "label": "Um espaço que pertence ao governo e não pode ser usado"
+      },
+      {
+        "value": "pago",
+        "label": "Um espaço onde você precisa pagar para entrar"
+      },
+      {
+        "value": "privado",
+        "label": "Um espaço particular que o dono deixa usar"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Espaço público é de uso coletivo — rua, praça, parque. Qualquer pessoa pode usar.",
+      "incorrect": "Pense em praça, calçada, escola pública. O que esses lugares têm em comum?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Praça, rua, parque — qualquer pessoa pode entrar. Como chamamos esses espaços?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue espaços públicos de privados e compreende que espaços públicos exigem responsabilidade coletiva.",
+    "observe": "Explore o papel do Estado na criação e manutenção de espaços públicos.",
+    "answer": "Espaço de uso coletivo, acessível a qualquer pessoa.",
+    "mediation": "Leve a turma para observar a praça mais próxima. Discuta: quem usa? Quem cuida? O que precisa melhorar?",
+    "time": "50 minutos"
+  }
+}

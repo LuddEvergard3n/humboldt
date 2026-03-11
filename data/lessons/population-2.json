@@ -1,0 +1,73 @@
+{
+  "id": "population-2",
+  "moduleId": "population",
+  "title": "Migrações: por que as pessoas se movem",
+  "summary": "Causas, tipos e impactos dos movimentos populacionais.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "101 milhões de pessoas estão deslocadas no mundo — o maior número da história",
+    "text": "Segundo a ONU (2022), nunca houve tantas pessoas fora de seus países ou deslocadas dentro deles: refugiados de guerra, migrantes climáticos, deslocados por perseguição. A Geografia das migrações responde por que as pessoas se movem e quais forças as empurram e atraem."
+  },
+  "guided": {
+    "title": "Causas e tipos de migração",
+    "text": "As migrações são movimentos de pessoas de um lugar para outro — temporários ou permanentes.",
+    "points": [
+      "Fatores de expulsão (push): pobreza, guerra, seca, perseguição, desemprego.",
+      "Fatores de atração (pull): oportunidades de trabalho, segurança, serviços, redes sociais.",
+      "Migração interna: dentro do mesmo país. Ex: êxodo rural nordestino.",
+      "Migração internacional: entre países. Ex: venezuelanos no Brasil.",
+      "Refugiado: migra por perseguição ou guerra — tem proteção legal específica da ONU.",
+      "Migrante econômico: migra em busca de melhores condições — sem proteção especial."
+    ]
+  },
+  "relations": {
+    "title": "Impactos das migrações",
+    "text": "Migrações têm impactos no lugar de origem (perda de população jovem, mas remessas financeiras) e no destino (aumento de mão de obra, demanda por serviços, diversidade cultural). Os países que melhor absorvem migrantes tendem a ter crescimento econômico mais robusto a longo prazo."
+  },
+  "caseStudy": {
+    "title": "Venezuelanos no Brasil",
+    "text": "Desde 2015, mais de 500.000 venezuelanos migraram para o Brasil fugindo da crise econômica e política. A maioria entrou por Roraima — o estado menos populoso do Brasil. O programa Operação Acolhida interioriza venezuelanos para outros estados."
+  },
+  "application": "Pesquise: quais países hoje recebem mais migrantes? E quais expulsam mais? Esses padrões coincidem com riqueza e conflitos?",
+  "activity": {
+    "question": "O que diferencia um refugiado de um migrante econômico?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "perseguicao",
+    "options": [
+      {
+        "value": "perseguicao",
+        "label": "Refugiado foge de perseguição ou guerra e tem proteção legal internacional"
+      },
+      {
+        "value": "distancia",
+        "label": "Refugiado percorre distância maior que o migrante econômico"
+      },
+      {
+        "value": "riqueza",
+        "label": "Migrante econômico é mais rico que o refugiado"
+      },
+      {
+        "value": "tempo",
+        "label": "Refugiado fica mais tempo no país de destino"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A Convenção de Refugiados (1951) define refugiado como quem foge por perseguição. Isso dá proteção legal específica.",
+      "incorrect": "A diferença está na causa da migração e na proteção legal — não na distância ou riqueza."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Refugiado tem um status legal específico. A ONU protege refugiados — mas não todo migrante. Por quê?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue tipos de migração, identifica fatores de expulsão e atração e analisa impactos espaciais das migrações.",
+    "observe": "Trate com sensibilidade: migrantes e refugiados podem estar na turma. Evite generalizações xenofóbicas.",
+    "answer": "Refugiado foge de perseguição/guerra com proteção legal; migrante econômico busca melhores condições.",
+    "mediation": "Mapeie com os alunos: de onde vieram os avós de cada um? Isso é migração. Quais foram as causas?",
+    "time": "50 minutos"
+  }
+}

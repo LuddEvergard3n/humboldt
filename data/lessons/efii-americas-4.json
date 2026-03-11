@@ -1,0 +1,58 @@
+{
+  "id": "efii-americas-4",
+  "moduleId": "efii-americas",
+  "title": "América Central e Caribe: corredor de povos",
+  "summary": "Pequenos territórios, grandes migrações e a sombra dos EUA.",
+  "activityType": "map-click",
+  "phenomenon": {
+    "title": "Guatemala, Honduras e El Salvador exportam 10% de sua população por ano",
+    "text": "O Triângulo Norte da América Central — Guatemala, Honduras e El Salvador — é uma das regiões de maior emigração do planeta. Violência de gangues, seca, pobreza e falta de oportunidade fazem jovens arriscar a vida para chegar aos EUA. A caravana de migrantes virou imagem símbolo da crise. Mas o que poucos sabem: as remessas enviadas de volta pelos migrantes equivalem a 20–25% do PIB desses países — a maior fonte de renda nacional."
+  },
+  "guided": {
+    "title": "América Central e Caribe: síntese",
+    "text": "Uma região de grande diversidade histórica, cultural e geográfica sob forte influência norte-americana.",
+    "points": [
+      "América Central: sete países entre México e Colômbia; ponte terrestre entre América do Norte e do Sul.",
+      "Caribe: mais de 700 ilhas; mistura de colonialismo britânico, francês, holandês, espanhol; grande diversidade cultural.",
+      "Economia: turismo, banana, café, cana-de-açúcar; dependência de remessas e ajuda externa.",
+      "Influência dos EUA: intervenções militares históricas (Guatemala 1954, Nicarágua 1980s, Haiti várias vezes), bases militares, tratados de livre-comércio.",
+      "Cuba: única ditadura socialista das Américas; bloqueio econômico dos EUA desde 1962; recente crise de migração.",
+      "Haiti: país mais pobre das Américas; terremoto de 2010 matou 220 mil; instabilidade política permanente."
+    ]
+  },
+  "relations": {
+    "title": "As gangues e a crise de segurança",
+    "text": "As MS-13 e Barrio 18, as maiores gangues da América Central, nasceram em Los Angeles nos anos 1980 — fundadas por imigrantes salvadorenhos. Quando os EUA deportaram seus membros, eles levaram a cultura de gangues para países sem estrutura policial para lidar com elas. As gangues são, em parte, um produto da política de imigração norte-americana."
+  },
+  "caseStudy": {
+    "title": "Cuba: socialismo, embargo e a nova onda de emigração",
+    "text": "Em 2022–2023, Cuba viveu a maior onda emigratória de sua história: 300 mil cubanos saíram do país, em grande parte pela fronteira dos EUA com o México. A combinação de crise econômica (o pior em 30 anos), apagões de 12 horas, inflação de 400% e fechamento político produziu um êxodo histórico de jovens."
+  },
+  "application": "Identifique no mapa da América Central: qual país faz fronteira com o México? Qual é o único país de língua inglesa na América Central continental?",
+  "activity": {
+    "question": "Clique nos países do \"Triângulo Norte\" — a região de onde sai o maior fluxo de migrantes para os EUA.",
+    "type": "map-click",
+    "targets": [
+      "guatemala",
+      "honduras",
+      "el-salvador"
+    ],
+    "feedback": {
+      "correct": "Correto! Guatemala, Honduras e El Salvador formam o Triângulo Norte — origem de 70% dos migrantes detidos na fronteira EUA-México.",
+      "incorrect": "O Triângulo Norte está na parte norte da América Central, entre o México e a Nicarágua."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Os três países ficam ao norte da Nicarágua, fazendo fronteira com o México (no caso da Guatemala) ou próximos a ele."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno reconhece a América Central como região específica, identifica os fatores que produzem migração e entende o papel dos EUA na região.",
+    "observe": "Evite a narrativa de \"invasão\" sobre migração. Contextualize historicamente — quem criou as condições da crise?",
+    "answer": "Guatemala, Honduras e El Salvador — o Triângulo Norte.",
+    "mediation": "Pergunte: \"Se as remessas são 25% do PIB, o que acontece com Honduras se os EUA deportar todos os imigrantes?\"",
+    "time": "50 minutos"
+  }
+}

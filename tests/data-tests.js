@@ -108,7 +108,10 @@ export async function runDataTests() {
       assert(l.phenomenon?.title,              `sem phenomenon.title: ${id}`);
       assert(l.phenomenon?.text,               `sem phenomenon.text: ${id}`);
       assert(l.activity,                       `sem activity: ${id}`);
-      assert(l.activity.correct !== undefined, `sem activity.correct: ${id}`);
+      const noCorrect = ['layer-toggle','flow-map','before-after','map-click','compass','scale'];
+      if (!noCorrect.includes(l.activityType)) {
+        assert(l.activity.correct !== undefined, `sem activity.correct: ${id}`);
+      }
       assert(l.teacher?.objective,             `sem teacher.objective: ${id}`);
       assert(l.teacher?.answer,                `sem teacher.answer: ${id}`);
     });

@@ -1,0 +1,72 @@
+{
+  "id": "efii-physical-1",
+  "moduleId": "efii-physical",
+  "title": "A Terra por dentro: estrutura e placas tectônicas",
+  "summary": "Do núcleo à crosta: como o interior molda a superfície.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que o Japão treme tanto e o Brasil quase nunca?",
+    "text": "O Japão tem cerca de 1.500 terremotos por ano. O Brasil praticamente não tem. A explicação está nas placas tectônicas: o Japão fica na junção de quatro placas. O Brasil está no centro estável da Placa Sul-Americana. A localização em relação às placas determina o risco sísmico."
+  },
+  "guided": {
+    "title": "Estrutura interna da Terra",
+    "text": "A Terra tem camadas com propriedades muito diferentes.",
+    "points": [
+      "Núcleo interno: sólido, ferro e níquel, ~5.000°C — gera o campo magnético.",
+      "Núcleo externo: líquido, ferro em fusão — alimenta o campo magnético.",
+      "Manto: rocha semi-sólida em convecção — movimenta as placas.",
+      "Crosta: camada mais fina (5-70 km), onde vivemos. Dividida em placas tectônicas.",
+      "As placas se movem lentamente (2-10 cm/ano), mas ao longo de milhões de anos formam montanhas e criam oceanos."
+    ]
+  },
+  "relations": {
+    "title": "Deriva continental",
+    "text": "Alfred Wegener (1912) percebeu que as costas da América do Sul e África encaixam como peças de quebra-cabeça. Propôs que os continentes já foram um único supercontinente — Pangeia. A ideia foi ridicularizada por 50 anos, até que a geofísica provou que ele estava certo."
+  },
+  "caseStudy": {
+    "title": "O terremoto e tsunami de 2011 no Japão",
+    "text": "O terremoto de magnitude 9.1 de março de 2011 foi causado pelo encontro da Placa do Pacífico com a Placa Norte-Americana. A placa do Pacífico mergulhou sob a outra (subducção), liberando energia enorme. O tsunami resultante matou 20.000 pessoas e destruiu a usina nuclear de Fukushima."
+  },
+  "application": "Pesquise: quais são as grandes cadeias de montanhas do mundo (Andes, Himalaias, Rochosas)? O que elas têm em comum quanto à origem tectônica?",
+  "activity": {
+    "question": "O que causa terremotos e vulcões?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "placas",
+    "options": [
+      {
+        "value": "placas",
+        "label": "O movimento e colisão das placas tectônicas"
+      },
+      {
+        "value": "sol",
+        "label": "A gravidade do Sol puxando a crosta"
+      },
+      {
+        "value": "agua",
+        "label": "A pressão da água dos oceanos sobre o fundo"
+      },
+      {
+        "value": "lua",
+        "label": "A atração da Lua deformando a crosta"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Quando placas tectônicas colidem, se separam ou deslizam, liberam energia sísmica. Vulcões surgem onde o magma do manto sobe à superfície.",
+      "incorrect": "A causa está no interior da Terra — não em forças externas como o Sol ou a Lua."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "As placas tectônicas se movem. Quando elas se encontram ou deslizam, o que acontece?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve a estrutura interna da Terra e compreende como o movimento de placas explica terremotos, vulcanismo e formação de montanhas.",
+    "observe": "Relacione com o Brasil: por que não temos terremotos significativos? O Brasil está no interior estável da Placa Sul-Americana.",
+    "answer": "Movimento e colisão das placas tectônicas.",
+    "mediation": "Use ovos cozidos com casca rachada para simular placas tectônicas sobre o interior mole.",
+    "time": "50 minutos"
+  }
+}

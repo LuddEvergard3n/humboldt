@@ -1,0 +1,71 @@
+{
+  "id": "efi-society-2",
+  "moduleId": "efi-society",
+  "title": "Trabalho no campo e na cidade",
+  "summary": "As atividades econômicas básicas e como elas organizam o espaço.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Quem fez o lápis que você usa?",
+    "text": "Um lápis parece simples — mas envolve extração de madeira, mineração de grafite, fabricação, embalagem, transporte e venda. Pelo menos cinco países e dezenas de trabalhadores participaram antes de chegar na sua mão."
+  },
+  "guided": {
+    "title": "Os setores da economia",
+    "text": "As atividades de trabalho podem ser divididas em três grandes grupos.",
+    "points": [
+      "Setor primário: extrai recursos da natureza — agricultura, pecuária, pesca, mineração.",
+      "Setor secundário: transforma matéria-prima em produto — indústrias de todos os tipos.",
+      "Setor terciário: presta serviços — comércio, saúde, educação, transporte, tecnologia.",
+      "Nas cidades, predomina o setor terciário. No campo, o setor primário."
+    ]
+  },
+  "relations": {
+    "title": "Divisão do trabalho",
+    "text": "Nenhuma pessoa faz tudo sozinha — dividimos tarefas. Uma cidade é uma enorme rede de divisão do trabalho: médicos cuidam da saúde, engenheiros constroem pontes, agricultores produzem comida. Essa especialização aumenta a produtividade."
+  },
+  "caseStudy": {
+    "title": "A transformação do trabalho no Vale do Silício",
+    "text": "O Vale do Silício, na Califórnia, era uma região de pomares até os anos 1950. Depois, universidades e startups transformaram a região no centro mundial da indústria digital. Em 50 anos, o trabalho mudou de colheita de ameixas para desenvolvimento de smartphones."
+  },
+  "application": "Pergunte para seus pais ou responsáveis: em que setor da economia eles trabalham? Primário, secundário ou terciário?",
+  "activity": {
+    "question": "Um médico que atende pacientes num hospital pertence a qual setor da economia?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "terciario",
+    "options": [
+      {
+        "value": "terciario",
+        "label": "Terciário — presta serviço de saúde"
+      },
+      {
+        "value": "primario",
+        "label": "Primário — extrai recursos naturais"
+      },
+      {
+        "value": "secundario",
+        "label": "Secundário — transforma matéria-prima em produto"
+      },
+      {
+        "value": "nenhum",
+        "label": "Nenhum dos setores"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Médico presta serviço — pertence ao setor terciário.",
+      "incorrect": "Setor primário extrai da natureza. Secundário fabrica. Terciário presta serviços. Médico é qual?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Saúde, educação, comércio — todos são setor terciário."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno classifica atividades econômicas nos três setores.",
+    "observe": "Explore casos ambíguos: um agricultor que também vende diretamente atua no primário e no terciário.",
+    "answer": "Terciário — presta serviço.",
+    "mediation": "Liste com a turma 10 profissões. Classifiquem juntos. Discuta casos difíceis.",
+    "time": "50 minutos"
+  }
+}

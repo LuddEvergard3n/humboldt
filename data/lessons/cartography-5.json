@@ -1,0 +1,71 @@
+{
+  "id": "cartography-5",
+  "moduleId": "cartography",
+  "title": "Projeções cartográficas: como achatar o mundo",
+  "summary": "Por que todo mapa distorce e como escolher a projeção certa.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que a Groenlândia parece maior que a África no seu mapa escolar?",
+    "text": "No mapa de Mercator — o mais usado em escolas — a Groenlândia parece ter o tamanho da África. Na realidade, a África é 14 vezes maior. É impossível achatar uma esfera sem distorcer área, forma, distância ou direção. Toda projeção cartográfica é uma escolha de qual distorção tolerar."
+  },
+  "guided": {
+    "title": "O problema da projeção",
+    "text": "Transformar uma esfera (Terra) em uma superfície plana (mapa) sempre causa distorção.",
+    "points": [
+      "Projeção de Mercator (1569): preserva ângulos e formas — útil para navegação. Distorce áreas (polo = enorme).",
+      "Projeção de Peters: preserva áreas — mais 'justa'. Distorce formas.",
+      "Projeção de Robinson: compromisso entre área e forma. Usada pela National Geographic.",
+      "Não existe projeção perfeita: todo mapa é uma escolha política e técnica."
+    ]
+  },
+  "relations": {
+    "title": "Mapas e poder",
+    "text": "Qual região fica no centro do mapa? Qual aparece maior? Qual está no topo? Essas escolhas não são neutras. O mapa de Mercator foi feito por um europeu, no centro da Europa. Mapas expressam pontos de vista — e quem tem poder para produzir mapas define como o mundo é percebido."
+  },
+  "caseStudy": {
+    "title": "O mapa de Peters e a política do tamanho",
+    "text": "Em 1974, Arno Peters lançou sua projeção como ato político: 'O mapa de Mercator distorce o Terceiro Mundo para parecer menor'. A projeção de Peters preserva as áreas — mas distorce as formas. Uma distorção por outra — mas o debate sobre mapas e poder foi transformador."
+  },
+  "application": "Compare o mesmo mapa do mundo em três projeções diferentes (Mercator, Peters, Robinson). Quais países parecem maiores/menores em cada uma?",
+  "activity": {
+    "question": "Por que é impossível fazer um mapa perfeitamente fiel à realidade?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "esfera-plano",
+    "options": [
+      {
+        "value": "esfera-plano",
+        "label": "Porque achatar uma esfera em um plano sempre causa algum tipo de distorção"
+      },
+      {
+        "value": "tecnologia",
+        "label": "Porque a tecnologia cartográfica ainda não é boa o suficiente"
+      },
+      {
+        "value": "terra-muda",
+        "label": "Porque a Terra está sempre mudando de forma"
+      },
+      {
+        "value": "escala",
+        "label": "Porque qualquer redução de escala deforma objetos"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Uma esfera não pode ser achatada sem cortar, esticar ou comprimir. A distorção é matematicamente inevitável.",
+      "incorrect": "O problema não é técnico — é geométrico. Tente imaginar descascar uma laranja e achatar a casca sem rasgar."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Tente descascar uma laranja e achatar a casca num papel sem rasgar. Conseguiu? Esse é o problema da projeção."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende por que toda projeção cartográfica distorce e analisa criticamente as escolhas políticas por trás dos mapas.",
+    "observe": "Essa lição é excelente para desenvolver pensamento crítico. Questione: quem faz os mapas? Para quê? Para quem?",
+    "answer": "Achatar uma esfera em um plano sempre causa distorção matemática.",
+    "mediation": "Descasque uma laranja com os alunos. Tente achatar a casca. Fotografe o resultado — é uma projeção cartográfica artesanal.",
+    "time": "50 minutos"
+  }
+}

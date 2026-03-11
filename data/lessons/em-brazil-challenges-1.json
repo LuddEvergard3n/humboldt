@@ -1,0 +1,72 @@
+{
+  "id": "em-brazil-challenges-1",
+  "moduleId": "em-brazil-challenges",
+  "title": "Brasil: desafios socioambientais do século XXI",
+  "summary": "Desmatamento, saneamento, mudança climática e a posição ambiental do Brasil no mundo.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O Brasil tem 60% das florestas tropicais do mundo — e o maior potencial do planeta para ser a solução climática.",
+    "text": "O Brasil abriga a Amazônia, o Pantanal, o Cerrado, a Mata Atlântica, a Caatinga e os Pampas. É a maior potência em biodiversidade e recursos hídricos do planeta. Ao mesmo tempo, está entre os maiores desmatadores e emissores de gases de efeito estufa do mundo. Essa contradição não é acidente — é o campo de batalha central da política ambiental brasileira."
+  },
+  "guided": {
+    "title": "Os desafios socioambientais brasileiros",
+    "text": "O Brasil enfrenta desafios ambientais que têm dimensão global — e que dependem de escolhas políticas domésticas.",
+    "points": [
+      "Desmatamento: Amazônia atingiu 20% de desmatamento — próximo do ponto de não retorno de 25-30%.",
+      "Cerrado: o bioma mais ameaçado do Brasil — 50% já desmatado, e menos protegido que a Amazônia.",
+      "Saneamento: 35 milhões de brasileiros sem acesso a esgoto. Concentrados na periferia urbana e em áreas rurais.",
+      "Contaminação por agrotóxicos: o Brasil é o maior consumidor de agrotóxicos do mundo — impactos sobre saúde e biodiversidade.",
+      "Mudança climática: eventos extremos mais frequentes (seca no Norte, enchentes no Sul) — já visíveis nos dados."
+    ]
+  },
+  "relations": {
+    "title": "A governança ambiental brasileira",
+    "text": "O Brasil tem uma das legislações ambientais mais avançadas do mundo no papel — Código Florestal, Sistema Nacional de Unidades de Conservação, SNUC — mas a fiscalização é historicamente deficiente. A Amazônia perdeu mais em anos de fiscalização fraca do que em décadas anteriores. A questão não é a lei — é a capacidade e a vontade política de fazê-la cumprir."
+  },
+  "caseStudy": {
+    "title": "As enchentes do Rio Grande do Sul (2024)",
+    "text": "Em maio de 2024, o Rio Grande do Sul viveu a maior catástrofe climática da história do Brasil: 150 mortos, 500.000 desabrigados, 80% do estado afetado. As causas combinaram: chuva recorde ligada ao El Niño e à mudança climática, urbanização de várzeas, falta de sistemas de alerta precoce e infraestrutura degradada. Um evento climático que expôs a vulnerabilidade de um estado rico a eventos que se tornarão cada vez mais frequentes."
+  },
+  "application": "Pesquise: quais são as principais metas do Brasil no Acordo de Paris? O Brasil está cumprindo essas metas? O que as organizações ambientais dizem sobre o desempenho brasileiro?",
+  "activity": {
+    "question": "Por que o desmatamento do Cerrado é considerado tão preocupante quanto o da Amazônia, apesar de receber menos atenção?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "agua-biodiversidade",
+    "options": [
+      {
+        "value": "agua-biodiversidade",
+        "label": "O Cerrado é o berço das águas do Brasil e tem altíssima biodiversidade endêmica — e já perdeu 50% de sua cobertura"
+      },
+      {
+        "value": "fogo",
+        "label": "O Cerrado pega fogo mais facilmente que a Amazônia"
+      },
+      {
+        "value": "tamanho",
+        "label": "O Cerrado é maior que a Amazônia"
+      },
+      {
+        "value": "populacao",
+        "label": "Mais pessoas vivem no Cerrado do que na Amazônia"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O Cerrado alimenta os principais rios brasileiros (São Francisco, Tocantins, Paraná) e tem 5% das espécies do planeta — com alto grau de endemismo. Já perdeu metade — e recebe muito menos proteção legal e atenção que a Amazônia.",
+      "incorrect": "O Cerrado é menor que a Amazônia, mas sua função hídrica (nascentes dos principais rios brasileiros) e sua biodiversidade são razões suficientes para preocupação crítica."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "De onde vêm as águas do Rio São Francisco? E do Paraná? E do Tocantins? Onde esses rios nascem?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa os principais desafios socioambientais brasileiros e a posição contraditória do Brasil como potência ambiental e emissor significativo.",
+    "observe": "Evite catastrofismo. Apresente também os avanços: o PRODES, o desmatamento zerado na Amazônia em 2023, as energias renováveis. A situação é grave, mas não irreversível ainda.",
+    "answer": "O Cerrado é o berço das águas do Brasil e tem altíssima biodiversidade endêmica — e 50% já foi desmatado.",
+    "mediation": "Compare o mapa de desmatamento do Cerrado com o mapa de bacias hidrográficas. Onde as nascentes coincidem com o desmatamento? Quais consequências hídicas isso tem?",
+    "time": "50 minutos"
+  }
+}

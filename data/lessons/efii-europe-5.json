@@ -1,0 +1,85 @@
+{
+  "id": "efii-europe-5",
+  "moduleId": "efii-europe",
+  "title": "Europa e imigração: o continente que envelhece",
+  "summary": "Por que a Europa precisa de imigrantes — e por que resiste a eles.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Sem imigração, a Alemanha perderia 8 milhões de trabalhadores até 2035",
+    "text": "A Europa tem a população mais velha do mundo. A Alemanha tem 84 milhões de habitantes — e sem imigração, teria 76 milhões em 2035, com menos trabalhadores para sustentar mais aposentados. O paradoxo europeu: economicamente precisa de imigrantes para sobreviver, politicamente elegem cada vez mais partidos anti-imigração. A realidade demográfica e o sentimento político apontam em direções opostas."
+  },
+  "guided": {
+    "title": "Imigração na Europa: números e rotas",
+    "text": "A Europa é o destino mais buscado por migrantes e refugiados do Sul Global.",
+    "points": [
+      "Rota mediterrânea: Norte da África → Itália/Espanha — mais de 2.000 mortos por ano no Mediterrâneo.",
+      "Rota balcânica: Turquia → Grécia → Balcãs → Europa Central — usada por sírios e afegãos.",
+      "Imigrantes legais: 5 milhões entram legalmente na Europa por ano — estudantes, trabalhadores, reunificação familiar.",
+      "Países de destino preferidos: Alemanha (maior economia), França, Espanha, Itália.",
+      "Envelhecimento: a Europa tem 20% de sua população com mais de 65 anos — a mais velha do mundo.",
+      "Sem imigrantes: sistemas de saúde, agricultura e construção europeus parariam em semanas."
+    ]
+  },
+  "relations": {
+    "title": "A política da fronteira",
+    "text": "A UE criou a FRONTEX, agência de controle de fronteiras, e pagou à Turquia 6 bilhões de euros para \"segurar\" os refugiados sírios. Hungria, Polônia e Itália ergueram cercas e adotaram políticas de devolução forçada. Ao mesmo tempo, a Alemanha acolheu 1 milhão de sírios em 2015 — e os integrou à sua força de trabalho. A Europa é um continente dividido sobre sua própria identidade."
+  },
+  "caseStudy": {
+    "title": "Os gregos de Lesbos: acolhida e esgotamento",
+    "text": "A ilha grega de Lesbos, com 86 mil habitantes, recebeu 800 mil refugiados em 2015 — mais de nove vezes sua população. Piscadores gregos salvaram afogados no mar durante meses. Depois veio o esgotamento: o campo de Moria, o maior da Europa, viveu em condições desumanas por anos. A história de Lesbos é a síntese da crise europeia: humanidade exaustiva confrontando uma crise sistêmica sem solução individual."
+  },
+  "application": "Pesquise: qual rota migratória para a Europa é a mais perigosa? Quantas pessoas morreram no Mediterrâneo nos últimos 10 anos?",
+  "activity": {
+    "question": "Observe os fluxos migratórios para a Europa. Quais são as principais rotas? De onde vêm as pessoas?",
+    "type": "flow-map",
+    "flows": [
+      {
+        "from": "Síria/Turquia",
+        "to": "Grécia",
+        "value": 850000,
+        "label": "850K (2015)"
+      },
+      {
+        "from": "Líbia",
+        "to": "Itália",
+        "value": 180000,
+        "label": "180K/ano"
+      },
+      {
+        "from": "Marrocos",
+        "to": "Espanha",
+        "value": 35000,
+        "label": "35K/ano"
+      },
+      {
+        "from": "África Subsaariana",
+        "to": "França",
+        "value": 140000,
+        "label": "140K/ano"
+      },
+      {
+        "from": "Ucrânia",
+        "to": "Alemanha/Polônia",
+        "value": 4000000,
+        "label": "4M (2022)"
+      }
+    ],
+    "feedback": {
+      "correct": "Existem três rotas principais: mediterrânea (Líbia→Itália, Marrocos→Espanha), balcânica (Turquia→Grécia→Europa Central) e leste europeu (Ucrânia→Polônia).",
+      "incorrect": "Observe de onde partem os fluxos e onde chegam. Quais são os pontos de entrada na Europa?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O Mediterrâneo é cruzado de Sul para Norte. Os Bálcãs são cruzados de Leste para Oeste. São duas rotas completamente diferentes em origem e perfil de migrante."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa as causas e consequências da imigração para a Europa, confrontando necessidade econômica com reação política.",
+    "observe": "Combata a narrativa de \"invasão\": mostre os números reais de imigração legal vs. irregular.",
+    "answer": "Rotas mediterrânea (Líbia→Itália, Marrocos→Espanha) e balcânica (Turquia→Grécia).",
+    "mediation": "Pergunte: \"Se a Alemanha precisa de 400 mil imigrantes por ano, mas vota em partidos anti-imigração, como isso se resolve?\"",
+    "time": "50 minutos"
+  }
+}

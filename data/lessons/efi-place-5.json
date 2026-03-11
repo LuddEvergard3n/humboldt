@@ -1,0 +1,71 @@
+{
+  "id": "efi-place-5",
+  "moduleId": "efi-place",
+  "title": "Croquis e maquetes: representando o espaço",
+  "summary": "Como desenhamos e modelamos o espaço ao redor.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que precisamos de mapas se temos olhos?",
+    "text": "Um mapa faz algo que os olhos não conseguem: mostra o espaço de cima, como se você fosse um pássaro. Essa vista aérea nos permite ver relações que são invisíveis quando estamos no chão."
+  },
+  "guided": {
+    "title": "Representações do espaço",
+    "text": "Para representar o espaço, usamos diferentes linguagens.",
+    "points": [
+      "Croqui: desenho livre e esquemático de um lugar, sem escala precisa.",
+      "Maquete: modelo tridimensional de um espaço.",
+      "Mapa: representação plana e precisa, com escala, legenda e orientação.",
+      "Foto aérea: imagem tirada de cima, por avião ou satélite."
+    ]
+  },
+  "relations": {
+    "title": "Do 3D para o 2D",
+    "text": "A principal dificuldade de fazer um mapa é transformar um espaço tridimensional em algo plano. A maquete preserva as três dimensões. O mapa 'achata' o espaço e precisa de convenções para representar o que foi perdido."
+  },
+  "caseStudy": {
+    "title": "O mapa de 15 mil anos atrás",
+    "text": "Em Bedolina, na Itália, arqueólogos encontraram uma pedra gravada com o que parece ser um mapa — com cerca de 15 mil anos de idade. É a representação de espaço mais antiga que conhecemos. Desde sempre, humanos precisam representar onde estão."
+  },
+  "application": "Faça um croqui da sua sala de aula vista de cima. Inclua mesas, quadro, porta e janelas. Mostre para um colega — ele conseguiu entender?",
+  "activity": {
+    "question": "O que diferencia um croqui de um mapa?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "precisao",
+    "options": [
+      {
+        "value": "precisao",
+        "label": "O mapa tem escala e precisão; o croqui é um esboço esquemático"
+      },
+      {
+        "value": "tamanho",
+        "label": "O mapa é sempre maior que o croqui"
+      },
+      {
+        "value": "cor",
+        "label": "O croqui é colorido e o mapa é preto e branco"
+      },
+      {
+        "value": "nada",
+        "label": "Não há diferença — são a mesma coisa"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O croqui é um esboço rápido sem escala rigorosa. O mapa exige precisão, escala definida e legenda.",
+      "incorrect": "Pense em como cada um é feito. Um mapa de atlas e um rabisco no caderno — o que os diferencia?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Um arquiteto usa planta baixa precisa. Uma criança desenha croquis. Qual tem mais precisão?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno diferencia tipos de representação espacial e produz um croqui simples do seu espaço cotidiano.",
+    "observe": "Verifique se o aluno inclui elementos essenciais no croqui: entrada/saída, itens principais, orientação básica.",
+    "answer": "O mapa tem escala e precisão; o croqui é um esboço livre.",
+    "mediation": "Projete imagens do Google Earth do bairro da escola. Peça que identifiquem elementos que reconhecem.",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "globalization-5",
+  "moduleId": "globalization",
+  "title": "Resistências à globalização: localismo e identidade",
+  "summary": "Quando as pessoas e os povos reagem à homogeneização cultural global.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "McDonalds abre uma loja por dia no mundo — e os movimentos Slow Food crescem no mesmo ritmo",
+    "text": "Em 1989, Carlo Petrini criou o movimento Slow Food na Itália como resposta à abertura de um McDonald's na Piazza di Spagna, em Roma. Hoje o movimento tem 100 mil membros em 160 países — uma ironia perfeita da globalização: um movimento anti-globalização que se tornou global. Onde a homogeneização avança, surgem reações que defendem diversidade gastronômica, local e cultural. A globalização produz seu próprio anticorpo."
+  },
+  "guided": {
+    "title": "Resistências e alternativas à globalização hegemônica",
+    "text": "A globalização não é um processo aceito passivamente — gera reações políticas, culturais e econômicas.",
+    "points": [
+      "Antiglobalização: movimentos sociais que contestam o modelo neoliberal de globalização — Fórum Social Mundial, protestos do G8.",
+      "Protecionismo: políticas de proteção da indústria local (tarifas, subsídios) contra a concorrência global.",
+      "Consumo local: movimentos de compra de produtos locais, orgânicos e artesanais como resistência cultural.",
+      "Glocalização: adaptação de produtos globais a culturas locais — McDonald's com pão de queijo no Brasil, sake no Japão.",
+      "Soberania alimentar: movimento camponês que defende o direito dos povos a decidir o que produzir e consumir.",
+      "Populismo nacionalista: reação política à perda de empregos para países com mão de obra barata — Trump, Brexit, Marine Le Pen."
+    ]
+  },
+  "relations": {
+    "title": "Globalização cultural e identidade",
+    "text": "A americanização da cultura global — Hollywood, pop music, fast food, inglês como língua franca — provoca reações identitárias. O renascimento de línguas regionais (catalão, gaélico, línguas indígenas), a valorização de gastronomias locais e o crescimento de músicas regionais (funk, cumbia, kizomba) são, em parte, respostas culturais à homogeneização. A globalização cria ao mesmo tempo um mundo mais parecido e, paradoxalmente, mais fragmentado."
+  },
+  "caseStudy": {
+    "title": "O Movimento dos Sem Terra e a soberania alimentar",
+    "text": "O MST, fundado em 1984, é o maior movimento social da América Latina e tem influência global no debate sobre reforma agrária e soberania alimentar. Nos últimos anos, criou cooperativas de produção agroecológica que vendem diretamente ao consumidor — uma alternativa ao agronegócio globalizado. Os acampamentos do MST têm escolas próprias que ensinam geografia crítica como parte de sua formação política."
+  },
+  "application": "Pesquise: o que é o Fórum Social Mundial? Onde foi criado? Qual é sua proposta alternativa à globalização?",
+  "activity": {
+    "question": "O que o conceito de \"glocalização\" descreve?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "adaptacao-local",
+    "options": [
+      {
+        "value": "adaptacao-local",
+        "label": "A adaptação de produtos e práticas globais às características e culturas locais"
+      },
+      {
+        "value": "antiglobalizacao",
+        "label": "Movimentos que se opõem completamente à globalização"
+      },
+      {
+        "value": "local-global",
+        "label": "O processo pelo qual culturas locais se tornam globais (como o sushi)"
+      },
+      {
+        "value": "fronteiras",
+        "label": "A criação de fronteiras para proteger culturas locais da influência global"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Glocalização é o McDonald's com pão de queijo no Brasil, o KFC com pimenta no sudeste asiático — o produto global se adapta ao local para ter sucesso.",
+      "incorrect": "Glocalização combina \"global\" e \"local\" — não é resistência, é adaptação. O produto global muda para funcionar no contexto local."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Glo(bal) + (lo)calização. O McDonald's é global — mas no Brasil vende McFrango, Mc Cheddar e Mac Açaí. É o mesmo global adaptado ao local."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende que a globalização não é homogênea — gera resistências, adaptações e reações identitárias que precisam ser analisadas criticamente.",
+    "observe": "Evite visões dualistas: nem \"globalização é tudo de bom\" nem \"globalização é tudo de ruim\". É um processo contraditório.",
+    "answer": "Glocalização: adaptação de produtos globais a culturas e contextos locais.",
+    "mediation": "Mostre o cardápio do McDonald's em diferentes países. Pergunte: \"O que isso diz sobre a relação entre global e local?\"",
+    "time": "50 minutos"
+  }
+}

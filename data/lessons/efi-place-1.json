@@ -1,0 +1,70 @@
+{
+  "id": "efi-place-1",
+  "moduleId": "efi-place",
+  "title": "Onde eu estou? Meu lugar no mundo",
+  "summary": "Casa, escola e bairro como primeiros espaços geográficos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Você já se perdeu alguma vez?",
+    "text": "Todo mundo tem um lugar favorito: o quarto, a praça do bairro ou a casa da avó. Esses lugares não são só endereços — são espaços cheios de significado. A Geografia começa aqui: entendendo onde estamos e por que esse lugar importa."
+  },
+  "guided": {
+    "title": "Espaço vivido",
+    "text": "Espaço vivido é o lugar onde moramos, brincamos, estudamos e convivemos. É nossa primeira janela para entender o mundo.",
+    "points": [
+      "A casa é o espaço mais íntimo — onde vivemos com a família.",
+      "A escola é espaço de convivência e aprendizado coletivo.",
+      "O bairro é o espaço público mais próximo: ruas, praças, comércio."
+    ]
+  },
+  "relations": {
+    "title": "Por que os lugares são diferentes?",
+    "text": "Dois bairros da mesma cidade podem ser muito diferentes: um tem mais árvores, o outro mais prédios. Isso acontece porque a natureza e as pessoas constroem os lugares de formas distintas."
+  },
+  "caseStudy": {
+    "title": "O bairro que virou floresta",
+    "text": "Em Curitiba, o Parque Barigui era um terreno alagado e sujo. A prefeitura transformou o espaço numa área verde com lago e parque. Hoje é o pulmão de um bairro inteiro. Um espaço pode mudar completamente quando as pessoas decidem cuidar dele."
+  },
+  "application": "Desenhe o caminho da sua casa até a escola. Marque dois pontos de referência que você usa para não se perder.",
+  "activity": {
+    "question": "O que é espaço vivido?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "lugar-cotidiano",
+    "options": [
+      {
+        "value": "lugar-cotidiano",
+        "label": "O lugar onde moramos, estudamos e nos relacionamos no dia a dia"
+      },
+      {
+        "value": "planeta",
+        "label": "O planeta Terra inteiro"
+      },
+      {
+        "value": "escola",
+        "label": "Somente a escola"
+      },
+      {
+        "value": "pais",
+        "label": "O país onde nascemos"
+      }
+    ],
+    "feedback": {
+      "correct": "Exato! Espaço vivido é o ambiente do nosso cotidiano — começa em casa e se expande pelo bairro.",
+      "incorrect": "Pense nos lugares que você frequenta todo dia. Esses são seus espaços vividos."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Pense nos lugares que você visita toda semana."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica e descreve os espaços do cotidiano, compreendendo que esses espaços têm significado geográfico e social.",
+    "observe": "Verifique se o aluno consegue diferenciar espaço privado (casa) de espaço público (praça, rua).",
+    "answer": "Espaço vivido é o lugar do cotidiano — casa, escola, bairro.",
+    "mediation": "Peça que o aluno liste três lugares que frequenta. Pergunte: o que esses lugares têm em comum?",
+    "time": "50 minutos"
+  }
+}

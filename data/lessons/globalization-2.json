@@ -1,0 +1,72 @@
+{
+  "id": "globalization-2",
+  "moduleId": "globalization",
+  "title": "Redes e fluxos: como o mundo se conecta",
+  "summary": "Fluxos de mercadorias, capital, pessoas e informação na economia global.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "US$ 7,5 trilhões circulam pelos mercados financeiros globais todos os dias.",
+    "text": "O PIB do Brasil inteiro em 2023 foi de US$ 2,1 trilhões — em um ano. Nos mercados financeiros globais, esse valor circula em menos de sete horas. Esses fluxos de capital são invisíveis, instantâneos e podem derrubar moedas de países em minutos. A economia global é movida por redes de fluxos que poucos veem e ainda menos controlam."
+  },
+  "guided": {
+    "title": "Tipos de fluxos globais",
+    "text": "A globalização pode ser entendida como a intensificação de diferentes tipos de fluxos entre países.",
+    "points": [
+      "Fluxos de mercadorias: comércio internacional de bens físicos — US$ 25 trilhões/ano.",
+      "Fluxos de capital: investimentos estrangeiros, transferências financeiras, especulação — US$ 7,5 trilhões/dia.",
+      "Fluxos de pessoas: migrações, turismo, estudantes internacionais — 1,4 bilhão de viagens/ano.",
+      "Fluxos de informação: dados, conteúdo digital, propriedade intelectual — crescimento exponencial.",
+      "Os fluxos não são livres: cada tipo enfrenta barreiras diferentes (tarifas, vistos, patentes, censura)."
+    ]
+  },
+  "relations": {
+    "title": "Cidades globais",
+    "text": "As redes globais não conectam países — conectam cidades. Nova Iorque, Londres, Tóquio, Frankfurt e São Paulo são 'cidades globais' — nós de controle da economia mundial: onde estão as bolsas de valores, as matrizes das multinacionais, os escritórios das firmas de advocacia global, os aeroportos hub. Uma cidade global tem mais em comum com outras cidades globais do que com o próprio interior do país."
+  },
+  "caseStudy": {
+    "title": "A crise financeira de 2008 e os fluxos globais",
+    "text": "Em setembro de 2008, o banco Lehman Brothers quebrou em Nova Iorque. Em dias, o crédito secou no mundo todo. Empresas brasileiras que não tinham relação com hipotecas americanas perderam acesso a financiamento. Trabalhadores chineses ficaram desempregados. Uma crise em Wall Street atravessou o planeta em semanas — sem avisar, sem fronteiras. Os fluxos financeiros globais integram ganhos e crises."
+  },
+  "application": "Pesquise: qual é a posição do Brasil no ranking de destinos de Investimento Estrangeiro Direto (IED)? Quais países mais investem no Brasil? O que esses investidores buscam?",
+  "activity": {
+    "question": "O que são 'cidades globais'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "nos-controle",
+    "options": [
+      {
+        "value": "nos-controle",
+        "label": "Cidades que concentram funções de controle da economia global — bolsas, matrizes de multinacionais, finanças"
+      },
+      {
+        "value": "grandes",
+        "label": "Cidades com mais de 10 milhões de habitantes"
+      },
+      {
+        "value": "capitais",
+        "label": "Capitais de países economicamente poderosos"
+      },
+      {
+        "value": "turismo",
+        "label": "Cidades com grande fluxo turístico internacional"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Cidade global não é sinônimo de grande. É uma cidade que concentra funções de comando da economia global. São Paulo é global; Tóquio é global. Jacarta é maior que ambas, mas não tem o mesmo papel na rede de controle.",
+      "incorrect": "Tamanho, capital ou turismo não definem cidade global. O que define é a função de comando — onde as decisões econômicas globais são tomadas."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O que tem Nova Iorque que uma cidade de mesmo tamanho no Congo não tem? Qual função na economia global?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica os principais fluxos da globalização e compreende o conceito de cidade global como nó de controle da rede econômica mundial.",
+    "observe": "Conecte com São Paulo: por que São Paulo é a cidade mais importante do Brasil e uma das globais da América Latina? Bolsa de valores, matrizes, aeroporto hub.",
+    "answer": "Cidades que concentram funções de controle da economia global.",
+    "mediation": "Mapa de cabos de fibra óptica submarinos. Onde estão os nós? Coincide com as cidades globais? O que esse mapa diz sobre quem controla a informação?",
+    "time": "50 minutos"
+  }
+}

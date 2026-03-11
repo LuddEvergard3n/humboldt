@@ -1,0 +1,72 @@
+{
+  "id": "efii-africa-2",
+  "moduleId": "efii-africa",
+  "title": "África: recursos naturais, economia e conflitos",
+  "summary": "O paradoxo da riqueza natural e o subdesenvolvimento.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O Congo tem coltan — e por isso está em guerra",
+    "text": "O coltan é um mineral essencial para capacitores de celulares e laptops. A República Democrática do Congo tem a maior reserva do mundo. E também tem uma das guerras mais longas do século XXI. Essa coincidência não é acidente — é a 'maldição dos recursos': riqueza mineral pode financiar conflitos, não desenvolvimento."
+  },
+  "guided": {
+    "title": "Recursos e economia africana",
+    "text": "A África é riquíssima em recursos naturais — mas essa riqueza raramente beneficia sua população.",
+    "points": [
+      "Minérios: coltan, diamante, ouro, cromo, cobalto — África tem as maiores reservas mundiais de vários minerais.",
+      "Petróleo: Nigéria, Angola e Líbia são grandes produtores.",
+      "Terra: a África tem 60% das terras aráveis não cultivadas do mundo — alvo de 'land grabbing' por países estrangeiros.",
+      "A riqueza é exportada bruta, sem industrialização — esquema colonial que persiste.",
+      "Exceções: Marrocos (fosfato + turismo + energia), Quênia (tecnologia + horticultura)."
+    ]
+  },
+  "relations": {
+    "title": "China na África",
+    "text": "Desde os anos 2000, a China investiu mais de US$ 300 bilhões na África em ferrovias, portos, usinas e minas. Em troca, acessa recursos naturais. Para os africanos: infraestrutura que os europeus nunca construíram, mas também dívidas crescentes. Um novo ator no continente — ou uma parceria de desenvolvimento? O debate é acirrado."
+  },
+  "caseStudy": {
+    "title": "Nairóbi: o Vale do Silício africano",
+    "text": "Nairóbi, capital do Quênia, abriga o maior hub de startups tecnológicas da África — apelidado de Silicon Savannah. O M-Pesa, sistema de pagamento via celular que revolucionou finanças na África, nasceu aqui. Uma inovação africana que o mundo depois copiou."
+  },
+  "application": "Pesquise: de onde vêm os minerais do seu celular? Quais países africanos estão envolvidos na cadeia produtiva?",
+  "activity": {
+    "question": "O que é 'maldição dos recursos'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "conflito-riqueza",
+    "options": [
+      {
+        "value": "conflito-riqueza",
+        "label": "Paradoxo em que abundância de recursos naturais está associada a conflitos e subdesenvolvimento"
+      },
+      {
+        "value": "escassez",
+        "label": "Falta de recursos naturais em países pobres"
+      },
+      {
+        "value": "deserto",
+        "label": "O fato de parte da África ser desértica"
+      },
+      {
+        "value": "clima",
+        "label": "O clima quente que dificulta o desenvolvimento"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A 'maldição dos recursos' é o paradoxo em que países com grande riqueza mineral tendem a ter menos crescimento, mais corrupção e mais conflitos.",
+      "incorrect": "O paradoxo é que ter muitos recursos pode ser uma desvantagem. Tente pensar: por que um recurso valioso pode causar conflito?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Diamantes, petróleo, coltan — países com esses recursos às vezes têm mais guerra que paz. Por quê?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa o paradoxo da riqueza natural africana e a persistência do subdesenvolvimento, identificando os mecanismos históricos e contemporâneos.",
+    "observe": "Mostre exemplos positivos: Ruanda, Quênia, Marrocos. Evite visão homogênea e pessimista da África.",
+    "answer": "Paradoxo em que recursos naturais abundantes se associam a conflitos e subdesenvolvimento.",
+    "mediation": "Compare: Noruega tem petróleo e é rica. Venezuela tem petróleo e colapsou. O que diferencia os dois casos?",
+    "time": "50 minutos"
+  }
+}

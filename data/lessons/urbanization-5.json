@@ -1,0 +1,73 @@
+{
+  "id": "urbanization-5",
+  "moduleId": "urbanization",
+  "title": "Segregação urbana: a cidade dividida",
+  "summary": "Como renda, raça e poder organizam o espaço urbano brasileiro.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Na mesma cidade, a expectativa de vida pode variar 20 anos dependendo do bairro",
+    "text": "Em São Paulo, quem mora em Moema vive, em média, até os 79 anos. Quem mora em Brasilândia, a 40 km de distância, vive até os 58 anos. Mesma cidade, mesma prefeitura, mesmo sistema de saúde — diferença de 21 anos. A segregação urbana não é apenas questão de onde você mora: determina sua saúde, sua educação, seu acesso à justiça e sua expectativa de vida. O espaço urbano é desigual porque a sociedade é desigual — e vice-versa."
+  },
+  "guided": {
+    "title": "Segregação urbana: conceitos e formas",
+    "text": "A segregação urbana é a separação de grupos sociais no espaço da cidade.",
+    "points": [
+      "Segregação voluntária: condomínios fechados, bairros de elite — os ricos se isolam por escolha e poder econômico.",
+      "Segregação imposta: favelas, periferias — os pobres são empurrados para onde a terra é barata e a infraestrutura é precária.",
+      "Gentrificação: chegada de classes médias/altas em bairros populares, expulsando moradores antigos pela valorização imobiliária.",
+      "Periferização: expansão da cidade para áreas distantes sem infraestrutura — o modelo brasileiro de urbanização.",
+      "Violência e território: as taxas de homicídio são 10x maiores nas periferias que nos centros nobres das mesmas cidades.",
+      "Mobilidade urbana: quem mora na periferia gasta 2–3h por dia em transporte — tempo subtraído da vida."
+    ]
+  },
+  "relations": {
+    "title": "Raça e segregação no Brasil",
+    "text": "No Brasil, segregação urbana e segregação racial se sobrepõem: 70% dos moradores de favelas são negros, enquanto 70% dos moradores de condomínios de luxo são brancos. Não é coincidência — é o produto de 130 anos de pós-escravidão sem políticas de reparação, de um mercado imobiliário que historicamente excluiu a população negra. A geografia da cidade conta a história racial do país."
+  },
+  "caseStudy": {
+    "title": "Favela da Rocinha: maior do Brasil no bairro mais rico do Rio",
+    "text": "A Rocinha tem 70 mil habitantes na fronteira entre São Conrado e Gávea — dois dos bairros mais ricos do Rio de Janeiro. Seus moradores trabalham nos hotéis, restaurantes e residências vizinhas — e voltam para a favela todo dia. A contradição é física: você vê a favela do terraço do condomínio e o condomínio do alto da favela. O Rio de Janeiro é a cidade onde a desigualdade não pode ser ignorada geograficamente."
+  },
+  "application": "Pesquise: o que é gentrificação? Dê um exemplo de bairro brasileiro que passou por esse processo. Quem ganhou? Quem perdeu?",
+  "activity": {
+    "question": "O que melhor explica o processo de \"periferização\" nas cidades brasileiras?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "terra-barata",
+    "options": [
+      {
+        "value": "terra-barata",
+        "label": "Os pobres são empurrados para áreas distantes onde a terra é barata e a infraestrutura é precária"
+      },
+      {
+        "value": "escolha",
+        "label": "As pessoas escolhem morar na periferia porque preferem mais espaço e tranquilidade"
+      },
+      {
+        "value": "industria",
+        "label": "As indústrias se instalaram na periferia e os trabalhadores foram morar perto"
+      },
+      {
+        "value": "politica",
+        "label": "O governo criou bairros populares na periferia por planejamento urbano"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A periferização é um processo de exclusão: sem dinheiro para morar perto do centro (com infraestrutura), os pobres ocupam as franjas da cidade — e a infraestrutura chega depois, se chegar.",
+      "incorrect": "Morar na periferia geralmente não é uma escolha livre — é uma imposição econômica. Quem pode escolher, mora próximo ao trabalho e à infraestrutura."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Pense no preço da terra: onde é mais caro? Centro ou periferia? Quem não pode pagar o preço do centro vai para onde?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a segregação urbana como processo estrutural, identifica suas formas (voluntária e imposta) e articula com desigualdade social e racial.",
+    "observe": "Use mapas de renda e cor por bairro de São Paulo ou Rio — a sobreposição é reveladora.",
+    "answer": "Os pobres são empurrados para áreas distantes onde a terra é barata — periferização como exclusão estrutural.",
+    "mediation": "Pergunte: \"Por que a Rocinha fica no bairro mais rico do Rio, não na periferia? O que isso diz sobre a cidade?\"",
+    "time": "50 minutos"
+  }
+}

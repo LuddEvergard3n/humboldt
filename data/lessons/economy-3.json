@@ -1,0 +1,72 @@
+{
+  "id": "economy-3",
+  "moduleId": "economy",
+  "title": "Desigualdade econômica global: Norte, Sul e as exceções",
+  "summary": "A distribuição da riqueza entre países e os mecanismos que perpetuam a desigualdade.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Os 8 homens mais ricos do mundo têm a mesma riqueza que os 3,8 bilhões mais pobres.",
+    "text": "Em 2017, a Oxfam calculou que 8 indivíduos detinham riqueza equivalente à metade mais pobre da humanidade. O fenômeno não é só individual — é estrutural: países ricos ficaram mais ricos nas últimas décadas enquanto a distância entre eles e os países pobres cresceu em termos absolutos. Entender essa desigualdade exige entender sua geografia."
+  },
+  "guided": {
+    "title": "A divisão Norte-Sul",
+    "text": "A divisão Norte-Sul é um modelo geográfico para entender a desigualdade econômica global.",
+    "points": [
+      "Norte Global: países ricos (Europa Ocidental, EUA, Canadá, Japão, Austrália). Alto IDH, indústria avançada, serviços.",
+      "Sul Global: países em desenvolvimento e pobres. Exportadores de commodities, desigualdade interna alta.",
+      "Exceções: Coreia do Sul, Taiwan, Singapura — migraram do Sul para o Norte em 40 anos com política industrial ativa.",
+      "BRICS: Brasil, Rússia, Índia, China, África do Sul — grupo de potências emergentes questionando a ordem Norte-Sul.",
+      "IDH (Índice de Desenvolvimento Humano): mede saúde, educação e renda. Mais completo que o PIB per capita."
+    ]
+  },
+  "relations": {
+    "title": "Dependência e sistema-mundo",
+    "text": "O sociólogo Immanuel Wallerstein propôs a teoria do sistema-mundo: a economia global é um único sistema com centro, semiperiferia e periferia. A periferia não é 'atrasada' — é estruturalmente subordinada ao centro por relações históricas de extração. Países periféricos não podem se desenvolver simplesmente 'seguindo o mesmo caminho' dos centrais porque o sistema que os mantém periféricos é o mesmo que enriqueceu o centro."
+  },
+  "caseStudy": {
+    "title": "A Coreia do Sul: exceção que confirma a regra",
+    "text": "Em 1960, a Coreia do Sul tinha PIB per capita menor que o Ghana. Hoje é a 12ª maior economia do mundo, líder em semicondutores, navios e eletrônicos. Como? Estado desenvolvimentista fortíssimo, proteção da indústria nascente, educação como prioridade absoluta, e chaebols (conglomerados industriais) com apoio estatal. Uma industrialização deliberada — não o resultado do livre mercado."
+  },
+  "application": "Compare o IDH do Brasil, Coreia do Sul, Ghana e Noruega. Como esses números refletem as posições no sistema-mundo? O que a Coreia fez de diferente?",
+  "activity": {
+    "question": "O que propõe a teoria do sistema-mundo de Wallerstein?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "estrutural",
+    "options": [
+      {
+        "value": "estrutural",
+        "label": "Que a desigualdade entre países é estrutural — resultado das relações centro-periferia, não de atraso"
+      },
+      {
+        "value": "geografica",
+        "label": "Que países pobres são pobres por causa do clima e da geografia física"
+      },
+      {
+        "value": "cultural",
+        "label": "Que diferenças culturais explicam o desenvolvimento econômico"
+      },
+      {
+        "value": "natural",
+        "label": "Que a desigualdade é natural e inevitável no capitalismo"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Para Wallerstein, a periferia não está 'atrasada' — está estruturalmente subordinada. O subdesenvolvimento é produto do desenvolvimento dos países centrais, não uma fase anterior a ele.",
+      "incorrect": "Wallerstein critica explicações naturais ou culturais. Para ele, a causa é estrutural — as relações de poder na economia global."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Wallerstein pergunta: a riqueza do Norte e a pobreza do Sul são separadas ou conectadas? O que o colonialismo tem a ver?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a distribuição global da riqueza usando o modelo Norte-Sul e a teoria do sistema-mundo, identificando os mecanismos que perpetuam a desigualdade.",
+    "observe": "Cuidado com o determinismo: mostrar estruturas não significa dizer que nada pode mudar. As exceções (Coreia, Taiwan) são importantes.",
+    "answer": "Desigualdade entre países é estrutural — resultado das relações centro-periferia na economia global.",
+    "mediation": "Mapa do IDH mundial. Pergunte: o que esse mapa tem em comum com o mapa do colonialismo? E com o mapa das reservas minerais?",
+    "time": "50 minutos"
+  }
+}

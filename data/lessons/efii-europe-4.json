@@ -1,0 +1,61 @@
+{
+  "id": "efii-europe-4",
+  "moduleId": "efii-europe",
+  "title": "União Europeia: integração, crises e Brexit",
+  "summary": "O maior experimento de integração regional da história — e seus limites.",
+  "activityType": "map-click",
+  "phenomenon": {
+    "title": "Em 2016, o Reino Unido votou para sair da UE — e demorou 4 anos para descobrir como",
+    "text": "O Brexit foi o maior teste da União Europeia: um país-membro escolheu sair pela primeira vez. O voto foi 52% a 48% — por uma margem estreita, o Reino Unido decidiu abandonar 47 anos de integração. O processo revelou o quanto era complicado desfazer laços econômicos, jurídicos e migratórios construídos em décadas. Em 2020, o Brexit foi concluído — e a economia britânica ainda paga a conta."
+  },
+  "guided": {
+    "title": "A União Europeia em dados",
+    "text": "A UE é a maior experiência de integração regional supranacional do mundo.",
+    "points": [
+      "Fundação: Tratado de Roma (1957) com 6 países; hoje 27 membros.",
+      "Área Schengen: 27 países sem controle de fronteiras internas — a liberdade de circulação como conquista.",
+      "Euro: moeda única de 20 países; outros 7 mantêm moeda nacional.",
+      "Parlamento Europeu: único parlamento supranacional diretamente eleito do mundo.",
+      "Crises: financeira grega (2010), refugiados (2015), Brexit (2016–2020), Ucrânia (2022).",
+      "PIB conjunto: US$ 17 trilhões — terceira maior economia do mundo (atrás dos EUA e China)."
+    ]
+  },
+  "relations": {
+    "title": "A Europa e o resto do mundo",
+    "text": "A Europa tem 450 milhões de habitantes (6% do mundo), mas ainda representa 15% do PIB global. Seu poder é mais normativo que militar: exporta padrões jurídicos, ambientais e de direitos humanos — o chamado \"poder normativo europeu\". A GDPR (proteção de dados) e as regras climáticas europeias afetam empresas no Brasil, China e EUA mesmo sem acordos formais."
+  },
+  "caseStudy": {
+    "title": "Grécia 2010: quando o euro se torna armadilha",
+    "text": "A Grécia entrou em crise em 2010 com dívida de 300% do PIB. Normalmente, um país com crise econômica desvaloriza sua moeda para tornar exportações mais baratas. Mas a Grécia não podia — usava o euro. Teve que aceitar austeridade brutal imposta pela Alemanha e FMI: cortes em saúde, educação e pensões. A economia grega encolheu 25% em 5 anos — pior que a Grande Depressão americana."
+  },
+  "application": "Pesquise: quais países europeus não fazem parte da União Europeia? Por que a Noruega, sendo rica, optou por ficar fora?",
+  "activity": {
+    "question": "Clique nos países que fundaram a União Europeia (Comunidade Econômica Europeia) em 1957.",
+    "type": "map-click",
+    "targets": [
+      "franca",
+      "alemanha",
+      "italia",
+      "belgica",
+      "holanda",
+      "luxemburgo"
+    ],
+    "feedback": {
+      "correct": "Correto! Os seis fundadores da CEE foram França, Alemanha Ocidental, Itália, Bélgica, Países Baixos e Luxemburgo — o núcleo original que depois cresceu para 27 membros.",
+      "incorrect": "Os fundadores são os seis países da Europa Ocidental central que assinaram o Tratado de Roma em 1957."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "França e Alemanha (Ocidental) estavam no centro. Itália ao sul. Bélgica, Países Baixos e Luxemburgo ao norte — o coração geográfico da Europa Ocidental."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o processo de integração europeia, identifica seus limites (Brexit, crise grega) e avalia o modelo supranacional.",
+    "observe": "Compare com o Mercosul — integração regional sul-americana muito menos profunda. Por que a diferença?",
+    "answer": "França, Alemanha Ocidental, Itália, Bélgica, Países Baixos e Luxemburgo.",
+    "mediation": "Pergunte: \"Se o Brasil tivesse uma moeda comum com Argentina e Venezuela, o que aconteceria numa crise como a de 2002?\"",
+    "time": "50 minutos"
+  }
+}

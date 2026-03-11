@@ -1,0 +1,72 @@
+{
+  "id": "em-urban-regional-3",
+  "moduleId": "em-urban-regional",
+  "title": "Políticas territoriais e o Estado como agente espacial",
+  "summary": "Como o Estado transforma o território — estradas, usinas, planos e suas consequências.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A construção de Brasília mudou o Brasil mais do que qualquer lei.",
+    "text": "Em 1960, o Brasil decidiu mover sua capital para o Cerrado — a 1.000 km das cidades mais importantes. A decisão foi política (afastar o governo das oligarquias cariocas e paulistas) e geográfica (integrar o interior). Brasília criou Goiânia, Anápolis e o agronegócio do Centro-Oeste. Uma intervenção estatal no território que reordenou o país."
+  },
+  "guided": {
+    "title": "O Estado como agente do espaço",
+    "text": "O Estado é o principal agente transformador do território — por meio de investimentos, regulações e políticas.",
+    "points": [
+      "Infraestrutura: estradas, portos, ferrovias, energia — determinam onde o capital se instala e onde o desenvolvimento chega.",
+      "Zoneamento e legislação: leis ambientais (Código Florestal), urbanísticas (Plano Diretor) e fundiárias.",
+      "Incentivos fiscais: onde o Estado isenta impostos, o capital vai. A Zona Franca de Manaus é um exemplo.",
+      "Programas habitacionais: BNH, Minha Casa Minha Vida — determinaram onde as populações pobres vivem.",
+      "Conflito: toda intervenção estatal tem perdedores. Itaipu deslocou 40.000 pessoas. Belo Monte, 20.000."
+    ]
+  },
+  "relations": {
+    "title": "A armadilha da infraestrutura",
+    "text": "Infraestrutura não é neutra: uma estrada abre uma região, mas também viabiliza o desmatamento. Um porto exporta commodities, mas pode degradar o ecossistema costeiro. Cada decisão de infraestrutura produz um território — e esse território tem vencedores e perdedores que raramente são os mesmos."
+  },
+  "caseStudy": {
+    "title": "O IIRSA e a integração sul-americana",
+    "text": "A Iniciativa para a Integração da Infraestrutura Regional Sul-Americana (IIRSA, 2000) planejou eixos de integração física para o continente: estradas, portos, hidrovias e energia. Promessa: integração e desenvolvimento. Crítica: muitos projetos serviram apenas para exportar commodities para fora da América do Sul, sem gerar desenvolvimento local."
+  },
+  "application": "Identifique uma grande obra de infraestrutura da sua região. Pesquise: quem decidiu construir? Quem se beneficiou? Houve deslocamentos? Que impactos ambientais ocorreram?",
+  "activity": {
+    "question": "Por que a construção de Brasília é um exemplo de como o Estado pode transformar o território?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "reordenou",
+    "options": [
+      {
+        "value": "reordenou",
+        "label": "Porque criou uma nova centralidade geográfica e reordenou o desenvolvimento do Centro-Oeste"
+      },
+      {
+        "value": "capital",
+        "label": "Porque todo país precisa de uma capital no centro do território"
+      },
+      {
+        "value": "emprego",
+        "label": "Porque gerou empregos na construção civil para milhares de trabalhadores"
+      },
+      {
+        "value": "simbolo",
+        "label": "Porque se tornou um símbolo da modernidade brasileira"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Brasília não foi só arquitetura — foi uma intervenção territorial que criou redes urbanas, viabilizou o agronegócio do Centro-Oeste e reorientou fluxos econômicos do país.",
+      "incorrect": "O impacto de Brasília vai além da construção. Pense nos efeitos de longo prazo: que cidades cresceram? Que estradas foram construídas? Que bioma foi ocupado?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O que veio depois de Brasília? Goiânia cresceu, a BR-060 foi construída, o Cerrado foi ocupado. A capital planejada induziu o quê?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o Estado como agente transformador do território e analisa criticamente as consequências sociais e ambientais das políticas territoriais.",
+    "observe": "Enfatize que toda decisão de infraestrutura é política — com vencedores e perdedores. Questione: quem decide? Quem consulta? Quem perde?",
+    "answer": "Criou nova centralidade e reordenou o desenvolvimento do Centro-Oeste e do interior brasileiro.",
+    "mediation": "Mapa do Brasil com as principais rodovias federais. Onde o desmatamento seguiu as estradas? O que isso diz sobre infraestrutura e território?",
+    "time": "50 minutos"
+  }
+}

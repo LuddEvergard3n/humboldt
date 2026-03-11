@@ -1,0 +1,75 @@
+{
+  "id": "efii-africa-3",
+  "moduleId": "efii-africa",
+  "title": "Urbanização africana: megacidades e desafios",
+  "summary": "Lagos, Cairo, Kinshasa e o crescimento urbano mais acelerado do mundo.",
+  "activityType": "layer-toggle",
+  "phenomenon": {
+    "title": "Lagos cresceu mais em 50 anos do que Londres cresceu em 200",
+    "text": "Em 1960, Lagos tinha 760 mil habitantes. Hoje tem mais de 15 milhões — e é a maior cidade da África. Esse crescimento aconteceu sem planejamento equivalente: favelas, enchentes, trânsito paralisado e desigualdade extrema convivem com shopping centers, startups e uma classe média crescente. Lagos não é exceção — é o futuro: a África terá as cidades que mais crescem no século XXI."
+  },
+  "guided": {
+    "title": "As grandes cidades africanas",
+    "text": "A África urbana é diversa, contraditória e em transformação acelerada.",
+    "points": [
+      "Cairo: 22 milhões de hab. — a maior cidade árabe e africana, às margens do Nilo.",
+      "Lagos: 15–20 milhões de hab. — capital econômica da Nigéria, maior da África Subsaariana.",
+      "Kinshasa: 15 milhões de hab. — capital do Congo, cresce 4% ao ano.",
+      "Nairóbi: 5 milhões de hab. — hub tecnológico e de serviços da África Oriental.",
+      "Problema comum: crescimento sem infraestrutura equivalente — 60% vivem em assentamentos informais.",
+      "Previsão: até 2050, a África terá 1,5 bilhão de habitantes urbanos."
+    ]
+  },
+  "relations": {
+    "title": "A cidade e o campo africano",
+    "text": "O crescimento urbano africano é impulsionado pela migração rural — jovens que chegam às cidades em busca de emprego e educação. Mas as cidades não absorvem formalmente toda essa força de trabalho: cresce a economia informal, que emprega 80% da população urbana africana. Informal não significa miserável — significa fora das estatísticas e sem proteção do Estado."
+  },
+  "caseStudy": {
+    "title": "Medellín: o modelo que a África estuda",
+    "text": "Medellín, Colômbia, transformou suas favelas de morro com teleféricos e escadas rolantes conectando comunidades isoladas ao centro. Lagos, Kinshasa e Nairóbi enviam técnicos para estudar o modelo. Uma cidade do Sul Global aprendendo com outra cidade do Sul Global — sem precisar copiar Londres ou Nova York."
+  },
+  "application": "Pesquise: qual é a cidade que mais cresce em população no mundo hoje? Está na África? Qual é o principal desafio que ela enfrenta?",
+  "activity": {
+    "question": "Use as camadas para identificar: onde se concentram as megacidades africanas? Há relação com litoral, rios ou recursos naturais?",
+    "type": "layer-toggle",
+    "layers": [
+      {
+        "id": "cidades",
+        "label": "Megacidades",
+        "visible": true
+      },
+      {
+        "id": "rios",
+        "label": "Rios principais",
+        "visible": false
+      },
+      {
+        "id": "litoral",
+        "label": "Litoral",
+        "visible": false
+      },
+      {
+        "id": "minerios",
+        "label": "Recursos minerais",
+        "visible": false
+      }
+    ],
+    "feedback": {
+      "correct": "As grandes cidades africanas se concentram no litoral (Lagos, Cape Town, Dar es Salaam) ou em vales fluviais (Cairo no Nilo, Kinshasa no Congo) — padrão colonial de cidades exportadoras.",
+      "incorrect": "Ative as camadas de rios e litoral junto com as cidades e observe os padrões de localização."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Ative as camadas uma a uma. Cairo fica em qual rio? Lagos fica em que posição no mapa?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o processo de urbanização africana e seus desafios específicos, sem reduzi-los a imagens de miséria.",
+    "observe": "Estimule a comparação com a urbanização brasileira — processo parecido com décadas de defasagem.",
+    "answer": "Lagos cresceu de 760 mil para 15 milhões em 60 anos — urbanização acelerada sem infraestrutura proporcional.",
+    "mediation": "Pergunte: \"O que Lagos e São Paulo têm em comum? O que é diferente?\" Leve a identificar legados coloniais similares.",
+    "time": "50 minutos"
+  }
+}

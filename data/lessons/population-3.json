@@ -1,0 +1,73 @@
+{
+  "id": "population-3",
+  "moduleId": "population",
+  "title": "Transição demográfica: como as populações mudam",
+  "summary": "Do alto crescimento ao envelhecimento — o ciclo que todos os países percorrem.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A Coreia do Sul passou de 3 filhos por mulher a 0,72 em uma geração",
+    "text": "Em 1960, a Coreia do Sul tinha taxa de fecundidade de 6 filhos por mulher. Em 2023, chegou a 0,72 — a mais baixa do mundo. Em 60 anos, o país fez a transição mais rápida da história: de país com explosão demográfica a país com colapso populacional. As cidades estão cheias de apartamentos vazios em regiões rurais. O exército tem dificuldade de recrutar. As escolas fecham. O que aconteceu?"
+  },
+  "guided": {
+    "title": "O modelo da transição demográfica",
+    "text": "Todos os países passam pelas mesmas fases de transição — mas em ritmos diferentes.",
+    "points": [
+      "Fase 1 — pré-transição: alta natalidade + alta mortalidade = crescimento lento (sociedades agrárias tradicionais).",
+      "Fase 2 — início da transição: mortalidade cai (medicina, saneamento), natalidade alta = EXPLOSÃO demográfica.",
+      "Fase 3 — meio da transição: natalidade começa a cair (urbanização, educação feminina, acesso a anticoncepcionais).",
+      "Fase 4 — pós-transição: baixa natalidade + baixa mortalidade = crescimento lento ou negativo.",
+      "Fase 5 (nova): natalidade abaixo da mortalidade = população encolhe.",
+      "Brasil hoje: em fase 4, caminhando para 5. Taxa de fecundidade: 1,7 (abaixo do nível de reposição de 2,1)."
+    ]
+  },
+  "relations": {
+    "title": "Envelhecimento e economia",
+    "text": "Populações envelhecidas criam desafios econômicos: menos trabalhadores sustentando mais aposentados. O Japão já tem mais adultos com fraldas vendidas do que bebês. A Europa depende de imigração para manter sua força de trabalho. O Brasil terá esse problema em 2040–2060 — janela curta para preparar saúde pública, previdência e produtividade."
+  },
+  "caseStudy": {
+    "title": "Índia x China: duas estratégias, dois futuros",
+    "text": "China impôs a política do filho único (1980–2015): funcionou em reduzir a natalidade, mas criou desequilíbrio de gênero e envelhecimento acelerado. Índia nunca impôs — a natalidade caiu por urbanização e educação feminina. Resultado: em 2023, a Índia ultrapassou a China em população e terá força de trabalho jovem por mais décadas."
+  },
+  "application": "Pesquise a pirâmide etária do Brasil em 1980 e em 2023. O que mudou? O que isso significa para o sistema de saúde?",
+  "activity": {
+    "question": "Um país está na Fase 2 da transição demográfica quando:",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "mortalidade-cai",
+    "options": [
+      {
+        "value": "mortalidade-cai",
+        "label": "A mortalidade caiu mas a natalidade ainda é alta, gerando crescimento acelerado"
+      },
+      {
+        "value": "ambas-baixas",
+        "label": "Natalidade e mortalidade são ambas baixas"
+      },
+      {
+        "value": "ambas-altas",
+        "label": "Natalidade e mortalidade são ambas altas, com crescimento lento"
+      },
+      {
+        "value": "populacao-cai",
+        "label": "A população começa a diminuir"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Na Fase 2, a medicina e o saneamento reduzem mortes, mas as famílias ainda têm muitos filhos — resultado: explosão demográfica.",
+      "incorrect": "Pense na sequência: o que cai primeiro, natalidade ou mortalidade? E o que isso faz ao crescimento da população?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A mortalidade cai primeiro (vacinas, saneamento). A natalidade demora a cair — as famílias precisam de tempo para mudar comportamento."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende as fases da transição demográfica e identifica a posição do Brasil e de outros países nesse modelo.",
+    "observe": "Use pirâmides etárias como recurso visual — a forma da pirâmide revela a fase de transição do país.",
+    "answer": "Fase 2: mortalidade cai, natalidade ainda alta, crescimento acelerado.",
+    "mediation": "Mostre pirâmides do Brasil de 1970, 2000 e 2023. Pergunte: \"O que mudou? O que vai acontecer com a previdência?\"",
+    "time": "50 minutos"
+  }
+}

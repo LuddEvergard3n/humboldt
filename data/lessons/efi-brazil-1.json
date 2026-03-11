@@ -1,0 +1,71 @@
+{
+  "id": "efi-brazil-1",
+  "moduleId": "efi-brazil",
+  "title": "Do bairro ao país: escalas do espaço",
+  "summary": "Município, estado e país: como o Brasil se organiza.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Quantas 'caixas' existem entre sua casa e o Brasil?",
+    "text": "Você mora numa casa, num bairro, num município, num estado, num país. É como bonecas russas matryoshka. Entender essa organização é a base para entender como o Brasil é governado e como o território está dividido."
+  },
+  "guided": {
+    "title": "A organização político-territorial do Brasil",
+    "text": "O Brasil é uma República Federativa — o poder é dividido entre três níveis.",
+    "points": [
+      "Município: a menor unidade política. O Brasil tem 5.568 municípios. Gerenciado pelo prefeito.",
+      "Estado: conjunto de municípios. O Brasil tem 26 estados e 1 Distrito Federal. Governado pelo governador.",
+      "País (União): o Brasil inteiro. Governado pelo presidente.",
+      "Cada nível tem competências próprias: o município cuida de ruas; o estado de estradas; a União de fronteiras."
+    ]
+  },
+  "relations": {
+    "title": "Por que temos três níveis de governo?",
+    "text": "Um país do tamanho do Brasil (8,5 milhões de km²) não pode ser governado só de Brasília. Por isso, o sistema federativo descentraliza decisões: o município decide sobre o ônibus; o estado sobre o trem; a União sobre o avião."
+  },
+  "caseStudy": {
+    "title": "Brasília: a capital que foi construída do zero",
+    "text": "Em 1956, o Brasil decidiu construir uma nova capital no centro do território. Em apenas 41 meses, Brasília foi erguida no cerrado, inaugurada em 1960. A mudança da capital foi uma decisão geopolítica: integrar o interior do Brasil, que era isolado da costa."
+  },
+  "application": "Pesquise: qual é o nome do prefeito da sua cidade? Do governador do seu estado? E do presidente do Brasil?",
+  "activity": {
+    "question": "O Brasil tem quantos estados?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "26",
+    "options": [
+      {
+        "value": "26",
+        "label": "26 estados e 1 Distrito Federal — total de 27 unidades federativas"
+      },
+      {
+        "value": "32",
+        "label": "32 estados"
+      },
+      {
+        "value": "10",
+        "label": "10 estados"
+      },
+      {
+        "value": "5",
+        "label": "5 regiões, então 5 estados"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O Brasil tem 26 estados mais o Distrito Federal (onde fica Brasília), totalizando 27 unidades federativas.",
+      "incorrect": "O Brasil é enorme — tem muitos estados. Tente lembrar alguns: São Paulo, Bahia, Amazonas, Pará..."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O Brasil tem 26 estados mais o Distrito Federal (Brasília)."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno localiza seu município no estado e o estado no Brasil, compreendendo a organização federativa.",
+    "observe": "Verifique se o aluno distingue entre região (geográfica) e estado (político).",
+    "answer": "26 estados + 1 Distrito Federal = 27 unidades federativas.",
+    "mediation": "Use um mapa do Brasil. Peça que o aluno localize: onde fica seu município? Qual é seu estado? Em qual região?",
+    "time": "50 minutos"
+  }
+}

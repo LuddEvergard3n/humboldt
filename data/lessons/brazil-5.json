@@ -1,0 +1,72 @@
+{
+  "id": "brazil-5",
+  "moduleId": "brazil",
+  "title": "Questão agrária: terra, poder e conflito no Brasil",
+  "summary": "Concentração fundiária, reforma agrária e o MST.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "1% dos proprietários controla 48% das terras agrícolas do Brasil.",
+    "text": "O Brasil tem o terceiro índice de concentração fundiária mais alto do mundo — atrás apenas de alguns países africanos. Essa desigualdade na distribuição da terra não é natural: é produto de cinco séculos de sesmarias, escravidão, grilagem e legislação que favoreceu grandes proprietários. A questão agrária brasileira é uma ferida histórica que nunca cicatrizou."
+  },
+  "guided": {
+    "title": "A estrutura fundiária brasileira",
+    "text": "Fundiário se refere à distribuição da terra. A estrutura fundiária brasileira é historicamente concentrada.",
+    "points": [
+      "Latifúndio: propriedade rural muito grande, frequentemente subutilizada. Herança direta das sesmarias coloniais.",
+      "Minifúndio: propriedade muito pequena, insuficiente para sustentar uma família. Resultado da fragmentação por herança.",
+      "Índice de Gini fundiário: mede a concentração da terra (0=perfeita igualdade, 1=total concentração). O Brasil tem 0,87 — extremamente concentrado.",
+      "Grilagem: falsificação de documentos para se apropriar de terras públicas — ainda ocorre na Amazônia.",
+      "Reforma agrária: redistribuição de terras improdutivas para famílias sem terra — garantida pela Constituição de 1988, mas aplicada lentamente."
+    ]
+  },
+  "relations": {
+    "title": "MST e os movimentos sociais do campo",
+    "text": "O Movimento dos Trabalhadores Rurais Sem Terra (MST), fundado em 1984, é o maior movimento social da América Latina. Organiza ocupações de terras improdutivas reivindicando a aplicação da função social da propriedade prevista na Constituição. Apoiadores: instrumento necessário de pressão pela reforma agrária. Críticos: viola o direito de propriedade. O debate revela concepções opostas sobre terra, lei e democracia."
+  },
+  "caseStudy": {
+    "title": "O agronegócio e a questão agrária",
+    "text": "O Brasil é o maior exportador mundial de soja, carne bovina, frango, café, açúcar e suco de laranja. O agronegócio responde por 25% do PIB. Mas esse sucesso exportador coexiste com 5 milhões de famílias sem terra e com desmatamento acelerado, especialmente no Cerrado e na Amazônia. A questão agrária não se resolve separando agronegócio de reforma agrária — os dois processos coexistem no mesmo território."
+  },
+  "application": "Pesquise: qual é o índice de Gini fundiário do estado onde você mora? Compare com a média nacional. Como é a distribuição da terra na sua região?",
+  "activity": {
+    "question": "O que é o índice de Gini fundiário?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "concentracao",
+    "options": [
+      {
+        "value": "concentracao",
+        "label": "Medida da concentração de terra: quanto mais próximo de 1, mais desigual a distribuição"
+      },
+      {
+        "value": "producao",
+        "label": "Medida da produtividade das terras agrícolas"
+      },
+      {
+        "value": "preco",
+        "label": "Indicador do preço médio da terra em cada região"
+      },
+      {
+        "value": "area",
+        "label": "A área total de terras agrícolas de um país"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O Gini fundiário mede desigualdade na distribuição da terra, assim como o Gini de renda mede desigualdade de renda. O Brasil tem 0,87 — extremamente concentrado.",
+      "incorrect": "O Gini é sempre uma medida de desigualdade — não de volume, preço ou produtividade."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Gini de renda mede se a renda é distribuída igualmente. O Gini fundiário mede a mesma coisa para quê?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a estrutura fundiária brasileira e analisa os conflitos em torno da reforma agrária com base em dados e argumentos contrapostos.",
+    "observe": "Aborde o tema com equilíbrio: apresente as razões do MST e as razões dos proprietários. Evite demonizar ou heroicizar qualquer lado.",
+    "answer": "Medida de concentração da terra — quanto mais próximo de 1, mais desigual.",
+    "mediation": "Mapa do Brasil com propriedades rurais por tamanho (dados do IBGE/Censo Agropecuário). O que o mapa mostra sobre onde estão os latifúndios?",
+    "time": "50 minutos"
+  }
+}

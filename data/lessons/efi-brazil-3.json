@@ -1,0 +1,71 @@
+{
+  "id": "efi-brazil-3",
+  "moduleId": "efi-brazil",
+  "title": "Diversidade cultural: o Brasil é muitos",
+  "summary": "Povos indígenas, afrodescendentes, imigrantes e a formação do povo brasileiro.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Você sabia que fala palavras indígenas todo dia?",
+    "text": "Mandioca, abacaxi, capim, capivara, Paraná, Piauí, Ipanema — tudo isso vem do tupi. Canjica, berimbau, capoeira, moqueca — do iorubá. O português brasileiro é uma língua híbrida. E assim é o Brasil inteiro: uma síntese de culturas que nenhum outro país tem igual."
+  },
+  "guided": {
+    "title": "A formação do povo brasileiro",
+    "text": "O Brasil é um dos países mais diversos do mundo — resultado de séculos de encontros e conflitos entre culturas.",
+    "points": [
+      "Povos indígenas: habitavam o Brasil antes de 1500. Hoje são 305 povos reconhecidos.",
+      "Africanos escravizados: trouxeram culturas, religiões e saberes que moldaram o Brasil.",
+      "Portugueses: colonizadores que impuseram a língua, a religião e a organização territorial.",
+      "Imigrantes: italianos, japoneses, alemães, espanhóis, árabes — vieram principalmente entre 1880 e 1950."
+    ]
+  },
+  "relations": {
+    "title": "Diversidade não é igualdade",
+    "text": "O Brasil é culturalmente diverso — mas nem todas as culturas foram tratadas com igualdade. A escravidão, o genocídio indígena e a discriminação deixaram cicatrizes sociais profundas. Reconhecer a diversidade é o primeiro passo — mas ela precisa ser acompanhada de justiça e inclusão."
+  },
+  "caseStudy": {
+    "title": "Os quilombolas do Vale do Ribeira",
+    "text": "O Vale do Ribeira, no interior de São Paulo, tem as maiores comunidades quilombolas do Brasil — descendentes de africanos escravizados que fugiram e fundaram comunidades livres. Hoje lutam pelo reconhecimento das suas terras e pela preservação da sua cultura."
+  },
+  "application": "Pesquise: qual é a origem do nome da sua cidade? É indígena, portuguesa, africana ou outra? O que isso conta sobre a história do lugar?",
+  "activity": {
+    "question": "De qual língua indígena vêm palavras como 'mandioca', 'abacaxi' e 'capivara'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "tupi",
+    "options": [
+      {
+        "value": "tupi",
+        "label": "Tupi — língua dos povos que habitavam o litoral brasileiro"
+      },
+      {
+        "value": "ioruba",
+        "label": "Iorubá — língua africana trazida pelos escravizados"
+      },
+      {
+        "value": "guarani",
+        "label": "Guarani — língua dos povos do Sul e Paraguai"
+      },
+      {
+        "value": "ingles",
+        "label": "Inglês — influência americana moderna"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O Tupi foi a língua franca do litoral brasileiro. Os portugueses adotaram muitas palavras tupi para nomear plantas, animais e lugares.",
+      "incorrect": "Essas palavras são anteriores à chegada dos portugueses — são nomes que os povos que viviam aqui já usavam."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Os primeiros contatos dos portugueses foram com os povos do litoral, que falavam línguas tupi-guarani."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno reconhece as matrizes culturais do Brasil e identifica contribuições indígenas, africanas e europeias no cotidiano.",
+    "observe": "Evite romantizar a mistura cultural sem problematizar as relações de poder que a produziram.",
+    "answer": "Tupi — língua dos povos do litoral.",
+    "mediation": "Liste palavras do cotidiano. Pesquisem juntos as origens. Quais são indígenas? Africanas? Árabes?",
+    "time": "50 minutos"
+  }
+}

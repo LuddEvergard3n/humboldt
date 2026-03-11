@@ -1,0 +1,85 @@
+{
+  "id": "globalization-4",
+  "moduleId": "globalization",
+  "title": "Cadeias produtivas globais: de onde vêm as coisas",
+  "summary": "Como um iPhone, um tênis e uma camiseta percorrem o mundo antes de chegar até você.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Seu celular foi projetado nos EUA, tem minerais do Congo, chips de Taiwan e foi montado na China",
+    "text": "Um smartphone moderno tem componentes fabricados em mais de 40 países. O design é californiano, os chips são taiwaneses, o coltan do capacitor é congolês, a tela é coreana, a bateria é chinesa e a montagem final acontece em Zhengzhou — cidade de 10 milhões de habitantes que a maioria do mundo nunca ouviu falar, mas que produz 70% dos iPhones do planeta. A globalização fragmentou a produção — e nenhum país sabe mais fazer um produto do início ao fim sozinho."
+  },
+  "guided": {
+    "title": "Cadeias globais de valor",
+    "text": "A produção industrial moderna é geograficamente dispersa e integrada por cadeias logísticas complexas.",
+    "points": [
+      "Cadeia de valor: cada etapa da produção (design, insumos, fabricação, montagem, distribuição) ocorre onde é mais barato ou tem mais expertise.",
+      "Offshoring: transferir etapas de produção para outros países por custo ou especialização.",
+      "Países centrais: controlam design, marca e distribuição — maior valor agregado.",
+      "Países periféricos: fornecem trabalho barato, matéria-prima ou montagem — menor valor agregado.",
+      "Vulnerabilidade: a pandemia de 2020 mostrou como cadeias muito fragmentadas criam riscos — falta de chips parou fábricas de carro no Brasil.",
+      "Reshoring: tendência pós-pandemia de trazer produção de volta — EUA e Europa investem para produzir chips localmente."
+    ]
+  },
+  "relations": {
+    "title": "O custo humano da cadeia",
+    "text": "Em 2013, o prédio Rana Plaza em Bangladesh desabou matando 1.135 costureiras — que faziam roupas para marcas europeias e americanas. As marcas sabiam? Tecnicamente não: terceirizavam para fábricas que subcontratavam para outras fábricas. A diluição da responsabilidade é intencional — permite lucros sem responsabilidade direta pelas condições de trabalho."
+  },
+  "caseStudy": {
+    "title": "Foxconn em Shenzhen: a fábrica que montou o mundo",
+    "text": "Shenzhen era uma vila de pescadores em 1979. Em 2023, tem 18 milhões de habitantes e abriga a Foxconn — fábrica que monta iPhones, PlayStations e Xboxes. Os trabalhadores vivem em dormitórios na fábrica, trabalham 12 horas por dia e ganham US$ 300/mês. Apple lucra US$ 300 em cada iPhone que eles montam. A desigualdade da cadeia produtiva está embutida no preço do seu celular."
+  },
+  "application": "Pesquise: de onde vêm os componentes do celular mais popular que você conhece? Tente mapear pelo menos 5 países na cadeia produtiva.",
+  "activity": {
+    "question": "Observe o mapa de fluxos de componentes de um smartphone. Qual país controla a etapa de maior valor agregado — design e software?",
+    "type": "flow-map",
+    "flows": [
+      {
+        "from": "Congo (coltan)",
+        "to": "China (processamento)",
+        "value": 100,
+        "label": "Coltan"
+      },
+      {
+        "from": "Taiwan (chips)",
+        "to": "China (montagem)",
+        "value": 300,
+        "label": "Semicondutores"
+      },
+      {
+        "from": "Coreia do Sul (tela)",
+        "to": "China (montagem)",
+        "value": 200,
+        "label": "Telas OLED"
+      },
+      {
+        "from": "China (montagem)",
+        "to": "EUA/Europa (venda)",
+        "value": 800,
+        "label": "iPhone montado"
+      },
+      {
+        "from": "EUA (design/marca)",
+        "to": "Global",
+        "value": 400,
+        "label": "Lucro da Apple"
+      }
+    ],
+    "feedback": {
+      "correct": "Os EUA controlam design, software e marca — as etapas de maior valor. A montagem na China é barata mas gera pouco lucro. O Congo fornece minerais essenciais pelo menor preço.",
+      "incorrect": "Compare onde fica o maior lucro: quem projeta e quem vende ou quem monta e quem extrai o mineral?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O iPhone custa US$ 1.000. A Foxconn recebe US$ 10 para montar. A Apple fica com US$ 400. Onde está o valor?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o conceito de cadeia global de valor, identifica a assimetria entre etapas e relaciona com divisão internacional do trabalho.",
+    "observe": "Explore a contradição: a globalização barateou produtos para consumidores ricos e precarizou trabalhadores pobres.",
+    "answer": "EUA — design, software e marca concentram o maior valor agregado da cadeia do smartphone.",
+    "mediation": "Mostre o custo de produção vs. preço de venda de um iPhone. Pergunte: \"Para quem a globalização é boa?\"",
+    "time": "50 minutos"
+  }
+}

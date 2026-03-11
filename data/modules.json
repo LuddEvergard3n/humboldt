@@ -1,100 +1,407 @@
 {
   "modules": [
     {
-      "id": "cartography",
+      "id": "efi-place",
+      "title": "Espaço Vivido e Orientação",
+      "tagline": "Casa, escola, bairro: seus primeiros mapas mentais.",
+      "objective": "O aluno reconhece e descreve os espaços do cotidiano, desenvolve noções de posição, direção e orientação, e produz representações simples do seu entorno.",
       "order": 1,
-      "title": "Cartografia Viva",
-      "tagline": "Aprender a ler mapa como linguagem.",
-      "objective": "Ensinar o aluno a ler mapas como sistema de comunicação: orientação, escala, legenda, coordenadas e projeções.",
-      "concepts": ["escala", "legenda", "coordenadas", "projeção", "orientação", "localização"],
-      "scales": ["local", "regional", "nacional", "global"],
-      "phenomena": ["city", "border"],
       "lessons": 5,
-      "estimatedTime": "5 aulas de 50 min"
+      "scales": [
+        "local"
+      ],
+      "level": "efi",
+      "estimatedTime": "5 aulas de 50 min",
+      "phenomena": []
     },
     {
-      "id": "landscape",
+      "id": "efi-landscape",
+      "title": "Paisagem e Ambiente",
+      "tagline": "Natureza, sociedade e o espaço que compartilhamos.",
+      "objective": "O aluno distingue elementos naturais e humanizados da paisagem, compara campo e cidade, e compreende a importância da água e do clima no cotidiano.",
       "order": 2,
-      "title": "Paisagem e Transformação",
-      "tagline": "Paisagem é processo, não fotografia.",
-      "objective": "Ensinar que a paisagem é resultado de ações humanas e naturais ao longo do tempo — e que ela está sempre mudando.",
-      "concepts": ["paisagem natural", "paisagem humanizada", "uso do solo", "transformação ambiental"],
-      "scales": ["local", "regional"],
-      "phenomena": ["city", "water", "climate"],
       "lessons": 4,
-      "estimatedTime": "4 aulas de 50 min"
+      "scales": [
+        "local",
+        "regional"
+      ],
+      "level": "efi",
+      "estimatedTime": "4 aulas de 50 min",
+      "phenomena": [
+        "water",
+        "climate"
+      ]
+    },
+    {
+      "id": "efi-society",
+      "title": "Sociedade e Trabalho",
+      "tagline": "Modos de vida, comunidade e como as pessoas organizam o espaço.",
+      "objective": "O aluno descreve modos de vida de diferentes comunidades, classifica atividades econômicas nos três setores e compreende a função dos espaços públicos.",
+      "order": 3,
+      "lessons": 3,
+      "scales": [
+        "local",
+        "nacional"
+      ],
+      "level": "efi",
+      "estimatedTime": "3 aulas de 50 min",
+      "phenomena": [
+        "inequality",
+        "migration"
+      ]
+    },
+    {
+      "id": "efi-brazil",
+      "title": "Brasil: Meu País",
+      "tagline": "Do município ao país: território, regiões, povo e natureza.",
+      "objective": "O aluno localiza seu município no estado e no Brasil, conhece as cinco regiões, reconhece a diversidade cultural e identifica os biomas brasileiros.",
+      "order": 4,
+      "lessons": 4,
+      "scales": [
+        "nacional"
+      ],
+      "level": "efi",
+      "estimatedTime": "4 aulas de 50 min",
+      "phenomena": [
+        "inequality",
+        "city",
+        "migration"
+      ]
+    },
+    {
+      "id": "efii-concepts",
+      "title": "Conceitos Geográficos Fundamentais",
+      "tagline": "As ferramentas para ler o espaço: lugar, território, região e escala.",
+      "objective": "O aluno domina os conceitos centrais da análise geográfica e os aplica para interpretar fenômenos do cotidiano em múltiplas escalas.",
+      "order": 5,
+      "lessons": 5,
+      "scales": [
+        "local",
+        "regional",
+        "nacional",
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "3 aulas de 50 min",
+      "phenomena": []
+    },
+    {
+      "id": "cartography",
+      "title": "Cartografia Viva",
+      "tagline": "Aprender a ler mapa como linguagem.",
+      "objective": "O aluno lê e interpreta mapas com consciência crítica, compreende coordenadas geográficas, escalas, projeções e o GPS como extensão do sistema cartográfico clássico.",
+      "order": 6,
+      "lessons": 5,
+      "scales": [
+        "local",
+        "regional",
+        "nacional",
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "5 aulas de 50 min",
+      "phenomena": []
+    },
+    {
+      "id": "efii-physical",
+      "title": "Geografia Física",
+      "tagline": "A Terra que nos sustenta: relevo, clima, água e vegetação.",
+      "objective": "O aluno compreende os processos físicos que moldam a superfície terrestre — tectônica, relevo, clima, hidrografia e vegetação — e relaciona cada um com a vida humana.",
+      "order": 7,
+      "lessons": 5,
+      "scales": [
+        "regional",
+        "nacional",
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "5 aulas de 50 min",
+      "phenomena": [
+        "water",
+        "climate",
+        "energy"
+      ]
     },
     {
       "id": "brazil",
-      "order": 3,
       "title": "Brasil Espacial",
       "tagline": "O território brasileiro como sistema vivo.",
-      "objective": "Compreender o Brasil como território dinâmico: regiões, biomas, rede urbana, desigualdade e agronegócio.",
-      "concepts": ["regiões", "biomas", "rede urbana", "desigualdade regional", "migração interna"],
-      "scales": ["regional", "nacional"],
-      "phenomena": ["migration", "inequality", "city"],
+      "objective": "O aluno analisa a formação territorial, a urbanização, os biomas e as desigualdades regionais do Brasil, conectando passado colonial a dinâmicas contemporâneas.",
+      "order": 8,
+      "lessons": 6,
+      "scales": [
+        "nacional"
+      ],
+      "level": "efii",
+      "estimatedTime": "4 aulas de 50 min",
+      "phenomena": [
+        "water",
+        "city",
+        "inequality",
+        "transport"
+      ]
+    },
+    {
+      "id": "efii-americas",
+      "title": "As Américas",
+      "tagline": "Do colonialismo à geopolítica contemporânea no continente americano.",
+      "objective": "O aluno distingue América Latina de América Anglo-Saxônica, compreende a posição geopolítica dos EUA e analisa as desigualdades e os recursos da América Latina.",
+      "order": 9,
       "lessons": 5,
-      "estimatedTime": "5 aulas de 50 min"
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "3 aulas de 50 min",
+      "phenomena": [
+        "migration",
+        "inequality",
+        "border"
+      ]
     },
     {
-      "id": "population",
-      "order": 4,
-      "title": "População e Migração",
-      "tagline": "Dinâmica populacional e fluxos humanos.",
-      "objective": "Ensinar crescimento, distribuição, estrutura etária e os grandes processos migratórios.",
-      "concepts": ["crescimento populacional", "migração", "refugiados", "estrutura etária", "concentração"],
-      "scales": ["regional", "nacional", "global"],
-      "phenomena": ["migration", "inequality"],
+      "id": "efii-africa",
+      "title": "África",
+      "tagline": "O continente mais diverso: colonialismo, recursos e futuros.",
+      "objective": "O aluno descreve a diversidade física e cultural da África, analisa o legado do colonialismo e compreende o paradoxo da riqueza de recursos com o subdesenvolvimento.",
+      "order": 10,
       "lessons": 4,
-      "estimatedTime": "4 aulas de 50 min"
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "2 aulas de 50 min",
+      "phenomena": [
+        "migration",
+        "inequality",
+        "border"
+      ]
     },
     {
-      "id": "urbanization",
-      "order": 5,
-      "title": "Cidade, Campo e Trabalho",
-      "tagline": "Espaço, produção e sociedade se organizam.",
-      "objective": "Mostrar como urbanização, periferização, transporte e trabalho moldam o espaço.",
-      "concepts": ["urbanização", "periferização", "mobilidade urbana", "trabalho rural", "trabalho urbano"],
-      "scales": ["local", "regional", "nacional"],
-      "phenomena": ["city", "transport", "inequality"],
-      "lessons": 4,
-      "estimatedTime": "4 aulas de 50 min"
-    },
-    {
-      "id": "economy",
-      "order": 6,
-      "title": "Economia e Globalização",
-      "tagline": "Circulação, rede, comércio e desigualdade global.",
-      "objective": "Explicar como fluxos comerciais, divisão internacional do trabalho e corporações organizam o espaço global.",
-      "concepts": ["blocos econômicos", "DIT", "fluxos comerciais", "corporações", "globalização"],
-      "scales": ["nacional", "global"],
-      "phenomena": ["transport", "inequality", "energy"],
-      "lessons": 4,
-      "estimatedTime": "4 aulas de 50 min"
+      "id": "efii-europe",
+      "title": "Europa, Ásia e Oceania",
+      "tagline": "Industrialização, ascensão asiática e geopolítica do Pacífico.",
+      "objective": "O aluno descreve as principais dinâmicas geográficas da Europa, Ásia e Oceania e compreende como esses continentes moldam a ordem mundial contemporânea.",
+      "order": 11,
+      "lessons": 5,
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "3 aulas de 50 min",
+      "phenomena": [
+        "migration",
+        "city",
+        "border"
+      ]
     },
     {
       "id": "geopolitics",
-      "order": 7,
-      "title": "Geopolítica",
-      "tagline": "Território, fronteira, guerra, energia e poder.",
-      "objective": "Ensinar a lógica territorial do Estado, disputas por recursos, conflitos e alianças geopolíticas.",
-      "concepts": ["Estado", "fronteira", "conflito", "território", "recursos naturais", "blocos geopolíticos"],
-      "scales": ["regional", "nacional", "global"],
-      "phenomena": ["border", "energy", "water", "migration"],
+      "title": "Geopolítica e Mundo",
+      "tagline": "Poder, território e a ordem mundial em transformação.",
+      "objective": "O aluno compreende os conceitos de Estado, território e soberania, analisa blocos econômicos, conflitos territoriais e as transformações da ordem mundial pós-Guerra Fria.",
+      "order": 12,
       "lessons": 4,
-      "estimatedTime": "4 aulas de 50 min"
+      "scales": [
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "4 aulas de 50 min",
+      "phenomena": [
+        "border",
+        "energy",
+        "migration"
+      ]
+    },
+    {
+      "id": "population",
+      "title": "População e Migrações",
+      "tagline": "Quem somos, onde estamos, por que nos movemos.",
+      "objective": "O aluno analisa dinâmicas populacionais, compreende os fatores que causam migrações e os impactos espaciais dos movimentos populacionais.",
+      "order": 13,
+      "lessons": 4,
+      "scales": [
+        "nacional",
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "2 aulas de 50 min",
+      "phenomena": [
+        "migration",
+        "inequality"
+      ]
+    },
+    {
+      "id": "landscape",
+      "title": "Paisagem e Transformação",
+      "tagline": "Paisagem é processo, não fotografia.",
+      "objective": "O aluno analisa a paisagem como produto da relação dinâmica entre sociedade e natureza ao longo do tempo.",
+      "order": 14,
+      "lessons": 5,
+      "scales": [
+        "local",
+        "regional"
+      ],
+      "level": "efii",
+      "estimatedTime": "1 aula de 50 min",
+      "phenomena": [
+        "climate",
+        "water"
+      ]
+    },
+    {
+      "id": "urbanization",
+      "title": "Urbanização",
+      "tagline": "A cidade como espaço de contradições.",
+      "objective": "O aluno analisa o processo de urbanização mundial e brasileira, seus padrões, problemas e a segregação socioespacial.",
+      "order": 15,
+      "lessons": 5,
+      "scales": [
+        "nacional",
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "Em breve",
+      "phenomena": [
+        "city",
+        "transport",
+        "inequality"
+      ]
     },
     {
       "id": "globalization",
-      "order": 8,
-      "title": "Redes e Globalização",
-      "tagline": "Tecnologia, informação e mundialização.",
-      "objective": "Compreender a globalização como processo desigual de integração econômica, cultural e informacional.",
-      "concepts": ["rede", "tecnologia", "informação", "mundialização", "desigualdade global"],
-      "scales": ["global"],
-      "phenomena": ["transport", "inequality"],
+      "title": "Globalização",
+      "tagline": "O mundo em rede: fluxos, desigualdades e resistências.",
+      "objective": "O aluno analisa a globalização como processo geográfico — seus fluxos, redes, desigualdades e contradições.",
+      "order": 16,
+      "lessons": 5,
+      "scales": [
+        "global"
+      ],
+      "level": "efii",
+      "estimatedTime": "Em breve",
+      "phenomena": [
+        "migration",
+        "energy",
+        "inequality",
+        "border",
+        "transport"
+      ]
+    },
+    {
+      "id": "economy",
+      "title": "Geografia Econômica",
+      "tagline": "Como o mundo produz, troca e distribui riqueza.",
+      "objective": "O aluno compreende os circuitos da economia global — agricultura, indústria, comércio, energia e logística — e sua expressão territorial.",
+      "order": 17,
+      "lessons": 4,
+      "scales": [
+        "nacional",
+        "global"
+      ],
+      "level": "em",
+      "estimatedTime": "Em breve",
+      "phenomena": [
+        "inequality",
+        "energy",
+        "transport"
+      ]
+    },
+    {
+      "id": "em-environment",
+      "title": "Meio Ambiente e Crise Climática",
+      "tagline": "Mudança climática, biodiversidade e transição energética.",
+      "objective": "O aluno analisa os principais desafios ambientais globais e a posição do Brasil diante deles.",
+      "order": 20,
+      "lessons": 4,
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "level": "em",
+      "estimatedTime": "4 aulas de 50 min",
+      "phenomena": [
+        "water",
+        "climate",
+        "energy"
+      ]
+    },
+    {
+      "id": "em-geopolitics",
+      "title": "Geopolítica Avançada",
+      "tagline": "Ordem mundial, rivalidades de poder e conflitos do século XXI.",
+      "objective": "O aluno analisa a ordem mundial multipolar e os principais eixos de conflito geopolítico contemporâneo.",
+      "order": 21,
+      "lessons": 4,
+      "scales": [
+        "global"
+      ],
+      "level": "em",
+      "estimatedTime": "4 aulas de 50 min",
+      "phenomena": [
+        "border",
+        "energy",
+        "migration"
+      ]
+    },
+    {
+      "id": "em-urban-regional",
+      "title": "Geografia Urbana e Regional",
+      "tagline": "Planejamento urbano, desequilíbrios regionais e políticas territoriais.",
+      "objective": "O aluno compreende os instrumentos de planejamento urbano e analisa a desigualdade regional brasileira.",
+      "order": 22,
       "lessons": 3,
-      "estimatedTime": "3 aulas de 50 min"
+      "scales": [
+        "local",
+        "regional",
+        "nacional"
+      ],
+      "level": "em",
+      "estimatedTime": "3 aulas de 50 min",
+      "phenomena": [
+        "city",
+        "transport",
+        "inequality"
+      ]
+    },
+    {
+      "id": "em-cartography",
+      "title": "Cartografia Avançada e SIG",
+      "tagline": "Cartografia temática, geoprocessamento e análise espacial.",
+      "objective": "O aluno aplica métodos de cartografia temática e análise espacial para interpretar fenômenos geográficos.",
+      "order": 23,
+      "lessons": 3,
+      "scales": [
+        "local",
+        "regional",
+        "global"
+      ],
+      "level": "em",
+      "estimatedTime": "3 aulas de 50 min",
+      "phenomena": []
+    },
+    {
+      "id": "em-brazil-challenges",
+      "title": "Brasil no Século XXI",
+      "tagline": "Desafios socioambientais, infraestrutura, desigualdade e inserção internacional.",
+      "objective": "O aluno analisa os principais desafios brasileiros contemporâneos e a inserção do país no mundo multipolar.",
+      "order": 24,
+      "lessons": 4,
+      "scales": [
+        "nacional",
+        "global"
+      ],
+      "level": "em",
+      "estimatedTime": "4 aulas de 50 min",
+      "phenomena": [
+        "inequality",
+        "water",
+        "city",
+        "transport"
+      ]
     }
   ]
 }

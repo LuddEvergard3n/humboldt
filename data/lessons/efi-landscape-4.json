@@ -1,0 +1,71 @@
+{
+  "id": "efi-landscape-4",
+  "moduleId": "efi-landscape",
+  "title": "Tempo e clima: qual é a diferença?",
+  "summary": "Distinguir condições atmosféricas diárias do padrão climático.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que nevou em São Paulo se o Brasil é tropical?",
+    "text": "Em 2013, São Paulo viu neve pela primeira vez em décadas. Como é possível num país tropical? Porque TEMPO e CLIMA são coisas diferentes. O tempo é o que acontece hoje. O clima é o padrão de décadas. Uma semana fria não muda o clima."
+  },
+  "guided": {
+    "title": "Tempo × Clima",
+    "text": "Essas duas palavras confundem muita gente, mas têm significados precisos em Geografia.",
+    "points": [
+      "Tempo atmosférico: condição do ar agora ou neste dia — temperatura, umidade, vento, chuva.",
+      "Clima: padrão médio do tempo em uma região ao longo de pelo menos 30 anos.",
+      "Exemplo: 'Amanhã vai chover em Curitiba' é TEMPO. 'Curitiba tem invernos frios' é CLIMA.",
+      "O Brasil tem vários climas: equatorial, tropical, semiárido, subtropical."
+    ]
+  },
+  "relations": {
+    "title": "Mudanças climáticas",
+    "text": "O clima da Terra sempre variou naturalmente. Mas desde a Revolução Industrial, a queima de combustíveis fósseis libera CO₂ que intensifica o efeito estufa — aquecendo o planeta mais rápido do que os ecossistemas conseguem se adaptar."
+  },
+  "caseStudy": {
+    "title": "O Nordeste e o sertão",
+    "text": "O semiárido nordestino tem chuvas irregulares e concentradas em poucos meses. As populações adaptaram-se com cisternas de pedra, plantas nativas e calendário agrícola ajustado. Mas o aquecimento global está tornando as secas mais longas e severas."
+  },
+  "application": "Durante uma semana, anote o tempo atmosférico todos os dias. No fim, você terá dados de tempo. Como seria o clima da sua cidade com base nessa semana?",
+  "activity": {
+    "question": "Qual afirmação descreve o CLIMA de uma região?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "padrao",
+    "options": [
+      {
+        "value": "padrao",
+        "label": "A região tem verões quentes e úmidos e invernos frios e secos há décadas"
+      },
+      {
+        "value": "hoje",
+        "label": "Hoje o dia amanheceu com nuvens e temperatura de 18°C"
+      },
+      {
+        "value": "semana",
+        "label": "Esta semana choveu todos os dias"
+      },
+      {
+        "value": "ontem",
+        "label": "Ontem fez muito calor"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Clima é o padrão de longo prazo — décadas de observação, não dias ou semanas.",
+      "incorrect": "Clima não é o que acontece hoje ou esta semana. Pense em prazo muito mais longo."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Clima é o padrão de pelo menos 30 anos. Tempo é o que acontece hoje."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue tempo atmosférico de clima e identifica o tipo climático da sua região.",
+    "observe": "Verifique se o aluno não usa 'clima' para descrever eventos de curto prazo.",
+    "answer": "A afirmação sobre o padrão de décadas — isso é clima.",
+    "mediation": "Pergunte: o que acontece hoje com o tempo diz muito sobre o clima daqui? Explore a diferença de escala temporal.",
+    "time": "50 minutos"
+  }
+}

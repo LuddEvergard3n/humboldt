@@ -1,0 +1,72 @@
+{
+  "id": "brazil-6",
+  "moduleId": "brazil",
+  "title": "Industrialização e desenvolvimento regional desigual",
+  "summary": "Como a indústria se distribuiu no Brasil e por que a desigualdade regional persiste.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que o Sudeste concentra 55% do PIB brasileiro?",
+    "text": "São Paulo sozinha produz 32% de todo o PIB do Brasil — mais que os 16 estados do Norte, Nordeste e Centro-Oeste juntos. Essa concentração não é natural: é resultado de décadas de política industrial que privilegiou o Sudeste. Entender como a industrialização criou e perpetua a desigualdade regional é essencial para entender o Brasil de hoje."
+  },
+  "guided": {
+    "title": "A industrialização brasileira",
+    "text": "A indústria brasileira tem desenvolvimento tardio e concentrado geograficamente.",
+    "points": [
+      "1930-1955: Getúlio Vargas impulsiona a industrialização por substituição de importações — CSN (aço), Petrobras (petróleo), BNDES (financiamento).",
+      "1956-1960: JK e o Plano de Metas — 'cinquenta anos em cinco'. Indústria automobilística instala-se no ABC paulista.",
+      "1964-1985: regime militar aprofunda a industrialização com grandes projetos (Itaipu, Carajás, PROÁLCOOL).",
+      "Concentração no Sudeste: proximidade do porto de Santos, infraestrutura prévia, mercado consumidor maior.",
+      "Desconcentração recente: incentivos fiscais atraíram indústrias para Nordeste e Centro-Oeste — mas ainda insuficiente."
+    ]
+  },
+  "relations": {
+    "title": "Incentivos fiscais e guerra fiscal",
+    "text": "Estados e municípios oferecem isenções de impostos para atrair empresas — a chamada 'guerra fiscal'. Isso cria situações paradoxais: a empresa instala-se onde os impostos são menores, mas o trabalhador perde serviços públicos financiados por esses impostos. Uma competição entre estados que beneficia empresas e deixa os governos locais mais pobres."
+  },
+  "caseStudy": {
+    "title": "O polo industrial de Manaus",
+    "text": "A Zona Franca de Manaus, criada em 1967, oferece isenção de impostos para indústrias que se instalam na cidade. Resultado: Manaus tem um polo de eletroeletrônicos e motocicletas no meio da Amazônia — Honda, Samsung, Sony fabricam ali. A cidade cresceu de 300.000 para 2 milhões de habitantes em 50 anos. Um experimento de desenvolvimento regional que mistura benefícios econômicos com questões ambientais e sociais complexas."
+  },
+  "application": "Pesquise: qual é o PIB do estado onde você mora? Qual é o principal setor econômico? Como isso se compara com São Paulo?",
+  "activity": {
+    "question": "O que é 'substituição de importações' como política de industrialização?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "produzir-internamente",
+    "options": [
+      {
+        "value": "produzir-internamente",
+        "label": "Produzir internamente o que antes era importado, protegendo a indústria nacional com tarifas e investimento estatal"
+      },
+      {
+        "value": "exportar-mais",
+        "label": "Substituir exportações de commodities por exportações industriais"
+      },
+      {
+        "value": "tecnologia",
+        "label": "Substituir tecnologia estrangeira por tecnologia nacional"
+      },
+      {
+        "value": "importar-menos",
+        "label": "Simplesmente reduzir as importações para economizar divisas"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Substituição de importações é uma estratégia em que o governo protege a indústria nascente nacional com tarifas altas para produtos importados e investe diretamente em setores estratégicos, desenvolvendo a capacidade industrial interna.",
+      "incorrect": "Substituição de importações é sobre desenvolver capacidade industrial interna para não precisar importar manufaturados. É uma política ativa de industrialização."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Se o Brasil importava carros e passou a fabricar carros — o que foi 'substituído'?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve o processo de industrialização brasileiro e analisa como ele gerou e perpetua a desigualdade regional.",
+    "observe": "Conecte com atualidade: desindustrialização do Brasil nos anos 2000-2020, concorrência chinesa, questão da reindustrialização. O debate ainda está em aberto.",
+    "answer": "Produzir internamente o que antes era importado, protegendo a indústria com tarifas e investimento estatal.",
+    "mediation": "Mapa industrial do Brasil: onde estão as fábricas? O que é produzido em cada região? Compare 1970 e hoje — o que mudou?",
+    "time": "50 minutos"
+  }
+}

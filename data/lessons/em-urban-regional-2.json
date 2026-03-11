@@ -1,0 +1,72 @@
+{
+  "id": "em-urban-regional-2",
+  "moduleId": "em-urban-regional",
+  "title": "Desequilíbrios regionais: por que o Brasil é tão desigual internamente?",
+  "summary": "A questão regional brasileira e as políticas de desenvolvimento territorial.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Um trabalhador de São Paulo ganha, em média, 3 vezes mais que um de mesma função no Maranhão.",
+    "text": "O IBGE (2022) mostra que a renda média no Sudeste é 2,8 vezes maior que no Nordeste. A mortalidade infantil no Nordeste é o dobro do Sul. O analfabetismo no Norte é 4 vezes o do Sudeste. O Brasil tem regiões com indicadores europeus ao lado de regiões com indicadores africanos — dentro do mesmo país, às vezes dentro da mesma cidade."
+  },
+  "guided": {
+    "title": "A questão regional brasileira",
+    "text": "A desigualdade regional brasileira tem causas históricas e estruturais, e é objeto de políticas públicas específicas.",
+    "points": [
+      "Causas históricas: cada ciclo econômico enriqueceu uma região diferente — mas o ciclo seguinte não redistribuiu a riqueza.",
+      "SUDENE/SUDAM: superintendências criadas nos anos 1950-60 para promover desenvolvimento no Nordeste e na Amazônia.",
+      "Transferências constitucionais: Fundo de Participação dos Municípios redistribui receita federal — mas é insuficiente.",
+      "Programas sociais: Bolsa Família, Luz para Todos, cisternas — impacto direto nos indicadores nordestinos.",
+      "Guerra fiscal: estados pobres perdem ao competir com São Paulo para atrair empresas."
+    ]
+  },
+  "relations": {
+    "title": "A questão nordestina",
+    "text": "O Nordeste financiou o Brasil colonial com o açúcar, e sua pobreza resulta de séculos de concentração fundiária, oligarquia política e investimento insuficiente — não de características culturais ou naturais. A narrativa do 'nordeste como problema' é ela mesma um produto político que obscurece as causas estruturais da desigualdade."
+  },
+  "caseStudy": {
+    "title": "O semiárido: conviver em vez de combater",
+    "text": "Por décadas, a política para o semiárido era 'combater a seca' — grandes açudes e transposições. A abordagem de 'convivência com o semiárido' é diferente: cisternas de placa, energia solar, plantas adaptadas, criação de ovinos. Em vez de tentar mudar o clima, adaptar as soluções a ele. O programa Um Milhão de Cisternas levou água a 4 milhões de pessoas com tecnologia simples e descentralizada."
+  },
+  "application": "Pesquise: quais são os indicadores sociais da sua região em comparação com a média nacional? O que explica as diferenças encontradas?",
+  "activity": {
+    "question": "Por que as políticas de desenvolvimento regional no Brasil historicamente tiveram resultados limitados?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "estrutural",
+    "options": [
+      {
+        "value": "estrutural",
+        "label": "Porque as desigualdades são estruturais — concentração de poder político, fundiário e econômico que programas isolados não conseguem reverter"
+      },
+      {
+        "value": "dinheiro",
+        "label": "Porque o governo não investiu dinheiro suficiente"
+      },
+      {
+        "value": "nordeste",
+        "label": "Porque a população não aproveitou as oportunidades oferecidas"
+      },
+      {
+        "value": "clima",
+        "label": "Porque o clima semiárido impossibilita o desenvolvimento econômico"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Programas isolados enfrentam estruturas consolidadas: o mesmo poder oligárquico que concentra a terra e controla a política local também controla quem se beneficia dos programas governamentais.",
+      "incorrect": "A raiz é estrutural: concentração de poder político e econômico que reproduz a desigualdade independentemente dos programas."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Imagine um programa de crédito rural numa região onde uma família controla 80% da terra e a prefeitura. Quem vai se beneficiar?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a desigualdade regional brasileira, suas causas históricas e as políticas de desenvolvimento territorial implementadas.",
+    "observe": "Evite reproduzir estereótipos sobre o Nordeste. A desigualdade regional é produto de estruturas históricas — não de características culturais ou naturais.",
+    "answer": "Desigualdades regionais são estruturais — concentração de poder que programas isolados não conseguem reverter.",
+    "mediation": "Mapa de IDH municipal do Brasil. Peça que identifiquem os padrões: onde estão os municípios com menor IDH? O que eles têm em comum?",
+    "time": "50 minutos"
+  }
+}

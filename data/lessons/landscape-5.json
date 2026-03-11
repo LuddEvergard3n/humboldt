@@ -1,0 +1,75 @@
+{
+  "id": "landscape-5",
+  "moduleId": "landscape",
+  "title": "Paisagem e tempo geológico: a longa história da Terra",
+  "summary": "Montanhas, vales e planícies como registros de processos de milhões de anos.",
+  "activityType": "layer-toggle",
+  "phenomenon": {
+    "title": "O Himalaia ainda cresce 5 mm por ano — e as montanhas do Brasil já foram tão altas quanto",
+    "text": "As montanhas do Quadrilátero Ferrífero em Minas Gerais têm 2 bilhões de anos — eram tão altas quanto o Himalaia. A erosão de dois bilhões de anos as reduziu ao que vemos hoje. O Himalaia, por outro lado, tem \"apenas\" 50 milhões de anos e ainda está crescendo pela colisão das placas Indiana e Euroasiática. A paisagem que você vê hoje é um frame de um filme de 4,5 bilhões de anos — o presente geológico."
+  },
+  "guided": {
+    "title": "Processos geológicos que moldam a paisagem",
+    "text": "A paisagem é o resultado de forças internas (endógenas) e externas (exógenas) atuando ao longo do tempo geológico.",
+    "points": [
+      "Forças endógenas: tectonismo (movimento de placas), vulcanismo, terremotos — constroem o relevo.",
+      "Forças exógenas: erosão, intemperismo, deposição — destroem e transportam o relevo.",
+      "Ciclo das rochas: magma → rocha ígnea → rocha sedimentar → rocha metamórfica → magma (novamente).",
+      "Tempo geológico: a Terra tem 4,5 bilhões de anos; humanos existem há 300 mil anos — 0,007% da história.",
+      "Relevo brasileiro: Planalto Brasileiro (antigo, muito erodido), Planície Amazônica (sedimentar), Serra do Mar (mais jovem).",
+      "Bacia sedimentar: acúmulo de sedimentos ao longo de milhões de anos — onde estão petróleo, gás e água subterrânea."
+    ]
+  },
+  "relations": {
+    "title": "Geologia e recursos naturais",
+    "text": "O petróleo do pré-sal brasileiro formou-se há 120 milhões de anos quando o Atlântico Sul ainda estava se abrindo. O minério de ferro do Pará e de Minas Gerais tem 2,5 bilhões de anos. Os aquíferos que abastecem cidades inteiras armazenaram água há dezenas de milhares de anos. A geologia não é apenas passado acadêmico: é o inventário de recursos que sustenta economias no presente."
+  },
+  "caseStudy": {
+    "title": "Pantanal: planície de inundação que demorou 10 mil anos para se formar",
+    "text": "O Pantanal é a maior planície de inundação do mundo: 150 mil km² que alagam todo ano quando os rios transbordam, depositando sedimentos que renovam os nutrientes do solo. Esse ciclo de inundação/seca criou um dos biomas mais diversos do planeta. Mas a destruição da mata ciliar e o assoreamento dos rios pelo desmatamento nas cabeceiras estão quebrando esse ciclo de 10 mil anos — e o Pantanal de 2020 ardeu no maior incêndio de sua história."
+  },
+  "application": "Pesquise: o que é o Aquífero Guarani? Onde fica? Qual é sua importância para o Brasil e para os países vizinhos?",
+  "activity": {
+    "question": "Use as camadas para identificar: como a geologia do Brasil se relaciona com seus recursos naturais?",
+    "type": "layer-toggle",
+    "layers": [
+      {
+        "id": "relevo",
+        "label": "Relevo e altimetria",
+        "visible": true
+      },
+      {
+        "id": "geologia",
+        "label": "Idade das rochas",
+        "visible": false
+      },
+      {
+        "id": "minerios",
+        "label": "Depósitos minerais",
+        "visible": false
+      },
+      {
+        "id": "petroleo",
+        "label": "Bacias sedimentares / petróleo",
+        "visible": false
+      }
+    ],
+    "feedback": {
+      "correct": "As rochas mais antigas (Pré-Cambriano) coincidem com os maiores depósitos de ferro e ouro. As bacias sedimentares (mais jovens) coincidem com petróleo e gás. A geologia explica onde estão os recursos.",
+      "incorrect": "Ative as camadas de idade das rochas e de minerais juntas. O que você percebe na sobreposição?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Rochas muito antigas (2 bilhões de anos) foram submetidas a pressão e calor que criaram minérios metálicos. Rochas sedimentares jovens acumularam matéria orgânica que virou petróleo."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende que a paisagem atual é produto de processos geológicos de longa duração e identifica a relação entre geologia e recursos naturais.",
+    "observe": "Conecte com atualidade: o petróleo do pré-sal e o debate sobre transição energética têm raízes literalmente na geologia de 120 milhões de anos.",
+    "answer": "Rochas antigas (Pré-Cambriano) → minérios metálicos; bacias sedimentares jovens → petróleo e gás. Geologia determina recursos.",
+    "mediation": "Mostre mapa geológico sobreposto ao mapa de mineração. Pergunte: \"Por que o Pará e Minas Gerais têm minério de ferro?\"",
+    "time": "50 minutos"
+  }
+}

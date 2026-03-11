@@ -1,0 +1,72 @@
+{
+  "id": "em-environment-2",
+  "moduleId": "em-environment",
+  "title": "Biomas ameaçados e perda de biodiversidade",
+  "summary": "A sexta extinção em massa e os principais ecossistemas sob pressão.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Estamos na sexta extinção em massa da história da vida na Terra — e a primeira causada por uma espécie.",
+    "text": "As extinções anteriores foram causadas por asteroides, vulcanismo ou glaciações. A atual é causada pela expansão humana: desmatamento, agricultura, urbanização, caça, poluição e mudança climática. A taxa atual de extinção é 100 a 1.000 vezes maior que a taxa de fundo natural. Espécies desaparecem antes de serem descobertas."
+  },
+  "guided": {
+    "title": "Principais biomas ameaçados",
+    "text": "Biomas são grandes ecossistemas com vegetação, fauna e clima característicos. Os mais ameaçados compartilham alta biodiversidade e alta pressão humana.",
+    "points": [
+      "Mata Atlântica: restam 12% da cobertura original. Maior hotspot de biodiversidade do planeta por área.",
+      "Cerrado: 50% desmatado. Berço das águas do Brasil e segundo maior bioma em biodiversidade.",
+      "Amazônia: 20% desmatado. Se ultrapassar 25-30%, pode entrar em colapso por feedback de dessecamento.",
+      "Recifes de coral: 50% destruídos desde 1950. Abrigam 25% da vida marinha em 0,1% do oceano.",
+      "Ponto de não retorno (tipping point): limiar além do qual o ecossistema colapsa irreversivelmente."
+    ]
+  },
+  "relations": {
+    "title": "Serviços ecossistêmicos",
+    "text": "Biodiversidade não é apenas valor estético ou moral — é valor econômico e vital. Florestas regulam o clima, purificam a água, polinizam culturas (abelhas polinizam 70% dos alimentos que comemos) e fornecem medicamentos (25% dos remédios modernos têm origem em plantas tropicais). A perda de biodiversidade é também perda de serviços que nenhuma tecnologia substitui."
+  },
+  "caseStudy": {
+    "title": "O ponto de não retorno da Amazônia",
+    "text": "O climatologista Carlos Nobre estima que a Amazônia tem um ponto de não retorno entre 20 e 25% de desmatamento. Além desse ponto, a floresta perde a capacidade de gerar sua própria chuva e entra em processo de 'savanização' — transformação em savana seca. Hoje está em 20%. A janela de segurança está se fechando."
+  },
+  "application": "Pesquise: qual é o bioma da sua região? Qual é o percentual ainda preservado? Quais são as principais ameaças locais?",
+  "activity": {
+    "question": "O que são 'serviços ecossistêmicos'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "funcoes-natureza",
+    "options": [
+      {
+        "value": "funcoes-natureza",
+        "label": "As funções que os ecossistemas desempenham para o bem-estar humano — regulação do clima, purificação da água, polinização"
+      },
+      {
+        "value": "parques",
+        "label": "Os serviços oferecidos em parques nacionais e áreas de proteção ambiental"
+      },
+      {
+        "value": "turismo",
+        "label": "O turismo ecológico como atividade econômica sustentável"
+      },
+      {
+        "value": "carbono",
+        "label": "O mercado de créditos de carbono para compensar emissões"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Serviços ecossistêmicos são os benefícios que a natureza fornece gratuitamente — e que seriam impossíveis ou imensamente caros de substituir tecnologicamente.",
+      "incorrect": "Serviços ecossistêmicos são muito mais amplos que turismo ou créditos de carbono. São as funções vitais que os ecossistemas prestam automaticamente."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O que as abelhas fazem? O que as árvores fazem pela chuva? O que os rios fazem pela água potável? Tudo isso são serviços da natureza."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a crise de biodiversidade atual, seus mecanismos e o conceito de serviços ecossistêmicos como argumento para conservação.",
+    "observe": "Conecte com a Amazônia e o debate político brasileiro. A decisão sobre desmatamento é também uma decisão sobre serviços ecossistêmicos que beneficiam o Brasil inteiro.",
+    "answer": "Funções dos ecossistemas que beneficiam o ser humano — regulação climática, purificação da água, polinização.",
+    "mediation": "Exercício: calcule o 'valor' dos serviços ecossistêmicos da sua região. O que se perderia se a vegetação nativa desaparecesse?",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "em-cartography-1",
+  "moduleId": "em-cartography",
+  "title": "Cartografia temática: mapas que representam fenômenos sociais",
+  "summary": "Como dados demográficos, econômicos e ambientais se tornam mapas analíticos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Um mapa de renda per capita e um mapa de esperança de vida do Brasil são quase idênticos.",
+    "text": "Quando você mapeia renda per capita por município e depois mapeia esperança de vida por município, os dois mapas têm padrões espaciais muito similares — municípios ricos vivem mais, municípios pobres vivem menos. Esse não é um acidente geográfico — é uma relação causal que o mapa revela. A cartografia temática transforma dados em argumentos espaciais."
+  },
+  "guided": {
+    "title": "Tipos de cartografia temática",
+    "text": "A cartografia temática representa fenômenos específicos sobre uma base geográfica.",
+    "points": [
+      "Mapa coroplético: áreas coloridas por gradação de valor. Ex: IDH por estado. Risco: distorção por área — estados grandes parecem mais importantes.",
+      "Mapa de pontos proporcionais: pontos de tamanho variável representam quantidades. Ex: população por cidade.",
+      "Mapa de fluxos: linhas representam movimentos. Ex: migração, comércio, transporte.",
+      "Cartograma: o tamanho da área é proporcional ao dado representado, não à área real. Ex: países com tamanho proporcional ao PIB.",
+      "Mapa de calor (heatmap): densidade de fenômenos pontuais. Ex: crimes, casos de dengue."
+    ]
+  },
+  "relations": {
+    "title": "Mapas mentem — mas de formas previsíveis",
+    "text": "Todo mapa é uma simplificação com escolhas: de projeção, de escala, de variável, de cor, de legenda. Essas escolhas determinam o argumento que o mapa faz. Um mapa eleitoral que colore estados inteiros pela maioria esconde a complexidade interna. Um mapa de homicídios por área absoluta superestima estados grandes. Ler um mapa criticamente significa identificar o que ele esconde tanto quanto o que mostra."
+  },
+  "caseStudy": {
+    "title": "O mapa da dengue no Brasil",
+    "text": "Em 2024, o Brasil enfrentou a maior epidemia de dengue da história. O mapeamento em tempo real dos casos pelo Ministério da Saúde mostrou padrões espaciais claros: expansão pelo Centro-Oeste antes de atingir o Sudeste, concentração em regiões com saneamento deficiente, relação com temperatura e chuva. O mapa não apenas mostrou o problema — ajudou a prever onde a epidemia chegaria a seguir."
+  },
+  "application": "Acesse o Atlas Brasil (atlasbrasil.org.br) e compare o IDH do seu município com municípios vizinhos. Quais padrões você consegue identificar? Qual é a causa provável das diferenças?",
+  "activity": {
+    "question": "O que é um cartograma e qual é sua principal vantagem sobre o mapa convencional?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "proporcional-dado",
+    "options": [
+      {
+        "value": "proporcional-dado",
+        "label": "Mapa em que o tamanho das áreas é proporcional ao dado representado — evita que áreas grandes dominem visualmente"
+      },
+      {
+        "value": "digital",
+        "label": "Mapa digital interativo que permite zoom e pesquisa de dados"
+      },
+      {
+        "value": "colorido",
+        "label": "Mapa que usa mais cores que o convencional para mostrar mais variáveis"
+      },
+      {
+        "value": "tridimensional",
+        "label": "Mapa em 3D que mostra relevo junto com dados temáticos"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O cartograma distorce a forma real dos países para que o tamanho represente um dado — população, PIB, emissões. Isso evita que a Rússia pareça mais importante que a Índia só por ser maior.",
+      "incorrect": "Cartograma é sobre distorcer deliberadamente a geometria para que o tamanho represente um dado específico — não sobre tecnologia ou número de cores."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Num mapa convencional, a Rússia parece enorme. Num cartograma de PIB, quanto espaço ela ocuparia? E a China? E os EUA?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica os principais tipos de cartografia temática e analisa criticamente os argumentos que diferentes representações cartográficas fazem.",
+    "observe": "Enfatize que mapas são argumentos — não espelhos da realidade. Toda escolha de representação carrega um ponto de vista.",
+    "answer": "Mapa com tamanho das áreas proporcional ao dado — evita distorção por área geográfica.",
+    "mediation": "Compare dois mapas do mesmo fenômeno com representações diferentes. O que cada um enfatiza? O que cada um esconde? Qual induz qual conclusão?",
+    "time": "50 minutos"
+  }
+}

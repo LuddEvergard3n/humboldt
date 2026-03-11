@@ -1,0 +1,73 @@
+{
+  "id": "efii-concepts-5",
+  "moduleId": "efii-concepts",
+  "title": "Redes e fluxos: o espaço que não aparece no mapa",
+  "summary": "Dinheiro, dados, pessoas e mercadorias que conectam os lugares.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "R$ 1 trilhão por dia passa pelo sistema financeiro global — pela maioria dos mapas, isso é invisível",
+    "text": "Mapas mostram fronteiras, cidades e rios. Mas os fluxos que organizam o mundo moderno não aparecem em mapas convencionais: o dinheiro que sai de São Paulo às 9h chega a Londres às 14h e a Tóquio às 23h. Dados de 3 bilhões de usuários são processados em servidores na Virgínia e Cingapura. Containers saem de Xangai e chegam a 200 portos em 45 dias. O mundo é tecido por redes invisíveis — e entender geografia hoje é entender essas redes."
+  },
+  "guided": {
+    "title": "Redes e fluxos no espaço geográfico",
+    "text": "Redes são estruturas que conectam lugares; fluxos são os conteúdos que circulam por essas redes.",
+    "points": [
+      "Rede técnica: rodovias, ferrovias, cabos submarinos, satélites — a infraestrutura física das conexões.",
+      "Rede social: relações entre pessoas, empresas, governos — a dimensão humana das conexões.",
+      "Fluxos materiais: mercadorias, pessoas, energia — o que se move fisicamente.",
+      "Fluxos imateriais: dados, capital financeiro, informação, cultura — o que se move digitalmente.",
+      "Hierarquia urbana: cidades globais (Nova York, Londres, Tóquio) concentram os fluxos de capital e decisão.",
+      "Paradoxo da rede: conecta e exclui ao mesmo tempo — quem não está na rede fica invisível ao sistema."
+    ]
+  },
+  "relations": {
+    "title": "Os cabos submarinos e o poder dos dados",
+    "text": "99% do tráfego de internet intercontinental passa por cabos de fibra ótica no fundo do mar. Existem 400 cabos cobrindo 1,3 milhão de quilômetros de oceano. E a maioria é de propriedade de Google, Meta, Amazon e Microsoft. Infraestrutura física controlada por empresas privadas norte-americanas define como o mundo se comunica. Quando o Egito cortou a internet em 2011, foi porque controlava os cabos que chegavam ao país."
+  },
+  "caseStudy": {
+    "title": "Pix e a derrubada de barreiras de rede",
+    "text": "O Pix, lançado em 2020, transferiu 140 milhões de brasileiros de excluídos do sistema bancário para integrantes de uma rede de pagamentos instantâneos. Em três anos, o Brasil tornou-se líder mundial em pagamentos digitais instantâneos — superando EUA, Europa e China em velocidade e adoção. Uma rede nova que reorganizou relações econômicas dentro do território nacional."
+  },
+  "application": "Pesquise: por onde passa o cabo submarino que conecta o Brasil à Europa? Quais países ele atravessa?",
+  "activity": {
+    "question": "Em geografia, qual é a diferença entre \"rede\" e \"fluxo\"?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "infraestrutura-conteudo",
+    "options": [
+      {
+        "value": "infraestrutura-conteudo",
+        "label": "Rede é a infraestrutura de conexão (rodovias, cabos); fluxo é o que circula por ela (mercadorias, dados)"
+      },
+      {
+        "value": "sinonimos",
+        "label": "São sinônimos — ambos descrevem conexões entre lugares"
+      },
+      {
+        "value": "escala",
+        "label": "Rede é local e fluxo é global"
+      },
+      {
+        "value": "digital-fisico",
+        "label": "Rede é digital e fluxo é físico"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A rodovia é a rede; os caminhões que nela circulam são o fluxo. O cabo submarino é a rede; os dados são o fluxo.",
+      "incorrect": "Pense numa estrada (rede) e num caminhão nela (fluxo). A estrutura e o conteúdo são coisas diferentes."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Uma veia é a rede. O sangue é o fluxo. A infraestrutura de transporte é a rede. As pessoas e mercadorias são os fluxos."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno diferencia redes e fluxos, identifica exemplos no cotidiano e compreende como redes incluem e excluem territórios.",
+    "observe": "Mostre o mapa de cabos submarinos — normalmente invisível, mas estruturante do mundo contemporâneo.",
+    "answer": "Rede é infraestrutura de conexão; fluxo é o conteúdo que circula por ela.",
+    "mediation": "Pergunte: \"Quais territórios brasileiros têm acesso à internet de 5G? Quais ficam fora dessa rede? O que isso significa?\"",
+    "time": "50 minutos"
+  }
+}

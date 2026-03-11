@@ -1,0 +1,71 @@
+{
+  "id": "efi-place-3",
+  "moduleId": "efi-place",
+  "title": "Noções de posição: perto, longe, dentro, fora",
+  "summary": "Vocabulário espacial básico e relações de posição.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O que significa 'do lado' para você?",
+    "text": "Para uma criança, 'longe' pode ser o outro bairro. Para um piloto, 'longe' é outro continente. As noções de posição dependem sempre de uma referência. Aprender a descrever posições com precisão é o primeiro passo da Cartografia."
+  },
+  "guided": {
+    "title": "Vocabulário de posição",
+    "text": "Para descrever posições no espaço, usamos palavras que indicam relações entre objetos e lugares.",
+    "points": [
+      "Proximidade: perto / longe, ao lado, adjacente.",
+      "Interioridade: dentro / fora, no centro, na borda.",
+      "Direção: à frente / atrás, à direita / esquerda, acima / abaixo.",
+      "Toda posição precisa de um ponto de referência: perto de quê?"
+    ]
+  },
+  "relations": {
+    "title": "Posição relativa vs. posição absoluta",
+    "text": "Dizer 'a escola fica ao lado da praça' é posição relativa. Dizer 'a escola fica na Rua das Flores, nº 100' é posição mais absoluta. A Cartografia usa coordenadas geográficas para tornar posições completamente precisas."
+  },
+  "caseStudy": {
+    "title": "Como os Pirahã descrevem posição",
+    "text": "O povo Pirahã, na Amazônia, não usa palavras como 'esquerda' e 'direita'. Eles orientam tudo em relação ao rio: 'lado do rio' e 'lado da mata'. Para eles, o rio é o ponto de referência central da vida — e sua língua reflete isso."
+  },
+  "application": "Olhe pela janela da sua sala de aula. Descreva três coisas usando palavras de posição: perto/longe, à direita/esquerda, acima/abaixo.",
+  "activity": {
+    "question": "Se estou dentro da sala de aula, onde está a janela em relação a mim?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "borda",
+    "options": [
+      {
+        "value": "borda",
+        "label": "Na borda/parede — no limite do espaço onde estou"
+      },
+      {
+        "value": "fora",
+        "label": "Completamente fora da sala"
+      },
+      {
+        "value": "centro",
+        "label": "No centro da sala"
+      },
+      {
+        "value": "abaixo",
+        "label": "Abaixo do chão"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A janela fica na borda — é o limite entre o dentro e o fora da sala.",
+      "incorrect": "Pense: a janela está dentro ou fora da sala? No centro ou na borda?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A janela fica na parede — a parede é o limite da sala."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno usa vocabulário espacial com precisão, compreendendo que posições são sempre relativas a um referencial.",
+    "observe": "Verifique se o aluno especifica o ponto de referência ao descrever posições.",
+    "answer": "Na borda/parede — limite do espaço.",
+    "mediation": "Jogo do Robô: dê instruções de posição para que um colega encontre um objeto escondido na sala.",
+    "time": "50 minutos"
+  }
+}

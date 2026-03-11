@@ -1,0 +1,72 @@
+{
+  "id": "efii-concepts-3",
+  "moduleId": "efii-concepts",
+  "title": "Escala geográfica: de local a global",
+  "summary": "Como o ponto de observação muda o que entendemos sobre o espaço.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O mesmo problema, visto de escalas diferentes, parece completamente diferente",
+    "text": "O desmatamento de uma árvore em Rondônia parece local. Mas visto de satélite, faz parte de um padrão que cobre milhares de km². E globalmente, contribui para mudanças climáticas que afetam o Sahara e a Groenlândia. A escala muda tudo — o que vemos, o que importa e quem deve agir."
+  },
+  "guided": {
+    "title": "Escalas de análise",
+    "text": "Escala geográfica não é só o tamanho do mapa — é o nível de observação que escolhemos para analisar um fenômeno.",
+    "points": [
+      "Local: bairro, cidade, município. Vemos detalhes, mas perdemos o contexto maior.",
+      "Regional: estado, região. Padrões surgem que não eram visíveis no local.",
+      "Nacional: o país inteiro. Comparações entre regiões tornam-se possíveis.",
+      "Global: o mundo. Conexões entre países e continentes ficam visíveis.",
+      "Todo fenômeno geográfico existe em múltiplas escalas ao mesmo tempo."
+    ]
+  },
+  "relations": {
+    "title": "Pensar globalmente, agir localmente",
+    "text": "A emissão de CO₂ de cada cidade impacta o clima global. Cada ação local tem consequência em outra escala. E cada evento global — uma pandemia, uma crise financeira — se manifesta de forma diferente em cada lugar local."
+  },
+  "caseStudy": {
+    "title": "A pandemia em múltiplas escalas",
+    "text": "A Covid-19 foi um evento global — mas cada lugar viveu de forma diferente. No nível local: fechamento do comércio do bairro. No regional: colapso dos hospitais de cidades médias. No nacional: crise econômica. No global: corrida científica e desigualdade no acesso a vacinas. Uma pandemia, quatro escalas de análise."
+  },
+  "application": "Escolha um problema do seu bairro (lixo, trânsito, falta d'água). Tente analisá-lo nas quatro escalas: o que ele significa no nível local, regional, nacional e global?",
+  "activity": {
+    "question": "Por que é importante analisar um fenômeno geográfico em múltiplas escalas?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "perspectivas",
+    "options": [
+      {
+        "value": "perspectivas",
+        "label": "Porque cada escala revela diferentes aspectos e conexões do mesmo fenômeno"
+      },
+      {
+        "value": "maior-melhor",
+        "label": "Porque a escala maior sempre dá a explicação mais correta"
+      },
+      {
+        "value": "local-melhor",
+        "label": "Porque a escala local é sempre a mais importante"
+      },
+      {
+        "value": "mapas",
+        "label": "Porque precisamos de mapas de tamanhos diferentes"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Cada escala revela algo diferente. O local mostra detalhes; o global mostra conexões. Nenhuma escala é superior.",
+      "incorrect": "Escala maior não significa mais importante. Pense: o que a escala local mostra que a escala global esconde?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Cada escala é como uma câmera com zoom diferente. O que você vê com zoom máximo vs. mínimo?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno aplica o conceito de escala geográfica para analisar fenômenos em diferentes níveis de observação.",
+    "observe": "Verifique se o aluno entende que escala geográfica não é apenas escala cartográfica. São conceitos relacionados, mas distintos.",
+    "answer": "Cada escala revela aspectos diferentes do mesmo fenômeno.",
+    "mediation": "Mostre imagens do mesmo lugar em diferentes escalas (satélite progressivamente aproximando). Pergunte: o que mudou? O que apareceu? O que desapareceu?",
+    "time": "50 minutos"
+  }
+}

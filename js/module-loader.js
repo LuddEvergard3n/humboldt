@@ -1,53 +1,44 @@
 /**
- * module-loader.js — Carregamento dinâmico de módulos pedagógicos
+ * module-loader.js — Lazy import dos módulos pedagógicos
  *
- * Cada módulo em /modules/{id}/index.js exporta:
- *   { id, title, lessons: Lesson[] }
- *
- * O carregamento é lazy: o módulo só é importado quando acessado.
- * O resultado é cacheado em memória para a sessão.
+ * Todos os módulos EFI, EFII e EM são carregados sob demanda.
+ * Adicionar um módulo novo: incluir entrada no mapa abaixo.
  */
 
-/** Cache: moduleId → módulo importado */
-const _moduleCache = new Map();
-
-/**
- * Mapa de ids conhecidos para caminhos de importação.
- * Necessário porque import() com string dinâmica pura
- * não funciona em todos os ambientes estáticos.
- */
-const MODULE_PATHS = {
-  cartography:  () => import('../modules/cartography/index.js'),
-  landscape:    () => import('../modules/landscape/index.js'),
-  brazil:       () => import('../modules/brazil/index.js'),
-  population:   () => import('../modules/population/index.js'),
-  urbanization: () => import('../modules/urbanization/index.js'),
-  economy:      () => import('../modules/economy/index.js'),
-  geopolitics:  () => import('../modules/geopolitics/index.js'),
-  globalization:() => import('../modules/globalization/index.js'),
+const MODULE_MAP = {
+  // EFI
+  'efi-place':           () => import('../modules/efi-place/index.js'),
+  'efi-landscape':       () => import('../modules/efi-landscape/index.js'),
+  'efi-society':         () => import('../modules/efi-society/index.js'),
+  'efi-brazil':          () => import('../modules/efi-brazil/index.js'),
+  // EFII
+  'efii-concepts':       () => import('../modules/efii-concepts/index.js'),
+  'cartography':         () => import('../modules/cartography/index.js'),
+  'efii-physical':       () => import('../modules/efii-physical/index.js'),
+  'brazil':              () => import('../modules/brazil/index.js'),
+  'efii-americas':       () => import('../modules/efii-americas/index.js'),
+  'efii-africa':         () => import('../modules/efii-africa/index.js'),
+  'efii-europe':         () => import('../modules/efii-europe/index.js'),
+  'geopolitics':         () => import('../modules/geopolitics/index.js'),
+  'population':          () => import('../modules/population/index.js'),
+  'landscape':           () => import('../modules/landscape/index.js'),
+  'urbanization':        () => import('../modules/urbanization/index.js'),
+  'globalization':       () => import('../modules/globalization/index.js'),
+  // EM
+  'economy':             () => import('../modules/economy/index.js'),
+  'em-environment':      () => import('../modules/em-environment/index.js'),
+  'em-geopolitics':      () => import('../modules/em-geopolitics/index.js'),
+  'em-urban-regional':   () => import('../modules/em-urban-regional/index.js'),
+  'em-cartography':      () => import('../modules/em-cartography/index.js'),
+  'em-brazil-challenges':() => import('../modules/em-brazil-challenges/index.js'),
 };
 
-/**
- * Carrega (e cacheia) o módulo pedagógico pelo id.
- *
- * @param {string} moduleId
- * @returns {Promise<Object|null>} módulo importado ou null
- */
-export async function loadModule(moduleId) {
-  if (_moduleCache.has(moduleId)) return _moduleCache.get(moduleId);
+export async function loadModule(id) {
+  const loader = MODULE_MAP[id];
+  if (!loader) throw new Error(`Módulo desconhecido: ${id}`);
+  return loader();
+}
 
-  const importer = MODULE_PATHS[moduleId];
-  if (!importer) {
-    console.warn(`loadModule: módulo desconhecido "${moduleId}"`);
-    return null;
-  }
-
-  try {
-    const mod = await importer();
-    _moduleCache.set(moduleId, mod);
-    return mod;
-  } catch (err) {
-    console.warn(`loadModule: falha ao importar "${moduleId}":`, err.message);
-    return null;
-  }
+export function listModuleIds() {
+  return Object.keys(MODULE_MAP);
 }

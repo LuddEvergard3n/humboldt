@@ -1,0 +1,72 @@
+{
+  "id": "globalization-1",
+  "moduleId": "globalization",
+  "title": "O que é globalização e quando começou?",
+  "summary": "A globalização como processo histórico de integração de mercados, culturas e territórios.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O seu celular foi projetado na Califórnia, fabricado na China com minerais do Congo.",
+    "text": "O smartphone no seu bolso é um objeto globalizado: design americano, software indiano, chips taiwaneses, lítio boliviano, cobalto congolês, montagem chinesa, venda no Brasil. Nenhum país faz um smartphone sozinho. Isso é globalização: a integração de economias, culturas e territórios em redes que ignoram fronteiras nacionais."
+  },
+  "guided": {
+    "title": "Globalização: conceito e fases históricas",
+    "text": "A globalização não é fenômeno novo — é um processo com séculos de história.",
+    "points": [
+      "Proto-globalização: as rotas comerciais da Antiguidade (Rota da Seda, comércio mediterrâneo).",
+      "Globalização colonial (séc. XV-XIX): Europa conectou o mundo pela força — comércio triangular, colonização, escravidão.",
+      "Globalização industrial (séc. XIX-XX): ferrovias, navios a vapor, telégrafo — integração dos mercados globais.",
+      "Globalização contemporânea (1970-hoje): internet, containers, desregulamentação financeira, cadeias produtivas globais.",
+      "Cada fase aprofundou as conexões — e também as desigualdades entre os que se beneficiam e os que não se beneficiam."
+    ]
+  },
+  "relations": {
+    "title": "Globalização e soberania nacional",
+    "text": "A globalização cria uma tensão permanente com a soberania dos Estados: empresas transnacionais faturam mais que o PIB de muitos países; fluxos financeiros cruzam fronteiras em milissegundos; decisões tomadas em Nova Iorque ou Frankfurt afetam empregos em São Paulo ou Lagos. O Estado nacional foi feito para um mundo de fronteiras — e a globalização corrói essas fronteiras."
+  },
+  "caseStudy": {
+    "title": "O container que mudou o mundo",
+    "text": "Malcolm McLean inventou o container padronizado em 1956. Antes, descarregar um navio levava semanas e custava fortunas. Com o container, o custo de transporte marítimo caiu 90% em 20 anos. Isso tornou rentável produzir na China e vender no Brasil. O container é tão responsável pela globalização quanto a internet — mas quase ninguém sabe o nome do seu inventor."
+  },
+  "application": "Escolha um produto que você usa todo dia (roupa, comida, eletrônico). Tente rastrear de onde vêm suas partes ou ingredientes. Quantos países estão envolvidos?",
+  "activity": {
+    "question": "O que distingue a globalização contemporânea das fases anteriores de integração global?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "velocidade-financas",
+    "options": [
+      {
+        "value": "velocidade-financas",
+        "label": "A velocidade dos fluxos (internet em tempo real) e a integração financeira global sem precedentes"
+      },
+      {
+        "value": "tamanho",
+        "label": "O tamanho das empresas envolvidas — multinacionais são maiores que antes"
+      },
+      {
+        "value": "nova",
+        "label": "A globalização é completamente nova — não existia antes do século XX"
+      },
+      {
+        "value": "tecnologia",
+        "label": "O uso de tecnologia — o passado não tinha tecnologia"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! A globalização contemporânea é distinguida pela velocidade (transações financeiras em milissegundos, comunicação instantânea) e pela integração dos mercados financeiros — que criou um capitalismo verdadeiramente global.",
+      "incorrect": "A globalização tem séculos de história. O que mudou nas últimas décadas foi a velocidade e o tipo de integração, especialmente financeira."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O que a internet e os mercados financeiros globais adicionaram à integração que já existia nas rotas comerciais antigas?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a globalização como processo histórico e analisa suas fases, causas e contradições.",
+    "observe": "Questione a ideia de globalização como inevitável ou neutra. Quem decide as regras? Quem se beneficia? Quem paga o custo?",
+    "answer": "Velocidade dos fluxos (internet em tempo real) e integração financeira global.",
+    "mediation": "Mostre a cadeia produtiva de um produto cotidiano (tênis, camiseta, celular) em mapa-mundo. Quantos países? Quantos trabalhadores? Qual é o lucro de cada etapa?",
+    "time": "50 minutos"
+  }
+}

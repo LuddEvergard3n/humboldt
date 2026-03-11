@@ -1,136 +1,60 @@
 {
   "id": "population-1",
   "moduleId": "population",
-  "title": "Por que as pessoas migram",
-  "summary": "Fatores de expulsão, atração e os grandes fluxos migratórios.",
-  "activityType": "flow-map",
+  "title": "Dinâmica populacional: quem somos e quantos somos",
+  "summary": "Crescimento, densidade, estrutura etária e transição demográfica.",
+  "activityType": "before-after",
   "phenomenon": {
-    "title": "Em 2023, havia 117 milhões de pessoas deslocadas no mundo",
-    "text": "Mais do que em qualquer outro momento da história registrada. Guerras, crises climáticas, perseguições políticas e pobreza extrema movem populações inteiras. A migração não é anomalia — é resposta humana ao desequilíbrio entre onde as pessoas estão e onde podem ter vida digna."
+    "title": "A população do mundo vai parar de crescer — mas por quê?",
+    "text": "Em 1800, a Terra tinha 1 bilhão de pessoas. Em 1927, chegou a 2 bilhões. Em 2022, ultrapassou 8 bilhões. Mas as projeções apontam que o crescimento vai desacelerar e estabilizar em torno de 10-11 bilhões até 2100. Por quê? Porque países que se desenvolvem têm menos filhos. A demografia é a geografia do futuro."
   },
   "guided": {
-    "title": "Fatores que determinam a migração",
-    "text": "Geógrafos identificam dois tipos de fatores migratórios:",
+    "title": "Conceitos de demografia",
+    "text": "A demografia estuda a composição, distribuição e dinâmica das populações.",
     "points": [
-      "Fatores de expulsão (push): guerra, seca, desemprego, perseguição, fome.",
-      "Fatores de atração (pull): empregos, segurança, serviços, liberdade, clima.",
-      "A migração é quase sempre uma resposta a uma combinação dos dois.",
-      "Migrante: quem se desloca voluntariamente. Refugiado: quem é forçado a fugir."
+      "Taxa de natalidade: número de nascimentos por 1.000 habitantes por ano.",
+      "Taxa de mortalidade: número de mortes por 1.000 habitantes por ano.",
+      "Taxa de crescimento vegetativo: natalidade − mortalidade. Positiva = população cresce.",
+      "Densidade demográfica: número de habitantes por km². Média mundial: 60 hab/km².",
+      "Transição demográfica: processo pelo qual países passam de alta natalidade/mortalidade para baixa natalidade/mortalidade à medida que se desenvolvem."
     ]
   },
   "relations": {
-    "title": "Migração, desigualdade e globalização",
-    "text": "Os grandes fluxos migratórios contemporâneos seguem um padrão: de países com menor IDH para países com maior IDH, de regiões em conflito para regiões estáveis, de zonas afetadas pela crise climática para zonas com mais recursos. A migração é o mapa da desigualdade global em movimento."
+    "title": "Pirâmide etária",
+    "text": "A pirâmide etária é um gráfico que mostra a distribuição da população por sexo e faixa etária. Países jovens têm base larga (muitas crianças). Países envelhecidos têm forma de losango ou urna (poucas crianças, muitos idosos). O Brasil passou de pirâmide jovem para transição em 50 anos — mais rápido que qualquer país europeu."
   },
   "caseStudy": {
-    "title": "A seca e a migração nordestina",
-    "text": "Entre 1930 e 1980, o Nordeste perdeu milhões de habitantes para o Sudeste — especialmente São Paulo. A seca, o latifúndio e a falta de oportunidades eram os fatores de expulsão; a industrialização paulistana era o fator de atração. Hoje, com investimentos e universidades no Nordeste, esse fluxo se reduziu — e em alguns casos se inverteu."
+    "title": "O Japão e o envelhecimento acelerado",
+    "text": "O Japão tem a população mais velha do mundo: 30% tem mais de 65 anos. Com taxa de natalidade de 1,2 filho por mulher (mínimo para manter a população é 2,1), o país enfrenta escassez de mão de obra, pressão sobre previdência e cidades com bairros inteiros desabitados. Em 2023, o governo registrou mais mortes que nascimentos pelo 17º ano consecutivo."
   },
-  "application": "Alguém da sua família migrou em alguma geração? De onde veio? Por quê? Identifique os fatores de expulsão e atração dessa história.",
+  "application": "Pesquise a pirâmide etária do Brasil em 1980 e em 2023. O que mudou? O que isso significa para o sistema de saúde e previdência nos próximos 30 anos?",
   "activity": {
-    "type": "flow-map",
-    "instruction": "Observe os fluxos migratórios no mapa. Identifique padrões de origem e destino.",
-    "flows": [
-      {
-        "from": [
-          55,
-          30
-        ],
-        "to": [
-          28,
-          48
-        ],
-        "value": 70,
-        "label": "Síria/Oriente Médio para Europa",
-        "color": "#c4883a"
-      },
-      {
-        "from": [
-          20,
-          55
-        ],
-        "to": [
-          28,
-          45
-        ],
-        "value": 50,
-        "label": "África para Europa",
-        "color": "#c4883a"
-      },
-      {
-        "from": [
-          35,
-          60
-        ],
-        "to": [
-          20,
-          40
-        ],
-        "value": 80,
-        "label": "América Central para EUA",
-        "color": "#4a7aaa"
-      },
-      {
-        "from": [
-          35,
-          65
-        ],
-        "to": [
-          35,
-          60
-        ],
-        "value": 40,
-        "label": "Venezuela para Brasil/Argentina",
-        "color": "#2d6e2d"
-      }
-    ],
-    "question": "Com base no mapa de fluxos, de qual região partem os maiores movimentos migratórios em direção à Europa?",
-    "correct": "africa-oriente",
-    "hintAfter": 1,
-    "options": [
-      {
-        "value": "africa-oriente",
-        "label": "África e Oriente Médio"
-      },
-      {
-        "value": "america-latina",
-        "label": "América Latina"
-      },
-      {
-        "value": "asia-pacifico",
-        "label": "Ásia-Pacífico"
-      }
-    ],
+    "question": "Compare a pirâmide etária do Brasil em 1980 e em 2020. O que mudou? O que isso significa para saúde e previdência?",
+    "type": "before-after",
+    "before": {
+      "label": "Pirâmide etária — Brasil 1980",
+      "description": "Base larga (muitas crianças 0–14 anos), topo estreito (poucos idosos). Taxa de fecundidade: 4,0 filhos/mulher. Expectativa de vida: 63 anos. População: 121 milhões."
+    },
+    "after": {
+      "label": "Pirâmide etária — Brasil 2020",
+      "description": "Base mais estreita, topo mais largo. Taxa de fecundidade: 1,7 filhos/mulher. Expectativa de vida: 76 anos. População: 213 milhões. Maior concentração em adultos de 25–50 anos."
+    },
     "feedback": {
-      "correct": "Correto. Os maiores fluxos migratórios para a Europa partem da África subsaariana e do Oriente Médio.",
-      "incorrect": "Observe no mapa as setas que apontam para a Europa e identifique de onde elas partem."
+      "correct": "O Brasil envelheceu: menos jovens, mais idosos. Isso exige mais hospitais, menos escolas, mais previdência — uma transição que os governos precisam planejar com décadas de antecedência.",
+      "incorrect": "Olhe para a base (crianças) e o topo (idosos) das duas pirâmides. O que cresceu? O que diminuiu? Quais serviços públicos cada faixa etária demanda?"
     },
     "hints": [
       {
         "type": "text",
-        "content": "Observe as setas que têm a Europa como destino. De quais continentes elas partem?"
+        "content": "Base larga = muitas crianças = precisam de escolas, pediatras. Topo largo = muitos idosos = precisam de hospitais, previdência. A forma da pirâmide é um orçamento público."
       }
     ]
   },
-  "legend": [
-    {
-      "color": "#c4883a",
-      "label": "Fluxos para a Europa"
-    },
-    {
-      "color": "#4a7aaa",
-      "label": "Fluxos para a América do Norte"
-    },
-    {
-      "color": "#2d6e2d",
-      "label": "Fluxos internos na América do Sul"
-    }
-  ],
   "teacher": {
-    "objective": "O aluno compreende os fatores de expulsão e atração e lê mapas de fluxos migratórios.",
-    "observe": "Verifique se o aluno consegue ir além de 'as pessoas migram porque querem' e identificar causas estruturais.",
-    "answer": "África e Oriente Médio — as duas setas de maior volume em direção à Europa.",
-    "mediation": "Pergunte: 'Por que alguém deixa seu país? O que é necessário para que isso aconteça?' Conduza para os fatores push e pull.",
+    "objective": "O aluno compreende os principais indicadores demográficos e analisa a transição demográfica do Brasil e do mundo.",
+    "observe": "Conecte com previdência social: o envelhecimento da população brasileira é um debate político urgente. Deixe os alunos perceber a relação.",
+    "answer": "Processo pelo qual países passam de alta para baixa natalidade e mortalidade com o desenvolvimento.",
+    "mediation": "Mostre pirâmide etária do Brasil em 1960, 1990, 2020 e projeção 2050. Peça que descrevam a mudança com palavras.",
     "time": "50 minutos"
   }
 }

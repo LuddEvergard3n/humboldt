@@ -1,0 +1,72 @@
+{
+  "id": "cartography-4",
+  "moduleId": "cartography",
+  "title": "Coordenadas geográficas: latitude e longitude",
+  "summary": "Sistema de localização precisa sobre a superfície terrestre.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Como pilotos sabem exatamente onde estão sobre o oceano, sem ver terra?",
+    "text": "Antes do GPS, pilotos e navegadores usavam coordenadas geográficas — um sistema de linhas imaginárias que cobre toda a Terra. Com latitude e longitude, qualquer ponto da superfície tem um endereço único. O aeroporto de Guarulhos fica em 23°26'S, 46°28'W. Esse é o endereço do planeta."
+  },
+  "guided": {
+    "title": "O sistema de coordenadas geográficas",
+    "text": "A Terra é dividida por linhas imaginárias que formam uma grade de localização.",
+    "points": [
+      "Paralelos: linhas horizontais paralelas ao Equador. Medem a latitude (0° a 90° N ou S).",
+      "Meridianos: linhas verticais que vão de polo a polo. Medem a longitude (0° a 180° L ou O).",
+      "Equador: paralelo 0° — divide Terra em hemisférios Norte e Sul.",
+      "Meridiano de Greenwich: meridiano 0° — divide Terra em hemisférios Leste e Oeste.",
+      "Trópico de Câncer (23°26'N) e Trópico de Capricórnio (23°26'S): limites da zona tropical."
+    ]
+  },
+  "relations": {
+    "title": "Fusos horários",
+    "text": "A Terra tem 360° e gira em 24 horas. A cada 15° de longitude, há 1 hora de diferença de horário. O mundo foi dividido em 24 fusos horários. O Brasil tem 4 fusos. Quando são 12h em Recife, são 11h em Manaus."
+  },
+  "caseStudy": {
+    "title": "O GPS e o sistema de coordenadas",
+    "text": "O GPS usa o mesmo sistema de latitude e longitude inventado pelos gregos antigos. 30 satélites em órbita calculam sua posição por triangulação — cruzando sinais de pelo menos 4 satélites. O sistema foi criado pelo exército americano nos anos 1970 e aberto ao público em 2000."
+  },
+  "application": "Use o GPS do celular para descobrir as coordenadas da sua escola. Qual é o fuso horário da sua cidade?",
+  "activity": {
+    "question": "O Equador corresponde a qual valor de latitude?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "zero",
+    "options": [
+      {
+        "value": "zero",
+        "label": "0° — linha de referência zero da latitude"
+      },
+      {
+        "value": "noventa",
+        "label": "90° N — Polo Norte"
+      },
+      {
+        "value": "vinte-tres",
+        "label": "23°26' — Trópico de Câncer"
+      },
+      {
+        "value": "sessenta",
+        "label": "60° — Círculo Polar"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! O Equador é o paralelo 0°, que divide a Terra nos hemisférios Norte e Sul.",
+      "incorrect": "O Equador é a linha base de onde medimos latitude. Qual valor de partida de uma escala de 0° a 90°?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Latitude vai de 0° a 90°. O Equador é o ponto de partida — qual é o valor inicial?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno localiza pontos na superfície terrestre usando coordenadas geográficas e compreende a origem dos fusos horários.",
+    "observe": "Pratique com exemplos reais: Brasília, Nova Iorque, Paris. Use Google Maps para verificar coordenadas.",
+    "answer": "0° — linha de referência zero da latitude.",
+    "mediation": "Jogo: dê coordenadas e os alunos identificam o lugar no mapa. Depois inverso: dê o lugar e eles encontram as coordenadas.",
+    "time": "50 minutos"
+  }
+}

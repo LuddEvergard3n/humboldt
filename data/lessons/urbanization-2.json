@@ -1,0 +1,72 @@
+{
+  "id": "urbanization-2",
+  "moduleId": "urbanization",
+  "title": "Metrópoles e redes urbanas: como as cidades se organizam",
+  "summary": "Hierarquia urbana, metropolização e a rede de cidades brasileira.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que existem cidades grandes e cidades pequenas — e por que elas precisam umas das outras?",
+    "text": "Uma aldeia de 500 pessoas tem uma mercearia. Uma cidade de 50.000 tem um hospital. Uma metrópole de 5 milhões tem bolsa de valores, universidades de pesquisa e aeroporto internacional. Cada tamanho de cidade oferece um conjunto diferente de serviços — e as cidades menores dependem das maiores para o que não conseguem oferecer sozinhas."
+  },
+  "guided": {
+    "title": "Hierarquia urbana",
+    "text": "As cidades se organizam em hierarquias segundo o tipo e alcance dos serviços que oferecem.",
+    "points": [
+      "Metrópole nacional: São Paulo, Rio de Janeiro — serviços de alcance nacional e internacional.",
+      "Metrópole regional: Belo Horizonte, Porto Alegre, Recife, Manaus — servem grandes regiões.",
+      "Capital regional: cidades que polarizam microrregiões — Ribeirão Preto, Campinas, Joinville.",
+      "Centro local: cidades pequenas que atendem apenas o município e entorno imediato.",
+      "Quanto maior a cidade, mais rara ela é — há poucas metrópoles e muitas cidades pequenas."
+    ]
+  },
+  "relations": {
+    "title": "Macrocefalia urbana no Brasil",
+    "text": "O Brasil tem uma rede urbana macrocéfala: São Paulo e Rio concentram funções que em países comparáveis seriam distribuídas entre 5-6 metrópoles. São Paulo tem o aeroporto mais movimentado, a bolsa de valores, a maior universidade, os maiores hospitais, as matrizes das maiores empresas. Essa concentração gera eficiência para a metrópole e dependência para o restante."
+  },
+  "caseStudy": {
+    "title": "O Interior que surpreende",
+    "text": "O agronegócio do Centro-Oeste criou cidades médias que crescem mais rápido que as metrópoles: Sinop (MT), Sorriso (MT), Lucas do Rio Verde (MT). Com 100.000-200.000 habitantes, oferecem serviços de metrópole regional — universidades, hospitais especializados, shoppings. Uma nova rede urbana está emergindo no Brasil, fora do eixo tradicional."
+  },
+  "application": "Pesquise: qual é a cidade mais próxima da sua que oferece: (a) hospital de alta complexidade, (b) universidade federal, (c) tribunal de justiça. Isso revela a hierarquia urbana da sua região.",
+  "activity": {
+    "question": "O que define o nível de uma cidade na hierarquia urbana?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "servicos-alcance",
+    "options": [
+      {
+        "value": "servicos-alcance",
+        "label": "O tipo e o alcance geográfico dos serviços que ela oferece"
+      },
+      {
+        "value": "populacao",
+        "label": "Apenas o número de habitantes"
+      },
+      {
+        "value": "area",
+        "label": "A área do município em km²"
+      },
+      {
+        "value": "capital",
+        "label": "Se é ou não capital de estado"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Uma cidade de 2 milhões que só tem comércio local tem hierarquia diferente de uma cidade de 500.000 com bolsa de valores e aeroporto internacional. O que importa é o alcance dos serviços.",
+      "incorrect": "População importa, mas não é o único critério. Uma capital de estado pequena pode ter hierarquia maior que uma cidade industrial grande. O que determina é o tipo de serviço."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Uma mercearia atende o bairro. Um hospital atende a região. Uma bolsa de valores atende o país. Qual critério determina a hierarquia?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve a hierarquia urbana e analisa a rede de cidades brasileira e suas desigualdades regionais.",
+    "observe": "Conecte com experiência dos alunos: para qual cidade eles vão quando precisam de hospital especializado? Isso é hierarquia urbana vivida.",
+    "answer": "O tipo e o alcance geográfico dos serviços oferecidos.",
+    "mediation": "Mapa da rede urbana brasileira (IBGE/REGIC). Visualize a concentração em SP/RJ e a dependência das cidades médias e pequenas.",
+    "time": "50 minutos"
+  }
+}

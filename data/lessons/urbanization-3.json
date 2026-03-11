@@ -1,0 +1,72 @@
+{
+  "id": "urbanization-3",
+  "moduleId": "urbanization",
+  "title": "Problemas urbanos: mobilidade, habitação e meio ambiente",
+  "summary": "Os principais desafios das cidades contemporâneas.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "São Paulo tem 6 milhões de carros — e ainda constrói mais estradas.",
+    "text": "São Paulo tem uma das maiores frotas de automóveis do mundo. Nos picos de congestionamento, 300 km de lentidão. A resposta histórica foi construir mais viadutos e alargare mais avenidas — o que induziu mais carros. É o paradoxo de Braess: em redes de transporte, adicionar capacidade pode aumentar o congestionamento. A solução não está no asfalto."
+  },
+  "guided": {
+    "title": "Principais problemas urbanos",
+    "text": "As cidades contemporâneas enfrentam desafios que são, ao mesmo tempo, técnicos, sociais e políticos.",
+    "points": [
+      "Mobilidade urbana: congestionamento, transporte público deficiente, dependência do automóvel, tempo perdido.",
+      "Habitação: deficit habitacional (8 milhões de domicílios no Brasil), especulação imobiliária, favelas, sem-teto.",
+      "Saneamento básico: 35 milhões de brasileiros sem acesso a esgoto tratado — concentrados na periferia.",
+      "Ilhas de calor urbano: cidades são 3-8°C mais quentes que o entorno rural — asfalto e ausência de verde.",
+      "Enchentes urbanas: impermeabilização do solo + ocupação de várzeas = inundações recorrentes."
+    ]
+  },
+  "relations": {
+    "title": "A cidade e o meio ambiente",
+    "text": "Cidades consomem 78% da energia mundial e produzem 60% das emissões de CO₂ — apesar de ocuparem menos de 3% da superfície terrestre. Mas cidades também são onde a solução é mais eficiente: transporte coletivo, edifícios energeticamente eficientes, ciclovias e arborização têm impacto muito maior por habitante do que soluções rurais."
+  },
+  "caseStudy": {
+    "title": "Curitiba: mito e realidade do planejamento urbano",
+    "text": "Curitiba é internacionalmente celebrada pelo seu sistema de ônibus de alta capacidade (RIT) e pelo urbanismo de Jaime Lerner nos anos 1970-90. O modelo virou referência mundial. Mas críticos apontam que os problemas de mobilidade e habitação da região metropolitana — que inclui municípios vizinhos onde a população pobre foi empurrada — não foram resolvidos pelo planejamento do núcleo central."
+  },
+  "application": "Identifique um problema urbano no município onde você mora. Proponha uma solução que não envolva apenas mais construção ou mais infraestrutura viária.",
+  "activity": {
+    "question": "O que é o 'paradoxo de Braess' aplicado ao trânsito urbano?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "mais-pior",
+    "options": [
+      {
+        "value": "mais-pior",
+        "label": "Construir mais vias pode piorar o trânsito, pois induz mais uso do automóvel"
+      },
+      {
+        "value": "menos-melhor",
+        "label": "Menos carros sempre significa menos trânsito"
+      },
+      {
+        "value": "metro-solucao",
+        "label": "O metrô resolve todos os problemas de mobilidade urbana"
+      },
+      {
+        "value": "noite-livre",
+        "label": "O trânsito é sempre melhor à noite por causa do paradoxo"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Ampliar a capacidade viária atrai mais carros — que preenchem a nova capacidade. O resultado pode ser mais congestionamento, não menos. A solução está em reduzir a demanda por automóveis, não em ampliar a oferta de asfalto.",
+      "incorrect": "O paradoxo de Braess é contraintuitivo: mais pode ser pior. Pense em como mais estradas atraem mais carros."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Se uma avenida nova atrai mais carros, o que acontece com o trânsito geral? Mais capacidade sempre significa menos congestionamento?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica os principais problemas urbanos contemporâneos e analisa soluções que vão além do modelo rodoviarista.",
+    "observe": "Explore o conflito entre o direito à cidade e a especulação imobiliária. Por que os pobres são empurrados para a periferia? Quem lucra?",
+    "answer": "Construir mais vias induz mais uso do automóvel — pode piorar o congestionamento.",
+    "mediation": "Mostre o antes/depois de uma intervenção de mobilidade em alguma cidade: abertura de ciclovia, pedestrianização, BRT. Houve melhora?",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "em-environment-4",
+  "moduleId": "em-environment",
+  "title": "Transição energética: do petróleo às renováveis",
+  "summary": "A mudança na matriz energética global e suas implicações geopolíticas.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Em 2023, pela primeira vez, mais da metade da nova capacidade elétrica instalada no mundo foi renovável.",
+    "text": "Solar, eólica e hidrelétrica responderam por 50% da nova capacidade instalada globalmente em 2023 — a maior participação da história. O custo da energia solar caiu 90% entre 2010 e 2023. A transição energética está acontecendo mais rápido que qualquer previsão. Mas não rápido o suficiente para os acordos climáticos."
+  },
+  "guided": {
+    "title": "A transição energética global",
+    "text": "A transição energética é a mudança da matriz energética global de combustíveis fósseis para fontes renováveis.",
+    "points": [
+      "Combustíveis fósseis atuais: petróleo (33%), carvão (27%), gás natural (24%) = 84% da energia primária mundial.",
+      "Renováveis crescendo: solar e eólica crescem 20-30% ao ano, mas partem de base pequena.",
+      "Brasil tem vantagem: 85% da eletricidade é renovável (hidro + eólica + solar). Mas ainda depende de petróleo nos transportes.",
+      "Minerais críticos: a transição exige lítio (baterias), cobalto, níquel, cobre — criando nova geopolítica mineral.",
+      "Países do petróleo: Arábia Saudita, Emirados, Venezuela — diversificam ou entram em colapso econômico."
+    ]
+  },
+  "relations": {
+    "title": "Nova geopolítica da energia",
+    "text": "O petróleo criou uma geopolítica do Golfo Pérsico por 80 anos. A transição energética está criando uma nova geopolítica: quem tem sol e vento (todo mundo, de certa forma), quem tem lítio (Triângulo do Lítio: Argentina, Bolívia, Chile), quem tem tecnologia de painéis solares (China fabrica 80% dos painéis mundiais). O poder energético está se redistribuindo."
+  },
+  "caseStudy": {
+    "title": "O Triângulo do Lítio e a nova corrida mineral",
+    "text": "Argentina, Bolívia e Chile têm 60% das reservas mundiais de lítio — mineral essencial para baterias de carros elétricos. A corrida pelo lítio reproduz padrões coloniais: empresas de países ricos querem extrair o mineral bruto; os países locais querem industrializar. A Bolívia tentou criar uma empresa estatal de baterias — mas a pressão internacional para manter a exportação bruta é enorme."
+  },
+  "application": "Pesquise: qual é a matriz energética do Brasil (divisão entre fontes na geração de eletricidade e em energia total)? Como isso nos coloca vantajosamente ou não na transição energética?",
+  "activity": {
+    "question": "Por que a transição para energia renovável cria uma 'nova geopolítica mineral'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "minerais-criticos",
+    "options": [
+      {
+        "value": "minerais-criticos",
+        "label": "Porque tecnologias renováveis exigem minerais específicos (lítio, cobalto, cobre) que estão concentrados em poucos países"
+      },
+      {
+        "value": "sol-vento",
+        "label": "Porque sol e vento são recursos geográficos que só existem em alguns países"
+      },
+      {
+        "value": "tecnologia",
+        "label": "Porque os países que inventaram as tecnologias renováveis controlam o mercado"
+      },
+      {
+        "value": "petroleo",
+        "label": "Porque países do petróleo bloqueiam a transição energética para proteger seus interesses"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Assim como o petróleo criou a geopolítica do Oriente Médio, os minerais críticos para baterias (lítio, cobalto, níquel) estão criando novas dependências e disputas geopolíticas — especialmente no Congo e na América do Sul.",
+      "incorrect": "Sol e vento são relativamente bem distribuídos. O gargalo geopolítico está nos minerais que as baterias e painéis exigem — e que estão concentrados em poucos lugares."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Um carro elétrico usa 60 kg de lítio. Um painel solar usa cobre. Esses minerais existem em todo lugar? Quem os controla?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a transição energética em curso, suas velocidades e implicações geopolíticas para diferentes países.",
+    "observe": "Conecte com o Brasil: temos uma vantagem real na matriz renovável, mas dependemos de petróleo nos transportes e temos o pré-sal como ativo econômico central. Tensão real entre interesses.",
+    "answer": "Tecnologias renováveis dependem de minerais específicos concentrados em poucos países — criando novas dependências geopolíticas.",
+    "mediation": "Compare o mapa de reservas de petróleo com o mapa de reservas de lítio e cobalto. Quais países ganham poder na transição? Quais perdem?",
+    "time": "50 minutos"
+  }
+}

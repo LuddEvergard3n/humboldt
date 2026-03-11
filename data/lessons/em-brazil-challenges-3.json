@@ -1,0 +1,72 @@
+{
+  "id": "em-brazil-challenges-3",
+  "moduleId": "em-brazil-challenges",
+  "title": "Desigualdade social e racial no espaço brasileiro",
+  "summary": "Como raça, gênero e classe determinam o acesso ao espaço e às oportunidades.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "No Brasil, a cor da pele ainda determina onde você mora, para onde você vai e quanto você ganha.",
+    "text": "Segundo o IBGE (2022), trabalhadores negros ganham em média 57% do salário de trabalhadores brancos com a mesma escolaridade. Municípios com maioria de população negra têm IDH sistematicamente menor. As piores condições habitacionais, o acesso mais precário a saneamento e a maior exposição a riscos ambientais seguem o mesmo padrão racial. A desigualdade brasileira tem um endereço — e uma cor."
+  },
+  "guided": {
+    "title": "Interseccionalidade e espaço",
+    "text": "Desigualdade social não é unidimensional — raça, gênero e classe se combinam para determinar o acesso ao espaço e às oportunidades.",
+    "points": [
+      "Segregação racial urbana: no Brasil, favelas e periferias têm maioria negra — resultado de um processo histórico que começa na escravidão e passa pela exclusão dos programas habitacionais do séc. XX.",
+      "Racismo ambiental: comunidades negras e indígenas são desproporcionalmente afetadas por instalações poluentes, mineração e desastres ambientais.",
+      "Desigualdade de gênero espacial: mulheres têm acesso mais restrito ao espaço público — mobilidade reduzida pelo medo da violência, especialmente à noite.",
+      "Direitos territoriais indígenas: 13% do território nacional é terra indígena demarcada, mas conflitos fundiários persistem.",
+      "Quilombolas: 3.000 comunidades quilombolas com direito constitucional à terra — menos de 5% têm titulação completa."
+    ]
+  },
+  "relations": {
+    "title": "A herança territorial da escravidão",
+    "text": "O Brasil importou 5 milhões de africanos escravizados — 40% de todos os africanos levados às Américas. Em 1888, a Lei Áurea libertou os escravizados sem terra, sem reparação e sem programas de integração. O resultado espacial dessa decisão se vê nos mapas de hoje: onde a escravidão foi mais intensa, a desigualdade racial é maior. A desigualdade contemporânea tem raízes históricas espacialmente localizáveis."
+  },
+  "caseStudy": {
+    "title": "A comunidade de Saramaka e o sistema interamericano",
+    "text": "Os Saramakas são descendentes de escravizados fugitivos no Suriname. Em 2007, a Corte Interamericana de Direitos Humanos condenou o Suriname por permitir concessões madeireiras em território Saramaka sem consulta prévia. A sentença estabeleceu que comunidades tradicionais têm direito ao território ancestral — um precedente que influenciou a jurisprudência sobre direitos territoriais de quilombolas e indígenas no Brasil."
+  },
+  "application": "Pesquise o índice de vulnerabilidade social do seu município por raça e gênero (IPEA Data). O que os dados mostram? As diferenças são estatisticamente significativas?",
+  "activity": {
+    "question": "O que é 'racismo ambiental'?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "exposicao-desigual",
+    "options": [
+      {
+        "value": "exposicao-desigual",
+        "label": "A exposição desproporcional de comunidades negras, indígenas e pobres a riscos ambientais — poluição, desastres, mineração"
+      },
+      {
+        "value": "natural",
+        "label": "A ideia equivocada de que há raças mais ou menos adaptadas a determinados ambientes"
+      },
+      {
+        "value": "discriminacao",
+        "label": "A discriminação racial em políticas ambientais, como proibir negros de entrar em parques"
+      },
+      {
+        "value": "urbano",
+        "label": "A concentração de população negra em áreas urbanas sem verde"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Racismo ambiental (conceito de Robert Bullard, 1987) é a distribuição espacialmente desigual dos riscos ambientais — que afeta desproporcionalmente comunidades racializadas e pobres. No Brasil: lixões, indústrias poluentes e riscos de deslizamento se concentram onde vive a população negra.",
+      "incorrect": "Racismo ambiental não é sobre teorias naturais — é sobre a distribuição espacial dos riscos. Quem vive perto do lixão? Quem vive perto do parque?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Onde fica o lixão da sua cidade? Quem mora perto? Onde fica o parque mais bonito? Quem mora perto? Isso é racismo ambiental."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa como raça, gênero e classe determinam o acesso diferenciado ao espaço e às oportunidades, conectando desigualdades contemporâneas às raízes históricas.",
+    "observe": "Aborde com cuidado e respeito. Dados e fatos são a melhor proteção contra desvios para estereótipos. Foque em estruturas, não em indivíduos.",
+    "answer": "Exposição desproporcional de comunidades negras e indígenas a riscos ambientais.",
+    "mediation": "Mapa de instalações poluidoras (refinarias, lixões, pedreiras) vs. mapa de composição racial dos bairros. Há correlação? O que ela indica?",
+    "time": "50 minutos"
+  }
+}

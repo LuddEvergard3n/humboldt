@@ -1,0 +1,72 @@
+{
+  "id": "em-geopolitics-3",
+  "moduleId": "em-geopolitics",
+  "title": "Organizações internacionais e governança global",
+  "summary": "ONU, OMC, FMI, OTAN: como as instituições internacionais funcionam e seus limites.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O FMI empresta dinheiro para países em crise — mas com condições que às vezes pioram a crise.",
+    "text": "A Argentina recorreu ao FMI 22 vezes entre 1956 e 2018. O FMI exigiu corte de gastos, privatizações e liberalização econômica. Em 2001, a Argentina entrou em colapso — o maior calote soberano da história. Em 2018, voltou ao FMI. O ciclo se repetiu. A relação entre organizações internacionais e países em desenvolvimento é central para entender quem define as regras da economia global."
+  },
+  "guided": {
+    "title": "Principais organizações internacionais",
+    "text": "Organizações internacionais são instituições criadas por tratados entre países para governar aspectos específicos das relações internacionais.",
+    "points": [
+      "ONU (1945): paz e segurança, direitos humanos, desenvolvimento. 193 membros. Conselho de Segurança com poder real.",
+      "FMI (1944): estabilidade monetária e empréstimos a países em crise. Dominado por EUA e Europa.",
+      "OMC (1995): regras do comércio internacional. Decisões por consenso — qualquer país pode bloquear.",
+      "OTAN (1949): aliança militar do Atlântico Norte. Artigo 5: ataque a um é ataque a todos.",
+      "BRICS, G20, G7: fóruns informais sem estrutura formal — mas crescentemente influentes."
+    ]
+  },
+  "relations": {
+    "title": "Quem controla as organizações internacionais?",
+    "text": "As organizações internacionais foram criadas majoritariamente pelos países vencedores da Segunda Guerra Mundial e refletem a distribuição de poder de 1945. O FMI distribui votos proporcionalmente ao PIB — EUA têm poder de veto. A ONU dá veto aos P5. O Sul Global, com 85% da população mundial, tem representação desproporcional. A reforma das instituições internacionais é uma das principais demandas geopolíticas do século XXI."
+  },
+  "caseStudy": {
+    "title": "A OTAN depois da Guerra Fria",
+    "text": "A OTAN foi criada para conter a URSS. Com o fim da URSS em 1991, qual seria seu papel? Em vez de se dissolver, expandiu — incorporando países do Leste Europeu. Para a Rússia, a expansão da OTAN até suas fronteiras é ameaça existencial. Para os países bálticos e a Ucrânia, é a única garantia de segurança. O debate sobre a expansão da OTAN está no centro do conflito na Ucrânia."
+  },
+  "application": "Pesquise: o Brasil participa de quais organizações internacionais? Qual é a posição do Brasil no FMI (poder de voto)? Como isso se compara à participação chinesa?",
+  "activity": {
+    "question": "Por que o Sul Global critica a estrutura de governança das organizações internacionais existentes?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "representacao",
+    "options": [
+      {
+        "value": "representacao",
+        "label": "Porque as organizações foram criadas em 1944-1945 e refletem a distribuição de poder de então — com representação desproporcional dos países ricos"
+      },
+      {
+        "value": "corrupcao",
+        "label": "Porque as organizações são corruptas e favorecem as elites"
+      },
+      {
+        "value": "ineficiencia",
+        "label": "Porque as organizações são ineficientes e não resolvem os problemas"
+      },
+      {
+        "value": "ideologia",
+        "label": "Porque as organizações promovem valores ocidentais incompatíveis com outras culturas"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! As instituições de Bretton Woods e a ONU foram desenhadas em 1944-1945 por potências que então dominavam o mundo. A China, a Índia e o conjunto do Sul Global têm hoje muito mais poder econômico e demográfico do que seus votos nessas organizações refletem.",
+      "incorrect": "A crítica central não é sobre corrupção ou eficiência — é sobre representatividade. Quem tem poder de decisão nessas instituições não reflete o mundo de hoje."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Em 1945, quem dominava o mundo? EUA, Europa Ocidental, URSS. Essas instituições foram desenhadas por eles. O que mudou desde então?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno descreve o papel das principais organizações internacionais e analisa criticamente sua estrutura de poder.",
+    "observe": "Debate relevante: o Brasil deve priorizar ONU/FMI/OMC ou fóruns alternativos como BRICS e G20? Qual estratégia interessa mais ao Brasil?",
+    "answer": "As organizações refletem a distribuição de poder de 1944-1945, não a do mundo atual.",
+    "mediation": "Compare o peso demográfico e econômico dos países no mundo atual com sua representação no FMI e no Conselho de Segurança. A representação é proporcional?",
+    "time": "50 minutos"
+  }
+}

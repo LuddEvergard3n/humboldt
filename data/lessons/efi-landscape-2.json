@@ -1,0 +1,70 @@
+{
+  "id": "efi-landscape-2",
+  "moduleId": "efi-landscape",
+  "title": "Campo e cidade: modos de vida diferentes",
+  "summary": "Comparar características do ambiente rural e urbano.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que o campo parece tão diferente da cidade?",
+    "text": "No campo, o dia começa cedo com o canto do galo. Na cidade, com o barulho do trânsito. Dois modos de vida muito diferentes — mas que dependem um do outro: a cidade come o que o campo produz; o campo usa as ferramentas que a cidade fabrica."
+  },
+  "guided": {
+    "title": "Ambiente rural e urbano",
+    "text": "Os espaços geográficos podem ser classificados como rurais ou urbanos.",
+    "points": [
+      "Espaço rural: predomina vegetação, produção agrícola, menor densidade de pessoas.",
+      "Espaço urbano: predomina construções, serviços, maior densidade de pessoas.",
+      "No Brasil, 87% da população vive em cidades — somos um país majoritariamente urbano."
+    ]
+  },
+  "relations": {
+    "title": "Dependência mútua",
+    "text": "Campo e cidade não são opostos que se excluem — são complementares. O agronegócio alimenta as cidades; as cidades produzem os tratores, o fertilizante, os celulares que os agricultores usam."
+  },
+  "caseStudy": {
+    "title": "A horta que virou bairro",
+    "text": "O bairro de Pinheiros, em São Paulo, foi até o início do século XX uma área rural com sítios e hortas. Em poucas décadas, os sítios foram loteados e o bairro virou urbano. Hoje, moradores criam hortas comunitárias em terraços — trazendo um pouco do campo de volta."
+  },
+  "application": "Pesquise: de onde vem o alimento que está na sua geladeira hoje? Qual é o mais provável que venha de uma fazenda próxima da sua cidade?",
+  "activity": {
+    "question": "No Brasil de hoje, onde mora a maioria da população?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "cidade",
+    "options": [
+      {
+        "value": "cidade",
+        "label": "Nas cidades — somos um país urbano"
+      },
+      {
+        "value": "campo",
+        "label": "No campo — somos um país rural"
+      },
+      {
+        "value": "igual",
+        "label": "Igual: metade na cidade, metade no campo"
+      },
+      {
+        "value": "floresta",
+        "label": "Na floresta amazônica"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Cerca de 87% dos brasileiros vivem em cidades. O Brasil se urbanizou muito rápido no século XX.",
+      "incorrect": "O Brasil passou por urbanização intensa entre 1950 e 2000. Como isso pode ter afetado onde as pessoas moram?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O Brasil passou por grande urbanização no século XX. A maioria das pessoas vive em..."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compara características do espaço rural e urbano e compreende que os dois são interdependentes.",
+    "observe": "Explore espaços periurbanos — nem rural nem urbano, mas misto.",
+    "answer": "Nas cidades — Brasil é 87% urbano.",
+    "mediation": "Mostre fotos de cidades e campos brasileiros. Peça que classifiquem e justifiquem.",
+    "time": "50 minutos"
+  }
+}
