@@ -104,12 +104,12 @@ export class Router {
           await this._render(renderHome, {}, 'home', null);
       }
     } catch (err) {
-      console.error('Router render error:', err);
+      console.error('[router] erro ao renderizar rota:', err);
       this._container.innerHTML = `
         <div style="padding:3rem;text-align:center">
-          <h2>Erro ao carregar</h2>
-          <p>${err.message}</p>
-          <a href="#home">Voltar ao início</a>
+          <h2 style="color:var(--color-primary)">Erro ao carregar</h2>
+          <p style="margin:1rem 0;color:var(--color-text-mid)">${err.message}</p>
+          <a href="#home" class="btn btn-outline">Voltar ao início</a>
         </div>`;
     }
   }

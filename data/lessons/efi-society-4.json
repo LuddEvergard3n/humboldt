@@ -1,0 +1,72 @@
+{
+  "id": "efi-society-4",
+  "moduleId": "efi-society",
+  "title": "Festa, tradição e identidade cultural",
+  "summary": "Como cada lugar tem sua própria cultura — e como isso nos une e nos diferencia.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O Brasil tem mais de 70 festas populares diferentes — cada uma conta a história de um lugar",
+    "text": "Carnaval no Rio, Bumba Meu Boi no Maranhão, Festa Junina no Nordeste, Oktoberfest em Blumenau, Festa do Divino em Paraty. Cada festa é a memória de um povo expressa em dança, comida e música. Quando você aprende sobre a festa de um lugar, está aprendendo sobre as pessoas que vivem ali, de onde vieram e o que valorizam. Cultura é a forma como as pessoas deixam sua marca no espaço."
+  },
+  "guided": {
+    "title": "Cultura e identidade no espaço",
+    "text": "Cada comunidade tem formas próprias de viver, celebrar e se expressar.",
+    "points": [
+      "Identidade cultural: conjunto de valores, costumes, línguas e tradições que definem um grupo de pessoas.",
+      "Patrimônio cultural: festas, músicas, comidas, danças e construções que um povo considera importantes e quer preservar.",
+      "Diversidade cultural: o Brasil tem influências indígenas, africanas, europeias e asiáticas — isso aparece na culinária, na música e nas festas.",
+      "Lugar e cultura: cada lugar desenvolve sua própria cultura ao longo do tempo — produto das pessoas que ali viveram.",
+      "Patrimônio imaterial: tradições que existem na memória e na prática das pessoas, não em objetos ou construções."
+    ]
+  },
+  "relations": {
+    "title": "Quando culturas se encontram",
+    "text": "O Brasil é um país de encontros culturais: povos indígenas que já estavam aqui, africanos trazidos à força, europeus e asiáticos que vieram depois. Cada encontro criou algo novo — a capoeira mistura luta e dança africana com resistência ao colonialismo; o churrasco gaúcho veio dos povos das pampas; o carnaval mistura tradições europeias com ritmos africanos. Nenhuma cultura existe isolada — todas se misturam e se transformam."
+  },
+  "caseStudy": {
+    "title": "Blumenau: Oktoberfest no Brasil",
+    "text": "Blumenau, em Santa Catarina, foi fundada por imigrantes alemães em 1850. 170 anos depois, a cidade mantém arquitetura, culinária e o festival Oktoberfest — a maior festa alemã fora da Alemanha. Mas os moradores são brasileiros que falam português e ouvem funk. A identidade cultural é assim: guarda memórias do passado enquanto vive o presente."
+  },
+  "application": "Pesquise: qual é a festa mais tradicional da cidade onde você mora? De onde ela veio? Que culturas ela mistura?",
+  "activity": {
+    "question": "O que é \"patrimônio cultural imaterial\"?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "tradicoes-vivas",
+    "options": [
+      {
+        "value": "tradicoes-vivas",
+        "label": "Tradições, festas, músicas e saberes que um povo pratica e transmite de geração em geração"
+      },
+      {
+        "value": "museus",
+        "label": "Objetos históricos guardados em museus e monumentos"
+      },
+      {
+        "value": "lingua",
+        "label": "Apenas a língua falada por um povo"
+      },
+      {
+        "value": "territorio",
+        "label": "O território físico onde um povo viveu historicamente"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Patrimônio imaterial são as tradições vivas — o jeito de fazer uma festa, um prato, uma dança. Existe na prática das pessoas, não em objetos.",
+      "incorrect": "Pense: o que não dá para guardar num museu, mas que passa de avó para neto? Isso é patrimônio imaterial."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "\"Imaterial\" significa que não é uma coisa física. É um saber, uma prática, uma tradição que existe porque as pessoas fazem — como uma receita de família."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende que a cultura é uma forma de identidade territorial e reconhece a diversidade cultural brasileira como produto de encontros históricos.",
+    "observe": "Valorize exemplos locais — a festa da cidade do aluno é tão válida quanto o Carnaval do Rio.",
+    "answer": "Patrimônio imaterial: tradições, festas, músicas e saberes transmitidos de geração em geração.",
+    "mediation": "Pergunte: \"O que tem na sua família que veio dos seus avós? Uma receita, uma história, uma tradição? Isso também é patrimônio cultural.\"",
+    "time": "50 minutos"
+  }
+}

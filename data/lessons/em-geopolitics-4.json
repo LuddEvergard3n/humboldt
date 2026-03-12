@@ -3,7 +3,7 @@
   "moduleId": "em-geopolitics",
   "title": "Conflitos do século XXI: novas formas de guerra",
   "summary": "Guerras híbridas, ciberguerra, terrorismo e conflitos por recursos.",
-  "activityType": "single-choice",
+  "activityType": "map-click",
   "phenomenon": {
     "title": "A Rússia apagou a rede elétrica da Ucrânia com software — sem disparar um tiro.",
     "text": "Em 2015 e 2016, hackers russos derrubaram partes da rede elétrica da Ucrânia deixando 230.000 pessoas sem luz no inverno. Em 2022, ataques cibernéticos precederem a invasão física. A guerra do século XXI se trava também no ciberespaço — onde não há fronteiras, os agressores são anônimos e civis são alvos."
@@ -29,36 +29,24 @@
   },
   "application": "Pesquise: o Brasil já sofreu ataques cibernéticos significativos? Quais setores foram afetados? Qual é a capacidade de defesa cibernética do Estado brasileiro?",
   "activity": {
-    "question": "O que caracteriza a 'guerra híbrida'?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "combinacao-metodos",
-    "options": [
-      {
-        "value": "combinacao-metodos",
-        "label": "A combinação de operações militares convencionais com ciberataques, desinformação e pressão econômica"
-      },
-      {
-        "value": "sem-uniforme",
-        "label": "Combatentes sem uniforme militar — guerrilha e terrorismo"
-      },
-      {
-        "value": "nuclear",
-        "label": "A ameaça de uso de armas nucleares como instrumento de coerção"
-      },
-      {
-        "value": "drones",
-        "label": "O uso de drones e tecnologia avançada no campo de batalha"
-      }
+    "question": "Clique nas regiões onde há conflitos armados ativos ou tensões geopolíticas críticas em 2024.",
+    "type": "map-click",
+    "targets": [
+      "ucrania",
+      "gaza",
+      "sudan",
+      "myanmar",
+      "taiwan",
+      "sahel"
     ],
     "feedback": {
-      "correct": "Correto! Guerra híbrida é a integração de múltiplos domínios — físico, digital, informacional, econômico — para atingir objetivos estratégicos sem declarar guerra formalmente.",
-      "incorrect": "Guerra híbrida é um conceito mais amplo. É sobre integrar múltiplas formas de pressão — militar, cyber, informacional e econômica — num esforço coordenado."
+      "correct": "Os conflitos ativos em 2024 concentram-se em faixas de instabilidade: Europa oriental (Ucrânia), Oriente Médio (Gaza/Israel), Sahel africano, Sudeste Asiático (Myanmar) e tensão latente no Estreito de Taiwan. Nenhum é isolado — todos têm dinâmicas regionais e envolvimento de potências externas.",
+      "incorrect": "Os principais conflitos ativos em 2024 estão na Europa oriental, Oriente Médio, África central e Sahel, e no Indo-Pacífico (tensões em torno de Taiwan e Mar do Sul da China)."
     },
     "hints": [
       {
         "type": "text",
-        "content": "'Híbrido' = mistura. Uma guerra que mistura o que, exatamente? Pense nas ferramentas que a Rússia usou na Ucrânia antes e durante a invasão."
+        "content": "Pense nos conflitos que você viu nas notícias em 2023-2024. Ucrânia, Gaza, Sudão, Myanmar — localize-os no mapa."
       }
     ]
   },

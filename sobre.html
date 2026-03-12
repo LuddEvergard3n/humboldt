@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="color-scheme" content="light" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sobre o Humboldt — Atlas Interativo de Geografia" />
+  <meta name="theme-color" content="#1e3a5f" />
+  <title>Sobre — Humboldt</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+
+  <style>
+    /* ── Layout ──────────────────────────────────────────── */
+    .sobre-wrapper {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: var(--space-8) var(--space-6) var(--space-16);
+    }
+
+    .content-card {
+      background:    rgba(250, 247, 242, 0.96);
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius);
+      box-shadow:    var(--shadow-lg);
+      padding:       var(--space-8) var(--space-12);
+    }
+
+    /* ── Cabeçalho do card ───────────────────────────────── */
+    .card-header {
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: var(--space-6);
+      margin-bottom:  var(--space-8);
+    }
+
+    .card-header h1 {
+      font-family: var(--font-display);
+      font-size:   var(--size-3xl);
+      font-weight: 700;
+      color:       var(--color-primary);
+      line-height: var(--leading-tight);
+      margin:      0 0 var(--space-2);
+    }
+
+    .card-subtitle {
+      font-family: var(--font-body);
+      font-style:  italic;
+      font-size:   var(--size-md);
+      color:       var(--color-text-muted);
+      margin:      0;
+    }
+
+    /* ── Epígrafe ────────────────────────────────────────── */
+    .epigraph {
+      border-left: 3px solid var(--color-border-dark);
+      padding:     var(--space-3) var(--space-6);
+      margin:      var(--space-8) 0;
+      font-style:  italic;
+      color:       var(--color-text-mid);
+      line-height: var(--leading-loose);
+    }
+
+    .epigraph cite {
+      display:     block;
+      font-style:  normal;
+      font-size:   var(--size-sm);
+      color:       var(--color-text-muted);
+      margin-top:  var(--space-2);
+      font-family: var(--font-mono);
+    }
+
+    /* ── Seções ──────────────────────────────────────────── */
+    .sobre-section {
+      margin-bottom: var(--space-12);
+    }
+
+    .sobre-section h2 {
+      font-family:     var(--font-mono);
+      font-size:       var(--size-xs);
+      font-weight:     600;
+      color:           var(--color-accent);
+      letter-spacing:  var(--tracking-wider);
+      text-transform:  uppercase;
+      border-bottom:   1px solid var(--color-border);
+      padding-bottom:  var(--space-2);
+      margin-bottom:   var(--space-6);
+      margin-top:      0;
+    }
+
+    .sobre-section p {
+      font-family:  var(--font-body);
+      font-size:    var(--size-md);
+      line-height:  var(--leading-loose);
+      color:        var(--color-text);
+      margin-bottom: var(--space-4);
+    }
+
+    .sobre-section p:last-child { margin-bottom: 0; }
+
+    /* ── Métricas ────────────────────────────────────────── */
+    .metricas {
+      display:               grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap:                   var(--space-4);
+      margin-bottom:         var(--space-8);
+    }
+
+    .metrica-card {
+      background:    var(--color-bg-panel);
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius);
+      padding:       var(--space-4) var(--space-6);
+      text-align:    center;
+    }
+
+    .metrica-valor {
+      display:     block;
+      font-family: var(--font-display);
+      font-size:   var(--size-2xl);
+      font-weight: 700;
+      color:       var(--color-primary);
+      line-height: 1;
+      margin-bottom: var(--space-1);
+    }
+
+    .metrica-label {
+      display:     block;
+      font-family: var(--font-mono);
+      font-size:   var(--size-xs);
+      color:       var(--color-text-muted);
+      letter-spacing: var(--tracking-wide);
+      text-transform: uppercase;
+    }
+
+    /* ── Tipos de atividade ──────────────────────────────── */
+    .tipo-grid {
+      display:               grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap:                   var(--space-3);
+      margin-bottom:         var(--space-6);
+    }
+
+    .tipo-item {
+      display:     flex;
+      align-items: flex-start;
+      gap:         var(--space-3);
+      padding:     var(--space-3) var(--space-4);
+      background:  var(--color-bg-panel);
+      border:      1px solid var(--color-border);
+      border-radius: var(--radius);
+    }
+
+    .tipo-count {
+      font-family:   var(--font-mono);
+      font-size:     var(--size-lg);
+      font-weight:   400;
+      color:         var(--color-accent-lt);
+      line-height:   1;
+      min-width:     2ch;
+      text-align:    right;
+    }
+
+    .tipo-info { flex: 1; }
+
+    .tipo-nome {
+      display:     block;
+      font-family: var(--font-mono);
+      font-size:   var(--size-xs);
+      color:       var(--color-primary);
+      margin-bottom: var(--space-1);
+    }
+
+    .tipo-desc {
+      font-family: var(--font-body);
+      font-size:   var(--size-sm);
+      color:       var(--color-text-muted);
+      line-height: var(--leading-base);
+    }
+
+    /* ── Níveis ──────────────────────────────────────────── */
+    .niveis-table {
+      width:           100%;
+      border-collapse: collapse;
+      font-family:     var(--font-body);
+      font-size:       var(--size-base);
+      margin-bottom:   var(--space-6);
+    }
+
+    .niveis-table th {
+      text-align:      left;
+      font-family:     var(--font-mono);
+      font-size:       var(--size-xs);
+      text-transform:  uppercase;
+      letter-spacing:  var(--tracking-wide);
+      color:           var(--color-text-muted);
+      border-bottom:   2px solid var(--color-border);
+      padding:         var(--space-2) var(--space-4) var(--space-2) 0;
+    }
+
+    .niveis-table td {
+      padding:        var(--space-3) var(--space-4) var(--space-3) 0;
+      border-bottom:  1px solid var(--color-border);
+      vertical-align: top;
+      line-height:    var(--leading-base);
+      color:          var(--color-text);
+    }
+
+    .nivel-badge {
+      display:        inline-block;
+      font-family:    var(--font-mono);
+      font-size:      var(--size-xs);
+      padding:        2px 6px;
+      border-radius:  var(--radius-sm);
+      letter-spacing: var(--tracking-wide);
+    }
+
+    .nivel-badge.efi  { background: rgba(30,58,95,0.1);  color: var(--color-primary); }
+    .nivel-badge.efii { background: rgba(139,94,46,0.1); color: var(--color-accent); }
+    .nivel-badge.em   { background: rgba(111,168,196,0.2); color: #2d5282; }
+
+    .num-licoes {
+      font-family: var(--font-mono);
+      font-size:   var(--size-sm);
+      color:       var(--color-text-muted);
+    }
+
+    /* ── Ecossistema ─────────────────────────────────────── */
+    .ecossistema-section {
+      background:    var(--color-primary);
+      border-top:    1px solid rgba(255,255,255,0.1);
+      padding:       var(--space-12) var(--space-6);
+    }
+
+    .ecossistema-inner {
+      max-width: 860px;
+      margin:    0 auto;
+    }
+
+    .ecossistema-section h2 {
+      font-family:    var(--font-mono);
+      font-size:      var(--size-xs);
+      font-weight:    400;
+      color:          rgba(244,239,229,0.6);
+      letter-spacing: var(--tracking-wider);
+      text-transform: uppercase;
+      margin:         0 0 var(--space-6);
+    }
+
+    .eco-grid {
+      display:               grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap:                   var(--space-4);
+    }
+
+    .eco-card {
+      border:        1px solid rgba(196,163,90,0.25);
+      border-radius: var(--radius);
+      padding:       var(--space-6);
+      text-decoration: none;
+      transition:    border-color 0.2s, background 0.2s;
+      background:    rgba(255,255,255,0.03);
+    }
+
+    .eco-card:hover {
+      border-color: rgba(196,163,90,0.55);
+      background:   rgba(255,255,255,0.06);
+      box-shadow:   none;
+    }
+
+    .eco-card--active {
+      border-color:   rgba(196,163,90,0.55);
+      background:     rgba(196,163,90,0.08);
+      pointer-events: none;
+      cursor:         default;
+    }
+
+    .eco-nome {
+      display:       block;
+      font-family:   var(--font-display);
+      font-size:     var(--size-md);
+      font-weight:   600;
+      color:         var(--color-accent-lt);
+      margin-bottom: var(--space-1);
+    }
+
+    .eco-card--active .eco-nome {
+      color: #e8d99a;
+    }
+
+    .eco-disc {
+      display:     block;
+      font-family: var(--font-mono);
+      font-size:   var(--size-xs);
+      color:       rgba(244,239,229,0.45);
+      letter-spacing: var(--tracking-wide);
+      text-transform: uppercase;
+      margin-bottom: var(--space-3);
+    }
+
+    .eco-desc {
+      font-family: var(--font-body);
+      font-size:   var(--size-sm);
+      color:       rgba(244,239,229,0.55);
+      line-height: var(--leading-base);
+    }
+
+    .eco-card--active .eco-desc {
+      color: rgba(244,239,229,0.75);
+    }
+
+    /* ── Footer ──────────────────────────────────────────── */
+    .sobre-footer {
+      background:  var(--color-bg-panel);
+      border-top:  1px solid var(--color-border);
+      padding:     var(--space-6);
+      text-align:  center;
+    }
+
+    .sobre-footer p {
+      font-family: var(--font-mono);
+      font-size:   var(--size-xs);
+      color:       var(--color-text-muted);
+      margin:      0;
+      letter-spacing: var(--tracking-wide);
+    }
+
+    .sobre-footer a {
+      color: var(--color-primary);
+    }
+
+    /* ── Nota / aviso inline ─────────────────────────────── */
+    .nota {
+      background:   rgba(139,94,46,0.06);
+      border-left:  3px solid var(--color-accent-lt);
+      padding:      var(--space-3) var(--space-6);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin:       var(--space-4) 0;
+      font-size:    var(--size-base);
+      color:        var(--color-text-mid);
+      font-family:  var(--font-body);
+      line-height:  var(--leading-base);
+    }
+
+    @media (max-width: 680px) {
+      .content-card { padding: var(--space-6) var(--space-4); }
+      .sobre-wrapper { padding: var(--space-4) var(--space-3) var(--space-12); }
+      .metricas { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body style="background:#f2ede3">
+
+  <header id="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Humboldt — início">
+        <span class="logo-symbol">&#9632;</span>
+        <span class="logo-name">Humboldt</span>
+      </a>
+      <nav role="navigation" aria-label="Navegação principal">
+        <ul class="nav-links" style="display:flex;list-style:none;margin:0;padding:0;gap:var(--space-2);align-items:center;">
+          <li><a href="index.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Atlas</a></li>
+          <li><a href="guia-professor.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Guia do Professor</a></li>
+          <li><a href="plano-aula.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Plano de Aula</a></li>
+          <li><a href="sobre.html" style="color:var(--color-accent-lt);text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <div class="sobre-wrapper">
+      <div class="content-card">
+
+        <div class="card-header">
+          <h1>Humboldt</h1>
+          <p class="card-subtitle">Atlas Interativo de Geografia — por que existe, como foi feito, o que significa</p>
+        </div>
+
+        <blockquote class="epigraph">
+          «Tudo está interligado, tudo se corresponde.»
+          <cite>— Alexander von Humboldt, <em>Cosmos</em>, 1845</cite>
+        </blockquote>
+
+        <!-- ── O nome ── -->
+        <section class="sobre-section">
+          <h2>Por que Humboldt</h2>
+          <p>Alexander von Humboldt (1769–1859) foi o primeiro cientista a descrever a natureza como sistema de relações — não como catálogo de objetos isolados. Ele subiu o Chimborazo, desceu o Orinoco, atravessou a Sibéria e passou décadas sintetizando o que via em padrões: como a altitude afeta a vegetação, como as correntes oceânicas moldam os climas, como a destruição de florestas modifica a chuva.</p>
+          <p>Antes de Humboldt, mapas registravam o que existe. Ele quis registrar por que existe. Esta ferramenta carrega esse nome porque compartilha a mesma ambição: não ensinar o aluno a nomear lugares, mas ensiná-lo a ver relações.</p>
+          <p>O Humboldt descreveu a América do Sul com uma precisão que os colonizadores nunca haviam alcançado — e criticou publicamente a escravidão colonial numa época em que isso custava carreiras. Seu projeto científico era inseparável de um projeto ético. A ferramenta que leva seu nome também não separa as duas coisas.</p>
+        </section>
+
+        <!-- ── O problema pedagógico ── -->
+        <section class="sobre-section">
+          <h2>O problema que esta ferramenta resolve</h2>
+          <p>A maior dor da Geografia escolar é que ela fala do mundo real mas é ensinada como lista morta de nomes, climas, capitais e definições. O resultado é o aluno que sabe que o Brasil tem cinco regiões mas não consegue explicar por que Manaus tem um polo industrial, por que o Nordeste seca enquanto a Amazônia alaga, ou por que favelas existem nos bairros mais ricos do Rio de Janeiro.</p>
+          <p>O Humboldt resolve isso transformando Geografia em algo visual, relacional, concreto e escalável por nível. Cada lição começa com um fenômeno real — algo que o aluno pode ver no noticiário ou na vida — e constrói o conceito a partir daí, não ao contrário.</p>
+          <div class="nota">O objetivo não é cobrir o currículo. É fazer o aluno entender que ele vive dentro da Geografia — não diante dela.</div>
+        </section>
+
+        <!-- ── Números ── -->
+        <section class="sobre-section">
+          <h2>O projeto em números</h2>
+          <div class="metricas">
+            <div class="metrica-card">
+              <span class="metrica-valor">22</span>
+              <span class="metrica-label">módulos</span>
+            </div>
+            <div class="metrica-card">
+              <span class="metrica-valor">102</span>
+              <span class="metrica-label">lições</span>
+            </div>
+            <div class="metrica-card">
+              <span class="metrica-valor">8</span>
+              <span class="metrica-label">fenômenos</span>
+            </div>
+            <div class="metrica-card">
+              <span class="metrica-valor">7</span>
+              <span class="metrica-label">tipos de atividade</span>
+            </div>
+            <div class="metrica-card">
+              <span class="metrica-valor">3</span>
+              <span class="metrica-label">níveis</span>
+            </div>
+            <div class="metrica-card">
+              <span class="metrica-valor">0</span>
+              <span class="metrica-label">dependências externas</span>
+            </div>
+          </div>
+
+          <div class="tipo-grid">
+            <div class="tipo-item">
+              <span class="tipo-count">72</span>
+              <div class="tipo-info">
+                <span class="tipo-nome">single-choice</span>
+                <span class="tipo-desc">Múltipla escolha com feedback contextual e dicas progressivas</span>
+              </div>
+            </div>
+            <div class="tipo-item">
+              <span class="tipo-count">9</span>
+              <div class="tipo-info">
+                <span class="tipo-nome">layer-toggle</span>
+                <span class="tipo-desc">Ligar e desligar camadas num mapa para descobrir padrões</span>
+              </div>
+            </div>
+            <div class="tipo-item">
+              <span class="tipo-count">6</span>
+              <div class="tipo-info">
+                <span class="tipo-nome">map-click</span>
+                <span class="tipo-desc">Clicar em regiões do mapa para identificar países ou áreas</span>
+              </div>
+            </div>
+            <div class="tipo-item">
+              <span class="tipo-count">6</span>
+              <div class="tipo-info">
+                <span class="tipo-nome">flow-map</span>
+                <span class="tipo-desc">Mapa de fluxos animados — migrações, comércio, refugiados</span>
+              </div>
+            </div>
+            <div class="tipo-item">
+              <span class="tipo-count">6</span>
+              <div class="tipo-info">
+                <span class="tipo-nome">before-after</span>
+                <span class="tipo-desc">Comparação temporal com slider — desmatamento, demografia, energia</span>
+              </div>
+            </div>
+            <div class="tipo-item">
+              <span class="tipo-count">3</span>
+              <div class="tipo-info">
+                <span class="tipo-nome">compass / scale</span>
+                <span class="tipo-desc">Rosa dos ventos interativa e slider de escala cartográfica</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── Estrutura pedagógica ── -->
+        <section class="sobre-section">
+          <h2>Estrutura pedagógica</h2>
+          <p>Cada lição segue a mesma sequência de seis camadas. O professor pode entrar e sair em qualquer ponto dependendo do tempo disponível e do nível da turma.</p>
+          <table class="niveis-table">
+            <thead>
+              <tr>
+                <th>Camada</th>
+                <th>Função</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Fenômeno</strong></td>
+                <td>Uma situação real e contemporânea que ancora o conceito. O aluno reconhece o mundo antes de aprender o nome.</td>
+              </tr>
+              <tr>
+                <td><strong>Guiado</strong></td>
+                <td>Conceito estruturado com pontos-chave. Síntese do que é necessário saber.</td>
+              </tr>
+              <tr>
+                <td><strong>Relações</strong></td>
+                <td>Conexões com outros fenômenos — poder, economia, cultura, ambiente. Evita que o conceito fique isolado.</td>
+              </tr>
+              <tr>
+                <td><strong>Estudo de caso</strong></td>
+                <td>Um exemplo concreto e específico. Nomeado, localizado, datado. Antídoto ao vago.</td>
+              </tr>
+              <tr>
+                <td><strong>Aplicação</strong></td>
+                <td>Pergunta aberta para pesquisa ou debate. Sem resposta no atlas — o aluno precisa ir buscar.</td>
+              </tr>
+              <tr>
+                <td><strong>Atividade</strong></td>
+                <td>Interação direta com o conteúdo — mapa, escolha, fluxo, comparação. Com feedback e dicas progressivas.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>Os três níveis cobrem do 3º ao 9º ano do Fundamental e as três séries do Médio:</p>
+
+          <table class="niveis-table">
+            <thead>
+              <tr>
+                <th>Nível</th>
+                <th>Abrangência</th>
+                <th>Módulos</th>
+                <th>Lições</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="nivel-badge efi">EFI</span></td>
+                <td>3º ao 5º ano</td>
+                <td>4</td>
+                <td class="num-licoes">18</td>
+              </tr>
+              <tr>
+                <td><span class="nivel-badge efii">EFII</span></td>
+                <td>6º ao 9º ano</td>
+                <td>12</td>
+                <td class="num-licoes">58</td>
+              </tr>
+              <tr>
+                <td><span class="nivel-badge em">EM</span></td>
+                <td>1ª a 3ª série</td>
+                <td>6</td>
+                <td class="num-licoes">26</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- ── Filosofia técnica ── -->
+        <section class="sobre-section">
+          <h2>Filosofia técnica</h2>
+          <p>O Humboldt é um arquivo HTML com CSS e JavaScript. Sem React, sem servidor, sem banco de dados, sem conta, sem anúncios. Abre no browser, funciona offline, não rastreia ninguém.</p>
+          <p>Essa escolha é pedagógica, não apenas técnica: ferramentas que dependem de login, conexão permanente e subscrição criam barreiras onde não deveria haver nenhuma. Uma escola sem internet, um professor com 3G, um aluno num celular antigo — todos devem conseguir usar.</p>
+          <p>O código é aberto. Qualquer professor pode copiar, adaptar e redistribuir. A única restrição é a que o próprio Humboldt impõe ao conteúdo que ensina: cite a fonte, reconheça de onde vieram as ideias.</p>
+        </section>
+
+        <!-- ── Modo Professor ── -->
+        <section class="sobre-section">
+          <h2>Modo Professor</h2>
+          <p>O botão "Modo Professor" no atlas revela uma camada oculta em cada lição: objetivo pedagógico, gabarito com justificativa, mediação sugerida, erros comuns a observar e tempo estimado de aula. Essa informação existe em todas as 102 lições e não está visível ao aluno por padrão.</p>
+          <p>O Modo Professor não é um tutorial de como usar o software. É material pedagógico — escrito para ser consultado antes ou durante a aula, não depois.</p>
+        </section>
+
+      </div><!-- /.content-card -->
+    </div><!-- /.sobre-wrapper -->
+
+  </main><!-- /#main-content -->
+
+  <!-- ── Ecossistema ──────────────────────────────────────────── -->
+  <section class="ecossistema-section" aria-label="Ecossistema educacional">
+    <div class="ecossistema-inner">
+      <h2>Ecossistema educacional</h2>
+      <div class="eco-grid">
+
+        <div class="eco-card eco-card--active" aria-current="page">
+          <span class="eco-nome">Humboldt</span>
+          <span class="eco-disc">Geografia</span>
+          <span class="eco-desc">Atlas interativo de leitura do espaço e das relações geográficas. 22 módulos, EFI ao EM.</span>
+        </div>
+
+        <a href="https://luddevergard3n.github.io/Herodoto/" class="eco-card" target="_blank" rel="noopener">
+          <span class="eco-nome">Heródoto</span>
+          <span class="eco-disc">História</span>
+          <span class="eco-desc">Atlas de eventos, processos e causalidade histórica. Grafo interativo de relações.</span>
+        </a>
+
+        <a href="https://luddevergard3n.github.io/euclides/" class="eco-card" target="_blank" rel="noopener">
+          <span class="eco-nome">Euclides</span>
+          <span class="eco-disc">Matemática</span>
+          <span class="eco-desc">Visualização de conceitos matemáticos com interatividade e demonstrações dinâmicas.</span>
+        </a>
+
+        <a href="https://luddevergard3n.github.io/quintiliano/" class="eco-card" target="_blank" rel="noopener">
+          <span class="eco-nome">Quintiliano</span>
+          <span class="eco-disc">Língua Portuguesa</span>
+          <span class="eco-desc">Ferramenta de escrita, retórica e análise textual para o ensino de língua.</span>
+        </a>
+
+        <a href="https://luddevergard3n.github.io/johnson-english/" class="eco-card" target="_blank" rel="noopener">
+          <span class="eco-nome">Johnson</span>
+          <span class="eco-disc">Inglês</span>
+          <span class="eco-desc">Vocabulário, gramática e leitura em inglês com abordagem contextual e progressiva.</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="sobre-footer">
+    <p>Humboldt v0.8 &mdash; MIT License &mdash; <a href="https://github.com/luddevergard3n" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+</body>
+</html>

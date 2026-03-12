@@ -4,6 +4,37 @@ Todas as alterações significativas do projeto são documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 
+## [0.8.0] — 2025-03-11
+
+### Adicionado
+
+**Conteúdo — 6 novas lições (96 → 102 total):**
+- `efi-society-4`: Festa, tradição e identidade cultural — patrimônio imaterial e diversidade cultural brasileira
+- `efi-society-5`: Direitos e deveres — cidadania, espaços públicos e desigualdade de acesso
+- `em-urban-regional-4`: Mobilidade urbana — transporte, periferização e o direito à cidade (activity: `layer-toggle`)
+- `em-urban-regional-5`: Desenvolvimento regional desigual — Norte/Nordeste vs. Sul/Sudeste, causas históricas (activity: `flow-map`)
+- `em-cartography-4`: Sensoriamento remoto — satélites, NDVI, INPE e o Cerrado em 20 anos (activity: `before-after`)
+- `em-cartography-5`: Mapa como argumento — projeção Mercator, cartografia crítica e poder colonial
+
+**Conversão de atividades — 8 lições do Ensino Médio:**
+- `economy-2`: `single-choice` → `flow-map` (fluxos do comércio internacional e divisão do trabalho)
+- `economy-3`: `single-choice` → `layer-toggle` (PIB × IDH × expectativa de vida × emissões)
+- `em-environment-2`: `single-choice` → `layer-toggle` (biomas × desmatamento × agronegócio × UCs)
+- `em-environment-4`: `single-choice` → `before-after` (matriz energética 2000 vs. projeção 2040)
+- `em-geopolitics-2`: `single-choice` → `map-click` (países da Belt and Road Initiative)
+- `em-geopolitics-4`: `single-choice` → `map-click` (conflitos ativos em 2024)
+- `em-brazil-challenges-1`: `single-choice` → `layer-toggle` (pobreza × vulnerabilidade climática × conflitos)
+- `em-brazil-challenges-3`: `single-choice` → `before-after` (indicadores raciais 2000 vs. 2022)
+
+### Alterado
+
+- `modules.json`: `efi-society` 3→5, `em-urban-regional` 3→5, `em-cartography` 3→5
+- `data/lessons/index.json`: 102 entradas (era 96)
+- `README.md`: tabelas de conteúdo atualizadas; Ensino Médio agora tem 11 atividades não-single-choice de 26
+
+---
+
+
 ## [0.7.0] — 2025-03-11
 
 ### Adicionado

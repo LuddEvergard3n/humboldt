@@ -1,0 +1,61 @@
+{
+  "id": "em-cartography-4",
+  "moduleId": "em-cartography",
+  "title": "Sensoriamento remoto: ler a Terra de cima",
+  "summary": "Satélites, drones e imagens de radar que revelam o que o olho humano não enxerga.",
+  "activityType": "before-after",
+  "phenomenon": {
+    "title": "Um satélite detectou 10.000 km² de desmatamento na Amazônia antes de qualquer fiscal chegar",
+    "text": "O sistema PRODES do INPE monitora o desmatamento da Amazônia por imagens de satélite desde 1988. Quando uma área é desmatada, o satélite registra a mudança na refletância da superfície — floresta absorve luz, solo exposto reflete. O algoritmo detecta a mudança, gera um alerta, e o fiscal sabe onde ir antes mesmo de existir uma denúncia. Sensoriamento remoto não é ficção científica — é a ferramenta que salva o que resta da Amazônia."
+  },
+  "guided": {
+    "title": "Sensoriamento remoto: fundamentos",
+    "text": "Sensoriamento remoto é a obtenção de informações sobre objetos e fenômenos sem contato físico direto — por satélites, aviões ou drones.",
+    "points": [
+      "Espectro eletromagnético: satélites captam energia em bandas além do visível — infravermelho, radar — que revelam umidade, temperatura e cobertura vegetal.",
+      "Resolução espacial: quanto menor o pixel, mais detalhe. Satélites militares: 0,3m. Google Maps: 0,5m. Landsat: 30m. Meteorológicos: 500m.",
+      "Resolução temporal: com que frequência o satélite passa pelo mesmo ponto. Sentinel-2: 5 dias. Planet: diário.",
+      "NDVI (Índice de Vegetação): medida da saúde da vegetação por imagem de satélite — útil para monitorar colheitas, secas e desmatamento.",
+      "Radar: penetra nuvens — essencial na Amazônia, com cobertura de nuvens quase permanente.",
+      "LIDAR: mapeamento 3D por laser — usado para descobrir cidades maias perdidas na selva e planejar cidades inteligentes."
+    ]
+  },
+  "relations": {
+    "title": "Quem controla os satélites controla a informação",
+    "text": "O acesso a imagens de alta resolução é desigual: agências governamentais (NASA, ESA) oferecem dados gratuitos de média resolução. Imagens de alta resolução são caras — acessíveis a grandes empresas e governos ricos, não a pequenas comunidades que precisam defender seu território. A democratização do sensoriamento remoto via plataformas abertas (Google Earth Engine, Copernicus) é uma mudança recente que começou a reverter essa assimetria."
+  },
+  "caseStudy": {
+    "title": "INPE vs. governo: quando dados contrariaram o poder",
+    "text": "Em 2019, o INPE divulgou dados mostrando aceleração do desmatamento na Amazônia. O presidente Bolsonaro atacou publicamente o instituto e demitiu seu diretor. O episódio mostrou que dados de sensoriamento remoto não são apenas técnicos — são políticos: revelam o que o poder quer esconder. A independência das agências de monitoramento ambiental é uma questão de soberania da informação."
+  },
+  "application": "Acesse o Google Earth e compare imagens de uma mesma área no tempo (recurso de linha do tempo). Escolha uma cidade brasileira e observe como ela cresceu entre 2000 e 2020.",
+  "activity": {
+    "question": "Compare imagens de satélite de uma área do Cerrado em 2000 e 2020. O que mudou? Como o sensoriamento remoto permite detectar e quantificar essas mudanças?",
+    "type": "before-after",
+    "before": {
+      "label": "Cerrado — 2000",
+      "description": "Cobertura vegetal nativa densa: savana arbórea contínua, veredas (linhas de buritis), manchas de mata de galeria ao longo dos córregos. Área: ~90% vegetação nativa."
+    },
+    "after": {
+      "label": "Cerrado — 2020",
+      "description": "Expansão massiva do agronegócio: geometria regular de talhões de soja e milho. Veredas fragmentadas. Mata de galeria reduzida a faixas estreitas. Área: ~40% vegetação nativa."
+    },
+    "feedback": {
+      "correct": "O Cerrado perdeu 50% de cobertura nativa em 20 anos. O sensoriamento remoto quantifica isso com precisão: área, velocidade, localização. Sem satélites, seria impossível monitorar 2 milhões de km² continuamente.",
+      "incorrect": "Compare a cor, textura e geometria das duas imagens. A geometria regular de talhões indica o quê? A redução das áreas escuras (vegetação) é mensurável."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Vegetação aparece escura no infravermelho (NDVI alto). Solo exposto e plantações aparecem claros. Geometria regular = ação humana. Formas orgânicas = natureza."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende os fundamentos do sensoriamento remoto, identifica suas aplicações em monitoramento ambiental e analisa criticamente o acesso desigual a essa tecnologia.",
+    "observe": "Mostre exemplos práticos: Google Earth Engine público permite análises que antes exigiam laboratórios especializados.",
+    "answer": "O Cerrado perdeu ~50% da cobertura nativa entre 2000 e 2020; o sensoriamento remoto quantifica área, velocidade e localização das mudanças.",
+    "mediation": "Pergunte: \"Se um fazendeiro desmata ilegalmente na Amazônia, como o governo sabe? Sem satélites, seria possível controlar 5 milhões de km² de floresta?\"",
+    "time": "50 minutos"
+  }
+}

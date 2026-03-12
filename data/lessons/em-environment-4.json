@@ -3,7 +3,7 @@
   "moduleId": "em-environment",
   "title": "Transição energética: do petróleo às renováveis",
   "summary": "A mudança na matriz energética global e suas implicações geopolíticas.",
-  "activityType": "single-choice",
+  "activityType": "before-after",
   "phenomenon": {
     "title": "Em 2023, pela primeira vez, mais da metade da nova capacidade elétrica instalada no mundo foi renovável.",
     "text": "Solar, eólica e hidrelétrica responderam por 50% da nova capacidade instalada globalmente em 2023 — a maior participação da história. O custo da energia solar caiu 90% entre 2010 e 2023. A transição energética está acontecendo mais rápido que qualquer previsão. Mas não rápido o suficiente para os acordos climáticos."
@@ -29,36 +29,24 @@
   },
   "application": "Pesquise: qual é a matriz energética do Brasil (divisão entre fontes na geração de eletricidade e em energia total)? Como isso nos coloca vantajosamente ou não na transição energética?",
   "activity": {
-    "question": "Por que a transição para energia renovável cria uma 'nova geopolítica mineral'?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "minerais-criticos",
-    "options": [
-      {
-        "value": "minerais-criticos",
-        "label": "Porque tecnologias renováveis exigem minerais específicos (lítio, cobalto, cobre) que estão concentrados em poucos países"
-      },
-      {
-        "value": "sol-vento",
-        "label": "Porque sol e vento são recursos geográficos que só existem em alguns países"
-      },
-      {
-        "value": "tecnologia",
-        "label": "Porque os países que inventaram as tecnologias renováveis controlam o mercado"
-      },
-      {
-        "value": "petroleo",
-        "label": "Porque países do petróleo bloqueiam a transição energética para proteger seus interesses"
-      }
-    ],
+    "question": "Compare a matriz energética mundial em 2000 e a projeção para 2040. O que está mudando? O que está resistindo à mudança?",
+    "type": "before-after",
+    "before": {
+      "label": "Matriz energética mundial — 2000",
+      "description": "Petróleo: 36% · Carvão: 25% · Gás natural: 21% · Nuclear: 7% · Hidrelétrica: 6% · Renováveis (solar+eólica): <1%. Combustíveis fósseis dominam com 82% do total."
+    },
+    "after": {
+      "label": "Projeção — 2040 (cenário IEA)",
+      "description": "Petróleo: 24% · Carvão: 15% · Gás natural: 22% · Nuclear: 9% · Hidrelétrica: 8% · Eólica: 12% · Solar: 8% · Outras renováveis: 2%. Fósseis: 61%; renováveis modernas: 22%."
+    },
     "feedback": {
-      "correct": "Correto! Assim como o petróleo criou a geopolítica do Oriente Médio, os minerais críticos para baterias (lítio, cobalto, níquel) estão criando novas dependências e disputas geopolíticas — especialmente no Congo e na América do Sul.",
-      "incorrect": "Sol e vento são relativamente bem distribuídos. O gargalo geopolítico está nos minerais que as baterias e painéis exigem — e que estão concentrados em poucos lugares."
+      "correct": "Mesmo no cenário otimista, os combustíveis fósseis ainda representam 61% da matriz em 2040. A transição energética está acontecendo, mas não na velocidade necessária para limitar o aquecimento a 1,5°C. O gás natural mantém participação — considerado \"combustível de transição\".",
+      "incorrect": "Compare os percentuais de fósseis nos dois momentos. Quais energias crescem? Quais resistem? A velocidade da mudança é compatível com as metas climáticas do Acordo de Paris?"
     },
     "hints": [
       {
         "type": "text",
-        "content": "Um carro elétrico usa 60 kg de lítio. Um painel solar usa cobre. Esses minerais existem em todo lugar? Quem os controla?"
+        "content": "Para 1,5°C, o IPCC exige emissões zero até 2050. Se em 2040 ainda temos 61% de fósseis, o ritmo atual é suficiente para essa meta?"
       }
     ]
   },

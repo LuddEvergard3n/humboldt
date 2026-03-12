@@ -1,0 +1,75 @@
+{
+  "id": "em-urban-regional-4",
+  "moduleId": "em-urban-regional",
+  "title": "Mobilidade urbana: quem pode se mover na cidade",
+  "summary": "Transporte público, desigualdade de acesso e o direito à cidade.",
+  "activityType": "layer-toggle",
+  "phenomenon": {
+    "title": "Moradores da periferia de São Paulo passam em média 2h40 por dia no trânsito — moradores do centro, 45 minutos",
+    "text": "A mobilidade urbana é um dos maiores marcadores de desigualdade nas cidades brasileiras. O trabalhador que mora em Guarulhos e trabalha em Santo André atravessa a cidade inteira duas vezes por dia. Esse tempo — 2h40 por dia, quase 700 horas por ano — é tempo que não sobra para família, lazer, estudo, saúde. O acesso ao transporte de qualidade não é só comodidade: é a diferença entre ter ou não ter oportunidades reais."
+  },
+  "guided": {
+    "title": "Mobilidade urbana: conceitos e desafios",
+    "text": "Mobilidade urbana é a capacidade de pessoas e mercadorias se deslocarem na cidade — com velocidade, conforto e custo acessível.",
+    "points": [
+      "Transporte de massa: metrô, BRT, trem — alta capacidade, baixa emissão por passageiro, custo menor por km.",
+      "Transporte individual: carro particular — baixa capacidade, alta emissão, congestionamento crescente.",
+      "Periferização e mobilidade: quem mora longe do emprego depende mais de transporte coletivo precário.",
+      "Tarifa zero: debate sobre gratuidade do transporte público como política de direito à cidade.",
+      "Ciclovias e pedestres: cidades europeias e asiáticas investem em mobilidade ativa (a pé e de bicicleta).",
+      "Brasil: apenas 5 cidades têm metrô; 85% das cidades dependem exclusivamente de ônibus."
+    ]
+  },
+  "relations": {
+    "title": "O carro como projeto político",
+    "text": "O Brasil escolheu o carro como modal principal desde os anos 1950 — investindo em rodovias, importando montadoras e desinvestindo em ferrovias. Essa escolha não foi neutra: beneficiou quem podia ter carro (classe média e alta) e empurrou o transporte coletivo para segundo plano. Desfazer essa escolha é disputado: a indústria automobilística emprega milhões; as montadoras são lobbies poderosos; mas o custo social e ambiental do carro é crescente."
+  },
+  "caseStudy": {
+    "title": "Curitiba e o BRT: quando o ônibus vira metrô de superfície",
+    "text": "Nos anos 1970, Curitiba não tinha dinheiro para metrô. Jaime Lerner criou o BRT (Bus Rapid Transit): ônibus articulados com faixas exclusivas e estações tubulares. O sistema transporta 2 milhões de pessoas por dia com velocidade comparável ao metrô e custo 10 vezes menor de implementação. Virou referência mundial — copiado em Bogotá, Istambul, Lagos. Uma solução de país em desenvolvimento que virou modelo global."
+  },
+  "application": "Pesquise: quanto tempo você gasta por dia em deslocamento? Compare com a média da sua cidade. O que mudaria na sua vida se esse tempo fosse cortado pela metade?",
+  "activity": {
+    "question": "Use as camadas para analisar a cidade: como se relacionam linhas de metrô/BRT, densidade populacional e renda dos bairros?",
+    "type": "layer-toggle",
+    "layers": [
+      {
+        "id": "transporte",
+        "label": "Linhas de transporte de massa",
+        "visible": true
+      },
+      {
+        "id": "densidade",
+        "label": "Densidade populacional",
+        "visible": false
+      },
+      {
+        "id": "renda",
+        "label": "Renda média por bairro",
+        "visible": false
+      },
+      {
+        "id": "tempo",
+        "label": "Tempo médio de deslocamento",
+        "visible": false
+      }
+    ],
+    "feedback": {
+      "correct": "As linhas de transporte de massa tendem a servir melhor bairros de maior renda — paradoxo: quem mais precisa (periferia densa e pobre) é quem tem acesso mais precário. O tempo de deslocamento é inversamente proporcional à renda.",
+      "incorrect": "Sobreponha renda e transporte. Os bairros mais ricos têm mais ou menos acesso ao metrô e BRT? E a periferia densa?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Compare: onde chegou primeiro o metrô em São Paulo? Bairros nobres do centro ou periferia operária? A infraestrutura segue o poder político."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa mobilidade urbana como questão de direito à cidade, identificando a relação entre transporte, renda e oportunidades de vida.",
+    "observe": "Explore o conceito de \"direito à cidade\" (Henri Lefebvre): não apenas morar na cidade, mas acessar todos os seus serviços e espaços.",
+    "answer": "Transporte de massa tende a servir melhor bairros de maior renda; periferia densa e pobre tem acesso mais precário — inverso da necessidade.",
+    "mediation": "Pergunte: \"Se o metrô chegasse na sua periferia, o que mudaria para os moradores de lá? Isso é só comodidade ou é direito?\"",
+    "time": "50 minutos"
+  }
+}

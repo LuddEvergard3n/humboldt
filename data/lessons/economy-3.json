@@ -3,7 +3,7 @@
   "moduleId": "economy",
   "title": "Desigualdade econômica global: Norte, Sul e as exceções",
   "summary": "A distribuição da riqueza entre países e os mecanismos que perpetuam a desigualdade.",
-  "activityType": "single-choice",
+  "activityType": "layer-toggle",
   "phenomenon": {
     "title": "Os 8 homens mais ricos do mundo têm a mesma riqueza que os 3,8 bilhões mais pobres.",
     "text": "Em 2017, a Oxfam calculou que 8 indivíduos detinham riqueza equivalente à metade mais pobre da humanidade. O fenômeno não é só individual — é estrutural: países ricos ficaram mais ricos nas últimas décadas enquanto a distância entre eles e os países pobres cresceu em termos absolutos. Entender essa desigualdade exige entender sua geografia."
@@ -29,36 +29,38 @@
   },
   "application": "Compare o IDH do Brasil, Coreia do Sul, Ghana e Noruega. Como esses números refletem as posições no sistema-mundo? O que a Coreia fez de diferente?",
   "activity": {
-    "question": "O que propõe a teoria do sistema-mundo de Wallerstein?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "estrutural",
-    "options": [
+    "question": "Use as camadas para explorar: como se relacionam PIB per capita, IDH, expectativa de vida e emissões de CO₂ por habitante?",
+    "type": "layer-toggle",
+    "layers": [
       {
-        "value": "estrutural",
-        "label": "Que a desigualdade entre países é estrutural — resultado das relações centro-periferia, não de atraso"
+        "id": "pib-percapita",
+        "label": "PIB per capita",
+        "visible": true
       },
       {
-        "value": "geografica",
-        "label": "Que países pobres são pobres por causa do clima e da geografia física"
+        "id": "idh",
+        "label": "IDH",
+        "visible": false
       },
       {
-        "value": "cultural",
-        "label": "Que diferenças culturais explicam o desenvolvimento econômico"
+        "id": "expectativa-vida",
+        "label": "Expectativa de vida",
+        "visible": false
       },
       {
-        "value": "natural",
-        "label": "Que a desigualdade é natural e inevitável no capitalismo"
+        "id": "emissoes",
+        "label": "Emissões de CO₂ por hab.",
+        "visible": false
       }
     ],
     "feedback": {
-      "correct": "Correto! Para Wallerstein, a periferia não está 'atrasada' — está estruturalmente subordinada. O subdesenvolvimento é produto do desenvolvimento dos países centrais, não uma fase anterior a ele.",
-      "incorrect": "Wallerstein critica explicações naturais ou culturais. Para ele, a causa é estrutural — as relações de poder na economia global."
+      "correct": "PIB, IDH e expectativa de vida se correlacionam fortemente — países ricos vivem mais e têm mais qualidade de vida. Mas emissões de CO₂ também sobem com a renda: países ricos poluem mais. O paradoxo do desenvolvimento: mais riqueza = mais bem-estar e mais destruição ambiental.",
+      "incorrect": "Sobreponha PIB e expectativa de vida. Depois sobreponha PIB e CO₂. Há correlação positiva nas duas? O que isso implica?"
     },
     "hints": [
       {
         "type": "text",
-        "content": "Wallerstein pergunta: a riqueza do Norte e a pobreza do Sul são separadas ou conectadas? O que o colonialismo tem a ver?"
+        "content": "EUA: PIB alto, IDH alto, CO₂ alto. Bangladesh: PIB baixo, IDH baixo, CO₂ baixo. O que acontece quando Bangladesh \"desenvolve\" como os EUA?"
       }
     ]
   },

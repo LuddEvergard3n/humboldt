@@ -3,7 +3,7 @@
   "moduleId": "economy",
   "title": "Comércio internacional e divisão do trabalho",
   "summary": "Por que os países se especializam e como o comércio global é organizado.",
-  "activityType": "single-choice",
+  "activityType": "flow-map",
   "phenomenon": {
     "title": "O Brasil exporta soja bruta e importa óleo de soja processado da Argentina.",
     "text": "O Brasil colhe soja, embarca em navios e vende para a China. A China processa, fabrica óleo, proteína e margarina — e vende para o mundo com maior valor agregado. Enquanto isso, o Brasil importa da Argentina o mesmo óleo que poderia ter processado aqui. Esse padrão não é acidente — é o resultado de um século de divisão internacional do trabalho."
@@ -29,36 +29,48 @@
   },
   "application": "Pesquise: quais são os 5 principais produtos exportados pelo Brasil? Qual é o grau de processamento de cada um? Compare com a pauta de exportações da Coreia do Sul.",
   "activity": {
-    "question": "O que é 'valor agregado' e por que ele importa para o comércio internacional?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "transformacao",
-    "options": [
+    "question": "Observe os fluxos do comércio internacional. Quais países exportam commodities? Quais exportam manufaturados? O que isso diz sobre a divisão do trabalho?",
+    "type": "flow-map",
+    "flows": [
       {
-        "value": "transformacao",
-        "label": "É o valor adicionado ao produto pelo processamento — transformar soja em óleo gera mais riqueza que exportar soja bruta"
+        "from": "Brasil",
+        "to": "China",
+        "value": 80,
+        "label": "Soja, minério (US$80bi)"
       },
       {
-        "value": "preco",
-        "label": "É o preço final do produto no mercado internacional"
+        "from": "China",
+        "to": "Brasil",
+        "value": 55,
+        "label": "Manufaturados (US$55bi)"
       },
       {
-        "value": "qualidade",
-        "label": "É a qualidade do produto medida por padrões internacionais"
+        "from": "Golfo Pérsico",
+        "to": "Europa/Ásia",
+        "value": 200,
+        "label": "Petróleo (US$200bi)"
       },
       {
-        "value": "imposto",
-        "label": "É o imposto cobrado sobre o produto exportado"
+        "from": "EUA",
+        "to": "Global",
+        "value": 180,
+        "label": "Serviços/tecnologia (US$180bi)"
+      },
+      {
+        "from": "Alemanha",
+        "to": "Europa",
+        "value": 160,
+        "label": "Automóveis/máquinas (US$160bi)"
       }
     ],
     "feedback": {
-      "correct": "Correto! Valor agregado é o quanto de transformação (e portanto de riqueza gerada) existe em um produto. Um chip de silício tem muito mais valor agregado que a areia que o originou.",
-      "incorrect": "Pense: um quilo de soja bruta vs. um quilo de óleo de soja processado. Qual tem mais trabalho embutido? Qual gera mais renda para quem produziu?"
+      "correct": "Países do Sul Global (Brasil, Golfo, África) exportam matérias-primas e commodities — baixo valor agregado. Países do Norte (EUA, Alemanha, Japão) exportam manufaturados e serviços — alto valor agregado. A divisão internacional do trabalho persiste mesmo com globalização.",
+      "incorrect": "Compare o que cada país exporta. Commodities (soja, minério, petróleo) têm mais ou menos valor agregado que manufaturados (carros, máquinas) ou serviços (software, finanças)?"
     },
     "hints": [
       {
         "type": "text",
-        "content": "Soja bruta: apenas colhida. Óleo de soja: colhida, transportada, processada, embalada. Qual etapa adiciona mais valor?"
+        "content": "O Brasil exporta 1 tonelada de soja por ~US$400. A China exporta 1 smartphone por US$200 — pesando 0,2 kg. Qual produto tem mais valor por peso?"
       }
     ]
   },

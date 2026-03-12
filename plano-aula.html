@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="color-scheme" content="light" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gerador de Plano de Aula — Humboldt" />
+  <meta name="theme-color" content="#1e3a5f" />
+  <title>Plano de Aula — Humboldt</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+
+  <style>
+    /* ── Layout dois painéis ─────────────────────────────── */
+    .plano-wrapper {
+      max-width: 1260px;
+      margin:    0 auto;
+      padding:   var(--space-6);
+      display:   grid;
+      grid-template-columns: 480px 1fr;
+      gap:       var(--space-6);
+      align-items: flex-start;
+    }
+
+    /* ── Painel do formulário ────────────────────────────── */
+    .form-panel {
+      background:    rgba(250,247,242,0.97);
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius);
+      box-shadow:    var(--shadow);
+      position:      sticky;
+      top:           calc(56px + var(--space-4));
+      max-height:    calc(100vh - 80px);
+      overflow-y:    auto;
+    }
+
+    .form-panel::-webkit-scrollbar { width: 6px; }
+    .form-panel::-webkit-scrollbar-track { background: transparent; }
+    .form-panel::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+
+    .fp-header {
+      padding:       var(--space-4) var(--space-6);
+      border-bottom: 1px solid var(--color-border);
+      position:      sticky;
+      top:           0;
+      background:    rgba(250,247,242,0.98);
+      z-index:       2;
+    }
+
+    .fp-header h2 {
+      font-family:  var(--font-display);
+      font-size:    var(--size-md);
+      font-weight:  700;
+      color:        var(--color-primary);
+      margin:       0 0 var(--space-1);
+    }
+
+    .fp-header p {
+      font-family:  var(--font-mono);
+      font-size:    var(--size-xs);
+      color:        var(--color-text-muted);
+      margin:       0;
+      letter-spacing: var(--tracking-wide);
+    }
+
+    .fp-body {
+      padding: var(--space-4) var(--space-6) var(--space-6);
+    }
+
+    /* ── Grupos de campo ─────────────────────────────────── */
+    .fg {
+      margin-bottom: var(--space-4);
+    }
+
+    .fg label {
+      display:      flex;
+      align-items:  flex-end;
+      min-height:   2em;
+      padding-bottom: 0.15rem;
+      font-family:  var(--font-mono);
+      font-size:    var(--size-xs);
+      color:        var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: var(--tracking-wide);
+      margin-bottom: var(--space-1);
+    }
+
+    .fg input, .fg select, .fg textarea {
+      width:         100%;
+      padding:       var(--space-2) var(--space-3);
+      font-family:   var(--font-body);
+      font-size:     var(--size-sm);
+      color:         var(--color-text);
+      background:    var(--color-surface);
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      outline:       none;
+      transition:    border-color 0.15s;
+      box-sizing:    border-box;
+    }
+
+    .fg input:focus, .fg select:focus, .fg textarea:focus {
+      border-color: var(--color-primary);
+    }
+
+    .fg input[readonly] {
+      background: var(--color-bg-panel);
+      color:      var(--color-text-muted);
+      cursor:     default;
+    }
+
+    .fg textarea {
+      resize:      vertical;
+      min-height:  60px;
+      line-height: var(--leading-base);
+    }
+
+    /* ── Grid de campos ──────────────────────────────────── */
+    .fr2 {
+      display:               grid;
+      grid-template-columns: 1fr 1fr;
+      gap:                   var(--space-3);
+    }
+
+    .fr3 {
+      display:               grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap:                   var(--space-3);
+    }
+
+    /* ── Separadores de seção ────────────────────────────── */
+    .fsec {
+      font-family:    var(--font-mono);
+      font-size:      0.68rem;
+      text-transform: uppercase;
+      letter-spacing: var(--tracking-wider);
+      color:          var(--color-text-muted);
+      border-top:     1px solid var(--color-border);
+      padding-top:    var(--space-4);
+      margin-top:     var(--space-6);
+      margin-bottom:  var(--space-3);
+    }
+
+    /* ── Checkboxes de preset ────────────────────────────── */
+    .preset-box {
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      max-height:    180px;
+      overflow-y:    auto;
+      background:    var(--color-surface);
+      padding:       var(--space-2);
+      margin-bottom: var(--space-2);
+    }
+
+    .preset-box::-webkit-scrollbar { width: 5px; }
+    .preset-box::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+
+    .pi {
+      display:     flex;
+      align-items: flex-start;
+      gap:         var(--space-2);
+      padding:     var(--space-1) var(--space-2);
+      border-radius: var(--radius-sm);
+      transition:  background 0.1s;
+    }
+
+    .pi:hover { background: var(--color-bg-panel); }
+
+    .pi input[type=checkbox] {
+      width:      auto;
+      margin-top: 2px;
+      flex-shrink: 0;
+      accent-color: var(--color-primary);
+    }
+
+    .pi label {
+      min-height:    unset;
+      padding-bottom: 0;
+      font-family:   var(--font-body);
+      font-size:     var(--size-sm);
+      color:         var(--color-text);
+      text-transform: none;
+      letter-spacing: normal;
+      line-height:   var(--leading-base);
+      cursor:        pointer;
+    }
+
+    .pid {
+      font-family:   var(--font-mono);
+      font-size:     0.68rem;
+      color:         var(--color-primary);
+      background:    rgba(30,58,95,0.08);
+      padding:       1px 4px;
+      border-radius: 2px;
+      margin-right:  var(--space-2);
+      white-space:   nowrap;
+    }
+
+    .pe2 {
+      font-family: var(--font-mono);
+      font-size:   var(--size-xs);
+      color:       var(--color-text-muted);
+      padding:     var(--space-2) var(--space-3);
+      font-style:  italic;
+    }
+
+    /* ── Barra de ações ──────────────────────────────────── */
+    .fp-actions {
+      display:     flex;
+      gap:         var(--space-3);
+      padding:     var(--space-4) var(--space-6);
+      border-top:  1px solid var(--color-border);
+      background:  rgba(250,247,242,0.98);
+      position:    sticky;
+      bottom:      0;
+    }
+
+    .btn-gerar {
+      flex:          1;
+      padding:       var(--space-3) var(--space-6);
+      font-family:   var(--font-body);
+      font-size:     var(--size-base);
+      font-weight:   600;
+      background:    var(--color-primary);
+      color:         var(--color-text-inv);
+      border:        none;
+      border-radius: var(--radius-sm);
+      cursor:        pointer;
+      transition:    background 0.15s;
+    }
+
+    .btn-gerar:hover { background: var(--color-primary-mid); }
+
+    .btn-imprimir {
+      padding:       var(--space-3) var(--space-4);
+      font-family:   var(--font-body);
+      font-size:     var(--size-sm);
+      background:    transparent;
+      color:         var(--color-primary);
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      cursor:        pointer;
+      transition:    border-color 0.15s, background 0.15s;
+    }
+
+    .btn-imprimir:hover {
+      border-color: var(--color-primary);
+      background:   rgba(30,58,95,0.05);
+    }
+
+    /* ── Painel de preview ───────────────────────────────── */
+    .preview-panel {
+      min-height: 400px;
+    }
+
+    .preview-vazio {
+      display:       flex;
+      flex-direction: column;
+      align-items:   center;
+      justify-content: center;
+      min-height:    400px;
+      background:    rgba(250,247,242,0.6);
+      border:        1px dashed var(--color-border);
+      border-radius: var(--radius);
+      gap:           var(--space-3);
+    }
+
+    .preview-vazio-icon {
+      font-size:    2rem;
+      opacity:      0.3;
+    }
+
+    .preview-vazio p {
+      font-family: var(--font-mono);
+      font-size:   var(--size-xs);
+      color:       var(--color-text-muted);
+      margin:      0;
+      text-align:  center;
+      letter-spacing: var(--tracking-wide);
+    }
+
+    /* ── Documento gerado ────────────────────────────────── */
+    #doc {
+      background:    white;
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius);
+      padding:       var(--space-8) var(--space-12);
+      box-shadow:    var(--shadow);
+      font-family:   var(--font-body);
+      font-size:     var(--size-base);
+      line-height:   var(--leading-loose);
+      color:         var(--color-text);
+    }
+
+    .doc-header {
+      border-bottom: 2px solid var(--color-primary);
+      padding-bottom: var(--space-4);
+      margin-bottom:  var(--space-6);
+    }
+
+    .doc-inst {
+      font-family:    var(--font-mono);
+      font-size:      var(--size-xs);
+      color:          var(--color-text-muted);
+      text-transform: uppercase;
+      letter-spacing: var(--tracking-wide);
+      margin-bottom:  var(--space-1);
+    }
+
+    .doc-titulo {
+      font-family: var(--font-display);
+      font-size:   var(--size-2xl);
+      font-weight: 700;
+      color:       var(--color-primary);
+      margin:      0 0 var(--space-2);
+      line-height: var(--leading-tight);
+    }
+
+    .doc-meta {
+      display:   flex;
+      flex-wrap: wrap;
+      gap:       var(--space-3) var(--space-6);
+      font-family: var(--font-mono);
+      font-size:   var(--size-xs);
+      color:       var(--color-text-muted);
+    }
+
+    .doc-meta span strong {
+      color: var(--color-text);
+    }
+
+    .ds {
+      margin-bottom: var(--space-6);
+    }
+
+    .dst {
+      display:       block;
+      font-family:   var(--font-mono);
+      font-size:     var(--size-xs);
+      text-transform: uppercase;
+      letter-spacing: var(--tracking-wide);
+      color:         white;
+      background:    var(--color-primary);
+      padding:       3px 8px;
+      border-radius: var(--radius-sm);
+      margin-bottom: var(--space-3);
+    }
+
+    .ds p { margin: 0 0 var(--space-2); }
+    .ds p:last-child { margin-bottom: 0; }
+
+    .ds ul {
+      margin:      0;
+      padding-left: var(--space-6);
+    }
+
+    .ds ul li {
+      margin-bottom: var(--space-2);
+      line-height:   var(--leading-base);
+    }
+
+    .bncc-item {
+      display:     flex;
+      gap:         var(--space-3);
+      margin-bottom: var(--space-3);
+      align-items: flex-start;
+    }
+
+    .bncc-id {
+      font-family:   var(--font-mono);
+      font-size:     0.7rem;
+      background:    rgba(30,58,95,0.08);
+      color:         var(--color-primary);
+      padding:       2px 6px;
+      border-radius: var(--radius-sm);
+      white-space:   nowrap;
+      margin-top:    2px;
+    }
+
+    .bncc-text {
+      font-size:   var(--size-sm);
+      line-height: var(--leading-base);
+      color:       var(--color-text);
+    }
+
+    /* ── Responsivo ──────────────────────────────────────── */
+    @media (max-width: 980px) {
+      .plano-wrapper {
+        grid-template-columns: 1fr;
+        padding: var(--space-3);
+      }
+      .form-panel { position: static; max-height: none; }
+    }
+
+    /* ── Impressão ───────────────────────────────────────── */
+    @media print {
+      body { background: white !important; }
+      body::before { display: none !important; }
+      #site-header, .form-panel, .preview-vazio { display: none !important; }
+      .plano-wrapper { display: block !important; padding: 0 !important; }
+      .preview-panel { display: block !important; }
+      #doc {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 1.5cm 2cm !important;
+        font-size: 10pt !important;
+      }
+      * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+    }
+  </style>
+</head>
+<body style="background:#f2ede3">
+
+  <header id="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Humboldt — início">
+        <span class="logo-symbol">&#9632;</span>
+        <span class="logo-name">Humboldt</span>
+      </a>
+      <nav role="navigation" aria-label="Navegação principal">
+        <ul class="nav-links" style="display:flex;list-style:none;margin:0;padding:0;gap:var(--space-2);align-items:center;">
+          <li><a href="index.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Atlas</a></li>
+          <li><a href="guia-professor.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Guia do Professor</a></li>
+          <li><a href="plano-aula.html" style="color:var(--color-accent-lt);text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Plano de Aula</a></li>
+          <li><a href="sobre.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="plano-wrapper">
+
+      <!-- ── Formulário ─────────────────────────────────── -->
+      <div class="form-panel" role="form" aria-label="Formulário do plano de aula">
+
+        <div class="fp-header">
+          <h2>Gerador de Plano de Aula</h2>
+          <p>Geografia · BNCC · Imprimível sem conta</p>
+        </div>
+
+        <div class="fp-body">
+
+          <!-- Identificação -->
+          <div class="fsec">Identificação</div>
+
+          <div class="fr3">
+            <div class="fg">
+              <label for="f-inst">Instituição</label>
+              <input type="text" id="f-inst" placeholder="Nome da escola" />
+            </div>
+            <div class="fg">
+              <label for="f-prof">Professor(a)</label>
+              <input type="text" id="f-prof" placeholder="Nome" />
+            </div>
+            <div class="fg">
+              <label for="f-data">Data</label>
+              <input type="date" id="f-data" />
+            </div>
+          </div>
+
+          <div class="fr3">
+            <div class="fg">
+              <label for="f-ano">Ano / Série</label>
+              <select id="f-ano" onchange="onAno()">
+                <option value="">Selecione...</option>
+                <optgroup label="Ensino Fundamental I">
+                  <option value="3">3º ano</option>
+                  <option value="4">4º ano</option>
+                  <option value="5">5º ano</option>
+                </optgroup>
+                <optgroup label="Ensino Fundamental II">
+                  <option value="6">6º ano</option>
+                  <option value="7">7º ano</option>
+                  <option value="8">8º ano</option>
+                  <option value="9">9º ano</option>
+                </optgroup>
+                <optgroup label="Ensino Médio">
+                  <option value="EM1">1ª série EM</option>
+                  <option value="EM2">2ª série EM</option>
+                  <option value="EM3">3ª série EM</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="fg">
+              <label for="f-naulas">Nº de aulas</label>
+              <input type="number" id="f-naulas" min="1" max="8" value="1" onchange="calcCarga()" />
+            </div>
+            <div class="fg">
+              <label for="f-dur">Duração / aula</label>
+              <select id="f-dur" onchange="calcCarga()">
+                <option value="50">50 min</option>
+                <option value="45">45 min</option>
+                <option value="55">55 min</option>
+                <option value="60">60 min</option>
+                <option value="90">1h30</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="fr2">
+            <div class="fg">
+              <label for="f-carga">Carga horária total</label>
+              <input type="text" id="f-carga" readonly placeholder="Calculado automaticamente" />
+            </div>
+            <div class="fg">
+              <label for="f-modulo">Módulo Humboldt</label>
+              <select id="f-modulo">
+                <option value="">Selecione...</option>
+                <optgroup label="EFI">
+                  <option value="Espaço Vivido e Orientação">Espaço Vivido e Orientação</option>
+                  <option value="Paisagem e Ambiente">Paisagem e Ambiente</option>
+                  <option value="Sociedade e Trabalho">Sociedade e Trabalho</option>
+                  <option value="Brasil: Meu País">Brasil: Meu País</option>
+                </optgroup>
+                <optgroup label="EFII">
+                  <option value="Conceitos Geográficos Fundamentais">Conceitos Geográficos Fundamentais</option>
+                  <option value="Cartografia Viva">Cartografia Viva</option>
+                  <option value="Geografia Física">Geografia Física</option>
+                  <option value="Brasil Espacial">Brasil Espacial</option>
+                  <option value="As Américas">As Américas</option>
+                  <option value="África">África</option>
+                  <option value="Europa, Ásia e Oceania">Europa, Ásia e Oceania</option>
+                  <option value="Geopolítica e Mundo">Geopolítica e Mundo</option>
+                  <option value="População e Migrações">População e Migrações</option>
+                  <option value="Paisagem e Transformação">Paisagem e Transformação</option>
+                  <option value="Urbanização">Urbanização</option>
+                  <option value="Globalização">Globalização</option>
+                </optgroup>
+                <optgroup label="EM">
+                  <option value="Geografia Econômica">Geografia Econômica</option>
+                  <option value="Meio Ambiente e Crise Climática">Meio Ambiente e Crise Climática</option>
+                  <option value="Geopolítica Avançada">Geopolítica Avançada</option>
+                  <option value="Geografia Urbana e Regional">Geografia Urbana e Regional</option>
+                  <option value="Cartografia Avançada e SIG">Cartografia Avançada e SIG</option>
+                  <option value="Brasil no Século XXI">Brasil no Século XXI</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+
+          <div class="fg">
+            <label for="f-tema">Tema da aula</label>
+            <input type="text" id="f-tema" placeholder="Ex.: Por que as fronteiras africanas foram desenhadas por europeus?" />
+          </div>
+
+          <!-- Objetos do conhecimento BNCC -->
+          <div class="fsec">Objetos de Conhecimento (BNCC)</div>
+          <div id="box-obj" class="preset-box">
+            <div class="pe2">Selecione o ano/série para ver os objetos de conhecimento.</div>
+          </div>
+          <div class="fg">
+            <label for="xa-obj">Adicionar livremente</label>
+            <textarea id="xa-obj" placeholder="Outros objetos de conhecimento não listados..."></textarea>
+          </div>
+
+          <!-- Habilidades BNCC -->
+          <div class="fsec">Habilidades BNCC</div>
+          <div id="box-bncc" class="preset-box">
+            <div class="pe2">Selecione o ano/série para ver as habilidades disponíveis.</div>
+          </div>
+          <div class="fg">
+            <label for="xa-bncc">Adicionar livremente</label>
+            <textarea id="xa-bncc" placeholder="Código e texto de habilidade adicional..."></textarea>
+          </div>
+
+          <!-- Objetivos -->
+          <div class="fsec">Objetivos de Aprendizagem</div>
+          <div id="box-obt" class="preset-box"></div>
+          <div class="fg">
+            <label for="xa-obt">Adicionar livremente</label>
+            <textarea id="xa-obt" placeholder="Outros objetivos específicos desta aula..."></textarea>
+          </div>
+
+          <!-- Metodologia -->
+          <div class="fsec">Procedimentos Metodológicos</div>
+          <div id="box-met" class="preset-box"></div>
+          <div class="fg">
+            <label for="xa-met">Adicionar livremente</label>
+            <textarea id="xa-met" placeholder="Outros procedimentos para esta aula..."></textarea>
+          </div>
+
+          <!-- Recursos -->
+          <div class="fsec">Recursos Didáticos</div>
+          <div id="box-rec" class="preset-box"></div>
+          <div class="fg">
+            <label for="xa-rec">Adicionar livremente</label>
+            <textarea id="xa-rec" placeholder="Outros recursos necessários..."></textarea>
+          </div>
+
+          <!-- Avaliação -->
+          <div class="fsec">Avaliação</div>
+          <div id="box-ava" class="preset-box"></div>
+          <div class="fg">
+            <label for="xa-ava">Adicionar livremente</label>
+            <textarea id="xa-ava" placeholder="Outros instrumentos de avaliação..."></textarea>
+          </div>
+
+          <!-- Observações -->
+          <div class="fsec">Observações e Adaptações</div>
+          <div class="fg">
+            <textarea id="f-obs" rows="3" placeholder="Adaptações para necessidades específicas, observações sobre a turma, etc."></textarea>
+          </div>
+
+        </div><!-- /.fp-body -->
+
+        <div class="fp-actions">
+          <button class="btn-gerar" onclick="gerar()">Gerar Plano de Aula</button>
+          <button class="btn-imprimir" onclick="window.print()" title="Imprimir ou salvar como PDF">&#128438; PDF</button>
+        </div>
+
+      </div><!-- /.form-panel -->
+
+      <!-- ── Preview ───────────────────────────────────── -->
+      <div class="preview-panel">
+        <div id="doc-wrapper">
+          <div class="preview-vazio" id="preview-vazio">
+            <span class="preview-vazio-icon">&#9632;</span>
+            <p>Preencha o formulário e clique em<br>"Gerar Plano de Aula"</p>
+          </div>
+          <div id="doc" style="display:none;"></div>
+        </div>
+      </div>
+
+    </div><!-- /.plano-wrapper -->
+  </main>
+
+  <script>
+  // ── Dados BNCC — Componente Curricular: Geografia ─────────────────────────
+  // Fonte: BNCC (2018), homologada pelo MEC.
+  // Habilidades organizadas por ano do EF e por série do EM (CHS unificado).
+
+  const BNCC_OBJ = {
+    3: [
+      'Espacialidade e localização: o "eu" e o "outro" no espaço',
+      'Paisagem: elementos naturais e humanizados',
+      'Pontos de referência e orientação espacial',
+      'A escola e o bairro como espaços vividos',
+      'Representação do espaço: mapas simples e croquis',
+    ],
+    4: [
+      'Território e pertencimento: município, estado, país',
+      'Paisagens naturais brasileiras: biomas e climas',
+      'Uso dos recursos naturais e sustentabilidade',
+      'Migrações: por que as pessoas mudam de lugar',
+      'Cartografia: escala, orientação e representação',
+    ],
+    5: [
+      'Brasil: regiões, estados e diversidade regional',
+      'A natureza brasileira: relevo, hidrografia, vegetação',
+      'Diversidade cultural e povos do Brasil',
+      'Integração regional e desigualdades',
+      'Trabalho, tecnologia e transformação da paisagem',
+    ],
+    6: [
+      'Espaço geográfico: conceitos de lugar, território, região e paisagem',
+      'Orientação e representação cartográfica',
+      'Tectônica de placas e dinâmica interna da Terra',
+      'Tipos de rochas e ciclo das rochas',
+      'Hidrografia: bacias, rios e oceanos',
+    ],
+    7: [
+      'América Latina: formação histórica e diversidade',
+      'Clima e vegetação da América do Sul',
+      'Urbanização na América Latina',
+      'Brasil: biomas, desmatamento e conservação',
+      'Desigualdades socioespaciais no Brasil e na América',
+    ],
+    8: [
+      'Europa: industrialização e União Europeia',
+      'África: colonialismo, descolonização e diversidade',
+      'Oriente Médio: petróleo, conflitos e religião',
+      'Globalização e fluxos de mercadorias e pessoas',
+      'Migrações internacionais contemporâneas',
+    ],
+    9: [
+      'Geopolítica contemporânea: ordem mundial e conflitos',
+      'Desenvolvimento econômico e desigualdades globais',
+      'Urbanização mundial: megacidades e metrópoles',
+      'Movimentos ambientais e questões climáticas',
+      'Tecnologia e espaço: redes e fluxos de informação',
+    ],
+    EM1: [
+      'Fundamentos da Geografia Humana e Econômica',
+      'Sistemas políticos e organização do Estado-nação',
+      'Dinâmica populacional e transição demográfica',
+      'Cartografia temática e representação de fenômenos sociais',
+      'Conflitos geopolíticos e reorganização do espaço mundial',
+    ],
+    EM2: [
+      'Desenvolvimento sustentável e questão ambiental',
+      'Biomas mundiais e pressões antrópicas',
+      'Espaço urbano: hierarquia, segregação e mobilidade',
+      'Indústria, serviços e reestruturação produtiva',
+      'Fluxos migratórios e políticas de fronteira',
+    ],
+    EM3: [
+      'Brasil no século XXI: desafios socioespaciais',
+      'Geopolítica da energia e transição energética',
+      'Regionalização do Brasil: desigualdades e políticas',
+      'Análise espacial e geoprocessamento',
+      'Questões indígenas, quilombolas e direitos territoriais',
+    ],
+  };
+
+  const BNCC_HAB = {
+    3: [
+      { id: 'EF03GE01', t: 'Identificar e comparar aspectos culturais dos grupos sociais de seus lugares de vivência, seja a escola, seja a rua, o bairro, o município.' },
+      { id: 'EF03GE02', t: 'Identificar, em seus lugares de vivência, marcas de contribuição cultural e econômica de grupos de diferentes origens.' },
+      { id: 'EF03GE03', t: 'Identificar as formas e funções das cidades e dos campos, comparando as alterações ocorridas ao longo do tempo.' },
+      { id: 'EF03GE04', t: 'Explicar como os processos naturais e históricos atuaram na configuração da paisagem do lugar de vivência.' },
+      { id: 'EF03GE05', t: 'Observar e descrever ritmos naturais — diário e estacional — em diferentes escalas geográficas e de frequência.' },
+      { id: 'EF03GE06', t: 'Identificar e elaborar diferentes formas de representação cartográfica (desenhos, mapas, plantas, croquis e maquetes) para representar lugares.' },
+      { id: 'EF03GE07', t: 'Identificar características provisórias e permanentes de características da paisagem (relevo, solo, hidrografia) e de ações humanas.' },
+    ],
+    4: [
+      { id: 'EF04GE01', t: 'Selecionar, em seus lugares de vivência e em outras localidades, elementos representativos da contribuição dos diferentes povos.' },
+      { id: 'EF04GE02', t: 'Descrever processos migratórios e suas contribuições para a formação da sociedade brasileira.' },
+      { id: 'EF04GE03', t: 'Identificar as características do lugar de vivência relacionando-as aos elementos da natureza e às intervenções humanas.' },
+      { id: 'EF04GE04', t: 'Reconhecer especificidades e analisar a interdependência do campo e da cidade, considerando fluxos econômicos, de informações, de ideias e de pessoas.' },
+      { id: 'EF04GE05', t: 'Distinguir unidades político-administrativas oficiais nacionais (Distrito, Município, Estado e país), compreendendo suas hierarquias.' },
+      { id: 'EF04GE06', t: 'Identificar e descrever territórios étnico-culturais existentes no Brasil, tais como terras indígenas e quilombolas, reconhecendo a legitimidade de suas demarcações.' },
+      { id: 'EF04GE07', t: 'Orientar-se por meio de mapas, incluindo mapas digitais, e por outros meios, para se localizar e localizar elementos em representações cartográficas.' },
+      { id: 'EF04GE08', t: 'Utilizar as direções cardeais na localização de componentes físicos e humanos nas paisagens rurais e urbanas.' },
+      { id: 'EF04GE09', t: 'Identificar e comparar diferentes tipos de energia utilizados na produção industrial, agrícola e extrativista e no cotidiano das populações.' },
+      { id: 'EF04GE10', t: 'Distinguir e analisar conflitos e resistências causados pela implantação de projetos de infraestrutura e produção de energia.' },
+      { id: 'EF04GE11', t: 'Identificar as relações entre os componentes físico-naturais em diferentes paisagens, reconhecendo a importância da água para a vida.' },
+    ],
+    5: [
+      { id: 'EF05GE01', t: 'Descrever e analisar dinâmicas populacionais na Unidade da Federação em que vive, distinguindo os processos migratórios e as características da urbanização.' },
+      { id: 'EF05GE02', t: 'Identificar diferenças étnico-raciais e étnico-culturais e desigualdades sociais entre grupos em diferentes territórios.' },
+      { id: 'EF05GE03', t: 'Identificar as cadeias produtivas e as possibilidades que os arranjos produtivos locais têm para o desenvolvimento das sociedades em determinados espaços geográficos.' },
+      { id: 'EF05GE04', t: 'Reconhecer as características da cidade e analisar as interações entre a cidade e o campo e entre cidades na rede urbana.' },
+      { id: 'EF05GE05', t: 'Reconhecer os diferentes processos de produção do espaço urbano e rural.' },
+      { id: 'EF05GE06', t: 'Identificar e comparar as características socioeconômicas e culturais de lugares e regiões.' },
+      { id: 'EF05GE07', t: 'Elaborar e/ou usar mapas temáticos e históricos, inclusive digitais, para analisar transformações territoriais, identificando os órgãos responsáveis pela cartografia.' },
+      { id: 'EF05GE08', t: 'Analisar transformações de paisagens nas cidades, comparando sequência de fotografias, fotografias aéreas e imagens de satélite de épocas diferentes.' },
+      { id: 'EF05GE09', t: 'Comparar tipos variados de mapas, identificando suas características, usos, funções e autores.' },
+      { id: 'EF05GE10', t: 'Reconhecer e comparar atributos da qualidade ambiental e algumas formas de poluição dos cursos de água e dos oceanos (esgotos, efluentes industriais, marés negras etc.).' },
+      { id: 'EF05GE11', t: 'Identificar e descrever problemas ambientais que ocorrem no entorno da escola e da residência (lixões, indústrias poluentes, destruição do patrimônio histórico etc.).' },
+    ],
+    6: [
+      { id: 'EF06GE01', t: 'Comparar modificações das paisagens nos lugares de vivência e os usos desses lugares em diferentes tempos.' },
+      { id: 'EF06GE02', t: 'Elaborar narrativas descritivas das dinâmicas de um lugar, usando vocabulário e linguagens geográficas adequados à sua compreensão.' },
+      { id: 'EF06GE03', t: 'Descrever os movimentos do planeta e sua relação com a circulação geral da atmosfera, o tempo atmosférico e os padrões climáticos.' },
+      { id: 'EF06GE04', t: 'Descrever o ciclo da água, comparando o escoamento superficial no ambiente urbano e rural, reconhecendo os principais componentes da morfologia das bacias e das redes hidrográficas e a sua importância para o provimento de água potável.' },
+      { id: 'EF06GE05', t: 'Relacionar padrões climáticos, tipos de solo, relevo e formações vegetais.' },
+      { id: 'EF06GE06', t: 'Identificar as características das paisagens naturais e antrópicas (relevo, cobertura vegetal, rios etc.) no ambiente em que vive.' },
+      { id: 'EF06GE07', t: 'Explicar as mudanças na interação humana com a natureza com base no surgimento das cidades.' },
+      { id: 'EF06GE08', t: 'Medir distâncias na superfície pelas escalas gráficas e numéricas dos mapas.' },
+      { id: 'EF06GE09', t: 'Elaborar modelos tridimensionais, blocos-diagramas e perfis topográficos e de vegetação, com base em mapas topográficos e temáticos.' },
+      { id: 'EF06GE10', t: 'Explicar as diferentes formas de uso do solo (plantação e extração vegetal, mineração, construção), explicando os impactos ambientais.' },
+      { id: 'EF06GE11', t: 'Analisar distintas interações das sociedades com a natureza, com base na distribuição dos componentes físico-naturais.' },
+      { id: 'EF06GE12', t: 'Identificar o consumo dos recursos hídricos e o uso das principais bacias hidrográficas no Brasil e no mundo.' },
+    ],
+    7: [
+      { id: 'EF07GE01', t: 'Avaliar, por meio de exemplos extraídos dos meios de comunicação, ideias e estereótipos acerca das paisagens e dos povos africanos.' },
+      { id: 'EF07GE02', t: 'Analisar a influência dos fluxos econômicos e populacionais na formação socioeconômica e territorial do continente americano, considerando o fenômeno da migração.' },
+      { id: 'EF07GE03', t: 'Descrever os movimentos migratórios na formação do território americano, suas causas e impactos.' },
+      { id: 'EF07GE04', t: 'Analisar a distribuição territorial da população com os indicadores de emprego, renda, IDH, saneamento e educação no continente americano.' },
+      { id: 'EF07GE05', t: 'Analisar fatos e situações representativas das alterações ocorridas entre os espaços urbanos e rurais na América e na Europa.' },
+      { id: 'EF07GE06', t: 'Discutir em que medida a produção, a circulação e o consumo de mercadorias provocam impactos ambientais no mundo contemporâneo.' },
+      { id: 'EF07GE07', t: 'Analisar os impactos do processo de industrialização na produção e transformação dos espaços geográficos.' },
+      { id: 'EF07GE08', t: 'Estabelecer relações entre os processos de industrialização e inovação tecnológica com as transformações socioespaciais.' },
+      { id: 'EF07GE09', t: 'Interpretar e elaborar mapas temáticos e históricos, inclusive digitais, sobre o continente americano e o espaço oceânico.' },
+      { id: 'EF07GE10', t: 'Elaborar e interpretar gráficos de barras e de setores, mapas temáticos e esquemáticos e anamorfoses geográficas com base em dados geoeconômicos e socioambientais.' },
+    ],
+    8: [
+      { id: 'EF08GE01', t: 'Descrever as características do processo de industrialização capitalista (de sua gênese à consolidação e às transformações).' },
+      { id: 'EF08GE02', t: 'Relacionar o processo de industrialização com a urbanização, identificando transformações socioespaciais.' },
+      { id: 'EF08GE03', t: 'Identificar padrões econômicos mundiais e regionais, analisando diferenças e semelhanças de acordo com grupos de países.' },
+      { id: 'EF08GE04', t: 'Relacionar diferenças de paisagens aos modos de viver e se relacionar com a natureza de diferentes povos.' },
+      { id: 'EF08GE05', t: 'Aplicar os conceitos de Estado, nação, território, governo e país para o entendimento de conflitos e tensões na contemporaneidade.' },
+      { id: 'EF08GE06', t: 'Analisar a atuação das organizações mundiais nos processos de integração cultural e econômica nos contextos da globalização.' },
+      { id: 'EF08GE07', t: 'Analisar os impactos geoeconômicos, políticos e socioambientais da concentração das reservas de petróleo e gás e das terras raras em poucos países.' },
+      { id: 'EF08GE08', t: 'Analisar a situação do Brasil e de outros países da América Latina e da África no contexto do mundo globalizado.' },
+      { id: 'EF08GE09', t: 'Analisar os padrões econômicos mundiais de produção, distribuição e intercâmbio dos produtos agrícolas e industriais.' },
+      { id: 'EF08GE10', t: 'Distinguir e analisar as múltiplas escalas de análise dos grandes problemas ambientais.' },
+      { id: 'EF08GE11', t: 'Analisar as principais características socioeconômicas e os fluxos de mercadoria e pessoas dos países da Ásia e da Oceania.' },
+      { id: 'EF08GE12', t: 'Identificar e analisar as diversidades culturais dos continentes Africano, Asiático e Oceânico, destacando a relação entre as dinâmicas populacionais e culturais.' },
+    ],
+    9: [
+      { id: 'EF09GE01', t: 'Analisar criticamente de que forma a hegemonia exercida por alguns países e blocos econômicos influi na dinâmica territorial, nas relações de poder e nas condições de vida.' },
+      { id: 'EF09GE02', t: 'Analisar a tipologia dos conflitos mundiais e suas múltiplas causas, compreendendo como esses conflitos se relacionam com a diversidade étnico-cultural, religiosa, política e socioeconômica.' },
+      { id: 'EF09GE03', t: 'Identificar diferentes manifestações da violência promovidas por grupos terroristas e os alvos desses grupos.' },
+      { id: 'EF09GE04', t: 'Relacionar situações de conflito no planeta com a emergência de fluxos migratórios e refugiados.' },
+      { id: 'EF09GE05', t: 'Analisar a importância dos principais organismos internacionais no cenário mundial.' },
+      { id: 'EF09GE06', t: 'Analisar as principais características geoeconômicas e sociais dos países do continente europeu.' },
+      { id: 'EF09GE07', t: 'Analisar as principais características geoeconômicas e sociais dos países do continente africano e suas correlações com o desenvolvimento histórico.' },
+      { id: 'EF09GE08', t: 'Analisar transformações territoriais, considerando o movimento de fronteiras, a volatilidade das linhas divisórias, os múltiplos agentes envolvidos e a forma como a população é afetada.' },
+      { id: 'EF09GE09', t: 'Analisar os impactos geográficos das mudanças na atmosfera (mudanças climáticas, destruição da camada de ozônio etc.) e as estratégias para a mitigação dos impactos.' },
+      { id: 'EF09GE10', t: 'Analisar os padrões e os problemas ambientais resultantes do uso e da ocupação do solo na agropecuária, na indústria e no setor urbano.' },
+      { id: 'EF09GE11', t: 'Relacionar as mudanças técnicas e científicas decorrentes do processo de industrialização com as transformações no espaço geográfico.' },
+      { id: 'EF09GE12', t: 'Relacionar a distribuição das atividades industriais com as dinâmicas geográficas, os recursos naturais, o trabalho, as redes de comunicação e de informação e as políticas governamentais.' },
+    ],
+  };
+
+  // EM: habilidades CHS (EM13CHS) aplicam-se às 3 séries sem segmentação por série.
+  const EM_HAB = [
+    { id: 'EM13CHS101', t: 'Identificar, analisar e comparar diferentes fontes e narrativas expressas em diversas linguagens sobre o espaço geográfico, de modo a compreender e posicionar-se de forma crítica em relação a elas.' },
+    { id: 'EM13CHS102', t: 'Identificar, analisar e discutir as circunstâncias históricas, geográficas, políticas, econômicas, sociais, ambientais e culturais de matrizes conceituais.' },
+    { id: 'EM13CHS103', t: 'Elaborar hipóteses, selecionar evidências e compor argumentos relativos a processos políticos, econômicos, sociais, ambientais, culturais e epistemológicos.' },
+    { id: 'EM13CHS104', t: 'Analisar objetos da cultura material e imaterial como suporte de conhecimentos, valores, crenças e práticas que singularizam diferentes sociedades inseridas no tempo e no espaço.' },
+    { id: 'EM13CHS105', t: 'Identificar, contextualizar e criticar tipologias evolutivas (civilizatórias, históricas, sociais, econômicas, ambientais) e determinismos geográficos e sociais.' },
+    { id: 'EM13CHS106', t: 'Utilizar as linguagens cartográfica, gráfica e iconográfica e de diferentes gêneros textuais e as tecnologias digitais de informação e comunicação de forma crítica.' },
+    { id: 'EM13CHS201', t: 'Analisar e caracterizar as dinâmicas das populações, migrações e a urbanização em diferentes tempos e espaços, considerando causas, consequências e aspectos demográficos.' },
+    { id: 'EM13CHS202', t: 'Analisar e avaliar os impactos das tecnologias na estruturação e nas dinâmicas de grupos, povos e sociedades contemporâneos.' },
+    { id: 'EM13CHS203', t: 'Analisar e avaliar criticamente as relações de diferentes grupos, povos e sociedades com a natureza (produção, distribuição e consumo) tendo em vista a consolidação de uma cultura de sustentabilidade ambiental.' },
+    { id: 'EM13CHS204', t: 'Comparar e avaliar os processos de ocupação do espaço e a formação de territórios, territorialidades e fronteiras, identificando o papel de diferentes agentes.' },
+    { id: 'EM13CHS205', t: 'Analisar a produção de diferentes territorialidades em suas dimensões culturais, econômicas, ambientais, políticas e sociais.' },
+    { id: 'EM13CHS206', t: 'Identificar e analisar as demandas e os conflitos que envolvem as populações indígenas na contemporaneidade no Brasil e na América Latina.' },
+    { id: 'EM13CHS301', t: 'Problematizar hábitos e práticas individuais e coletivos de produção, reaproveitamento e descarte de resíduos em metrópoles, identificando desafios e soluções para o descarte e o consumo consciente.' },
+    { id: 'EM13CHS302', t: 'Analisar e avaliar criticamente os impactos econômicos e socioambientais de cadeias produtivas, identificando os agentes responsáveis e os mecanismos capazes de garantir o desenvolvimento sustentável.' },
+    { id: 'EM13CHS303', t: 'Analisar e avaliar as políticas públicas voltadas às questões climáticas e ao desenvolvimento sustentável em contextos locais, regionais, nacionais e globais.' },
+    { id: 'EM13CHS304', t: 'Analisar os impactos das mudanças climáticas e desenvolver propostas coletivas e individuais, como forma de posicionamento ético diante das mudanças climáticas.' },
+    { id: 'EM13CHS401', t: 'Identificar e analisar as relações entre sujeitos, grupos e classes sociais diante das transformações técnicas, tecnológicas e informacionais.' },
+    { id: 'EM13CHS402', t: 'Analisar e comparar os processos de colonização, descolonização e suas múltiplas causas e consequências, com ênfase para as populações originárias e as populações negras.' },
+    { id: 'EM13CHS403', t: 'Caracterizar e analisar os impactos das revoluções tecnológicas na estruturação e dinâmica de diferentes territórios.' },
+    { id: 'EM13CHS404', t: 'Identificar e discutir os múltiplos aspectos do trabalho em sociedades e espaços variados.' },
+    { id: 'EM13CHS501', t: 'Analisar os fundamentos da ética em diferentes culturas, tempos e espaços, identificando processos que contribuem para a formação de sujeitos éticos.' },
+    { id: 'EM13CHS502', t: 'Analisar situações da vida cotidiana, estilos de vida, valores, normas éticas e identidades com base em categorias e teorias das Ciências Humanas e Sociais.' },
+    { id: 'EM13CHS601', t: 'Identificar e analisar as demandas e os conflitos que envolvem as populações negras, indígenas, ciganas, dos povos do mar e da floresta e das periferias urbanas.' },
+    { id: 'EM13CHS602', t: 'Identificar e analisar as transformações do Estado brasileiro, discutindo o papel dos movimentos sociais, a importância dos mecanismos de participação social e o significado das Constituições.' },
+    { id: 'EM13CHS603', t: 'Analisar a democracia como valor universal e construção histórica, percebendo-a como um processo em construção.' },
+    { id: 'EM13CHS604', t: 'Analisar os princípios da democracia, seus valores, suas instituições e seus mecanismos de funcionamento.' },
+    { id: 'EM13CHS605', t: 'Analisar os princípios do Estado democrático de Direito e identificar os processos e as condições necessários para a sua consolidação.' },
+    { id: 'EM13CHS606', t: 'Analisar o papel da imprensa, das mídias sociais e dos meios de comunicação em geral na construção da democracia e na defesa dos direitos humanos.' },
+  ];
+
+  BNCC_HAB['EM1'] = EM_HAB;
+  BNCC_HAB['EM2'] = EM_HAB;
+  BNCC_HAB['EM3'] = EM_HAB;
+  BNCC_OBJ['EM2'] = BNCC_OBJ['EM1'];
+  BNCC_OBJ['EM3'] = BNCC_OBJ['EM1'];
+
+  // ── Presets fixos ──────────────────────────────────────────────────────────
+  const POBJ = [
+    'Identificar e compreender os conceitos geográficos centrais da lição',
+    'Relacionar o conceito estudado a situações reais do cotidiano e do noticiário',
+    'Interpretar representações cartográficas, gráficos e imagens de satélite',
+    'Analisar criticamente dados e informações sobre o espaço geográfico',
+    'Desenvolver posicionamento fundamentado sobre questões socioambientais',
+    'Trabalhar colaborativamente na resolução de problemas geográficos',
+  ];
+
+  const PMET = [
+    'Aula expositiva dialogada com uso do atlas Humboldt',
+    'Exploração guiada de mapas interativos e atividades do atlas',
+    'Análise de imagens, fotografias e mapas temáticos',
+    'Debate estruturado a partir de situação-problema',
+    'Trabalho em pequenos grupos com posterior socialização',
+    'Pesquisa orientada com fontes digitais e impressas',
+    'Jigsaw: grupos especializados que ensinam uns aos outros',
+    'Saída de campo ou observação do espaço local',
+  ];
+
+  const PREC = [
+    'Atlas Humboldt (humboldt.github.io)',
+    'Projetor ou televisão para uso coletivo',
+    'Mapas impressos ou digitais',
+    'Livro didático adotado pela escola',
+    'Celulares ou tablets para pesquisa orientada',
+    'Planisfério e globo terrestre',
+    'Imagens de satélite (Google Earth, Sentinel Hub)',
+    'Artigos de jornais e revistas sobre o tema',
+  ];
+
+  const PAVA = [
+    'Observação da participação e argumentação oral durante a aula',
+    'Resolução das atividades interativas do atlas com registro do professor',
+    'Produção escrita: síntese, esquema ou mapa conceitual',
+    'Pesquisa apresentada em formato oral ou escrito',
+    'Prova escrita com questões abertas e de múltipla escolha',
+    'Autoavaliação do aluno com critérios definidos previamente',
+    'Rubrica de avaliação de produção textual',
+  ];
+
+  // ── Renderização de checkboxes ─────────────────────────────────────────────
+  function rp(boxId, items, pfx) {
+    const b = document.getElementById(boxId);
+    b.innerHTML = items.map((txt, i) => `
+      <div class="pi">
+        <input type="checkbox" id="c-${boxId}-${i}" class="${pfx}-ck" data-text="${txt.replace(/"/g,'&quot;')}">
+        <label for="c-${boxId}-${i}">${txt}</label>
+      </div>`).join('');
+  }
+
+  function rc(boxId, items, pfx, hasId = false) {
+    const b = document.getElementById(boxId);
+    if (!items || !items.length) {
+      b.innerHTML = '<div class="pe2">Selecione o ano/série para ver as opções disponíveis.</div>';
+      return;
+    }
+    b.innerHTML = items.map((item, i) => {
+      const txt = hasId ? item.t : item;
+      const lbl = hasId ? `<span class="pid">${item.id}</span>${txt}` : txt;
+      return `<div class="pi">
+        <input type="checkbox" id="c-${boxId}-${i}" class="${pfx}-ck" data-text="${(hasId ? item.id+': '+item.t : item).replace(/"/g,'&quot;')}">
+        <label for="c-${boxId}-${i}">${lbl}</label>
+      </div>`;
+    }).join('');
+  }
+
+  // ── Seleção de ano ─────────────────────────────────────────────────────────
+  function onAno() {
+    const a = document.getElementById('f-ano').value;
+    if (!a) {
+      rc('box-obj',  null, 'obj');
+      rc('box-bncc', null, 'bncc', true);
+      return;
+    }
+    const k = isNaN(parseInt(a)) ? a : parseInt(a);
+    rc('box-obj',  BNCC_OBJ[k] || null, 'obj');
+    rc('box-bncc', BNCC_HAB[k] || null, 'bncc', true);
+  }
+
+  // ── Carga horária calculada ────────────────────────────────────────────────
+  function calcCarga() {
+    const n   = parseInt(document.getElementById('f-naulas').value) || 0;
+    const dur = parseInt(document.getElementById('f-dur').value) || 50;
+    const tot = n * dur;
+    let txt = '';
+    if (tot >= 60) {
+      const h = Math.floor(tot / 60), r = tot % 60;
+      txt = r ? `${h}h${String(r).padStart(2,'0')}min` : `${h}h`;
+    } else {
+      txt = tot ? `${tot} min` : '';
+    }
+    document.getElementById('f-carga').value = txt;
+  }
+
+  // ── Coleta de checkboxes marcados ──────────────────────────────────────────
+  function gc(pfx, xaId) {
+    const ch = [...document.querySelectorAll(`.${pfx}-ck:checked`)].map(c => c.dataset.text);
+    const ex = (document.getElementById(xaId)?.value || '').trim();
+    return [...ch, ...(ex ? [ex] : [])];
+  }
+
+  // ── Seção do documento ─────────────────────────────────────────────────────
+  function sec(titulo, corpo) {
+    return `<div class="ds"><span class="dst">${titulo}</span>${corpo}</div>`;
+  }
+
+  function lista(itens) {
+    if (!itens.length) return '';
+    return '<ul>' + itens.map(i => `<li>${i}</li>`).join('') + '</ul>';
+  }
+
+  // ── Geração do documento ───────────────────────────────────────────────────
+  function gerar() {
+    const inst   = document.getElementById('f-inst').value.trim();
+    const prof   = document.getElementById('f-prof').value.trim();
+    const data   = document.getElementById('f-data').value;
+    const ano    = document.getElementById('f-ano');
+    const anoTxt = ano.options[ano.selectedIndex]?.text || '';
+    const dur    = document.getElementById('f-dur');
+    const durTxt = dur.options[dur.selectedIndex]?.text || '';
+    const naulas = document.getElementById('f-naulas').value;
+    const carga  = document.getElementById('f-carga').value;
+    const modulo = document.getElementById('f-modulo').value;
+    const tema   = document.getElementById('f-tema').value.trim();
+    const obs    = document.getElementById('f-obs').value.trim();
+
+    const obj  = gc('obj',  'xa-obj');
+    const bncc = gc('bncc', 'xa-bncc');
+    const obt  = gc('obt',  'xa-obt');
+    const met  = gc('met',  'xa-met');
+    const rec  = gc('rec',  'xa-rec');
+    const ava  = gc('ava',  'xa-ava');
+
+    // Formata data
+    let dataFmt = '';
+    if (data) {
+      const [y, m, d] = data.split('-');
+      dataFmt = `${d}/${m}/${y}`;
+    }
+
+    let html = `
+      <div class="doc-header">
+        ${inst ? `<div class="doc-inst">${inst}</div>` : ''}
+        <h1 class="doc-titulo">${tema || 'Plano de Aula — Geografia'}</h1>
+        <div class="doc-meta">
+          ${prof    ? `<span><strong>Professor(a):</strong> ${prof}</span>` : ''}
+          ${anoTxt  ? `<span><strong>Ano/Série:</strong> ${anoTxt}</span>` : ''}
+          ${durTxt  ? `<span><strong>Duração:</strong> ${naulas} aula(s) × ${durTxt}</span>` : ''}
+          ${carga   ? `<span><strong>Carga total:</strong> ${carga}</span>` : ''}
+          ${dataFmt ? `<span><strong>Data:</strong> ${dataFmt}</span>` : ''}
+          ${modulo  ? `<span><strong>Módulo Humboldt:</strong> ${modulo}</span>` : ''}
+        </div>
+      </div>`;
+
+    if (obj.length) {
+      html += sec('Objetos de Conhecimento (BNCC)', lista(obj));
+    }
+
+    if (bncc.length) {
+      const items = bncc.map(t => {
+        // Verifica se tem o padrão "EFxxGExx: texto" ou "EM13CHSxxx: texto"
+        const m = t.match(/^(EF\d+GE\d+|EM13CHS\d+):\s*(.+)$/);
+        if (m) {
+          return `<div class="bncc-item">
+            <span class="bncc-id">${m[1]}</span>
+            <span class="bncc-text">${m[2]}</span>
+          </div>`;
+        }
+        return `<div class="bncc-item"><span class="bncc-text">${t}</span></div>`;
+      }).join('');
+      html += sec('Habilidades BNCC', items);
+    }
+
+    if (obt.length) html += sec('Objetivos de Aprendizagem', lista(obt));
+    if (met.length) html += sec('Procedimentos Metodológicos', lista(met));
+    if (rec.length) html += sec('Recursos Didáticos', lista(rec));
+    if (ava.length) html += sec('Avaliação', lista(ava));
+    if (obs)        html += sec('Observações e Adaptações', `<p>${obs}</p>`);
+
+    html += `
+      <div style="margin-top:var(--space-8);border-top:1px solid var(--color-border);padding-top:var(--space-3);">
+        <p style="font-family:var(--font-mono);font-size:0.68rem;color:var(--color-text-muted);margin:0;">
+          Gerado por Humboldt — Atlas Interativo de Geografia &nbsp;·&nbsp; humboldt.github.io
+        </p>
+      </div>`;
+
+    document.getElementById('preview-vazio').style.display = 'none';
+    const doc = document.getElementById('doc');
+    doc.style.display = 'block';
+    doc.innerHTML = html;
+    doc.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // ── Inicialização ──────────────────────────────────────────────────────────
+  (function init() {
+    document.getElementById('f-data').valueAsDate = new Date();
+    rp('box-obt', POBJ, 'obt');
+    rp('box-met', PMET, 'met');
+    rp('box-rec', PREC, 'rec');
+    rp('box-ava', PAVA, 'ava');
+    calcCarga();
+  })();
+  </script>
+
+</body>
+</html>

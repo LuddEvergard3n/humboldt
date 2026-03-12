@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="color-scheme" content="light" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Guia do Professor — como usar o Humboldt em sala de aula" />
+  <meta name="theme-color" content="#1e3a5f" />
+  <title>Guia do Professor — Humboldt</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+
+  <style>
+    /* ── Layout dois painéis ─────────────────────────────── */
+    .guia-wrapper {
+      max-width:  1200px;
+      margin:     0 auto;
+      padding:    var(--space-8) var(--space-6) var(--space-16);
+      display:    flex;
+      gap:        var(--space-8);
+      align-items: flex-start;
+    }
+
+    /* ── Sidebar ─────────────────────────────────────────── */
+    .guia-sidebar {
+      width:       220px;
+      flex-shrink: 0;
+    }
+
+    .sidebar-panel {
+      position:      sticky;
+      top:           calc(var(--header-h, 56px) + var(--space-4));
+      background:    rgba(250,247,242,0.96);
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius);
+      padding:       var(--space-4) 0;
+      box-shadow:    var(--shadow-sm);
+    }
+
+    .sidebar-panel nav a {
+      display:        block;
+      padding:        var(--space-2) var(--space-4);
+      font-family:    var(--font-body);
+      font-size:      var(--size-sm);
+      color:          var(--color-text-mid);
+      text-decoration: none;
+      border-left:    3px solid transparent;
+      transition:     border-color 0.15s, color 0.15s;
+      line-height:    var(--leading-base);
+    }
+
+    .sidebar-panel nav a:hover {
+      color:        var(--color-primary);
+      border-color: var(--color-border-dark);
+    }
+
+    .sidebar-group {
+      display:        block;
+      padding:        var(--space-3) var(--space-4) var(--space-1);
+      font-family:    var(--font-mono);
+      font-size:      0.68rem;
+      text-transform: uppercase;
+      letter-spacing: var(--tracking-wider);
+      color:          var(--color-text-muted);
+      margin-top:     var(--space-2);
+    }
+
+    .sidebar-group:first-child { margin-top: 0; }
+
+    /* ── Conteúdo principal ──────────────────────────────── */
+    .guia-content {
+      flex:      1;
+      min-width: 0;
+    }
+
+    .content-card {
+      background:    rgba(250,247,242,0.96);
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius);
+      box-shadow:    var(--shadow-lg);
+      padding:       var(--space-8) var(--space-12);
+    }
+
+    /* ── Tipografia de seção ─────────────────────────────── */
+    .guia-content h2 {
+      font-family:    var(--font-display);
+      font-size:      var(--size-xl);
+      font-weight:    700;
+      color:          var(--color-primary);
+      border-bottom:  1px solid var(--color-border);
+      padding-bottom: var(--space-3);
+      margin-top:     var(--space-12);
+      margin-bottom:  var(--space-6);
+      scroll-margin-top: calc(var(--header-h, 56px) + var(--space-4));
+    }
+
+    .guia-content h2:first-of-type { margin-top: 0; }
+
+    .guia-content h3 {
+      font-family:   var(--font-display);
+      font-size:     var(--size-md);
+      font-weight:   600;
+      color:         var(--color-accent);
+      margin-top:    var(--space-8);
+      margin-bottom: var(--space-3);
+      scroll-margin-top: calc(var(--header-h, 56px) + var(--space-4));
+    }
+
+    .guia-content p {
+      font-family:   var(--font-body);
+      font-size:     var(--size-md);
+      line-height:   var(--leading-loose);
+      color:         var(--color-text);
+      margin-bottom: var(--space-4);
+    }
+
+    .guia-content p:last-child { margin-bottom: 0; }
+
+    .guia-content ul, .guia-content ol {
+      padding-left: var(--space-6);
+      margin-bottom: var(--space-4);
+    }
+
+    .guia-content li {
+      font-family:  var(--font-body);
+      font-size:    var(--size-md);
+      line-height:  var(--leading-loose);
+      color:        var(--color-text);
+      margin-bottom: var(--space-2);
+    }
+
+    /* ── Cards de atividade ──────────────────────────────── */
+    .atividade {
+      border:        1px solid var(--color-border);
+      border-radius: var(--radius);
+      margin-bottom: var(--space-8);
+      overflow:      hidden;
+      box-shadow:    var(--shadow-sm);
+    }
+
+    .atividade-header {
+      display:     flex;
+      align-items: center;
+      gap:         var(--space-4);
+      background:  linear-gradient(90deg, rgba(30,58,95,0.07), transparent);
+      padding:     var(--space-4) var(--space-6);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .atividade-num {
+      font-family:    var(--font-mono);
+      font-size:      var(--size-xs);
+      background:     var(--color-primary);
+      color:          var(--color-text-inv);
+      padding:        2px 8px;
+      border-radius:  var(--radius-sm);
+      letter-spacing: var(--tracking-wide);
+      text-transform: uppercase;
+      white-space:    nowrap;
+    }
+
+    .atividade-titulo {
+      font-family: var(--font-display);
+      font-size:   var(--size-md);
+      font-weight: 600;
+      color:       var(--color-primary);
+    }
+
+    .atividade-body {
+      padding: var(--space-6) var(--space-6);
+    }
+
+    .atividade-meta {
+      display:       flex;
+      flex-wrap:     wrap;
+      gap:           var(--space-2);
+      margin-bottom: var(--space-4);
+    }
+
+    .meta-tag {
+      display:       inline-block;
+      font-family:   var(--font-mono);
+      font-size:     var(--size-xs);
+      background:    rgba(30,58,95,0.07);
+      border:        1px solid rgba(30,58,95,0.18);
+      border-radius: var(--radius-sm);
+      padding:       2px 8px;
+      color:         var(--color-primary);
+    }
+
+    .atividade-body p { margin-bottom: var(--space-3); }
+
+    .passo-lista {
+      list-style:  none;
+      padding:     0;
+      margin:      var(--space-3) 0 var(--space-4);
+      counter-reset: passos;
+    }
+
+    .passo-lista li {
+      counter-increment: passos;
+      padding-left:      var(--space-8);
+      position:          relative;
+      margin-bottom:     var(--space-3);
+    }
+
+    .passo-lista li::before {
+      content:       counter(passos);
+      position:      absolute;
+      left:          0;
+      top:           2px;
+      font-family:   var(--font-mono);
+      font-size:     var(--size-xs);
+      background:    var(--color-accent-lt);
+      color:         var(--color-primary);
+      width:         1.4rem;
+      height:        1.4rem;
+      border-radius: 50%;
+      display:       flex;
+      align-items:   center;
+      justify-content: center;
+      font-weight:   600;
+    }
+
+    /* ── Notas e avisos ──────────────────────────────────── */
+    .nota {
+      background:    rgba(139,94,46,0.06);
+      border-left:   3px solid var(--color-accent-lt);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding:       var(--space-3) var(--space-6);
+      margin:        var(--space-4) 0;
+      font-family:   var(--font-body);
+      font-size:     var(--size-base);
+      color:         var(--color-text-mid);
+      line-height:   var(--leading-base);
+    }
+
+    .aviso {
+      background:    rgba(30,58,95,0.06);
+      border-left:   4px solid var(--color-primary);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding:       var(--space-3) var(--space-6);
+      margin:        var(--space-4) 0;
+      font-family:   var(--font-body);
+      font-size:     var(--size-base);
+      color:         var(--color-text-mid);
+      line-height:   var(--leading-base);
+    }
+
+    /* ── Tabela de tipos ─────────────────────────────────── */
+    .tipos-table {
+      width:           100%;
+      border-collapse: collapse;
+      margin-bottom:   var(--space-6);
+      font-family:     var(--font-body);
+      font-size:       var(--size-base);
+    }
+
+    .tipos-table th {
+      text-align:     left;
+      font-family:    var(--font-mono);
+      font-size:      var(--size-xs);
+      text-transform: uppercase;
+      letter-spacing: var(--tracking-wide);
+      color:          var(--color-text-muted);
+      border-bottom:  2px solid var(--color-border);
+      padding:        var(--space-2) var(--space-4) var(--space-2) 0;
+    }
+
+    .tipos-table td {
+      padding:       var(--space-3) var(--space-4) var(--space-3) 0;
+      border-bottom: 1px solid var(--color-border);
+      vertical-align: top;
+      line-height:   var(--leading-base);
+      color:         var(--color-text);
+    }
+
+    .tipo-badge {
+      font-family:   var(--font-mono);
+      font-size:     var(--size-xs);
+      background:    rgba(30,58,95,0.08);
+      color:         var(--color-primary);
+      padding:       2px 6px;
+      border-radius: var(--radius-sm);
+      white-space:   nowrap;
+    }
+
+    /* ── Camadas de uma lição ────────────────────────────── */
+    .camadas-grid {
+      display:               grid;
+      grid-template-columns: auto 1fr;
+      gap:                   0 var(--space-4);
+      margin-bottom:         var(--space-6);
+    }
+
+    .camada-num {
+      font-family:   var(--font-mono);
+      font-size:     var(--size-xs);
+      color:         var(--color-accent-lt);
+      padding-top:   3px;
+      text-align:    right;
+      letter-spacing: var(--tracking-wide);
+    }
+
+    .camada-info {
+      border-bottom: 1px solid var(--color-border);
+      padding:       var(--space-3) 0;
+    }
+
+    .camada-info:last-of-type { border-bottom: none; }
+
+    .camada-nome {
+      display:     block;
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size:   var(--size-base);
+      color:       var(--color-primary);
+      margin-bottom: var(--space-1);
+    }
+
+    .camada-desc {
+      font-family: var(--font-body);
+      font-size:   var(--size-sm);
+      color:       var(--color-text-mid);
+      line-height: var(--leading-base);
+    }
+
+    /* ── Responsivo ──────────────────────────────────────── */
+    @media (max-width: 860px) {
+      .guia-wrapper { display: block; padding: var(--space-4) var(--space-3) var(--space-12); }
+      .guia-sidebar { display: none; }
+      .content-card { padding: var(--space-6) var(--space-4); }
+    }
+  </style>
+</head>
+<body style="background:#f2ede3">
+
+  <header id="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Humboldt — início">
+        <span class="logo-symbol">&#9632;</span>
+        <span class="logo-name">Humboldt</span>
+      </a>
+      <nav role="navigation" aria-label="Navegação principal">
+        <ul class="nav-links" style="display:flex;list-style:none;margin:0;padding:0;gap:var(--space-2);align-items:center;">
+          <li><a href="index.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Atlas</a></li>
+          <li><a href="guia-professor.html" style="color:var(--color-accent-lt);text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Guia do Professor</a></li>
+          <li><a href="plano-aula.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Plano de Aula</a></li>
+          <li><a href="sobre.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="guia-wrapper">
+
+      <!-- ── Sidebar de navegação ───────────────────────── -->
+      <aside class="guia-sidebar" aria-label="Índice do guia">
+        <div class="sidebar-panel">
+          <nav>
+            <span class="sidebar-group">Fundamentos</span>
+            <a href="#o-que-e">O que é o Humboldt</a>
+            <a href="#estrutura">Estrutura de uma lição</a>
+            <a href="#tipos">Tipos de atividade</a>
+            <a href="#modo-professor">Modo Professor</a>
+
+            <span class="sidebar-group">Em sala de aula</span>
+            <a href="#como-iniciar">Como iniciar</a>
+            <a href="#ativ-1">1 — Fenômeno âncora</a>
+            <a href="#ativ-2">2 — Camadas e padrões</a>
+            <a href="#ativ-3">3 — Fluxos e migrações</a>
+            <a href="#ativ-4">4 — Mapa como argumento</a>
+            <a href="#ativ-5">5 — Antes e depois</a>
+
+            <span class="sidebar-group">Referência</span>
+            <a href="#perguntas">Perguntas frequentes</a>
+            <a href="#limitacoes">Limitações</a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- ── Conteúdo ───────────────────────────────────── -->
+      <div class="guia-content">
+        <div class="content-card">
+
+          <!-- ── O que é ── -->
+          <h2 id="o-que-e">O que é o Humboldt</h2>
+
+          <p>O Humboldt é um atlas interativo de Geografia para o Ensino Fundamental e Médio. Organizado em 22 módulos e 102 lições, cobre do 3º ano do EFI à 3ª série do EM — sem precisar de conta, login ou conexão permanente.</p>
+
+          <p>Não é um livro didático digital. Não é um banco de exercícios. É uma ferramenta para o professor que quer partir de fenômenos reais em vez de definições — e quer que o aluno interaja com o conteúdo em vez de apenas lê-lo.</p>
+
+          <p>Cada lição foi escrita com uma pergunta em mente: <em>o que um aluno desta faixa etária precisa ser capaz de explicar ao final desta aula?</em> A resposta determina o fenômeno de entrada, a atividade, o feedback e a mediação sugerida.</p>
+
+          <div class="aviso">O Humboldt é complemento, não substituto. Ele não cobre o currículo completo — cobre os conceitos centrais de cada nível com profundidade suficiente para que o aluno entenda relações, não apenas nomes.</div>
+
+          <!-- ── Estrutura ── -->
+          <h2 id="estrutura">Estrutura de uma lição</h2>
+
+          <p>Todas as lições seguem a mesma sequência de seis camadas. O professor pode usar todas ou entrar em qualquer ponto dependendo do tempo e da turma.</p>
+
+          <div class="camadas-grid">
+            <span class="camada-num">01</span>
+            <div class="camada-info">
+              <span class="camada-nome">Fenômeno</span>
+              <span class="camada-desc">Uma situação real e contemporânea. O aluno reconhece o mundo antes de aprender o conceito. Ex.: "A África emite 4% do CO₂ global — mas já perde 5% do PIB para o clima."</span>
+            </div>
+
+            <span class="camada-num">02</span>
+            <div class="camada-info">
+              <span class="camada-nome">Guiado</span>
+              <span class="camada-desc">O conceito estruturado com pontos-chave numerados. Síntese do essencial — sem excesso, sem omissão crítica.</span>
+            </div>
+
+            <span class="camada-num">03</span>
+            <div class="camada-info">
+              <span class="camada-nome">Relações</span>
+              <span class="camada-desc">Conexões com poder, economia, cultura, ambiente. Impede que o conceito fique isolado como definição de vocabulário.</span>
+            </div>
+
+            <span class="camada-num">04</span>
+            <div class="camada-info">
+              <span class="camada-nome">Estudo de caso</span>
+              <span class="camada-desc">Um exemplo concreto, nomeado, localizado, datado. Antídoto ao vago. Ex.: "Ruanda: de genocídio a país modelo."</span>
+            </div>
+
+            <span class="camada-num">05</span>
+            <div class="camada-info">
+              <span class="camada-nome">Aplicação</span>
+              <span class="camada-desc">Pergunta aberta para pesquisa ou debate. Sem resposta no atlas — o aluno precisa ir buscar. Adequada para lição de casa.</span>
+            </div>
+
+            <span class="camada-num">06</span>
+            <div class="camada-info">
+              <span class="camada-nome">Atividade</span>
+              <span class="camada-desc">Interação direta: mapa, escolha, fluxo, comparação. Com feedback contextual e dicas progressivas que aparecem após erros.</span>
+            </div>
+          </div>
+
+          <!-- ── Tipos ── -->
+          <h2 id="tipos">Tipos de atividade</h2>
+
+          <p>O Humboldt tem sete tipos de atividade. Cada tipo foi escolhido para o conteúdo que melhor se presta àquela forma de interação.</p>
+
+          <table class="tipos-table">
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>O que o aluno faz</th>
+                <th>Quando usar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="tipo-badge">single-choice</span></td>
+                <td>Escolhe uma resposta entre quatro opções</td>
+                <td>Conceitos com distinção clara (definições, causas, processos)</td>
+              </tr>
+              <tr>
+                <td><span class="tipo-badge">layer-toggle</span></td>
+                <td>Liga e desliga camadas num mapa para descobrir padrões</td>
+                <td>Relações espaciais — clima vs. bioma, renda vs. transporte</td>
+              </tr>
+              <tr>
+                <td><span class="tipo-badge">flow-map</span></td>
+                <td>Observa e interpreta fluxos animados no mapa</td>
+                <td>Migrações, comércio internacional, refugiados, desigualdade</td>
+              </tr>
+              <tr>
+                <td><span class="tipo-badge">map-click</span></td>
+                <td>Clica em países ou regiões para identificá-los</td>
+                <td>Localização, blocos geopolíticos, conflitos ativos</td>
+              </tr>
+              <tr>
+                <td><span class="tipo-badge">before-after</span></td>
+                <td>Compara dois momentos com slider temporal</td>
+                <td>Desmatamento, crescimento urbano, transição energética</td>
+              </tr>
+              <tr>
+                <td><span class="tipo-badge">compass</span></td>
+                <td>Gira a rosa dos ventos para identificar direções</td>
+                <td>Orientação cartográfica (EFI e EFII)</td>
+              </tr>
+              <tr>
+                <td><span class="tipo-badge">scale</span></td>
+                <td>Ajusta o slider de escala para localizar fenômenos</td>
+                <td>Conceito de escala geográfica — do local ao global</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- ── Modo Professor ── -->
+          <h2 id="modo-professor">Modo Professor</h2>
+
+          <p>O botão "Modo Professor" no cabeçalho do atlas revela, em cada lição, uma camada de informação invisível ao aluno:</p>
+
+          <ul>
+            <li><strong>Objetivo:</strong> o que o aluno deve ser capaz de fazer ao final da lição</li>
+            <li><strong>Observe:</strong> erros comuns, equívocos frequentes, preconceitos a desconstruir</li>
+            <li><strong>Gabarito:</strong> resposta correta com justificativa completa</li>
+            <li><strong>Mediação:</strong> pergunta ou provocação sugerida para aprofundar o debate</li>
+            <li><strong>Tempo:</strong> estimativa de aula completa com a lição</li>
+          </ul>
+
+          <p>O Modo Professor não é tutorial de software — é material pedagógico. Foi escrito para ser consultado antes ou durante a aula.</p>
+
+          <!-- ── Como iniciar ── -->
+          <h2 id="como-iniciar">Como iniciar com uma turma</h2>
+
+          <p>A primeira vez que o professor usa o Humboldt com uma turma, o passo mais importante é calibrar a expectativa: o atlas não é um jogo, não é quiz, não é prova. É uma ferramenta de leitura do mundo.</p>
+
+          <p>Uma entrada eficaz é começar pelo fenômeno e perguntar à turma se alguém já ouviu falar daquilo — antes de abrir a lição. O fenômeno foi escrito para ser reconhecível. Se ninguém souber, o próprio desconhecimento é o ponto de partida.</p>
+
+          <div class="nota">Projetar o atlas numa televisão ou projetor e navegar junto com a turma funciona melhor do que cada aluno no próprio celular para a primeira aula. O debate coletivo produz mais do que a exploração individual silenciosa.</div>
+
+          <!-- ── Atividades ── -->
+          <h2 id="ativ-1">Atividade 1 — O fenômeno como âncora</h2>
+
+          <div class="atividade">
+            <div class="atividade-header">
+              <span class="atividade-num">Ativ. 01</span>
+              <span class="atividade-titulo">O que está acontecendo aqui?</span>
+            </div>
+            <div class="atividade-body">
+              <div class="atividade-meta">
+                <span class="meta-tag">EFI ao EM</span>
+                <span class="meta-tag">20–30 min</span>
+                <span class="meta-tag">Debate coletivo</span>
+              </div>
+              <p>Abra qualquer lição e mostre apenas o texto do <strong>Fenômeno</strong> para a turma — sem avançar para as outras seções. Faça três perguntas em sequência:</p>
+              <ol class="passo-lista">
+                <li>Alguém já ouviu falar sobre isso? Em que contexto?</li>
+                <li>Por que isso acontece? (Aceite todas as respostas sem corrigir.)</li>
+                <li>Onde isso acontece? É só neste lugar ou também em outros?</li>
+              </ol>
+              <p>Depois avance para as seções seguintes — o aluno já tem hipóteses próprias e vai comparar com o que aprende, em vez de apenas receber informação.</p>
+              <p><strong>Exemplo:</strong> Na lição <em>Refugiados e deslocados</em>, o fenômeno diz que mais de 100 milhões de pessoas estão fora de suas casas. Pergunte: "Para onde essas pessoas vão? Por que não vão para os países mais ricos, que poderiam acolher mais?" A tensão entre o senso comum e a resposta real cria a motivação para a lição.</p>
+            </div>
+          </div>
+
+          <h2 id="ativ-2">Atividade 2 — Lendo camadas no mapa</h2>
+
+          <div class="atividade">
+            <div class="atividade-header">
+              <span class="atividade-num">Ativ. 02</span>
+              <span class="atividade-titulo">Ative uma camada de cada vez</span>
+            </div>
+            <div class="atividade-body">
+              <div class="atividade-meta">
+                <span class="meta-tag">EFII / EM</span>
+                <span class="meta-tag">30–40 min</span>
+                <span class="meta-tag">layer-toggle</span>
+              </div>
+              <p>Para lições com atividade <strong>layer-toggle</strong>, o professor deve conduzir a exploração em etapas — não deixar o aluno ativar tudo de uma vez.</p>
+              <ol class="passo-lista">
+                <li>Mostre o mapa com apenas a camada padrão ativa. Pergunte: "O que você vê?"</li>
+                <li>Ative uma segunda camada. Pergunte: "O que mudou? O que as duas camadas têm em comum?"</li>
+                <li>Ative a terceira. Pergunte: "A sobreposição confirma ou contradiz o que você esperava?"</li>
+                <li>Formule a conclusão coletivamente antes de mostrar o feedback.</li>
+              </ol>
+              <p><strong>Exemplo:</strong> Na lição <em>Clima: fatores e tipos</em>, ativar a camada de precipitação junto com biomas revela que a Amazônia chove 2.000mm/ano e o Cerrado 700mm — e que a vegetação responde diretamente. Ativar temperatura depois confirma o padrão. O aluno descobre a correlação, não a recebe pronta.</p>
+              <div class="nota">A mediação sugerida em cada lição do Modo Professor descreve a pergunta exata a fazer em cada etapa. Consulte antes da aula.</div>
+            </div>
+          </div>
+
+          <h2 id="ativ-3">Atividade 3 — Interpretando fluxos</h2>
+
+          <div class="atividade">
+            <div class="atividade-header">
+              <span class="atividade-num">Ativ. 03</span>
+              <span class="atividade-titulo">De onde partem, para onde vão</span>
+            </div>
+            <div class="atividade-body">
+              <div class="atividade-meta">
+                <span class="meta-tag">EFII / EM</span>
+                <span class="meta-tag">35–45 min</span>
+                <span class="meta-tag">flow-map</span>
+              </div>
+              <p>Lições com <strong>flow-map</strong> mostram setas de volume variável entre regiões. Antes de mostrar os dados, pergunte à turma o que ela espera ver.</p>
+              <ol class="passo-lista">
+                <li>Antes de abrir o mapa: "Se você fosse fugir de um conflito no Oriente Médio, para onde iria? Por quê?"</li>
+                <li>Mostre o mapa. Pergunte: "A realidade é o que você esperava?"</li>
+                <li>Foque nos fluxos contraintuitivos. Ex.: Turquia recebe 3,6 milhões de sírios. Toda a Europa recebe 1 milhão. Por quê?</li>
+                <li>Conecte com a lição: o que determina para onde as pessoas vão? Distância, dinheiro, idioma, muros, lei.</li>
+              </ol>
+              <p>O objetivo é que o aluno perceba que fluxos migratórios não são caóticos — seguem lógicas geográficas, econômicas e políticas que podem ser analisadas.</p>
+            </div>
+          </div>
+
+          <h2 id="ativ-4">Atividade 4 — O mapa como argumento</h2>
+
+          <div class="atividade">
+            <div class="atividade-header">
+              <span class="atividade-num">Ativ. 04</span>
+              <span class="atividade-titulo">Qual projeção estamos usando — e por quê?</span>
+            </div>
+            <div class="atividade-body">
+              <div class="atividade-meta">
+                <span class="meta-tag">EFII / EM</span>
+                <span class="meta-tag">40–50 min</span>
+                <span class="meta-tag">Análise crítica</span>
+              </div>
+              <p>Use a lição <em>Mapa como argumento: cartografia crítica e poder</em> para introduzir a ideia de que todo mapa é uma escolha política. Esta atividade não tem resposta única — é deliberação.</p>
+              <ol class="passo-lista">
+                <li>Mostre o planisfério padrão (Mercator). Pergunte: "O que parece grande? O que parece pequeno?"</li>
+                <li>Mostre a projeção de Peters ao lado. Pergunte: "Qual parece 'errado'? Por quê?"</li>
+                <li>Mostre o mapa de Stuart McArthur (Sul no topo). Pergunte: "Isso está errado? O que define o que é o topo?"</li>
+                <li>Conecte com o texto: por que países ricos do hemisfério norte ficam maiores no Mercator? Quem escolheu essa projeção?</li>
+              </ol>
+              <p>O objetivo não é concluir que "o Mercator está errado" — é que o aluno perceba que mapas expressam pontos de vista. A escolha da projeção é política antes de ser técnica.</p>
+            </div>
+          </div>
+
+          <h2 id="ativ-5">Atividade 5 — Antes e depois como argumento histórico</h2>
+
+          <div class="atividade">
+            <div class="atividade-header">
+              <span class="atividade-num">Ativ. 05</span>
+              <span class="atividade-titulo">O que mudou? O que não mudou?</span>
+            </div>
+            <div class="atividade-body">
+              <div class="atividade-meta">
+                <span class="meta-tag">EFII / EM</span>
+                <span class="meta-tag">35–45 min</span>
+                <span class="meta-tag">before-after</span>
+              </div>
+              <p>Lições com <strong>before-after</strong> comparam dois momentos com slider. A armadilha é o aluno apenas observar a diferença sem analisá-la.</p>
+              <ol class="passo-lista">
+                <li>Mostre apenas o "antes". Pergunte: "Descreva o que você vê."</li>
+                <li>Mostre o "depois". Pergunte: "O que mudou? Quantifique se puder."</li>
+                <li>Pergunte: "O que explica essa mudança? Foi inevitável?"</li>
+                <li>Pergunte: "O que ficou igual, apesar do tempo? O que resiste à mudança?"</li>
+              </ol>
+              <p><strong>Exemplo:</strong> Na lição <em>Desigualdade racial no Brasil</em>, o "antes" (2000) e o "depois" (2022) mostram que a brecha de ensino superior se reduziu mas a violência piorou. Pergunte: "Por que políticas de cotas funcionaram para a universidade mas não para a violência? O que as diferencia?"</p>
+            </div>
+          </div>
+
+          <!-- ── Perguntas frequentes ── -->
+          <h2 id="perguntas">Perguntas frequentes</h2>
+
+          <h3>O Humboldt precisa de internet?</h3>
+          <p>Para a primeira abertura, sim — carrega as fontes do Google Fonts e os arquivos do projeto. Depois, funciona completamente offline se o browser tiver os arquivos em cache. Para garantir, abra o atlas com conexão antes da aula.</p>
+
+          <h3>Posso usar apenas uma lição sem seguir a sequência do módulo?</h3>
+          <p>Sim. Cada lição foi escrita para ser autossuficiente. Você pode abrir <em>Refugiados e deslocados</em> sem ter feito as outras lições de População. O conteúdo de cada lição não pressupõe que o aluno fez a anterior.</p>
+
+          <h3>O Modo Professor é visível para o aluno?</h3>
+          <p>Não. O botão "Modo Professor" fica no cabeçalho principal do atlas. Quando ativado, revela as informações de professor em todas as lições abertas. O aluno veria as mesmas informações se apertasse o botão — mas precisa saber que ele existe.</p>
+
+          <h3>Posso usar em celular?</h3>
+          <p>Sim. O atlas é responsivo. Atividades de mapa são otimizadas para toque. Em telas muito pequenas (abaixo de 360px) alguns elementos de interface podem ficar comprimidos, mas o conteúdo é acessível.</p>
+
+          <h3>As atividades têm "resposta certa"?</h3>
+          <p>As de <span class="tipo-badge">single-choice</span> e <span class="tipo-badge">map-click</span> têm resposta correta definida, com feedback específico para cada opção. As de <span class="tipo-badge">layer-toggle</span>, <span class="tipo-badge">flow-map</span> e <span class="tipo-badge">before-after</span> têm feedback contextual que analisa o que o aluno observou — sem certo ou errado binário.</p>
+
+          <!-- ── Limitações ── -->
+          <h2 id="limitacoes">Limitações</h2>
+
+          <p>O Humboldt não é uma ferramenta completa. É honesto sobre isso.</p>
+
+          <ul>
+            <li><strong>Os mapas são esquemáticos.</strong> Não são mapas de precisão cartográfica — são instrumentos pedagógicos. Fronteiras aproximadas, sem detalhamento topográfico.</li>
+            <li><strong>O conteúdo é estático.</strong> Dados de PIB, população e conflitos têm data de corte. O professor deve contextualizar eventos muito recentes.</li>
+            <li><strong>Não há progressão automática.</strong> O Humboldt não rastreia o progresso do aluno entre sessões. Não há gamificação, pontos ou certificados.</li>
+            <li><strong>O currículo não é completo.</strong> 102 lições cobrem os conceitos centrais — não são o currículo inteiro de nenhum ano.</li>
+          </ul>
+
+          <div class="aviso">Comunicar essas limitações para os alunos é parte do aprendizado. Um aluno que entende o que uma ferramenta pode e não pode fazer aprende mais do que um aluno que acredita que a ferramenta tem tudo.</div>
+
+        </div><!-- /.content-card -->
+      </div><!-- /.guia-content -->
+
+    </div><!-- /.guia-wrapper -->
+  </main>
+
+  <footer style="background:var(--color-bg-panel);border-top:1px solid var(--color-border);padding:var(--space-6);text-align:center;">
+    <p style="font-family:var(--font-mono);font-size:var(--size-xs);color:var(--color-text-muted);margin:0;letter-spacing:var(--tracking-wide);">
+      Humboldt v0.8 &mdash; <a href="sobre.html" style="color:var(--color-primary);">Sobre o projeto</a> &mdash; <a href="plano-aula.html" style="color:var(--color-primary);">Gerar plano de aula</a>
+    </p>
+  </footer>
+
+</body>
+</html>

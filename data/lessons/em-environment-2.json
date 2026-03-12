@@ -3,7 +3,7 @@
   "moduleId": "em-environment",
   "title": "Biomas ameaçados e perda de biodiversidade",
   "summary": "A sexta extinção em massa e os principais ecossistemas sob pressão.",
-  "activityType": "single-choice",
+  "activityType": "layer-toggle",
   "phenomenon": {
     "title": "Estamos na sexta extinção em massa da história da vida na Terra — e a primeira causada por uma espécie.",
     "text": "As extinções anteriores foram causadas por asteroides, vulcanismo ou glaciações. A atual é causada pela expansão humana: desmatamento, agricultura, urbanização, caça, poluição e mudança climática. A taxa atual de extinção é 100 a 1.000 vezes maior que a taxa de fundo natural. Espécies desaparecem antes de serem descobertas."
@@ -29,36 +29,38 @@
   },
   "application": "Pesquise: qual é o bioma da sua região? Qual é o percentual ainda preservado? Quais são as principais ameaças locais?",
   "activity": {
-    "question": "O que são 'serviços ecossistêmicos'?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "funcoes-natureza",
-    "options": [
+    "question": "Use as camadas para relacionar: onde há mais desmatamento? Como isso se relaciona com o agronegócio, a pressão demográfica e a proteção legal?",
+    "type": "layer-toggle",
+    "layers": [
       {
-        "value": "funcoes-natureza",
-        "label": "As funções que os ecossistemas desempenham para o bem-estar humano — regulação do clima, purificação da água, polinização"
+        "id": "biomas",
+        "label": "Biomas originais",
+        "visible": true
       },
       {
-        "value": "parques",
-        "label": "Os serviços oferecidos em parques nacionais e áreas de proteção ambiental"
+        "id": "desmatamento",
+        "label": "Desmatamento acumulado",
+        "visible": false
       },
       {
-        "value": "turismo",
-        "label": "O turismo ecológico como atividade econômica sustentável"
+        "id": "agronegocio",
+        "label": "Expansão do agronegócio",
+        "visible": false
       },
       {
-        "value": "carbono",
-        "label": "O mercado de créditos de carbono para compensar emissões"
+        "id": "uc",
+        "label": "Unidades de Conservação",
+        "visible": false
       }
     ],
     "feedback": {
-      "correct": "Correto! Serviços ecossistêmicos são os benefícios que a natureza fornece gratuitamente — e que seriam impossíveis ou imensamente caros de substituir tecnologicamente.",
-      "incorrect": "Serviços ecossistêmicos são muito mais amplos que turismo ou créditos de carbono. São as funções vitais que os ecossistemas prestam automaticamente."
+      "correct": "Mata Atlântica: 87% desmatada (área de colonização histórica). Cerrado: 50% desmatado (expansão recente do agronegócio). Amazônia: 20% desmatada (menor, mas acelerando). As UCs funcionam como barreiras — onde há proteção legal efetiva, o desmatamento é menor.",
+      "incorrect": "Compare biomas originais com desmatamento acumulado. Qual bioma perdeu mais? A sobreposição com agronegócio e UCs revela os fatores de proteção e pressão."
     },
     "hints": [
       {
         "type": "text",
-        "content": "O que as abelhas fazem? O que as árvores fazem pela chuva? O que os rios fazem pela água potável? Tudo isso são serviços da natureza."
+        "content": "Mata Atlântica cobre o litoral — área de colonização desde 1500. Cerrado cobre o interior — expandido pelo agronegócio nos anos 1980-2000. Qual tinha mais tempo para ser destruído?"
       }
     ]
   },

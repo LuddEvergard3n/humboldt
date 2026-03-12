@@ -3,7 +3,7 @@
   "moduleId": "em-geopolitics",
   "title": "China e EUA: a rivalidade que define o século XXI",
   "summary": "A competição entre as duas maiores potências e suas implicações globais.",
-  "activityType": "single-choice",
+  "activityType": "map-click",
   "phenomenon": {
     "title": "Os EUA e a China têm a maior relação comercial bilateral do mundo — e são rivais geopolíticos.",
     "text": "Em 2023, EUA e China trocaram US$ 665 bilhões em comércio — a maior parceria bilateral do planeta. Ao mesmo tempo, os EUA impõem sanções a empresas chinesas de chips, a China financia países para reduzir dependência do dólar, e militares dos dois países se confrontam no Mar do Sul da China. Uma rivalidade entre países que não podem se dar ao luxo de se desconectar."
@@ -28,36 +28,24 @@
   },
   "application": "Pesquise: como a rivalidade EUA-China afeta o Brasil? Quem é o maior parceiro comercial do Brasil — EUA ou China? O que isso significa para a política externa brasileira?",
   "activity": {
-    "question": "Por que Taiwan é um ponto crítico na rivalidade EUA-China?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "chips-soberania",
-    "options": [
-      {
-        "value": "chips-soberania",
-        "label": "Taiwan fabrica os chips mais avançados do mundo — controlar Taiwan significa controlar componente crítico da economia global"
-      },
-      {
-        "value": "militar",
-        "label": "Taiwan tem a segunda maior força militar da Ásia"
-      },
-      {
-        "value": "estreito",
-        "label": "O Estreito de Taiwan controla todas as rotas marítimas do Pacífico"
-      },
-      {
-        "value": "democracia",
-        "label": "Taiwan é a única democracia da Ásia e um símbolo político"
-      }
+    "question": "Clique nos países que fazem parte da \"Iniciativa Cinturão e Rota\" (Belt and Road Initiative) da China — o maior projeto de infraestrutura geopolítica do século XXI.",
+    "type": "map-click",
+    "targets": [
+      "paquistao",
+      "quenia",
+      "ethiopia",
+      "indonesia",
+      "kazaquistao",
+      "grécia"
     ],
     "feedback": {
-      "correct": "Correto! A TSMC em Taiwan fabrica chips que não existe equivalente nos EUA, China ou Europa. Quem controla Taiwan potencialmente controla o componente mais crítico da economia digital global.",
-      "incorrect": "A dimensão econômica e tecnológica é central. Taiwan fabrica os chips mais avançados do mundo — tornando seu controle estrategicamente vital."
+      "correct": "A BRI conecta Ásia, África e Europa via portos, ferrovias e dutos — 140 países participam. É a maior iniciativa de diplomacia de infraestrutura da história, desafiando a hegemonia financeira ocidental (Banco Mundial, FMI) com investimentos diretos sem exigências de \"boa governança\".",
+      "incorrect": "A BRI inclui principalmente países do Sul Global na Ásia, África e leste europeu. Busque países que receberam investimentos chineses em portos, ferrovias e usinas nos últimos 20 anos."
     },
     "hints": [
       {
         "type": "text",
-        "content": "Todo smartphone, computador e carro moderno usa chips. 90% dos chips mais avançados vêm de onde?"
+        "content": "A rota original da Seda ia da China ao Mediterrâneo. A nova rota vai da China ao Oceano Índico, à África oriental e à Europa pelo Mediterrâneo. Quais países ficam nesse caminho?"
       }
     ]
   },

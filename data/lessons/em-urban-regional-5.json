@@ -1,0 +1,85 @@
+{
+  "id": "em-urban-regional-5",
+  "moduleId": "em-urban-regional",
+  "title": "Desenvolvimento regional desigual: por que o Brasil é tão heterogêneo",
+  "summary": "Norte e Nordeste vs. Sul e Sudeste — causas históricas e perspectivas.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "O PIB per capita do Distrito Federal é 4 vezes maior que o do Maranhão — dentro do mesmo país",
+    "text": "O Brasil é, internamente, um dos países mais desiguais do mundo em termos regionais. O DF tem PIB per capita comparável a países europeus de renda média. O Maranhão tem PIB per capita de país subsaariano. São estados do mesmo país, sob a mesma constituição, com acesso ao mesmo mercado nacional. O que explica essa diferença de 400%? A resposta está em séculos de investimentos desiguais, exploração seletiva e abandono deliberado de certas regiões."
+  },
+  "guided": {
+    "title": "Desenvolvimento regional desigual no Brasil",
+    "text": "A desigualdade regional brasileira é estrutural — produto de escolhas históricas de onde o Estado e o capital investiram.",
+    "points": [
+      "Herança colonial: Nordeste foi o centro econômico colonial (cana, algodão), depois abandonado quando o eixo econômico migrou para o Sudeste (café, indústria).",
+      "Industrialização concentrada: as políticas industriais de Vargas e JK concentraram fábricas no eixo SP-RJ-MG.",
+      "SUDENE: criada em 1959 para reduzir desigualdade regional — parcialmente eficaz, depois desmontada.",
+      "Transferência de renda: Bolsa Família, aposentadorias rurais e Previdência são hoje os maiores transferidores de renda para o Nordeste.",
+      "Agronegócio no Centro-Oeste: expansão do Cerrado criou nova região rica nos anos 1980-2000 (Mato Grosso, Goiás).",
+      "Divergência Norte: Amazônia tem recursos imensos mas base econômica frágil e infraestrutura precária."
+    ]
+  },
+  "relations": {
+    "title": "A migração como resposta à desigualdade",
+    "text": "Durante o século XX, o Nordeste exportou mão de obra para o Sudeste — São Paulo tem mais nordestinos que qualquer cidade do Nordeste exceto Fortaleza e Salvador. Essa migração foi a resposta individual a uma falha coletiva: o Estado não levou desenvolvimento ao Nordeste, então o Nordeste mandou seus trabalhadores para onde o desenvolvimento estava. As remessas enviadas de volta sustentaram economias locais por décadas — antes do Bolsa Família, eram a principal renda de municípios inteiros."
+  },
+  "caseStudy": {
+    "title": "Zona Franca de Manaus: ilha industrial na floresta",
+    "text": "Em 1967, o governo criou a Zona Franca de Manaus — área com isenção fiscal para atrair indústrias para a Amazônia. Funcionou: Manaus tem a maior produção de motocicletas do Brasil e fábricas de eletroeletrônicos. Mas é uma ilha: o desenvolvimento não se espalhou pelo Amazonas. E o custo fiscal é US$ 10 bilhões por ano em isenções — dinheiro que não vai para educação, saúde e infraestrutura do resto do país."
+  },
+  "application": "Pesquise: o que é o FUNDEB e o FPM (Fundo de Participação dos Municípios)? Como eles tentam reduzir desigualdades regionais? Funcionam?",
+  "activity": {
+    "question": "Observe os fluxos migratórios internos do Brasil. De onde partem e para onde vão? O que isso diz sobre o desenvolvimento regional?",
+    "type": "flow-map",
+    "flows": [
+      {
+        "from": "Nordeste",
+        "to": "São Paulo",
+        "value": 3200000,
+        "label": "3,2M (1950–2000)"
+      },
+      {
+        "from": "Nordeste",
+        "to": "Rio de Janeiro",
+        "value": 1100000,
+        "label": "1,1M"
+      },
+      {
+        "from": "Nordeste",
+        "to": "Brasília",
+        "value": 400000,
+        "label": "400K"
+      },
+      {
+        "from": "Norte/CO",
+        "to": "São Paulo",
+        "value": 600000,
+        "label": "600K"
+      },
+      {
+        "from": "Sul",
+        "to": "Centro-Oeste",
+        "value": 900000,
+        "label": "900K (agronegócio)"
+      }
+    ],
+    "feedback": {
+      "correct": "Os fluxos partem das regiões menos desenvolvidas (Nordeste, Norte) em direção ao eixo industrial (SP, RJ) ou à nova fronteira agrícola (Centro-Oeste). Migração é a resposta individual à desigualdade regional.",
+      "incorrect": "De onde partem os maiores fluxos? Para onde vão? A origem dos fluxos coincide com as regiões de menor PIB per capita?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Nordeste tem menor PIB per capita e manda mais migrantes. São Paulo tem maior PIB e recebe mais. A migração segue o gradiente de oportunidade."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa o desenvolvimento regional desigual do Brasil identificando causas históricas, mecanismos de persistência e instrumentos de política regional.",
+    "observe": "Evite determinismo geográfico: a desigualdade regional não é \"culpa do clima\" ou da natureza — é produto de escolhas políticas e econômicas.",
+    "answer": "Nordeste → SP/RJ: resposta à desindustrialização regional. Sul → Centro-Oeste: atração da fronteira agrícola. Migração segue o gradiente de oportunidade.",
+    "mediation": "Pergunte: \"Se o governo investisse em industrialização no Ceará tanto quanto investiu em São Paulo nos anos 1950, o Brasil seria igual hoje?\"",
+    "time": "50 minutos"
+  }
+}

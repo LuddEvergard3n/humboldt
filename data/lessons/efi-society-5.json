@@ -1,0 +1,73 @@
+{
+  "id": "efi-society-5",
+  "moduleId": "efi-society",
+  "title": "Direitos e deveres: como vivemos juntos",
+  "summary": "Por que existem regras, quem as cria e como elas organizam o espaço que compartilhamos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Uma rua sem sinal de trânsito: o que aconteceria?",
+    "text": "Imagine que você mora numa rua onde os carros podem ir em qualquer velocidade, para qualquer lado, a qualquer hora. Sem placas, sem faixas, sem semáforos. Parece caos — e seria. As regras de convivência existem porque compartilhamos espaços. Quanto mais pessoas num lugar, mais regras são necessárias. A cidade é o maior exemplo de espaço compartilhado que existe — e por isso tem mais regras do que o campo."
+  },
+  "guided": {
+    "title": "Direitos, deveres e cidadania",
+    "text": "Viver em sociedade significa ter direitos (o que você pode receber) e deveres (o que você deve fazer).",
+    "points": [
+      "Direitos: coisas a que você tem direito por ser cidadão — saúde, educação, moradia, segurança, transporte.",
+      "Deveres: coisas que você deve fazer — pagar impostos, respeitar as regras, preservar espaços públicos.",
+      "Espaço público: ruas, praças, parques, escolas — pertencem a todos e devem ser cuidados por todos.",
+      "Espaço privado: sua casa, sua escola particular — pertence a alguém específico.",
+      "Cidadania: participar ativamente da vida da sua comunidade — votar, reivindicar, cuidar, propor.",
+      "Constituição: o documento principal que define os direitos e deveres dos cidadãos brasileiros (aprovada em 1988)."
+    ]
+  },
+  "relations": {
+    "title": "Quando os direitos não chegam para todos",
+    "text": "No Brasil, nem todos recebem os mesmos direitos na prática. Uma criança que mora numa favela tem, no papel, os mesmos direitos à educação e saúde que uma criança de bairro rico. Mas a escola da favela costuma ter menos recursos, o hospital mais distante, a rua sem asfalto. A diferença entre o direito no papel e o direito na prática é o centro de muitos debates sobre justiça social no Brasil."
+  },
+  "caseStudy": {
+    "title": "A praça como espaço de direitos",
+    "text": "Praças públicas são de todos — qualquer pessoa pode usar, independente de cor, renda ou classe social. Mas na prática, praças em bairros ricos têm mais árvores, brinquedos, iluminação e segurança. Praças em bairros pobres têm menos investimento público. A desigualdade dos espaços públicos revela a desigualdade da cidade."
+  },
+  "application": "Observe a praça ou espaço público mais próximo da sua escola. Está bem cuidado? Tem iluminação, árvores, brinquedos? Quem é responsável por manter esse espaço?",
+  "activity": {
+    "question": "O que é um \"espaço público\"?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "todos",
+    "options": [
+      {
+        "value": "todos",
+        "label": "Um espaço que pertence a todos os cidadãos e pode ser usado por qualquer pessoa"
+      },
+      {
+        "value": "governo",
+        "label": "Um espaço que pertence ao governo e só pode ser usado com autorização"
+      },
+      {
+        "value": "gratuito",
+        "label": "Qualquer espaço que não cobra entrada"
+      },
+      {
+        "value": "grande",
+        "label": "Um espaço grande o suficiente para receber muitas pessoas"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Espaço público pertence a toda a comunidade — praça, rua, parque, escola pública. Qualquer cidadão tem o direito de usá-lo.",
+      "incorrect": "Público significa \"de todos\". Não é só do governo — é da sociedade. Você tem o direito de usar e o dever de cuidar."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "A palavra \"público\" vem do latim \"populus\" — povo. Espaço público = espaço do povo = espaço de todos."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno distingue direitos de deveres, identifica espaços públicos e privados, e compreende que cidadania é participação ativa na vida coletiva.",
+    "observe": "Conecte com a realidade do aluno: a escola é pública? A rua na frente da escola é bem cuidada? Quem deveria cuidar?",
+    "answer": "Espaço público: pertence a toda a comunidade e pode ser usado por qualquer cidadão.",
+    "mediation": "Pergunte: \"Se a praça da cidade está suja, de quem é a culpa? De quem é o dever de limpar? Você pode fazer alguma coisa?\"",
+    "time": "50 minutos"
+  }
+}

@@ -75,13 +75,13 @@
     "moduleId": "economy",
     "title": "Comércio internacional e divisão do trabalho",
     "summary": "Por que os países se especializam e como o comércio global é organizado.",
-    "activityType": "single-choice"
+    "activityType": "flow-map"
   },
   "economy-3": {
     "moduleId": "economy",
     "title": "Desigualdade econômica global: Norte, Sul e as exceções",
     "summary": "A distribuição da riqueza entre países e os mecanismos que perpetuam a desigualdade.",
-    "activityType": "single-choice"
+    "activityType": "layer-toggle"
   },
   "economy-4": {
     "moduleId": "economy",
@@ -183,6 +183,18 @@
     "moduleId": "efi-society",
     "title": "Comunidade e convivência: espaços compartilhados",
     "summary": "Espaços públicos, direitos e responsabilidades coletivas.",
+    "activityType": "single-choice"
+  },
+  "efi-society-4": {
+    "moduleId": "efi-society",
+    "title": "Festa, tradição e identidade cultural",
+    "summary": "Como cada lugar tem sua própria cultura — e como isso nos une e nos diferencia.",
+    "activityType": "single-choice"
+  },
+  "efi-society-5": {
+    "moduleId": "efi-society",
+    "title": "Direitos e deveres: como vivemos juntos",
+    "summary": "Por que existem regras, quem as cria e como elas organizam o espaço que compartilhamos.",
     "activityType": "single-choice"
   },
   "efii-africa-1": {
@@ -333,7 +345,7 @@
     "moduleId": "em-brazil-challenges",
     "title": "Brasil: desafios socioambientais do século XXI",
     "summary": "Desmatamento, saneamento, mudança climática e a posição ambiental do Brasil no mundo.",
-    "activityType": "single-choice"
+    "activityType": "layer-toggle"
   },
   "em-brazil-challenges-2": {
     "moduleId": "em-brazil-challenges",
@@ -345,7 +357,7 @@
     "moduleId": "em-brazil-challenges",
     "title": "Desigualdade social e racial no espaço brasileiro",
     "summary": "Como raça, gênero e classe determinam o acesso ao espaço e às oportunidades.",
-    "activityType": "single-choice"
+    "activityType": "before-after"
   },
   "em-brazil-challenges-4": {
     "moduleId": "em-brazil-challenges",
@@ -371,6 +383,18 @@
     "summary": "Como identificar e interpretar padrões espaciais em dados geográficos.",
     "activityType": "single-choice"
   },
+  "em-cartography-4": {
+    "moduleId": "em-cartography",
+    "title": "Sensoriamento remoto: ler a Terra de cima",
+    "summary": "Satélites, drones e imagens de radar que revelam o que o olho humano não enxerga.",
+    "activityType": "before-after"
+  },
+  "em-cartography-5": {
+    "moduleId": "em-cartography",
+    "title": "Mapa como argumento: cartografia crítica e poder",
+    "summary": "Todo mapa faz escolhas — e essas escolhas têm consequências políticas.",
+    "activityType": "single-choice"
+  },
   "em-environment-1": {
     "moduleId": "em-environment",
     "title": "Mudança climática: ciência, impactos e negacionismo",
@@ -381,7 +405,7 @@
     "moduleId": "em-environment",
     "title": "Biomas ameaçados e perda de biodiversidade",
     "summary": "A sexta extinção em massa e os principais ecossistemas sob pressão.",
-    "activityType": "single-choice"
+    "activityType": "layer-toggle"
   },
   "em-environment-3": {
     "moduleId": "em-environment",
@@ -393,7 +417,7 @@
     "moduleId": "em-environment",
     "title": "Transição energética: do petróleo às renováveis",
     "summary": "A mudança na matriz energética global e suas implicações geopolíticas.",
-    "activityType": "single-choice"
+    "activityType": "before-after"
   },
   "em-geopolitics-1": {
     "moduleId": "em-geopolitics",
@@ -405,7 +429,7 @@
     "moduleId": "em-geopolitics",
     "title": "China e EUA: a rivalidade que define o século XXI",
     "summary": "A competição entre as duas maiores potências e suas implicações globais.",
-    "activityType": "single-choice"
+    "activityType": "map-click"
   },
   "em-geopolitics-3": {
     "moduleId": "em-geopolitics",
@@ -417,7 +441,7 @@
     "moduleId": "em-geopolitics",
     "title": "Conflitos do século XXI: novas formas de guerra",
     "summary": "Guerras híbridas, ciberguerra, terrorismo e conflitos por recursos.",
-    "activityType": "single-choice"
+    "activityType": "map-click"
   },
   "em-urban-regional-1": {
     "moduleId": "em-urban-regional",
@@ -436,6 +460,18 @@
     "title": "Políticas territoriais e o Estado como agente espacial",
     "summary": "Como o Estado transforma o território — estradas, usinas, planos e suas consequências.",
     "activityType": "single-choice"
+  },
+  "em-urban-regional-4": {
+    "moduleId": "em-urban-regional",
+    "title": "Mobilidade urbana: quem pode se mover na cidade",
+    "summary": "Transporte público, desigualdade de acesso e o direito à cidade.",
+    "activityType": "layer-toggle"
+  },
+  "em-urban-regional-5": {
+    "moduleId": "em-urban-regional",
+    "title": "Desenvolvimento regional desigual: por que o Brasil é tão heterogêneo",
+    "summary": "Norte e Nordeste vs. Sul e Sudeste — causas históricas e perspectivas.",
+    "activityType": "flow-map"
   },
   "geopolitics-1": {
     "moduleId": "geopolitics",

@@ -42,10 +42,10 @@ O aluno deve conseguir entender, por exemplo:
 
 | Nível | Módulos | Lições |
 |-------|---------|--------|
-| EFI   | 4       | 16     |
-| EFII  | 12      | 52     |
-| EM    | 6       | 28     |
-| **Total** | **22** | **96** |
+| EFI   | 4       | 18     |
+| EFII  | 12      | 58     |
+| EM    | 6       | 26     |
+| **Total** | **22** | **102** |
 
 ### Módulos por nível
 
@@ -54,7 +54,7 @@ O aluno deve conseguir entender, por exemplo:
 |---|--------|--------|
 | 1 | O Lugar onde Vivemos | 5 |
 | 2 | Paisagem e Ambiente | 4 |
-| 3 | Sociedade e Espaço | 3 |
+| 3 | Sociedade e Espaço | 5 |
 | 4 | Brasil: meu país | 4 |
 
 #### Ensino Fundamental II (EFII)
@@ -79,19 +79,19 @@ O aluno deve conseguir entender, por exemplo:
 | 17 | Economia e Globalização | 4 |
 | 18 | Meio Ambiente e Crise Climática | 4 |
 | 19 | Geopolítica Contemporânea | 4 |
-| 20 | Espaço Urbano-Regional | 3 |
-| 21 | Cartografia Crítica | 3 |
+| 20 | Espaço Urbano-Regional | 5 |
+| 21 | Cartografia Crítica | 5 |
 | 22 | Brasil no Século XXI | 4 |
 
 ### Tipos de atividade
 
 | Tipo | Descrição | Lições |
 |------|-----------|--------|
-| `single-choice` | Múltipla escolha com feedback e dica | 77 |
-| `layer-toggle` | Ligar/desligar camadas no mapa | 5 |
-| `map-click` | Clicar em regiões do mapa | 4 |
-| `flow-map` | Mapa de fluxos animados | 4 |
-| `before-after` | Comparação temporal com slider | 3 |
+| `single-choice` | Múltipla escolha com feedback e dica | 72 |
+| `layer-toggle` | Ligar/desligar camadas no mapa | 9 |
+| `map-click` | Clicar em regiões do mapa | 6 |
+| `flow-map` | Mapa de fluxos animados | 6 |
+| `before-after` | Comparação temporal com slider | 6 |
 | `compass` | Rosa dos ventos interativa | 2 |
 | `scale` | Slider de escala cartográfica | 1 |
 

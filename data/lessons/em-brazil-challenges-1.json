@@ -3,7 +3,7 @@
   "moduleId": "em-brazil-challenges",
   "title": "Brasil: desafios socioambientais do século XXI",
   "summary": "Desmatamento, saneamento, mudança climática e a posição ambiental do Brasil no mundo.",
-  "activityType": "single-choice",
+  "activityType": "layer-toggle",
   "phenomenon": {
     "title": "O Brasil tem 60% das florestas tropicais do mundo — e o maior potencial do planeta para ser a solução climática.",
     "text": "O Brasil abriga a Amazônia, o Pantanal, o Cerrado, a Mata Atlântica, a Caatinga e os Pampas. É a maior potência em biodiversidade e recursos hídricos do planeta. Ao mesmo tempo, está entre os maiores desmatadores e emissores de gases de efeito estufa do mundo. Essa contradição não é acidente — é o campo de batalha central da política ambiental brasileira."
@@ -29,36 +29,38 @@
   },
   "application": "Pesquise: quais são as principais metas do Brasil no Acordo de Paris? O Brasil está cumprindo essas metas? O que as organizações ambientais dizem sobre o desempenho brasileiro?",
   "activity": {
-    "question": "Por que o desmatamento do Cerrado é considerado tão preocupante quanto o da Amazônia, apesar de receber menos atenção?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "agua-biodiversidade",
-    "options": [
+    "question": "Use as camadas para analisar onde os desafios socioambientais do Brasil se concentram. Há sobreposição entre pobreza, vulnerabilidade climática e pressão sobre biomas?",
+    "type": "layer-toggle",
+    "layers": [
       {
-        "value": "agua-biodiversidade",
-        "label": "O Cerrado é o berço das águas do Brasil e tem altíssima biodiversidade endêmica — e já perdeu 50% de sua cobertura"
+        "id": "pobreza",
+        "label": "Índice de pobreza municipal",
+        "visible": true
       },
       {
-        "value": "fogo",
-        "label": "O Cerrado pega fogo mais facilmente que a Amazônia"
+        "id": "clima",
+        "label": "Vulnerabilidade climática",
+        "visible": false
       },
       {
-        "value": "tamanho",
-        "label": "O Cerrado é maior que a Amazônia"
+        "id": "desmatamento",
+        "label": "Pressão sobre biomas",
+        "visible": false
       },
       {
-        "value": "populacao",
-        "label": "Mais pessoas vivem no Cerrado do que na Amazônia"
+        "id": "conflitos-terra",
+        "label": "Conflitos fundiários",
+        "visible": false
       }
     ],
     "feedback": {
-      "correct": "Correto! O Cerrado alimenta os principais rios brasileiros (São Francisco, Tocantins, Paraná) e tem 5% das espécies do planeta — com alto grau de endemismo. Já perdeu metade — e recebe muito menos proteção legal e atenção que a Amazônia.",
-      "incorrect": "O Cerrado é menor que a Amazônia, mas sua função hídrica (nascentes dos principais rios brasileiros) e sua biodiversidade são razões suficientes para preocupação crítica."
+      "correct": "As camadas se sobrepõem: municípios mais pobres estão em regiões de maior vulnerabilidade climática (Nordeste semiárido, Amazônia) e maior pressão sobre biomas. Os conflitos fundiários concentram-se nas fronteiras agrícolas — onde o capital avança sobre territórios tradicionais.",
+      "incorrect": "Sobreponha pobreza e vulnerabilidade climática. Os municípios mais pobres estão nas regiões mais ou menos vulneráveis ao clima? Essa sobreposição é coincidência?"
     },
     "hints": [
       {
         "type": "text",
-        "content": "De onde vêm as águas do Rio São Francisco? E do Paraná? E do Tocantins? Onde esses rios nascem?"
+        "content": "Sertão nordestino: seca crescente + pobreza histórica. Amazônia: desmatamento + populações tradicionais vulneráveis. A injustiça climática também tem dimensão espacial interna."
       }
     ]
   },

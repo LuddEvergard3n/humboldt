@@ -95,6 +95,7 @@
 html {
   font-size: 16px; /* fixo — JS ajusta --font-scale em elementos específicos */
   scroll-behavior: smooth;
+  color-scheme: light; /* impede que o browser force dark mode */
 }
 
 /* Garante que [hidden] nunca seja sobrescrito por regras de display */
@@ -218,7 +219,8 @@ input, select, textarea {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);          /* fallback IE */
+  clip-path: inset(50%);        /* moderno */
   white-space: nowrap;
   border: 0;
 }

@@ -38,7 +38,7 @@
       "tagline": "Modos de vida, comunidade e como as pessoas organizam o espaço.",
       "objective": "O aluno descreve modos de vida de diferentes comunidades, classifica atividades econômicas nos três setores e compreende a função dos espaços públicos.",
       "order": 3,
-      "lessons": 3,
+      "lessons": 5,
       "scales": [
         "local",
         "nacional"
@@ -353,7 +353,7 @@
       "tagline": "Planejamento urbano, desequilíbrios regionais e políticas territoriais.",
       "objective": "O aluno compreende os instrumentos de planejamento urbano e analisa a desigualdade regional brasileira.",
       "order": 22,
-      "lessons": 3,
+      "lessons": 5,
       "scales": [
         "local",
         "regional",
@@ -373,7 +373,7 @@
       "tagline": "Cartografia temática, geoprocessamento e análise espacial.",
       "objective": "O aluno aplica métodos de cartografia temática e análise espacial para interpretar fenômenos geográficos.",
       "order": 23,
-      "lessons": 3,
+      "lessons": 5,
       "scales": [
         "local",
         "regional",

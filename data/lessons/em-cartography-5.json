@@ -1,0 +1,73 @@
+{
+  "id": "em-cartography-5",
+  "moduleId": "em-cartography",
+  "title": "Mapa como argumento: cartografia crítica e poder",
+  "summary": "Todo mapa faz escolhas — e essas escolhas têm consequências políticas.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O mapa de Peters mostrou que a projeção Mercator distorce a África — e causou escândalo",
+    "text": "Em 1973, Arno Peters lançou um mapa com projeção que preservava as áreas corretas dos países. O resultado foi chocante: a África, que no Mercator parecia menor que a Europa, era revelada como 14 vezes maior que a Europa Ocidental. O mapa Peters foi boicotado por cartógrafos europeus, adotado pela ONU e pelas igrejas protestantes como símbolo de justiça geográfica. Um mapa causou um debate político que durou décadas."
+  },
+  "guided": {
+    "title": "Cartografia crítica: o mapa como discurso",
+    "text": "Todo mapa é uma representação parcial — feita por alguém, com algum propósito, a partir de algum ponto de vista.",
+    "points": [
+      "Projeção cartográfica: toda representação de uma esfera numa superfície plana distorce algo — área, forma, distância ou direção. Não existe mapa perfeito.",
+      "Mercator (1569): preserva formas (útil para navegação), distorce áreas — países próximos ao equador parecem menores do que são.",
+      "Peters/Gall-Peters: preserva áreas, distorce formas — adotada por organizações de desenvolvimento como símbolo de representação justa.",
+      "Mapa e poder: quem está no centro do mapa? Quem está na periferia? O norte sempre no topo é uma escolha, não uma lei.",
+      "Cartografia participativa: comunidades indígenas e periféricas que mapeiam seus próprios territórios — contra-narrativa ao mapa oficial.",
+      "Dados ausentes: o que não aparece no mapa também é informação — territórios invisíveis, populações não contadas."
+    ]
+  },
+  "relations": {
+    "title": "Mapas que conquistaram territórios",
+    "text": "Os mapas coloniais não eram apenas representações — eram instrumentos de posse. Cartografar era reivindicar: ao nomear um rio em português ou inglês, ao marcar fronteiras sem consultar povos locais, os colonizadores inscreviam sua soberania no papel antes de exercê-la no território. A Conferência de Berlim (1884) dividiu a África em uma mesa, com mapas — e os africanos não estavam na sala. Mapas criaram realidades políticas."
+  },
+  "caseStudy": {
+    "title": "Mapa indígena do Xingu: quando o território se defende com cartografia",
+    "text": "Na disputa pela demarcação do Parque Indígena do Xingu, povos indígenas contrataram geógrafos para mapear seu território com GPS e conhecimento oral — marcando locais sagrados, rotas de caça, cemitérios ancestrais. O mapa indígena foi aceito em processos jurídicos e confrontou diretamente o mapa fundiário dos fazendeiros. A cartografia virou arma de defesa territorial."
+  },
+  "application": "Pesquise: o que é o projeto \"Mapa das Terras Indígenas\" do ISA (Instituto Socioambiental)? Como ele usa cartografia para defender direitos?",
+  "activity": {
+    "question": "Por que a projeção de Mercator foi criticada por movimentos por justiça global?",
+    "type": "single-choice",
+    "hintAfter": 1,
+    "correct": "distorce-areas",
+    "options": [
+      {
+        "value": "distorce-areas",
+        "label": "Distorce as áreas dos países — faz países ricos do hemisfério norte parecerem maiores do que realmente são"
+      },
+      {
+        "value": "erros",
+        "label": "Contém erros geográficos sobre localização de países"
+      },
+      {
+        "value": "antiga",
+        "label": "Foi criada no século XVI e não inclui países que surgiram depois"
+      },
+      {
+        "value": "norte",
+        "label": "Coloca o norte no topo, o que é cientificamente incorreto"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto! Na projeção Mercator, a Groenlândia parece do tamanho da África — mas a África é 14 vezes maior. A distorção de áreas faz países ricos do norte parecerem mais importantes e grandes do que são.",
+      "incorrect": "A crítica é sobre tamanho relativo, não localização. Compare a Groenlândia e a África no Mercator. Depois compara as áreas reais."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Pegue um globo e um mapa plano. A Groenlândia no globo é menor que o Brasil. No mapa Mercator, parece maior. Quem está \"errado\"?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende que mapas são construções políticas e culturais, identifica distorções de projeções e reconhece a cartografia como instrumento de poder e resistência.",
+    "observe": "Mostre o mapa invertido de Stuart McArthur ao lado do Mercator. Pergunte: \"Qual é o correto?\" A resposta revela pressupostos sobre o que é \"normal\".",
+    "answer": "Distorce áreas: países ricos do hemisfério norte aparecem maiores do que realmente são em relação a países tropicais.",
+    "mediation": "Mostre lado a lado Mercator e Peters. Pergunte: \"Que decisão política está por trás de usar um ou outro?\"",
+    "time": "50 minutos"
+  }
+}
