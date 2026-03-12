@@ -1,104 +1,170 @@
 # Humboldt — Referência dos Módulos
 
-## Estrutura de um Módulo (modules.json)
+## Inventário atual
+
+| Nível | Módulos | Lições | Formato |
+|-------|---------|--------|---------|
+| EFI   | 4       | 18     | lesson  |
+| EFII  | 12      | 58     | lesson  |
+| EM    | 9       | 39     | lesson  |
+| ES    | 6       | 0      | article |
+| **Total** | **31** | **115** | — |
+
+---
+
+## Estrutura de um módulo (`modules.json`)
 
 ```json
 {
-  "id":            "string — identificador único (slug)",
-  "order":         "number — ordem de exibição",
-  "title":         "string — nome do módulo",
-  "tagline":       "string — descrição curta (uma linha)",
-  "objective":     "string — objetivo pedagógico completo",
-  "concepts":      "string[] — conceitos-chave abordados",
-  "scales":        "string[] — escalas: local|regional|nacional|global",
-  "phenomena":     "string[] — fenômenos: water|climate|migration|energy|border|inequality|transport|city",
-  "lessons":       "number — quantidade de lições",
-  "estimatedTime": "string — tempo estimado para o módulo completo"
+  "id":          "string — slug único (ex: cartography, em-climatology)",
+  "order":       "number — ordem de exibição na home",
+  "title":       "string — nome exibido",
+  "tagline":     "string — descrição curta (uma linha)",
+  "level":       "\"efi\" | \"efii\" | \"em\" | \"es\"",
+  "format":      "\"lesson\" (default, omissível) | \"article\"",
+  "lessons":     "number — 0 para módulos article",
+  "scales":      "string[]",
+  "phenomena":   "string[]"
 }
 ```
 
-## Os 8 Módulos
+O campo `format` distingue dois tipos de módulo:
+- `"lesson"` (ou ausente): lista de lições com atividades. Rota: `#module/{id}`.
+- `"article"`: documento longo sem atividades. Rota: `#article/{id}`. Dados em `data/es/{id}.json`.
 
-### 01 — Cartografia Viva
-**Objetivo:** Ensinar a ler mapa como linguagem.
-**Conceitos:** orientação, escala, legenda, coordenadas, projeções.
-**Escalas:** local, regional, nacional, global.
-**Atividades:** rosa dos ventos, slider de escala, toggle de camadas.
+---
 
-### 02 — Paisagem e Transformação
-**Objetivo:** Ensinar que paisagem é processo, não fotografia.
-**Conceitos:** paisagem natural, paisagem humanizada, uso do solo, transformação.
-**Escalas:** local, regional.
-**Atividades:** antes/depois, análise de imagem.
+## Módulos por nível
 
-### 03 — Brasil Espacial
-**Objetivo:** Compreender o território brasileiro como sistema vivo.
-**Conceitos:** regiões, biomas, rede urbana, desigualdade regional, agronegócio.
-**Escalas:** regional, nacional.
-**Atividades:** mapa clicável de regiões, toggle de camadas de biomas.
+### EFI — Ensino Fundamental I
 
-### 04 — População e Migração
-**Objetivo:** Ensinar dinâmica populacional e fluxos humanos.
-**Conceitos:** crescimento populacional, migração, refugiados, estrutura etária.
-**Escalas:** regional, nacional, global.
-**Atividades:** mapas de fluxo, pirâmide etária.
+| id | Título | Lições |
+|----|--------|--------|
+| `efi-place` | O Lugar Onde Vivemos | 5 |
+| `efi-landscape` | Paisagem e Observação | 4 |
+| `efi-society` | Sociedade e Espaço | 5 |
+| `efi-brazil` | Conhecendo o Brasil | 4 |
 
-### 05 — Cidade, Campo e Trabalho
-**Objetivo:** Mostrar como espaço, produção e sociedade se organizam.
-**Conceitos:** urbanização, periferização, mobilidade urbana, trabalho.
-**Escalas:** local, regional, nacional.
-**Atividades:** expansão urbana antes/depois, relação transporte-habitação.
+### EFII — Ensino Fundamental II
 
-### 06 — Economia e Globalização
-**Objetivo:** Explicar circulação, rede, comércio e desigualdade global.
-**Conceitos:** blocos econômicos, DIT, fluxos comerciais, corporações.
-**Escalas:** nacional, global.
-**Atividades:** mapas de fluxo comercial, redes globais.
+| id | Título | Lições |
+|----|--------|--------|
+| `efii-concepts` | Conceitos Geográficos | 5 |
+| `cartography` | Cartografia Viva | 5 |
+| `efii-physical` | Geografia Física | 5 |
+| `brazil` | Brasil Espacial | 6 |
+| `efii-americas` | As Américas | 5 |
+| `efii-africa` | África | 4 |
+| `efii-europe` | Europa | 5 |
+| `geopolitics` | Geopolítica | 4 |
+| `population` | População e Migração | 4 |
+| `landscape` | Paisagem e Transformação | 5 |
+| `urbanization` | Urbanização | 5 |
+| `globalization` | Globalização | 5 |
 
-### 07 — Geopolítica
-**Objetivo:** Ensinar território, fronteira, guerra, energia e poder.
-**Conceitos:** Estado, soberania, fronteira, conflito, recursos.
-**Escalas:** regional, nacional, global.
-**Atividades:** mapa de fluxos de recursos, estudos de caso.
+### EM — Ensino Médio
 
-### 08 — Redes e Globalização
-**Objetivo:** Compreender a globalização como processo desigual.
-**Conceitos:** rede, tecnologia, informação, mundialização, desigualdade.
-**Escalas:** global.
-**Atividades:** mapas de redes, comparações.
+| id | Título | Lições |
+|----|--------|--------|
+| `economy` | Economia e Globalização | 4 |
+| `em-environment` | Meio Ambiente e Sustentabilidade | 4 |
+| `em-geopolitics` | Geopolítica Contemporânea | 4 |
+| `em-urban-regional` | Urbanização e Desenvolvimento Regional | 5 |
+| `em-cartography` | Cartografia Avançada | 5 |
+| `em-brazil-challenges` | Brasil: Desafios do Século XXI | 4 |
+| `em-climatology` | Climatologia | 5 |
+| `em-health-geo` | Geografia da Saúde | 4 |
+| `em-natural-resources` | Recursos Naturais e Conflitos | 4 |
 
-## Estrutura de uma Lição (lessons.json)
+### ES — Ensino Superior (formato article)
+
+| id | Título | Seções |
+|----|--------|--------|
+| `es-epistemology` | Correntes do Pensamento Geográfico | 7 |
+| `es-space-theory` | Teoria do Espaço Geográfico | 6 |
+| `es-geopolitics-classic` | Geopolítica Clássica e Contemporânea | 7 |
+| `es-cartography-critic` | Cartografia Crítica | 7 |
+| `es-economic-geography` | Geografia Econômica | 7 |
+| `es-methodology` | Metodologia em Geografia | 6 |
+
+---
+
+## Schema de lição (`data/lessons/{id}.json`)
 
 ```json
 {
-  "id":           "string — moduleId-N (ex: cartography-1)",
-  "moduleId":     "string — referência ao módulo",
+  "id":           "moduleId-N",
+  "moduleId":     "string",
   "title":        "string",
-  "summary":      "string — descrição curta para listagem",
+  "summary":      "string",
   "activityType": "compass|scale|layer-toggle|before-after|flow-map|map-click|single-choice",
   "phenomenon":   { "title": "string", "text": "string" },
   "guided":       { "title": "string", "text": "string", "points": ["string"] },
   "relations":    { "title": "string", "text": "string" },
   "caseStudy":    { "title": "string", "text": "string" },
   "application":  "string",
-  "layers":       [{ "id": "string", "label": "string", "color": "string", "visible": boolean }],
-  "activity":     { ... varia por tipo ... },
-  "legend":       [{ "color": "string", "label": "string" }],
-  "teacher":      {
-    "objective":  "string",
-    "observe":    "string",
-    "answer":     "string",
-    "mediation":  "string",
-    "time":       "string"
+  "layers":       [{ "id": "string", "label": "string", "color": "string", "visible": true }],
+  "activity": {
+    "type":     "string",
+    "question": "string",
+    "correct":  "string — omitido para: layer-toggle|flow-map|before-after|map-click|compass|scale",
+    "options":  [{ "value": "string", "label": "string" }],
+    "feedback": { "correct": "string", "incorrect": "string" },
+    "hints":    [{ "type": "text|layer", "content": "string", "layerId": "string?" }]
+  },
+  "legend":  [{ "color": "string", "label": "string" }],
+  "teacher": {
+    "objective": "string", "observe": "string",
+    "answer":    "string", "mediation": "string", "time": "string"
   }
 }
 ```
 
-## Adicionando um Novo Módulo
+## Schema de artigo ES (`data/es/{id}.json`)
 
-1. Adicionar entrada em `data/modules.json`
-2. Criar `modules/{id}/index.js` exportando `id`, `title`, `lessonIds`
-3. Adicionar lições em `data/lessons.json` com `moduleId` correspondente
-4. Adicionar o import no mapa de `js/module-loader.js`
-5. Criar SVGs necessários em `assets/maps/`
-6. Executar `node tests/test-runner.js` — todos os testes devem passar
+```json
+{
+  "id":          "string",
+  "title":       "string",
+  "subtitle":    "string",
+  "intro":       "string",
+  "readingTime": "string",
+  "sections": [{
+    "id":    "string (ex: sec-fundadores)",
+    "title": "string",
+    "type":  "text | thinkers | timeline | quote | compare-table",
+    "..."
+  }]
+}
+```
+
+### Tipos de seção
+
+| type | Campos adicionais |
+|------|-------------------|
+| `text` | `body: string` — parágrafos separados por `\n\n` |
+| `quote` | `text, author, work, year` |
+| `thinkers` | `items: [{name, dates, tradition, contribution, quote, quoteWork}]` |
+| `timeline` | `events: [{period, label, description}]` |
+| `compare-table` | `columns: string[]`, `rows: string[][]` |
+
+---
+
+## Adicionando um módulo (lesson)
+
+1. Entrada em `data/modules.json`
+2. `modules/{id}/index.js` exportando `id` e `level`
+3. Lições individuais: `data/lessons/{moduleId}-N.json`
+4. Entrada em `data/lessons/index.json`
+5. Registro em `js/module-loader.js`
+6. SVGs em `assets/maps/` se necessário (ver `docs/map-system.md`)
+7. `node tests/test-runner.js` — todos os testes devem passar
+
+## Adicionando um módulo (article / ES)
+
+1. Entrada em `data/modules.json` com `format: "article"` e `lessons: 0`
+2. `modules/{id}/index.js` exportando `id`, `level`, `format`
+3. Conteúdo em `data/es/{id}.json`
+4. Registro em `js/module-loader.js`
+5. **Não** adicionar ao `data/lessons/index.json`
+6. `node tests/test-runner.js` — todos os testes devem passar

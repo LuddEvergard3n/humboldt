@@ -610,5 +610,83 @@
     "title": "Segregação urbana: a cidade dividida",
     "summary": "Como renda, raça e poder organizam o espaço urbano brasileiro.",
     "activityType": "single-choice"
+  },
+  "em-climatology-1": {
+    "moduleId": "em-climatology",
+    "title": "Massas de ar e controle do clima",
+    "summary": "Como as massas de ar determinam o tempo e o clima em diferentes regiões.",
+    "activityType": "single-choice"
+  },
+  "em-climatology-2": {
+    "moduleId": "em-climatology",
+    "title": "Climas do Brasil: diversidade e distribuição",
+    "summary": "Classificação, distribuição e características dos tipos climáticos brasileiros.",
+    "activityType": "single-choice"
+  },
+  "em-climatology-3": {
+    "moduleId": "em-climatology",
+    "title": "Mudanças climáticas: causas e evidências",
+    "summary": "O aquecimento global antropogênico: mecanismos, dados e projeções.",
+    "activityType": "single-choice"
+  },
+  "em-climatology-4": {
+    "moduleId": "em-climatology",
+    "title": "Eventos climáticos extremos e vulnerabilidade social",
+    "summary": "Secas, enchentes e ondas de calor: como o clima afeta populações de forma desigual.",
+    "activityType": "single-choice"
+  },
+  "em-climatology-5": {
+    "moduleId": "em-climatology",
+    "title": "El Niño, La Niña e teleconexões climáticas",
+    "summary": "Oscilações climáticas globais e seus impactos regionais no Brasil.",
+    "activityType": "single-choice"
+  },
+  "em-health-geo-1": {
+    "moduleId": "em-health-geo",
+    "title": "Epidemiologia espacial: onde a doença acontece",
+    "summary": "Como a distribuição geográfica de doenças revela desigualdades e condicionantes socioambientais.",
+    "activityType": "single-choice"
+  },
+  "em-health-geo-2": {
+    "moduleId": "em-health-geo",
+    "title": "Saneamento básico e saúde: a geografia da água",
+    "summary": "Acesso à água potável e esgoto como determinante central de saúde pública.",
+    "activityType": "single-choice"
+  },
+  "em-health-geo-3": {
+    "moduleId": "em-health-geo",
+    "title": "Doenças tropicais negligenciadas e territórios vulneráveis",
+    "summary": "Malária, dengue, leishmaniose: a geografia das doenças invisíveis.",
+    "activityType": "single-choice"
+  },
+  "em-health-geo-4": {
+    "moduleId": "em-health-geo",
+    "title": "Sistemas de saúde e equidade territorial",
+    "summary": "Distribuição de serviços de saúde, desertos assistenciais e o SUS no território.",
+    "activityType": "single-choice"
+  },
+  "em-natural-resources-1": {
+    "moduleId": "em-natural-resources",
+    "title": "Recursos naturais: conceitos e classificação",
+    "summary": "Renováveis, não-renováveis e a lógica econômica da exploração de recursos.",
+    "activityType": "single-choice"
+  },
+  "em-natural-resources-2": {
+    "moduleId": "em-natural-resources",
+    "title": "Conflitos por água no século XXI",
+    "summary": "Escassez hídrica, geopolítica da água e disputas territoriais pelo acesso à água.",
+    "activityType": "single-choice"
+  },
+  "em-natural-resources-3": {
+    "moduleId": "em-natural-resources",
+    "title": "Mineração, território e conflitos",
+    "summary": "Extração mineral, royalties, impactos socioambientais e a maldição dos recursos.",
+    "activityType": "single-choice"
+  },
+  "em-natural-resources-4": {
+    "moduleId": "em-natural-resources",
+    "title": "Transição energética e geopolítica dos minerais críticos",
+    "summary": "Lítio, cobalto e terras raras: a nova geopolítica dos recursos na era verde.",
+    "activityType": "single-choice"
   }
 }

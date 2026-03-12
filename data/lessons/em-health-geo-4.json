@@ -1,0 +1,70 @@
+{
+  "id": "em-health-geo-4",
+  "moduleId": "em-health-geo",
+  "title": "Sistemas de saúde e equidade territorial",
+  "summary": "Distribuição de serviços de saúde, desertos assistenciais e o SUS no território.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Nascer num lugar é uma loteria de saúde",
+    "text": "No Brasil, a mortalidade infantil em Alagoas é 4× maior do que em Santa Catarina. Um bebê que nasce em Maceió tem 4× mais chance de morrer antes do primeiro aniversário do que um bebê nascido em Florianópolis. Não é genética, não é cultura: é distribuição desigual de serviços de saúde, renda, saneamento e educação. O lugar onde se nasce determina o acesso à saúde — e, portanto, as chances de sobrevivência."
+  },
+  "guided": {
+    "title": "O SUS e a cobertura territorial",
+    "text": "O Sistema Único de Saúde (SUS), criado pela Constituição de 1988, é um dos maiores sistemas públicos de saúde do mundo — com 6.780 hospitais, 46.000 Unidades Básicas de Saúde (UBS) e cobertura formal de 100% do território. Mas cobertura formal não é cobertura real: municípios do interior amazônico têm UBS sem médico, sem remédio e sem equipamento. A distribuição de médicos segue o dinheiro — não a necessidade.",
+    "points": [
+      "Médicos por 1.000 habitantes: São Paulo (4,5) vs. Maranhão (0,9). A escassez é geográfica, não nacional.",
+      "Mais Médicos (2013): programa que levou médicos (inclusive cubanos) a regiões remotas e periferias. Reduziu o deserto assistencial mas foi descontinuado em 2018.",
+      "IDSUS (Índice de Desempenho do SUS): ranking municipal de cobertura e qualidade. Evidencia disparidades.",
+      "Planos privados: usados por 25% da população, concentrados no Sudeste. Criam sistema paralelo de qualidade."
+    ]
+  },
+  "relations": {
+    "title": "Desertos de saúde e populações invisíveis",
+    "text": "Desertos de saúde são áreas geográficas com cobertura assistencial insuficiente em relação à população. No Brasil, ocorrem em dois tipos de territórios: municípios pequenos do interior (menos de 10.000 hab.) sem hospital de referência, e periferias urbanas densas onde a rede de UBS não cresceu no mesmo ritmo que a população. As populações invisíveis nesses desertos incluem: indígenas em terras demarcadas, quilombolas, ribeirinhos, populações em situação de rua e trabalhadores rurais sem registro."
+  },
+  "caseStudy": {
+    "title": "O programa Mais Médicos e o interior amazônico",
+    "text": "Em 2013, o programa Mais Médicos levou 18.240 médicos a municípios prioritários, principalmente no interior amazônico, semiárido nordestino e periferias das grandes cidades. Em 3 anos, a cobertura da Atenção Básica aumentou 11 pontos percentuais nas áreas do programa. A mortalidade infantil caiu significativamente nos municípios beneficiados. Em 2018, a saída dos médicos cubanos (reação ao governo Bolsonaro) criou vácuo assistencial imediato em centenas de municípios. O episódio demonstrou que a cobertura territorial de saúde é frágil quando depende de programas e não de estrutura permanente."
+  },
+  "application": "Acesse o site do IBGE Cidades e pesquise quantos médicos por 1.000 habitantes têm o seu município e dois municípios vizinores. Compare com a média nacional (2,3/1.000). O que explica as diferenças?",
+  "activity": {
+    "question": "A principal causa da distribuição desigual de médicos no território brasileiro é:",
+    "type": "single-choice",
+    "correct": "mercado",
+    "options": [
+      {
+        "value": "formacao",
+        "label": "Insuficiência de vagas nas faculdades de medicina"
+      },
+      {
+        "value": "mercado",
+        "label": "Concentração dos médicos onde há maior renda e infraestrutura"
+      },
+      {
+        "value": "distancia",
+        "label": "Dificuldade de deslocamento até regiões remotas"
+      },
+      {
+        "value": "preferencia",
+        "label": "Preferência cultural dos médicos por cidades grandes"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. Médicos, como outros profissionais de mercado, se concentram onde há maior renda (maior faturamento em clínicas privadas), infraestrutura hospitalar e qualidade de vida urbana. Sem incentivos ou obrigações, o mercado concentra profissionais de saúde exatamente onde a população já está melhor servida.",
+      "incorrect": "A distribuição segue a lógica econômica: médicos se estabelecem onde podem faturar mais, que é onde há mais renda — não onde há mais necessidade."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Um médico recém-formado vai escolher entre um consultório em São Paulo e uma UBS no interior do Pará. O que influencia essa decisão além da vocação?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a distribuição territorial dos serviços de saúde no Brasil e analisa as causas estruturais das desigualdades.",
+    "observe": "Verifique se o aluno distingue cobertura formal (existe UBS) de cobertura real (UBS funcionando com médico, remédio e equipamento).",
+    "answer": "Concentração dos médicos onde há maior renda e infraestrutura. A lógica de mercado distribui profissionais de saúde inversamente à necessidade.",
+    "mediation": "Proponha: 'Que políticas públicas poderiam redistribuir médicos para onde há mais necessidade? Que incentivos seriam necessários?'",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "es-methodology",
+  "title": "Metodologia em Geografia",
+  "subtitle": "Trabalho de campo, geoprocessamento e análise espacial: como se faz pesquisa geográfica",
+  "intro": "Como se produz conhecimento geográfico? O senso comum pensa no geógrafo como alguém que decora capitais e localiza rios no mapa. A realidade da pesquisa geográfica contemporânea é muito mais complexa: trabalho de campo etnográfico, geoprocessamento com dados de satélite, modelagem espacial estatística, entrevistas e análise de discurso. Este módulo apresenta os principais métodos da Geografia, sua lógica epistemológica e suas limitações — porque método não é uma caixa de ferramentas neutras, mas uma escolha teórica e política.",
+  "readingTime": "25 min",
+  "sections": [
+    {
+      "id": "sec-campo-quote",
+      "title": "A centralidade do campo",
+      "type": "quote",
+      "text": "Você não pode entender o espaço de um lugar sem estar nele. A distância do laboratório produz abstração; a presença no campo produz conhecimento. O geógrafo que nunca saiu do computador conhece mapas — não lugares.",
+      "author": "Yi-Fu Tuan",
+      "work": "Topofilia (parafraseado)",
+      "year": "1974"
+    },
+    {
+      "id": "sec-o-que-e-metodo",
+      "title": "Método e teoria: uma relação indissociável",
+      "type": "text",
+      "body": "Método não é neutro. A escolha de como pesquisar — que dados coletar, em que escala, com quais ferramentas, a partir de qual posição — é uma decisão teórica e política antes de ser técnica. Um pesquisador que usa apenas sensoriamento remoto 'vê' o espaço de cima, como superfície mensurável; um pesquisador que usa entrevistas 'ouve' o espaço como experiência vivida. Nenhuma perspectiva é completa sozinha.\n\nA discussão metodológica em Geografia se estrutura em torno de dois grandes eixos. O primeiro distingue métodos quantitativos (dados numéricos, modelos, estatística) de qualitativos (narrativas, entrevistas, etnografia, análise de discurso). O segundo distingue pesquisa positivista (que busca leis e regularidades verificáveis) de pesquisa interpretativista (que busca compreender significados e contextos). Cada posição tem implicações diretas para o tipo de conhecimento que produz — e para o tipo de realidade que consegue ver."
+    },
+    {
+      "id": "sec-trabalho-campo",
+      "title": "Trabalho de campo: presença como método",
+      "type": "text",
+      "body": "O trabalho de campo é o método mais característico da Geografia — e o mais difícil de sistematizar. Ele pode assumir formas muito diferentes: a observação sistemática de uma paisagem, o levantamento quantitativo de uso do solo, a entrevista em profundidade com moradores, a etnografia de longa duração numa comunidade.\n\nO que define o trabalho de campo não é a técnica, mas a relação de presença: o pesquisador está no lugar, exposto à sua materialidade, aos seus cheiros, sons, ritmos e conflitos. Essa presença produz dados que nenhum satélite capta — a tensão entre moradores e empreendimentos, a memória territorial de um agricultor, a forma como o espaço é vivido diferentemente por crianças e adultos, por homens e mulheres.\n\nA questão ética do trabalho de campo é central: o pesquisador entra num território que não é o seu, extrai conhecimento e frequentemente sai sem retorno para os pesquisados. A pesquisa participativa e o trabalho de campo colaborativo buscam inverter essa lógica — construindo o conhecimento com as comunidades, não sobre elas."
+    },
+    {
+      "id": "sec-sig-geoprocessamento",
+      "title": "Geoprocessamento e análise espacial",
+      "type": "text",
+      "body": "O geoprocessamento é o conjunto de técnicas computacionais para coletar, armazenar, processar, analisar e visualizar dados georreferenciados — dados que têm uma localização no espaço. O SIG (Sistema de Informação Geográfica) é o software que integra essas funções.\n\nA análise espacial extrapola a cartografia para identificar padrões, correlações e anomalias no espaço. Algumas técnicas fundamentais:\n\nInterpolação espacial: estimativa de valores em locais onde não há medição direta, com base em pontos vizinhos. Usada em mapas de temperatura, precipitação, poluição.\n\nAnálise de autocorrelação espacial: testa se fenômenos próximos tendem a ter valores similares (autocorrelação positiva — clusters) ou opostos (autocorrelação negativa). O índice de Moran é a medida padrão.\n\nModelos de regressão geograficamente ponderada (GWR): permitem que os coeficientes de uma regressão variem no espaço — reconhecendo que a relação entre variáveis pode ser diferente em diferentes lugares.\n\nSensoriamento remoto: interpretação de imagens de satélite para mapear vegetação, uso do solo, temperatura de superfície, umidade, etc. Dados do Landsat (NASA) e Sentinel (ESA) são públicos e cobrem todo o planeta."
+    },
+    {
+      "id": "sec-metodos-tipos",
+      "title": "Principais métodos em Geografia",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "Trabalho de campo etnográfico",
+          "dates": "Tradição: séc. XX–",
+          "tradition": "Qualitativo / Interpretativista",
+          "contribution": "Presença prolongada no lugar, observação participante, entrevistas em profundidade. Produz conhecimento denso e contextualizado sobre experiências espaciais. Base da Geografia Cultural, Humanista e Feminista.",
+          "quote": "O campo não é apenas um lugar de coleta de dados — é um lugar de aprendizagem que transforma o pesquisador.",
+          "quoteWork": "Metodologia do campo geográfico (síntese da tradição)"
+        },
+        {
+          "name": "Análise espacial quantitativa",
+          "dates": "Tradição: pós-1950",
+          "tradition": "Quantitativo / Positivismo",
+          "contribution": "Modelagem estatística de distribuições espaciais, autocorrelação, clustering, previsão de padrões. Base da Revolução Quantitativa e da Nova Geografia Econômica. Forte poder preditivo; perde a experiência vivida.",
+          "quote": "Todo o mundo tem uma localização. Toda localização tem dados. A análise espacial converte dados em padrões e padrões em previsões.",
+          "quoteWork": "Tradição da análise espacial (síntese)"
+        },
+        {
+          "name": "Sensoriamento remoto e SIG",
+          "dates": "Tradição: pós-1970",
+          "tradition": "Quantitativo / Tecnológico",
+          "contribution": "Monitoramento de mudanças ambientais em escala global e temporal. Essencial para análise de desmatamento, urbanização, mudanças climáticas e gestão territorial. Democrático com dados abertos (Landsat, Sentinel, OpenStreetMap).",
+          "quote": "O satélite não mente — mas também não pergunta por quê.",
+          "quoteWork": "Síntese metodológica da geotecnologia"
+        },
+        {
+          "name": "Pesquisa-ação e cartografia participativa",
+          "dates": "Tradição: pós-1970",
+          "tradition": "Qualitativo / Crítico-emancipatório",
+          "contribution": "Produção de conhecimento com (não sobre) as comunidades. Resultado não é apenas um artigo — é uma ferramenta política para os pesquisados: mapa de território, diagnóstico para negociação com o Estado. Base da geografias militantes.",
+          "quote": "A pesquisa não pode ser extraída do lugar como o minério é extraído da terra. Precisa deixar algo para quem ficou.",
+          "quoteWork": "Tradição da pesquisa participativa (síntese)"
+        }
+      ]
+    },
+    {
+      "id": "sec-big-data",
+      "title": "Big Data geográfico e novas fontes de dados",
+      "type": "text",
+      "body": "A última década trouxe uma explosão de dados georreferenciados: GPS de celulares, geotagging de redes sociais, dados de transações com cartão de crédito, rastros de viagens de apps de mobilidade (Uber, Waze), IoT urbano (sensores de tráfego, câmeras, qualidade do ar). Esses 'dados passivos' — produzidos como subproduto de outras atividades — abrem possibilidades analíticas imensas para a Geografia.\n\nMas também criam problemas novos. Quem não tem smartphone não está nos dados — produzindo invisibilidade sistemática de populações já marginalizadas (idosos, pobres, rurais). Os dados de uma plataforma comercial refletem seus usuários, não a população em geral. A privacidade dos dados de localização é uma questão de direitos — saber onde você está é saber muito sobre você.\n\nA intersecção entre Big Data e Geografia está produzindo subcampos novos: análise computacional de mobilidade urbana, detecção automática de assentamentos informais por imagem de satélite, monitoramento de epidemias por dados de busca na internet. A questão metodológica permanece: esses dados respondem perguntas geográficas — ou apenas as perguntas que os dados conseguem formular?"
+    },
+    {
+      "id": "sec-compare-metodos",
+      "title": "Comparação de abordagens metodológicas",
+      "type": "compare-table",
+      "columns": ["Abordagem", "Tipo de dado", "Escala típica", "Produz", "Limitação"],
+      "rows": [
+        ["Trabalho de campo etnográfico", "Qualitativo: narrativas, observações, entrevistas", "Local / micro", "Compreensão profunda do lugar e da experiência", "Difícil generalização; tempo intensivo"],
+        ["Análise espacial quantitativa", "Quantitativo: variáveis numéricas georreferenciadas", "Regional / nacional", "Padrões, modelos, previsões estatísticas", "Perde contexto e experiência vivida"],
+        ["Sensoriamento remoto / SIG", "Imagem de satélite, raster, vetorial", "Regional / global", "Monitoramento de mudanças ambientais e urbanas", "'Vê' superfície; não vê causas sociais"],
+        ["Cartografia participativa", "Co-produzido: comunidade + pesquisador", "Local", "Mapa e diagnóstico com validade política para pesquisados", "Escalabilidade limitada; risco de instrumentalização"],
+        ["Big Data geográfico", "Rastros digitais passivos (GPS, redes sociais)", "Urbano / global", "Mobilidade em tempo real; padrões de comportamento", "Viés para usuários de tecnologia; questões de privacidade"]
+      ]
+    }
+  ]
+}

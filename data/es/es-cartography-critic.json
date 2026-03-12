@@ -1,0 +1,100 @@
+{
+  "id": "es-cartography-critic",
+  "title": "Cartografia Crítica",
+  "subtitle": "O mapa como argumento: poder, distorção e representação do espaço",
+  "intro": "Mapas parecem objetivos. Parecem espelhos do mundo — representações neutras da superfície da Terra. Não são. Cada mapa é um argumento: uma seleção do que mostrar e o que ocultar, uma escolha de projeção que distorce tamanhos e relações, uma decisão sobre quem nomeia os lugares e como. Entender cartografia criticamente é entender como o espaço é representado para ser controlado, como o poder se inscreve nas linhas e cores de um mapa, e como mapas alternativos podem produzir outros espaços possíveis.",
+  "readingTime": "26 min",
+  "sections": [
+    {
+      "id": "sec-harley-quote",
+      "title": "O mapa como poder",
+      "type": "quote",
+      "text": "Os mapas são um discurso. Eles constroem o mundo tanto quanto o representam. O que fica fora do mapa é tão revelador quanto o que está dentro: apagamentos são atos de poder.",
+      "author": "J. B. Harley",
+      "work": "The New Nature of Maps",
+      "year": "1992"
+    },
+    {
+      "id": "sec-mapa-argumento",
+      "title": "O mapa como argumento político",
+      "type": "text",
+      "body": "John Brian Harley, cartógrafo e historiador britânico, foi o primeiro a sistematizar a crítica do mapa como texto — sujeito às mesmas análises de poder, discurso e ideologia que qualquer documento escrito. Sua virada foi radical: mapas não representam realidades neutras. Eles as constroem.\n\nToda operação cartográfica envolve escolhas: o que é importante o suficiente para aparecer no mapa? Qual projeção usar? Em que escala? Quem nomeia os lugares, e em qual língua? Cada uma dessas escolhas é um ato político. Os colonizadores renomeavam os territórios que conquistavam — substituir 'Tenochtitlan' por 'Cidade do México' é um ato de apagamento cultural inscrito na cartografia.\n\nO poder do mapa vem precisamente de sua aparência de objetividade. Um documento escrito pode ser lido criticamente; um mapa é 'apenas' um mapa — parece mostrar o que 'está lá'. Denis Wood argumentou que mapas operam por uma espécie de ventriloquismo: fazem com que a natureza fale pelos interesses do poder que os produziu."
+    },
+    {
+      "id": "sec-pensadores-carto",
+      "title": "Cartógrafos críticos",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "J. B. Harley",
+          "dates": "1932–1991",
+          "tradition": "História da cartografia / Crítica pós-estrutural",
+          "contribution": "Aplicou Foucault e Derrida à análise de mapas históricos. Demonstrou como mapas são instrumentos de poder: exibem o que o poder quer exibir, apagam o que o poder quer apagar. Fundou a cartografia crítica como campo acadêmico.",
+          "quote": "Os mapas nunca são simples espelhos do mundo. São instrumentos para a criação de mundos.",
+          "quoteWork": "Deconstructing the Map (1989)"
+        },
+        {
+          "name": "Denis Wood",
+          "dates": "1945–",
+          "tradition": "Cartografia crítica / Semiótica",
+          "contribution": "Argumentou que mapas são essencialmente propaganda — não no sentido pejorativo, mas no sentido técnico: instrumentos de persuasão que naturalizam as relações de poder existentes. Seu livro The Power of Maps (1992) é o texto de entrada do campo.",
+          "quote": "Os mapas trabalham ocultando seu próprio trabalho. A consequência de toda operação de mapeamento é fazer com que o resultado pareça natural, inevitável, dado.",
+          "quoteWork": "The Power of Maps (1992)"
+        },
+        {
+          "name": "Mark Monmonier",
+          "dates": "1943–",
+          "tradition": "Cartografia crítica / Como os mapas mentem",
+          "contribution": "Abordagem mais pragmática: analisou os mecanismos técnicos pelos quais mapas distorcem, simplificam e enganam — não necessariamente por má-fé, mas pela necessidade estrutural de simplificar a realidade tridimensional em representação bidimensional.",
+          "quote": "Não apenas é fácil mentir com mapas, como é essencial. Para apresentar uma imagem útil e verdadeira para o propósito em questão, um mapa precisa mentir sobre outros propósitos.",
+          "quoteWork": "How to Lie with Maps (1991)"
+        },
+        {
+          "name": "Jacques Bertin",
+          "dates": "1918–2010",
+          "tradition": "Semiótica cartográfica / Visualização",
+          "contribution": "Desenvolveu a semiótica gráfica — o sistema de variáveis visuais (forma, tamanho, valor, cor, orientação, textura) que governa a comunicação cartográfica. Base teórica para a cartografia temática sistemática. Distinguiu mapa eficaz de mapa belo.",
+          "quote": "Toda representação gráfica é uma construção de escolhas. O problema não é eliminar as escolhas — é fazê-las conscientemente.",
+          "quoteWork": "Semiologie Graphique (1967)"
+        }
+      ]
+    },
+    {
+      "id": "sec-projecoes",
+      "title": "Projeções e distorção: a política do Mercator",
+      "type": "text",
+      "body": "Toda projeção cartográfica mente. Isso não é defeito — é necessidade matemática. É impossível representar uma superfície esférica num plano sem distorcer algo: área, forma, distância ou ângulo. A questão é: o que se escolhe distorcer, e por quê?\n\nA projeção de Mercator (1569) foi desenvolvida para a navegação: ela preserva ângulos (uma bússola aponta consistentemente para o norte em qualquer parte do mapa), o que é essencial para traçar rotas marítimas. Para a navegação, é excelente. Mas ela exagera dramaticamente o tamanho das regiões próximas aos polos — a Europa e a América do Norte aparecem muito maiores do que realmente são em relação à África e à América do Sul.\n\nO Groenlândia parece maior que a África na projeção Mercator. Na realidade, a África tem 30 vezes a área da Groenlândia. A Europa parece maior que a América do Sul; na realidade, a América do Sul tem quase o dobro da área da Europa.\n\nO cartógrafo alemão Arno Peters propôs em 1974 uma projeção alternativa que preserva áreas. A Peters (ou Gall-Peters) ficou conhecida como 'o mapa do Terceiro Mundo': ao preservar áreas reais, redimensiona a Europa e a América do Norte e amplia a África e a Ásia — revelando visualmente a distribuição real de superfície e, implicitamente, questionando a centralidade europeia na cartografia mundial."
+    },
+    {
+      "id": "sec-compare-projecoes",
+      "title": "Projeções em comparação",
+      "type": "compare-table",
+      "columns": ["Projeção", "O que preserva", "O que distorce", "Uso típico", "Implicação política"],
+      "rows": [
+        ["Mercator (1569)", "Ângulos (conformidade)", "Áreas — exagera altas latitudes", "Navegação, Google Maps", "Exagera Europa e América do Norte"],
+        ["Peters / Gall-Peters (1974)", "Áreas", "Forma — deforma continentes", "Mapas de desenvolvimento", "Restaura proporção real da África e Ásia"],
+        ["Robinson (1963)", "Aparência geral equilibrada", "Nem área nem forma totalmente", "Atlas escolares", "Compromisso estético sem rigor científico"],
+        ["Winkel Tripel (1921)", "Mínimo de distorção total", "Pequenas distorções de área e forma", "National Geographic (desde 1998)", "Equilíbrio; sem hierarquia implícita"],
+        ["Azimutal equidistante", "Distâncias a partir do centro", "Tudo mais fora do centro", "Comunicações, emblema da ONU", "Define quem é o centro do mundo"]
+      ]
+    },
+    {
+      "id": "sec-semiologia",
+      "title": "Semiótica cartográfica: Bertin e as variáveis visuais",
+      "type": "text",
+      "body": "Jacques Bertin desenvolveu, nos anos 1960, o quadro teórico que ainda fundamenta a cartografia temática. Para ele, a representação gráfica é uma linguagem — com seus próprios elementos, sua gramática e suas regras de uso.\n\nAs variáveis visuais são as dimensões gráficas pelas quais a informação pode ser codificada num mapa: tamanho (círculos proporcionais para quantidades), valor (claro a escuro para intensidade), cor (categorias qualitativas), forma (tipo de fenômeno), orientação e textura.\n\nCada variável tem propriedades perceptivas diferentes. A cor não codifica quantidade (não existe 'mais' verde ou 'menos' vermelho); ela codifica categorias distintas. O tamanho codifica quantidade. O valor (claro-escuro) codifica intensidade. Usar a variável errada para o tipo de dado é um erro semiótico que produz mapas ilegíveis ou enganosos.\n\nAlém das variáveis, Bertin distinguiu três tipos de implantação: pontual (eventos localizados), linear (rios, estradas) e zonal (áreas, regiões). Cada combinação de tipo de implantação e variável visual produz um tipo de mapa — e nem todas as combinações são igualmente eficazes para comunicar determinadas informações."
+    },
+    {
+      "id": "sec-participativa",
+      "title": "Cartografia participativa e contramapeamento",
+      "type": "text",
+      "body": "Se o mapa é instrumento de poder, pode também ser instrumento de resistência. A cartografia participativa e o contramapeamento são práticas que devolvem a produção cartográfica a comunidades que foram historicamente mapeadas por outros — e, portanto, definidas, delimitadas e controladas por outros.\n\nComunidades indígenas na Amazônia, na África e na Ásia têm usado GPS, SIG e plataformas colaborativas para mapear seus territórios tradicionais segundo seus próprios critérios: não apenas limites formais, mas rotas de caça, sítios sagrados, áreas de coleta sazonal, histórias do lugar. Esses mapas têm força jurídica em alguns países (como o Brasil, em disputas de demarcação) e valor político como documentação de existência e resistência.\n\nO movimento OpenStreetMap democratizou a produção de dados geográficos: qualquer pessoa pode contribuir com informações sobre o espaço que habita. Em regiões remotas ou em cidades do Sul Global — onde mapas comerciais são inexatos ou omissos —, comunidades mapeiam suas próprias ruas, mercados, escolas e postos de saúde.\n\nA crítica à cartografia participativa existe: quem define a metodologia? Quem tem acesso à tecnologia? Quem decide o que vai para o mapa? Democratizar a produção cartográfica não elimina automaticamente as relações de poder que estruturam quem pode mapear e o quê. Mas cria condições para disputar essas relações de formas antes impossíveis."
+    },
+    {
+      "id": "sec-sig",
+      "title": "SIG crítico e geovisualização",
+      "type": "text",
+      "body": "Os Sistemas de Informação Geográfica (SIG) transformaram a cartografia nas últimas décadas: permitem manipular, combinar e visualizar camadas de dados geográficos de forma que era impossível com mapas analógicos. Um único sistema pode sobrepor dados de vegetação, renda, criminalidade e infraestrutura para revelar padrões invisíveis em qualquer camada isolada.\n\nA crítica ao SIG segue a mesma lógica da crítica ao mapa: a tecnologia não é neutra. Quais dados existem? Quem os coletou, como e para quê? Quais territórios têm dados densos (zonas urbanas, países ricos) e quais têm lacunas (áreas rurais remotas, países pobres)? O SIG pode reproduzir em escala digital os mesmos apagamentos e distorções dos mapas analógicos.\n\nA geovisualização crítica busca usar essas ferramentas para revelar desigualdades, documentar injustiças ambientais e apoiar lutas territoriais. Organizações como o Imazon (Brasil) usam SIG e sensoriamento remoto para monitorar desmatamento na Amazônia, produzindo dados que disputam as narrativas do poder. O American Panorama mapeia dados históricos de segregação racial, redlining e deslocamento forçado nos EUA — tornando visível o que o poder preferia manter apagado."
+    }
+  ]
+}

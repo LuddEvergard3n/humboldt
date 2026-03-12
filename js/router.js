@@ -17,6 +17,7 @@ import { renderModule }     from '../components/views/module-view.js';
 import { renderLesson }     from '../components/views/lesson-view.js';
 import { renderScale }      from '../components/views/scale-view.js';
 import { renderPhenomenon } from '../components/views/phenomenon-view.js';
+import { renderArticle }    from '../components/views/article-view.js';
 
 export class Router {
   /**
@@ -98,6 +99,10 @@ export class Router {
 
         case 'phenomenon':
           await this._render(renderPhenomenon, { slug: parts[1] }, null, null);
+          break;
+
+        case 'article':
+          await this._render(renderArticle, { moduleId: parts[1] }, parts[1], null);
           break;
 
         default:

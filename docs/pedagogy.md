@@ -1,76 +1,67 @@
-# Humboldt — Filosofia e Estrutura Pedagógica
+# Humboldt — Fundamentos Pedagógicos
 
-## O Problema que o Humboldt Resolve
+## Princípio central
 
-A maior dor da Geografia escolar é que ela fala do mundo real mas é frequentemente ensinada como lista morta: capitais, climas, nomes de rios, definições decoradas.
+Cada lição parte de um fenômeno observável — algo que o aluno já viveu ou pode observar — e constrói o conceito a partir dessa experiência. A sequência é invariável:
 
-O Humboldt parte de um diagnóstico simples: **o aluno não precisa memorar o mundo — ele precisa aprender a lê-lo.**
+1. **Fenômeno** — O que você observa? Por que isso acontece?
+2. **Conceito guiado** — Explicação estruturada com pontos de ancoragem
+3. **Relações** — Conexão com outros conceitos e escalas
+4. **Estudo de caso** — Aplicação em contexto real e concreto
+5. **Aplicação** — Tarefa aberta para o aluno fazer fora do atlas
+6. **Atividade** — Interação que exige decisão, não memorização
 
-## As Quatro Operações Cognitivas
+## Tipos de atividade
 
-O sistema organiza toda a experiência de aprendizagem em torno de quatro operações:
+| Tipo | Descrição | Requer `correct` |
+|------|-----------|-----------------|
+| `single-choice` | Múltipla escolha com feedback contextual e dicas progressivas | Sim |
+| `map-click` | Clique numa região do mapa SVG | Sim (data-id da região) |
+| `layer-toggle` | Ligar/desligar camadas num mapa temático | Não |
+| `flow-map` | Identificar ou traçar fluxos no espaço | Não |
+| `before-after` | Slider de comparação temporal ou temática | Não |
+| `compass` | Orientação com rosa dos ventos | Não |
+| `scale` | Slider de escala cartográfica | Não |
 
-### 1. Ver
-Observar mapas, imagens, paisagens, fluxos, gráficos e escalas. Antes de qualquer interpretação, o aluno precisa desenvolver o hábito de olhar com atenção e sem pressa.
+Os tipos sem `correct` são exploratórios: o aluno interage e a resposta emerge da exploração, não da seleção de uma opção.
 
-### 2. Ler
-Interpretar legenda, direção, densidade, localização, proporção, rede e fronteira. Ver sem ler é passivo. Ler é decodificar o sistema de signos do mapa e da imagem geográfica.
+## Dois formatos de módulo
 
-### 3. Relacionar
-Conectar fatores físicos e humanos. Ligar clima, relevo, economia, cidade, migração, guerra, energia, água e território. A separação entre "geografia física" e "geografia humana" é uma convenção didática que o Humboldt recusa: o espaço é integrado.
+### Módulos pedagógicos (EFI, EFII, EM)
+Estruturados em lições com a sequência de 6 etapas acima. Cada lição é independente — pode ser usada isoladamente em uma aula de 50 minutos.
 
-### 4. Aplicar
-Trazer a Geografia para a vida real do aluno. Responder perguntas concretas do cotidiano: por que o bairro alaga? Por que o alimento ficou mais caro? Por que há guerra por aquele território?
+### Módulos artigo (ES — Ensino Superior)
+Documentos longos de leitura ativa, sem atividades gamificadas. Voltados para estudantes universitários e professores. Estrutura com TOC navegável, citações de autores, linhas do tempo e tabelas comparativas. Tipos de seção disponíveis:
 
-## Estrutura de Cada Lição
+| Tipo | Uso |
+|------|-----|
+| `text` | Texto expositivo em parágrafos |
+| `quote` | Epígrafe de referência teórica |
+| `thinkers` | Cards de pensadores com citação e tradição |
+| `timeline` | Linha do tempo de correntes ou eventos |
+| `compare-table` | Comparação sistemática entre abordagens |
 
-Toda lição segue a mesma sequência de 7 passos:
+## Modo professor
 
-| Passo | Nome              | Descrição                                                     |
-|-------|-------------------|---------------------------------------------------------------|
-| 01    | Fenômeno          | Começa com situação concreta, imagem ou pergunta real         |
-| 02    | Visualização      | Mapa, imagem comparativa, fluxo ou gráfico interativo         |
-| 03    | Leitura Guiada    | Instrução explícita sobre o que e como observar               |
-| 04    | Relação           | Conexão entre fatores físicos, humanos, econômicos            |
-| 05    | Estudo de Caso    | Exemplo real e concreto que ilustra o fenômeno                |
-| 06    | Aplicação         | O fenômeno no cotidiano do aluno                              |
-| 07    | Atividade Final   | Interação que exige aplicação do raciocínio — não memorização |
+Ativado por `body.teacher-mode` (toggle na interface ou tecla `T`). Revela:
+- Campo `teacher.objective`: o que o aluno deve aprender
+- Campo `teacher.observe`: o que o professor deve monitorar durante a atividade
+- Campo `teacher.answer`: resposta completa e justificada
+- Campo `teacher.mediation`: sugestão de mediação para aprofundamento
+- Campo `teacher.time`: tempo estimado para a lição
 
-**Regra fundamental:** a lição nunca começa com definição abstrata. Sempre começa pelo fenômeno.
+## Acessibilidade
 
-## Sistema de Dicas
+- Todas as regiões de mapas têm `tabindex="0"`, `role="button"` e `aria-label`
+- Preferências persistidas: tamanho de fonte, alto contraste, redução de movimento
+- Anúncios de feedback via `window._humboldtAnnounce()` (aria-live)
+- Navegação por teclado em toda a aplicação
 
-As dicas não entregam a resposta — elas **focam o raciocínio**:
+## Critérios de qualidade para lições
 
-- `text`: Faz uma pergunta ou aponta uma direção de raciocínio
-- `layer`: Ativa uma camada do mapa que o aluno não estava vendo
-- `focus`: Destaca visualmente a região relevante no mapa
-- `reduce`: Remove alternativas claramente incorretas
-
-Dicas são ativadas automaticamente após um número configurável de erros (`hintAfter`).
-
-## Modo Professor
-
-O Modo Professor revela, em cada lição:
-
-- Objetivo pedagógico específico
-- O que observar na interação do aluno
-- Resposta/critério da atividade
-- Sugestão de mediação
-- Tempo estimado
-
-O modo professor não é uma opção secundária — é parte do design do sistema. O Humboldt é uma ferramenta de sala de aula, não apenas de estudo individual.
-
-## O que o Humboldt Recusa
-
-- Banco de questões de múltipla escolha puro
-- Apostila digital (texto longo sem interação)
-- Mapas estáticos sem camadas
-- Separação artificial entre geografia física e humana
-- Começar pela definição
-- Ignorar o cotidiano do aluno
-- Infantilizar o conteúdo
-
-## Princípio de Escalabilidade Pedagógica
-
-Cada módulo tem um atributo `scales` que indica em que escalas ele opera (local, regional, nacional, global). Cada fenômeno tem um atributo `phenomena` que permite navegação transversal. Isso significa que o mesmo conceito de "migração" pode ser encontrado navegando pelo módulo, pela escala ou pelo fenômeno — sem duplicação de conteúdo.
+Toda lição deve satisfazer:
+1. O fenômeno deve ser observável pelo aluno (não apenas descrito)
+2. O estudo de caso deve ser real, nomeado e datado
+3. A atividade deve exigir raciocínio geográfico, não memorização de nomenclatura
+4. O feedback deve ser explicativo, não apenas "certo/errado"
+5. A mediação do professor deve propor uma pergunta aberta de aprofundamento

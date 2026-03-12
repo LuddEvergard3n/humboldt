@@ -3,7 +3,16 @@
 **Humboldt** é uma ferramenta educacional web para ensinar o aluno a **ver o espaço, ler mapas, interpretar relações** e perceber que vive dentro da Geografia — não apenas diante dela.
 
 Faz parte de um ecossistema educacional que inclui:
-[Heródoto](https://luddevergard3n.github.io/Herodoto/) · [Euclides](https://luddevergard3n.github.io/euclides/) · [Quintiliano](https://luddevergard3n.github.io/quintiliano/) · [Johnson English](https://luddevergard3n.github.io/johnson-english/)
+
+| Projeto | Disciplina | Repositório | Site |
+|---------|-----------|-------------|------|
+| Heródoto | História | [github](https://github.com/LuddEvergard3n/Herodoto) | [site](https://luddevergard3n.github.io/Herodoto/index.html) |
+| Euclides | Matemática | [github](https://github.com/LuddEvergard3n/euclides) | [site](https://luddevergard3n.github.io/euclides/) |
+| Quintiliano | Língua Portuguesa | [github](https://github.com/LuddEvergard3n/quintiliano) | [site](https://luddevergard3n.github.io/quintiliano/) |
+| Lavoisier | Ciências / Química | [github](https://github.com/LuddEvergard3n/lavoisier) | [site](https://luddevergard3n.github.io/lavoisier/) |
+| **Humboldt** | **Geografia** | [github](https://github.com/LuddEvergard3n/humboldt) | [site](https://luddevergard3n.github.io/humboldt/) |
+| Archimedes | Física | [github](https://github.com/LuddEvergard3n/archimedes) | [site](https://luddevergard3n.github.io/archimedes/) |
+| Johnson | Inglês | [github](https://github.com/LuddEvergard3n/johnson-english) | [site](https://luddevergard3n.github.io/johnson-english/) |
 
 ---
 

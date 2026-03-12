@@ -1,0 +1,157 @@
+{
+  "id": "es-geopolitics-classic",
+  "title": "Geopolítica Clássica e Contemporânea",
+  "subtitle": "Do Heartland ao século XXI: poder, território e a gramática dos conflitos",
+  "intro": "Geopolítica é o estudo das relações entre poder político e espaço geográfico — como a posição, os recursos, o relevo e a conectividade influenciam a capacidade de um Estado de projetar poder, defender-se e expandir-se. A tradição clássica produziu conceitos (Heartland, Rimland, poder marítimo vs. terrestre) que ainda estruturam o pensamento estratégico contemporâneo. A geopolítica crítica, surgida nos anos 1990, questiona esses conceitos como discursos de legitimação de poder, não como leis objetivas. Ambas as perspectivas são necessárias para entender como Estados, impérios e atores não-estatais disputam o espaço no século XXI.",
+  "readingTime": "32 min",
+  "sections": [
+    {
+      "id": "sec-mackinder-quote",
+      "title": "A tese do Heartland",
+      "type": "quote",
+      "text": "Quem governa a Europa Oriental comanda o Heartland. Quem governa o Heartland comanda a Ilha Mundial. Quem governa a Ilha Mundial comanda o Mundo.",
+      "author": "Halford Mackinder",
+      "work": "Democratic Ideals and Reality",
+      "year": "1919"
+    },
+    {
+      "id": "sec-fundamentos",
+      "title": "O que é geopolítica — e o que não é",
+      "type": "text",
+      "body": "Geopolítica não é sinônimo de política externa, nem de análise de conflitos internacionais. É especificamente o estudo de como a dimensão espacial — localização, tamanho, recursos, acesso ao mar, vizinhança — condiciona e constrange as opções políticas dos Estados.\n\nA distinção entre geopolítica e geografia política é relevante: a geografia política estuda como o espaço organiza a política (fronteiras, eleições, administração territorial); a geopolítica estuda como a política disputa e transforma o espaço (estratégia, expansão, controle de recursos).\n\nO termo foi cunhado pelo sueco Rudolf Kjellén em 1899, mas seu conteúdo real foi desenvolvido pelos geógrafos alemães (Ratzel, Haushofer), britânicos (Mackinder) e norte-americanos (Mahan, Spykman). Cada um desenvolveu uma teoria sobre quais fatores geográficos são decisivos para o poder nacional — e essas teorias tiveram consequências práticas nas estratégias dos impérios que as adotaram."
+    },
+    {
+      "id": "sec-classicos",
+      "title": "Os teóricos clássicos",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "Halford Mackinder",
+          "dates": "1861–1947",
+          "tradition": "Geopolítica britânica / Poder terrestre",
+          "contribution": "Propôs a teoria do Heartland: a massa continental eurasiática é o 'pivô geográfico da história'. Quem controla a Eurásia central pode dominar o mundo. A teoria justificava a preocupação britânica com o avanço russo em direção ao oceano Índico e à Ásia Central.",
+          "quote": "Quem governa o Heartland comanda a Ilha Mundial; quem governa a Ilha Mundial comanda o Mundo.",
+          "quoteWork": "Democratic Ideals and Reality (1919)"
+        },
+        {
+          "name": "Alfred Thayer Mahan",
+          "dates": "1840–1914",
+          "tradition": "Geopolítica norte-americana / Poder marítimo",
+          "contribution": "Argumentou que o poder marítimo — marinha de guerra, frota mercante, controle de portos e rotas oceânicas — é o fator decisivo para a hegemonia. Sua obra inspirou a expansão naval dos EUA, do Japão e da Alemanha no início do século XX.",
+          "quote": "Quem controla o mar controla o comércio; quem controla o comércio do mundo controla as riquezas do mundo; quem controla as riquezas controla o mundo.",
+          "quoteWork": "The Influence of Sea Power upon History (1890)"
+        },
+        {
+          "name": "Nicholas Spykman",
+          "dates": "1893–1943",
+          "tradition": "Geopolítica realista / Rimland",
+          "contribution": "Contestou Mackinder: não é o Heartland, mas o Rimland — a faixa costeira periférica da Eurásia — que é decisiva. Quem controla a Europa, o Oriente Médio e o Sul Asiático controla o Heartland e, portanto, o mundo. Tese que influenciou a política de contenção dos EUA na Guerra Fria.",
+          "quote": "Quem controla o Rimland governa a Eurásia; quem governa a Eurásia controla os destinos do mundo.",
+          "quoteWork": "The Geography of the Peace (1944)"
+        },
+        {
+          "name": "Karl Haushofer",
+          "dates": "1869–1946",
+          "tradition": "Geopolitik alemã",
+          "contribution": "Sistematizou a geopolítica alemã como instrumento de planejamento estatal. Popularizou o conceito de Lebensraum (espaço vital) de Ratzel, adaptado para justificar a expansão territorial nazista. O caso mais dramático de uso da geopolítica como ideologia imperialista.",
+          "quote": "O Estado que não cresce definha.",
+          "quoteWork": "Geopolitik des Pazifischen Ozeans (1924)"
+        }
+      ]
+    },
+    {
+      "id": "sec-heartland",
+      "title": "Heartland e Rimland: a geometria do poder",
+      "type": "text",
+      "body": "A teoria do Heartland de Mackinder parte de uma observação geográfica simples: a massa continental da Eurásia é inacessível ao poder marítimo. Uma frota não pode bombardear Moscou ou o interior da Ásia Central. Se um poder terrestre dominasse essa região — com suas vastidões, seus recursos minerais e sua população —, poderia construir infraestrutura, industrializar-se e projerar poder para as costas sem ser contido pelo poder naval britânico.\n\nMackinder escreveu em 1904, quando a ferrovia transcontinental russa estava sendo construída e a Inglaterra temia a ascensão de um poder terrestre euroasiático que tornasse o domínio marítimo britânico obsoleto. O conceito é inseparável desse contexto estratégico específico.\n\nSpykman inverteu a tese: é exatamente a faixa costeira (Rimland) — Europa Ocidental, Oriente Médio, Índia, China — que tem densidade demográfica, riqueza e capacidade industrial. Quem controla o Rimland não precisa do Heartland; ao contrário, pode cercar e isolar qualquer poder heartlandiano. A política de contenção norte-americana durante a Guerra Fria — OTAN, alianças no Oriente Médio, na Coreia, no Japão — é exatamente a estratégia de controle do Rimland para isolar a URSS."
+    },
+    {
+      "id": "sec-guerrafria",
+      "title": "Geopolítica no século XX: da bipolaridade ao unipolarismo",
+      "type": "timeline",
+      "events": [
+        {
+          "period": "1945–1949",
+          "label": "Início da Guerra Fria",
+          "description": "EUA e URSS emergem como superpotências. O mundo divide-se em zonas de influência. A doutrina Truman (1947) institucionaliza a contenção do comunismo — estratégia de controle do Rimland ao redor da URSS."
+        },
+        {
+          "period": "1949–1962",
+          "label": "Bipolaridade nuclear",
+          "description": "URSS testa a bomba atômica (1949). A OTAN é fundada (1949). A proliferação nuclear muda o cálculo geopolítico: a conquista territorial torna-se secundária diante da destruição mútua assegurada. Geopolítica clássica encontra seus limites."
+        },
+        {
+          "period": "1962–1979",
+          "label": "Détente e multipolaridade emergente",
+          "description": "Após a crise dos mísseis cubanos (1962), EUA e URSS iniciam processos de distensão. China emerge como terceiro polo. O Terceiro Mundo torna-se arena de conflitos por procuração. Kissinger sistematiza a realpolitik como gestão da multipolaridade."
+        },
+        {
+          "period": "1979–1991",
+          "label": "Segunda Guerra Fria e colapso soviético",
+          "description": "Invasão soviética do Afeganistão (1979). Reagan eleva a pressão econômica e tecnológica sobre a URSS. Colapso do bloco socialista (1989) e dissolução da URSS (1991). Brzezinski analisa o fim como vitória geopolítica do controle do Rimland."
+        },
+        {
+          "period": "1991–2001",
+          "label": "Momento unipolar",
+          "description": "EUA como hiperpotência solitária. Expansão da OTAN para o Leste europeu. Debate entre unipolaristas (Krauthammer) e os que previam retorno à multipolaridade (Huntington, Mearsheimer). O 11 de setembro encerra esse período de ilusão de ordem liberal."
+        },
+        {
+          "period": "2001–hoje",
+          "label": "Retorno da geopolítica de grandes potências",
+          "description": "Guerras no Afeganistão e Iraque. Ascensão da China como potência global. Rússia revisionista (Geórgia 2008, Ucrânia 2014 e 2022). Indo-Pacífico como novo centro da disputa hegemônica. A geopolítica clássica retorna ao vocabulário estratégico."
+        }
+      ]
+    },
+    {
+      "id": "sec-contemporaneos",
+      "title": "Pensamento geopolítico contemporâneo",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "Zbigniew Brzezinski",
+          "dates": "1928–2017",
+          "tradition": "Realismo geopolítico / Escola norte-americana",
+          "contribution": "O grande tabuleiro: a Eurásia é o eixo do poder global, e manter a fragmentação do espaço pós-soviético é o objetivo central da estratégia norte-americana. Identificou cinco pivôs geopolíticos eurasiáticos: Ucrânia, Azerbaijão, Turquia, Irã e Coreia do Sul.",
+          "quote": "Para a América, a principal recompensa geopolítica é a Eurásia. O domínio eurasiano durante quase meio milênio é a ambição central de qualquer potência que se queira global.",
+          "quoteWork": "O Grande Tabuleiro (1997)"
+        },
+        {
+          "name": "Samuel Huntington",
+          "dates": "1927–2008",
+          "tradition": "Civilizacionismo",
+          "contribution": "Propôs que, após a Guerra Fria, os conflitos principais seriam entre civilizações (Ocidental, Islâmica, Confuciana, etc.), não entre Estados ou ideologias. Tese amplamente criticada como determinismo cultural, mas influente nos debates pós-11/9.",
+          "quote": "O conflito mais perigoso no mundo novo não é entre grupos de diferentes classes econômicas ou ideologias políticas, mas entre povos de diferentes entidades culturais.",
+          "quoteWork": "O Choque das Civilizações (1996)"
+        },
+        {
+          "name": "Gearóid Ó Tuathail (Gerard Toal)",
+          "dates": "1962–",
+          "tradition": "Geopolítica crítica",
+          "contribution": "Fundador da geopolítica crítica. Argumentou que a geopolítica clássica é um discurso — uma forma de representar o mundo que serve a interesses de poder específicos. Analisar a geopolítica exige desconstruir suas metáforas, seus pressupostos e seus produtores.",
+          "quote": "A geopolítica não é uma ciência objetiva da relação entre espaço e política. É uma prática discursiva que naturaliza certas representações do espaço global para servir a objetivos políticos.",
+          "quoteWork": "Critical Geopolitics (1996)"
+        }
+      ]
+    },
+    {
+      "id": "sec-critica",
+      "title": "Geopolítica crítica: o discurso do poder",
+      "type": "text",
+      "body": "A geopolítica crítica, surgida nos anos 1990 com Gearóid Ó Tuathail, John Agnew e Simon Dalby, parte de uma constatação simples mas poderosa: as teorias geopolíticas clássicas não são descrições objetivas do espaço — são construções discursivas produzidas em contextos históricos específicos, por agentes com interesses específicos, para legitimar estratégias específicas.\n\nO Heartland de Mackinder não 'existe' na natureza: ele é uma representação do mundo que fazia sentido do ponto de vista do império britânico ameaçado pela ascensão russa. A divisão do mundo em 'civilizações' de Huntington não é um dado geográfico: é uma simplificação ideológica que servia para mobilizar o Ocidente depois do fim da ameaça soviética.\n\nIsso não significa que a geopolítica clássica seja inútil — seus conceitos descrevem lógicas reais do comportamento estatal. Significa que ela deve ser lida criticamente: quem produziu esse conceito? Para servir a quais estratégias? Quais vozes foram excluídas dessa representação do espaço global?\n\nA geopolítica crítica também expandiu o objeto da análise: além dos Estados, considera atores não-estatais (empresas, redes terroristas, movimentos sociais transnacionais), escalas não convencionais (o corpo, a cidade, o oceano), e dimensões historicamente invisíveis (gênero, raça, colonialidade)."
+    },
+    {
+      "id": "sec-compare-geo",
+      "title": "Geopolítica clássica vs. crítica",
+      "type": "compare-table",
+      "columns": ["Dimensão", "Geopolítica clássica", "Geopolítica crítica"],
+      "rows": [
+        ["Objeto", "Estado, território, poder militar", "Discurso, representações, atores múltiplos"],
+        ["Método", "Análise estratégica, história diplomática", "Análise do discurso, desconstrução, genealogia"],
+        ["Escala privilegiada", "Nacional / Global", "Local, corporal, transnacional"],
+        ["Concepção de espaço", "Espaço natural, recurso estratégico", "Espaço produzido, contestado, discursivo"],
+        ["Papel da teoria", "Instrumento de política externa", "Crítica do poder; emancipação"],
+        ["Limitação", "Naturaliza poder e estruturas existentes", "Dificuldade de propor alternativas concretas"]
+      ]
+    }
+  ]
+}

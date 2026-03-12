@@ -402,6 +402,145 @@
         "city",
         "transport"
       ]
+    },
+    {
+      "id": "es-epistemology",
+      "title": "Correntes do Pensamento Geográfico",
+      "tagline": "Do determinismo ao pós-estruturalismo: como a Geografia construiu seu método.",
+      "level": "es",
+      "format": "article",
+      "order": 25,
+      "lessons": 0,
+      "scales": [
+        "epistemológica"
+      ],
+      "phenomena": [],
+      "description": "As grandes correntes epistemológicas que definiram o objeto, o método e os debates da Geografia como disciplina científica."
+    },
+    {
+      "id": "es-space-theory",
+      "title": "Teoria do Espaço Geográfico",
+      "tagline": "Lefebvre, Harvey e Milton Santos: o espaço como produto social.",
+      "level": "es",
+      "format": "article",
+      "order": 26,
+      "lessons": 0,
+      "scales": [
+        "teórica"
+      ],
+      "phenomena": [],
+      "description": "Fundamentos teóricos do espaço geográfico e suas categorias: território, lugar, região e escala."
+    },
+    {
+      "id": "es-geopolitics-classic",
+      "title": "Geopolítica Clássica e Contemporânea",
+      "tagline": "Mackinder, Mahan, Spykman: poder, território e a gramática dos conflitos.",
+      "level": "es",
+      "format": "article",
+      "order": 27,
+      "lessons": 0,
+      "scales": [
+        "global"
+      ],
+      "phenomena": [
+        "border",
+        "inequality"
+      ],
+      "description": "Teorias geopolíticas clássicas e contemporâneas, da tese do Heartland à geopolítica crítica."
+    },
+    {
+      "id": "es-cartography-critic",
+      "title": "Cartografia Crítica",
+      "tagline": "O mapa como argumento: poder, projeções e representação do espaço.",
+      "level": "es",
+      "format": "article",
+      "order": 28,
+      "lessons": 0,
+      "scales": [
+        "metodológica"
+      ],
+      "phenomena": [],
+      "description": "Análise crítica da produção cartográfica: projeções e distorção, semiótica gráfica, contramapeamento e SIG crítico."
+    },
+    {
+      "id": "em-climatology",
+      "title": "Climatologia",
+      "tagline": "Massas de ar, climas do Brasil e mudanças climáticas globais.",
+      "level": "em",
+      "order": 29,
+      "lessons": 5,
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "drought",
+        "flood",
+        "heat"
+      ]
+    },
+    {
+      "id": "em-health-geo",
+      "title": "Geografia da Saúde",
+      "tagline": "Epidemiologia espacial, desigualdade sanitária e territórios vulneráveis.",
+      "level": "em",
+      "order": 30,
+      "lessons": 4,
+      "scales": [
+        "local",
+        "nacional"
+      ],
+      "phenomena": [
+        "inequality",
+        "water"
+      ]
+    },
+    {
+      "id": "em-natural-resources",
+      "title": "Recursos Naturais e Conflitos",
+      "tagline": "Água, energia e minérios: disputas por recursos no século XXI.",
+      "level": "em",
+      "order": 31,
+      "lessons": 4,
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "water",
+        "inequality",
+        "border"
+      ]
+    },
+    {
+      "id": "es-economic-geography",
+      "title": "Geografia Econômica",
+      "tagline": "Sistemas-mundo, cadeias de valor e a divisão internacional do trabalho.",
+      "level": "es",
+      "format": "article",
+      "order": 32,
+      "lessons": 0,
+      "scales": [
+        "global"
+      ],
+      "phenomena": [
+        "inequality"
+      ],
+      "description": "Como a economia global se organiza no espaço: sistema-mundo, NEG, cadeias globais de valor e desigualdade estrutural."
+    },
+    {
+      "id": "es-methodology",
+      "title": "Metodologia em Geografia",
+      "tagline": "Trabalho de campo, geoprocessamento e análise espacial: como se faz pesquisa geográfica.",
+      "level": "es",
+      "format": "article",
+      "order": 33,
+      "lessons": 0,
+      "scales": [
+        "metodológica"
+      ],
+      "phenomena": [],
+      "description": "Métodos de pesquisa geográfica: trabalho de campo, SIG, sensoriamento remoto, entrevista e análise do discurso."
     }
   ]
 }

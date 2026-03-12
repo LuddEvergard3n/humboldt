@@ -30,7 +30,18 @@ const MODULE_MAP = {
   'em-geopolitics':      () => import('../modules/em-geopolitics/index.js'),
   'em-urban-regional':   () => import('../modules/em-urban-regional/index.js'),
   'em-cartography':      () => import('../modules/em-cartography/index.js'),
-  'em-brazil-challenges':() => import('../modules/em-brazil-challenges/index.js'),
+  'em-brazil-challenges':   () => import('../modules/em-brazil-challenges/index.js'),
+  'em-climatology':         () => import('../modules/em-climatology/index.js'),
+  'em-health-geo':          () => import('../modules/em-health-geo/index.js'),
+  'em-natural-resources':   () => import('../modules/em-natural-resources/index.js'),
+
+  // Ensino Superior — formato article (sem lições)
+  'es-epistemology':        () => import('../modules/es-epistemology/index.js'),
+  'es-space-theory':        () => import('../modules/es-space-theory/index.js'),
+  'es-geopolitics-classic': () => import('../modules/es-geopolitics-classic/index.js'),
+  'es-cartography-critic':  () => import('../modules/es-cartography-critic/index.js'),
+  'es-economic-geography':  () => import('../modules/es-economic-geography/index.js'),
+  'es-methodology':         () => import('../modules/es-methodology/index.js'),
 };
 
 export async function loadModule(id) {

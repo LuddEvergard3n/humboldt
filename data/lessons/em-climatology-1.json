@@ -1,0 +1,55 @@
+{
+  "id": "em-climatology-1",
+  "moduleId": "em-climatology",
+  "title": "Massas de ar e controle do clima",
+  "summary": "Como as massas de ar determinam o tempo e o clima em diferentes regiões.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que Manaus chove o ano todo e o Nordeste seca?",
+    "text": "Duas cidades brasileiras, separadas por 3.000 km, vivem climas opostos: Manaus recebe 2.400 mm de chuva por ano, enquanto Quixadá (CE) recebe menos de 600 mm. A chave está nas massas de ar que dominam cada região — e nas condições dinâmicas da atmosfera que as movem."
+  },
+  "guided": {
+    "title": "Massas de ar: o que são e como funcionam",
+    "text": "Uma massa de ar é um grande volume de ar com temperatura e umidade relativamente uniformes, adquiridas na região de origem. Quando uma massa se desloca, carrega essas características e impõe sobre a área que passa seu próprio regime de temperatura e precipitação.",
+    "points": [
+      "Massas quentes e úmidas: originadas sobre oceanos tropicais — trazem chuva.",
+      "Massas quentes e secas: originadas sobre continentes tropicais — trazem estiagem.",
+      "Massas frias e úmidas: originadas em altas latitudes — trazem frio e chuva frontal.",
+      "A Zona de Convergência Intertropical (ZCIT) atrai as massas tropicais para perto do equador, gerando a estação chuvosa amazônica."
+    ]
+  },
+  "relations": {
+    "title": "Massas de ar atuantes no Brasil",
+    "text": "O Brasil é influenciado por seis massas de ar principais: Equatorial Continental (mEc), Equatorial Atlântica (mEa), Tropical Atlântica (mTa), Tropical Continental (mTc), Polar Atlântica (mPa) e, marginalmente, a Polar Continental (mPc). A dominância de cada massa em cada estação explica a diversidade climática do país — da Amazônia ao Pampa gaúcho."
+  },
+  "caseStudy": {
+    "title": "A Zona de Convergência do Atlântico Sul (ZCAS)",
+    "text": "No verão, a ZCAS é uma banda de nebulosidade e chuva intensa que se estende do Amazonas ao Atlântico Sul. Ela é formada pela confluência da mEc com a mTa sobre o Centro-Oeste e Sudeste, e é responsável pela maior parte das chuvas de novembro a março nessas regiões. Quando a ZCAS fica estacionária por mais de cinco dias, gera eventos extremos de precipitação — como as enchentes históricas de Petrópolis e Vale do Itajaí."
+  },
+  "application": "Observe a previsão do tempo da sua cidade por 7 dias. Tente identificar qual massa de ar está predominando cada dia com base na temperatura, nebulosidade e precipitação previstas.",
+  "activity": {
+    "question": "A massa de ar responsável pela estiagem prolongada no sertão nordestino durante o inverno é:",
+    "type": "single-choice",
+    "correct": "mtc",
+    "options": [
+      { "value": "mec",  "label": "Equatorial Continental (mEc) — quente e úmida" },
+      { "value": "mtc",  "label": "Tropical Continental (mTc) — quente e seca" },
+      { "value": "mpa",  "label": "Polar Atlântica (mPa) — fria e úmida" },
+      { "value": "mta",  "label": "Tropical Atlântica (mTa) — quente e úmida" }
+    ],
+    "feedback": {
+      "correct": "Correto. A mTc, originada no interior do continente, domina o Nordeste no inverno austral, bloqueando a entrada de umidade e impondo estiagem severa.",
+      "incorrect": "Pense na origem da massa: o Nordeste seca quando o ar que o domina vem de uma região continental árida, sem umidade oceânica."
+    },
+    "hints": [
+      { "type": "text", "content": "Considere o nome da massa: 'Tropical Continental'. Continental significa originada sobre continente — portanto, seca." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o papel das massas de ar na determinação do clima regional e identifica as principais massas atuantes no Brasil.",
+    "observe": "Verifique se o aluno diferencia clima (padrão de longo prazo) de tempo (condição momentânea) ao usar o conceito de massa de ar.",
+    "answer": "mTc (Tropical Continental). Originada no interior do continente sul-americano, domina o Nordeste no inverno, bloqueando a entrada de frentes frias e da umidade oceânica.",
+    "mediation": "Pergunte: 'Se as massas de ar mudam de posição com as estações, o que acontece com as chuvas do Nordeste no verão?' (resposta: a mEc avança e traz chuvas frontais e convectivas).",
+    "time": "50 minutos"
+  }
+}

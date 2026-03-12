@@ -1,0 +1,70 @@
+{
+  "id": "em-health-geo-1",
+  "moduleId": "em-health-geo",
+  "title": "Epidemiologia espacial: onde a doença acontece",
+  "summary": "Como a distribuição geográfica de doenças revela desigualdades e condicionantes socioambientais.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O mapa que salvou vidas",
+    "text": "Em 1854, uma epidemia de cólera matou 616 pessoas no bairro de Soho, em Londres. O médico John Snow mapeou cada caso sobre uma planta do bairro e identificou que todos convergiam para uma única bomba d'água na Broad Street. Ao remover a alça da bomba, a epidemia cessou. Snow não conhecia o vibrio cholerae — o mapa foi suficiente. Nasceu ali a epidemiologia espacial."
+  },
+  "guided": {
+    "title": "Espaço como determinante de saúde",
+    "text": "A epidemiologia espacial estuda como a distribuição geográfica de doenças, fatores de risco e serviços de saúde se relaciona com as características do espaço — físicas, sociais e históricas. A pergunta central não é apenas 'quem adoece', mas 'onde adoece, e por quê ali'.",
+    "points": [
+      "Vetores ambientais: dengue, malária e leishmaniose têm distribuição ligada a ecossistemas específicos (áreas úmidas, floresta, periurbano).",
+      "Saneamento básico: mortalidade por doenças diarreicas é inversamente proporcional ao acesso a esgoto tratado.",
+      "Violência e saúde: taxas de homicídio têm distribuição geográfica marcada — periferias urbanas, fronteiras, territórios de disputa.",
+      "Acesso a serviços: desertos de saúde (áreas sem cobertura adequada) concentram-se em periferias e interior rural."
+    ]
+  },
+  "relations": {
+    "title": "Determinantes sociais da saúde",
+    "text": "A Organização Mundial da Saúde define determinantes sociais da saúde como as condições em que as pessoas nascem, crescem, vivem, trabalham e envelhecem. Renda, escolaridade, moradia, saneamento, alimentação e violência determinam mais a saúde de uma população do que acesso a médicos e remédios. A geografia é o palco onde essas condições se materializam: bairros ricos têm mais verde, menos poluição, serviços de saúde próximos e comida saudável. Bairros pobres têm o oposto."
+  },
+  "caseStudy": {
+    "title": "Desertos alimentares e obesidade no Brasil",
+    "text": "No Brasil, 38 milhões de pessoas vivem em 'desertos alimentares' — áreas sem supermercados ou feiras a distância razoável, onde só há acesso a ultraprocessados em mercadinhos de bairro. A obesidade no país é paradoxalmente mais prevalente em regiões mais pobres: não porque pobres comem mais, mas porque comem pior — com mais açúcar, gordura trans e sódio, e menos frutas e vegetais. A distribuição espacial dos equipamentos alimentares é uma política de saúde pública disfarçada de zoneamento urbano."
+  },
+  "application": "Mapeie os serviços de saúde a até 2 km da sua casa ou escola: UBS, hospital, pronto-socorro, farmácia. Compare com um bairro de nível socioeconômico diferente. O que a diferença diz sobre equidade em saúde?",
+  "activity": {
+    "question": "A concentração de casos de dengue em bairros periurbanos com lotes abandonados e saneamento precário é exemplo de:",
+    "type": "single-choice",
+    "correct": "determinante",
+    "options": [
+      {
+        "value": "acaso",
+        "label": "Distribuição aleatória — doenças infecciosas não têm padrão geográfico"
+      },
+      {
+        "value": "determinante",
+        "label": "Determinante socioambiental — o espaço cria condições para proliferação do vetor"
+      },
+      {
+        "value": "genetico",
+        "label": "Fator genético — populações periféricas têm maior susceptibilidade"
+      },
+      {
+        "value": "cultural",
+        "label": "Fator cultural — hábitos de limpeza variam por classe social"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. Lotes abandonados acumulam água, saneamento precário não elimina criadouros, e a ausência do poder público reduz o controle vetorial. O espaço geográfico produz condições objetivas para a dengue — não é uma questão de comportamento individual.",
+      "incorrect": "A dengue tem um vetor (Aedes aegypti) que precisa de condições ambientais específicas. A distribuição dessas condições no espaço urbano não é aleatória — é produto do planejamento (ou da falta dele)."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O mosquito precisa de água parada. Onde há mais água parada sem controle: em bairros com coleta de lixo e saneamento ou sem?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o conceito de determinante socioambiental da saúde e aplica a perspectiva espacial à análise de doenças.",
+    "observe": "Monitore explicações que individualizem a responsabilidade pela doença ('descuido pessoal'). Redirecione para condições estruturais.",
+    "answer": "Determinante socioambiental. A distribuição espacial da dengue segue a distribuição espacial da precariedade urbana — não é aleatória.",
+    "mediation": "Proponha: 'Se a dengue fosse uma questão de cuidado individual, por que ela é tão mais prevalente em algumas regiões do que em outras?'",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "em-health-geo-2",
+  "moduleId": "em-health-geo",
+  "title": "Saneamento básico e saúde: a geografia da água",
+  "summary": "Acesso à água potável e esgoto como determinante central de saúde pública.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Cada R$ 1 em saneamento economiza R$ 4 em saúde",
+    "text": "O Brasil tem 35 milhões de pessoas sem acesso à água tratada e 100 milhões sem coleta de esgoto — números da PNAD 2022. As doenças de veiculação hídrica (diarreia, hepatite A, leptospirose, cólera) matam principalmente crianças menores de 5 anos. A estimativa do Instituto Trata Brasil é que cada R$ 1 investido em saneamento básico economiza R$ 4 em gastos de saúde pública. É uma das políticas de saúde com melhor custo-benefício conhecida."
+  },
+  "guided": {
+    "title": "O acesso desigual ao saneamento",
+    "text": "No Brasil, o saneamento é desigualmente distribuído no espaço: capitais têm cobertura maior que municípios do interior; Sul e Sudeste têm cobertura maior que Norte e Nordeste; bairros ricos têm esgoto tratado, bairros pobres têm fossas sépticas ou nada.",
+    "points": [
+      "Água: 85% dos domicílios brasileiros têm acesso à rede de distribuição. Mas qualidade e continuidade variam muito.",
+      "Esgoto: apenas 55% dos domicílios têm coleta de esgoto — dos coletados, nem todo é tratado.",
+      "Norte: pior situação do país. Manaus, com 2 milhões de habitantes, lança esgoto bruto no Rio Negro.",
+      "Marco do Saneamento (2020): estabeleceu meta de universalização até 2033. Progresso lento."
+    ]
+  },
+  "relations": {
+    "title": "Saneamento e desigualdade racial",
+    "text": "No Brasil, a falta de saneamento não é apenas geográfica — é racializada. Domicílios chefiados por pessoas negras têm taxa de acesso ao saneamento 20 pontos percentuais menor do que os chefiados por pessoas brancas. Favelas e comunidades periféricas — com alta população negra — concentram os déficits. Isso não é coincidência: é produto de um processo histórico de urbanização que excluiu negros e pobres das cidades formais, relegando-os a territórios sem infraestrutura."
+  },
+  "caseStudy": {
+    "title": "Leptospirose no pós-enchente: um ciclo previsível",
+    "text": "Toda vez que o Brasil enfrenta enchentes — Teresópolis (2011), São Sebastião (2023), Rio Grande do Sul (2024) — os casos de leptospirose explodem semanas depois. A doença é transmitida pela urina de ratos contaminados que contamina água de enchente. Basta contato com a pele. As vítimas são invariavelmente trabalhadores que limpam casas e ruas sem equipamento de proteção. A leptospirose é uma doença de desastre e de pobreza: quem pode, evacua e não volta antes da limpeza profissional."
+  },
+  "application": "Acesse o site do Sistema Nacional de Informações sobre Saneamento (SNIS) e compare os índices de cobertura de água e esgoto do seu município com a média nacional e com o município vizinho mais próximo.",
+  "activity": {
+    "question": "A disparidade de acesso ao saneamento básico entre Norte/Nordeste e Sul/Sudeste do Brasil é explicada principalmente por:",
+    "type": "single-choice",
+    "correct": "historico",
+    "options": [
+      {
+        "value": "natural",
+        "label": "Condições naturais — o clima tropical dificulta a implantação de redes"
+      },
+      {
+        "value": "historico",
+        "label": "Processo histórico de urbanização e investimento público desigual"
+      },
+      {
+        "value": "cultural",
+        "label": "Diferenças culturais em valorização da higiene por região"
+      },
+      {
+        "value": "tamanho",
+        "label": "O Norte e Nordeste têm municípios menores, inviabilizando redes coletivas"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. A distribuição do saneamento segue o padrão histórico de investimento público: regiões que concentraram capital industrial (Sul/Sudeste) receberam mais infraestrutura. Não é resultado de clima ou cultura, mas de escolhas políticas acumuladas.",
+      "incorrect": "O clima tropical não impede redes de saneamento — Singapura e várias cidades tropicais têm saneamento universal. A explicação está na história das políticas de investimento."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Cidades tropicais com recursos (Cingapura, partes do Japão) têm saneamento exemplar. O problema não é o clima — é a história dos investimentos públicos."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno articula a desigualdade de acesso ao saneamento com o processo histórico de urbanização e com os impactos sobre a saúde.",
+    "observe": "Verifique se o aluno não naturaliza a precariedade do Norte/Nordeste. Redirecione para análise histórica das políticas de investimento.",
+    "answer": "Processo histórico de urbanização e investimento público desigual. O Sul/Sudeste concentrou a industrialização e recebeu mais infraestrutura ao longo do século XX.",
+    "mediation": "Proponha: 'Se o governo federal decidisse universalizar o saneamento até 2033, onde deveria concentrar os recursos? Que impactos na saúde seriam esperados?'",
+    "time": "50 minutos"
+  }
+}

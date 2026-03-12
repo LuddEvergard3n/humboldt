@@ -1,0 +1,70 @@
+{
+  "id": "em-health-geo-3",
+  "moduleId": "em-health-geo",
+  "title": "Doenças tropicais negligenciadas e territórios vulneráveis",
+  "summary": "Malária, dengue, leishmaniose: a geografia das doenças invisíveis.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Doenças que só existem onde a pobreza existe",
+    "text": "A leishmaniose visceral mata mais de 20.000 pessoas por ano no mundo. A malária infecta 240 milhões. A dengue afeta 400 milhões. Nenhuma dessas doenças tem vacina amplamente disponível, nenhuma tem cura barata e fácil, e nenhuma afeta os países ricos o suficiente para justificar bilhões em pesquisa. Elas são chamadas 'negligenciadas' não por serem raras — mas por afetarem populações sem poder de compra."
+  },
+  "guided": {
+    "title": "Doenças tropicais negligenciadas (DTNs)",
+    "text": "A OMS reconhece 20 doenças tropicais negligenciadas — afecções parasitárias, bacterianas e virais que afetam principalmente populações pobres em regiões tropicais. No Brasil, as mais relevantes são: dengue (e seus primos chikungunya e zika), malária (concentrada na Amazônia), leishmaniose (periurbano e rural nordestino), doença de Chagas (domicílios com barbeiro no semiárido) e esquistossomose (zona da mata nordestina e vales de rios).",
+    "points": [
+      "Dengue: urbana, periurbana. Expansão vinculada ao crescimento irregular, lotes abandonados, saneamento precário.",
+      "Malária: concentrada na Amazônia Legal. Expansão do garimpo é fator de aumento recente.",
+      "Leishmaniose: vetor (mosquito palha) em matas e periurbano. Avança com o desmatamento.",
+      "Chagas: domicílios de adobe sem reboco no semiárido. Em declínio com melhoria habitacional."
+    ]
+  },
+  "relations": {
+    "title": "Expansão do garimpo e malária",
+    "text": "Entre 2019 e 2022, os casos de malária em Yanomami (RR) explodiram. O mecanismo é direto: o garimpo ilegal cria piscinas de água parada (buracos de extração), ambiente ideal para o Anopheles, vetor da malária. Garimpeiros doentes transmitem ao contato com comunidades indígenas sem imunidade adquirida. A operação de retirada dos garimpeiros em 2023 foi simultânea à crise humanitária de desnutrição e malária nas aldeias. O caso demonstra como decisões econômicas e políticas (tolerância ao garimpo ilegal) têm consequências epidemiológicas mensuráveis."
+  },
+  "caseStudy": {
+    "title": "Esquistossomose na zona da mata nordestina",
+    "text": "A esquistossomose (xistose) é causada por um parasita que parte de seu ciclo de vida em caramujos de água doce. Afeta cerca de 1,5 milhão de brasileiros, concentrados na zona da mata de PE, AL, SE e BA — região de cana-de-açúcar, onde trabalhadores rurais entram em contato com rios e riachos contaminados. A doença causa dano hepático progressivo. É prevenível com saneamento básico e educação em saúde. Sua persistência nessa região específica é inseparável da história de exploração agrária do Nordeste — monocultura, precariedade habitacional, ausência de infraestrutura."
+  },
+  "application": "Pesquise o mapa de distribuição de dengue no Brasil no DataSUS ou no InfoDengue. Identifique os municípios com maior incidência. O que eles têm em comum em termos de tamanho, localização e condições urbanas?",
+  "activity": {
+    "question": "A expansão recente dos casos de malária em territórios indígenas de Roraima está associada principalmente a:",
+    "type": "single-choice",
+    "correct": "garimpo",
+    "options": [
+      {
+        "value": "clima",
+        "label": "Mudanças climáticas que aqueceram a região e favoreceram o vetor"
+      },
+      {
+        "value": "garimpo",
+        "label": "Expansão do garimpo ilegal, que cria criadouros e introduz o parasita"
+      },
+      {
+        "value": "imune",
+        "label": "Queda da imunidade natural das populações indígenas com o envelhecimento"
+      },
+      {
+        "value": "desmate",
+        "label": "Desmatamento que destruiu habitat do vetor, forçando-o às aldeias"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. O garimpo ilegal cria buracos de extração que acumulam água parada — criadouros perfeitos para o Anopheles. Além disso, garimpeiros doentes transmitem a malária ao contato com comunidades indígenas. É uma cadeia direta entre atividade econômica ilegal e epidemia.",
+      "incorrect": "O garimpo ilegal é o fator central documentado: cria criadouros, introduz vetores e parasitas, e desestrutura o sistema de saúde local."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O Anopheles precisa de água parada para reproduzir. Que atividade humana cria grandes quantidades de água parada na floresta?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a distribuição geográfica das DTNs e articula fatores econômicos, ambientais e sociais como determinantes.",
+    "observe": "Verifique se o aluno vai além da explicação ambiental (clima, vector) para incluir causas socioeconômicas.",
+    "answer": "Expansão do garimpo ilegal. O garimpo cria criadouros do Anopheles e introduz o parasita em territórios sem imunidade adquirida. A conexão entre economia e epidemia é direta.",
+    "mediation": "Proponha: 'Se o garimpo fosse erradicado amanhã, quanto tempo levaria para os casos de malária voltarem aos níveis anteriores?'",
+    "time": "50 minutos"
+  }
+}

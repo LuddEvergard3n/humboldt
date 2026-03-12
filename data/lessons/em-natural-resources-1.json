@@ -1,0 +1,70 @@
+{
+  "id": "em-natural-resources-1",
+  "moduleId": "em-natural-resources",
+  "title": "Recursos naturais: conceitos e classificação",
+  "summary": "Renováveis, não-renováveis e a lógica econômica da exploração de recursos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Quando o recurso acaba",
+    "text": "O pico do petróleo — o momento em que a produção global máxima é atingida e começa a declinar — foi previsto para as décadas de 1970, 1980, 1990, 2000 e 2010. Nenhuma previsão se confirmou: novas tecnologias (fracking, exploração em águas profundas) sempre encontraram novas reservas. Mas o argumento não desapareceu — apenas mudou de forma: o problema não é mais quando o petróleo acaba fisicamente, mas quando o mundo para de usá-lo por questão climática. A transição energética é uma versão política do pico do petróleo."
+  },
+  "guided": {
+    "title": "Tipos de recursos naturais",
+    "text": "Recursos naturais são elementos da natureza que as sociedades utilizam para produzir bens, energia e serviços. A classificação mais relevante distingue pela capacidade de renovação.",
+    "points": [
+      "Renováveis: se regeneram em escala de tempo humana — água, solo, florestas, peixes. Podem tornar-se não-renováveis se explorados além da taxa de renovação.",
+      "Não-renováveis: formados em escalas geológicas e esgotados pela exploração — petróleo, gás, carvão, minérios metálicos.",
+      "Virtualmente inesgotáveis: solar, eólico, geotérmico, maré. Limitados pela tecnologia de aproveitamento, não pela disponibilidade.",
+      "A distinção renovável/não-renovável é dinâmica: um aquífero fóssil (água que levou milênios para se acumular) é, na prática, não-renovável."
+    ]
+  },
+  "relations": {
+    "title": "Brasil: um país de recursos",
+    "text": "O Brasil está entre os países com maior dotação de recursos naturais do mundo: 13% da água doce superficial do planeta, maior biodiversidade, 17% das reservas mundiais de minério de ferro, petróleo do pré-sal, terras agrícolas e energia hídrica. Essa abundância é uma bênção geográfica e uma armadilha política — a 'maldição dos recursos': países ricos em recursos tendem a ter instituições mais frágeis, economias menos diversificadas e maior desigualdade. A Holanda cunhou o termo 'doença holandesa' para descrever como a descoberta de gás natural destruiu sua indústria manufatureira."
+  },
+  "caseStudy": {
+    "title": "O Aquífero Guarani: recurso ou mercadoria?",
+    "text": "O Aquífero Guarani é o maior reservatório de água subterrânea transfronteiriço do mundo — 1,2 milhão de km², espalhados por Brasil, Argentina, Paraguai e Uruguai. Abastece mais de 15 milhões de pessoas e é explorado por centenas de municípios. O desafio é que sua taxa de recarga natural é lenta: em algumas áreas, a água que se extrai hoje levou dezenas de milhares de anos para se acumular. Exploração excessiva pode fazer com que esse recurso 'renovável' se comporte como um não-renovável. O Acordo do Aquífero Guarani (2010) é o primeiro tratado internacional de gestão compartilhada de águas subterrâneas — mas sem mecanismos de enforcement efetivos."
+  },
+  "application": "Pesquise a matriz energética do Brasil. Quais são as principais fontes de energia? Que proporção é renovável? Compare com a matriz da Alemanha ou dos Estados Unidos.",
+  "activity": {
+    "question": "Um aquífero fóssil — formado há dezenas de milhares de anos com taxa de recarga mínima — deve ser classificado como:",
+    "type": "single-choice",
+    "correct": "pratico-nao-renovavel",
+    "options": [
+      {
+        "value": "renovavel",
+        "label": "Renovável — água sempre se renova no ciclo hidrológico"
+      },
+      {
+        "value": "pratico-nao-renovavel",
+        "label": "Praticamente não-renovável — a taxa de extração supera em muito a de recarga"
+      },
+      {
+        "value": "inesgotavel",
+        "label": "Virtualmente inesgotável — os volumes são imensos"
+      },
+      {
+        "value": "depende",
+        "label": "Depende exclusivamente do uso: pode ser gerido como renovável"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. A classificação de um recurso como renovável ou não-renovável depende da relação entre taxa de exploração e taxa de renovação — não apenas de sua natureza. Um aquífero fóssil com recarga mínima, explorado intensamente, é na prática não-renovável: extraído hoje, não se recuperará em escalas humanas.",
+      "incorrect": "A classificação de renovável/não-renovável não é absoluta — depende da taxa de uso em relação à taxa de renovação. Água pode ser não-renovável se explorada mais rápido do que se regenera."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Pense na relação entre velocidade de uso e velocidade de renovação. Se você retira 1.000 litros por dia e o aquífero repõe 1 litro por dia, ele é efetivamente renovável?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a classificação de recursos naturais e aplica o conceito de taxa de renovação para avaliar sustentabilidade.",
+    "observe": "Verifique se o aluno entende que a classificação renovável/não-renovável é contextual (depende da taxa de uso), não absoluta.",
+    "answer": "Praticamente não-renovável. A taxa de extração supera a de recarga por fator de milhares. O Aquífero Guarani é exemplo: é água renovável geologicamente, mas não-renovável na prática humana.",
+    "mediation": "Proponha: 'Como um país deveria decidir a taxa de extração de um recurso renovável de recarga lenta? Que critérios usar?'",
+    "time": "50 minutos"
+  }
+}

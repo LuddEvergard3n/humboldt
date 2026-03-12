@@ -1,0 +1,70 @@
+{
+  "id": "em-natural-resources-2",
+  "moduleId": "em-natural-resources",
+  "title": "Conflitos por água no século XXI",
+  "summary": "Escassez hídrica, geopolítica da água e disputas territoriais pelo acesso à água.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "A próxima guerra será pela água?",
+    "text": "Em 2011, o ex-secretário-geral da ONU Boutros Boutros-Ghali declarou: 'A próxima guerra no Oriente Médio será pela água, não pela política.' A Síria passou por uma seca severa entre 2007 e 2010 — a pior em 900 anos — que deslocou 1,5 milhão de camponeses para as cidades antes do início da guerra civil. O nexo entre escassez de recursos naturais, migração forçada e conflito não é automático, mas é documentado e crescente."
+  },
+  "guided": {
+    "title": "Dimensões da crise hídrica",
+    "text": "A crise da água é ao mesmo tempo física (escassez absoluta em regiões áridas), econômica (distribuição desigual do acesso) e geopolítica (disputas entre países por rios e aquíferos compartilhados). Cerca de 2 bilhões de pessoas vivem em regiões com estresse hídrico; 785 milhões não têm acesso à água potável segura.",
+    "points": [
+      "Escassez física: regiões áridas e semiáridas com precipitação inferior à evapotranspiração — Oriente Médio, Saara, semiárido brasileiro.",
+      "Escassez econômica: água existe, mas falta infraestrutura ou renda para acessá-la — comum na África Subsaariana.",
+      "Rios internacionais: 276 bacias hidrográficas atravessam fronteiras nacionais, criando interdependência e potencial de conflito.",
+      "Privatização da água: debates sobre a mercantilização da água e o reconhecimento como direito humano (ONU, 2010)."
+    ]
+  },
+  "relations": {
+    "title": "O Nilo e a Etiópia: conflito em curso",
+    "text": "O Nilo alimenta Egito, Sudão e Etiópia — mas o Egito concentrou historicamente o controle do rio. Em 2011, a Etiópia iniciou a construção da Barragem do Renascimento (GERD), a maior hidrelétrica da África. O Egito vê a barragem como ameaça existencial: se a Etiópia reduzir o fluxo para encher o reservatório, o Egito — com 97% do território no deserto — pode enfrentar déficit hídrico severo. As negociações fracassaram; em 2020, o Egito ameaçou ação militar. O conflito do Nilo é o exemplo contemporâneo mais claro de geopolítica da água."
+  },
+  "caseStudy": {
+    "title": "A transposição do Rio São Francisco",
+    "text": "O Projeto de Integração do Rio São Francisco com as Bacias Hidrográficas do Nordeste Setentrional (PISF) é a maior obra de infraestrutura hídrica do Brasil: 477 km de canais, 13 aquedutos, 9 túneis. Inaugurado parcialmente em 2017, o projeto leva água do São Francisco a Ceará, Rio Grande do Norte, Paraíba e Pernambuco. O debate foi intenso: governos do Nordeste defendiam como solução ao semiárido; ambientalistas alertavam para o impacto no São Francisco, já degradado; o governo da Bahia opôs-se por anos. O projeto ilustra como soluções hídricas envolvem simultaneamente engenharia, política regional, ecologia e direitos."
+  },
+  "application": "Pesquise a situação hídrica de um grande reservatório próximo a você (Cantareira em SP, Castanhão no CE, Sobradinho na BA). Qual é o nível atual? Quais usos dependem dele? Há conflitos de uso?",
+  "activity": {
+    "question": "O conflito entre Etiópia e Egito pela Barragem do Renascimento no Nilo é um exemplo de:",
+    "type": "single-choice",
+    "correct": "geopolitica-agua",
+    "options": [
+      {
+        "value": "fronteir",
+        "label": "Conflito de fronteira territorial — disputa pelo controle do leito do rio"
+      },
+      {
+        "value": "geopolitica-agua",
+        "label": "Geopolítica da água — controle do fluxo de recurso hídrico compartilhado"
+      },
+      {
+        "value": "energia",
+        "label": "Conflito energético — disputa pelo mercado de energia elétrica africano"
+      },
+      {
+        "value": "etnico",
+        "label": "Conflito étnico-religioso com pretexto hídrico"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. O conflito não é sobre a fronteira em si, mas sobre quem controla o fluxo do Nilo — e, portanto, o acesso à água de 100 milhões de egípcios. É o exemplo contemporâneo mais claro de geopolítica da água.",
+      "incorrect": "A questão central é o controle do recurso hídrico, não a fronteira ou a energia. O Egito não precisa da eletricidade da barragem — precisa da água do rio."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O Egito tem 97% do território no deserto. Qual é sua fonte de água? Agora pense: o que significa outra nação controlar parte desse fluxo?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende as dimensões geopolíticas dos conflitos por água e analisa casos contemporâneos.",
+    "observe": "Verifique se o aluno distingue escassez física de escassez econômica e geopolítica ao analisar conflitos hídricos.",
+    "answer": "Geopolítica da água. O Egito depende do Nilo para 90% de seu abastecimento. A barragem etíope altera o regime de fluxo e cria dependência. É uma disputa pelo controle de recurso vital compartilhado.",
+    "mediation": "Proponha: 'Como um tratado internacional poderia distribuir o fluxo do Nilo de forma equitativa entre três países com necessidades diferentes?'",
+    "time": "50 minutos"
+  }
+}

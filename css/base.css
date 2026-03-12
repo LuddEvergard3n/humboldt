@@ -95,17 +95,22 @@
 html {
   font-size: 16px; /* fixo — JS ajusta --font-scale em elementos específicos */
   scroll-behavior: smooth;
-  color-scheme: light; /* impede que o browser force dark mode */
+  color-scheme: only light; /* impede que o browser force dark mode */
+  background-color: #f2ede3; /* fallback antes das custom properties carregarem */
 }
 
 /* Garante que [hidden] nunca seja sobrescrito por regras de display */
 [hidden] { display: none !important; }
+
+/* Camadas SVG ocultas pelo LayerEngine (engine/layer-engine.js) */
+.map-layer-hidden { display: none !important; }
 
 body {
   font-family: var(--font-body);
   font-size: var(--size-base);
   line-height: var(--leading-base);
   color: var(--color-text);
+  background-color: #f2ede3; /* fallback literal — var() abaixo sobrescreve se custom properties carregarem */
   background-color: var(--color-bg);
   min-height: 100vh;
 
@@ -227,3 +232,14 @@ input, select, textarea {
 
 /* Região que recebe foco de navegação por teclado */
 [tabindex="-1"]:focus { outline: none; }
+
+/* === Dark mode override — este app é somente modo claro ===
+   Garante que o browser não force dark mode mesmo com a preferência do sistema.
+   color-scheme: only light já devia ser suficiente, mas este bloco é um
+   fallback explícito para browsers que ignoram color-scheme.         */
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #f2ede3 !important;
+    color:            #1a1a1a !important;
+  }
+}

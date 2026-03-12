@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="color-scheme" content="light" />
+  <meta name="color-scheme" content="only light" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Gerador de Plano de Aula — Humboldt" />
   <meta name="theme-color" content="#1e3a5f" />
@@ -19,6 +19,11 @@
   <link rel="stylesheet" href="css/mobile.css" />
 
   <style>
+    /* ── Forçar background claro independente do tema do SO ─ */
+    html, body {
+      background-color: #f2ede3 !important;
+      color-scheme: only light;
+    }
     /* ── Layout dois painéis ─────────────────────────────── */
     .plano-wrapper {
       max-width: 1260px;
@@ -417,6 +422,11 @@
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
       }
+    }
+
+    /* Força modo claro — sobrescreve qualquer dark mode */
+    @media (prefers-color-scheme: dark) {
+      html, body { background-color: #f2ede3 !important; color: #1a1a1a !important; }
     }
   </style>
 </head>
@@ -866,7 +876,7 @@
   ];
 
   const PREC = [
-    'Atlas Humboldt (humboldt.github.io)',
+    'Atlas Humboldt (luddevergard3n.github.io/humboldt/)',
     'Projetor ou televisão para uso coletivo',
     'Mapas impressos ou digitais',
     'Livro didático adotado pela escola',
@@ -1028,7 +1038,7 @@
     html += `
       <div style="margin-top:var(--space-8);border-top:1px solid var(--color-border);padding-top:var(--space-3);">
         <p style="font-family:var(--font-mono);font-size:0.68rem;color:var(--color-text-muted);margin:0;">
-          Gerado por Humboldt — Atlas Interativo de Geografia &nbsp;·&nbsp; humboldt.github.io
+          Gerado por Humboldt — Atlas Interativo de Geografia &nbsp;·&nbsp; luddevergard3n.github.io/humboldt/
         </p>
       </div>`;
 

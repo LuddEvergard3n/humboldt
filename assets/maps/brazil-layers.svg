@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 610"
+     role="img" aria-label="Mapa do Brasil com camadas temáticas">
+  <title>Brasil — Camadas Temáticas</title>
+  <desc>Mapa interativo com camadas: biomas, cidades, rios, rodovias e desmatamento.</desc>
+  <defs>
+    <style>
+      .map-layer-hidden { display:none; }
+      .city-dot { fill:#e05a00; stroke:#f2ede3; stroke-width:.8; cursor:pointer;
+                   transition:r .1s; }
+      .city-dot:hover { r:6; }
+      .city-label { font-family:"DM Mono",monospace; font-size:7px; fill:#1e3a5f;
+                     pointer-events:none; }
+      .rio-line { fill:none; stroke:#3a80a0; stroke-width:1.4;
+                   stroke-linecap:round; stroke-linejoin:round; }
+      .rod-line { fill:none; stroke:#8b5e2e; stroke-width:1; stroke-dasharray:5,3;
+                   stroke-linecap:round; stroke-linejoin:round; }
+      .graticule { stroke:rgba(30,58,95,.1); stroke-width:.5; fill:none; stroke-dasharray:3,5; }
+    </style>
+  </defs>
+
+  <!-- Oceano -->
+  <rect width="560" height="610" fill="#8dbdd1"/>
+
+  <!-- Graticule -->
+  <line class="graticule" x1="0" y1="84.9" x2="560" y2="84.9"/>
+  <line class="graticule" x1="0" y1="446.3" x2="560" y2="446.3"/>
+
+  <!-- Contorno do país -->
+  <path fill="#e8dfc8" stroke="#8b7d68" stroke-width="1"
+        d="M 1.2,46.3 43.1,3.1 166.2,3.1 276.9,23.2 338.5,61.8 369.2,38.6 455.4,3.1 482.5,92.7 482.5,270.3 449.2,308.9 424.6,362.9 400.0,409.2 418.5,432.4 400.0,478.7 313.8,532.8 270.8,610.0 203.1,571.4 240.0,494.2 203.1,393.8 166.2,316.6 73.8,285.7 104.6,223.9 1.2,162.2 Z"/>
+
+  <!-- ── Camada: Biomas ─────────────────────────── -->
+  <g data-layer="biomas">
+    <path data-name="Amazônia" fill="#2d6b2d" opacity=".85" stroke="none" d="M 1.2,46.3 43.1,3.1 166.2,3.1 276.9,23.2 338.5,61.8 338.5,278.0 295.4,247.1 246.2,177.6 172.3,169.9 104.6,223.9 1.2,162.2 Z"/>
+<path data-name="Cerrado" fill="#a09040" opacity=".85" stroke="none" d="M 172.3,169.9 246.2,177.6 295.4,247.1 338.5,278.0 363.1,316.6 332.3,401.5 289.2,463.3 240.0,494.2 203.1,393.8 166.2,316.6 104.6,223.9 Z"/>
+<path data-name="Caatinga" fill="#c4905a" opacity=".85" stroke="none" d="M 338.5,278.0 363.1,316.6 363.1,378.4 424.6,362.9 482.5,270.3 482.5,92.7 455.4,3.1 369.2,38.6 338.5,61.8 Z"/>
+<path data-name="Mata Atlântica" fill="#3a7a3a" opacity=".85" stroke="none" d="M 363.1,316.6 363.1,378.4 400.0,409.2 418.5,432.4 400.0,478.7 289.2,463.3 332.3,401.5 Z"/>
+<path data-name="Pampa" fill="#7aaa5a" opacity=".85" stroke="none" d="M 289.2,463.3 400.0,478.7 313.8,532.8 270.8,610.0 203.1,571.4 240.0,494.2 Z"/>
+<path data-name="Pantanal" fill="#5a8a7a" opacity=".85" stroke="none" d="M 203.1,393.8 240.0,332.0 196.9,332.0 166.2,362.9 166.2,424.7 203.1,424.7 Z"/>
+  </g>
+
+  <!-- ── Camada: Cidades ────────────────────────── -->
+  <g data-layer="cidades" class="map-layer-hidden">
+    <circle cx="172.3" cy="132.8" r="4" class="city-dot" data-name="Manaus"/>
+<text x="179.3" y="136.8" class="city-label">Manaus</text>
+<circle cx="313.8" cy="108.1" r="4" class="city-dot" data-name="Belém"/>
+<text x="320.8" y="112.1" class="city-label">Belém</text>
+<circle cx="283.1" cy="84.9" r="4" class="city-dot" data-name="Macapá"/>
+<text x="290.1" y="88.9" class="city-label">Macapá</text>
+<circle cx="163.7" cy="41.7" r="4" class="city-dot" data-name="Boa Vista"/>
+<text x="170.7" y="45.7" class="city-label">Boa Vista</text>
+<circle cx="124.3" cy="220.8" r="4" class="city-dot" data-name="Porto Velho"/>
+<text x="131.3" y="224.8" class="city-label">Porto Velho</text>
+<circle cx="76.3" cy="237.8" r="4" class="city-dot" data-name="Rio Branco"/>
+<text x="83.3" y="241.8" class="city-label">Rio Branco</text>
+<circle cx="316.3" cy="242.5" r="4" class="city-dot" data-name="Palmas"/>
+<text x="323.3" y="246.5" class="city-label">Palmas</text>
+<circle cx="365.5" cy="123.5" r="4" class="city-dot" data-name="São Luís"/>
+<text x="372.5" y="127.5" class="city-label">São Luís</text>
+<circle cx="436.9" cy="142.1" r="4" class="city-dot" data-name="Fortaleza"/>
+<text x="443.9" y="146.1" class="city-label">Fortaleza</text>
+<circle cx="384.0" cy="163.7" r="4" class="city-dot" data-name="Teresina"/>
+<text x="391.0" y="167.7" class="city-label">Teresina</text>
+<circle cx="477.5" cy="174.5" r="4" class="city-dot" data-name="Natal"/>
+<text x="484.5" y="178.5" class="city-label">Natal</text>
+<circle cx="481.2" cy="194.6" r="4" class="city-dot" data-name="João Pessoa"/>
+<text x="488.2" y="198.6" class="city-label">João Pessoa</text>
+<circle cx="480.0" cy="210.0" r="4" class="city-dot" data-name="Recife"/>
+<text x="487.0" y="214.0" class="city-label">Recife</text>
+<circle cx="471.4" cy="234.7" r="4" class="city-dot" data-name="Maceió"/>
+<text x="478.4" y="238.7" class="city-label">Maceió</text>
+<circle cx="454.2" cy="253.3" r="4" class="city-dot" data-name="Aracaju"/>
+<text x="461.2" y="257.3" class="city-label">Aracaju</text>
+<circle cx="436.9" cy="285.7" r="4" class="city-dot" data-name="Salvador"/>
+<text x="443.9" y="289.7" class="city-label">Salvador</text>
+<circle cx="321.2" cy="328.9" r="6" class="city-dot" data-name="Brasília"/>
+<text x="328.2" y="332.9" class="city-label">Brasília</text>
+<circle cx="304.0" cy="342.8" r="4" class="city-dot" data-name="Goiânia"/>
+<text x="311.0" y="346.8" class="city-label">Goiânia</text>
+<circle cx="220.3" cy="325.8" r="4" class="city-dot" data-name="Cuiabá"/>
+<text x="227.3" y="329.8" class="city-label">Cuiabá</text>
+<circle cx="238.8" cy="400.0" r="4" class="city-dot" data-name="Campo Grande"/>
+<text x="245.8" y="404.0" class="city-label">Campo Grande</text>
+<circle cx="369.2" cy="392.3" r="4" class="city-dot" data-name="Belo Horizonte"/>
+<text x="376.2" y="396.3" class="city-label">Belo Horizonte</text>
+<circle cx="414.8" cy="398.4" r="4" class="city-dot" data-name="Vitória"/>
+<text x="421.8" y="402.4" class="city-label">Vitória</text>
+<circle cx="379.1" cy="438.6" r="4" class="city-dot" data-name="Rio de Janeiro"/>
+<text x="386.1" y="442.6" class="city-label">Rio de Janeiro</text>
+<circle cx="337.2" cy="447.8" r="4" class="city-dot" data-name="São Paulo"/>
+<text x="344.2" y="451.8" class="city-label">São Paulo</text>
+<circle cx="304.0" cy="477.2" r="4" class="city-dot" data-name="Curitiba"/>
+<text x="311.0" y="481.2" class="city-label">Curitiba</text>
+<circle cx="313.8" cy="511.2" r="4" class="city-dot" data-name="Florianópolis"/>
+<text x="320.8" y="515.2" class="city-label">Florianópolis</text>
+<circle cx="280.6" cy="548.2" r="4" class="city-dot" data-name="Porto Alegre"/>
+<text x="287.6" y="552.2" class="city-label">Porto Alegre</text>
+  </g>
+
+  <!-- ── Camada: Rios ───────────────────────────── -->
+  <g data-layer="rios" class="map-layer-hidden">
+    <polyline data-name="Amazonas" class="rio-line" points="6.2,131.3 49.2,134.4 110.8,131.3 172.3,132.8 233.8,115.8 270.8,112.7 313.8,108.1"/>
+<polyline data-name="Solimões" class="rio-line" points="6.2,131.3 49.2,134.4 110.8,131.3 166.2,137.4"/>
+<polyline data-name="Negro" class="rio-line" points="110.8,108.1 141.5,112.7 172.3,132.8"/>
+<polyline data-name="Tocantins" class="rio-line" points="320.0,285.7 316.3,242.5 317.5,177.6 313.8,108.1"/>
+<polyline data-name="São Francisco" class="rio-line" points="332.3,308.9 381.5,362.9 412.3,316.6 443.1,262.5 461.5,247.1"/>
+<polyline data-name="Paraná" class="rio-line" points="283.1,347.5 240.0,424.7 203.1,486.5 203.1,548.2"/>
+<polyline data-name="Paraguai" class="rio-line" points="196.9,301.1 203.1,362.9 203.1,455.6"/>
+<polyline data-name="Araguaia" class="rio-line" points="276.9,332.0 289.2,270.3 301.5,208.5 313.8,169.9"/>
+<polyline data-name="Xingu" class="rio-line" points="258.5,239.4 264.6,193.0 276.9,131.3"/>
+<polyline data-name="Tapajós" class="rio-line" points="203.1,239.4 221.5,200.8 233.8,146.7 240.0,123.5"/>
+<polyline data-name="Madeira" class="rio-line" points="104.6,231.6 129.2,208.5 160.0,169.9 190.8,139.0"/>
+  </g>
+
+  <!-- ── Camada: Rodovias ───────────────────────── -->
+  <g data-layer="rodovias" class="map-layer-hidden">
+    <polyline data-name="BR-101" class="rod-line" points="455.4,3.1 480.0,208.5 436.9,285.7 412.3,424.7 379.1,438.6 313.8,486.5 280.6,548.2 270.8,610.0"/>
+<polyline data-name="BR-116" class="rod-line" points="436.9,142.1 418.5,285.7 375.4,393.8 337.2,447.8 304.0,477.2 280.6,548.2"/>
+<polyline data-name="BR-364" class="rod-line" points="321.2,328.9 238.8,400.0 172.3,239.4 124.3,220.8 76.3,237.8"/>
+<polyline data-name="BR-230" class="rod-line" points="313.8,108.1 233.8,177.6 124.3,220.8"/>
+  </g>
+
+  <!-- ── Camada: Desmatamento ───────────────────── -->
+  <g data-layer="desmatamento" class="map-layer-hidden">
+    <path fill="#d40000" opacity=".45" stroke="#d40000" stroke-width=".8" d="M 196.9,208.5 233.8,208.5 246.2,254.8 221.5,285.7 190.8,254.8 Z"/>
+<path fill="#d40000" opacity=".45" stroke="#d40000" stroke-width=".8" d="M 246.2,177.6 283.1,208.5 289.2,247.1 258.5,223.9 Z"/>
+<path fill="#d40000" opacity=".45" stroke="#d40000" stroke-width=".8" d="M 129.2,208.5 172.3,208.5 166.2,254.8 135.4,254.8 Z"/>
+    <!-- Legenda interna da camada -->
+    <rect x="18" y="18" width="120" height="20" rx="3"
+          fill="rgba(242,237,227,.9)" stroke="#d40000" stroke-width="1"/>
+    <rect x="24" y="24" width="10" height="8" fill="#d40000" opacity=".45"/>
+    <text x="40" y="31" font-family="monospace" font-size="8" fill="#d40000">
+      Área desmatada
+    </text>
+  </g>
+
+  <!-- Rosa dos ventos -->
+  <g transform="translate(500,555)">
+    <circle r="26" fill="rgba(242,237,227,.9)" stroke="#c8bfa8" stroke-width="1"/>
+    <polygon points="0,-19 -4,-5 4,-5" fill="#c4a35a"/>
+    <polygon points="0,19 -4,5 4,5"   fill="#1e3a5f" opacity=".55"/>
+    <line x1="-19" y1="0" x2="19" y2="0" stroke="#1e3a5f" stroke-width="1" opacity=".4"/>
+    <text text-anchor="middle" y="-21" font-family="monospace" font-size="9"
+          font-weight="700" fill="#c4a35a">N</text>
+  </g>
+</svg>

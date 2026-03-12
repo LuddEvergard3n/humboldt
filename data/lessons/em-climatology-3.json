@@ -1,0 +1,70 @@
+{
+  "id": "em-climatology-3",
+  "moduleId": "em-climatology",
+  "title": "Mudanças climáticas: causas e evidências",
+  "summary": "O aquecimento global antropogênico: mecanismos, dados e projeções.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "1,1°C em 150 anos",
+    "text": "A temperatura média global aumentou 1,1°C desde o período pré-industrial (1850–1900). Parece pouco. Mas esse valor é a média de todo o planeta: os polos aqueceram até 4°C; os oceanos absorveram 90% do calor excedente. A consequência não é um planeta levemente mais quente — é um sistema climático em desequilíbrio, com eventos extremos mais intensos e frequentes."
+  },
+  "guided": {
+    "title": "O efeito estufa: natural e amplificado",
+    "text": "O efeito estufa é um fenômeno natural e essencial: sem ele, a temperatura média da Terra seria −18°C. O problema é sua amplificação antropogênica. A queima de combustíveis fósseis, o desmatamento e a pecuária intensiva elevam a concentração de CO₂, metano e óxido nitroso na atmosfera, intensificando a retenção de calor.",
+    "points": [
+      "CO₂: principal gás de efeito estufa. Concentração passou de 280 ppm (pré-industrial) para 422 ppm (2024).",
+      "Metano (CH₄): 80× mais potente que CO₂ no curto prazo. Fontes: pecuária, arrozais, aterros, vazamentos de gás.",
+      "Retroalimentações positivas: derretimento do permafrost libera mais metano; degelo do Ártico reduz o albedo.",
+      "O IPCC (Painel Intergovernamental sobre Mudanças Climáticas) reúne e sintetiza o consenso científico global."
+    ]
+  },
+  "relations": {
+    "title": "Impactos no Brasil",
+    "text": "As projeções para o Brasil incluem aridização do semiárido nordestino (−20% de precipitação até 2050), intensificação das chuvas no Sudeste e Sul, branqueamento de corais na costa nordestina e deslocamento dos biomas. O Brasil é simultaneamente vítima das mudanças climáticas e responsável por cerca de 3% das emissões globais — em grande parte pelo desmatamento."
+  },
+  "caseStudy": {
+    "title": "O Acordo de Paris e as metas brasileiras",
+    "text": "O Acordo de Paris (2015) estabeleceu o objetivo de limitar o aquecimento a 1,5°C acima dos níveis pré-industriais. O Brasil comprometeu-se a reduzir emissões em 50% até 2030 e alcançar neutralidade climática até 2050. O desafio central é o desmatamento: cerca de 50% das emissões brasileiras vêm do desmatamento e uso do solo — o que torna as políticas de proteção florestal centrais para a meta climática do país."
+  },
+  "application": "Calcule sua pegada de carbono usando uma calculadora online (Akatu ou WWF Brasil). Identifique os 3 fatores que mais contribuem. O que seria necessário mudar para reduzi-los?",
+  "activity": {
+    "question": "Qual é a principal fonte das emissões brasileiras de gases de efeito estufa?",
+    "type": "single-choice",
+    "correct": "desmatamento",
+    "options": [
+      {
+        "value": "transporte",
+        "label": "Transporte e mobilidade urbana"
+      },
+      {
+        "value": "industria",
+        "label": "Indústria e geração de energia"
+      },
+      {
+        "value": "desmatamento",
+        "label": "Desmatamento e uso do solo"
+      },
+      {
+        "value": "agropecuaria",
+        "label": "Agropecuária intensiva (pecuária e grãos)"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. Diferentemente dos países industrializados, o Brasil emite mais pela perda de cobertura florestal do que pela queima de combustíveis fósseis. Isso torna a política ambiental o eixo central da agenda climática brasileira.",
+      "incorrect": "O Brasil possui uma matriz elétrica predominantemente renovável. A maior fonte de emissões está no que acontece com as florestas, não com as usinas."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "O Brasil tem uma das matrizes energéticas mais limpas do mundo. A maior ameaça climática vem da perda de cobertura vegetal."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende os mecanismos do aquecimento global e analisa as especificidades do Brasil no contexto da crise climática.",
+    "observe": "Atente para possíveis ideias negacionistas. Reforce que o consenso científico é sólido e baseado em múltiplas linhas de evidência independentes.",
+    "answer": "Desmatamento e uso do solo. Aproximadamente 50% das emissões brasileiras vêm do desflorestamento, principalmente na Amazônia e no Cerrado.",
+    "mediation": "Proponha: 'Se o Brasil tem uma das matrizes energéticas mais limpas do mundo, como ainda tem responsabilidade climática relevante?'",
+    "time": "50 minutos"
+  }
+}

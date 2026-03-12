@@ -740,3 +740,440 @@ input[type="range"] {
   line-height:   var(--leading-loose);
   min-height:    4rem;
 }
+
+/* ==========================================================
+   Article view — módulos de Ensino Superior
+   ========================================================== */
+
+/* Layout: TOC + conteúdo */
+.view-article {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-6) var(--space-24);
+}
+
+.article-breadcrumb {
+  margin-bottom: var(--space-6);
+}
+
+.article-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: var(--space-12);
+  align-items: start;
+}
+
+/* --- TOC ---------------------------------------------------------- */
+.article-toc {
+  position: sticky;
+  top: calc(80px + var(--space-6)); /* abaixo do header fixo */
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.toc-inner {
+  background:    var(--color-bg-panel);
+  border:        1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding:       var(--space-4);
+}
+
+.toc-label {
+  font-family:    var(--font-mono);
+  font-size:      var(--size-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color:          var(--color-text-muted);
+  margin-bottom:  var(--space-3);
+}
+
+.toc-list {
+  list-style: none;
+  padding:    0;
+  margin:     0;
+  display:    flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.toc-link {
+  display:       block;
+  font-size:     var(--size-sm);
+  color:         var(--color-text-muted);
+  border-bottom: none;
+  padding:       var(--space-1) var(--space-2);
+  border-left:   2px solid transparent;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  transition:    color var(--transition-fast), border-color var(--transition-fast),
+                 background var(--transition-fast);
+  line-height:   var(--leading-base);
+}
+
+.toc-link:hover,
+.toc-link:focus {
+  color:            var(--color-primary);
+  border-left-color: var(--color-border);
+  background:       rgba(30,58,95,0.04);
+}
+
+.toc-link--active {
+  color:            var(--color-accent);
+  border-left-color: var(--color-accent);
+  background:       rgba(139,94,46,0.06);
+  font-weight:      600;
+}
+
+.toc-meta {
+  margin-top:  var(--space-4);
+  padding-top: var(--space-3);
+  border-top:  1px solid var(--color-border);
+}
+
+.toc-reading-time {
+  font-family: var(--font-mono);
+  font-size:   var(--size-xs);
+  color:       var(--color-text-muted);
+}
+
+/* --- Article header ----------------------------------------------- */
+.article-header {
+  margin-bottom: var(--space-12);
+  padding-bottom: var(--space-8);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.article-level-tag {
+  display:        inline-block;
+  font-family:    var(--font-mono);
+  font-size:      var(--size-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color:          var(--color-accent);
+  background:     rgba(139,94,46,0.08);
+  border:         1px solid rgba(139,94,46,0.2);
+  border-radius:  var(--radius-sm);
+  padding:        0.2em 0.6em;
+  margin-bottom:  var(--space-4);
+}
+
+.article-title {
+  font-size:     var(--size-3xl);
+  margin-bottom: var(--space-3);
+  line-height:   var(--leading-tight);
+}
+
+.article-subtitle {
+  font-size:     var(--size-lg);
+  color:         var(--color-text-muted);
+  font-style:    italic;
+  margin-bottom: var(--space-6);
+}
+
+.article-intro {
+  font-size:    var(--size-md);
+  line-height:  var(--leading-loose);
+  color:        var(--color-text-mid);
+  max-width:    68ch;
+  border-left:  3px solid var(--color-accent-lt);
+  padding-left: var(--space-4);
+}
+
+/* --- Seções ------------------------------------------------------- */
+.article-section {
+  margin-bottom: var(--space-16);
+  scroll-margin-top: 100px;
+}
+
+.section-title {
+  font-size:     var(--size-xl);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+  color:         var(--color-primary);
+}
+
+/* text */
+.section-text p {
+  font-size:   var(--size-base);
+  line-height: var(--leading-loose);
+  color:       var(--color-text-mid);
+  max-width:   72ch;
+  margin-bottom: var(--space-4);
+}
+
+.section-text p:last-child { margin-bottom: 0; }
+
+/* quote */
+.section-quote-wrap {
+  margin: var(--space-8) 0;
+}
+
+.article-blockquote {
+  border-left:  4px solid var(--color-accent-lt);
+  padding:      var(--space-6) var(--space-8);
+  background:   var(--color-bg-panel);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin:       0;
+}
+
+.blockquote-text {
+  font-family:  var(--font-display);
+  font-size:    var(--size-xl);
+  font-style:   italic;
+  line-height:  var(--leading-loose);
+  color:        var(--color-primary);
+  margin-bottom: var(--space-4);
+  max-width:    60ch;
+}
+
+.blockquote-footer {
+  display:     flex;
+  flex-direction: column;
+  gap:         var(--space-1);
+}
+
+.blockquote-author {
+  font-weight:  600;
+  font-style:   normal;
+  font-size:    var(--size-sm);
+  color:        var(--color-accent);
+}
+
+.blockquote-work {
+  font-size:  var(--size-xs);
+  font-family: var(--font-mono);
+  color:       var(--color-text-muted);
+}
+
+/* thinkers */
+.thinkers-grid {
+  display:               grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap:                   var(--space-6);
+}
+
+.thinker-card {
+  background:    var(--color-bg-panel);
+  border:        1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding:       var(--space-6);
+  display:       flex;
+  flex-direction: column;
+  gap:            var(--space-4);
+  transition:    box-shadow var(--transition);
+}
+
+.thinker-card:hover {
+  box-shadow: var(--shadow);
+}
+
+.thinker-header {
+  display: flex;
+  gap:     var(--space-4);
+  align-items: flex-start;
+}
+
+.thinker-avatar {
+  width:            52px;
+  height:           52px;
+  min-width:        52px;
+  border-radius:    50%;
+  background:       var(--color-primary);
+  color:            var(--color-text-inv);
+  display:          flex;
+  align-items:      center;
+  justify-content:  center;
+  font-family:      var(--font-mono);
+  font-size:        var(--size-sm);
+  font-weight:      600;
+  letter-spacing:   0.02em;
+}
+
+.thinker-name {
+  font-size:     var(--size-md);
+  font-weight:   700;
+  color:         var(--color-primary);
+  margin-bottom: var(--space-1);
+}
+
+.thinker-dates {
+  font-family:  var(--font-mono);
+  font-size:    var(--size-xs);
+  color:        var(--color-text-muted);
+  margin-bottom: var(--space-1);
+}
+
+.thinker-tradition {
+  font-size:   var(--size-xs);
+  color:       var(--color-accent);
+  font-weight: 600;
+}
+
+.thinker-contribution {
+  font-size:   var(--size-sm);
+  line-height: var(--leading-loose);
+  color:       var(--color-text-mid);
+}
+
+.thinker-quote {
+  border-left:  2px solid var(--color-accent-lt);
+  padding-left: var(--space-3);
+  margin:       0;
+}
+
+.thinker-quote p {
+  font-style:   italic;
+  font-size:    var(--size-sm);
+  color:        var(--color-primary);
+  line-height:  var(--leading-loose);
+  margin-bottom: var(--space-1);
+}
+
+.thinker-quote cite {
+  font-size:   var(--size-xs);
+  font-family: var(--font-mono);
+  color:       var(--color-text-muted);
+  font-style:  normal;
+}
+
+/* timeline */
+.timeline {
+  position: relative;
+  padding-left: var(--space-8);
+}
+
+.timeline::before {
+  content:          '';
+  position:         absolute;
+  left:             11px;
+  top:              8px;
+  bottom:           8px;
+  width:            2px;
+  background:       var(--color-border);
+}
+
+.timeline-item {
+  position:      relative;
+  margin-bottom: var(--space-8);
+  display:       flex;
+  gap:           var(--space-4);
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-marker {
+  position:         absolute;
+  left:             calc(-1 * var(--space-8) + 6px);
+  top:              6px;
+  width:            12px;
+  height:           12px;
+  border-radius:    50%;
+  background:       var(--color-accent-lt);
+  border:           2px solid var(--color-accent);
+  z-index:          1;
+}
+
+.timeline-body {
+  flex: 1;
+}
+
+.timeline-period {
+  display:        block;
+  font-family:    var(--font-mono);
+  font-size:      var(--size-xs);
+  color:          var(--color-accent);
+  font-weight:    600;
+  margin-bottom:  var(--space-1);
+}
+
+.timeline-label {
+  font-size:     var(--size-md);
+  font-weight:   700;
+  color:         var(--color-primary);
+  margin-bottom: var(--space-2);
+}
+
+.timeline-desc {
+  font-size:   var(--size-sm);
+  line-height: var(--leading-loose);
+  color:       var(--color-text-mid);
+  max-width:   65ch;
+}
+
+/* compare-table */
+.compare-table-wrap {
+  overflow-x: auto;
+  border:        1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.compare-table {
+  width:           100%;
+  border-collapse: collapse;
+  font-size:       var(--size-sm);
+}
+
+.compare-table th,
+.compare-table td {
+  padding:      var(--space-3) var(--space-4);
+  text-align:   left;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+  line-height:  var(--leading-loose);
+}
+
+.compare-table thead th {
+  background:     var(--color-primary);
+  color:          var(--color-text-inv);
+  font-weight:    600;
+  font-family:    var(--font-mono);
+  font-size:      var(--size-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  border-bottom:  2px solid var(--color-accent-lt);
+}
+
+.compare-table tbody tr:nth-child(even) td,
+.compare-table tbody tr:nth-child(even) th {
+  background: rgba(30,58,95,0.03);
+}
+
+.compare-table tbody th {
+  font-weight:  600;
+  color:        var(--color-primary);
+  white-space:  nowrap;
+}
+
+.compare-table tbody tr:last-child td,
+.compare-table tbody tr:last-child th {
+  border-bottom: none;
+}
+
+/* Module card variant for ES articles */
+.module-card--article .module-card-count {
+  color:          var(--color-accent);
+  font-weight:    600;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .article-toc {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .toc-inner {
+    display: none; /* oculta no mobile — TOC inline no topo seria UX melhor no futuro */
+  }
+
+  .thinkers-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="color-scheme" content="light" />
+  <meta name="color-scheme" content="only light" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Sobre o Humboldt — Atlas Interativo de Geografia" />
   <meta name="theme-color" content="#1e3a5f" />
@@ -19,6 +19,11 @@
   <link rel="stylesheet" href="css/mobile.css" />
 
   <style>
+    /* ── Forçar background claro independente do tema do SO ─ */
+    html, body {
+      background-color: #f2ede3 !important;
+      color-scheme: only light;
+    }
     /* ── Layout ──────────────────────────────────────────── */
     .sobre-wrapper {
       max-width: 860px;
@@ -354,6 +359,11 @@
       .sobre-wrapper { padding: var(--space-4) var(--space-3) var(--space-12); }
       .metricas { grid-template-columns: repeat(2, 1fr); }
     }
+
+    /* Força modo claro — sobrescreve qualquer dark mode */
+    @media (prefers-color-scheme: dark) {
+      html, body { background-color: #f2ede3 !important; color: #1a1a1a !important; }
+    }
   </style>
 </head>
 <body style="background:#f2ede3">
@@ -587,7 +597,7 @@
           <span class="eco-desc">Atlas interativo de leitura do espaço e das relações geográficas. 22 módulos, EFI ao EM.</span>
         </div>
 
-        <a href="https://luddevergard3n.github.io/Herodoto/" class="eco-card" target="_blank" rel="noopener">
+        <a href="https://luddevergard3n.github.io/Herodoto/index.html" class="eco-card" target="_blank" rel="noopener">
           <span class="eco-nome">Heródoto</span>
           <span class="eco-disc">História</span>
           <span class="eco-desc">Atlas de eventos, processos e causalidade histórica. Grafo interativo de relações.</span>
@@ -605,6 +615,18 @@
           <span class="eco-desc">Ferramenta de escrita, retórica e análise textual para o ensino de língua.</span>
         </a>
 
+        <a href="https://luddevergard3n.github.io/lavoisier/" class="eco-card" target="_blank" rel="noopener">
+          <span class="eco-nome">Lavoisier</span>
+          <span class="eco-disc">Ciências / Química</span>
+          <span class="eco-desc">Experimentos, tabela periódica e reações químicas com visualização interativa.</span>
+        </a>
+
+        <a href="https://luddevergard3n.github.io/archimedes/" class="eco-card" target="_blank" rel="noopener">
+          <span class="eco-nome">Archimedes</span>
+          <span class="eco-disc">Física</span>
+          <span class="eco-desc">Simulações de física clássica, mecânica e fenômenos naturais.</span>
+        </a>
+
         <a href="https://luddevergard3n.github.io/johnson-english/" class="eco-card" target="_blank" rel="noopener">
           <span class="eco-nome">Johnson</span>
           <span class="eco-disc">Inglês</span>
@@ -616,7 +638,7 @@
   </section>
 
   <footer class="sobre-footer">
-    <p>Humboldt v0.8 &mdash; MIT License &mdash; <a href="https://github.com/luddevergard3n" target="_blank" rel="noopener">GitHub</a></p>
+    <p>Humboldt v0.8 &mdash; MIT License &mdash; <a href="https://github.com/LuddEvergard3n/humboldt" target="_blank" rel="noopener">GitHub</a></p>
   </footer>
 
 </body>

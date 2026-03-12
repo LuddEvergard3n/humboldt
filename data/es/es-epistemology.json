@@ -1,0 +1,162 @@
+{
+  "id": "es-epistemology",
+  "title": "Correntes do Pensamento Geográfico",
+  "subtitle": "Da descrição à crítica: como a Geografia construiu seu método",
+  "intro": "A Geografia não nasceu como ciência. Durante séculos foi um inventário — nomes de rios, altitudes de montanhas, limites de impérios. A ruptura epistemológica do século XIX transformou esse inventário em disciplina com método, objeto e teoria. Este módulo percorre as principais correntes que definiram o que significa pensar geograficamente: do determinismo ao pós-estruturalismo, passando pela virada quantitativa e pela crítica marxista.",
+  "readingTime": "30 min",
+  "sections": [
+    {
+      "id": "sec-nascimento",
+      "title": "O nascimento da disciplina",
+      "type": "text",
+      "body": "A institucionalização da Geografia como disciplina acadêmica ocorre no contexto específico do século XIX europeu: a expansão colonial exigia inventariar territórios; os Estados nacionais precisavam cartografar e controlar espaços; as universidades alemãs necessitavam justificar cadeiras. É nesse cruzamento que surge a Geografia científica.\n\nAlexander von Humboldt e Carl Ritter são considerados os fundadores. Humboldt parte do empirismo naturalista — viagens, coleta, observação sistemática — para construir uma visão de natureza como totalidade inter-relacionada. Ritter, a partir de Berlim, desenvolve uma perspectiva teleológica: o espaço geográfico como palco da ação divina sobre a humanidade. As diferenças entre eles já apontam para uma tensão fundadora: a Geografia seria ciência natural ou ciência humana?\n\nEssa tensão nunca foi resolvida — e é ela, precisamente, que torna a epistemologia geográfica fértil. Cada corrente subsequente representa uma resposta diferente a essa pergunta."
+    },
+    {
+      "id": "sec-fundadores",
+      "title": "Os pensadores fundadores",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "Alexander von Humboldt",
+          "dates": "1769–1859",
+          "tradition": "Naturalismo empírico",
+          "contribution": "Concebeu a Geografia como ciência das relações entre fenômenos naturais e humanos. Suas expedições à América Latina produziram o conceito de unidade da natureza — nenhum fenômeno isolado, tudo em relação. Pioneiro da cartografia temática e da visualização de dados geográficos.",
+          "quote": "A natureza é uma unidade viva. O todo é superior à soma de suas partes.",
+          "quoteWork": "Kosmos (1845)"
+        },
+        {
+          "name": "Carl Ritter",
+          "dates": "1779–1859",
+          "tradition": "Geografia comparada",
+          "contribution": "Desenvolveu o método comparativo em Geografia, analisando como diferentes regiões modelam diferentes civilizações. Fundou a cadeira de Geografia em Berlim (1820). Sua obra Erdkunde (19 volumes) tentou sistematizar o conhecimento geográfico mundial.",
+          "quote": "A Terra é o palco sobre o qual a história humana se desenrola.",
+          "quoteWork": "Erdkunde (1817)"
+        },
+        {
+          "name": "Friedrich Ratzel",
+          "dates": "1844–1904",
+          "tradition": "Determinismo geográfico / Antropogeografia",
+          "contribution": "Criou a Antropogeografia, que analisava a influência do meio físico sobre as sociedades humanas. Cunhou o conceito de Lebensraum (espaço vital), later distorted pelo nazismo. Influência decisiva sobre a geopolítica clássica alemã.",
+          "quote": "O solo é o fundamento permanente sobre o qual o Estado constrói sua existência.",
+          "quoteWork": "Politische Geographie (1897)"
+        },
+        {
+          "name": "Paul Vidal de la Blache",
+          "dates": "1845–1918",
+          "tradition": "Possibilismo / École française",
+          "contribution": "Contrapôs o determinismo ratzeliano com o possibilismo: o meio oferece possibilidades, não determinações; a escolha humana é agente ativo. Introduziu o conceito de genre de vie (gênero de vida) e o de região como síntese homem-natureza.",
+          "quote": "O homem não é o produto passivo do solo que o habita, mas um agente ativo que o modela.",
+          "quoteWork": "Principes de Géographie Humaine (1922)"
+        }
+      ]
+    },
+    {
+      "id": "sec-determinismo",
+      "title": "Determinismo, possibilismo e o debate fundador",
+      "type": "text",
+      "body": "O determinismo geográfico sustentava que o meio físico — clima, relevo, solo — determina o comportamento, a cultura e o destino das sociedades. Ratzel foi seu maior sistematizador, mas a ideia vinha de Montesquieu e de toda uma tradição europeia que explicava a 'inferioridade' dos povos tropicais pelo calor e a 'superioridade' europeia pelo clima temperado. É, em sua origem, uma ideologia a serviço do colonialismo.\n\nO possibilismo de Vidal de la Blache representou a resposta francesa: o meio oferece possibilidades, e são as escolhas humanas — mediadas pela cultura, pela técnica, pela história — que explicam as diferenças entre lugares. O meio é condição, não causa.\n\nO debate parece superado, mas sua estrutura permanece relevante: toda vez que se invoca o 'clima' ou a 'geografia' para explicar diferenças econômicas entre países (por que a África é pobre, por que a Europa é rica), o determinismo retorna de forma velada. A crítica a esse retorno é uma das tarefas permanentes da epistemologia geográfica."
+    },
+    {
+      "id": "sec-timeline",
+      "title": "Correntes do pensamento geográfico",
+      "type": "timeline",
+      "events": [
+        {
+          "period": "1800–1870",
+          "label": "Fundação científica",
+          "description": "Humboldt e Ritter institucionalizam a disciplina. A Geografia entra nas universidades alemãs como ciência descritiva e comparativa. Tensão inaugural entre abordagem naturalista e humanista."
+        },
+        {
+          "period": "1870–1920",
+          "label": "Determinismo e possibilismo",
+          "description": "Ratzel sistematiza o determinismo na Alemanha; Vidal de la Blache funda o possibilismo na França. A disciplina se divide em escolas nacionais com métodos e objetos distintos. A região emerge como conceito central."
+        },
+        {
+          "period": "1920–1950",
+          "label": "Corologia e geografia regional",
+          "description": "Richard Hartshorne (EUA) consolida a corologia — estudo da diferenciação de áreas. A descrição regional exaustiva domina a produção acadêmica. Críticas internas à falta de teoria e ao enciclopedismo."
+        },
+        {
+          "period": "1950–1970",
+          "label": "Revolução quantitativa",
+          "description": "A influência do positivismo lógico e da econometria introduz modelos matemáticos, estatística e análise espacial. A geografia torna-se 'ciência do espaço' com leis e modelos. Centros: Iowa, Bristol, Lund. Reação ao idiografismo regional."
+        },
+        {
+          "period": "1970–1990",
+          "label": "Virada crítica e humanista",
+          "description": "A crítica marxista (Harvey, Castells, Santos) denuncia que os modelos quantitativos ignoram conflito, poder e desigualdade. Simultaneamente, a corrente humanista (Tuan, Relph) reabilita experiência e subjetividade. O espaço torna-se produto social."
+        },
+        {
+          "period": "1990–hoje",
+          "label": "Pós-estruturalismo e viradas culturais",
+          "description": "Influência de Foucault, Deleuze, Butler. Atenção ao discurso, à performatividade do espaço, às geografias do corpo e da diferença. Multiplicidade de objetos: gênero, raça, colonialidade. Debate sobre fragmentação da disciplina."
+        }
+      ]
+    },
+    {
+      "id": "sec-quantitativa",
+      "title": "A revolução quantitativa",
+      "type": "text",
+      "body": "Nos anos 1950, a Geography norte-americana e britânica passou por uma transformação radical: a substituição da descrição regional exaustiva por modelos matemáticos, leis espaciais e análise estatística. O movimento foi chamado, por seus próprios protagonistas, de 'revolução'.\n\nA inspiração veio do positivismo lógico do Círculo de Viena e da econometria. Se a Física tinha leis universais, a Geografia poderia ter leis espaciais: teoria da localização central (Christaller), modelos gravitacionais, análise de redes. O mapa deixou de ser fim e tornou-se dado — entrada para modelos que produziriam previsões.\n\nA crítica veio de dois lados. Pelo lado humanista: os modelos eliminavam o sujeito, a experiência, o sentido que as pessoas atribuem aos lugares. Pelo lado marxista: os modelos tratavam a distribuição espacial como neutra, ignorando que ela é produto de relações de poder e exploração. A resposta de ambas as críticas à revolução quantitativa definiria a Geografia das décadas seguintes."
+    },
+    {
+      "id": "sec-criticos",
+      "title": "A virada crítica: espaço como produto social",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "David Harvey",
+          "dates": "1935–",
+          "tradition": "Geografia marxista",
+          "contribution": "Demonstrou que o capitalismo produz geografias desiguais como necessidade sistêmica, não como acidente. Conceitos centrais: acumulação por espoliação, compressão espaço-tempo, capital fixo no espaço. Ponte entre Marx e a análise urbana contemporânea.",
+          "quote": "O capital é processualmente inseparável da produção de espaços, lugares e ambientes geográficos.",
+          "quoteWork": "A Produção Capitalista do Espaço (1985)"
+        },
+        {
+          "name": "Milton Santos",
+          "dates": "1926–2001",
+          "tradition": "Geografia crítica brasileira",
+          "contribution": "Desenvolveu uma teoria do espaço geográfico a partir do Sul Global. Conceitos: espaço banal, território usado, verticalidades e horizontalidades, técnica como mediação. Crítico da globalização como ideologia; propôs outra globalização possível.",
+          "quote": "O espaço é formado por um conjunto indissociável, solidário e também contraditório, de sistemas de objetos e sistemas de ações.",
+          "quoteWork": "A Natureza do Espaço (1996)"
+        },
+        {
+          "name": "Yi-Fu Tuan",
+          "dates": "1930–2022",
+          "tradition": "Geografia humanista / Topofilia",
+          "contribution": "Introduziu a fenomenologia na Geografia. O lugar é espaço com sentido — resultado da experiência humana, da memória, do afeto. Topofilia (amor ao lugar) e topofobia (medo do lugar) como conceitos para entender como os humanos se relacionam com os ambientes.",
+          "quote": "O que começa como espaço indiferenciado transforma-se em lugar à medida que o conhecemos melhor e o dotamos de valor.",
+          "quoteWork": "Espaço e Lugar (1977)"
+        },
+        {
+          "name": "Doreen Massey",
+          "dates": "1944–2016",
+          "tradition": "Geografia feminista / Pós-estruturalismo",
+          "contribution": "Redefeniu lugar como articulação específica de relações sociais globais — não essência local, mas nó de conexões. Pioneira em articular gênero, classe e espaço. Conceito de 'sentido global do lugar' como alternativa ao localismo identitário.",
+          "quote": "O que dá a um lugar sua especificidade não é alguma história interiorizada longa, mas o fato de que ele é construído a partir de uma constelação particular de relações sociais.",
+          "quoteWork": "Space, Place and Gender (1994)"
+        }
+      ]
+    },
+    {
+      "id": "sec-correntes-compare",
+      "title": "Comparação entre correntes",
+      "type": "compare-table",
+      "columns": ["Corrente", "Período", "Objeto central", "Método", "Limitação principal"],
+      "rows": [
+        ["Determinismo geográfico", "1870–1920", "Relação meio-sociedade", "Causalidade física", "Reducionismo; base ideológica colonial"],
+        ["Possibilismo", "1890–1950", "Gênero de vida, região", "Monografia regional", "Ateórico; enciclopedismo"],
+        ["Revolução quantitativa", "1950–1970", "Padrões espaciais", "Estatística, modelos", "Exclui conflito, poder, subjetividade"],
+        ["Geografia crítica marxista", "1970–", "Produção do espaço", "Materialismo histórico", "Tendência ao economicismo"],
+        ["Geografia humanista", "1970–", "Lugar, experiência, sentido", "Fenomenologia, hermenêutica", "Dificuldade de escala; individualismo"],
+        ["Pós-estruturalismo", "1990–", "Discurso, diferença, poder", "Análise do discurso, genealogia", "Fragmentação; dificuldade política"]
+      ]
+    },
+    {
+      "id": "sec-posestrutural",
+      "title": "Pós-estruturalismo e as geografias da diferença",
+      "type": "text",
+      "body": "A partir dos anos 1990, a influência de Michel Foucault, Jacques Derrida e Judith Butler reconfigurou parte da produção geográfica. O foco deslocou-se do espaço como estrutura para o espaço como discurso — como as representações do espaço constroem realidades, legitimam poderes, produzem sujeitos.\n\nAs geografias da diferença exploraram dimensões antes invisíveis na disciplina: gênero (como o espaço é generificado?), raça (como o racismo opera espacialmente?), colonialidade (como os mapas e as categorias geográficas são instrumentos de dominação?). O trabalho de Edward Said sobre orientalismo — como o Ocidente construiu discursivamente o 'Oriente' para dominá-lo — encontrou ressonância forte nessa vertente.\n\nA crítica a essa corrente é dupla. Internamente: o risco de fragmentação em identidades incomunicáveis. Externamente: a dificuldade de articular análise discursiva com transformação material. O debate entre materialismo e pós-estruturalismo permanece aberto — e produtivo."
+    }
+  ]
+}

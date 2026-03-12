@@ -24,6 +24,7 @@ const LEVEL_LABEL = {
   efi:  'Ensino Fundamental I',
   efii: 'Ensino Fundamental II',
   em:   'Ensino Médio',
+  es:   'Ensino Superior',
 };
 
 const COG_OPS = [
@@ -109,20 +110,22 @@ export async function renderHome(_params, _state, router) {
     <section class="home-modules" aria-label="Módulos de estudo">
       <div class="modules-inner">
         <h2 class="modules-heading">Módulos</h2>
-        ${['efi', 'efii', 'em'].map(level => {
-          const mods = modules.filter(m => m.level === level && m.lessons > 0);
+        ${['efi', 'efii', 'em', 'es'].map(level => {
+          /* ES usa format:article — inclui mesmo com lessons:0 */
+          const mods = modules.filter(m => m.level === level && (m.lessons > 0 || m.format === 'article'));
           if (!mods.length) return '';
           return `
             <div class="modules-level">
               <span class="level-tag">${LEVEL_LABEL[level]}</span>
               <div class="modules-grid">
                 ${mods.map(m => `
-                  <article class="module-card" data-nav="#module/${m.id}"
+                  <article class="module-card ${m.format === 'article' ? 'module-card--article' : ''}"
+                           data-nav="${m.format === 'article' ? '#article/' + m.id : '#module/' + m.id}"
                            role="button" tabindex="0">
                     <h4 class="module-card-title">${m.title}</h4>
                     <p class="module-card-tagline">${m.tagline}</p>
                     <div class="module-card-meta">
-                      <span class="module-card-count">${m.lessons} lição${m.lessons !== 1 ? 'ões' : ''}</span>
+                      <span class="module-card-count">${m.format === 'article' ? 'artigo' : m.lessons + ' lição' + (m.lessons !== 1 ? 'ões' : '')}</span>
                       <span class="module-card-scales">${(m.scales || []).join(' · ')}</span>
                     </div>
                   </article>`).join('')}

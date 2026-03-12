@@ -1,0 +1,94 @@
+{
+  "id": "es-economic-geography",
+  "title": "Geografia Econômica",
+  "subtitle": "Sistemas-mundo, cadeias de valor e a divisão internacional do trabalho",
+  "intro": "Por que alguns países fabricam aviões e outros exportam soja? Por que o tênis que você compra por R$ 500 foi costurado por um trabalhador pago R$ 50 por mês numa fábrica na Indonésia? A Geografia Econômica estuda como as atividades econômicas se distribuem no espaço, por que essa distribuição é desigual e como ela se reproduz ao longo do tempo. Os conceitos de sistema-mundo, divisão internacional do trabalho e cadeia global de valor são as ferramentas para responder a essas perguntas.",
+  "readingTime": "29 min",
+  "sections": [
+    {
+      "id": "sec-wallerstein-quote",
+      "title": "O sistema-mundo",
+      "type": "quote",
+      "text": "O capitalismo histórico existe como sistema-mundo. Não é um conjunto de práticas econômicas que existem em algum lugar na sociedade, mas o sistema econômico integral dentro do qual nos movemos.",
+      "author": "Immanuel Wallerstein",
+      "work": "Capitalismo Histórico",
+      "year": "1983"
+    },
+    {
+      "id": "sec-sistema-mundo",
+      "title": "A teoria do sistema-mundo",
+      "type": "text",
+      "body": "Immanuel Wallerstein desenvolveu, a partir dos anos 1970, uma teoria que recolocou a economia global como unidade de análise: o capitalismo não funciona em economias nacionais separadas — funciona como um sistema integrado em escala mundial desde o século XVI.\n\nO sistema-mundo capitalista é estruturado em três zonas. O centro é formado pelos países que concentram as atividades econômicas mais lucrativas, de maior valor agregado e controle tecnológico — historicamente a Europa Ocidental, depois os EUA e o Japão. A periferia são os territórios que fornecem mão de obra barata e matérias-primas. A semiperiferia são países em posição intermediária — como Brasil, México, China, Índia — que realizam algumas funções do centro e algumas da periferia.\n\nO insight central de Wallerstein é que o subdesenvolvimento não é um estado anterior ao desenvolvimento — é produto do mesmo processo que gerou o desenvolvimento do centro. A riqueza do centro foi construída, em parte, pela exploração da periferia. Isso tem consequências diretas para a análise das desigualdades geográficas: elas não são 'naturais' nem resultado de 'atraso' — são produto de relações de poder que estruturam o sistema desde o início."
+    },
+    {
+      "id": "sec-teoricos-eco",
+      "title": "Teóricos da Geografia Econômica",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "Immanuel Wallerstein",
+          "dates": "1930–2019",
+          "tradition": "Teoria do sistema-mundo / Neo-marxismo",
+          "contribution": "Desenvolveu a análise do sistema-mundo capitalista, introduzindo as categorias de centro, semiperiferia e periferia. Demonstrou que o desenvolvimento e o subdesenvolvimento são produto do mesmo processo histórico global.",
+          "quote": "O desenvolvimento do subdesenvolvimento é o processo pelo qual o sistema-mundo capitalista cria e mantém a hierarquia econômica global.",
+          "quoteWork": "The Modern World-System (1974)"
+        },
+        {
+          "name": "Paul Krugman",
+          "dates": "1953–",
+          "tradition": "Nova Geografia Econômica / Economia neoclássica",
+          "contribution": "Prêmio Nobel de Economia (2008). Desenvolveu a Nova Geografia Econômica: modelos matemáticos para explicar por que as atividades econômicas se concentram espacialmente — economias de aglomeração, efeitos de escala, rendimentos crescentes.",
+          "quote": "A geografia importa porque economias de aglomeração criam forças centrípetas que concentram atividades — e forças centrífugas que as dispersam. O equilíbrio entre essas forças determina o padrão espacial da economia.",
+          "quoteWork": "Geography and Trade (1991)"
+        },
+        {
+          "name": "Celso Furtado",
+          "dates": "1920–2004",
+          "tradition": "Estruturalismo / CEPAL / Desenvolvimentismo",
+          "contribution": "Economista e geógrafo econômico brasileiro. Desenvolveu a teoria da dependência estrutural e do desenvolvimento desigual. Sua análise da economia brasileira — de colônia exportadora a economia industrial incompleta — permanece referência para entender o subdesenvolvimento como condição estrutural.",
+          "quote": "O subdesenvolvimento não é uma etapa necessária do processo de formação das economias capitalistas modernas. É, em si mesmo, um processo particular resultante da expansão das economias capitalistas desenvolvidas.",
+          "quoteWork": "Teoria e Política do Desenvolvimento Econômico (1967)"
+        },
+        {
+          "name": "Gary Gereffi",
+          "dates": "1948–",
+          "tradition": "Sociologia Econômica / Cadeias globais de valor",
+          "contribution": "Desenvolveu a teoria das cadeias globais de valor (CGV) — o mapeamento de como as etapas da produção de uma mercadoria se distribuem geograficamente e quem captura mais valor em cada etapa. Ferramenta essencial para entender a inserção de países em desenvolvimento na economia global.",
+          "quote": "A questão não é mais em que setor participar, mas em que posição da cadeia global de valor — porque a posição determina quanto valor é capturado.",
+          "quoteWork": "The Global Apparel Value Chain (2002)"
+        }
+      ]
+    },
+    {
+      "id": "sec-divisao-trabalho",
+      "title": "Divisão internacional do trabalho",
+      "type": "text",
+      "body": "A divisão internacional do trabalho (DIT) descreve a especialização de países e regiões em diferentes etapas e tipos de produção dentro da economia global. A DIT não é fixa — ela se transforma com as mudanças tecnológicas, geopolíticas e nos custos relativos de produção.\n\nA DIT clássica (séculos XIX–XX) era simples: países industrializados fabricavam bens manufaturados; países colonizados forneciam matérias-primas e produtos agrícolas. Essa estrutura está na base do que Raul Prebisch e a CEPAL chamaram de 'deterioração dos termos de troca': ao longo do tempo, os preços dos produtos primários caem em relação aos manufaturados — tornando os países exportadores de commodities progressivamente mais pobres em termos relativos.\n\nA nova DIT (décadas de 1970 em diante) é mais complexa: as cadeias produtivas se fragmentam globalmente. Uma jaqueta 'made in Vietnam' pode ter tecido da China, zíper do Japão, design da Itália e ser vendida por uma marca americana. Cada etapa da cadeia tem uma lógica de localização diferente: design e P&D em países com alta qualificação; manufatura labor-intensive em países com salários baixos; distribuição e varejo perto dos consumidores ricos."
+    },
+    {
+      "id": "sec-cadeias-valor",
+      "title": "Cadeias globais de valor e o sorriso de Stan Shih",
+      "type": "text",
+      "body": "O fundador da Acer, Stan Shih, descreveu em 1992 o 'sorriso da curva de valor': numa cadeia produtiva, as etapas que geram mais valor ficam nas pontas (pesquisa, design, marketing, varejo) — não no meio (fabricação). A curva, quando desenhada, forma um sorriso.\n\nIsso tem implicações geopolíticas profundas. Os países que montam o iPhone (China) capturam cerca de 5% do valor. Os que projetam os chips e o sistema operacional (EUA) e os que vendem (varejistas ocidentais) capturam 95%. 'Made in China' é enganoso: a China é o local de montagem, não o criador de valor.\n\nPara países em desenvolvimento, 'entrar na cadeia global' pode ser armadilha se a entrada for apenas pela manufatura de baixo valor. A estratégia de upgrading industrial — mover-se para etapas de maior valor — é o objetivo central das políticas industriais da Coreia do Sul, China e Japão. Não é automático: exige investimento público em educação, pesquisa e políticas industriais deliberadas — exatamente o tipo de intervenção que os acordos de livre-comércio frequentemente proíbem."
+    },
+    {
+      "id": "sec-brasil-economia",
+      "title": "A inserção do Brasil na economia global",
+      "type": "text",
+      "body": "A trajetória econômica do Brasil na economia global é marcada por uma tensão não resolvida: entre a inserção como exportador de commodities (padrão histórico desde a colônia) e a aspiração à industrialização e à produção de maior valor agregado.\n\nO ciclo de commodities dos anos 2000–2012 (China comprando soja, minério e petróleo em volume recorde) gerou crescimento, mas aprofundou a reprimarização — o aumento da participação das commodities na pauta exportadora em detrimento da indústria. A desindustrialização relativa do Brasil, iniciada nos anos 1990 com a abertura econômica, se acelerou nesse período.\n\nA China é o principal parceiro comercial do Brasil desde 2009 — mas a estrutura do intercâmbio reproduz a DIT clássica: o Brasil exporta soja, minério de ferro e petróleo bruto; importa produtos industrializados e bens de capital. É uma relação periferia-centro, mesmo que o 'centro' agora seja o Sul.\n\nO debate sobre a doença holandesa e a necessidade de política industrial para superar a armadilha da renda média é o debate econômico central do Brasil contemporâneo — com raízes diretas na Geografia Econômica."
+    },
+    {
+      "id": "sec-compare-dit",
+      "title": "Modelos de inserção na economia global",
+      "type": "compare-table",
+      "columns": ["País/Região", "Especialização", "Posição na curva de valor", "Estratégia de upgrading", "Resultado"],
+      "rows": [
+        ["Coreia do Sul", "Eletrônicos, automotivo, semicondutores", "Design, manufatura avançada, marcas próprias", "Chaebol + investimento público massivo em P&D", "Saiu da periferia em 3 décadas; renda per capita similar à Espanha"],
+        ["China", "Manufatura para exportação → tecnologia", "Manufatura → acumulação de P&D → marcas globais", "Política industrial deliberada, absorção tecnológica", "Maior fabricante mundial; disputando liderança em IA e EV"],
+        ["Brasil", "Commodities agrícolas e minerais", "Produção primária; manufatura em declínio relativo", "Tentativas interrompidas (BNDES, política industrial 2003–2014)", "Renda média; desindustrialização relativa; reprimarização"],
+        ["Bangladesh", "Confecções (têxteis e vestuário)", "Manufatura labor-intensive de baixo valor", "Limitado por dependência de compradores globais (fast fashion)", "Crescimento do emprego, mas aprisionamento no baixo valor"],
+        ["Alemanha", "Máquinas, químicos, automotivo premium", "Engenharia, marcas, serviços industriais (Industrie 4.0)", "Especialização em Mittelstand de alto valor agregado", "Centro persistente; superávit comercial estrutural"]
+      ]
+    }
+  ]
+}

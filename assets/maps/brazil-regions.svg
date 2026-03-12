@@ -1,80 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 500 520"
-     role="img"
-     aria-label="Mapa das regiões do Brasil">
-  <defs>
-    <style>
-      .region { stroke: #f2ede3; stroke-width: 1.5; cursor: pointer; transition: opacity 0.15s; }
-      .region:hover { opacity: 0.75; }
-      .region-label { font-family: 'DM Mono', monospace; font-size: 11px; fill: #1e3a5f; pointer-events: none; }
-    </style>
-  </defs>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 610"
+       role="img" aria-label="Mapa das macrorregiões do Brasil">
+    <title>Macrorregiões do Brasil</title>
+    <desc>Cinco macrorregiões brasileiras: Norte, Nordeste, Centro-Oeste, Sudeste e Sul. Cada região é clicável.</desc>
+    <defs>
+      <style>
+        .region { stroke:#f2ede3; stroke-width:1.2; cursor:pointer;
+                   transition:opacity .15s,filter .15s; }
+        .region:hover,.region:focus { opacity:.75; filter:brightness(1.15); outline:none; }
+        .region:focus-visible { outline:2px solid #c4a35a; outline-offset:3px; }
+        .rlabel { font-family:"DM Mono",monospace; font-size:10px; font-weight:700;
+                   fill:rgba(242,237,227,.95); text-anchor:middle; pointer-events:none; }
+        .graticule { stroke:rgba(30,58,95,.12); stroke-width:.6; fill:none; stroke-dasharray:3,5; }
+      </style>
+    </defs>
 
-  <!-- Oceano / fundo -->
-  <rect width="500" height="520" fill="#b3d4e8"/>
+    <!-- Oceano -->
+    <rect width="560" height="610" fill="#8dbdd1"/>
 
-  <!-- =====================================================
-       Regiões do Brasil — formas esquemáticas simplificadas
-       data-id deve corresponder ao valor "correct" nas lições
-       ===================================================== -->
+    <!-- Graticule leve: equador e trópico de Capricórnio -->
+    <line class="graticule" x1="0" y1="84.9" x2="560" y2="84.9"/>
+    <line class="graticule" x1="0" y1="446.3" x2="560" y2="446.3"/>
+    <text x="5" y="81.9" font-family="monospace" font-size="7" fill="rgba(30,58,95,.5)">Equador</text>
+    <text x="5" y="443.3" font-family="monospace" font-size="7" fill="rgba(30,58,95,.5)">Trópico de Capricórnio</text>
 
-  <!-- Norte -->
-  <path class="region" data-id="norte" data-name="Norte"
-        d="M 60 60 L 320 60 L 340 80 L 300 120 L 260 130 L 240 160 L 200 170
-           L 180 150 L 140 160 L 100 140 L 70 100 Z"
-        fill="#4a8a4a"/>
-  <text class="region-label" x="185" y="105">NORTE</text>
+    <path class="region" data-id="norte" data-name="Norte"
+      fill="#4d7a4d" d="M 1.2,46.3 43.1,3.1 166.2,3.1 276.9,23.2 338.5,61.8 338.5,278.0 295.4,247.1 246.2,177.6 172.3,169.9 104.6,223.9 1.2,162.2 Z"
+      tabindex="0" role="button" aria-label="Norte"/>
+<path class="region" data-id="nordeste" data-name="Nordeste"
+      fill="#bf771e" d="M 338.5,61.8 369.2,38.6 455.4,3.1 482.5,92.7 482.5,270.3 449.2,308.9 424.6,362.9 400.0,409.2 363.1,378.4 363.1,316.6 338.5,278.0 Z"
+      tabindex="0" role="button" aria-label="Nordeste"/>
+<path class="region" data-id="centro-oeste" data-name="Centro-Oeste"
+      fill="#7a2e2e" d="M 172.3,169.9 246.2,177.6 295.4,247.1 338.5,278.0 363.1,316.6 332.3,401.5 289.2,463.3 240.0,494.2 203.1,393.8 166.2,316.6 73.8,285.7 104.6,223.9 Z"
+      tabindex="0" role="button" aria-label="Centro-Oeste"/>
+<path class="region" data-id="sudeste" data-name="Sudeste"
+      fill="#1a568a" d="M 363.1,316.6 363.1,378.4 400.0,409.2 418.5,432.4 400.0,478.7 289.2,463.3 332.3,401.5 Z"
+      tabindex="0" role="button" aria-label="Sudeste"/>
+<path class="region" data-id="sul" data-name="Sul"
+      fill="#5a2e8a" d="M 289.2,463.3 400.0,478.7 313.8,532.8 270.8,610.0 203.1,571.4 240.0,494.2 Z"
+      tabindex="0" role="button" aria-label="Sul"/>
 
-  <!-- Nordeste -->
-  <path class="region" data-id="nordeste" data-name="Nordeste"
-        d="M 260 130 L 300 120 L 340 80 L 400 90 L 430 130 L 420 180
-           L 380 220 L 340 230 L 310 210 L 290 190 L 270 170 L 240 160 Z"
-        fill="#e09820"/>
-  <text class="region-label" x="330" y="165">NORDESTE</text>
+<text class="rlabel" x="147.7" y="115.8">NORTE</text>
+<text class="rlabel" x="418.5" y="216.2">NORDESTE</text>
+<text class="rlabel" x="240.0" y="301.1">CENTRO-OESTE</text>
+<text class="rlabel" x="363.1" y="393.8">SUDESTE</text>
+<text class="rlabel" x="276.9" y="540.5">SUL</text>
 
-  <!-- Centro-Oeste -->
-  <path class="region" data-id="centro-oeste" data-name="Centro-Oeste"
-        d="M 140 160 L 180 150 L 200 170 L 240 160 L 270 170 L 290 190
-           L 310 210 L 300 260 L 270 290 L 230 300 L 190 280 L 160 250
-           L 130 220 L 120 190 Z"
-        fill="#8b2e2e"/>
-  <text class="region-label" x="185" y="228">CENTRO-OESTE</text>
+    <!-- Rosa dos ventos -->
+    <g transform="translate(500,555)">
+      <circle r="26" fill="rgba(242,237,227,.9)" stroke="#c8bfa8" stroke-width="1"/>
+      <polygon points="0,-19 -4,-5 4,-5" fill="#c4a35a"/>
+      <polygon points="0,19 -4,5 4,5"   fill="#1e3a5f" opacity=".55"/>
+      <line x1="-19" y1="0" x2="19" y2="0" stroke="#1e3a5f" stroke-width="1" opacity=".4"/>
+      <text text-anchor="middle" y="-21" font-family="monospace" font-size="9"
+            font-weight="700" fill="#c4a35a">N</text>
+    </g>
 
-  <!-- Sudeste -->
-  <path class="region" data-id="sudeste" data-name="Sudeste"
-        d="M 290 190 L 310 210 L 340 230 L 380 220 L 400 250 L 390 290
-           L 360 310 L 330 320 L 300 310 L 270 290 L 300 260 Z"
-        fill="#1e5f8a"/>
-  <text class="region-label" x="320" y="270">SUDESTE</text>
-
-  <!-- Sul -->
-  <path class="region" data-id="sul" data-name="Sul"
-        d="M 230 300 L 270 290 L 300 310 L 330 320 L 340 360 L 310 390
-           L 270 400 L 240 380 L 220 350 L 210 320 Z"
-        fill="#5a2e8b"/>
-  <text class="region-label" x="260" y="355">SUL</text>
-
-  <!-- Borda do país (contorno geral) -->
-  <path fill="none" stroke="#8b7d68" stroke-width="1" opacity="0.4"
-        d="M 60 60 L 320 60 L 340 80 L 400 90 L 430 130 L 420 180
-           L 380 220 L 400 250 L 390 290 L 360 310 L 340 360 L 310 390
-           L 270 400 L 240 380 L 220 350 L 210 320 L 230 300 L 190 280
-           L 160 250 L 130 220 L 120 190 L 140 160 L 100 140 L 70 100 Z"/>
-
-  <!-- Rosa dos ventos (canto superior direito) -->
-  <g transform="translate(440, 440)">
-    <circle cx="0" cy="0" r="28" fill="rgba(242,237,227,0.85)" stroke="#c8bfa8" stroke-width="1"/>
-    <polygon points="0,-20 -5,-5 5,-5" fill="#c4a35a"/>
-    <text x="0" y="-22" text-anchor="middle" font-family="monospace" font-size="9" font-weight="bold" fill="#c4a35a">N</text>
-    <polygon points="0,20 -5,5 5,5" fill="#1e3a5f"/>
-    <line x1="-20" y1="0" x2="20" y2="0" stroke="#1e3a5f" stroke-width="1"/>
-  </g>
-
-  <!-- Escala gráfica -->
-  <g transform="translate(30, 480)">
-    <rect x="0" y="0" width="80" height="6" fill="#1e3a5f" opacity="0.7"/>
-    <rect x="40" y="0" width="40" height="6" fill="#f2ede3" opacity="0.7" stroke="#1e3a5f" stroke-width="0.5"/>
-    <text x="0"  y="18" font-family="monospace" font-size="9" fill="#1e3a5f">0</text>
-    <text x="72" y="18" font-family="monospace" font-size="9" fill="#1e3a5f">1000 km</text>
-  </g>
-</svg>
+    <!-- Escala gráfica (68px ≈ 1000 km) -->
+    <g transform="translate(22,582)">
+      <rect width="34" height="5" fill="#1e3a5f" opacity=".75"/>
+      <rect x="34" width="34" height="5" fill="#f2ede3" stroke="#1e3a5f" stroke-width=".5" opacity=".75"/>
+      <text x="0" y="15" font-family="monospace" font-size="8" fill="#1e3a5f">0</text>
+      <text x="48" y="15" font-family="monospace" font-size="8" fill="#1e3a5f">1000 km</text>
+    </g>
+  </svg>

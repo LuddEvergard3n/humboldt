@@ -23,6 +23,16 @@ export async function renderModule({ moduleId }, state, router) {
     return el;
   }
 
+  /* Módulos de Ensino Superior usam article-view, não lesson list */
+  if (mod.format === 'article') {
+    if (router && typeof router.navigate === 'function') {
+      router.navigate(`article/${moduleId}`);
+    } else {
+      window.location.hash = `article/${moduleId}`;
+    }
+    return document.createElement('div'); /* retorna vazio — router re-renderiza */
+  }
+
   // Lições deste módulo, na ordem do índice
   const moduleLessons = Object.entries(lessonsIndex)
     .filter(([, meta]) => meta.moduleId === moduleId)

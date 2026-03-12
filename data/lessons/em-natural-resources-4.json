@@ -1,0 +1,70 @@
+{
+  "id": "em-natural-resources-4",
+  "moduleId": "em-natural-resources",
+  "title": "Transição energética e geopolítica dos minerais críticos",
+  "summary": "Lítio, cobalto e terras raras: a nova geopolítica dos recursos na era verde.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O carro elétrico precisa de mineração",
+    "text": "Um carro elétrico usa 6× mais minerais que um carro a combustão. A bateria de um EV médio contém: 8 kg de lítio, 35 kg de níquel, 20 kg de manganês, 14 kg de cobalto, 11 kg de grafite. A transição energética — necessária para o clima — cria uma nova demanda explosiva por minerais específicos, cuja extração tem seus próprios impactos ambientais e concentração geográfica. Sai a dependência do petróleo do Oriente Médio; entra a dependência do lítio da América do Sul e do cobalto do Congo."
+  },
+  "guided": {
+    "title": "Minerais críticos para a transição energética",
+    "text": "Minerais críticos são aqueles essenciais para tecnologias de baixo carbono (baterias, painéis solares, turbinas eólicas, veículos elétricos) e com cadeia de suprimento concentrada em poucos países, criando risco geopolítico.",
+    "points": [
+      "Lítio: 60% das reservas na América do Sul (triângulo do lítio: Bolívia, Chile, Argentina). Demanda deve triplicar até 2030.",
+      "Cobalto: 70% da produção no Congo (RDC), muitas vezes em garimpo artesanal com trabalho infantil.",
+      "Terras raras: 60% da produção na China, que também processa 85% do total mundial. Monopólio estratégico.",
+      "Níquel: Indonésia e Filipinas dominam. Brasil tem reservas significativas (Pará e Goiás)."
+    ]
+  },
+  "relations": {
+    "title": "Brasil no mapa dos minerais críticos",
+    "text": "O Brasil tem reservas significativas de vários minerais críticos: nióbio (92% do mundo), lítio (5ª maior reserva mundial, principalmente em MG), grafite (2ª reserva mundial), terras raras (Minas Gerais) e cobalto (PA). A transição energética global cria uma janela de oportunidade — mas o histórico brasileiro com commodities sugere cautela: riqueza mineral não se converte automaticamente em desenvolvimento industrial e social sem políticas deliberadas de agregação de valor."
+  },
+  "caseStudy": {
+    "title": "O lítio brasileiro e a corrida de aquisições",
+    "text": "A região de Araçuaí–Itinga, no Vale do Jequitinhonha (MG), concentra uma das maiores reservas de lítio do mundo. Empresas australianas, canadenses, chinesas e americanas compraram ou licenciaram áreas na região desde 2015. Comunidades quilombolas e indígenas locais relatam pressão por terra e impactos sobre rios. O debate político em torno de uma possível 'PETROBRAS do lítio' — empresa nacional para controlar a cadeia — ecoa o debate do petróleo dos anos 1950. A diferença: o tempo disponível é menor, a janela de oportunidade da transição energética é de décadas, não séculos."
+  },
+  "application": "Pesquise onde está o maior depósito de lítio do Brasil (Araçuaí, MG). Quais são as comunidades que vivem lá? Quais empresas têm licenças de pesquisa mineral na região? O que elas planejam fazer com o recurso?",
+  "activity": {
+    "question": "A concentração da produção de terras raras na China representa principalmente:",
+    "type": "single-choice",
+    "correct": "dependencia",
+    "options": [
+      {
+        "value": "geologico",
+        "label": "Dado geológico — as terras raras só ocorrem em território chinês"
+      },
+      {
+        "value": "dependencia",
+        "label": "Dependência geopolítica estratégica — controle de insumo crítico para tecnologias globais"
+      },
+      {
+        "value": "mercado",
+        "label": "Vantagem de mercado temporária — outros países podem competir facilmente"
+      },
+      {
+        "value": "ambiente",
+        "label": "Escolha ambiental — a China aceita impactos que outros países rejeitam"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. Terras raras existem em outros países (EUA, Austrália, Brasil), mas a China dominou o processamento e tornou-se indispensável. Em 2010, durante um conflito com o Japão, a China cortou exportações de terras raras — mostrando ao mundo que esse é um recurso estratégico, não apenas uma commodity.",
+      "incorrect": "Terras raras existem em vários países, inclusive EUA e Brasil. O que a China controla é o processamento — uma vantagem construída por décadas de política industrial deliberada, não um dado geológico."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Em 2010, a China cortou exportações de terras raras para o Japão durante um conflito diplomático. O que isso revelou sobre o poder de quem controla esse recurso?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a nova geopolítica dos minerais críticos e analisa a posição do Brasil nesse contexto.",
+    "observe": "Verifique se o aluno percebe a contradição da transição energética: necessária para o clima, mas dependente de mineração com seus próprios impactos.",
+    "answer": "Dependência geopolítica estratégica. A China controla o processamento — não apenas a extração. Cortou exportações em 2010 como pressão diplomática. É recurso de poder.",
+    "mediation": "Proponha: 'Um país que queira produzir carros elétricos precisaria de lítio, cobalto e terras raras. Como garante o fornecimento sem criar novas dependências?'",
+    "time": "50 minutos"
+  }
+}

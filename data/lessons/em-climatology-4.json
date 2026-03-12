@@ -1,0 +1,70 @@
+{
+  "id": "em-climatology-4",
+  "moduleId": "em-climatology",
+  "title": "Eventos climáticos extremos e vulnerabilidade social",
+  "summary": "Secas, enchentes e ondas de calor: como o clima afeta populações de forma desigual.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Catástrofe ou construção social?",
+    "text": "Em fevereiro de 2022, Petrópolis (RJ) registrou 258 mm de chuva em seis horas — o equivalente a um mês de precipitação. Resultado: 232 mortos. Em 2024, as enchentes no Rio Grande do Sul afetaram 2 milhões de pessoas e mataram mais de 150. Esses eventos são fenômenos naturais amplificados pelas mudanças climáticas — mas quem morre não é escolhido pelo clima: é escolhido pela desigualdade."
+  },
+  "guided": {
+    "title": "Eventos extremos e risco climático",
+    "text": "Eventos climáticos extremos são fenômenos que ocorrem fora da variabilidade histórica normal — intensidade ou frequência incomuns. As mudanças climáticas não criam novos tipos de fenômenos, mas tornam os existentes mais intensos e mais frequentes.",
+    "points": [
+      "Secas: déficit hídrico prolongado. Amazônia (2010, 2023), Norte de Minas (2012–2016).",
+      "Enchentes e deslizamentos: precipitação extrema sobre encostas e várzeas ocupadas.",
+      "Ondas de calor: temperaturas muito acima da média por dias consecutivos; risco à saúde de idosos e trabalhadores externos.",
+      "Ciclones extratropicais: raros no Brasil (Catarina, 2004), tendem a aumentar com o aquecimento do Atlântico Sul."
+    ]
+  },
+  "relations": {
+    "title": "Vulnerabilidade social como fator de risco",
+    "text": "O impacto de um evento extremo não depende apenas de sua intensidade, mas da vulnerabilidade social da população afetada. Os mortos de Petrópolis viviam em encostas irregulares porque não tinham acesso à moradia formal. Os mais afetados pelas enchentes gaúchas eram trabalhadores rurais sem seguro e moradores de várzeas historicamente ocupadas pela ausência de alternativas. A desigualdade não apenas precede os desastres — ela os fabrica."
+  },
+  "caseStudy": {
+    "title": "A seca de 2010–2016 no Norte de Minas",
+    "text": "Por seis anos consecutivos, o semiárido mineiro sofreu a pior seca em décadas: açudes secaram, culturas falharam, o êxodo rural se intensificou. A crise revelou uma assimetria importante: onde havia cisternas comunitárias (tecnologia social simples), os impactos foram menores. Onde havia apenas açudes municipais (que secaram), populações ficaram sem água. O evento demonstrou que adaptar-se ao semiárido é possível — mas exige políticas de longo prazo, não apenas socorro em emergências."
+  },
+  "application": "Pesquise um evento climático extremo que afetou seu estado nos últimos 5 anos. Identifique: qual fenômeno foi? Quem foram os mais afetados? Quais condições de vulnerabilidade preexistentes explicam os impactos?",
+  "activity": {
+    "question": "A maior parte das vítimas de desastres climáticos no Brasil habita:",
+    "type": "single-choice",
+    "correct": "areas-risco",
+    "options": [
+      {
+        "value": "areas-risco",
+        "label": "Encostas e várzeas ocupadas pela ausência de alternativas habitacionais"
+      },
+      {
+        "value": "rural-isolado",
+        "label": "Zonas rurais isoladas sem acesso a alertas meteorológicos"
+      },
+      {
+        "value": "litoral-rico",
+        "label": "Zonas costeiras de alto valor imobiliário"
+      },
+      {
+        "value": "industria",
+        "label": "Entornos de distritos industriais sem infraestrutura de drenagem"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. Os desastres climáticos brasileiros afetam desproporcionalmente populações em vulnerabilidade habitacional — em áreas de risco porque eram os únicos espaços acessíveis. Isso demonstra que o risco climático é também um problema de desigualdade estrutural.",
+      "incorrect": "Os impactos climáticos são socialmente seletivos. Pense em quem vive nas áreas mais expostas e por que não está em outro lugar."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Quem escolhe morar numa encosta instável? Em geral, não é escolha — é a única opção para quem não tem acesso ao mercado imobiliário formal."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno articula vulnerabilidade social e risco climático, reconhecendo que desastres têm causas sociais além das físicas.",
+    "observe": "Monitore a tendência de culpar vítimas ('quem mandou morar lá'). Redirecione para análise estrutural.",
+    "answer": "Populações em situação de vulnerabilidade habitacional, sem acesso à moradia formal, que ocupam encostas e várzeas. A seletividade social dos desastres é a dimensão central.",
+    "mediation": "Proponha: 'O que precisaria mudar — na política habitacional, no planejamento urbano ou no clima — para reduzir as mortes em desastres?'",
+    "time": "50 minutos"
+  }
+}

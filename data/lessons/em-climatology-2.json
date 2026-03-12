@@ -1,0 +1,55 @@
+{
+  "id": "em-climatology-2",
+  "moduleId": "em-climatology",
+  "title": "Climas do Brasil: diversidade e distribuição",
+  "summary": "Classificação, distribuição e características dos tipos climáticos brasileiros.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Um país, muitos climas",
+    "text": "O Brasil possui 12 milhões de km² e se estende do equador ao paralelo 34°S. Nesse território convivem o clima equatorial superúmido da Amazônia, o semiárido do polígono das secas, o tropical típico do Cerrado e os invernos com neve eventual em Santa Catarina. Essa diversidade não é acidente geográfico — é resultado de latitude, altitude, continentalidade, correntes oceânicas e circulação atmosférica agindo simultaneamente."
+  },
+  "guided": {
+    "title": "Principais tipos climáticos do Brasil",
+    "text": "A classificação climática mais usada no Brasil combina temperatura e regime de chuvas. Os seis tipos principais são: equatorial (AM e PA), tropical típico (Centro-Oeste e parte do Sudeste), tropical semiárido (interior do Nordeste), tropical atlântico (litorais NE e SE), subtropical (Sul) e altitude (serras e planaltos).",
+    "points": [
+      "Equatorial: chuvas o ano todo, temperaturas altas e constantes. Região: Amazônia.",
+      "Semiárido: chuvas concentradas em 3-4 meses, alta irregularidade. Região: sertão nordestino.",
+      "Tropical típico: duas estações definidas (chuva e seca). Região: cerrado, grande parte do Brasil Central.",
+      "Subtropical: chuvas distribuídas, invernos com geadas, verões moderados. Região: Sul do Brasil."
+    ]
+  },
+  "relations": {
+    "title": "Fatores determinantes do clima",
+    "text": "A latitude explica a maior parte da distribuição de temperatura: mais próximo ao equador, maior incidência de radiação solar, maior temperatura média. Mas o relevo pode inverter essa lógica: cidades de altitude como Campos do Jordão (SP) e Gramado (RS) têm temperaturas muito abaixo do esperado para sua latitude. A corrente fria das Malvinas resfria o litoral sul, enquanto a corrente quente do Brasil aquece o litoral nordestino. A continentalidade amplifica as amplitudes térmicas do interior."
+  },
+  "caseStudy": {
+    "title": "O polígono das secas e o semiárido brasileiro",
+    "text": "O semiárido brasileiro, com 982.563 km² e 27 milhões de habitantes, é a região semiárida mais populosa do mundo. A seca não é uma catástrofe episódica — é o regime climático normal. O problema não é ausência de chuva, mas concentração: chove 400-800 mm por ano, mas em 2-3 meses. A evapotranspiração potencial ultrapassa 1.500 mm/ano, criando déficit hídrico crônico. A solução histórica foi a construção de açudes (mais de 70.000 no Ceará). A solução contemporânea acrescenta cisternas, transposição do Rio São Francisco e seleção de culturas adaptadas."
+  },
+  "application": "Pesquise o clima da cidade onde você vive: qual tipo climático é classificado? Qual é a precipitação média anual? Em que meses chove mais? Compare com uma cidade a 1.000 km de distância.",
+  "activity": {
+    "question": "O clima subtropical, com chuvas bem distribuídas e invernos com risco de geada, ocorre principalmente em qual região do Brasil?",
+    "type": "single-choice",
+    "correct": "sul",
+    "options": [
+      { "value": "norte",    "label": "Região Norte" },
+      { "value": "nordeste", "label": "Região Nordeste" },
+      { "value": "co",       "label": "Região Centro-Oeste" },
+      { "value": "sul",      "label": "Região Sul" }
+    ],
+    "feedback": {
+      "correct": "Correto. A Região Sul, por estar abaixo do Trópico de Capricórnio e sofrer regularmente a influência da massa Polar Atlântica, apresenta clima subtropical com chuvas bem distribuídas e geadas no inverno.",
+      "incorrect": "Pense na latitude: qual região do Brasil está mais próxima das latitudes temperadas, fora dos trópicos?"
+    },
+    "hints": [
+      { "type": "text", "content": "O Trópico de Capricórnio divide o Brasil subtropical do Brasil tropical. Qual região está completamente abaixo desse paralelo?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica e explica a distribuição dos tipos climáticos brasileiros, relacionando-os com os fatores climáticos.",
+    "observe": "Verifique se o aluno distingue causas (fatores climáticos) de características (temperatura, precipitação) ao descrever os climas.",
+    "answer": "Região Sul. PR, SC e RS estão abaixo do Trópico de Capricórnio e recebem regularmente frentes frias polares, o que produz invernos rigorosos e distribuição anual de chuvas.",
+    "mediation": "Proponha a comparação: 'Compare Manaus, Recife, Brasília e Porto Alegre. O que explica as diferenças climáticas entre elas?'",
+    "time": "50 minutos"
+  }
+}

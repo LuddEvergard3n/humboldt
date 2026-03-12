@@ -1,0 +1,70 @@
+{
+  "id": "em-climatology-5",
+  "moduleId": "em-climatology",
+  "title": "El Niño, La Niña e teleconexões climáticas",
+  "summary": "Oscilações climáticas globais e seus impactos regionais no Brasil.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Um oceano que governa chuvas a 10.000 km",
+    "text": "Em 1983 e 1997, o sertão nordestino sofreu secas devastadoras enquanto o Sul do Brasil era inundado. O mecanismo não estava no continente — estava no Oceano Pacífico. O aquecimento anômalo das águas do Pacífico equatorial, o El Niño, reorganiza a circulação atmosférica global e reescreve o regime de chuvas em múltiplos continentes simultaneamente."
+  },
+  "guided": {
+    "title": "ENOS: El Niño–Oscilação Sul",
+    "text": "O ENOS (El Niño–Oscilação Sul) é a principal fonte de variabilidade climática interanual do planeta. É um acoplamento oceano-atmosfera no Pacífico equatorial que oscila entre duas fases: El Niño (aquecimento) e La Niña (resfriamento), com ciclos de 2 a 7 anos.",
+    "points": [
+      "El Niño: águas quentes no Pacífico central e leste; enfraquecimento dos alísios; reorganização da circulação de Walker.",
+      "La Niña: padrão oposto; resfriamento do Pacífico; intensificação dos alísios.",
+      "Teleconexões: o ENOS afeta o clima de regiões distantes por meio de padrões de ondas atmosféricas (teleconexões).",
+      "No Brasil: El Niño tende a secar o Nordeste e trazer mais chuvas ao Sul; La Niña tem efeito oposto."
+    ]
+  },
+  "relations": {
+    "title": "Impactos no Brasil por região",
+    "text": "Os impactos do El Niño no Brasil não são uniformes. O Nordeste semiárido é o mais afetado negativamente: El Niño inibe a formação da Zona de Convergência Intertropical sobre a região, reduzindo drasticamente as chuvas. A Amazônia ocidental e o Norte sofrem secas. O Sul e Sudeste recebem mais chuvas — o que pode significar enchentes. A La Niña inverte o padrão: seca no Sul, chuvas acima do normal no Nordeste. Compreender o ENOS permite projeções climáticas sazonais que orientam política agrícola, gestão de reservatórios e planejamento de emergências."
+  },
+  "caseStudy": {
+    "title": "El Niño 2023–2024: o mais intenso em décadas",
+    "text": "O El Niño de 2023–2024 foi classificado como 'muito forte' — o mais intenso desde 1997–1998. No Brasil, seus efeitos foram regionalmente contraditórios: a Amazônia enfrentou a pior seca da história registrada (2023), com o Rio Negro atingindo nível mínimo histórico em outubro; o Nordeste teve chuvas abaixo da média na estação; o Sul registrou os eventos extremos de 2024 (enchentes do RS), que — embora influenciados pelo El Niño — foram amplificados pelas mudanças climáticas de longo prazo. O evento ilustrou que ENOS e aquecimento global interagem, com os extremos tornando-se progressivamente mais intensos."
+  },
+  "application": "Pesquise o estado atual do ENOS (El Niño ou La Niña?) no site do INMET ou NOAA. Qual é a previsão para os próximos meses? Como isso deve afetar o clima da sua região?",
+  "activity": {
+    "question": "Durante um evento de El Niño, o efeito mais típico sobre o Nordeste brasileiro é:",
+    "type": "single-choice",
+    "correct": "seca",
+    "options": [
+      {
+        "value": "seca",
+        "label": "Secas mais intensas, com redução das chuvas na estação chuvosa"
+      },
+      {
+        "value": "cheias",
+        "label": "Chuvas acima da média e risco de enchentes"
+      },
+      {
+        "value": "frio",
+        "label": "Queda de temperatura com ondas de frio polar"
+      },
+      {
+        "value": "neutro",
+        "label": "Sem impacto significativo; o Nordeste é imune ao ENOS"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. El Niño inibe a ZCIT sobre o Nordeste, reduzindo as chuvas da estação chuvosa (fevereiro–maio). Os efeitos são mais severos no sertão, onde a variabilidade interanual já é muito alta.",
+      "incorrect": "Lembre-se: El Niño aquece o Pacífico equatorial e reorganiza a circulação atmosférica. No Nordeste, isso significa inibição das chuvas convectivas, não sua intensificação."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "El Niño desloca a convecção atmosférica para o Pacífico central. O Atlântico equatorial — fonte de umidade para o Nordeste — fica em segundo plano."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o mecanismo do ENOS e analisa seus impactos diferenciados sobre as regiões brasileiras.",
+    "observe": "Verifique se o aluno distingue variabilidade climática interanual (ENOS) de tendência de longo prazo (aquecimento global). São fenômenos distintos que interagem.",
+    "answer": "Secas mais intensas. El Niño inibe a formação da ZCIT, principal mecanismo de chuvas do semiárido nordestino.",
+    "mediation": "Pergunte: 'Se o El Niño sempre existiu, por que os seus impactos parecem piores hoje do que há 50 anos?' (resposta: interação com o aquecimento de base).",
+    "time": "50 minutos"
+  }
+}

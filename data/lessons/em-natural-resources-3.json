@@ -1,0 +1,70 @@
+{
+  "id": "em-natural-resources-3",
+  "moduleId": "em-natural-resources",
+  "title": "Mineração, território e conflitos",
+  "summary": "Extração mineral, royalties, impactos socioambientais e a maldição dos recursos.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Brumadinho: a barragem que não deveria existir",
+    "text": "Em 25 de janeiro de 2019, a barragem de rejeitos B1 da mina de Córrego do Feijão (Vale S.A.), em Brumadinho (MG), rompeu e liberou 12 milhões de m³ de lama de minério sobre o Vale do Paraopeba. Resultado: 272 mortos. Era a maior tragédia de trabalho da história brasileira. Três anos antes, Mariana (MG) havia sofrido o rompimento da barragem de Fundão (Samarco), com 19 mortos e o rio Doce destruído por 650 km. Dois desastres, mesma região, mesmo tipo de infraestrutura, mesmo tipo de empresa. Não é coincidência — é modelo."
+  },
+  "guided": {
+    "title": "A cadeia produtiva da mineração",
+    "text": "A mineração extrai recursos do subsolo, processa e vende como matéria-prima para a indústria global. O Brasil é um dos maiores produtores mundiais de minério de ferro, bauxita, nióbio e cobre. A cadeia envolve: exploração (pesquisa geológica), extração, beneficiamento, transporte e exportação.",
+    "points": [
+      "Minério de ferro: o Brasil exporta principalmente para a China (siderurgia). Vale S.A. é a maior mineradora do mundo.",
+      "Nióbio: 92% das reservas mundiais estão no Brasil (Araxá, MG). Usado em ligas de aço especiais — aviones, carros, satélites.",
+      "Bauxita/alumínio: Pará concentra as maiores reservas. Hidrelétricas da Amazônia existem em parte para alimentar a produção de alumínio.",
+      "Royalties: compensação financeira pela exploração de recursos naturais. Distribuição entre municípios, estados e União — fonte de conflito político."
+    ]
+  },
+  "relations": {
+    "title": "A maldição dos recursos no contexto brasileiro",
+    "text": "A 'maldição dos recursos' (resource curse) descreve a tendência de países ricos em recursos naturais de apresentar crescimento econômico menor, instituições mais frágeis e maior desigualdade do que países sem essa abundância. O mecanismo principal é a doença holandesa: a exportação de commodities valoriza a moeda, tornando as exportações industriais não competitivas e desindustrializando a economia. O Brasil viveu isso intensamente no ciclo das commodities (2002–2012) e na crise de desindustrialização subsequente."
+  },
+  "caseStudy": {
+    "title": "Carajás: a maior mina de ferro do mundo",
+    "text": "A Floresta Nacional de Carajás (PA) abriga a maior jazida de minério de ferro do mundo — 7,2 bilhões de toneladas. A Vale extrai cerca de 200 milhões de toneladas por ano e exporta principalmente para a China. O PIB de municípios próximos é elevado pelos royalties, mas os indicadores sociais (IDH, mortalidade infantil, violência) permanecem abaixo da média nacional. A estrada de ferro Carajás cortou a Amazônia de Marabá ao porto de São Luís, gerando pressão sobre terras indígenas e florestas ao longo dos 892 km. O caso ilustra como riqueza mineral não se converte automaticamente em desenvolvimento humano."
+  },
+  "application": "Pesquise o município de Parauapebas (PA) ou Itabira (MG): qual é o PIB per capita? Qual é o IDH? Que proporção da receita municipal vem de royalties de mineração? O que os dados dizem sobre a relação entre mineração e desenvolvimento local?",
+  "activity": {
+    "question": "O rompimento das barragens de Mariana (2015) e Brumadinho (2019) revelou principalmente:",
+    "type": "single-choice",
+    "correct": "regulacao",
+    "options": [
+      {
+        "value": "acidente",
+        "label": "Eventos imprevisíveis — qualquer estrutura pode falhar inesperadamente"
+      },
+      {
+        "value": "natureza",
+        "label": "Vulnerabilidade ao clima — chuvas extremas causaram os rompimentos"
+      },
+      {
+        "value": "regulacao",
+        "label": "Falhas sistemáticas de regulação, fiscalização e responsabilidade corporativa"
+      },
+      {
+        "value": "tecnologia",
+        "label": "Obsolescência tecnológica das barragens construídas nos anos 1970"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. Ambas as barragens tinham laudos de estabilidade recentes emitidos por empresas contratadas pelas próprias mineradoras. Mariana e Brumadinho revelaram falhas no modelo de autorregulação, na captura regulatória do Estado pelas empresas e na ausência de responsabilização efetiva. Não foram acidentes imprevisíveis — foram previstos e tolerados.",
+      "incorrect": "Brumadinho rompeu num dia de sol, sem chuvas. Mariana teve causas geológicas e estruturais conhecidas antecipadamente. Os laudos de estabilidade foram emitidos por empresas pagas pela Vale. Não é acidente nem natureza."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Brumadinho rompeu em dia de sol. Mariana tinha laudos de estabilidade aprovados por empresa contratada pela própria Vale. O que isso diz sobre o sistema de fiscalização?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa criticamente os impactos socioambientais da mineração e as falhas de regulação que permitem desastres.",
+    "observe": "Verifique se o aluno atribui responsabilidade estrutural (regulação, modelo empresarial) e não apenas individual ('negligência do engenheiro').",
+    "answer": "Falhas sistemáticas de regulação e fiscalização. A autorregulação — empresas contratando seus próprios auditores — e a captura do Estado pelas mineradoras criaram condições para os desastres.",
+    "mediation": "Proponha: 'Como um sistema de regulação poderia evitar conflitos de interesse nas auditorias de segurança de barragens?'",
+    "time": "50 minutos"
+  }
+}
