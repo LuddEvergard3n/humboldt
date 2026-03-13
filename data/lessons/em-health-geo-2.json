@@ -3,7 +3,7 @@
   "moduleId": "em-health-geo",
   "title": "Saneamento básico e saúde: a geografia da água",
   "summary": "Acesso à água potável e esgoto como determinante central de saúde pública.",
-  "activityType": "single-choice",
+  "activityType": "map-click",
   "phenomenon": {
     "title": "Cada R$ 1 em saneamento economiza R$ 4 em saúde",
     "text": "O Brasil tem 35 milhões de pessoas sem acesso à água tratada e 100 milhões sem coleta de esgoto — números da PNAD 2022. As doenças de veiculação hídrica (diarreia, hepatite A, leptospirose, cólera) matam principalmente crianças menores de 5 anos. A estimativa do Instituto Trata Brasil é que cada R$ 1 investido em saneamento básico economiza R$ 4 em gastos de saúde pública. É uma das políticas de saúde com melhor custo-benefício conhecida."
@@ -28,35 +28,20 @@
   },
   "application": "Acesse o site do Sistema Nacional de Informações sobre Saneamento (SNIS) e compare os índices de cobertura de água e esgoto do seu município com a média nacional e com o município vizinho mais próximo.",
   "activity": {
-    "question": "A disparidade de acesso ao saneamento básico entre Norte/Nordeste e Sul/Sudeste do Brasil é explicada principalmente por:",
-    "type": "single-choice",
-    "correct": "historico",
-    "options": [
-      {
-        "value": "natural",
-        "label": "Condições naturais — o clima tropical dificulta a implantação de redes"
-      },
-      {
-        "value": "historico",
-        "label": "Processo histórico de urbanização e investimento público desigual"
-      },
-      {
-        "value": "cultural",
-        "label": "Diferenças culturais em valorização da higiene por região"
-      },
-      {
-        "value": "tamanho",
-        "label": "O Norte e Nordeste têm municípios menores, inviabilizando redes coletivas"
-      }
-    ],
+    "type": "map-click",
+    "mapId": "brazil-regions",
+    "instruction": "Clique na região brasileira com menor cobertura de saneamento básico.",
+    "question": "Qual macrorregião do Brasil tem menor proporção de domicílios com acesso a esgotamento sanitário adequado?",
+    "correct": "norte",
+    "hintAfter": 1,
     "feedback": {
-      "correct": "Correto. A distribuição do saneamento segue o padrão histórico de investimento público: regiões que concentraram capital industrial (Sul/Sudeste) receberam mais infraestrutura. Não é resultado de clima ou cultura, mas de escolhas políticas acumuladas.",
-      "incorrect": "O clima tropical não impede redes de saneamento — Singapura e várias cidades tropicais têm saneamento universal. A explicação está na história das políticas de investimento."
+      "correct": "Correto. A Região Norte tem apenas 26% dos domicílios com esgotamento sanitário adequado (IBGE, 2022) — o menor índice do país. Em comparação, o Sudeste ultrapassa 85%. Essa diferença se traduz diretamente em maior incidência de doenças de veiculação hídrica como cólera, hepatite A e diarreia infantil.",
+      "incorrect": "Pense na distribuição de infraestrutura no Brasil: qual região tem menor acesso a redes de água tratada e esgoto? Considere distância, dispersão populacional e investimento histórico."
     },
     "hints": [
       {
         "type": "text",
-        "content": "Cidades tropicais com recursos (Cingapura, partes do Japão) têm saneamento exemplar. O problema não é o clima — é a história dos investimentos públicos."
+        "content": "O IBGE mostra que as regiões com maior déficit de saneamento coincidem com as de menor renda per capita e maior dispersão rural. Qual região tem a maior área e menor densidade urbana?"
       }
     ]
   },

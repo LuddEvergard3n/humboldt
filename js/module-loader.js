@@ -19,6 +19,7 @@ const MODULE_MAP = {
   'efii-americas':       () => import('../modules/efii-americas/index.js'),
   'efii-africa':         () => import('../modules/efii-africa/index.js'),
   'efii-europe':         () => import('../modules/efii-europe/index.js'),
+  'efii-asia':           () => import('../modules/efii-asia/index.js'),
   'geopolitics':         () => import('../modules/geopolitics/index.js'),
   'population':          () => import('../modules/population/index.js'),
   'landscape':           () => import('../modules/landscape/index.js'),
@@ -34,6 +35,7 @@ const MODULE_MAP = {
   'em-climatology':         () => import('../modules/em-climatology/index.js'),
   'em-health-geo':          () => import('../modules/em-health-geo/index.js'),
   'em-natural-resources':   () => import('../modules/em-natural-resources/index.js'),
+  'em-asia-pacific':        () => import('../modules/em-asia-pacific/index.js'),
 
   // Ensino Superior — formato article (sem lições)
   'es-epistemology':        () => import('../modules/es-epistemology/index.js'),
@@ -42,6 +44,7 @@ const MODULE_MAP = {
   'es-cartography-critic':  () => import('../modules/es-cartography-critic/index.js'),
   'es-economic-geography':  () => import('../modules/es-economic-geography/index.js'),
   'es-methodology':         () => import('../modules/es-methodology/index.js'),
+  'es-urban-geography':     () => import('../modules/es-urban-geography/index.js'),
 };
 
 export async function loadModule(id) {
@@ -53,3 +56,4 @@ export async function loadModule(id) {
 export function listModuleIds() {
   return Object.keys(MODULE_MAP);
 }
+  // EFII — adicionado em v0.9

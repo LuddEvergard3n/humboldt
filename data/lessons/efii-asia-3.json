@@ -1,0 +1,55 @@
+{
+  "id": "efii-asia-3",
+  "moduleId": "efii-asia",
+  "title": "Índia: diversidade e desigualdade",
+  "summary": "A maior democracia do mundo: população, línguas, religiões e disparidades regionais.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Um país de 1,4 bilhão de pessoas — e 22 línguas oficiais",
+    "text": "A Índia ultrapassou a China em 2023 para se tornar o país mais populoso do mundo, com 1,43 bilhão de habitantes. Mas a Índia não é um país homogêneo: tem 22 línguas oficialmente reconhecidas, centenas de dialetos, seis religiões principais, 28 estados com culturas distintas e uma das maiores desigualdades econômicas do planeta. Compreender a Índia é compreender como a diversidade extrema convive — com tensões — dentro de um único Estado."
+  },
+  "guided": {
+    "title": "A estrutura da diversidade indiana",
+    "text": "A diversidade indiana tem várias dimensões simultâneas: linguística (hindi no Norte, tâmil no Sul, bengali no Leste — cada uma com literatura e história próprias), religiosa (80% hindus, 14% muçulmanos — a terceira maior população islâmica do mundo), regional (o Sul industrializado e mais rico vs. o Norte mais agrário e populoso) e social (o sistema de castas, oficialmente abolido, mas ainda influente).",
+    "points": [
+      "População: 1,43 bilhão (2023) — crescimento mais acelerado que a China nas últimas décadas.",
+      "PIB: 5ª maior economia do mundo, mas PIB per capita muito baixo — concentração extrema de riqueza.",
+      "Tecnologia: polo global de TI em Bangalore (o 'Vale do Silício indiano'); ao mesmo tempo, 200 milhões sem acesso a saneamento.",
+      "Castas: sistema hierárquico histórico que ainda estrutura acesso a empregos, casamentos e oportunidades."
+    ]
+  },
+  "relations": {
+    "title": "A Índia no contexto geopolítico asiático",
+    "text": "A Índia mantém disputas territoriais com a China (fronteira no Himalaia, tensões em Aksai Chin e Arunachal Pradesh) e com o Paquistão (Caxemira, disputada desde 1947 e cenário de três guerras). Ao mesmo tempo, emergiu como potência econômica e tecnológica: exporta serviços de TI, produtos farmacêuticos e engenheiros qualificados para o mundo todo. É membro do G20, do BRICS e do Movimento dos Países Não Alinhados. Sua posição geopolítica — entre China, Paquistão, Oceano Índico e Golfo Pérsico — torna-a ator estratégico central no século XXI."
+  },
+  "caseStudy": {
+    "title": "Bangalore e a geração TI",
+    "text": "Bangalore (Karnataka) foi uma cidade colonial britânica de clima ameno. Nos anos 1990, o governo indiano apostou em educação técnica e desburocratização para atrair empresas de tecnologia. Hoje é sede de escritórios regionais de Google, Microsoft, Amazon, Samsung e de centenas de empresas indianas de software. O polo emprega mais de 1 milhão de engenheiros e gera US$ 45 bilhões em exportações de TI por ano. A ironia: o mesmo Estado que lançou satélites espaciais em 2023 tem 60 milhões de pessoas vivendo abaixo da linha de pobreza. A Índia é simultaneamente a maior democracia do mundo e um dos países com maior desigualdade interna."
+  },
+  "application": "Pesquise o mapa linguístico da Índia. Identifique pelo menos 5 línguas e em que regiões são faladas. Compare com o Brasil: o Brasil é mais homogêneo ou menos homogêneo do que a Índia em termos de línguas?",
+  "activity": {
+    "question": "A maior fonte de tensão territorial envolvendo Índia, Paquistão e China é a região de:",
+    "type": "single-choice",
+    "correct": "caxemira",
+    "options": [
+      { "value": "caxemira",  "label": "Caxemira — disputada entre Índia e Paquistão desde 1947, com presença chinesa em parte do território" },
+      { "value": "bengala",   "label": "Bangladesh — criada na separação do Paquistão Oriental em 1971" },
+      { "value": "tibet",     "label": "Tibet — região autônoma sob controle chinês desde 1950" },
+      { "value": "sri-lanka", "label": "Sri Lanka — ilha ao sul da Índia com conflito étnico interno" }
+    ],
+    "feedback": {
+      "correct": "Correto. A Caxemira é o conflito territorial mais antigo e perigoso da Ásia: Índia e Paquistão reivindicam a região inteira; cada um controla uma parte. A China ocupa Aksai Chin, uma porção contestada. Todas as três potências possuem armas nucleares — tornando a região um dos pontos de maior risco do mundo.",
+      "incorrect": "O Tibet, Bangladesh e Sri Lanka são territórios distintos com histórias próprias. A Caxemira é o epicentro das disputas entre as três potências nucleares do subcontinente."
+    },
+    "hints": [
+      { "type": "text", "content": "Em 1947, quando a Índia e o Paquistão foram criados, um território no extremo norte ficou sem definição clara. Esse não-resolvido dura até hoje." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno reconhece a diversidade interna da Índia (linguística, religiosa, econômica) e compreende os principais conflitos territoriais do subcontinente indiano.",
+    "observe": "Verifique se o aluno entende que o sistema de castas não é apenas histórico — ainda estrutura desigualdades reais. Evite simplificações que reduzam a Índia ao estereótipo de pobreza extrema ou ao de país tecnológico avançado.",
+    "answer": "Caxemira. Disputada entre Índia e Paquistão desde a independência em 1947; a China ocupa parte do território. Todas as três potências têm armas nucleares, tornando o conflito de altíssimo risco estratégico.",
+    "mediation": "Proponha: 'Se você fosse negociador da ONU, como proporia resolver o conflito da Caxemira? Quais seriam os maiores obstáculos?'",
+    "time": "50 minutos"
+  }
+}

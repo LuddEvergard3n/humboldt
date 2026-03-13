@@ -3,7 +3,7 @@
   "moduleId": "em-natural-resources",
   "title": "Conflitos por água no século XXI",
   "summary": "Escassez hídrica, geopolítica da água e disputas territoriais pelo acesso à água.",
-  "activityType": "single-choice",
+  "activityType": "flow-map",
   "phenomenon": {
     "title": "A próxima guerra será pela água?",
     "text": "Em 2011, o ex-secretário-geral da ONU Boutros Boutros-Ghali declarou: 'A próxima guerra no Oriente Médio será pela água, não pela política.' A Síria passou por uma seca severa entre 2007 e 2010 — a pior em 900 anos — que deslocou 1,5 milhão de camponeses para as cidades antes do início da guerra civil. O nexo entre escassez de recursos naturais, migração forçada e conflito não é automático, mas é documentado e crescente."
@@ -28,35 +28,42 @@
   },
   "application": "Pesquise a situação hídrica de um grande reservatório próximo a você (Cantareira em SP, Castanhão no CE, Sobradinho na BA). Qual é o nível atual? Quais usos dependem dele? Há conflitos de uso?",
   "activity": {
-    "question": "O conflito entre Etiópia e Egito pela Barragem do Renascimento no Nilo é um exemplo de:",
-    "type": "single-choice",
-    "correct": "geopolitica-agua",
-    "options": [
+    "type": "flow-map",
+    "question": "Observe os fluxos de exportação de água virtual embutida na soja brasileira. O que esses fluxos revelam sobre a disputa global por recursos hídricos?",
+    "flows": [
       {
-        "value": "fronteir",
-        "label": "Conflito de fronteira territorial — disputa pelo controle do leito do rio"
+        "from": "Brasil (Cerrado/MT)",
+        "to": "China",
+        "value": 320,
+        "label": "32M t soja/ano → 2.400 m³/t de água"
       },
       {
-        "value": "geopolitica-agua",
-        "label": "Geopolítica da água — controle do fluxo de recurso hídrico compartilhado"
+        "from": "Brasil (Cerrado/MT)",
+        "to": "União Europeia",
+        "value": 150,
+        "label": "15M t soja/ano"
       },
       {
-        "value": "energia",
-        "label": "Conflito energético — disputa pelo mercado de energia elétrica africano"
+        "from": "Brasil (Cerrado/MT)",
+        "to": "Outros",
+        "value": 80,
+        "label": "8M t soja/ano"
       },
       {
-        "value": "etnico",
-        "label": "Conflito étnico-religioso com pretexto hídrico"
+        "from": "Aquífero Guarani",
+        "to": "Irrigação MT/GO",
+        "value": 200,
+        "label": "Recarga subterrânea em risco"
       }
     ],
     "feedback": {
-      "correct": "Correto. O conflito não é sobre a fronteira em si, mas sobre quem controla o fluxo do Nilo — e, portanto, o acesso à água de 100 milhões de egípcios. É o exemplo contemporâneo mais claro de geopolítica da água.",
-      "incorrect": "A questão central é o controle do recurso hídrico, não a fronteira ou a energia. O Egito não precisa da eletricidade da barragem — precisa da água do rio."
+      "correct": "Cada tonelada de soja exportada carrega cerca de 2.400 m³ de água virtual. O Brasil exporta mais água embutida em commodities do que qualquer país árido importa explicitamente. A disputa por água não é só entre Estados que dividem rios — é também entre agronegócio e abastecimento urbano.",
+      "incorrect": "Observe a origem dos fluxos: todos saem do Cerrado. O Cerrado é também o berço de oito das doze bacias hidrográficas brasileiras. O que acontece quando a soja avança sobre ele?"
     },
     "hints": [
       {
         "type": "text",
-        "content": "O Egito tem 97% do território no deserto. Qual é sua fonte de água? Agora pense: o que significa outra nação controlar parte desse fluxo?"
+        "content": "Água virtual é o volume de água usado para produzir um produto. Exportar soja é exportar água. Isso muda como você pensa sobre 'conflitos por água'?"
       }
     ]
   },

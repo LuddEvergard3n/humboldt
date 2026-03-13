@@ -117,7 +117,7 @@
     "moduleId": "efi-landscape",
     "title": "Elementos naturais e humanizados da paisagem",
     "summary": "Distinguir o que a natureza criou do que as pessoas modificaram.",
-    "activityType": "single-choice"
+    "activityType": "before-after"
   },
   "efi-landscape-2": {
     "moduleId": "efi-landscape",
@@ -177,7 +177,7 @@
     "moduleId": "efi-society",
     "title": "Trabalho no campo e na cidade",
     "summary": "As atividades econômicas básicas e como elas organizam o espaço.",
-    "activityType": "single-choice"
+    "activityType": "flow-map"
   },
   "efi-society-3": {
     "moduleId": "efi-society",
@@ -267,7 +267,7 @@
     "moduleId": "efii-concepts",
     "title": "Escala geográfica: de local a global",
     "summary": "Como o ponto de observação muda o que entendemos sobre o espaço.",
-    "activityType": "single-choice"
+    "activityType": "map-click"
   },
   "efii-concepts-4": {
     "moduleId": "efii-concepts",
@@ -621,7 +621,7 @@
     "moduleId": "em-climatology",
     "title": "Climas do Brasil: diversidade e distribuição",
     "summary": "Classificação, distribuição e características dos tipos climáticos brasileiros.",
-    "activityType": "single-choice"
+    "activityType": "layer-toggle"
   },
   "em-climatology-3": {
     "moduleId": "em-climatology",
@@ -651,7 +651,7 @@
     "moduleId": "em-health-geo",
     "title": "Saneamento básico e saúde: a geografia da água",
     "summary": "Acesso à água potável e esgoto como determinante central de saúde pública.",
-    "activityType": "single-choice"
+    "activityType": "map-click"
   },
   "em-health-geo-3": {
     "moduleId": "em-health-geo",
@@ -675,7 +675,7 @@
     "moduleId": "em-natural-resources",
     "title": "Conflitos por água no século XXI",
     "summary": "Escassez hídrica, geopolítica da água e disputas territoriais pelo acesso à água.",
-    "activityType": "single-choice"
+    "activityType": "flow-map"
   },
   "em-natural-resources-3": {
     "moduleId": "em-natural-resources",
@@ -688,5 +688,59 @@
     "title": "Transição energética e geopolítica dos minerais críticos",
     "summary": "Lítio, cobalto e terras raras: a nova geopolítica dos recursos na era verde.",
     "activityType": "single-choice"
+  },
+  "efii-asia-1": {
+    "moduleId": "efii-asia",
+    "title": "Monsões: o ritmo da Ásia",
+    "summary": "O regime de monções e seu papel na agricultura e na vida de bilhões de pessoas.",
+    "activityType": "single-choice"
+  },
+  "efii-asia-2": {
+    "moduleId": "efii-asia",
+    "title": "China: a fábrica do mundo",
+    "summary": "A industrialização acelerada da China e seu impacto na economia global.",
+    "activityType": "flow-map"
+  },
+  "efii-asia-3": {
+    "moduleId": "efii-asia",
+    "title": "Índia: diversidade e desigualdade",
+    "summary": "A maior democracia do mundo: população, línguas, religiões e disparidades regionais.",
+    "activityType": "single-choice"
+  },
+  "efii-asia-4": {
+    "moduleId": "efii-asia",
+    "title": "Sudeste Asiático: entre potências",
+    "summary": "A região mais dinâmica do mundo: ASEAN, rotas marítimas e disputas no Mar do Sul.",
+    "activityType": "map-click"
+  },
+  "efii-asia-5": {
+    "moduleId": "efii-asia",
+    "title": "Japão e Coreia do Sul: desenvolvimento e envelhecimento",
+    "summary": "O modelo asiático de desenvolvimento, a crise demográfica e a influência cultural.",
+    "activityType": "before-after"
+  },
+  "em-asia-pacific-1": {
+    "moduleId": "em-asia-pacific",
+    "title": "O Indo-Pacífico e a nova geopolítica asiática",
+    "summary": "Por que o eixo do poder global se deslocou para o Oceano Índico e o Pacífico.",
+    "activityType": "map-click"
+  },
+  "em-asia-pacific-2": {
+    "moduleId": "em-asia-pacific",
+    "title": "Semicondutores: a geopolítica do chip",
+    "summary": "Por que o controle de chips de silício se tornou o centro da rivalidade entre potências.",
+    "activityType": "flow-map"
+  },
+  "em-asia-pacific-3": {
+    "moduleId": "em-asia-pacific",
+    "title": "Disputas marítimas: soberania sobre o oceano",
+    "summary": "Mar do Sul da China, UNCLOS e a militarização dos recifes.",
+    "activityType": "single-choice"
+  },
+  "em-asia-pacific-4": {
+    "moduleId": "em-asia-pacific",
+    "title": "ASEAN e o multilateralismo asiático",
+    "summary": "Como dez países divergentes constroem integração regional entre potências rivais.",
+    "activityType": "before-after"
   }
 }

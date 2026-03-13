@@ -1,0 +1,55 @@
+{
+  "id": "efii-asia-2",
+  "moduleId": "efii-asia",
+  "title": "China: a fábrica do mundo",
+  "summary": "A industrialização acelerada da China e seu impacto na economia global.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "De onde vem o que você usa",
+    "text": "Abra qualquer produto ao seu redor — tênis, celular, caderno, carregador. Há grande chance de encontrar 'Made in China'. Em 1990, a China respondia por 3% da produção industrial mundial. Em 2023, responde por 29% — mais do que EUA, Alemanha e Japão combinados. Em três décadas, 800 milhões de pessoas saíram da pobreza extrema. Esse processo transformou não apenas a China, mas o mapa econômico do mundo inteiro."
+  },
+  "guided": {
+    "title": "Como a China se industrializou",
+    "text": "A industrialização chinesa seguiu um modelo específico: abertura controlada para o investimento estrangeiro nas Zonas Econômicas Especiais (ZEEs) a partir de 1978; mão de obra barata e abundante vinda do interior rural; infraestrutura financiada pelo Estado; exportações massivas para o mercado global; reinvestimento dos lucros em tecnologia e educação.",
+    "points": [
+      "Zonas Econômicas Especiais: áreas com isenção fiscal para atrair fábricas estrangeiras (Shenzhen foi a primeira, em 1980).",
+      "Migração rural-urbana: 300 milhões de pessoas deixaram o campo para trabalhar nas fábricas costeiras.",
+      "Exportações: a China tornou-se o maior exportador mundial em 2009.",
+      "Subida na cadeia: de produto barato (têxtil, brinquedo) para tecnologia avançada (semicondutores, veículos elétricos, 5G)."
+    ]
+  },
+  "relations": {
+    "title": "Impactos globais da industrialização chinesa",
+    "text": "A industrialização da China reduziu preços de produtos industriais no mundo inteiro — democratizando acesso a eletrônicos, roupas e utensílios. Ao mesmo tempo, fechou fábricas em países desenvolvidos que não conseguiram competir. Criou dependência de cadeias de fornecimento: a pandemia de 2020 revelou que a escassez de semicondutores chineses paralisou montadoras de automóveis nos EUA e Europa. A China exporta produção e importa matérias-primas — o Brasil vende soja e minério de ferro; a China vende manufaturas."
+  },
+  "caseStudy": {
+    "title": "Shenzhen: de aldeia de pescadores a megalópole tecnológica",
+    "text": "Em 1979, Shenzhen era uma aldeia de pescadores com 30.000 habitantes na costa sul da China, próxima a Hong Kong. Designada como a primeira Zona Econômica Especial, em 40 anos tornou-se uma cidade de 17 milhões de habitantes, sede de empresas como Huawei, DJI e Tencent, com PIB per capita similar ao de Portugal. O processo envolveu migração massiva, construção de infraestrutura em ritmo acelerado e atração sistemática de investimento estrangeiro. Shenzhen é o exemplo mais extremo de urbanização e industrialização rápida da história humana."
+  },
+  "application": "Faça uma lista de 5 produtos que você usa no dia a dia. Pesquise onde cada um foi fabricado. Qual porcentagem vem da Ásia? O que isso diz sobre a divisão internacional do trabalho?",
+  "activity": {
+    "type": "flow-map",
+    "question": "Observe os fluxos de comércio da China. O que esses fluxos revelam sobre o papel da China na divisão internacional do trabalho?",
+    "flows": [
+      { "from": "China",    "to": "EUA",            "value": 500, "label": "US$ 500bi em manufaturados" },
+      { "from": "China",    "to": "União Europeia", "value": 400, "label": "US$ 400bi em manufaturados" },
+      { "from": "Brasil",   "to": "China",          "value": 80,  "label": "US$ 80bi em soja e minério" },
+      { "from": "África",   "to": "China",          "value": 120, "label": "Petróleo, cobre, cobalto" },
+      { "from": "China",    "to": "América Latina", "value": 150, "label": "Eletrônicos, máquinas, veículos" }
+    ],
+    "feedback": {
+      "correct": "Os fluxos mostram a divisão internacional do trabalho: países do Sul Global exportam matérias-primas (soja, minério, petróleo) para a China, que as transforma em manufaturados e os exporta para países ricos e em desenvolvimento. A China ocupa o centro da cadeia produtiva global.",
+      "incorrect": "Observe de onde saem as matérias-primas e para onde vão os manufaturados. Quem produz o quê? Quem fica com o maior valor agregado?"
+    },
+    "hints": [
+      { "type": "text", "content": "Soja e minério chegam à China. Celulares e máquinas saem da China. Qual produto tem mais valor — a matéria-prima ou o produto industrializado?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o processo de industrialização chinesa e analisa o papel da China na divisão internacional do trabalho contemporânea.",
+    "observe": "Verifique se o aluno relaciona a industrialização chinesa com a desindustrialização de outros países e com a dependência das cadeias de fornecimento globais.",
+    "answer": "A China exporta manufaturados de alto valor para países ricos e importa matérias-primas de países do Sul Global — incluindo o Brasil. Isso posiciona a China como centro da cadeia produtiva global, com alto poder de influência sobre preços e oferta de produtos.",
+    "mediation": "Proponha: 'Se a China decidisse parar de exportar semicondutores por um mês, o que aconteceria com a produção de celulares, carros e computadores no resto do mundo?'",
+    "time": "50 minutos"
+  }
+}

@@ -3,7 +3,7 @@
   "moduleId": "efi-landscape",
   "title": "Elementos naturais e humanizados da paisagem",
   "summary": "Distinguir o que a natureza criou do que as pessoas modificaram.",
-  "activityType": "single-choice",
+  "activityType": "before-after",
   "phenomenon": {
     "title": "Olhe pela janela: o que a natureza fez e o que as pessoas fizeram?",
     "text": "Uma cidade é sempre uma mistura: o rio que existia antes das casas, a árvore que alguém plantou na calçada, o asfalto que cobriu a terra. A paisagem é uma conversa constante entre natureza e sociedade."
@@ -27,36 +27,37 @@
   },
   "application": "Tire três fotos do seu bairro (ou desenhe). Em cada uma, identifique pelo menos um elemento natural e um humanizado.",
   "activity": {
-    "question": "Qual dos itens abaixo é um elemento HUMANIZADO da paisagem?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "ponte",
+    "type": "before-after",
+    "instruction": "Arraste o divisor para comparar a mesma área antes e depois da ação humana.",
+    "question": "O que transforma uma paisagem natural em paisagem humanizada?",
+    "correct": "acao-humana",
+    "hintAfter": 2,
+    "compareConfig": {
+      "beforeLabel": "Mata original",
+      "afterLabel": "Área urbanizada"
+    },
     "options": [
       {
-        "value": "ponte",
-        "label": "Uma ponte de concreto sobre um rio"
+        "value": "acao-humana",
+        "label": "A ação humana: construção, agricultura, desmatamento"
       },
       {
-        "value": "montanha",
-        "label": "Uma montanha de granito"
+        "value": "tempo",
+        "label": "A passagem do tempo, sem interferência humana"
       },
       {
-        "value": "nuvem",
-        "label": "Uma nuvem de tempestade"
-      },
-      {
-        "value": "rio",
-        "label": "Um rio em seu leito natural"
+        "value": "clima",
+        "label": "A mudança de clima ao longo das estações"
       }
     ],
     "feedback": {
-      "correct": "Correto! A ponte foi construída por pessoas — é um elemento humanizado.",
-      "incorrect": "Elemento humanizado é tudo criado ou modificado pelo ser humano. Qual das opções é assim?"
+      "correct": "Exato. Paisagem humanizada é resultado direto da ação das pessoas sobre o espaço natural: casas, estradas, plantações, fábricas.",
+      "incorrect": "O tempo passa e o clima muda — mas para virar 'humanizada', a paisagem precisa de quê? Pense no que as duas palavras significam juntas."
     },
     "hints": [
       {
         "type": "text",
-        "content": "Humanizado = feito ou muito modificado pelas pessoas."
+        "content": "A palavra 'humanizada' vem de 'humano'. Quem transformou a paisagem da direita?"
       }
     ]
   },

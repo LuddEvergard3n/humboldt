@@ -541,6 +541,61 @@
       ],
       "phenomena": [],
       "description": "Métodos de pesquisa geográfica: trabalho de campo, SIG, sensoriamento remoto, entrevista e análise do discurso."
+    },
+    {
+      "id": "efii-asia",
+      "title": "Ásia",
+      "tagline": "O continente mais populoso: monsões, arroz, industrialização e conflitos territoriais.",
+      "level": "efii",
+      "order": 34,
+      "lessons": 5,
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "migration",
+        "water",
+        "border",
+        "inequality"
+      ]
+    },
+    {
+      "id": "es-urban-geography",
+      "title": "Geografia Urbana e Direito à Cidade",
+      "tagline": "Lefebvre, metropolização e urbanismo periférico: a cidade como arena de poder.",
+      "level": "es",
+      "format": "article",
+      "order": 35,
+      "lessons": 0,
+      "scales": [
+        "local",
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "inequality",
+        "migration",
+        "city"
+      ],
+      "description": "Teoria do urbano, segregação socioespacial, metropolização e urbanismo periférico no Sul Global."
+    },
+    {
+      "id": "em-asia-pacific",
+      "title": "Indo-Pacífico: Geopolítica do Século XXI",
+      "tagline": "Semicondutores, ASEAN, disputas marítimas e a rivalidade sino-americana.",
+      "level": "em",
+      "order": 36,
+      "lessons": 4,
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "border",
+        "energy",
+        "inequality"
+      ]
     }
   ]
 }

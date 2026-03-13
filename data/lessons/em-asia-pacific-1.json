@@ -1,0 +1,52 @@
+{
+  "id": "em-asia-pacific-1",
+  "moduleId": "em-asia-pacific",
+  "title": "O Indo-Pacífico e a nova geopolítica asiática",
+  "summary": "Por que o eixo do poder global se deslocou para o Oceano Índico e o Pacífico.",
+  "activityType": "map-click",
+  "phenomenon": {
+    "title": "Por que o mundo olha para o Pacífico",
+    "text": "Em 2011, o presidente Obama anunciou o 'pivô para a Ásia': os EUA reorientariam sua política externa do Oriente Médio para o Indo-Pacífico. A razão era simples: a região concentra 60% do PIB mundial, 65% do comércio marítimo global, as rotas de petróleo do Golfo Pérsico para o Leste Asiático, e o único rival estratégico real dos EUA — a China. Entender o século XXI exige entender o Indo-Pacífico."
+  },
+  "guided": {
+    "title": "O que é o Indo-Pacífico",
+    "text": "Indo-Pacífico é um conceito geopolítico — não apenas geográfico — que designa o arco estratégico do Oceano Índico ao Pacífico Ocidental. Conecta a costa leste da África, o Golfo Pérsico, o subcontinente indiano, o Sudeste Asiático e o Leste Asiático. O conceito ganhou centralidade porque unifica as rotas de energia (petróleo do Golfo para China, Japão e Coreia), as rotas de comércio (Estreito de Malaca) e as tensões geopolíticas entre potências.",
+    "points": [
+      "QUAD: aliança informal EUA-Japão-Índia-Austrália criada em 2007, reativada em 2017, para conter a influência chinesa.",
+      "AUKUS: aliança militar EUA-Reino Unido-Austrália (2021) para fornecer à Austrália submarinos de propulsão nuclear.",
+      "Iniciativa do Cinto e Rota: projeto chinês de infraestrutura em 150 países — portos, ferrovias, fibra óptica — para criar conectividade sob influência de Pequim.",
+      "Rotas marítimas: 40% do comércio mundial passa pelo Estreito de Malaca; qualquer bloqueio paralisaria cadeias de fornecimento globais."
+    ]
+  },
+  "relations": {
+    "title": "A rivalidade sino-americana",
+    "text": "A competição entre EUA e China é multidimensional: tecnológica (quem lidera em IA, semicondutores, computação quântica), comercial (tarifas e barreiras desde 2018), militar (corrida armamentista naval no Pacífico), ideológica (democracia liberal vs. capitalismo de Estado) e geopolítica (Taiwan, Mar do Sul da China, Coreia do Norte). Não é uma Guerra Fria repetida — a interdependência econômica entre os dois países é muito maior do que entre EUA e URSS. É uma competição entre potências profundamente entrelaçadas que não podem se desacoplar sem custo enorme para ambas."
+  },
+  "caseStudy": {
+    "title": "Taiwan: a ilha que para o mundo",
+    "text": "Taiwan fabrica mais de 90% dos semicondutores mais avançados do mundo, através da TSMC (Taiwan Semiconductor Manufacturing Company). Sem chips taiwaneses, não há smartphones, carros modernos, servidores de nuvem, sistemas de armas avançados. A China reivindica Taiwan como parte de seu território — sob a política de 'uma só China' — e não descartou o uso da força para reunificação. Os EUA não reconhecem formalmente Taiwan como Estado independente, mas fornecem armas e defenderiam a ilha em caso de ataque chinês. O Estreito de Taiwan — 180 km de água — é o ponto de maior risco de conflito entre potências nucleares no mundo."
+  },
+  "application": "Pesquise o mapa do Indo-Pacífico. Identifique: onde fica o Estreito de Malaca? E o Estreito de Taiwan? Por que esses dois pontos são chamados de 'chokepoints' — gargalos estratégicos — da geopolítica global?",
+  "activity": {
+    "type": "map-click",
+    "mapId": "world-simple",
+    "instruction": "Clique na região do mapa que concentra as principais disputas geopolíticas do Indo-Pacífico — onde ficam Taiwan, o Mar do Sul da China e o Estreito de Malaca.",
+    "question": "Qual região do mapa corresponde ao Leste e Sudeste Asiático — epicentro das tensões geopolíticas entre China, EUA e potências regionais?",
+    "correct": "asia-oriental",
+    "hintAfter": 1,
+    "feedback": {
+      "correct": "Correto. O Leste e Sudeste Asiático concentram as principais tensões do Indo-Pacífico: Taiwan, o Mar do Sul da China, o Estreito de Malaca, e a fronteira sino-indiana no Himalaia. É a região onde a rivalidade sino-americana se manifesta com maior intensidade.",
+      "incorrect": "Taiwan, o Mar do Sul da China e o Estreito de Malaca ficam todos na mesma região: o Leste e Sudeste Asiático, ao norte e nordeste do Oceano Índico."
+    },
+    "hints": [
+      { "type": "text", "content": "China, Japão, Coreia do Sul e Taiwan ficam no Leste Asiático. Vietnã, Malásia, Indonésia e Filipinas ficam no Sudeste. Encontre essa área no mapa — a leste do Oceano Índico e ao sul da Rússia." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o conceito geopolítico de Indo-Pacífico, identifica as principais alianças e tensões da região, e analisa a rivalidade sino-americana como estruturante da geopolítica do século XXI.",
+    "observe": "Verifique se o aluno distingue rivalidade geopolítica de guerra iminente — a interdependência econômica é um fator de moderação que a análise puramente geopolítica tende a subestimar.",
+    "answer": "Ásia Oriental (data-id: asia-oriental). Concentra Taiwan, o Mar do Sul da China e os principais atores da rivalidade sino-americana: China, Japão, Coreia do Sul e as rotas do Estreito de Malaca ao sul.",
+    "mediation": "Proponha: 'Se a China invadisse Taiwan e os EUA interviessem militarmente, quais seriam as consequências econômicas para o Brasil? Pense nas cadeias de fornecimento de chips, nas exportações de soja e no sistema financeiro global.'",
+    "time": "50 minutos"
+  }
+}

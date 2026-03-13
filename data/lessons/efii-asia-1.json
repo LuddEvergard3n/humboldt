@@ -1,0 +1,55 @@
+{
+  "id": "efii-asia-1",
+  "moduleId": "efii-asia",
+  "title": "Monsões: o ritmo da Ásia",
+  "summary": "O regime de monções e seu papel na agricultura e na vida de bilhões de pessoas.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que metade da humanidade espera pela chuva",
+    "text": "Todo ano, entre junho e setembro, ventos carregados de umidade do Oceano Índico varrem o subcontinente indiano, o Sudeste Asiático e partes da China. Essa inversão sazonal dos ventos — a monção — traz entre 70% e 90% da chuva anual de regiões inteiras. Quando ela chega tarde, colheitas falham. Quando é intensa demais, enchentes matam. Mais de 3 bilhões de pessoas dependem diretamente do ritmo das monções."
+  },
+  "guided": {
+    "title": "O que é o regime de monções",
+    "text": "Monção vem do árabe mawsim, 'estação'. O fenômeno resulta do aquecimento diferencial entre continente e oceano: no verão, o continente aquece mais rápido que o mar; o ar quente sobe, criando baixa pressão; ventos úmidos do oceano sopram em direção ao continente para preencher o vácuo. No inverno, o processo se inverte: o continente esfria mais rápido, ventos secos sopram do interior para o mar.",
+    "points": [
+      "Monção de verão (junho–setembro): ventos úmidos do oceano → chuvas intensas no interior.",
+      "Monção de inverno (outubro–março): ventos secos do continente → estação seca.",
+      "A Índia recebe 80% de sua chuva anual durante os quatro meses de monção de verão.",
+      "O atraso ou enfraquecimento da monção causa seca e fome; sua intensificação causa enchentes devastadoras."
+    ]
+  },
+  "relations": {
+    "title": "Monsões e a civilização asiática",
+    "text": "O cultivo de arroz irrigado — base alimentar de mais de 2 bilhões de pessoas — é inseparável das monções. Os campos de arroz em terraços das Filipinas, Indonésia, China e Vietnã foram construídos ao longo de milênios para capturar e distribuir a água das chuvas monçônicas. As cidades, os calendários, os festivais e a organização social de grande parte da Ásia foram moldados pelo ritmo anual dessa alternância de seco e chuvoso. Não há como entender a Ásia sem entender as monções."
+  },
+  "caseStudy": {
+    "title": "A monção de 2022 no Paquistão",
+    "text": "Em 2022, a monção de verão no Paquistão foi a mais intensa registrada. Um terço do país ficou submerso — área maior que o território da Itália. Mais de 1.700 pessoas morreram, 33 milhões foram deslocadas e US$ 30 bilhões em danos foram causados. Ironicamente, o Paquistão emite menos de 1% das emissões globais de CO₂, mas estava entre os países mais afetados pela intensificação das chuvas causada pelo aquecimento global. O secretário-geral da ONU chamou o evento de 'massacre climático'."
+  },
+  "application": "Pesquise: quando ocorre a estação das chuvas no Brasil? Compare com o regime de monções asiático. Há semelhanças no mecanismo (diferença de pressão entre continente e oceano)?",
+  "activity": {
+    "question": "O regime de monções na Índia e no Sudeste Asiático é causado principalmente por:",
+    "type": "single-choice",
+    "correct": "diferenca-aquecimento",
+    "options": [
+      { "value": "diferenca-aquecimento", "label": "O aquecimento diferencial entre continente e oceano, que cria ventos sazonais" },
+      { "value": "altitude",             "label": "A altitude elevada do Himalaia, que bloqueia os ventos do norte" },
+      { "value": "latitudinal",          "label": "A posição tropical da Ásia, que recebe muita radiação solar direta" },
+      { "value": "correntes",            "label": "As correntes quentes do Oceano Índico, que aumentam a evaporação" }
+    ],
+    "feedback": {
+      "correct": "Correto. A diferença de aquecimento entre o continente (que esquenta rápido no verão) e o oceano (que esquenta devagar) cria gradientes de pressão que movem ventos úmidos do mar para o interior — a monção de verão. No inverno o processo se inverte.",
+      "incorrect": "A altitude e a radiação solar têm influência, mas não são a causa principal das monções. Pense: por que os ventos mudam de direção entre verão e inverno? O que muda entre as duas estações?"
+    },
+    "hints": [
+      { "type": "text", "content": "No verão, o continente esquenta mais que o mar. Ar quente sobe (baixa pressão). O que acontece com o ar úmido do oceano quando há 'vácuo' no interior do continente?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o mecanismo das monções e sua importância para a agricultura e a vida de bilhões de pessoas na Ásia.",
+    "observe": "Verifique se o aluno entende que monção é uma circulação atmosférica sazonal, não apenas 'estação chuvosa'. A reversão dos ventos é o conceito central.",
+    "answer": "O aquecimento diferencial entre continente e oceano. No verão, o continente asiático aquece mais rápido que o Oceano Índico, criando baixa pressão no interior; ventos úmidos oceânicos sopram em direção ao continente, trazendo as chuvas da monção.",
+    "mediation": "Pergunte: 'Se as monções enfraquecerem por causa do aquecimento global, quais países seriam mais afetados? Por quê?'",
+    "time": "50 minutos"
+  }
+}

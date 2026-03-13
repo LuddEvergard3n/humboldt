@@ -1,0 +1,57 @@
+{
+  "id": "em-asia-pacific-2",
+  "moduleId": "em-asia-pacific",
+  "title": "Semicondutores: a geopolítica do chip",
+  "summary": "Por que o controle de chips de silício se tornou o centro da rivalidade entre potências.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Um chip menor que uma unha — e mais estratégico que o petróleo",
+    "text": "Em 2021, a falta de chips paralisou fábricas de automóveis no Brasil, Alemanha e EUA. Montadoras perderam US$ 210 bilhões em receita. A causa: durante a pandemia, fabricantes de chips priorizaram eletrônicos de consumo; quando a indústria automobilística voltou a pedir, não havia estoque. Esse episódio expôs o que estrategistas já sabiam: semicondutores são a matéria-prima do século XXI — mais estratégica que o petróleo, porque sem chips não há carro, arma, servidor, celular ou satélite."
+  },
+  "guided": {
+    "title": "A cadeia global de semicondutores",
+    "text": "A produção de semicondutores é a cadeia de valor mais geograficamente concentrada e tecnologicamente complexa do mundo. Nenhum país faz tudo sozinho — nem mesmo os EUA ou a China. A cadeia é dividida em etapas altamente especializadas, cada uma dominada por pouquíssimos atores.",
+    "points": [
+      "Design: EUA lideram com Qualcomm, Nvidia, AMD, Apple Silicon — arquiteturas baseadas em licenças ARM (britânica).",
+      "Equipamentos de litografia: ASML (Holanda) é o único fabricante mundial de máquinas EUV, essenciais para chips abaixo de 7nm.",
+      "Fabricação (foundry): TSMC (Taiwan) fabrica 90% dos chips mais avançados; Samsung (Coreia) e SMIC (China) são os únicos concorrentes.",
+      "Materiais e gases especiais: Japão domina silício de alta pureza, fotomáscaras e gases especiais — 70% da produção global.",
+      "Montagem e teste: Sudeste Asiático (Malaysia, Vietnam, Filipinas) — etapa de menor valor agregado."
+    ]
+  },
+  "relations": {
+    "title": "A guerra dos chips entre EUA e China",
+    "text": "Em 2022, os EUA lançaram os controles de exportação mais amplos da história contra a China: proibiram a venda de chips avançados (acima de um threshold de desempenho), de equipamentos de fabricação (máquinas ASML) e de software de design (EDA tools) para empresas chinesas. O objetivo declarado: impedir que a China desenvolva capacidade militar e de IA de ponta. A China respondeu com o 'Made in China 2025' — plano de US$ 150 bilhões para tornar-se autossuficiente em semicondutores até 2030. A corrida é tecnológica, mas as consequências são geopolíticas: quem controla os chips controla as armas, os dados e a inteligência artificial do futuro."
+  },
+  "caseStudy": {
+    "title": "A TSMC e a estratégia do 'escudo de silício'",
+    "text": "A Taiwan Semiconductor Manufacturing Company fabrica chips para Apple, Nvidia, AMD, Qualcomm, Google e centenas de outras empresas. Sem a TSMC, o iPhone não existe, os data centers da Amazon param, os chips militares americanos ficam sem reposição. Esse monopólio cria o que analistas chamam de 'escudo de silício': qualquer ataque chinês a Taiwan destruiria a própria indústria de chips da qual a China depende. A TSMC está construindo fábricas no Arizona (EUA) e no Japão — sob pressão política para diversificar geograficamente. Mas transferir décadas de expertise acumulada em Taiwan é muito mais difícil do que construir prédios."
+  },
+  "application": "Pesquise o chip do seu celular. Quem o projetou? Onde foi fabricado? Rastreie a cadeia: design → fabricação → montagem. Quantos países diferentes estão envolvidos na produção do dispositivo que você usa todos os dias?",
+  "activity": {
+    "type": "flow-map",
+    "question": "Observe os fluxos da cadeia global de semicondutores. O que esse mapa revela sobre a dependência mútua entre países rivais?",
+    "flows": [
+      { "from": "EUA (design)",      "to": "TSMC Taiwan",       "value": 300, "label": "Projetos Nvidia/Apple/Qualcomm" },
+      { "from": "Holanda (ASML)",    "to": "TSMC Taiwan",       "value": 200, "label": "Máquinas EUV — monopólio absoluto" },
+      { "from": "Japão (materiais)", "to": "TSMC Taiwan",       "value": 150, "label": "Silício puro, gases, fotomáscaras" },
+      { "from": "TSMC Taiwan",       "to": "China (montagem)",  "value": 180, "label": "Chips para montagem de produtos" },
+      { "from": "TSMC Taiwan",       "to": "EUA",               "value": 250, "label": "Chips acabados para iPhones, servidores" },
+      { "from": "China",             "to": "Mundo",             "value": 400, "label": "Produtos eletrônicos montados" }
+    ],
+    "feedback": {
+      "correct": "Os fluxos revelam interdependência estrutural: os EUA precisam da TSMC taiwanesa para fabricar seus chips mais avançados; a China monta produtos que chegam aos consumidores americanos; a Holanda fornece equipamentos indispensáveis para todos. A rivalidade sino-americana não é entre economias desconectadas — é entre parceiros dependentes que tentam se desacoplar sem destruir suas próprias cadeias produtivas.",
+      "incorrect": "Observe de onde chegam os insumos para a TSMC e para onde vão seus chips. Quantos países diferentes estão envolvidos nesse fluxo? Isso é interdependência — o oposto de autossuficiência."
+    },
+    "hints": [
+      { "type": "text", "content": "Se os EUA cortam chips para a China, a China pode cortar terras raras para os EUA. Se a China invade Taiwan, os EUA perdem acesso à TSMC. Quem perde mais com o desacoplamento?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a estrutura da cadeia global de semicondutores, identifica os atores dominantes em cada etapa e analisa as implicações geopolíticas da concentração tecnológica.",
+    "observe": "Verifique se o aluno entende que 'guerra tecnológica' não é metáfora — restrições de exportação têm consequências econômicas e militares concretas. Evite simplificações do tipo 'EUA vs. China' que ignoram a complexidade da cadeia.",
+    "answer": "A cadeia é altamente fragmentada e interdependente: EUA (design) → ASML Holanda (máquinas) → Japão (materiais) → TSMC Taiwan (fabricação) → China/Sudeste Asiático (montagem) → mercado global. Nenhum ator pode se isolar sem custo enorme.",
+    "mediation": "Proponha: 'O Brasil tem minerais estratégicos como nióbio e lítio usados em eletrônicos. Como o Brasil poderia usar esses recursos na disputa geopolítica dos chips?'",
+    "time": "50 minutos"
+  }
+}

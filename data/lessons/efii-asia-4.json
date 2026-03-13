@@ -1,0 +1,52 @@
+{
+  "id": "efii-asia-4",
+  "moduleId": "efii-asia",
+  "title": "Sudeste Asiático: entre potências",
+  "summary": "A região mais dinâmica do mundo: ASEAN, rotas marítimas e disputas no Mar do Sul da China.",
+  "activityType": "map-click",
+  "phenomenon": {
+    "title": "O mar mais disputado do mundo",
+    "text": "O Mar do Sul da China parece apenas um mar. Mas por ele passam US$ 3,4 trilhões em comércio por ano — um terço do comércio marítimo global. Suas águas contêm reservas estimadas de petróleo e gás. E seus recifes e ilhotas são reivindicados por seis países simultaneamente: China, Vietnã, Filipinas, Malásia, Brunei e Taiwan. Essa sobreposição de reivindicações torna o Mar do Sul da China um dos pontos mais tensos da geopolítica contemporânea."
+  },
+  "guided": {
+    "title": "O Sudeste Asiático: características gerais",
+    "text": "O Sudeste Asiático reúne 11 países, 680 milhões de pessoas e uma das maiores diversidades étnicas, linguísticas e religiosas do mundo. É também uma das regiões de crescimento econômico mais acelerado: Vietnam, Tailândia, Indonésia e Malásia industrializaram-se nas últimas décadas seguindo modelo similar ao japonês e coreano (Estado desenvolvimentista, exportações, mão de obra qualificada).",
+    "points": [
+      "ASEAN (Associação das Nações do Sudeste Asiático): bloco de integração regional criado em 1967, hoje com 10 membros.",
+      "Posição estratégica: controla os Estreitos de Malaca e de Lombok — gargalos do comércio global entre Índico e Pacífico.",
+      "Diversidade religiosa: budismo (Tailândia, Myanmar), islamismo (Indonésia — maior país muçulmano do mundo, Malásia), catolicismo (Filipinas), confucionismo e hinduísmo.",
+      "Produção: borracha (Tailândia), palmito e óleo de palma (Indonésia), eletrônicos (Vietnam, Malásia), arroz (Vietnam, Tailândia — maiores exportadores mundiais)."
+    ]
+  },
+  "relations": {
+    "title": "Entre China e EUA",
+    "text": "O Sudeste Asiático vive uma tensão geopolítica estrutural: a China reivindica soberania sobre a maior parte do Mar do Sul da China (linha das nove pontas); os EUA defendem a liberdade de navegação e mantêm alianças militares com Filipinas e Tailândia. Os países da ASEAN tentam equilibrar-se entre os dois gigantes: dependem economicamente da China (maior parceiro comercial de todos) mas buscam a segurança da presença americana. Essa dança de equilíbrio é a constante da política regional."
+  },
+  "caseStudy": {
+    "title": "O Vietnã: de campo de batalha a polo industrial",
+    "text": "O Vietnã foi devastado pela guerra com os EUA (1955–1975), que matou 2 a 3 milhões de vietnamitas e destruiu sua infraestrutura. Em 1986, lançou o Doi Moi — reformas econômicas de abertura controlada, semelhantes às chinesas. Em 2023, o Vietnã é o maior exportador mundial de smartphones (superou a China nesse setor), recebe investimento massivo de Samsung, Intel e Apple, e tem crescimento de 7% ao ano. A pobreza extrema caiu de 58% (1993) para menos de 5% (2023). É um dos casos mais impressionantes de recuperação e desenvolvimento da história recente."
+  },
+  "application": "Pesquise o Estreito de Malaca no mapa. Por que ele é chamado de 'gargalo' do comércio mundial? O que aconteceria com o abastecimento de petróleo no Japão e na Coreia do Sul se o estreito fosse bloqueado?",
+  "activity": {
+    "type": "map-click",
+    "mapId": "world-simple",
+    "instruction": "Clique na região do mapa que abriga o Sudeste Asiático — área de maior crescimento econômico e maior disputa marítima da atualidade.",
+    "question": "Qual região do mapa corresponde ao Sudeste Asiático, onde ficam países como Vietnam, Tailândia, Indonésia e Filipinas?",
+    "correct": "sudeste-asiatico",
+    "hintAfter": 1,
+    "feedback": {
+      "correct": "Correto. O Sudeste Asiático fica entre a Índia e a China, a leste e sudeste do subcontinente indiano. É uma região de arquipélagos e penínsulas que controlam rotas marítimas estratégicas, incluindo o Estreito de Malaca — por onde passa 40% do comércio mundial.",
+      "incorrect": "O Sudeste Asiático fica entre a Ásia Meridional (Índia) e a Ásia Oriental (China, Japão). É uma área de penínsulas e ilhas entre os Oceanos Índico e Pacífico."
+    },
+    "hints": [
+      { "type": "text", "content": "Procure a região entre a Índia (a oeste) e a China (ao norte), abaixo da China continental. Vietnam, Tailândia, Malásia, Indonésia e Filipinas ficam todos nessa área." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno localiza o Sudeste Asiático, compreende o papel estratégico da ASEAN e das rotas marítimas, e analisa as tensões no Mar do Sul da China.",
+    "observe": "Verifique se o aluno distingue a ASEAN (bloco regional com 10 membros) da Ásia em geral. Muitos confundem 'Sudeste Asiático' com 'Ásia' indistintamente.",
+    "answer": "A região do Sudeste Asiático no mapa (sudeste-asiatico). Localizada entre o Oceano Índico e o Pacífico, ao sul da China e a leste da Índia.",
+    "mediation": "Proponha: 'Por que os países do Sudeste Asiático não escolhem claramente um lado — China ou EUA? Quais seriam as consequências de escolher?'",
+    "time": "50 minutos"
+  }
+}

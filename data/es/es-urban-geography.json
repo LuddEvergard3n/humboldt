@@ -1,0 +1,139 @@
+{
+  "id": "es-urban-geography",
+  "title": "Geografia Urbana e Direito à Cidade",
+  "subtitle": "Lefebvre, metropolização e urbanismo periférico: a cidade como arena de poder",
+  "intro": "A cidade é a forma mais complexa de organização do espaço produzido pela sociedade humana. É também a arena onde as contradições do capitalismo se manifestam com maior intensidade: ao lado de torres de escritórios e condomínios fechados erguem-se favelas, cortiços e periferias sem infraestrutura. Compreender a cidade geograficamente exige ir além do urbanismo técnico — exige uma teoria do urbano que articule espaço, poder, reprodução social e luta política. Esse é o programa da geografia urbana crítica: de Lefebvre ao direito à cidade, da metropolização à segregação estrutural, do urbanismo periférico às resistências cotidianas.",
+  "readingTime": "35 min",
+  "sections": [
+    {
+      "id": "sec-lefebvre-cidade",
+      "title": "A cidade como obra e como produto",
+      "type": "quote",
+      "text": "O direito à cidade não pode ser concebido como um simples direito de visita ou de retorno às cidades tradicionais. Só pode ser formulado como direito à vida urbana, transformada, renovada.",
+      "author": "Henri Lefebvre",
+      "work": "O Direito à Cidade",
+      "year": "1968"
+    },
+    {
+      "id": "sec-lefebvre-urbano",
+      "title": "Lefebvre e a revolução urbana",
+      "type": "text",
+      "body": "Henri Lefebvre publicou O Direito à Cidade em 1968 — o mesmo ano das revoltas estudantis em Paris — e A Revolução Urbana em 1970. Nesses textos, propôs uma tese radical: a urbanização estava se tornando o processo central de reprodução do capitalismo, deslocando a fábrica como locus principal da acumulação e do conflito social.\n\nA distinção fundamental de Lefebvre é entre a cidade como valor de uso — espaço de encontro, de trocas não mercantis, de vida cotidiana — e a cidade como valor de troca — espaço de especulação imobiliária, de extração de renda fundiária, de circulação do capital. O capitalismo urbano subordina sistematicamente o primeiro ao segundo: os espaços de encontro são privatizados, cercados, convertidos em shopping centers; as habitações se tornam ativo financeiro antes de serem morada.\n\nO conceito de direito à cidade não é, para Lefebvre, um direito individual de acesso a serviços urbanos — é um direito coletivo de transformar a cidade segundo as necessidades de seus habitantes, não segundo a lógica do capital imobiliário. É um direito político, não administrativo: exige a reconquista do espaço urbano como bem comum."
+    },
+    {
+      "id": "sec-teoricos-urbanos",
+      "title": "Pensadores da cidade crítica",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "Henri Lefebvre",
+          "dates": "1901–1991",
+          "tradition": "Marxismo heterodoxo / Filosofia do urbano",
+          "contribution": "Formulou o direito à cidade como exigência política de transformação radical do espaço urbano. Distinguiu cidade (forma histórica), urbano (processo social) e cotidiano (espaço vivido). A tríade prática espacial / representações / espaços de representação aplicada ao urbano.",
+          "quote": "A cidade é a obra de seus habitantes, não dos arquitetos nem dos promotores.",
+          "quoteWork": "O Direito à Cidade (1968)"
+        },
+        {
+          "name": "David Harvey",
+          "dates": "1935–",
+          "tradition": "Geografia marxista / Urbanismo político",
+          "contribution": "Desenvolveu o conceito de capital fixo no espaço urbano e de renda monopolista do solo. A crise urbana como crise de sobreacumulação — quando o capital excedente encontra no espaço urbano uma válvula de escape temporária. O urbanismo neoliberal como desmonte dos direitos conquistados na cidade keynesiana.",
+          "quote": "O direito à cidade é um direito coletivo, não individual — um direito de mudar a nós mesmos mudando a cidade.",
+          "quoteWork": "Rebel Cities (2012)"
+        },
+        {
+          "name": "Manuel Castells",
+          "dates": "1942–",
+          "tradition": "Sociologia urbana / Redes e poder",
+          "contribution": "Analisou os movimentos sociais urbanos como atores coletivos que constroem o direito à cidade pela prática. Em A Questão Urbana (1972), criticou o estrutural-funcionalismo urbano. Em A Sociedade em Rede (1996), reconfigurou a análise do urbano para a era da informação e das metrópoles globais.",
+          "quote": "As cidades são ao mesmo tempo o local e o meio da construção do poder nos fluxos globais.",
+          "quoteWork": "A Sociedade em Rede (1996)"
+        },
+        {
+          "name": "Mike Davis",
+          "dates": "1946–2022",
+          "tradition": "Geografia crítica / Urbanismo do Sul Global",
+          "contribution": "Planeta Favela (2006) documentou que mais da metade da população urbana mundial vive em assentamentos informais. A favela não é desvio ou transitório — é a forma urbana dominante do Sul Global, produto estrutural de uma globalização que gera urbanização sem industrialização.",
+          "quote": "O planeta favela é o resultado inevitável de uma ordem mundial que promete modernização urbana a todos e entrega especulação imobiliária para poucos.",
+          "quoteWork": "Planeta Favela (2006)"
+        },
+        {
+          "name": "Ermínia Maricato",
+          "dates": "1942–",
+          "tradition": "Planejamento urbano crítico / Brasil",
+          "contribution": "Analisou a especificidade do urbano brasileiro: a ilegalidade fundiária como mecanismo de controle social, o urbanismo como ideologia que planeja para a cidade legal e ignora a cidade real. A autora do conceito de 'urbanismo de fantasia' — planos diretores que não se aplicam às periferias.",
+          "quote": "No Brasil, as leis urbanísticas são aplicadas seletivamente. Para os pobres, a cidade real é ilegal; para os ricos, a cidade legal é real.",
+          "quoteWork": "Metrópole na Periferia do Capitalismo (1996)"
+        }
+      ]
+    },
+    {
+      "id": "sec-metropolizacao",
+      "title": "Metropolização e reestruturação urbana",
+      "type": "text",
+      "body": "Metropolização é o processo pelo qual as grandes cidades crescem absorvendo municípios vizinhos, formando regiões metropolitanas policêntricas com dezenas ou centenas de municípios funcionalmente integrados mas politicamente fragmentados. É o processo dominante de urbanização no século XXI: não são mais cidades isoladas que crescem, mas redes de cidades que se fundem.\n\nSaskia Sassen desenvolveu o conceito de cidade global para descrever metrópoles que exercem funções de comando do capitalismo transnacional: Nova York, Londres e Tóquio coordenam finanças, serviços jurídicos, consultoria e cultura globalmente — independentemente de onde a produção material ocorra. São Paulo, Mumbai e Xangai emergem como cidades globais do Sul. A cidade global não é apenas uma cidade grande: é um nó de redes transnacionais de poder.\n\nA reestruturação produtiva pós-fordista — desindustrialização, terceirização, financeirização — reconfigurou a morfologia urbana. O centro das cidades industriais europeu e norte-americanas foi esvaziado (shrinking cities); nos países em desenvolvimento, a desindustrialização ocorreu antes que o desenvolvimento se completasse (urbanização sem industrialização, descrita por Mike Davis). Em ambos os casos, o resultado é fragmentação espacial: ilhas de riqueza conectadas globalmente, cercadas por periferias desconectadas localmente."
+    },
+    {
+      "id": "sec-segregacao",
+      "title": "Segregação socioespacial: mecanismos e formas",
+      "type": "text",
+      "body": "Segregação socioespacial é a tendência das classes sociais a ocupar porções distintas do espaço urbano — processo que se retroalimenta: quem mora em bairro rico tem acesso a escolas, serviços e redes de contato que reproduzem a riqueza; quem mora na periferia enfrenta distâncias, infraestrutura precária e isolamento que reproduzem a pobreza.\n\nOs mecanismos da segregação são múltiplos. O mercado de solo urbano exclui os pobres das localizações mais valorizadas — os preços de terra refletem a qualidade da infraestrutura, criando um círculo vicioso: infraestrutura gera valorização, valorização expulsa pobres, pobres vão para onde não há infraestrutura. O Estado reproduz a segregação quando investe em áreas já valorizadas e negligencia periferias. A discriminação racial e étnica acrescenta uma dimensão adicional: em São Paulo, Salvador e Rio de Janeiro, raça e localização espacial são fortemente correlacionadas.\n\nFlávio Villaça identificou na metrópole brasileira um padrão específico: os bairros da elite tendem a concentrar-se em um setor da cidade (Zona Oeste em São Paulo, Zona Sul no Rio, orla marítima em Salvador), e o Estado investe desproporcionalmente nesse setor — convergência de poder político e econômico que explica por que a desigualdade urbana brasileira é tão persistente."
+    },
+    {
+      "id": "sec-timeline-urbano",
+      "title": "Urbanização no Brasil",
+      "type": "timeline",
+      "events": [
+        {
+          "period": "1900–1940",
+          "label": "Urbanização incipiente",
+          "description": "Brasil ainda predominantemente rural (70% da população). Crescimento das cidades industriais do Sudeste — São Paulo e Rio de Janeiro. Cortiços como forma dominante de habitação operária no centro. Primeiros planos de remoção das favelas (Rio, 1902)."
+        },
+        {
+          "period": "1940–1970",
+          "label": "Êxodo rural e industrialização",
+          "description": "A industrialização acelerada do Sudeste atrai migrantes do Nordeste e do interior. São Paulo passa de 1,3 milhão (1940) para 8,1 milhões (1970). Surgimento das periferias autoconstruídas. Conjuntos habitacionais do BNH (1964) como resposta — insuficiente e mal localizada."
+        },
+        {
+          "period": "1970–1990",
+          "label": "Metropolização e favelização",
+          "description": "Consolidação das regiões metropolitanas. A favela deixa de ser fenômeno transitório e torna-se forma permanente de habitação popular. Movimentos de moradia reivindicam regularização fundiária. A Constituição de 1988 inclui a função social da propriedade urbana."
+        },
+        {
+          "period": "1990–2000",
+          "label": "Estatuto da Cidade",
+          "description": "Aprovação do Estatuto da Cidade (2001) — lei que regulamenta a função social da propriedade, institui instrumentos como IPTU progressivo, usucapião urbano e plano diretor participativo. Condomínios fechados horizontais expandem-se nas periferias das metrópoles."
+        },
+        {
+          "period": "2000–2016",
+          "label": "Grandes projetos e gentrificação",
+          "description": "Programa Minha Casa Minha Vida (2009) produz 5 milhões de unidades — mas mal localizadas, na periferia distante. Preparativos para Copa (2014) e Olimpíadas (2016) geram remoções forçadas no Rio. Gentrificação do centro histórico de São Paulo e outras cidades."
+        },
+        {
+          "period": "2016–hoje",
+          "label": "Crise habitacional e pandemia",
+          "description": "Corte do Minha Casa Minha Vida. Aumento do deficit habitacional (8 milhões de unidades em 2023). Pandemia agrava vulnerabilidade nas periferias — distância, ausência de home office, densidade. Movimentos de sem-teto (MTST) e ocupações urbanas como resposta política."
+        }
+      ]
+    },
+    {
+      "id": "sec-urbanismo-periferico",
+      "title": "Urbanismo periférico e autoconstrução",
+      "type": "text",
+      "body": "A periferia das metrópoles do Sul Global não é o oposto da cidade — é uma outra forma de cidade, com sua própria lógica, economia e urbanidade. A autoconstrução — construção da moradia pelo próprio morador, em mutirões, fins de semana, durante anos — é o modo dominante de produção do espaço habitacional para as classes populares brasileiras.\n\nJosé de Souza Martins descreveu a periferia paulistana como um espaço de luta cotidiana: o morador que acorda às 4h para pegar dois ônibus e ir trabalhar no centro não é vítima passiva — é sujeito político que cobra transporte, água, escola, pavimentação. As comunidades eclesiais de base, o Movimento dos Sem-Terra urbano, as associações de bairro — são todas formas de organização política geradas pela condição periférica.\n\nA 'urbanização por enclaves' — condomínios fechados, shoppings, parques empresariais — fragmenta a cidade em espaços privados conectados por automóvel, destruindo a vida pública. Teresa Caldeira analisou esse processo em São Paulo como 'cidade de muros': a elite retira-se dos espaços públicos para enclaves privados, e a segregação se aprofunda não apenas no espaço mas na sociabilidade — ricos e pobres deixam de frequentar os mesmos parques, calçadas e comércios."
+    },
+    {
+      "id": "sec-compare-urbanismo",
+      "title": "Abordagens do urbanismo",
+      "type": "compare-table",
+      "columns": ["Abordagem", "Diagnóstico da cidade", "Solução proposta", "Crítica"],
+      "rows": [
+        ["Urbanismo modernista (Le Corbusier)", "Cidade caótica, insalubre, ineficiente", "Tabula rasa: demolir e reconstruir racionalmente (zoneamento funcional, torres no verde)", "Destruição de comunidades, segregação funcional, desumanização do espaço público"],
+        ["Urbanismo neoliberal (anos 1980–)", "Cidade bloqueada por regulação excessiva", "Privatizar, desregular, atrair investimento privado (renovação urbana por mercado)", "Gentrificação, expulsão de pobres, agravamento da segregação"],
+        ["Planejamento comunicativo (Habermas)", "Cidade sem participação — decisões tecnocráticas", "Plano diretor participativo, audiências públicas, gestão democrática", "Participação formal sem poder real; captura por interesses imobiliários"],
+        ["Direito à cidade (Lefebvre/Harvey)", "Cidade como produto do capital, não obra dos habitantes", "Reconquista coletiva do espaço urbano; função social da propriedade; habitação como direito", "Dificuldade de implementação sem transformação estrutural do capitalismo"],
+        ["Urbanismo tático / acupuntura urbana", "Cidade rígida que não aprende com o uso cotidiano", "Intervenções pequenas e reversíveis que ativam espaços subutilizados (parklets, ciclofaixas)", "Escala insuficiente para problemas estruturais; pode servir à gentrificação"]
+      ]
+    }
+  ]
+}

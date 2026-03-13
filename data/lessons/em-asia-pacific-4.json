@@ -1,0 +1,61 @@
+{
+  "id": "em-asia-pacific-4",
+  "moduleId": "em-asia-pacific",
+  "title": "ASEAN e o multilateralismo asiático",
+  "summary": "Como dez países divergentes constroem integração regional entre potências rivais.",
+  "activityType": "before-after",
+  "phenomenon": {
+    "title": "Dez países, uma cúpula — sem escolher lado",
+    "text": "Todo ano, líderes de dez países com histórias, religiões, línguas e sistemas políticos radicalmente diferentes se reúnem na cúpula da ASEAN. A Indonésia — maior democracia islâmica do mundo — senta com o Vietnam comunista, a Tailândia militar, as Filipinas democráticas e o sultanato absolutista de Brunei. O que os une não é ideologia, mas pragmatismo: a região está entre as duas maiores potências do mundo e nenhum país, sozinho, tem peso suficiente para se relacionar com EUA ou China em condições de igualdade."
+  },
+  "guided": {
+    "title": "A ASEAN: estrutura e princípios",
+    "text": "A Associação das Nações do Sudeste Asiático foi fundada em 1967 por cinco países (Indonésia, Malásia, Filipinas, Singapura, Tailândia) em plena Guerra Fria — originalmente como bloco anticomunista. Hoje tem dez membros e é o terceiro maior bloco econômico do mundo em termos de PIB combinado (US$ 3,6 trilhões). Seu princípio fundamental é a não-ingerência nos assuntos internos dos membros — o que permite coexistir ditaduras e democracias, mas também torna a ASEAN incapaz de criticar violações de direitos humanos.",
+    "points": [
+      "Membros: Brunei, Camboja, Filipinas, Indonésia, Laos, Malásia, Myanmar, Singapura, Tailândia, Vietnam.",
+      "RCEP: Regional Comprehensive Economic Partnership (2022) — maior acordo de livre comércio da história, incluindo China, Japão, Coreia e Austrália.",
+      "Singapura: cidade-Estado com PIB per capita de US$ 65.000 — hub financeiro, logístico e tecnológico da ASEAN.",
+      "Myanmar: crise desde o golpe militar de 2021. A ASEAN não conseguiu forçar o retorno à democracia — limite explícito do princípio da não-ingerência."
+    ]
+  },
+  "relations": {
+    "title": "A centralidade da ASEAN na arquitetura regional",
+    "text": "A ASEAN criou uma série de fóruns que incluem potências externas: o ASEAN+3 (China, Japão, Coreia), a Cúpula do Leste Asiático (EUA, Rússia também participam), o Fórum Regional da ASEAN. Esse 'multilateralismo com centralidade da ASEAN' é uma estratégia deliberada: manter o Sudeste Asiático como espaço neutro onde todas as potências se sentam à mesma mesa, evitando que a região seja particionada em esferas de influência exclusivas. Funciona enquanto nenhuma potência decide que a neutralidade não serve mais aos seus interesses."
+  },
+  "caseStudy": {
+    "title": "Singapura: o Estado que não pode ter inimigos",
+    "text": "Singapura tem 5,9 milhões de habitantes, 733 km² (menor que Brasília) e nenhum recurso natural. É o quarto maior centro financeiro do mundo, o segundo porto mais movimentado, o hub de conexão entre o Oceano Índico e o Pacífico. 74% da população é chinesa — mas Singapura faz questão de não ser 'chinesa': mantém relações excelentes com EUA, China, Índia, Malásia e Indonésia simultaneamente. Lee Kuan Yew, fundador de Singapura, desenvolveu o conceito de 'small state diplomacy': quando você é minúsculo e vulnerável, sua sobrevivência depende de ser indispensável para todos. Singapura se tornou tão necessária como hub que atacá-la seria custoso para qualquer potência."
+  },
+  "application": "Pesquise o PIB per capita dos 10 membros da ASEAN. Calcule a amplitude: do mais rico ao mais pobre. Compare com a União Europeia. O que essa diferença interna diz sobre os desafios de integração da ASEAN?",
+  "activity": {
+    "type": "before-after",
+    "instruction": "Arraste o divisor para comparar o mapa do Sudeste Asiático em 1967 (início da ASEAN) e hoje.",
+    "question": "O que a expansão da ASEAN de 5 para 10 membros revela sobre a estratégia de integração regional do Sudeste Asiático?",
+    "correct": "neutralidade-pragmatica",
+    "hintAfter": 1,
+    "compareConfig": {
+      "beforeLabel": "1967 — ASEAN com 5 membros (anticomunista)",
+      "afterLabel": "2024 — ASEAN com 10 membros (inclui Vietnam e Laos comunistas)"
+    },
+    "options": [
+      { "value": "neutralidade-pragmatica", "label": "Prevalência do pragmatismo sobre a ideologia — a ASEAN incluiu antigos inimigos para fortalecer o bloco regional" },
+      { "value": "pressao-eua",             "label": "Pressão dos EUA para expandir a aliança anticomunista no Sudeste Asiático" },
+      { "value": "china-ingressou",         "label": "A China passou a fazer parte da ASEAN e influenciou a expansão" },
+      { "value": "onu-determinou",          "label": "A ONU determinou a criação de um bloco regional unificado no Sudeste Asiático" }
+    ],
+    "feedback": {
+      "correct": "Correto. A ASEAN nasceu como bloco anticomunista em plena Guerra Fria. Depois da queda da URSS, incluiu Vietnam (1995) e Laos (1997) — países comunistas que eram inimigos ideológicos dos fundadores. O princípio da não-ingerência e o pragmatismo econômico prevaleceram sobre a ideologia. É um caso exemplar de como blocos regionais evoluem quando os interesses mudam.",
+      "incorrect": "A ASEAN é independente dos EUA e a China não é membro. A ONU não determina blocos regionais. A chave está no que mudou no mundo entre 1967 e os anos 1990 — e por que países que eram inimigos ideológicos passaram a cooperar."
+    },
+    "hints": [
+      { "type": "text", "content": "Em 1967, Vietnam e Laos eram comunistas — inimigos dos fundadores da ASEAN. Em 1995 e 1997 entraram no bloco. O que mudou no mundo nesse período que tornou possível essa inclusão?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a estrutura e os princípios da ASEAN, analisa a estratégia de multilateralismo regional como instrumento de países pequenos e médios entre potências, e avalia os limites e possibilidades da integração no Sudeste Asiático.",
+    "observe": "Verifique se o aluno distingue a ASEAN como bloco de integração regional (semelhante à UE em estrutura, mas muito diferente em profundidade) das alianças militares como a OTAN.",
+    "answer": "Prevalência do pragmatismo sobre a ideologia. A inclusão de Vietnam e Laos — antigos inimigos — demonstra que interesses econômicos e geopolíticos superaram as diferenças ideológicas no pós-Guerra Fria.",
+    "mediation": "Proponha: 'A ASEAN não conseguiu forçar o Myanmar a restaurar a democracia após o golpe de 2021. Isso mostra um limite real do bloco. Vale a pena ter uma integração regional que não intervém em crises humanitárias? Quais seriam as alternativas?'",
+    "time": "50 minutos"
+  }
+}

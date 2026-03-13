@@ -1,0 +1,61 @@
+{
+  "id": "efii-asia-5",
+  "moduleId": "efii-asia",
+  "title": "Japão e Coreia do Sul: desenvolvimento e envelhecimento",
+  "summary": "O modelo asiático de desenvolvimento, a crise demográfica e a influência cultural global.",
+  "activityType": "before-after",
+  "phenomenon": {
+    "title": "De ruínas a potências — em uma geração",
+    "text": "Em 1945, o Japão estava destruído por dois bombardeios atômicos e uma guerra. Em 1950, a Coreia do Sul era mais pobre que o Brasil e estava saindo de uma guerra civil. Em 2023, o Japão tem a terceira maior economia do mundo; a Coreia do Sul exporta carros, chips e cultura (K-pop, cinema, séries). O 'milagre econômico' do Leste Asiático é um dos processos de desenvolvimento mais rápidos da história — e seu modelo foi estudado e tentado (com resultados mistos) em todo o mundo em desenvolvimento."
+  },
+  "guided": {
+    "title": "O modelo de desenvolvimento do Leste Asiático",
+    "text": "Japão (nos anos 1950–70) e Coreia do Sul (nos anos 1960–90) seguiram um padrão semelhante: Estado desenvolvimentista que direciona crédito para setores estratégicos; empresas nacionais campeãs (zaibatsu no Japão, chaebol na Coreia — Samsung, Hyundai, LG); forte investimento em educação; protecionismo inicial seguido de exportações agressivas; reformas agrárias que liberaram mão de obra para as fábricas.",
+    "points": [
+      "Estado ativo: o governo escolhia os setores, protegia o mercado interno e subsidiava exportações.",
+      "Chaebol coreano: conglomerados familiares (Samsung, Hyundai, LG) que controlam 75% do PIB da Coreia do Sul.",
+      "Educação: Coreia do Sul tem 70% de jovens no ensino superior — um dos maiores do mundo.",
+      "Desafio atual: envelhecimento acelerado. O Japão tem a população mais velha do mundo; a Coreia do Sul tem a menor taxa de natalidade — 0,72 filhos por mulher em 2023."
+    ]
+  },
+  "relations": {
+    "title": "A crise demográfica do Leste Asiático",
+    "text": "O sucesso econômico do Japão e da Coreia criou um paradoxo: as mesmas pressões de modernização (urbanização, custo de vida alto, carreira profissional, habitação cara) que resultaram do desenvolvimento reduziram dramaticamente as taxas de natalidade. O Japão perde 800.000 pessoas por ano pelo saldo natural negativo. A Coreia do Sul pode ter metade de sua população atual em 2100 se a tendência continuar. Esse envelhecimento coloca em risco os sistemas de aposentadoria, reduz a força de trabalho e exige repensamento da política de imigração — historicamente restritiva nesses países."
+  },
+  "caseStudy": {
+    "title": "O K-pop e o soft power coreano",
+    "text": "A Coreia do Sul exporta hardware (chips Samsung) e software cultural. O Hallyu (onda coreana) — K-pop, dramas televisivos, cinema (Parasita ganhou o Oscar de melhor filme em 2020), culinária e moda — é hoje um instrumento deliberado de política externa e de geração de renda. BTS, Blackpink e outros grupos geram bilhões em exportações culturais diretas (música, merchandise, turismo) e indiretas (interesse em aprender coreano, viajar à Coreia, consumir produtos coreanos). O turismo cultural cresceu 700% em 15 anos. A Coreia transformou sua língua e cultura em produto global de exportação — sem precedentes para um país de 51 milhões de habitantes."
+  },
+  "application": "Pesquise: quais produtos tecnológicos que você usa têm origem no Japão ou na Coreia do Sul? Sony, Samsung, LG, Toyota, Hyundai, Nintendo — como esses países passaram de economias destruídas para produtores de marcas globais em menos de 50 anos?",
+  "activity": {
+    "type": "before-after",
+    "instruction": "Arraste o divisor para comparar a pirâmide etária da Coreia do Sul em 1970 e em 2023.",
+    "question": "O que a mudança na pirâmide etária da Coreia do Sul revela sobre os desafios do desenvolvimento?",
+    "correct": "envelhecimento",
+    "hintAfter": 1,
+    "compareConfig": {
+      "beforeLabel": "1970 — pirâmide jovem (base larga)",
+      "afterLabel": "2023 — pirâmide invertida (base estreita)"
+    },
+    "options": [
+      { "value": "envelhecimento", "label": "Envelhecimento populacional: menos jovens, mais idosos — pressão sobre previdência e força de trabalho" },
+      { "value": "crescimento",    "label": "Crescimento econômico: população maior e mais produtiva ao longo do tempo" },
+      { "value": "guerra",         "label": "Impacto da guerra: a geração jovem de 1970 foi dizimada pelos conflitos" },
+      { "value": "migracao",       "label": "Emigração em massa: os jovens deixaram o país em busca de oportunidades" }
+    ],
+    "feedback": {
+      "correct": "Correto. A pirâmide invertida revela envelhecimento acelerado: a base (jovens) encolheu com a queda da natalidade; o topo (idosos) cresceu com o aumento da expectativa de vida. Isso cria pressão econômica grave: menos trabalhadores sustentando mais aposentados.",
+      "incorrect": "A guerra coreana terminou em 1953. A emigração coreana é pequena. O que a base estreita e o topo largo de uma pirâmide etária geralmente indicam sobre a estrutura de idades de uma população?"
+    },
+    "hints": [
+      { "type": "text", "content": "Base larga na pirâmide = muitos jovens. Base estreita = poucos jovens. Topo largo = muitos idosos. O que acontece com a economia quando há menos jovens trabalhando e mais idosos aposentados?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o modelo de desenvolvimento do Leste Asiático e analisa a transição demográfica e o envelhecimento populacional como desafio do desenvolvimento.",
+    "observe": "Verifique se o aluno entende a relação entre desenvolvimento econômico e queda da natalidade — um padrão observado em todos os países industrializados, não apenas na Ásia.",
+    "answer": "A pirâmide invertida revela envelhecimento acelerado: queda da natalidade (taxa de fecundidade 0,72 na Coreia) com aumento da longevidade. Poucos trabalhadores sustentarão muitos aposentados — desafio fiscal e social de longo prazo.",
+    "mediation": "Proponha: 'O Brasil está começando a envelhecer também. O que o Japão e a Coreia já estão enfrentando pode ser uma prévia do futuro brasileiro? O que o Brasil pode aprender com isso?'",
+    "time": "50 minutos"
+  }
+}

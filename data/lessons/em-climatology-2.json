@@ -3,7 +3,7 @@
   "moduleId": "em-climatology",
   "title": "Climas do Brasil: diversidade e distribuição",
   "summary": "Classificação, distribuição e características dos tipos climáticos brasileiros.",
-  "activityType": "single-choice",
+  "activityType": "layer-toggle",
   "phenomenon": {
     "title": "Um país, muitos climas",
     "text": "O Brasil possui 12 milhões de km² e se estende do equador ao paralelo 34°S. Nesse território convivem o clima equatorial superúmido da Amazônia, o semiárido do polígono das secas, o tropical típico do Cerrado e os invernos com neve eventual em Santa Catarina. Essa diversidade não é acidente geográfico — é resultado de latitude, altitude, continentalidade, correntes oceânicas e circulação atmosférica agindo simultaneamente."
@@ -28,21 +28,52 @@
   },
   "application": "Pesquise o clima da cidade onde você vive: qual tipo climático é classificado? Qual é a precipitação média anual? Em que meses chove mais? Compare com uma cidade a 1.000 km de distância.",
   "activity": {
-    "question": "O clima subtropical, com chuvas bem distribuídas e invernos com risco de geada, ocorre principalmente em qual região do Brasil?",
-    "type": "single-choice",
-    "correct": "sul",
-    "options": [
-      { "value": "norte",    "label": "Região Norte" },
-      { "value": "nordeste", "label": "Região Nordeste" },
-      { "value": "co",       "label": "Região Centro-Oeste" },
-      { "value": "sul",      "label": "Região Sul" }
+    "type": "layer-toggle",
+    "mapId": "brazil-layers",
+    "instruction": "Ative as camadas e observe a relação entre biomas, rios e cidades no Brasil.",
+    "question": "Ative 'Biomas' e 'Desmatamento' juntos. Em qual bioma a área desmatada é maior?",
+    "hintAfter": 1,
+    "layers": [
+      {
+        "id": "biomas",
+        "label": "Biomas",
+        "color": "#4a8a4a",
+        "visible": true
+      },
+      {
+        "id": "cidades",
+        "label": "Cidades",
+        "color": "#e05a00",
+        "visible": false
+      },
+      {
+        "id": "rios",
+        "label": "Rios principais",
+        "color": "#3a80a0",
+        "visible": false
+      },
+      {
+        "id": "desmatamento",
+        "label": "Desmatamento",
+        "color": "#d40000",
+        "visible": false
+      }
     ],
     "feedback": {
-      "correct": "Correto. A Região Sul, por estar abaixo do Trópico de Capricórnio e sofrer regularmente a influência da massa Polar Atlântica, apresenta clima subtropical com chuvas bem distribuídas e geadas no inverno.",
-      "incorrect": "Pense na latitude: qual região do Brasil está mais próxima das latitudes temperadas, fora dos trópicos?"
+      "correct": "A sobreposição das camadas revela que o desmatamento concentra-se no bioma amazônico e na faixa de transição Amazônia-Cerrado — o arco do desmatamento. A distribuição dos biomas é também a distribuição dos riscos climáticos.",
+      "incorrect": "Ative as duas camadas juntas e observe onde o vermelho do desmatamento se sobrepõe aos polígonos dos biomas. Qual bioma fica no Norte e Centro-Oeste do mapa?"
     },
     "hints": [
-      { "type": "text", "content": "O Trópico de Capricórnio divide o Brasil subtropical do Brasil tropical. Qual região está completamente abaixo desse paralelo?" }
+      {
+        "type": "layer",
+        "layerId": "biomas",
+        "label": "Ative primeiro a camada de Biomas."
+      },
+      {
+        "type": "layer",
+        "layerId": "desmatamento",
+        "label": "Agora ative Desmatamento e compare a sobreposição."
+      }
     ]
   },
   "teacher": {
@@ -51,5 +82,31 @@
     "answer": "Região Sul. PR, SC e RS estão abaixo do Trópico de Capricórnio e recebem regularmente frentes frias polares, o que produz invernos rigorosos e distribuição anual de chuvas.",
     "mediation": "Proponha a comparação: 'Compare Manaus, Recife, Brasília e Porto Alegre. O que explica as diferenças climáticas entre elas?'",
     "time": "50 minutos"
-  }
+  },
+  "layers": [
+    {
+      "id": "biomas",
+      "label": "Biomas",
+      "color": "#4a8a4a",
+      "visible": true
+    },
+    {
+      "id": "cidades",
+      "label": "Cidades",
+      "color": "#e05a00",
+      "visible": false
+    },
+    {
+      "id": "rios",
+      "label": "Rios principais",
+      "color": "#3a80a0",
+      "visible": false
+    },
+    {
+      "id": "desmatamento",
+      "label": "Desmatamento",
+      "color": "#d40000",
+      "visible": false
+    }
+  ]
 }

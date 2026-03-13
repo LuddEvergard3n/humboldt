@@ -3,7 +3,7 @@
   "moduleId": "efi-society",
   "title": "Trabalho no campo e na cidade",
   "summary": "As atividades econômicas básicas e como elas organizam o espaço.",
-  "activityType": "single-choice",
+  "activityType": "flow-map",
   "phenomenon": {
     "title": "Quem fez o lápis que você usa?",
     "text": "Um lápis parece simples — mas envolve extração de madeira, mineração de grafite, fabricação, embalagem, transporte e venda. Pelo menos cinco países e dezenas de trabalhadores participaram antes de chegar na sua mão."
@@ -28,36 +28,36 @@
   },
   "application": "Pergunte para seus pais ou responsáveis: em que setor da economia eles trabalham? Primário, secundário ou terciário?",
   "activity": {
-    "question": "Um médico que atende pacientes num hospital pertence a qual setor da economia?",
-    "type": "single-choice",
-    "hintAfter": 1,
-    "correct": "terciario",
-    "options": [
+    "type": "flow-map",
+    "question": "Observe os fluxos de pessoas entre campo e cidade. Por que tantas famílias saem do campo para morar nas cidades?",
+    "flows": [
       {
-        "value": "terciario",
-        "label": "Terciário — presta serviço de saúde"
+        "from": "Campo (interior)",
+        "to": "Cidades grandes",
+        "value": 800,
+        "label": "Famílias buscam empregos e escola"
       },
       {
-        "value": "primario",
-        "label": "Primário — extrai recursos naturais"
+        "from": "Campo (interior)",
+        "to": "Cidades médias",
+        "value": 400,
+        "label": "Acesso a serviços de saúde"
       },
       {
-        "value": "secundario",
-        "label": "Secundário — transforma matéria-prima em produto"
-      },
-      {
-        "value": "nenhum",
-        "label": "Nenhum dos setores"
+        "from": "Cidades médias",
+        "to": "Metrópoles",
+        "value": 300,
+        "label": "Universidade e mercado de trabalho"
       }
     ],
     "feedback": {
-      "correct": "Correto! Médico presta serviço — pertence ao setor terciário.",
-      "incorrect": "Setor primário extrai da natureza. Secundário fabrica. Terciário presta serviços. Médico é qual?"
+      "correct": "As pessoas se deslocam do campo para a cidade principalmente em busca de empregos, escolas e serviços de saúde — coisas que ainda são mais fáceis de encontrar nas cidades.",
+      "incorrect": "Observe para onde vão os fluxos maiores. O que as cidades oferecem que muitas áreas rurais ainda não têm?"
     },
     "hints": [
       {
         "type": "text",
-        "content": "Saúde, educação, comércio — todos são setor terciário."
+        "content": "Pense na sua própria cidade: onde fica o hospital mais próximo? E a universidade? Essa distância explica muito do fluxo."
       }
     ]
   },

@@ -1,0 +1,55 @@
+{
+  "id": "em-asia-pacific-3",
+  "moduleId": "em-asia-pacific",
+  "title": "Disputas marítimas: soberania sobre o oceano",
+  "summary": "Mar do Sul da China, UNCLOS e a militarização dos recifes.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Ilhas artificiais como estratégia geopolítica",
+    "text": "Entre 2014 e 2016, a China construiu sete ilhas artificiais sobre recifes e atóis no Mar do Sul da China — dragando areia do fundo do oceano para criar terra onde não havia. Depois instalou pistas de pouso, hangares, radares e mísseis. Em 2016, o Tribunal Permanente de Arbitragem em Haia declarou a reivindicação territorial chinesa incompatível com o direito internacional. A China ignorou a decisão. As ilhas artificiais permaneceram — transformando a geopolítica marítima do Pacífico."
+  },
+  "guided": {
+    "title": "Direito do mar e zonas econômicas",
+    "text": "A Convenção das Nações Unidas sobre o Direito do Mar (UNCLOS, 1982) estabelece a estrutura legal para o uso dos oceanos. Define: mar territorial (12 milhas náuticas — soberania plena), zona contígua (24 mn — controle alfandegário), Zona Econômica Exclusiva — ZEE (200 mn — direitos exclusivos sobre recursos), plataforma continental estendida (350 mn — recursos do fundo). A China reivindica soberania sobre quase todo o Mar do Sul da China com a 'linha das nove pontas' — que corta as ZEEs do Vietnam, Filipinas, Malásia e Brunei.",
+    "points": [
+      "Mar do Sul da China: rota de US$ 3,4 trilhões em comércio/ano; reservas estimadas de 11 bilhões de barris de petróleo.",
+      "Reivindicantes: China, Vietnam, Filipinas, Malásia, Brunei e Taiwan — todos com reivindicações sobrepostas.",
+      "Ilhas Spratly e Paracel: arquipélagos disputados onde a China construiu instalações militares.",
+      "Liberdade de navegação: EUA enviam navios e aviões regularmente pela região para contestar as reivindicações chinesas — operações FONOP."
+    ]
+  },
+  "relations": {
+    "title": "Estreito de Malaca: o gargalo do mundo",
+    "text": "O Estreito de Malaca, entre a Península Malaia e a ilha de Sumatra, tem 800 km de comprimento e apenas 2,7 km de largura em seu ponto mais estreito. Por ele passam 40% do comércio mundial e 80% do petróleo importado pela China, Japão e Coreia do Sul. É o mais importante chokepoint marítimo do mundo — mais estratégico que o Canal de Suez ou o Estreito de Ormuz para a economia asiática. O controle ou bloqueio do Estreito de Malaca é o pesadelo estratégico dos planejadores militares de Pequim, Tóquio e Washington."
+  },
+  "caseStudy": {
+    "title": "As Filipinas contra a China: o caso do Tribunal de Haia",
+    "text": "Em 2013, as Filipinas iniciaram um processo arbitral contra a China no Tribunal Permanente de Arbitragem, contestando as reivindicações da linha das nove pontas. Em julho de 2016, o tribunal emitiu sua decisão: a linha das nove pontas não tem base legal no direito internacional; as ilhas artificiais construídas pela China não geram ZEE; as Filipinas têm direito exclusivo sobre os recursos pesqueiros em sua ZEE. A China declarou a decisão 'nula e sem efeito' e recusou-se a cumpri-la. O episódio expôs o limite do direito internacional: sem mecanismo de execução coercitiva, uma grande potência pode simplesmente ignorar uma corte internacional. As tensões continuam: em 2023 e 2024, navios chineses usaram canhões d'água contra embarcações filipinas."
+  },
+  "application": "No mapa, identifique o Estreito de Malaca. Calcule: se o estreito fosse bloqueado por uma semana, estimando que 40% do comércio mundial passam por ele, qual seria o impacto aproximado em dólares? (use o comércio marítimo global de ~US$ 14 trilhões/ano como base).",
+  "activity": {
+    "question": "A 'linha das nove pontas' reivindicada pela China no Mar do Sul da China é problemática para o direito internacional porque:",
+    "type": "single-choice",
+    "correct": "viola-zee",
+    "options": [
+      { "value": "viola-zee",   "label": "Sobrepõe-se às Zonas Econômicas Exclusivas de cinco países vizinhos, violando a UNCLOS" },
+      { "value": "historica",   "label": "A China não tem base histórica na região — os outros países chegaram antes" },
+      { "value": "ilhas-nao",   "label": "Ilhas artificiais não existem no direito internacional e não podem ser reivindicadas" },
+      { "value": "onu",         "label": "A ONU não reconhece reivindicações marítimas baseadas em histórico de navegação" }
+    ],
+    "feedback": {
+      "correct": "Correto. A UNCLOS define ZEEs de 200 milhas náuticas a partir da costa de cada país — direito exclusivo sobre recursos marinhos nessa faixa. A linha das nove pontas avança profundamente sobre as ZEEs do Vietnam, Filipinas, Malásia e Brunei, ignorando esses direitos. É por isso que o Tribunal de Haia a declarou incompatível com o direito internacional em 2016.",
+      "incorrect": "A questão central não é histórica nem sobre ilhas artificiais em si — é sobre as ZEEs. A UNCLOS garante a cada Estado costeiro 200 milhas de direitos exclusivos sobre recursos. A linha das nove pontas cancela esses direitos para cinco países."
+    },
+    "hints": [
+      { "type": "text", "content": "UNCLOS dá a cada país 200 milhas náuticas de Zona Econômica Exclusiva a partir de sua costa. A linha das nove pontas da China entra nessas zonas de países vizinhos. O que significa violar a ZEE de outro país?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o regime jurídico dos oceanos (UNCLOS), analisa as disputas no Mar do Sul da China e avalia os limites do direito internacional diante do poder das grandes potências.",
+    "observe": "Verifique se o aluno entende que direito internacional não tem execução automática — sua eficácia depende de coerção política e econômica, não apenas de decisões judiciais.",
+    "answer": "A linha das nove pontas viola as ZEEs de cinco países signatários da UNCLOS — Vietnam, Filipinas, Malásia, Brunei e Indonesia. O Tribunal de Haia confirmou isso em 2016. A China recusou-se a reconhecer a decisão.",
+    "mediation": "Proponha: 'Se um país mais fraco pode ter sua ZEE ignorada por uma potência maior, o que isso significa para o conceito de soberania no direito internacional? A soberania é igual para todos os países?'",
+    "time": "50 minutos"
+  }
+}
