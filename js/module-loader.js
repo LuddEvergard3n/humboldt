@@ -36,6 +36,11 @@ const MODULE_MAP = {
   'em-health-geo':          () => import('../modules/em-health-geo/index.js'),
   'em-natural-resources':   () => import('../modules/em-natural-resources/index.js'),
   'em-asia-pacific':        () => import('../modules/em-asia-pacific/index.js'),
+  'em-africa':              () => import('../modules/em-africa/index.js'),
+  'em-latin-america':       () => import('../modules/em-latin-america/index.js'),
+  'em-migration':           () => import('../modules/em-migration/index.js'),
+  'em-energy':              () => import('../modules/em-energy/index.js'),
+  'em-transport':           () => import('../modules/em-transport/index.js'),
 
   // Ensino Superior — formato article (sem lições)
   'es-epistemology':        () => import('../modules/es-epistemology/index.js'),
@@ -45,6 +50,8 @@ const MODULE_MAP = {
   'es-economic-geography':  () => import('../modules/es-economic-geography/index.js'),
   'es-methodology':         () => import('../modules/es-methodology/index.js'),
   'es-urban-geography':     () => import('../modules/es-urban-geography/index.js'),
+  'es-physical-geography':  () => import('../modules/es-physical-geography/index.js'),
+  'es-postcolonial-feminist': () => import('../modules/es-postcolonial-feminist/index.js'),
 };
 
 export async function loadModule(id) {
@@ -56,4 +63,3 @@ export async function loadModule(id) {
 export function listModuleIds() {
   return Object.keys(MODULE_MAP);
 }
-  // EFII — adicionado em v0.9

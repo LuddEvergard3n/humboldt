@@ -1,0 +1,155 @@
+{
+  "id": "es-physical-geography",
+  "title": "Sistemas Físicos da Terra",
+  "subtitle": "Tectônica, ciclos biogeoquímicos, biogeografia e modelagem do clima: a Terra como sistema integrado",
+  "intro": "A geografia física não é um catálogo de curiosidades naturais — é a compreensão de como a Terra funciona como sistema integrado. A litosfera, a atmosfera, a hidrosfera e a biosfera não são compartimentos separados: são subsistemas em interação constante, trocando energia e matéria em ciclos que operam em escalas de tempo que vão do segundo (uma trovoada) ao bilhão de anos (a formação de uma cadeia montanhosa). Compreender esses sistemas é pré-requisito para qualquer análise geográfica séria — humana ou física. A crise climática, a perda de biodiversidade, a escassez hídrica e os riscos geológicos só fazem sentido à luz dos processos físicos que esta seção explora.",
+  "readingTime": "40 min",
+  "sections": [
+    {
+      "id": "sec-tectonica-quote",
+      "title": "A Terra que se move",
+      "type": "quote",
+      "text": "A semelhança entre os contornos do Atlântico Sul nos dois lados não pode ser acidental. Os continentes devem ter estado unidos e derivado até suas posições atuais.",
+      "author": "Alfred Wegener",
+      "work": "A Origem dos Continentes e Oceanos",
+      "year": "1912"
+    },
+    {
+      "id": "sec-tectonica",
+      "title": "Tectônica de placas: a teoria unificadora",
+      "type": "text",
+      "body": "A teoria da tectônica de placas é para a geologia o que a evolução é para a biologia: a teoria unificadora que explica uma enorme variedade de fenômenos antes desconexos. Proposta por Alfred Wegener em 1912 como deriva continental — e rejeitada por décadas — foi confirmada na década de 1960 com a descoberta da expansão do fundo oceânico e aceita definitivamente quando satélites mediram o movimento das placas em tempo real.\n\nA litosfera — a camada sólida externa da Terra — está fragmentada em cerca de 15 placas tectônicas principais que flutuam sobre a astenosfera, camada viscosa do manto superior. As placas se movem entre 1 e 15 cm por ano — a velocidade de crescimento das unhas humanas. Em 200 milhões de anos, a Pangeia fragmentou-se nos continentes atuais; em outros 250 milhões, formará um novo supercontinente (Amásia ou Pangeia Proxima, dependendo do modelo).\n\nOs três tipos de margem de placa geram fenômenos distintos. Nas margens divergentes — onde placas se afastam — o magma sobe, solidifica e forma nova crosta oceânica: é o processo que abriu o Oceano Atlântico e que continua no rift do Leste Africano (que eventualmente separará o Chifre da África do restante do continente). Nas margens convergentes — onde placas colidem — placa oceânica mais densa subduz sob a continental, gerando vulcões e terremotos (Anel de Fogo do Pacífico); ou duas placas continentais colidem e formam cadeias de montanhas por dobramento (Himalaias: colisão Índia-Eurásia, ainda ativa). Nas margens transformantes — onde placas deslizam lateralmente — a fricção acumula tensão e libera terremotos (Falha de San Andreas na Califórnia, Falha do Norte da Anatólia na Turquia).\n\nAs implicações para a distribuição de recursos são diretas: os maiores depósitos de metais (cobre, ouro, molibdênio) concentram-se em arcos vulcânicos de subducção; o petróleo se forma em bacias sedimentares de margens passivas; os solos mais férteis derivam frequentemente de material vulcânico recente. A tectônica de placas não é apenas ciência pura — é a explicação para onde os recursos estão."
+    },
+    {
+      "id": "sec-ciclos-biogeoquimicos",
+      "title": "Ciclos biogeoquímicos: a matéria que circula",
+      "type": "text",
+      "body": "A matéria na Terra não se cria nem se destrói — circula. Os elementos essenciais à vida (carbono, nitrogênio, fósforo, água) percorrem ciclos biogeoquímicos: sequências de transformações entre compartimentos abióticos (atmosfera, litosfera, hidrosfera) e bióticos (organismos vivos). Entender esses ciclos é entender como a perturbação humana em um ponto do ciclo se propaga pelo sistema.\n\nO ciclo do carbono é o mais relevante para a crise climática. O carbono existe em quatro grandes reservatórios: a atmosfera (CO₂, CH₄), os oceanos (bicarbonato dissolvido — o maior reservatório de carbono acessível), a biosfera (biomassa vegetal e animal) e a litosfera (combustíveis fósseis, rochas carbonáticas). O ciclo curto opera em escala de décadas: fotossíntese extrai CO₂ da atmosfera; respiração, decomposição e queima o devolvem. O ciclo longo opera em escala de milhões de anos: vulcões emitem CO₂; intemperismo de rochas silicáticas o captura. A queima de combustíveis fósseis injeta na atmosfera carbono do ciclo longo em escala de décadas — perturbação sem precedente geológico nos últimos 66 milhões de anos.\n\nO ciclo do nitrogênio é igualmente crítico para a agricultura. O N₂ — 78% da atmosfera — é inerte para a maioria dos organismos. Apenas bactérias fixadoras (Rhizobium nas raízes de leguminosas, cianobactérias) e raios convertem N₂ em formas assimiláveis (NH₃, NO₃⁻). A síntese industrial de amônia pelo processo Haber-Bosch (desenvolvido em 1909) dobrou a produção global de alimentos — e perturbou profundamente o ciclo: o nitrogênio excedente dos fertilizantes escoa para rios e oceanos, criando zonas hipóxicas (\"zonas mortas\") onde a decomposição consome todo o oxigênio. O Golfo do México tem uma zona morta do tamanho de Massachusetts — resultado direto da agricultura do Meio-Oeste americano."
+    },
+    {
+      "id": "sec-teoricos-fisicos",
+      "title": "Pensadores da geografia física",
+      "type": "thinkers",
+      "items": [
+        {
+          "name": "Alfred Wegener",
+          "dates": "1880–1930",
+          "tradition": "Geofísica / Meteorologia",
+          "contribution": "Propôs a teoria da deriva continental em 1912, baseada na semelhança dos contornos continentais, de fósseis e de formações rochosas em continentes separados. Rejeitado pela comunidade científica por décadas, foi reivindicado postumamente quando a expansão do fundo oceânico confirmou seu modelo.",
+          "quote": "Não é suficiente que uma hipótese explique fatos: ela deve prever fatos que ainda não foram descobertos.",
+          "quoteWork": "A Origem dos Continentes e Oceanos (1912)"
+        },
+        {
+          "name": "Vladimir Köppen",
+          "dates": "1846–1940",
+          "tradition": "Climatologia / Biogeografia",
+          "contribution": "Desenvolveu o sistema de classificação climática Köppen (1884, revisado até 1936) — ainda hoje o mais usado no mundo. Classificou os climas do planeta em cinco grupos baseados em temperatura e precipitação, correlacionados com formações vegetais. A sigla de cada clima (Af, BSh, Cfa, Dfc, ET) sintetiza décadas de observação global.",
+          "quote": "O clima de um lugar é revelado pela vegetação que cresce nele — as plantas são os verdadeiros instrumentos climáticos.",
+          "quoteWork": "Climatologia (1923)"
+        },
+        {
+          "name": "James Lovelock",
+          "dates": "1919–2022",
+          "tradition": "Química atmosférica / Hipótese Gaia",
+          "contribution": "Propôs a Hipótese Gaia (1972, com Lynn Margulis): a Terra se comporta como um sistema autorregulado em que vida e ambiente co-evoluem para manter condições habitáveis. Controversa como teoria científica estrita, influenciou profundamente a visão sistêmica da Terra e as ciências do sistema terrestre.",
+          "quote": "A Terra não é apenas o palco em que a vida se desenrola — a vida é um componente ativo que co-produz as condições de sua própria existência.",
+          "quoteWork": "Gaia: A New Look at Life on Earth (1979)"
+        },
+        {
+          "name": "William Morris Davis",
+          "dates": "1850–1934",
+          "tradition": "Geomorfologia / Geografia física americana",
+          "contribution": "Fundador da geomorfologia moderna. Desenvolveu o modelo do 'ciclo geográfico' (ciclo de erosão de Davis): paisagens passam por juventude, maturidade e senilidade — com formas características em cada estágio. Embora superado em nuances, o modelo estabeleceu a geomorfologia como disciplina sistemática.",
+          "quote": "As formas da terra são o resultado de estrutura, processo e estágio — esses três fatores explicam toda a paisagem.",
+          "quoteWork": "Physical Geography (1899)"
+        },
+        {
+          "name": "Carl Troll",
+          "dates": "1899–1975",
+          "tradition": "Geoecologia / Geografia física alemã",
+          "contribution": "Cunhou o termo 'geoecologia' e desenvolveu a análise da paisagem como sistema integrado de componentes físicos e bióticos. Pioneiro no uso de fotografia aérea para análise geográfica. Seu conceito de 'ecótono' — zona de transição entre ecossistemas — tornou-se fundamental na biogeografia.",
+          "quote": "A paisagem é a expressão visível dos processos invisíveis que interagem abaixo da superfície.",
+          "quoteWork": "Die tropischen Gebirge (1959)"
+        }
+      ]
+    },
+    {
+      "id": "sec-biogeografia",
+      "title": "Biogeografia: por que os seres vivos estão onde estão",
+      "type": "text",
+      "body": "A biogeografia estuda a distribuição dos seres vivos no espaço e no tempo — e a explicação para padrões biogeográficos integra tectônica, clima, evolução e ecologia. Por que há marsupiais na Austrália e na América do Sul, mas não no resto do mundo? Porque quando a Gonduana fragmentou-se, os marsupiais estavam distribuídos nesses fragmentos, que derivaram separados antes que os placentários pudessem alcançá-los.\n\nO modelo da biogeografia de ilhas (MacArthur e Wilson, 1967) formulou matematicamente a relação entre área, isolamento e diversidade de espécies. Uma ilha maior tem mais espécies porque oferece mais habitats e sustenta populações maiores (menos extinção local). Uma ilha mais próxima do continente tem mais espécies porque recebe mais colonizadores. O número de espécies em equilíbrio resulta do balanço entre taxa de colonização e taxa de extinção.\n\nO modelo tem implicações diretas para a conservação: fragmentos de floresta em matriz urbana ou agrícola funcionam como 'ilhas' — quanto menor e mais isolado, menos espécies sustenta. A perda de biodiversidade em florestas fragmentadas não é proporcional à área perdida: quando o fragmento cai abaixo de um limiar crítico, a taxa de extinção acelera não-linearmente. O conceito de área mínima viável é central para o design de reservas ecológicas.\n\nOs biomas — grandes unidades de vegetação definidas pelo clima — estruturam a distribuição global da biodiversidade. Florestas tropicais (Amazônia, Bacia do Congo, Sudeste Asiático) concentram 50% das espécies em 6% da superfície terrestre — resultado de alta energia solar, precipitação abundante e estabilidade climática de longo prazo. Tundras e desertos quentes têm biodiversidade baixa por razões opostas: stress hídrico ou térmico que permite apenas espécies altamente especializadas. O gradiente latitudinal de diversidade — mais espécies nos trópicos, menos nos pólos — é um dos padrões mais robustos da biologia, com múltiplas hipóteses explicativas (energia, área, estabilidade histórica) ainda em debate."
+    },
+    {
+      "id": "sec-clima-modelagem",
+      "title": "Modelagem climática e o Antropoceno",
+      "type": "text",
+      "body": "Modelos climáticos são representações matemáticas do sistema climático que simulam interações entre atmosfera, oceano, criosfera, superfície terrestre e biosfera. Os modelos atuais — GCMs (General Circulation Models) — dividem a atmosfera e os oceanos em grades tridimensionais com células de 10 a 100 km, resolvendo equações de movimento, termodinâmica e transferência radiativa em cada célula a cada passo de tempo. Os maiores modelos rodam em supercomputadores com dezenas de milhares de processadores.\n\nOs relatórios do IPCC (Painel Intergovernamental sobre Mudanças Climáticas) sintetizam as projeções de dezenas de modelos em cenários (RCPs — Representative Concentration Pathways; SSPs — Shared Socioeconomic Pathways). A incerteza nas projeções tem três fontes: incerteza de cenário (quanto CO₂ emitiremos — depende de política humana); incerteza de modelo (como os processos físicos respondem — especialmente nuvens e gelo); e variabilidade natural interna (caos determinístico — o clima é um sistema caótico e pequenas perturbações se amplificam).\n\nO conceito de Antropoceno — proposto pelo químico Paul Crutzen em 2000 — designa uma nova época geológica em que os humanos tornaram-se a força geológica dominante: alterando a composição da atmosfera (CO₂, metano, óxido nitroso), o ciclo global da água, a biodiversidade (6ª extinção em massa em andamento), os ciclos do nitrogênio e fósforo e a geomorfologia (mais terra movida por humanos por ano do que por todos os processos geológicos naturais combinados). O Antropoceno ainda não foi formalmente adotado pela Comissão Internacional de Estratigrafia — debate técnico com implicações políticas enormes sobre quando começa e o que significa reconhecer que a humanidade alterou a geologia do planeta."
+    },
+    {
+      "id": "sec-timeline-terra",
+      "title": "Linha do tempo da Terra",
+      "type": "timeline",
+      "events": [
+        {
+          "period": "4,6 Ga (bilhões de anos atrás)",
+          "label": "Formação da Terra",
+          "description": "Acreção de poeira e gás na nebulosa solar. Diferenciação: núcleo metálico, manto, crosta primitiva. Bombardeamento intenso tardio. Formação da Lua pela colisão de Theia. Atmosfera primitiva: CO₂, N₂, H₂O, sem O₂."
+        },
+        {
+          "period": "3,8 Ga",
+          "label": "Primeiro registro de vida",
+          "description": "Estromatolitos — comunidades de cianobactérias — em rochas de Pilbara (Austrália) e Groenlândia. A vida surge em ambiente de alta temperatura, pH ácido e ausência de oxigênio. Debate sobre origem: fontes hidrotermais oceânicas vs. poças superficiais."
+        },
+        {
+          "period": "2,4 Ga",
+          "label": "Grande Oxidação",
+          "description": "Cianobactérias acumulam O₂ na atmosfera pelo primeiro vez — 'Grande Evento de Oxidação'. O oxigênio livre é tóxico para os organismos anaeróbios dominantes (primeira extinção em massa). Formação de ozônio estratosférico — proteção contra UV que permitirá vida terrestre futura."
+        },
+        {
+          "period": "540 Ma (milhões de anos atrás)",
+          "label": "Explosão Cambriana",
+          "description": "Surgimento súbito (em termos geológicos — ~20 milhões de anos) de quase todos os filos animais modernos. Esqueletos mineralizados permitem preservação em fósseis. Pradaria oceânica diversifica-se radicalmente. Causas ainda debatidas: aumento de O₂, mudanças tectônicas, feedback evolutivo."
+        },
+        {
+          "period": "250 Ma",
+          "label": "Extinção do Permiano",
+          "description": "A maior extinção em massa da história — 96% das espécies marinhas e 70% das terrestres desaparecem. Causa: erupção das Armadilhas Siberianas (vulcanismo em larga escala) durante ~1 milhão de anos, liberando CO₂ e aquecendo o planeta 10°C. Análogo geológico mais próximo ao aquecimento atual."
+        },
+        {
+          "period": "66 Ma",
+          "label": "Extinção do Cretáceo (K-Pg)",
+          "description": "Impacto do asteroide Chicxulub (Yucatán) combinado com vulcanismo do Deccan extinguiu os dinossauros não-avianos e 75% das espécies. Abriu nicho ecológico que os mamíferos placentários ocuparam. Sem esse evento, os mamíferos provavelmente permaneceriam pequenos e noturnos — e os humanos não existiriam."
+        },
+        {
+          "period": "2,6 Ma",
+          "label": "Pleistoceno e glaciações",
+          "description": "Ciclos de glaciações (períodos glaciais e interglaciais) controlados pelos ciclos de Milankovitch (variações na órbita e inclinação da Terra). Calota de gelo cobre Escandinávia, Canadá e parte da Rússia. Nível do mar cai 120 m nos máximos glaciais — expondo pontes de terra (Bering, Sundaland)."
+        },
+        {
+          "period": "11.700 a. (anos atrás)",
+          "label": "Holoceno e agricultura",
+          "description": "Início do interglacial atual. Clima estável e mais quente permite desenvolvimento da agricultura independentemente em múltiplos centros (Crescente Fértil, China, América Central, Andes). Urbanização, civilizações, escrita. O Holoceno é o único período geológico em que a civilização humana complexa existiu."
+        },
+        {
+          "period": "1850–presente",
+          "label": "Antropoceno",
+          "description": "Queima de combustíveis fósseis eleva CO₂ de 280 ppm (pré-industrial) para 421 ppm (2023). Temperatura média global sobe 1,2°C. 6ª extinção em massa em andamento — taxa de extinção 100 a 1.000 vezes maior que a de fundo. Humanos movem mais sedimento por ano que todos os rios combinados."
+        }
+      ]
+    },
+    {
+      "id": "sec-compare-sistemas",
+      "title": "Sistemas físicos e impactos humanos",
+      "type": "compare-table",
+      "columns": ["Sistema", "Processos naturais dominantes", "Perturbação humana principal", "Consequências"],
+      "rows": [
+        ["Ciclo do carbono", "Fotossíntese, respiração, intemperismo, vulcanismo", "Queima de combustíveis fósseis, desmatamento", "Aquecimento global, acidificação dos oceanos, eventos extremos"],
+        ["Ciclo hidrológico", "Evaporação, precipitação, escoamento, percolação", "Captação de rios, irrigação, impermeabilização urbana, perfuração de aquíferos", "Escassez hídrica, seca, enchentes urbanas, subsidência de cidades"],
+        ["Ciclo do nitrogênio", "Fixação biológica, nitrificação, denitrificação", "Fertilizantes sintéticos (Haber-Bosch), queima de combustíveis fósseis", "Eutrofização de rios e oceanos, zonas hipóxicas, chuva ácida"],
+        ["Tectônica de placas", "Subducção, rifteamento, orogenia, vulcanismo", "Extração de petróleo e gás (colapso de cavidades), mineração, barragens (redistribuição de peso)", "Subsidência induzida, sismicidade induzida — impactos locais, não globais"],
+        ["Biodiversidade / biosfera", "Evolução, especiação, extinção natural, sucessão ecológica", "Destruição de habitat, caça, espécies invasoras, poluição, mudança climática", "6ª extinção em massa, perda de serviços ecossistêmicos, desequilíbrios tróficos"],
+        ["Clima atmosférico", "Circulação de Hadley, correntes oceânicas, ciclos de Milankovitch", "Emissão de GEE, aerossóis, mudança de uso do solo (albedo)", "Aquecimento diferencial, acidificação, desorganização da circulação oceânica"]
+      ]
+    }
+  ]
+}

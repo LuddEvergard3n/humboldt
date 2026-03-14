@@ -1,0 +1,55 @@
+{
+  "id": "em-africa-3",
+  "moduleId": "em-africa",
+  "title": "A China em África: parceria ou neocolonialismo?",
+  "summary": "Investimentos, infraestrutura e dívida: a presença chinesa no continente africano.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Quem construiu a ferrovia de Nairóbi a Mombaça?",
+    "text": "Em 2017, o Quênia inaugurou uma ferrovia de 480 km ligando Nairóbi ao porto de Mombaça — a maior infraestrutura do país desde a independência. Foi financiada 90% pela China (US$ 3,8 bilhões), construída por trabalhadores e empresas chinesas, usando material chinês. O Quênia pagará a dívida por 20 anos. Esse padrão se repete em dezenas de países africanos: estradas, portos, barragens, ferrovias, estádios — financiados, construídos e às vezes operados pela China. Isso é desenvolvimento ou é uma nova dependência?"
+  },
+  "guided": {
+    "title": "Como funciona a presença chinesa em África",
+    "text": "A China chegou à África com um argumento diferente das potências ocidentais: sem condicionalidades de governança (direitos humanos, democracia, transparência), empréstimos garantidos por recursos naturais, e projetos visíveis e rápidos que governantes africanos podem mostrar às populações. Esse modelo atraiu governos que se cansaram das exigências do FMI e do Banco Mundial.",
+    "points": [
+      "Iniciativa do Cinto e Rota (BRI): infraestrutura em 50+ países africanos — portos (Mombasa, Djibouti, Luanda), ferrovias (Etiópia-Djibouti, Nairóbi-Mombaça), barragens (Merowe no Sudão).",
+      "Comércio: China é o maior parceiro comercial da África desde 2009 — US$ 254 bilhões em 2022. Importa petróleo (Angola, Nigéria), minerais (Congo, Zâmbia, Sudão do Sul), madeira.",
+      "Dívida: 20% da dívida externa africana é com credores chineses. Zambia, Etiópia, Angola e Gana estão em renegociação de dívidas.",
+      "Mão de obra: estimativa de 1 a 2 milhões de trabalhadores chineses no continente — gerando crítica de que a China traz seus próprios trabalhadores em vez de empregar locais."
+    ]
+  },
+  "relations": {
+    "title": "Divergências sobre o modelo chinês",
+    "text": "A avaliação da presença chinesa divide analistas. Críticos apontam: dívidas impagáveis que resultam na entrega de ativos estratégicos (porto de Hambantota no Sri Lanka, cedido à China por 99 anos quando o país não conseguiu pagar); importação de mão de obra que impede transferência de tecnologia; apoio a governos autoritários que mantêm contratos vantajosos. Defensores argumentam: a China faz o que o Ocidente nunca fez — investe em infraestrutura real, sem imposições políticas; os projetos existem, independentemente de quem lucra; governos africanos têm agência para negociar. A realidade é que a China age por interesse próprio — como todas as potências — e os africanos tentam extrair benefícios sem perder soberania."
+  },
+  "caseStudy": {
+    "title": "Djibouti: o porto que todo mundo quer",
+    "text": "Djibouti é um país de 980.000 habitantes no Chifre da África, na entrada do Mar Vermelho — rota de 12% do comércio mundial. Tem bases militares de EUA, França, Japão, Itália e China (a única base militar chinesa fora da China). O porto de Djibouti é operado pela Dubai Ports World (Emirados) e tem terminais chineses. A dívida de Djibouti com a China supera 70% do PIB — gerando temor de que o porto passe ao controle chinês. Ao mesmo tempo, Djibouti usa a competição entre potências para garantir investimentos em infraestrutura, emprego e renda. É o caso mais explícito de um Estado pequeno gerenciando grandes potências rivais — e a fronteira entre habilidade diplomática e vulnerabilidade é tênue."
+  },
+  "application": "Pesquise um projeto de infraestrutura financiado pela China em um país africano. Identifique: qual é o valor do empréstimo? Qual é a taxa de juros? Quem construiu? Quem opera? O país pode pagar a dívida? Use o AidData ou o relatório SAIS-CARI como fontes.",
+  "activity": {
+    "type": "flow-map",
+    "question": "Observe os fluxos comerciais entre a China e a África. O que esse padrão revela sobre a natureza da relação econômica entre os dois?",
+    "flows": [
+      { "from": "Angola",   "to": "China", "value": 28, "label": "US$ 28bi/ano em petróleo" },
+      { "from": "Congo RD", "to": "China", "value": 15, "label": "Cobre, cobalto — 70% do cobalto mundial" },
+      { "from": "África do Sul", "to": "China", "value": 20, "label": "Minério de ferro, ouro, platina" },
+      { "from": "China",    "to": "África", "value": 150, "label": "Manufaturados, máquinas, eletroeletrônicos" },
+      { "from": "China",    "to": "África", "value": 60,  "label": "Empréstimos e financiamento de infraestrutura" }
+    ],
+    "feedback": {
+      "correct": "O padrão é familiar: a África exporta matérias-primas (petróleo, minerais) e importa manufaturados. A China substituiu a Europa como principal parceiro — mas o padrão de dependência estrutural permanece. O que muda é a identidade do parceiro, não a lógica da troca desigual. A questão é se a infraestrutura financiada pela China pode quebrar esse ciclo a longo prazo.",
+      "incorrect": "Observe o que a África envia para a China (petróleo, minerais brutos) e o que recebe (manufaturados). Essa é a mesma lógica da divisão colonial: matéria-prima sai, produto industrializado entra. Quem agrega mais valor?"
+    },
+    "hints": [
+      { "type": "text", "content": "Petróleo, cobre, cobalto saem da África para a China. Máquinas e eletrônicos entram. Quem transforma a matéria-prima em produto? Quem fica com o maior valor agregado?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa criticamente a presença chinesa na África, identificando padrões de dependência econômica e avaliando se o modelo representa desenvolvimento ou nova dependência.",
+    "observe": "Evite a dicotomia simples 'China boa vs. Ocidente mau' ou vice-versa. Todos os atores externos agem por interesse próprio. O critério de avaliação é: os africanos se beneficiam de forma sustentável?",
+    "answer": "Os fluxos reproduzem o padrão colonial: matérias-primas saem, manufaturados entram. A China substituiu as antigas metrópoles como parceiro dominante. A novidade são os investimentos em infraestrutura — mas financiados por dívida, com risco de transferência de ativos estratégicos.",
+    "mediation": "Proponha: 'Se o Brasil exporta soja e minério para a China e importa manufaturados chineses, a relação Brasil-China tem o mesmo padrão que a China-África? O Brasil está em situação similar?'",
+    "time": "50 minutos"
+  }
+}

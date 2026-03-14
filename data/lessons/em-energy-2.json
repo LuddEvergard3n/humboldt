@@ -1,0 +1,55 @@
+{
+  "id": "em-energy-2",
+  "moduleId": "em-energy",
+  "title": "Petróleo e geopolítica: a maldição dos recursos",
+  "summary": "Como a riqueza em petróleo pode gerar instabilidade, autoritarismo e subdesenvolvimento — a paradoxal 'maldição dos recursos'.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que países ricos em petróleo são frequentemente pobres?",
+    "text": "A Nigéria tem as maiores reservas de petróleo da África. Desde 1960 exportou mais de 1 trilhão de dólares em petróleo. Em 2023, 63% da população vivia com menos de 2 dólares por dia. O rio Niger, que dá nome ao país, está entre os ecossistemas mais contaminados do planeta por décadas de vazamentos da Shell. Na região produtora do Delta do Níger, a expectativa de vida é de 40 anos — enquanto executivos de petroquímicas em Lagos vivem décadas a mais. A riqueza está embaixo da terra. Mas não chega às pessoas que vivem em cima dela."
+  },
+  "guided": {
+    "title": "A maldição dos recursos naturais",
+    "text": "O economista Richard Auty cunhou o termo 'maldição dos recursos' (resource curse) em 1993 para descrever um paradoxo: países com grandes reservas de recursos naturais tendem a ter crescimento econômico mais lento, mais desigualdade e mais instabilidade política do que países sem esses recursos. O petróleo é o caso mais estudado.",
+    "points": [
+      "Doença holandesa: quando um país descobre petróleo, o afluxo de divisas valoriza a moeda — tornando as exportações de outros setores (agricultura, manufatura) não competitivas. A economia se desindustrializa e se especializa em apenas um produto volátil.",
+      "Captura do Estado: governos ricos em petróleo não precisam cobrar impostos da população — e por isso têm menos incentivo para ser responsivos às demandas democráticas. Esse fenômeno é chamado de 'não há tributação sem representação' ao contrário.",
+      "Conflito: reservas de petróleo aumentam a probabilidade de guerra civil. Grupos armados têm incentivo para capturar as instalações. A correlação entre petróleo e conflito é estatisticamente robusta: Sudão do Sul, Líbia, Iraque, Angola — todos tiveram conflitos diretamente ligados às reservas.",
+      "OPEP: criada em 1960, a Organização dos Países Exportadores de Petróleo coordena a produção para manter preços altos. Em 1973, o embargo árabe fez o preço do petróleo quadruplicar — causando recessão global. A OPEP demonstrou que países em desenvolvimento podiam usar recursos naturais como arma geopolítica."
+    ]
+  },
+  "relations": {
+    "title": "Pré-sal brasileiro: exceção ou próxima vítima da maldição?",
+    "text": "A descoberta do pré-sal em 2006-2007 gerou euforia no Brasil. O país se tornaria um grande exportador de petróleo. A criação do Fundo Social do Pré-sal prometia usar as receitas para educação e saúde. Mas os ciclos do petróleo são implacáveis: quando o preço cai (como em 2014), as receitas somem — e os estados que dependeram do petróleo (Rio de Janeiro, em especial) entram em colapso fiscal. O Rio de Janeiro não conseguiu pagar salários de servidores em 2016, ano dos Jogos Olímpicos. Isso não é inevitável — Noruega e Botswana escaparam da maldição com gestão rigorosa dos fundos soberanos. Mas exige institucionalidade e planejamento que o Brasil ainda constrói."
+  },
+  "caseStudy": {
+    "title": "Noruega: como escapar da maldição do petróleo",
+    "text": "A Noruega descobriu petróleo no Mar do Norte em 1969. Em vez de distribuir a renda imediatamente, criou um fundo soberano — o Governo Pension Fund Global — que hoje tem mais de 1,5 trilhão de dólares, o maior do mundo. O governo só pode usar 3% ao ano (a expectativa de retorno real do fundo). O restante é investido em ações, títulos e imóveis no exterior. Resultado: a Noruega tem os melhores indicadores de educação, saúde e igualdade do mundo — e quando o petróleo acabar, o fundo continuará existindo. A diferença com a Nigéria não é a quantidade de petróleo. É a qualidade das instituições."
+  },
+  "application": "Compare o Índice de Desenvolvimento Humano (IDH) de três países produtores de petróleo: Noruega, Arábia Saudita e Nigéria. Relacione com o modelo de gestão do petróleo em cada caso. O que explica as diferenças? Use o relatório PNUD como fonte.",
+  "activity": {
+    "type": "single-choice",
+    "question": "O que é a 'maldição dos recursos naturais' e qual mecanismo melhor explica por que países ricos em petróleo frequentemente têm baixo desenvolvimento humano?",
+    "correct": "b",
+    "options": [
+      { "value": "a", "label": "O petróleo contamina o solo e a água, tornando a agricultura impossível e empobrecendo a população rural." },
+      { "value": "b", "label": "A riqueza gerada pelo petróleo concentra poder em elites e no Estado, reduz a necessidade de tributar a população e enfraquece as pressões por democracia e diversificação econômica." },
+      { "value": "c", "label": "Países ricos em petróleo são invadidos por potências estrangeiras que levam a riqueza, empobrecendo a população local." },
+      { "value": "d", "label": "O petróleo cria dependência tecnológica de empresas multinacionais, que levam o lucro para fora do país sem pagar impostos." }
+    ],
+    "feedback": {
+      "correct": "Exato. A 'maldição dos recursos' não é natural — é política. Quando o Estado tem renda independente da tributação popular (pelo petróleo), perde o incentivo de ser responsivo. Elites capturam as receitas. A moeda valoriza e desindustrializa o país. O resultado é riqueza na conta do Estado — e miséria na população. A Noruega escapou porque construiu instituições robustas antes do petróleo.",
+      "incorrect": "A maldição dos recursos é principalmente um fenômeno político-econômico, não ambiental ou militar. O mecanismo central é a captura das receitas por elites e a desindustrialização causada pela valorização cambial — não a contaminação ou invasão estrangeira."
+    },
+    "hints": [
+      { "type": "text", "content": "Pense no papel dos impostos na democracia. Se o governo não precisa taxar a população para ter receita, que tipo de pressão perde? Quem fica com a riqueza do petróleo quando as instituições são fracas?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o paradoxo da maldição dos recursos, identifica os mecanismos políticos e econômicos que explicam o subdesenvolvimento de países ricos em petróleo, e compara casos que escaparam do padrão.",
+    "observe": "Alunos tendem a explicar o subdesenvolvimento africano por razões climáticas ou históricas genéricas. Esse é o momento de mostrar que países com recursos abundantes têm desfechos piores — o problema é institucional, não de dotação natural.",
+    "answer": "A maldição dos recursos opera via dois mecanismos principais: (1) doença holandesa — valorização cambial que desindustrializa; (2) captura do Estado — governos sem necessidade de tributar têm menos incentivo para ser democráticos. Noruega escapou por ter criado instituições fortes antes do petróleo chegar.",
+    "mediation": "Pergunte: 'Se o Brasil receber trilhões do pré-sal nas próximas décadas, quem deve decidir como usar esse dinheiro? O governo federal? Os estados produtores? Um fundo soberano independente? Quais os riscos de cada opção?'",
+    "time": "50 minutos"
+  }
+}

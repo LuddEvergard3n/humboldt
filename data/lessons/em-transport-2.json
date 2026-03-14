@@ -1,0 +1,51 @@
+{
+  "id": "em-transport-2",
+  "moduleId": "em-transport",
+  "title": "Rodoviarismo no Brasil: a escolha que moldou o território",
+  "summary": "Como a opção pelo transporte rodoviário no século XX definiu o custo, a desigualdade regional e os gargalos logísticos do Brasil.",
+  "activityType": "map-click",
+  "phenomenon": {
+    "title": "Por que o Brasil perde R$ 100 bilhões por ano em ineficiência logística?",
+    "text": "Uma saca de soja produzida em Lucas do Rio Verde (MT) percorre 1.800 km de estrada até o Porto de Santos (SP), pagando um frete que pode representar 40% do valor da mercadoria. Na Argentina, a mesma soja percorre 400 km até o Porto de Rosário via hidrovia do Rio da Prata. No Brasil, ferrovias carregam apenas 15% das cargas — nos EUA, 42%. A diferença não é acidente: é resultado de décadas de escolha política pelo rodoviarismo, a partir do governo Getúlio Vargas e acelerada por Juscelino Kubitschek, que associou o automóvel e a estrada ao progresso. A conta chega na forma de preços de alimentos mais altos, poluição, acidentes e perda de competitividade."
+  },
+  "guided": {
+    "title": "As três matrizes e suas características",
+    "text": "Cada modal de transporte tem características físicas, econômicas e territoriais diferentes. O Brasil optou pelo rodoviarismo num momento em que a indústria automobilística estava chegando — uma escolha que se retroalimentou: mais carros exigem mais estradas, mais estradas geram mais carros.",
+    "points": [
+      "Rodovias (65% da carga brasileira): custo alto por tonelagem, mas flexibilidade máxima — chega a qualquer lugar. Adequado para cargas fracionadas, perecíveis e curtas distâncias. Problemático para commodities agrícolas em longas distâncias, como o Brasil precisa.",
+      "Ferrovias (15%): custo baixo por tonelada-quilômetro, ideal para cargas pesadas e longas distâncias (minério, grãos). Exige alto investimento fixo e perde flexibilidade. O Brasil tem malha ferroviária precária — a maior parte foi privatizada e opera apenas nas rotas rentáveis para mineração.",
+      "Hidrovias (5%): o custo mais baixo de todos os modais, zero emissão de carbono por tonelada. O Brasil tem 63.000 km de rios navegáveis — o maior potencial hidroviário do mundo. Usa menos de 15% disso. O Rio Tocantins, o São Francisco e o Madeira são praticamente inexplorados.",
+      "Aeroportos e portos: as portas de saída do Brasil ao mundo. Santos é o maior porto da América Latina — mas opera no limite da capacidade, sem profundidade para os maiores navios modernos. O Arco Norte (Pará, Maranhão) cresce como alternativa mais próxima às rotas asiáticas."
+    ]
+  },
+  "relations": {
+    "title": "Custo Brasil e competitividade agrícola",
+    "text": "O Brasil é o maior exportador mundial de soja, açúcar e carne bovina. Mas paga um dos maiores custos logísticos do mundo para exportar. Esse 'custo Brasil logístico' é estimado em 12% do PIB — contra 8% nos EUA e 6% na Alemanha. Para um produtor de soja em Mato Grosso, o frete rodoviário até o porto pode consumir metade do lucro da safra. O mesmo produtor, se tivesse acesso a uma hidrovia, pagaria um terço do frete. A falta de infraestrutura multimodal transfere renda do produtor agrícola para o caminhoneiro — e do Brasil para os concorrentes americanos e argentinos."
+  },
+  "caseStudy": {
+    "title": "A Ferrogrão: quem ganha e quem perde com a infraestrutura",
+    "text": "A Ferrogrão é um projeto de ferrovia de 933 km ligando Sinop (MT) ao Porto de Miritituba (PA), às margens do Rio Tapajós. Reduzirá o custo de escoamento da soja matogrossense em 30%. É financiada por grandes tradings como Cargill, Bunge e ADM — que lucram com a produção agrícola do Cerrado. Mas o projeto passa por terras indígenas, unidades de conservação e áreas de floresta. Comunidades ribeirinhas temem que a ferrovia abra a Amazônia para o desmatamento. É o dilema estrutural do Brasil: a infraestrutura que resolve o custo logístico muitas vezes ameaça o ambiente e as populações que vivem nas áreas de passagem. Não existe solução neutra."
+  },
+  "application": "Escolha um produto agrícola exportado pelo Brasil (soja, carne, açúcar) e trace sua rota logística típica: da fazenda ao porto de saída. Quais modais são usados? Qual o custo estimado? Que infraestrutura alternativa poderia reduzir esse custo?",
+  "activity": {
+    "type": "map-click",
+    "mapId": "brazil-regions",
+    "instruction": "Qual região do Brasil tem o maior 'custo logístico' — ou seja, está mais distante dos portos de exportação e depende mais de rodovias precárias para escoar sua produção?",
+    "correct": "norte",
+    "options": [],
+    "feedback": {
+      "correct": "Correto. A Região Norte — especialmente Mato Grosso, Pará e Rondônia — concentra a nova fronteira agrícola do Brasil, mas está a mais de 2.000 km dos portos tradicionais (Santos, Paranaguá). O frete rodoviário consume uma parcela enorme do valor da produção. É por isso que cresce o debate sobre o Arco Norte portuário (Pará, Maranhão) e as hidrovias do Tocantins e Tapajós — infraestrutura que reduziria custos e abriria novas rotas de exportação mais curtas para a Ásia.",
+      "incorrect": "Pense onde está a nova fronteira agrícola do Brasil — Mato Grosso, Pará, Rondônia — e onde estão os portos de exportação tradicionais (Santos, Paranaguá). Qual a distância? Qual modal é usado? Quanto custa esse frete como proporção do valor da mercadoria?"
+    },
+    "hints": [
+      { "type": "text", "content": "A nova fronteira agrícola do Brasil está em qual direção — Norte/Centro-Oeste ou Sul/Sudeste? E os grandes portos de exportação (Santos, Paranaguá) ficam onde? A distância entre eles é o custo logístico." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a matriz de transportes brasileira, compreende as causas históricas do rodoviarismo, identifica os custos econômicos e territoriais dessa escolha, e avalia alternativas multimodais.",
+    "observe": "A escolha pelo rodoviarismo é frequentemente apresentada como 'o modelo americano'. Mostre que os EUA usam ferrovia para carga pesada — o carro é para passageiros. O Brasil copiou o automóvel, não o sistema completo.",
+    "answer": "A Região Norte concentra a nova fronteira agrícola e está mais distante dos portos tradicionais do Sul/Sudeste. O frete rodoviário de Mato Grosso a Santos pode custar 40% do valor da soja — enquanto uma hidrovia ou ferrovia custaria um terço disso.",
+    "mediation": "Pergunte: 'Se o Brasil tivesse investido em ferrovias e hidrovias em vez de rodovias nos anos 1950, a Amazônia teria sido desmatada da mesma forma? A infraestrutura de transporte determina quais terras são ocupadas?'",
+    "time": "50 minutos"
+  }
+}

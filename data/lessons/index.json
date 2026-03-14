@@ -289,15 +289,15 @@
   },
   "efii-europe-2": {
     "moduleId": "efii-europe",
-    "title": "Ásia: o maior continente e o século asiático",
-    "summary": "China, Índia e o deslocamento do poder econômico global para o Oriente.",
+    "title": "Oceania: o continente do Pacífico",
+    "summary": "Austrália, Nova Zelândia e os povos insulares do Pacífico: geografia, colonização e crise climática.",
     "activityType": "single-choice"
   },
   "efii-europe-3": {
     "moduleId": "efii-europe",
-    "title": "Oriente Médio e Oceania: geopolítica do petróleo e do Pacífico",
-    "summary": "Conflitos, recursos estratégicos e a posição geopolítica do Pacífico.",
-    "activityType": "single-choice"
+    "title": "Oriente Médio: petróleo, conflitos e religião",
+    "summary": "A região mais instável do mundo: recursos estratégicos, disputas territoriais e diversidade religiosa.",
+    "activityType": "map-click"
   },
   "efii-europe-4": {
     "moduleId": "efii-europe",
@@ -742,5 +742,137 @@
     "title": "ASEAN e o multilateralismo asiático",
     "summary": "Como dez países divergentes constroem integração regional entre potências rivais.",
     "activityType": "before-after"
+  },
+  "em-africa-1": {
+    "moduleId": "em-africa",
+    "title": "Descolonização e heranças do colonialismo",
+    "summary": "Como a partilha colonial da África moldou fronteiras, conflitos e estruturas econômicas atuais.",
+    "activityType": "before-after"
+  },
+  "em-africa-2": {
+    "moduleId": "em-africa",
+    "title": "Conflitos do Sahel e a crise do Estado",
+    "summary": "Desertificação, jihadismo e golpes de Estado no corredor mais instável da África.",
+    "activityType": "single-choice"
+  },
+  "em-africa-3": {
+    "moduleId": "em-africa",
+    "title": "A China em África: parceria ou neocolonialismo?",
+    "summary": "Investimentos, infraestrutura e dívida: a presença chinesa no continente africano.",
+    "activityType": "flow-map"
+  },
+  "em-africa-4": {
+    "moduleId": "em-africa",
+    "title": "União Africana e o pan-africanismo",
+    "summary": "A integração continental africana: história, conquistas, limites e o sonho pan-africano.",
+    "activityType": "single-choice"
+  },
+  "em-latin-america-1": {
+    "moduleId": "em-latin-america",
+    "title": "América Latina: território, desigualdade e dependência",
+    "summary": "Estrutura territorial, herança colonial e a teoria da dependência na América Latina.",
+    "activityType": "map-click"
+  },
+  "em-latin-america-2": {
+    "moduleId": "em-latin-america",
+    "title": "Ciclo progressista e reação conservadora",
+    "summary": "A onda rosa dos anos 2000, suas conquistas, contradições e o refluxo pós-2015.",
+    "activityType": "single-choice"
+  },
+  "em-latin-america-3": {
+    "moduleId": "em-latin-america",
+    "title": "Narcotráfico, Estado e território",
+    "summary": "A geografia do tráfico de drogas e seu impacto na soberania estatal na América Latina.",
+    "activityType": "flow-map"
+  },
+  "em-latin-america-4": {
+    "moduleId": "em-latin-america",
+    "title": "Mercosul, ALBA e a integração latino-americana",
+    "summary": "Os projetos de integração regional: lógica comercial, lógica política e seus impasses.",
+    "activityType": "single-choice"
+  },
+  "em-migration-1": {
+    "moduleId": "em-migration",
+    "title": "Refugiados e deslocados: quem são e por que fogem",
+    "summary": "A crise global de deslocamento forçado: causas, números e o regime internacional de proteção.",
+    "activityType": "single-choice"
+  },
+  "em-migration-2": {
+    "moduleId": "em-migration",
+    "title": "Muros, fronteiras e a política da exclusão",
+    "summary": "A proliferação de barreiras físicas e políticas à migração no século XXI.",
+    "activityType": "flow-map"
+  },
+  "em-migration-3": {
+    "moduleId": "em-migration",
+    "title": "Migração climática: o deslocamento do futuro",
+    "summary": "Como as mudanças climáticas estão criando a maior crise de deslocamento da história humana.",
+    "activityType": "single-choice"
+  },
+  "em-migration-4": {
+    "moduleId": "em-migration",
+    "title": "Imigração, xenofobia e direitos",
+    "summary": "A política da imigração nos países de destino: integração, discriminação e extremismo.",
+    "activityType": "single-choice"
+  },
+  "em-climatology-6": {
+    "moduleId": "em-climatology",
+    "title": "Circulação geral da atmosfera: ventos planetários",
+    "summary": "Os grandes sistemas de ventos que organizam o clima do planeta.",
+    "activityType": "compass"
+  },
+  "em-cartography-6": {
+    "moduleId": "em-cartography",
+    "title": "Análise multiescalar: o mesmo fenômeno em três escalas",
+    "summary": "Como a escolha da escala determina o que é visível e quem pode ser responsabilizado.",
+    "activityType": "scale"
+  },
+  "em-energy-1": {
+    "moduleId": "em-energy",
+    "title": "Matrizes energéticas: quem tem, quem consome, quem depende",
+    "summary": "Distribuição geográfica das fontes de energia e os desequilíbrios entre produção e consumo no mundo.",
+    "activityType": "flow-map"
+  },
+  "em-energy-2": {
+    "moduleId": "em-energy",
+    "title": "Petróleo e geopolítica: a maldição dos recursos",
+    "summary": "Como a riqueza em petróleo pode gerar instabilidade, autoritarismo e subdesenvolvimento.",
+    "activityType": "single-choice"
+  },
+  "em-energy-3": {
+    "moduleId": "em-energy",
+    "title": "Transição energética: velocidade, contradições e interesses",
+    "summary": "A substituição de combustíveis fósseis por renováveis — por que é urgente, por que é lenta e quem ganha e perde.",
+    "activityType": "before-after"
+  },
+  "em-energy-4": {
+    "moduleId": "em-energy",
+    "title": "Pobreza energética: quando a luz não chega",
+    "summary": "800 milhões sem eletricidade, 2,4 bilhões cozinhando com biomassa — a energia como dimensão da desigualdade global.",
+    "activityType": "single-choice"
+  },
+  "em-transport-1": {
+    "moduleId": "em-transport",
+    "title": "Logística global: como o mundo se move",
+    "summary": "Containers, rotas oceânicas e hubs portuários — a infraestrutura invisível que conecta produção ao consumo.",
+    "activityType": "flow-map"
+  },
+  "em-transport-2": {
+    "moduleId": "em-transport",
+    "title": "Rodoviarismo no Brasil: a escolha que moldou o território",
+    "summary": "Como a opção pelo transporte rodoviário no século XX definiu o custo e os gargalos logísticos do Brasil.",
+    "activityType": "map-click"
+  },
+  "em-transport-3": {
+    "moduleId": "em-transport",
+    "title": "Megaprojetos de infraestrutura: desenvolvimento ou dependência?",
+    "summary": "Belt and Road chinesa, IIRSA e grandes obras como instrumentos de poder geopolítico.",
+    "activityType": "flow-map"
+  },
+  "em-transport-4": {
+    "moduleId": "em-transport",
+    "title": "Mobilidade urbana: tempo, desigualdade e o direito à cidade",
+    "summary": "Quem anda de carro, quem anda de ônibus e por que o tempo de deslocamento é um indicador de desigualdade.",
+    "activityType": "single-choice"
   }
 }

@@ -1,0 +1,56 @@
+{
+  "id": "em-migration-3",
+  "moduleId": "em-migration",
+  "title": "Migração climática: o deslocamento do futuro",
+  "summary": "Como as mudanças climáticas estão criando a maior crise de deslocamento da história humana.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "216 milhões de deslocados climáticos até 2050",
+    "text": "O Banco Mundial estima que, no cenário de emissões atuais, 216 milhões de pessoas se tornarão migrantes climáticas até 2050 — dentro de seus próprios países. Se acrescentarmos a migração transfronteiriça, os números são ainda maiores. As causas: aumento do nível do mar que inunda cidades costeiras e deltas de rios, desertificação que destrói agricultura, ondas de calor que tornam regiões inabitáveis, e eventos extremos que destroem infraestrutura. A migração climática não é futura — já está acontecendo."
+  },
+  "guided": {
+    "title": "Rotas da migração climática",
+    "text": "A migração climática ocorre em múltiplas escalas e formas, nem sempre reconhecíveis como 'migração climática' porque o clima raramente é a única causa — combina-se com conflito, pobreza e fragilidade estatal.",
+    "points": [
+      "Bangladesh: 80% do território abaixo de 10 metros; 20 milhões podem ser deslocados pelo nível do mar até 2050. Já há migração para Dhaka e Kolkata.",
+      "Saara e Sahel: avanço do deserto expulsa pastores e agricultores — alimentando conflitos e migração para cidades e para o norte.",
+      "Small Island States: Kiribati, Tuvalu, Maldivas — nações inteiras em risco de submersão. Relocação governamental em andamento.",
+      "América Central seca: corredor seco da Guatemala, Honduras e El Salvador — falha de colheitas por cinco anos consecutivos foi um dos motores da caravana de migrantes para os EUA (2018-2019)."
+    ]
+  },
+  "relations": {
+    "title": "O vazio jurídico dos deslocados climáticos",
+    "text": "A Convenção de Refugiados de 1951 não reconhece o clima como causa de proteção internacional — foi escrita para proteger perseguidos políticos no contexto da Guerra Fria. Quem foge de uma seca, de uma inundação ou de uma tempestade não tem direito a asilo. Em 2020, o Comitê de Direitos Humanos da ONU decidiu no caso Ioane Teitiota (cidadão de Kiribati que pediu asilo na Nova Zelândia por risco climático) que países não podem devolver pessoas a lugares onde o clima representar ameaça à vida — mas não criou categoria de proteção formal. O direito internacional está correndo atrás de uma realidade que já existe."
+  },
+  "caseStudy": {
+    "title": "Bangladesh: a megacidade dos migrantes climáticos",
+    "text": "Dhaka tem 22 milhões de habitantes e é uma das cidades que mais crescem no mundo — não por natalidade, mas por migração. Cada ano, entre 300.000 e 400.000 pessoas chegam à cidade fugindo de inundações, ciclones e erosão costeira do delta do Rio Ganges. Dhaka não tem infraestrutura para absorvê-las: elas se instalam em bairros informais sem saneamento, onde trabalham em empregos informais e vivem em habitações vulneráveis a — ironicamente — as mesmas inundações que as expulsaram do campo. É a migração climática em loop: foge da inundação rural para morar em baixada urbana inundável. O Bangladesh emite 0,4% das emissões globais de CO₂ e está entre os países mais vulneráveis do mundo às mudanças climáticas."
+  },
+  "application": "Pesquise o conceito de 'refúgio climático' e a proposta de ampliação da Convenção de Refugiados de 1951 para incluir deslocados climáticos. Quais países apoiam a mudança? Quais se opõem? Por quê?",
+  "activity": {
+    "question": "Uma família que abandona sua aldeia em Bangladesh após inundações que tornaram a terra improdutível é, no direito internacional atual, classificada como:",
+    "type": "single-choice",
+    "correct": "sem-status",
+    "options": [
+      { "value": "sem-status",    "label": "Migrante sem status de proteção internacional — o clima não é reconhecido como causa de refúgio pela Convenção de 1951" },
+      { "value": "refugiada",     "label": "Refugiada climática — categoria reconhecida pela ONU desde 2015" },
+      { "value": "deslocada-idu", "label": "Deslocada interna protegida pelos Princípios Orientadores da ONU sobre Deslocamento Interno" },
+      { "value": "apátrida",      "label": "Apátrida — perde a nacionalidade quando seu território fica inabitável" }
+    ],
+    "feedback": {
+      "correct": "Correto. A Convenção de 1951 define refugiado como quem foge de perseguição por raça, religião, nacionalidade, grupo social ou opinião política. Mudanças climáticas não se enquadram em nenhuma dessas categorias. Quem migra por razões climáticas não tem status legal de proteção internacional — é uma das maiores lacunas do direito internacional contemporâneo.",
+      "incorrect": "'Refugiado climático' não é uma categoria legal reconhecida pela ONU. Os Princípios sobre Deslocamento Interno são soft law (não vinculante) e cobrem apenas deslocados dentro do próprio país. Apátrida se perde a nacionalidade por outros motivos — o Bangladesh ainda existe como Estado."
+    },
+    "hints": [
+      { "type": "text", "content": "A Convenção de Refugiados lista cinco causas de proteção: raça, religião, nacionalidade, grupo social, opinião política. 'Mudança climática' não está nessa lista. Qual é o status de quem migra por uma causa não listada?"
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a escala da migração climática, identifica o vazio jurídico no direito internacional e analisa casos concretos de populações já deslocadas por fatores climáticos.",
+    "observe": "Enfatize que migração climática e migração econômica frequentemente se sobrepõem — a seca destrói a colheita, gera pobreza, gera migração. Não há uma linha clara. Isso é parte do problema jurídico.",
+    "answer": "Migrante sem status de proteção internacional. A Convenção de 1951 não reconhece o clima como causa de refúgio. Quem migra por razões climáticas está em vazio jurídico — sem direito a asilo, sem proteção formal.",
+    "mediation": "Proponha: 'Se o Bangladesh emite 0,4% do CO₂ global e os EUA emitem 15%, quem tem responsabilidade sobre os migrantes climáticos bangladeshianos? Isso deveria se traduzir em obrigação legal de acolhimento?'",
+    "time": "50 minutos"
+  }
+}

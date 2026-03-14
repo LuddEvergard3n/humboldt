@@ -1,0 +1,55 @@
+{
+  "id": "em-africa-4",
+  "moduleId": "em-africa",
+  "title": "União Africana e o pan-africanismo",
+  "summary": "A integração continental africana: história, conquistas, limites e o sono dos Estados Unidos da África.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Um continente, uma passaporte?",
+    "text": "Em 2018, a União Africana lançou o Passaporte Africano — um documento que, quando totalmente implementado, permitirá que qualquer cidadão africano viaje a qualquer país do continente sem visto. Ainda é realidade para poucos países. Mas o símbolo importa: um continente que foi partido em 54 pedaços por potências externas tenta construir, desde dentro, uma identidade e uma integração supranacional. O pan-africanismo — ideia de que os africanos, dispersos pela diáspora e pelo continente, compartilham um destino político comum — é mais antigo que a maioria dos países africanos."
+  },
+  "guided": {
+    "title": "Da OUA à União Africana",
+    "text": "A Organização da Unidade Africana (OUA) foi fundada em 1963 em Adis Abeba, Etiópia — um ano depois da maioria das independências anglófonas. Seu princípio central: inviolabilidade das fronteiras coloniais (para evitar guerras de revisão territorial) e não-ingerência nos assuntos internos. Em 2002, foi reformada e transformada na União Africana (UA), com instituições mais ambiciosas: Parlamento Pan-Africano, Tribunal Africano de Direitos Humanos, Força Africana de Pronto-Emprego.",
+    "points": [
+      "Princípio de Cairó (1964): as fronteiras coloniais são invioláveis — decisão pragmática para evitar guerras, mas que cimentou as divisões coloniais.",
+      "UA: 55 membros (inclui Saara Ocidental — território disputado com Marrocos). Sede em Adis Abeba.",
+      "AfCFTA (2021): Área de Livre Comércio Continental Africana — maior zona de livre comércio do mundo por número de países. Meta: eliminar 90% das tarifas entre membros.",
+      "Desafios: corrupção institucional, financiamento dependente de doadores externos, dificuldade de fazer cumprir decisões dos tribunais."
+    ]
+  },
+  "relations": {
+    "title": "O pan-africanismo: ideia e movimento",
+    "text": "O pan-africanismo nasceu na diáspora — entre africanos escravizados e seus descendentes nas Américas e no Caribe. W.E.B. Du Bois (EUA) organizou os primeiros Congressos Pan-Africanos (1919-1945). Marcus Garvey (Jamaica) propôs o retorno à África. Aimé Césaire (Martinica) desenvolveu a Négritude. Já em solo africano, Kwame Nkrumah (Gana) sonhou com os Estados Unidos da África; Julius Nyerere (Tanzânia) implementou o Ujamaa — socialismo africano. A tensão entre pan-africanismo como projeto político (integração supranacional) e como identidade cultural (solidariedade da diáspora) persiste até hoje."
+  },
+  "caseStudy": {
+    "title": "Ruanda: de genocídio a modelo de desenvolvimento",
+    "text": "O Ruanda de 2024 é irreconhecível do Ruanda de 1994. Após o genocídio, o governo do FPR (Frente Patriótica Ruandesa), liderado por Paul Kagame, implementou uma estratégia de desenvolvimento que tornou Ruanda o país mais bem-sucedido da África Subsaariana em indicadores de governança, crescimento e ambiente de negócios. Kigali, a capital, é considerada a cidade mais limpa da África. O Ruanda proibiu sacolas plásticas em 2008 — antes do Brasil. A cobertura de saúde universal atingiu 93% da população. O PIB cresceu 8% ao ano em média. O custo: Kagame governa de forma autoritária, reprime a oposição, e o Ruanda se envolve militarmente no leste do Congo. O 'milagre ruandês' é real — e moralmente ambíguo."
+  },
+  "application": "Pesquise o Índice de Desenvolvimento Humano (IDH) dos 10 países africanos mais bem posicionados. O que têm em comum? Quais fatores explicam o melhor desempenho? Compare com os 10 piores.",
+  "activity": {
+    "question": "O princípio da inviolabilidade das fronteiras coloniais, adotado pela OUA em 1964, foi uma decisão:",
+    "type": "single-choice",
+    "correct": "pragmatica-custo",
+    "options": [
+      { "value": "pragmatica-custo", "label": "Pragmática para evitar guerras de revisão territorial, mas ao custo de cimentar as divisões arbitrárias do colonialismo" },
+      { "value": "anticolonial",     "label": "Anticolonial — uma forma de resistência às fronteiras impostas pela Europa" },
+      { "value": "economica",        "label": "Econômica — fronteiras estáveis eram necessárias para atrair investimento estrangeiro" },
+      { "value": "imposta",          "label": "Imposta pelas antigas potências coloniais como condição para reconhecer as independências" }
+    ],
+    "feedback": {
+      "correct": "Correto. A inviolabilidade das fronteiras foi uma escolha pragmática dos próprios líderes africanos: se cada país pudesse reivindicar território dos vizinhos com base em etnias ou reinos pré-coloniais, a África seria consumida por guerras. Mas o custo foi perpetuar fronteiras artificiais que dividem etnias e culturas. É um dilema sem solução simples — estabilidade vs. legitimidade histórica.",
+      "incorrect": "Foi uma decisão dos próprios líderes africanos — não imposta pela Europa. Não foi anticolonial (manteve o legado colonial). A motivação principal foi pragmática: evitar o caos de revisão territorial generalizada."
+    },
+    "hints": [
+      { "type": "text", "content": "Se cada país africano pudesse reivindicar terras dos vizinhos com base em etnias pré-coloniais, o que aconteceria? Qual era o problema que os líderes tentavam evitar em 1964?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o pan-africanismo como movimento político e cultural, analisa a UA como instituição de integração continental e avalia os dilemas das fronteiras africanas.",
+    "observe": "A decisão de 1964 sobre fronteiras é um exemplo de dilema político genuíno sem resposta óbvia. Explore essa ambiguidade — o pensamento crítico se desenvolve justamente na análise de situações sem solução fácil.",
+    "answer": "Pragmática para evitar guerras de revisão territorial — ao custo de perpetuar fronteiras artificiais. Os líderes africanos calcularam que a alternativa (revisão territorial) seria pior. É uma decisão defensável, mas com consequências duradouras.",
+    "mediation": "Proponha: 'Se você fosse líder africano em 1964, o que escolheria: fronteiras estáveis herdadas do colonialismo, ou revisão territorial baseada em etnias e culturas pré-coloniais? Quais seriam as consequências de cada escolha?'",
+    "time": "50 minutos"
+  }
+}

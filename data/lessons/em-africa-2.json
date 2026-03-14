@@ -1,0 +1,55 @@
+{
+  "id": "em-africa-2",
+  "moduleId": "em-africa",
+  "title": "Conflitos do Sahel e a crise do Estado",
+  "summary": "Desertificação, jihadismo e golpes de Estado no corredor mais instável da África.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O Sahel: onde o deserto avança e o Estado recua",
+    "text": "Sahel, em árabe, significa 'margem' — a faixa de transição entre o Saara e as savanas subsaarianas, atravessando Mauritânia, Mali, Burkina Faso, Níger, Chade e Sudão. Nos últimos 50 anos, o Saara avançou 48 km para o sul. A desertificação destrói pastagens, gera conflito por água e terra entre pastores e agricultores, empurra populações para cidades sem infraestrutura — e cria o vácuo social que grupos jihadistas como o Jama'at Nusrat ul-Islam wal-Muslimin (JNIM) e o Estado Islâmico no Grande Saara preenchem com dinheiro, segurança e ideologia."
+  },
+  "guided": {
+    "title": "Estrutura do conflito no Sahel",
+    "text": "O conflito do Sahel não tem uma causa única — é uma crise multidimensional onde clima, etnia, religião, política e geopolítica se alimentam mutuamente. A desestruturação do Estado líbio após a queda de Kadafi (2011) liberou arsenais de armas que inundaram o Sahel. A expansão do jihadismo criou território fora do controle estatal em zonas rurais. A pobreza extrema (Mali, Burkina Faso e Níger estão entre os 10 países mais pobres do mundo pelo IDH) tornaram jovens recrutáveis por grupos armados.",
+    "points": [
+      "AES (Aliança dos Estados do Sahel): Mali, Burkina Faso e Níger — todos com governos militares após golpes entre 2021 e 2023 — formaram bloco anti-França.",
+      "Saída francesa: a Operação Barkhane (2014-2022) — maior missão militar francesa fora da Europa — foi expulsa da região após golpes que baniram tropas estrangeiras.",
+      "Entrada russa: o grupo Wagner (agora Africa Corps) chegou ao Mali (2021), Burkina Faso e Níger como substituto à presença francesa.",
+      "Desertificação: o Lago Chade perdeu 90% de sua área desde os anos 1960 — de 25.000 km² para 2.500 km². Alimentava 30 milhões de pessoas."
+    ]
+  },
+  "relations": {
+    "title": "Geopolítica externa no Sahel",
+    "text": "O Sahel é um tabuleiro de competição entre França (ex-metrópole com interesses estratégicos e econômicos), EUA (bases militares no Níger, expulsas em 2024), Rússia (Wagner como instrumento de influência), China (investimentos em infraestrutura e mineração) e Turquia (drones Bayraktar fornecidos a Mali). Cada potência usa o pretexto do combate ao jihadismo para preservar acesso a urânio (Níger — 5% da produção mundial), ouro (Mali) e outras commodities estratégicas. Os governos militares locais aprenderam a usar essa competição para negociar apoio sem concessões de governança."
+  },
+  "caseStudy": {
+    "title": "O Lago Chade: colapso ecológico como gatilho de conflito",
+    "text": "O Lago Chade era o maior lago da África subsaariana nos anos 1960 — com 25.000 km² sustentava a pesca, a agricultura irrigada e a pecuária de 30 milhões de pessoas em quatro países (Chade, Níger, Nigéria, Camarões). A combinação de uso intensivo da água para irrigação e mudanças climáticas (chuvas reduzidas no Sahel) reduziu o lago para 2.500 km² — 90% de perda em 60 anos. O colapso da pesca gerou êxodo de pescadores, disputas por terra entre pastores e agricultores, e criou o contexto social em que o Boko Haram (fundado em 2002 na região) recruta: jovens sem terra, sem renda, sem perspectiva."
+  },
+  "application": "Pesquise a situação atual do Sahel em um jornal internacional (The Guardian, Al Jazeera, Le Monde). Identifique: qual conflito está mais ativo? Quais países estão envolvidos? Quais potências externas têm presença militar?",
+  "activity": {
+    "question": "A principal consequência geopolítica dos golpes militares no Mali, Burkina Faso e Níger (2021-2023) foi:",
+    "type": "single-choice",
+    "correct": "saida-franca",
+    "options": [
+      { "value": "saida-franca",  "label": "A expulsão da presença militar francesa e sua substituição por forças russas (Wagner/Africa Corps)" },
+      { "value": "intervencao-onu", "label": "A intervenção direta da ONU com forças de paz para estabilizar a região" },
+      { "value": "integracao",    "label": "A criação de um bloco de integração regional democrático para enfrentar o jihadismo coletivamente" },
+      { "value": "china",         "label": "A entrada da China como potência militar dominante substituindo todas as outras" }
+    ],
+    "feedback": {
+      "correct": "Correto. Os três governos militares, legitimados por sentimento antifrancês popular, expulsaram tropas e embaixadores franceses e convidaram o grupo Wagner russo. A saída francesa do Sahel marca o fim de décadas de Françafrique — influência neocolonial francesa — e a entrada da Rússia como ator de segurança no corredor mais instável da África.",
+      "incorrect": "A ONU não interveio militarmente. A China opera via investimento econômico, não presença militar. O 'bloco democrático' foi o oposto do que aconteceu — os três países formaram a AES, bloco de governos militares. A chave é o que substituiu a França."
+    },
+    "hints": [
+      { "type": "text", "content": "Os militares que tomaram o poder usaram sentimento antifrancês como legitimidade. Se expulsaram a França, quem chamaram para preencher o vácuo de segurança?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a crise multidimensional do Sahel articulando mudanças climáticas, fragilidade estatal, jihadismo e competição de potências externas.",
+    "observe": "Evite a narrativa de que o jihadismo é causa — é também sintoma. O colapso ecológico e a pobreza criam o contexto. O recrutamento jihadista preenche vácuos de Estado e de perspectiva.",
+    "answer": "Expulsão da presença militar francesa e entrada do grupo Wagner russo. Os governos militares da AES (Mali, Burkina Faso, Níger) expulsaram tropas francesas e convidaram forças russas como substituto, reorientando o alinhamento geopolítico do Sahel.",
+    "mediation": "Proponha: 'Os países do Sahel trocaram a França pela Rússia. Isso é soberania ou é trocar uma dependência por outra? O que seria realmente soberania no contexto do Sahel?'",
+    "time": "50 minutos"
+  }
+}

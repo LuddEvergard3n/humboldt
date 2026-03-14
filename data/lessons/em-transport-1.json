@@ -1,0 +1,56 @@
+{
+  "id": "em-transport-1",
+  "moduleId": "em-transport",
+  "title": "Logística global: como o mundo se move",
+  "summary": "Containers, rotas oceânicas e hubs portuários — a infraestrutura invisível que conecta a produção ao consumo.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Por que o encalhe de um navio no Suez parou fábricas na Europa?",
+    "text": "Em março de 2021, o Ever Given — um navio porta-contêiner de 400 metros — encalhou no Canal de Suez por seis dias. O resultado: 369 navios represados, US$ 9,6 bilhões em mercadorias bloqueadas por dia, fábricas europeias parando por falta de componentes asiáticos, supermercados americanos com prateleiras vazias de produtos eletrônicos. Um navio encalhado no Egito afetou a disponibilidade de peças eletrônicas em Stuttgart e de roupas em Nova York. Esse episódio revelou como o mundo produz e consome: em cadeia, integrado, sem estoques — e extraordinariamente vulnerável a qualquer interrupção."
+  },
+  "guided": {
+    "title": "A revolução do container e a logística moderna",
+    "text": "Antes de 1956, carregar um navio levava dias e exigia centenas de trabalhadores. Malcolm McLean inventou o container padronizado — uma caixa de metal que cabe em navios, trens e caminhões sem ser aberta. Essa inovação reduziu o custo de frete em 97% e tornou possível a globalização econômica moderna.",
+    "points": [
+      "Escala: os maiores navios porta-contêineres atuais (classe ULCV) carregam 24.000 contêineres — cada um com uma casa cheia de produtos. Um único navio transporta o equivalente a 24.000 caminhões.",
+      "Rotas oceânicas: três rotas dominam o comércio global — Ásia-Europa (via Suez), Ásia-América do Norte (via Pacífico) e Atlântico Norte (América do Norte-Europa). Controlam 80% do comércio mundial por valor.",
+      "Pontos de estrangulamento: Canal de Suez (12% do comércio global), Estreito de Malaca (40% do comércio asiático), Canal do Panamá, Estreito de Ormuz (20% do petróleo mundial). Bloqueio de qualquer um desses pontos gera crise global.",
+      "Hubs portuários: Xangai, Singapura, Roterdã e Los Angeles são os maiores portos do mundo. Não apenas movimentam mercadorias — criam emprego, tecnologia e poder geopolítico. Quem controla os portos controla os fluxos."
+    ]
+  },
+  "relations": {
+    "title": "A fragilidade das cadeias globais de suprimento",
+    "text": "A pandemia de Covid-19 expôs outra fragilidade: as cadeias just-in-time — projetadas para não ter estoques, reduzir custos e maximizar eficiência — colapsam quando a cadeia é interrompida. A falta de um chip semicondutor (produzido principalmente em Taiwan pela TSMC) fez montadoras de carros nos EUA, Europa e Brasil parar linhas de produção inteiras em 2021. Um componente de US$ 1 bloqueou a venda de um carro de US$ 50.000. A dependência de Taiwan na produção de chips levou os EUA, UE e China a acelerar investimentos locais em fábricas de semicondutores — um exemplo de como a vulnerabilidade logística cria pressão geopolítica."
+  },
+  "caseStudy": {
+    "title": "Singapura: cidade-porto que transformou um pântano em potência",
+    "text": "Em 1965, Singapura foi expulsa da Malásia — uma cidade sem recursos naturais, sem água potável própria, sem agricultura, com apenas 2 milhões de habitantes numa ilha de 700 km². O primeiro-ministro Lee Kuan Yew disse que o país precisava sobreviver pela inteligência. A estratégia: tornar-se o melhor porto do mundo para o Estreito de Malaca — por onde passa 40% do comércio asiático. Hoje, Singapura é o segundo porto mais movimentado do planeta, sede de multinacionais, centro financeiro e tecnológico. O PIB per capita ultrapassa o dos EUA. A posição geográfica no Estreito de Malaca transformou-se em ativo econômico por meio de décadas de investimento em infraestrutura, regulação eficiente e educação. A geografia importa — mas o que se faz com ela importa mais."
+  },
+  "application": "Vá ao site da MarineTraffic (marinetraffic.com) e observe em tempo real os navios no Canal de Suez e no Estreito de Malaca. Quantos são porta-contêineres? Quantos são petroleiros? De quais países são os navios? O que esse mapa ao vivo diz sobre o comércio global?",
+  "activity": {
+    "type": "flow-map",
+    "question": "Observe os fluxos de contêineres no mapa. Qual padrão geográfico eles revelam sobre a organização da produção e do consumo global?",
+    "mapId": "world-simple",
+    "flows": [
+      { "from": [75, 40], "to": [15, 35], "value": 40, "label": "Ásia → Europa via Suez (22 mil km)", "color": "#1e3a5f" },
+      { "from": [75, 40], "to": [88, 38], "value": 35, "label": "Ásia → América do Norte via Pacífico", "color": "#1e3a5f" },
+      { "from": [15, 35], "to": [75, 40], "value": 18, "label": "Europa → Ásia (maquinário, automóveis)", "color": "#8b5e2e" },
+      { "from": [88, 38], "to": [75, 40], "value": 12, "label": "América do Norte → Ásia (commodities)", "color": "#8b5e2e" },
+      { "from": [75, 40], "to": [30, 60], "value": 20, "label": "Ásia → África (manufaturados)", "color": "#4a7a5f" }
+    ],
+    "feedback": {
+      "correct": "Os fluxos revelam um padrão claro: a Ásia — especialmente China, Coreia do Sul e Japão — é o centro manufatureiro global, exportando para Europa, Américas e África. O fluxo inverso (commodities e matérias-primas para a Ásia) é menor em contêineres mas enorme em tonelagem. Esse padrão é a materialização da divisão internacional do trabalho: quem produz o que e para quem.",
+      "incorrect": "Observe a direção e o volume das setas. Quem envia mais? Para onde vai? O padrão revela onde estão as fábricas e onde estão os consumidores — a divisão geográfica da produção global."
+    },
+    "hints": [
+      { "type": "text", "content": "Qual região aparece como origem da maioria dos fluxos? O que isso diz sobre onde o mundo 'produz'? E quem aparece como destino — onde o mundo 'consome'?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende como a infraestrutura de transporte global organiza a produção e o consumo, identifica pontos de estrangulamento e vulnerabilidades das cadeias de suprimento, e analisa o papel dos hubs portuários na geopolítica.",
+    "observe": "O incidente do Ever Given é um excelente gancho — real, recente e visualmente claro. Use para mostrar que a globalização econômica tem uma infraestrutura física concreta que pode falhar.",
+    "answer": "Os fluxos revelam a Ásia como centro manufatureiro global — exportando para Europa, Américas e África. O padrão é a materialização da divisão internacional do trabalho. Os pontos de estrangulamento (Suez, Malaca, Panamá, Ormuz) são vulnerabilidades estruturais da globalização.",
+    "mediation": "Pergunte: 'Se o Brasil quisesse parar de exportar soja em grão e passar a exportar óleo de soja processado, o que precisaria mudar na infraestrutura de transporte? E por que os países ricos preferem comprar o grão — não o produto industrializado?'",
+    "time": "50 minutos"
+  }
+}

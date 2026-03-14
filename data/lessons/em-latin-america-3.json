@@ -1,0 +1,55 @@
+{
+  "id": "em-latin-america-3",
+  "moduleId": "em-latin-america",
+  "title": "Narcotráfico, Estado e território",
+  "summary": "A geografia do tráfico de drogas e seu impacto na soberania estatal na América Latina.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "O Estado paralelo da cocaína",
+    "text": "A Colômbia, o Peru e a Bolívia produzem praticamente toda a cocaína consumida no mundo — cerca de 2.000 toneladas por ano. Essa droga vale US$ 150 bilhões nas ruas dos EUA e Europa. Para chegar lá, percorre rotas controladas por cartéis mexicanos, gangues centroamericanas e facções brasileiras — cada nó da rede extrai parte do valor e estende seu controle sobre territórios inteiros. Em muitas regiões da América Latina, o cartel ou a facção é o Estado real: oferece segurança, emprego, código de conduta e punição — tudo o que o Estado formal deveria fazer e não faz."
+  },
+  "guided": {
+    "title": "A cadeia global da cocaína",
+    "text": "O narcotráfico é uma cadeia de valor global com fases territorialmente distintas: produção, processamento, transporte e varejo. Cada fase tem dinâmicas geopolíticas próprias.",
+    "points": [
+      "Produção: Colômbia (60%), Peru (25%), Bolívia (15%). Plantio de coca em regiões de difícil acesso estatal — Putumayo, Cauca, Beni, Vale do Huallaga.",
+      "Processamento: laboratórios rurais sob controle de FARC dissidentes, ELN e cartéis colombianos — Clan del Golfo, Urabeños.",
+      "Transporte: cartéis mexicanos (Sinaloa, CJNG) dominam o corredor para os EUA; rota atlântica via Brasil e África para a Europa.",
+      "Varejo e lavagem: facções brasileiras (PCC, CV) — a rota africana passa pelo Brasil, onde parte da droga fica para consumo interno. O Brasil é o 2º maior mercado consumidor."
+    ]
+  },
+  "relations": {
+    "title": "Narcotráfico e soberania",
+    "text": "O tráfico de drogas corrói a soberania estatal de múltiplas formas: captura de agentes do Estado (policiais, juízes, políticos pagos), substituição do Estado em territórios marginalizados (favelas, zona rural remota), geração de violência que sobrecarrega sistemas de justiça, e distorção da economia local por injeção de dinheiro ilícito. Em El Salvador, Honduras e Guatemala — o Triângulo Norte — a violência de gangues (Mara Salvatrucha, Barrio 18) gerou taxas de homicídio entre as mais altas do mundo e expulsou centenas de milhares em direção aos EUA e México. O presidente de El Salvador, Nayib Bukele, reduziu homicídios com prisão em massa de 2% da população adulta — resultado controverso que levanta questões sobre eficácia versus direitos."
+  },
+  "caseStudy": {
+    "title": "Medellín: da capital do crime à cidade modelo",
+    "text": "Em 1991, Medellín era a cidade mais violenta do mundo: 381 homicídios por 100.000 habitantes. Pablo Escobar e o Cartel de Medellín controlavam partes da cidade, corrompiam o Estado e promoviam terrorismo urbano. Em 2023, Medellín tem 17 homicídios por 100.000 — ainda alto, mas uma redução de 96%. A transformação envolveu múltiplas políticas simultâneas: urbanismo social (teleférico, escadas rolantes e parques nas comunas mais pobres), educação (universidades em bairros periféricos), negociação com milícias, e desenvolvimento econômico focado em inovação e turismo. Medellín não eliminou o narcotráfico — mas reconstruiu a presença estatal e reduziu a violência a um patamar gerenciável. É o modelo de que a presença do Estado é mais eficaz que a repressão pura."
+  },
+  "application": "Pesquise o conceito de 'guerra às drogas' lançado por Nixon em 1971. Após 50 anos: o tráfico diminuiu? O consumo caiu? Qual é a avaliação dos resultados? O que alternativas como a descriminalização (Portugal, desde 2001) mostraram?",
+  "activity": {
+    "type": "flow-map",
+    "question": "Observe os fluxos da cadeia global de cocaína. O que esses fluxos revelam sobre a relação entre narcotráfico e território?",
+    "flows": [
+      { "from": "Colômbia/Peru/Bolívia", "to": "México",         "value": 500, "label": "500t cocaína/ano — cartéis controlam passagem" },
+      { "from": "México",               "to": "EUA",            "value": 450, "label": "Destino final — US$ 90bi no varejo" },
+      { "from": "Colômbia",             "to": "Brasil",         "value": 120, "label": "Rota atlântica — parte fica no Brasil" },
+      { "from": "Brasil",               "to": "Europa (África)","value": 80,  "label": "Via portos de Luanda e Dacar" },
+      { "from": "Europa",               "to": "Lavagem global", "value": 200, "label": "Lucros re-investidos em imóveis e negócios" }
+    ],
+    "feedback": {
+      "correct": "Os fluxos mostram que o narcotráfico é uma cadeia produtiva transnacional: matéria-prima produzida no Sul, processada, transportada por rotas controladas militarmente por cartéis, e consumida no Norte. O valor se acumula no destino final — EUA e Europa — mas a violência e a erosão do Estado se concentram nos países de produção e trânsito. É uma inversão da lógica do comércio: os países mais afetados são os que menos lucram.",
+      "incorrect": "Observe onde a droga é produzida, onde é consumida e onde fica o maior lucro. Qual é a relação entre concentração de violência e posição na cadeia? Os produtores (Colômbia, Peru) ficam com qual parte do valor?"
+    },
+    "hints": [
+      { "type": "text", "content": "Coca cultivada na Colômbia vale US$ 1.500/kg. A mesma cocaína processada e entregue nos EUA vale US$ 30.000/kg. Quem fica com a diferença? Quem sofre a violência?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a geografia do narcotráfico como cadeia de valor global, analisa seu impacto na soberania estatal e avalia diferentes abordagens de política pública.",
+    "observe": "Evite narrativas simplistas de 'bandido vs. mocinho'. O narcotráfico é uma resposta econômica racional à pobreza e à ausência do Estado — produtores de coca são agricultores sem alternativas. A análise geográfica exige entender as condições estruturais.",
+    "answer": "Os fluxos revelam divisão internacional do narcotráfico: produção no Sul, consumo e lucro no Norte. A violência se concentra nos nós de produção e trânsito (Colômbia, México, Brasil) — que ficam com pequena parte do valor gerado.",
+    "mediation": "Proponha: 'Se os EUA e a Europa descriminalizassem a cocaína, o que aconteceria com os cartéis? Com as comunidades produtoras? Com a violência no México e no Brasil?'",
+    "time": "50 minutos"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "em-climatology-6",
+  "moduleId": "em-climatology",
+  "title": "Circulação geral da atmosfera: ventos planetários",
+  "summary": "Os grandes sistemas de ventos que organizam o clima do planeta.",
+  "activityType": "compass",
+  "phenomenon": {
+    "title": "Por que os ventos sopram em padrões previsíveis",
+    "text": "Os marinheiros portugueses do século XV sabiam que partindo de Lisboa para sul encontrariam ventos que os empurrariam até o Brasil — os alísios de nordeste. Voltando, seguiam para norte até encontrar os ventos do oeste. Esse conhecimento empírico da circulação atmosférica permitiu a Era dos Descobrimentos. Hoje sabemos por que esses ventos existem: a distribuição desigual do calor solar pelo planeta cria células de circulação atmosférica que movem o ar em padrões globais previsíveis."
+  },
+  "guided": {
+    "title": "As três células de circulação e os ventos resultantes",
+    "text": "A atmosfera não circula em uma única célula de polo a polo — a rotação da Terra (efeito Coriolis) e a distribuição de calor criam três células de circulação em cada hemisfério, cada uma gerando um sistema de ventos de superfície distinto.",
+    "points": [
+      "Célula de Hadley (0°–30°): ar quente sobe no equador (ZCIT), diverge em altitude, desce nos trópicos (zonas de alta pressão subtropicais). Ventos de superfície: alísios (NE no hemisfério norte, SE no hemisfério sul) em direção ao equador.",
+      "Célula de Ferrel (30°–60°): ar desce nos trópicos, move-se para os polos em superfície, sobe nas latitudes médias. Ventos de superfície: ventos do oeste (westerlies) — dominantes na Europa, sul do Brasil, Argentina.",
+      "Célula Polar (60°–90°): ar frio desce nos polos, move-se para latitudes médias. Ventos de superfície: ventos polares do leste.",
+      "Efeito Coriolis: a rotação da Terra deflete os ventos para a direita no hemisfério norte e para a esquerda no hemisfério sul — razão pela qual os alísios são de NE (HN) e SE (HS), não simplesmente do norte e do sul."
+    ]
+  },
+  "relations": {
+    "title": "Ventos planetários e clima do Brasil",
+    "text": "O Brasil está inteiramente no hemisfério sul, entre o equador e 33°S — abrangendo a Célula de Hadley (Norte, Nordeste) e a base da Célula de Ferrel (Sul, parte do Sudeste). Os alísios de sudeste entram pelo litoral nordestino trazendo umidade do Atlântico. A Zona de Convergência do Atlântico Sul (ZCAS) — extensão da ZCIT — é responsável pelas chuvas de verão no Sudeste. A Massa Polar Atlântica vem do sul, trazida pelos ventos do oeste da Célula de Ferrel, causando as frentes frias e as 'viradas de tempo' características do Sul e Sudeste."
+  },
+  "caseStudy": {
+    "title": "Os alísios e o semiárido nordestino",
+    "text": "O Nordeste brasileiro é o único semiárido tropical do mundo localizado em litoral oceânico — com mar logo ali, deveria chover mais. A explicação está na circulação atmosférica: os alísios de sudeste sopram paralelos ao litoral norte-nordestino, não perpendiculares a ele. Isso impede a entrada de umidade para o interior. Além disso, a Zona de Convergência Intertropical (ZCIT) oscila ao longo do ano: quando avança para sul além de 5°S, chove no semiárido (quadra chuvosa, fevereiro-maio); quando recua para norte ou avança demais, a seca domina. O El Niño enfraquece a migração da ZCIT para sul — um dos mecanismos que liga a temperatura do Pacífico à seca nordestina."
+  },
+  "application": "Pesquise a rosa dos ventos de uma cidade do Nordeste (ex: Fortaleza) e de uma cidade do Sul (ex: Porto Alegre). Compare a direção predominante dos ventos. Ela corresponde ao que você aprendeu sobre os sistemas de circulação atmosférica?",
+  "activity": {
+    "type": "single-choice",
+    "instruction": "Observe a rosa dos ventos. No hemisfério sul, os alísios sopram em direção à Zona de Convergência Intertropical (ZCIT), localizada próxima ao equador. Considere o efeito Coriolis — que deflete os ventos para a esquerda no hemisfério sul.",
+    "question": "No hemisfério sul, em que direção sopram os ventos alísios que convergem para a ZCIT no equador?",
+    "correct": "noroeste",
+    "options": [
+      {
+        "value": "noroeste",
+        "label": "Noroeste — de SE para NW, defletidos para a esquerda pelo Coriolis"
+      },
+      {
+        "value": "norte",
+        "label": "Norte — diretamente em direção ao equador, sem deflexão"
+      },
+      {
+        "value": "nordeste",
+        "label": "Nordeste — de SW para NE, como no hemisfério norte"
+      },
+      {
+        "value": "sul",
+        "label": "Sul — em direção ao polo sul, contrário ao gradiente de pressão"
+      }
+    ],
+    "feedback": {
+      "correct": "Correto. No hemisfério sul, o Coriolis deflete os ventos para a esquerda. Os alísios partem das altas pressões subtropicais (30°S) em direção ao equador (baixa pressão da ZCIT). Sem Coriolis seriam ventos do Sul; com Coriolis são defletidos para a esquerda — resultando em ventos de Sudeste que sopram em direção ao Noroeste. Por isso se chamam 'alísios de sudeste' — a direção de origem, não de destino.",
+      "incorrect": "Lembre: no hemisfério sul o Coriolis deflete os ventos para a esquerda (no norte, para a direita). Os alísios saem dos subtrópicos (30°S) em direção ao equador. Sem Coriolis: vento do Sul. Com Coriolis (deflexão à esquerda): vento de... qual quadrante?"
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Hemisfério sul: Coriolis deflete para a esquerda. O vento que iria para norte (em direção ao equador), ao ser defletido para a esquerda, vira para... oeste. Então sopra de sudeste em direção a noroeste."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a estrutura das três células de circulação atmosférica, o efeito Coriolis sobre a direção dos ventos e a relação entre ventos planetários e o clima do Brasil.",
+    "observe": "O efeito Coriolis é contraintuitivo — muitos alunos confundem 'direção do vento' (de onde vem) com 'para onde vai'. Reforce: vento do Sudeste vem do SE e vai para o NW.",
+    "answer": "Noroeste. Alísios de sudeste no HS: o ar move-se das altas pressões subtropicais (30°S) em direção à baixa equatorial; o Coriolis (deflexão à esquerda no HS) converte o vento meridional do Sul em vento de Sudeste — que sopra em direção ao Noroeste.",
+    "mediation": "Pergunte: 'Se o Coriolis não existisse, como seriam os ventos? O clima do Nordeste seria diferente? Por quê?'",
+    "time": "50 minutos"
+  }
+}

@@ -1,72 +1,52 @@
 {
   "id": "efii-europe-3",
   "moduleId": "efii-europe",
-  "title": "Oriente Médio e Oceania: geopolítica do petróleo e do Pacífico",
-  "summary": "Conflitos, recursos estratégicos e a posição geopolítica do Pacífico.",
-  "activityType": "single-choice",
+  "title": "Oriente Médio: petróleo, conflitos e religião",
+  "summary": "A região mais instável do mundo: recursos estratégicos, disputas territoriais e diversidade religiosa.",
+  "activityType": "map-click",
   "phenomenon": {
-    "title": "Por que o Oriente Médio nunca para de ser notícia?",
-    "text": "O Oriente Médio tem menos de 5% da população mundial, mas ocupa permanentemente o centro das notícias geopolíticas. A explicação é geográfica: a região concentra 48% das reservas mundiais de petróleo, está na encruzilhada de três continentes, e tem fronteiras traçadas por potências coloniais sem considerar etnias, religiões ou reinos históricos."
+    "title": "Por que o Oriente Médio nunca para de ser notícia",
+    "text": "Desde 1948, o Oriente Médio esteve no centro da política mundial: criação de Israel, guerras árabe-israelenses, Revolução Iraniana, invasão do Kuwait, guerras do Iraque, Primavera Árabe, surgimento do Estado Islâmico, guerra no Iêmen, conflito em Gaza. A região concentra 50% das reservas mundiais de petróleo, três religiões monoteístas, e fronteiras desenhadas por potências coloniais em 1916 ignorando etnias, tribos e tradições locais. Essa combinação torna o Oriente Médio o palco mais complexo da geopolítica contemporânea."
   },
   "guided": {
-    "title": "Oriente Médio: geopolítica dos recursos",
-    "text": "O Oriente Médio é definido pela combinação de recursos estratégicos, identidades religiosas e herança colonial.",
+    "title": "Elementos estruturantes da região",
+    "text": "O Oriente Médio é uma construção geopolítica europeia, não uma identidade regional autoevidente. Engloba países radicalmente diferentes: monarquias absolutas ricas em petróleo (Arábia Saudita, Emirados), repúblicas laicas em colapso (Síria, Iêmen, Líbia), democracias com tensões étnicas (Israel, Líbano), e teocracias (Irã). O que os une são as fronteiras impostas pelo Acordo Sykes-Picot (1916) — divisão franco-britânica do Império Otomano sem consultar as populações locais.",
     "points": [
-      "Petróleo: Arábia Saudita, Iraque, Irã, Emirados — 48% das reservas mundiais.",
-      "Conflito Israel-Palestina: origem em 1948, ainda sem solução. Envolve disputas territoriais, religiosas e identitárias.",
-      "Fronteiras coloniais: o Acordo Sykes-Picot (1916) dividiu a região entre Grã-Bretanha e França sem considerar as populações locais.",
-      "Sunitas vs. Xiitas: divisão interna ao Islã que alimenta conflitos entre potências regionais (Arábia Saudita vs. Irã).",
-      "Oceania: continente/região do Pacífico Sul com Austrália e Nova Zelândia como economias avançadas e ilhas do Pacífico vulneráveis ao aumento do nível do mar."
+      "Petróleo: 50% das reservas mundiais no Golfo Pérsico — base do poder político da região e causa de interferência externa constante.",
+      "Conflito árabe-israelense: desde 1948, com raízes no sionismo, Holocausto, Mandato Britânico e rejeição árabe à partilha da Palestina.",
+      "Sunitas vs. Xiitas: divisão do Islã com 1.400 anos que estrutura alianças regionais — Arábia Saudita (sunita) vs. Irã (xiita).",
+      "Curdos: 30-40 milhões de pessoas sem Estado próprio, divididos entre Turquia, Iraque, Síria e Irã — maior povo sem Estado do mundo."
     ]
   },
   "relations": {
-    "title": "O fim do petróleo e a transição energética",
-    "text": "A dependência do mundo do petróleo do Oriente Médio está diminuindo com a transição para energias renováveis — mas mais lentamente do que esperado. Países como Arábia Saudita e Emirados estão diversificando suas economias (turismo, tecnologia, finanças) antes que o petróleo perca valor. A geopolítica da energia está mudando — e com ela, a importância relativa da região."
+    "title": "Intervenção externa e instabilidade",
+    "text": "Nenhuma crise do Oriente Médio é puramente interna. EUA, Rússia, Turquia, Irã e potências do Golfo interferem sistematicamente nos conflitos regionais, cada um apoiando facções distintas. A invasão americana do Iraque (2003), baseada em inteligência falsa sobre armas de destruição em massa, desmantelou o Estado iraquiano e criou o vácuo de poder que o Estado Islâmico preencheu em 2014. A Primavera Árabe (2011) derrubou ditadores no Egito, Tunísia e Líbia — mas apenas a Tunísia transitou para democracia. O Egito voltou ao autoritarismo; a Líbia fragmentou-se em guerra civil."
   },
   "caseStudy": {
-    "title": "As ilhas que vão sumir",
-    "text": "Kiribati, Tuvalu e Maldivas são países insulares no Pacífico e Índico com altitude máxima de 2-3 metros. Com o aumento do nível do mar causado pelo aquecimento global, podem ser os primeiros países a desaparecer literalmente do mapa. O governo de Kiribati já comprou terras na Fiji para realocar sua população. Uma crise geopolítica inédita: nações sem território."
+    "title": "Gaza e a questão palestina",
+    "text": "A Faixa de Gaza tem 365 km² e 2,3 milhões de habitantes — uma das maiores densidades populacionais do mundo. Sob bloqueio israelense desde 2007, quando o Hamas tomou o controle, Gaza enfrenta desemprego de 46%, escassez crônica de água e energia, e acesso restrito a medicamentos e materiais de construção. O conflito de outubro de 2023, iniciado pelo ataque do Hamas com mais de 1.200 mortos israelenses, e a resposta militar israelense com mais de 40.000 mortos palestinos em Gaza, recolocou a questão palestina no centro da agenda global. A ausência de solução para os dois Estados — Israel e Palestina vivendo em paz com fronteiras reconhecidas — é o fracasso político mais duradouro da ordem internacional do pós-Segunda Guerra."
   },
-  "application": "Pesquise: qual é o maior produtor de energia solar do mundo hoje? Como isso afeta o poder dos países exportadores de petróleo?",
+  "application": "No mapa do Oriente Médio, identifique os países produtores de petróleo do Golfo Pérsico. Pesquise o que é o Acordo Sykes-Picot de 1916. Como ele contribuiu para os conflitos atuais da região?",
   "activity": {
-    "question": "Qual é a principal razão pela qual o Oriente Médio é central na geopolítica global?",
-    "type": "single-choice",
+    "type": "map-click",
+    "mapId": "world-simple",
+    "instruction": "Clique na região do mapa onde se concentram as maiores reservas de petróleo do mundo e os principais conflitos geopolíticos do Oriente Médio.",
+    "question": "Qual região do mapa corresponde ao Oriente Médio — área com 50% das reservas mundiais de petróleo e epicentro de conflitos como o árabe-israelense e a rivalidade sunita-xiita?",
+    "correct": "oriente-medio",
     "hintAfter": 1,
-    "correct": "petroleo-posicao",
-    "options": [
-      {
-        "value": "petroleo-posicao",
-        "label": "A concentração de 48% das reservas mundiais de petróleo e a posição estratégica entre três continentes"
-      },
-      {
-        "value": "religiao",
-        "label": "O fato de ser o berço das três religiões monoteístas"
-      },
-      {
-        "value": "populacao",
-        "label": "A grande população da região — mais de 400 milhões de pessoas"
-      },
-      {
-        "value": "clima",
-        "label": "O clima árido que limita a agricultura e cria disputas por água"
-      }
-    ],
     "feedback": {
-      "correct": "Correto! Recursos energéticos + posição geográfica de encruzilhada tornam o Oriente Médio insubstituível na geopolítica atual — embora a transição energética esteja mudando esse equilíbrio.",
-      "incorrect": "Embora religião e água também importem, é o petróleo combinado com a posição estratégica que explica a atenção geopolítica permanente."
+      "correct": "Correto. O Oriente Médio — entre a África, a Europa e a Ásia — concentra Arábia Saudita, Irã, Iraque, Emirados Árabes, Israel, Palestina, Síria e Iêmen. É a região com maior concentração de petróleo e de conflitos geopolíticos ativos do planeta.",
+      "incorrect": "O Oriente Médio fica entre a Península Arábica e o Mar Mediterrâneo, a leste da África e a sul da Europa. Procure a região entre o Egito e o Irã no mapa."
     },
     "hints": [
-      {
-        "type": "text",
-        "content": "O que faz um lugar estratégico? Recursos que todos precisam + posição que ninguém pode ignorar."
-      }
+      { "type": "text", "content": "Arábia Saudita, Irã, Iraque, Israel, Síria. Todos ficam entre a África do Norte, a Turquia e o Golfo Pérsico. Essa é a área do Oriente Médio." }
     ]
   },
   "teacher": {
-    "objective": "O aluno identifica os fatores que tornam o Oriente Médio central na geopolítica e compreende a vulnerabilidade climática da Oceania.",
-    "observe": "Mantenha equilíbrio ao abordar Israel-Palestina. Apresente as posições das partes sem tomar partido — é um conflito com narrativas legítimas em disputa.",
-    "answer": "Concentração de reservas de petróleo e posição estratégica entre continentes.",
-    "mediation": "Mapa de reservas de petróleo + rotas de exportação. Pergunte: se o Estreito de Ormuz fechar, o que acontece com o preço do combustível no Brasil?",
+    "objective": "O aluno identifica o Oriente Médio no mapa e compreende os elementos estruturantes da instabilidade regional: petróleo, fronteiras coloniais, divisão religiosa e interferência externa.",
+    "observe": "O conflito em Gaza tem alta carga emocional. Mantenha o foco na análise estrutural (fronteiras, recursos, conflito árabe-israelense histórico) sem tomar partido ou simplificar.",
+    "answer": "Oriente Médio (data-id: oriente-medio). Concentra 50% das reservas mundiais de petróleo; fronteiras definidas pelo Acordo Sykes-Picot (1916); divisão sunita-xiita; conflito árabe-israelense desde 1948.",
+    "mediation": "Proponha: 'Se o petróleo do Oriente Médio acabasse, a região ainda seria tão importante para a geopolítica mundial? O que muda quando um recurso estratégico se esgota?'",
     "time": "50 minutos"
   }
 }

@@ -1,0 +1,56 @@
+{
+  "id": "em-transport-3",
+  "moduleId": "em-transport",
+  "title": "Megaprojetos de infraestrutura: desenvolvimento ou dependência?",
+  "summary": "Belt and Road chinesa, IIRSA sul-americana e grandes obras de infraestrutura como instrumentos de poder geopolítico.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Por que a China está construindo portos, ferrovias e estradas em quatro continentes?",
+    "text": "Entre 2013 e 2023, a China investiu mais de US$ 1 trilhão em infraestrutura em 140 países — a Iniciativa do Cinto e Rota (BRI, na sigla em inglês). Portos no Paquistão, ferrovias no Quênia, autoestradas na Hungria, usinas hidrelétricas no Equador, fibra óptica na Etiópia. Nenhuma potência da história fez algo de escala comparável. Para a China, é uma estratégia de criar rotas comerciais que não dependem do Pacífico (controlado pela Marinha dos EUA) e garantir acesso a mercados e recursos. Para os países receptores, é capital para infraestrutura que ninguém mais oferece — mas com condições de dívida e cláusulas que geram debate."
+  },
+  "guided": {
+    "title": "A geopolítica da infraestrutura",
+    "text": "Infraestrutura de transporte não é politicamente neutra. Quem constrói uma ferrovia decide que cidades ela conecta — e quais ela deixa de lado. Quem financia um porto decide que mercadorias saem e entram. Quem instala fibra óptica influencia o fluxo de dados. Grandes projetos de infraestrutura são, simultaneamente, investimento econômico e instrumento de poder.",
+    "points": [
+      "Belt and Road (BRI): o maior projeto de infraestrutura da história. Dois eixos — o Cinto (rota terrestre pela Ásia Central) e a Rota (marítima pelo Índico). Objetivo declarado: conectar China a Europa via Ásia Central e Oriente Médio. Objetivo estratégico: criar dependência econômica e reduzir isolamento marítimo.",
+      "Colar de pérolas: os portos financiados pela China no Índico (Gwadar no Paquistão, Hambantota no Sri Lanka, Kyaukpyu em Myanmar) formam uma cadeia de 'pérolas' que cerca a Índia e cria presença naval chinesa no Oceano Índico — mesmo que China diga que são apenas comerciais.",
+      "IIRSA/COSIPLAN: equivalente sul-americano, lançado em 2000. Objetivo: integrar a infraestrutura física da América do Sul — estradas, hidrovias, ferrovias, energia. Em prática, financiado em parte pelo BNDES brasileiro e pelo BID. Virou veículo para expansão de empresas brasileiras (Odebrecht, OAS) na região.",
+      "Infraestrutura e poder suave: EUA e Europa respondem com o PGII (Parceria para Infraestrutura Global), prometendo US$ 600 bilhões até 2027. A disputa pela infraestrutura global é, em última instância, a disputa por quem define as regras do comércio, dos dados e dos fluxos globais."
+    ]
+  },
+  "relations": {
+    "title": "Dívida, soberania e diplomacia da armadilha",
+    "text": "O caso do Porto de Hambantota no Sri Lanka tornou-se símbolo do debate: o país pediu empréstimo à China para construir o porto, não conseguiu pagar e cedeu o controle por 99 anos à empresa estatal chinesa. Críticos chamam isso de 'diplomacia da armadilha de dívida' — emprestar sabendo que o devedor não pagará, para tomar o ativo estratégico. Pesquisadores do AidData (EUA) investigaram 165 projetos da BRI e encontraram resultados mistos: alguns projetos têm cláusulas que efetivamente comprometem soberania; outros são empréstimos comerciais padrão. A China não tem um único modelo — adapta as condições a cada país e projeto."
+  },
+  "caseStudy": {
+    "title": "IIRSA e a estrada interoceânica: quem ganhou?",
+    "text": "A Estrada Interoceânica Sul liga o Brasil (Acre) ao Peru (costa do Pacífico) através dos Andes — 2.600 km de asfalto. Concluída em 2011, foi apresentada como a 'ponte' que daria ao Brasil acesso ao mercado asiático via Pacífico, sem passar pelo Estreito de Magalhães. O custo: US$ 2,8 bilhões, financiado pelo BNDES. O resultado: a estrada virou rota de exportação de madeira ilegal peruana para o Brasil, de ouro extraído ilegalmente por garimpeiros brasileiros na Amazônia peruana, e de drogas. O comércio legítimo cresceu, mas menos que o esperado. A infraestrutura entregou — mas o que se moveu por ela surpreendeu os planejadores. Infraestrutura é neutra em relação ao tipo de fluxo que atrai."
+  },
+  "application": "Pesquise um projeto da Iniciativa do Cinto e Rota em um país africano ou asiático. Identifique: qual é o valor do investimento? Quem financiou? Quem construiu? Quais são as condições do empréstimo? O projeto beneficiou a população local? Use o AidData (aiddata.org) como fonte.",
+  "activity": {
+    "type": "flow-map",
+    "question": "Observe os fluxos da Iniciativa do Cinto e Rota no mapa. Qual padrão estratégico esses projetos revelam para a China?",
+    "mapId": "world-simple",
+    "flows": [
+      { "from": [75, 38], "to": [52, 40], "value": 30, "label": "BRI: China → Oriente Médio (portos, ferrovias)", "color": "#c4a35a" },
+      { "from": [75, 38], "to": [40, 25], "value": 25, "label": "BRI: China → Ásia Central → Europa", "color": "#c4a35a" },
+      { "from": [75, 38], "to": [30, 55], "value": 20, "label": "BRI: China → África (portos, estradas)", "color": "#c4a35a" },
+      { "from": [75, 38], "to": [68, 55], "value": 15, "label": "BRI: China → Sul/Sudeste Asiático", "color": "#c4a35a" },
+      { "from": [75, 38], "to": [15, 35], "value": 12, "label": "BRI: China → Europa via rota marítima", "color": "#c4a35a" }
+    ],
+    "feedback": {
+      "correct": "Os fluxos da BRI revelam uma estratégia de diversificação de rotas: a China tenta criar caminhos terrestres e marítimos que não dependam do Pacífico — onde a Marinha dos EUA é dominante. Cada porto e ferrovia é também uma presença física que cria dependência econômica dos países receptores em relação à China. O padrão é o de uma potência que usa infraestrutura para projetar poder — como o Império Britânico fez com ferrovias na Índia no século XIX.",
+      "incorrect": "Observe para onde os fluxos apontam: Oriente Médio, Ásia Central, África, Europa. Agora pense: o que une esses destinos? O que a China ganha ao ter infraestrutura em todos esses lugares? E o que ficaria bloqueado se o Pacífico fosse fechado pelos EUA?"
+    },
+    "hints": [
+      { "type": "text", "content": "A China tem uma fronteira marítima leste controlada pela presença americana. Se quisesse exportar sem depender desse caminho, que rotas alternativas precisaria criar? Olhe para oeste, sul e norte no mapa." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende grandes projetos de infraestrutura como instrumentos de poder geopolítico, analisa criticamente a Iniciativa do Cinto e Rota e a IIRSA, e avalia o debate sobre dívida, soberania e desenvolvimento.",
+    "observe": "Evite simplificar o debate 'China boa vs. China imperialista'. Os projetos têm efeitos reais mistos: infraestrutura que existe e é usada, mas com dívidas e condições que comprometem soberania em alguns casos. Nenhuma potência oferece infraestrutura por altruísmo.",
+    "answer": "A BRI revela uma estratégia de diversificação de rotas — criar caminhos terrestres e marítimos que não dependam do Pacífico. Cada porto e ferrovia também cria dependência dos países receptores em relação à China. O padrão repete o que potências históricas fizeram com infraestrutura colonial.",
+    "mediation": "Pergunte: 'Se o Brasil precisasse de uma ferrovia nova e só houvesse três ofertas — China, EUA e Banco Mundial — com condições diferentes, como comparar? Qual critério usar: taxa de juros, quem constrói, quais cláusulas, qual impacto ambiental?'",
+    "time": "50 minutos"
+  }
+}

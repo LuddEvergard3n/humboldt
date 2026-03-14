@@ -1,0 +1,55 @@
+{
+  "id": "em-energy-4",
+  "moduleId": "em-energy",
+  "title": "Pobreza energética: quando a luz não chega",
+  "summary": "800 milhões de pessoas sem eletricidade, 2,4 bilhões cozinhando com biomassa — a energia como dimensão da desigualdade global.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que uma mãe na República Democrática do Congo cozinha no escuro com lenha?",
+    "text": "A República Democrática do Congo tem o maior potencial hidrelétrico da África. O Rio Congo, com seu fluxo constante, poderia gerar 100 gigawatts — o suficiente para iluminar todo o continente africano. A barragem de Inga, incompleta desde os anos 1970, mal funciona. Enquanto isso, 75% da população congolesa não tem eletricidade. Cozinham com carvão vegetal e lenha — o que contribui para o desmatamento e para doenças respiratórias que matam mais crianças africanas do que a malária. O Congo tem o recurso. Não tem a infraestrutura, o financiamento, nem o Estado funcional para transformá-lo em energia acessível."
+  },
+  "guided": {
+    "title": "A geografia da pobreza energética",
+    "text": "Pobreza energética é a falta de acesso a energia moderna, acessível, confiável e limpa. Afeta 800 milhões de pessoas sem eletricidade e 2,4 bilhões que cozinham com biomassa sólida (lenha, carvão vegetal, esterco). Não é apenas desconforto — é uma questão de saúde, educação e desenvolvimento.",
+    "points": [
+      "Onde está: 80% dos sem-eletricidade vivem na África Subsaariana. Índia, Bangladesh e Indonésia respondem por grande parte dos que cozinham com biomassa. No Brasil, a exclusão elétrica persiste em áreas rurais da Amazônia e Nordeste.",
+      "Impacto na saúde: a fumaça de cozinhar com lenha em ambientes fechados mata 4 milhões de pessoas por ano — mais do que tuberculose e HIV combinados. Afeta principalmente mulheres e crianças, que passam mais tempo em casa.",
+      "Impacto na educação: crianças sem luz elétrica não estudam à noite. Escolas sem energia não têm computadores, refrigeração para vacinas ou equipamentos básicos. A privação energética perpetua a privação educacional.",
+      "Energia como direito: o ODS 7 da ONU (Energia Limpa e Acessível) estabelece energia como direito humano até 2030. O custo de universalizar o acesso elétrico global é estimado em US$ 35 bilhões por ano — menos de 1% do que o mundo gasta em subsídios a combustíveis fósseis."
+    ]
+  },
+  "relations": {
+    "title": "Subsídios aos fósseis versus acesso energético",
+    "text": "Em 2022, governos ao redor do mundo gastaram US$ 7 trilhões em subsídios diretos e indiretos a combustíveis fósseis — segundo o FMI, a maior parte na forma de preços abaixo do custo real (incluindo saúde e clima). No mesmo ano, o financiamento para energia limpa em países em desenvolvimento foi de US$ 150 bilhões. A relação é de 47 para 1: para cada dólar investido em energia limpa nos países que mais precisam, quarenta e sete dólares foram para subsidiar combustíveis fósseis. Não é que o dinheiro não existe. É que os incentivos políticos — emprego na indústria fóssil, estabilidade de preços, pressão de lobbies — ainda favorecem o status quo."
+  },
+  "caseStudy": {
+    "title": "Bangladesh: energia solar distribuída em escala",
+    "text": "Bangladesh tem 170 milhões de pessoas em um território menor que o estado de São Paulo. Durante décadas, metade da população era sem luz. Em 2003, o governo lançou o programa de painéis solares residenciais (Solar Home Systems), subsidiando a compra por famílias rurais. Em 2023, mais de 6 milhões de painéis estavam instalados — o maior programa de energia solar rural do mundo. Não dependem de rede elétrica: cada família tem seu próprio painel, bateria e energia para iluminação, carregamento de celular e rádio. A tecnologia solar, que ficou barata o suficiente para ser acessível, foi combinada com microcrédito e subsídio público. O resultado: Bangladesh reduziu sua taxa de sem-eletricidade de 47% (2000) para menos de 5% (2023) — enquanto muitos países africanos permanecem acima de 50%."
+  },
+  "application": "Pesquise o programa 'Luz para Todos' no Brasil: quando foi criado, quantas famílias conectou, quais regiões mais se beneficiaram e o que ainda falta. Compare com o programa de Bangladesh. Quais estratégias foram similares? Quais foram diferentes?",
+  "activity": {
+    "type": "single-choice",
+    "question": "O que melhor explica por que países como o Congo — com enorme potencial hidrelétrico — têm baixíssimo acesso à eletricidade para sua população?",
+    "correct": "d",
+    "options": [
+      { "value": "a", "label": "Falta de tecnologia disponível para construir usinas hidrelétricas em países em desenvolvimento." },
+      { "value": "b", "label": "O clima tropical inviabiliza a operação de usinas por causa das chuvas irregulares." },
+      { "value": "c", "label": "A população não tem interesse em energia elétrica, preferindo modos de vida tradicionais." },
+      { "value": "d", "label": "A falta de infraestrutura, capital, estabilidade política e Estado funcional impede transformar o recurso em energia acessível — mesmo quando o recurso existe em abundância." }
+    ],
+    "feedback": {
+      "correct": "Exato. O Congo tem o recurso — o Rio Congo. O que falta é a cadeia de condições para transformá-lo em energia elétrica acessível: capital para construir a usina, rede de distribuição para levar ao interior, Estado para regulamentar e subsidiar o acesso, paz para que as obras avancem. O potencial natural não se converte automaticamente em energia para as pessoas. Entre o rio e a luz, há décadas de investimento, instituições e política.",
+      "incorrect": "A tecnologia existe e o recurso existe. O gargalo não é técnico nem climático. Pense nas condições não-físicas necessárias para transformar uma queda d'água em energia na tomada de uma casa rural no interior do Congo."
+    },
+    "hints": [
+      { "type": "text", "content": "O Congo tem o rio. Mas entre o rio e a luz elétrica numa casa, o que precisa existir além da água caindo? Pense em infraestrutura, finanças, política, paz." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a pobreza energética como dimensão da desigualdade global, relaciona acesso à energia com saúde e educação, e analisa por que recursos naturais abundantes não garantem acesso popular à energia.",
+    "observe": "Cuidado com a naturalização da pobreza energética africana. O ponto é mostrar que não é falta de recurso — é falta das condições institucionais, financeiras e políticas para mobilizá-lo. Isso é diferente e permite perguntar: quem poderia ajudar a criar essas condições?",
+    "answer": "A falta de acesso à energia é resultado de fragilidade institucional, falta de capital para infraestrutura e ausência de estabilidade política — não de ausência do recurso. O Congo tem o maior potencial hidrelétrico da África e uma das menores taxas de eletrificação.",
+    "mediation": "Pergunte: 'Se o custo de universalizar a eletricidade global é US$ 35 bilhões por ano — e o mundo gasta US$ 7 trilhões subsidiando fósseis — o que isso diz sobre as prioridades políticas globais? É um problema de dinheiro ou de vontade?'",
+    "time": "50 minutos"
+  }
+}

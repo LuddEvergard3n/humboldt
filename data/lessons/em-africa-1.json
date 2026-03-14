@@ -1,0 +1,61 @@
+{
+  "id": "em-africa-1",
+  "moduleId": "em-africa",
+  "title": "Descolonização e heranças do colonialismo",
+  "summary": "Como a partilha colonial da África moldou fronteiras, conflitos e estruturas econômicas atuais.",
+  "activityType": "before-after",
+  "phenomenon": {
+    "title": "54 países criados com régua e caneta",
+    "text": "A África tem 54 países com fronteiras que cortam etnias, línguas e reinos históricos em pedaços arbitrários. Em 1884, potências europeias se reuniram em Berlim e dividiram o continente entre si em menos de três meses — sem consultar um único africano. O resultado: 10.000 grupos étnicos comprimidos em 54 Estados cujas fronteiras não correspondiam a nenhuma realidade social pré-existente. Essa partilha é a raiz de conflitos que duram até hoje."
+  },
+  "guided": {
+    "title": "A Conferência de Berlim e a partilha da África",
+    "text": "A Conferência de Berlim (1884-1885) formalizou a corrida europeia por território africano. As potências — Grã-Bretanha, França, Bélgica, Portugal, Alemanha, Itália — estabeleceram regras para a ocupação: quem 'efetivamente ocupasse' uma área teria direito sobre ela. O resultado foi a ocupação de 90% do continente por 1914. As fronteiras foram traçadas com base em rios, paralelos e meridianos — ignorando completamente as organizações políticas, etnias e culturas africanas.",
+    "points": [
+      "Fronteiras artificiais: 40% das fronteiras africanas são linhas retas (meridianos ou paralelos) — impossíveis na natureza, são produtos da geometria colonial.",
+      "Línguas coloniais: a maioria dos países africanos usa inglês, francês ou português como língua oficial — herança direta da colonização.",
+      "Extração de riqueza: o colonialismo reorganizou as economias africanas para exportar matérias-primas para a Europa, criando dependência estrutural.",
+      "Independências: entre 1956 (Sudão) e 1994 (fim do apartheid na África do Sul), 54 países se tornaram independentes — mas herdaram as fronteiras coloniais."
+    ]
+  },
+  "relations": {
+    "title": "Neocolonialismo: dependência sem ocupação",
+    "text": "A independência política não eliminou a dependência econômica. O neocolonialismo — conceito desenvolvido por Kwame Nkrumah, primeiro presidente de Gana — descreve como os países africanos continuaram dependentes das antigas metrópoles mesmo sem occupação formal: dívida externa em moedas estrangeiras, preços de commodities definidos em bolsas europeias, empresas multinacionais controlando mineração e agricultura, e acordos militares que garantem presença francesa em 14 países (Françafrique). A riqueza continua fluindo de África para fora."
+  },
+  "caseStudy": {
+    "title": "O Ruanda de 1994: o genocídio das categorias coloniais",
+    "text": "Em 1994, em 100 dias, cerca de 800.000 tutsis foram assassinados por hutus no Ruanda — o genocídio mais rápido da história. O ódio étnico entre hutus e tutsis não era uma tradição pré-colonial profunda: era uma construção colonial belga. Os belgas classificaram a população em carteiras de identidade com categorias étnicas fixas, privilegiaram tutsis no acesso à educação e ao poder, e criaram ressentimento estrutural. Quando saíram, deixaram a divisão sistematizada. O genocídio não foi consequência inevitável de 'tribalismos africanos' — foi consequência direta de como o colonialismo organizou as diferenças sociais em hierarquias racializadas."
+  },
+  "application": "Pesquise o mapa político da África. Identifique três fronteiras claramente retas. Pesquise quais grupos étnicos ou povos essas linhas dividem. O que aconteceu com esses povos após as independências?",
+  "activity": {
+    "type": "before-after",
+    "instruction": "Arraste o divisor para comparar o mapa da África em 1880 (pré-Berlim) e em 1914 (pós-partilha).",
+    "question": "O que a comparação entre os mapas da África em 1880 e 1914 revela sobre o impacto da Conferência de Berlim?",
+    "correct": "ocupacao-total",
+    "hintAfter": 1,
+    "compareConfig": {
+      "beforeLabel": "1880 — antes da Conferência de Berlim",
+      "afterLabel": "1914 — África completamente partilhada"
+    },
+    "options": [
+      { "value": "ocupacao-total", "label": "Ocupação quase total do continente em 30 anos, com fronteiras artificiais que ignoraram realidades étnicas e políticas africanas" },
+      { "value": "gradual",        "label": "Expansão gradual e negociada com líderes africanos ao longo de um século" },
+      { "value": "resistencia",    "label": "Resistência africana bem-sucedida que limitou a expansão europeia a zonas costeiras" },
+      { "value": "voluntaria",     "label": "Incorporação voluntária de reinos africanos em troca de proteção militar europeia" }
+    ],
+    "feedback": {
+      "correct": "Correto. Em 1880, apenas costas africanas estavam ocupadas por europeus; o interior era independente. Em 1914 — 30 anos depois — apenas Etiópia e Libéria permaneciam formalmente independentes. A Conferência de Berlim acelerou uma corrida que ocupou 90% do continente em três décadas, traçando fronteiras geométricas sem nenhuma consulta às populações locais.",
+      "incorrect": "A partilha foi rápida e unilateral, não gradual ou negociada. Em 1880, a maior parte do interior africano era governada por reinos e impérios independentes. Em 1914, quase nada restava deles."
+    },
+    "hints": [
+      { "type": "text", "content": "Em 1880: África independente no interior. Em 1914: quase totalmente colorida pelas cores das potências europeias. O que aconteceu nos 30 anos entre os dois mapas?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a Conferência de Berlim e suas consequências estruturais para a África contemporânea — fronteiras artificiais, dependência econômica e conflitos étnicos.",
+    "observe": "Evite reproduzir o estereótipo de que os africanos eram passivos. Houve resistência — Etiópia derrotou a Itália em Adwa (1896), Zulus resistiram aos britânicos. A resistência foi suprimida com violência tecnologicamente superior.",
+    "answer": "Ocupação quase total do continente em 30 anos. Fronteiras artificiais — 40% são linhas retas — que dividem etnias, línguas e reinos históricos sem correspondência com realidades sociais pré-coloniais.",
+    "mediation": "Proponha: 'Se as fronteiras africanas fossem redesenhadas para corresponder a grupos étnicos e linguísticos reais, quantos países existiriam? Isso resolveria os conflitos ou criaria novos?'",
+    "time": "50 minutos"
+  }
+}

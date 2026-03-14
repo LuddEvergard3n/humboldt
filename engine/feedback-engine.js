@@ -60,6 +60,8 @@ export class FeedbackEngine {
    */
   _check(activity, answer) {
     switch (activity.type) {
+      case 'compass':   // falls through — same validation as single-choice
+      case 'scale':      // falls through
       case 'single-choice':
         return String(answer) === String(activity.correct);
 

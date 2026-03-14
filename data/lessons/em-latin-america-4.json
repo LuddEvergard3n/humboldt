@@ -1,0 +1,55 @@
+{
+  "id": "em-latin-america-4",
+  "moduleId": "em-latin-america",
+  "title": "Mercosul, ALBA e a integração latino-americana",
+  "summary": "Os projetos de integração regional: lógica comercial, lógica política e seus impasses.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "30 anos de Mercosul — e as fronteiras ainda existem",
+    "text": "O Mercosul foi criado em 1991 pelo Tratado de Assunção entre Brasil, Argentina, Uruguai e Paraguai. A ideia: livre circulação de mercadorias, capital, serviços e pessoas — como a União Europeia, mas na América do Sul. Trinta anos depois, o comércio intra-bloco cresceu, mas a livre circulação de pessoas nunca veio, a tarifa externa comum é cheia de exceções, a moeda comum virou apenas projeto acadêmico, e o acordo com a UE — negociado por décadas — ainda não foi ratificado. Por que a integração latino-americana avança tão lentamente?"
+  },
+  "guided": {
+    "title": "Os modelos de integração regional",
+    "text": "A América Latina experimentou dois modelos opostos de integração nas últimas décadas: o Mercosul (lógica comercial, abertura de mercados, alinhamento ao sistema global) e o ALBA (lógica política, solidariedade ideológica, contraposição ao imperialismo norte-americano). Cada um reflete uma visão distinta do que a integração deve ser.",
+    "points": [
+      "Mercosul (1991): Brasil, Argentina, Paraguai, Uruguai (membros plenos); Bolivia (em processo). Objetivo: zona de livre comércio e união aduaneira. Impasse permanente entre Brasil (protecionismo industrial) e Argentina (instabilidade cambial).",
+      "ALBA (2004): Venezuela, Cuba, Bolívia, Equador, Nicarágua. Cooperação política e social — troca de petróleo venezuelano por médicos cubanos. Enfraqueceu com a crise venezuelana.",
+      "UNASUL (2008): integração política sul-americana — mecanismo de resolução de conflitos. Dissolvida de facto em 2019 quando membros de direita suspenderam participação.",
+      "CELAC (2011): integração hemisférica sem EUA e Canadá — fórum político, sem estrutura supranacional forte."
+    ]
+  },
+  "relations": {
+    "title": "Por que a integração é tão difícil",
+    "text": "Há razões estruturais para a dificuldade de integração: as economias sul-americanas são mais complementares com o Norte (exportam commodities para EUA, Europa e China) do que entre si (competem pelos mesmos mercados externos); a oscilação política regional — governos de direita e esquerda com visões opostas sobre integração se alternam — gera descontinuidade; e a assimetria de poder é enorme — o Brasil tem 50% do PIB e 48% da população da América do Sul, criando desconfiança dos vizinhos menores. O Mercosul Acordo com a UE, negociado por 25 anos, ainda aguarda ratificação em 2024 — bloqueado por lobby agrícola europeu e por exigências ambientais pós-desmatamento amazônico."
+  },
+  "caseStudy": {
+    "title": "A crise do Mercosul e o acordo UE-Mercosul",
+    "text": "Após 25 anos de negociações, o acordo de livre comércio entre o Mercosul e a União Europeia foi anunciado em 2019 — o maior acordo da história em termos de PIB combinado (US$ 20 trilhões). Não foi ratificado. A UE exige garantias ambientais (proteção da Amazônia) e de direitos trabalhistas antes da implementação. Agricultores europeus — especialmente franceses — protestam contra a concorrência de carne, frango e soja sul-americanas com custos menores. O Mercosul exige que bens industriais europeus não derrubem a indústria local. O acordo é um espelho das contradições da integração global: livre comércio que todos dizem querer, mas ninguém quer quando implica concorrência real para seus próprios setores."
+  },
+  "application": "Pesquise o comércio Brasil-Argentina nos últimos 10 anos. Quanto vale anualmente? Quais são os principais produtos trocados? Como a crise econômica argentina afeta as exportações brasileiras? O Mercosul beneficia mais o Brasil ou a Argentina?",
+  "activity": {
+    "question": "A principal diferença entre o Mercosul e o ALBA como projetos de integração regional é:",
+    "type": "single-choice",
+    "correct": "comercial-politico",
+    "options": [
+      { "value": "comercial-politico", "label": "O Mercosul tem lógica comercial (livre comércio e união aduaneira); o ALBA tem lógica política (solidariedade ideológica e contraposição aos EUA)" },
+      { "value": "tamanho",           "label": "O Mercosul é maior (mais países) e por isso mais influente que o ALBA" },
+      { "value": "ue",                "label": "O Mercosul é alinhado à União Europeia; o ALBA é alinhado à Rússia e à China" },
+      { "value": "militar",           "label": "O ALBA tem componente militar (defesa coletiva); o Mercosul é estritamente econômico" }
+    ],
+    "feedback": {
+      "correct": "Correto. O Mercosul segue a lógica do regionalismo aberto — integração que facilita o comércio e a inserção na economia global. O ALBA, criado por Chávez e Castro, parte da lógica de solidariedade política e antiimperialismo — cooperação entre países que se identificam ideologicamente para reduzir dependência dos EUA. São duas respostas diferentes à mesma pergunta: como se integrar numa região periférica?",
+      "incorrect": "O tamanho e os alinhamentos externos são consequências, não a diferença principal. A distinção fundamental é a lógica: mercado (Mercosul) vs. política (ALBA)."
+    },
+    "hints": [
+      { "type": "text", "content": "Quem fundou o Mercosul? Lula e Menem — pragmáticos do comércio. Quem fundou o ALBA? Chávez e Castro — com discurso antiimperialista. O que cada um priorizava: abertura comercial ou solidariedade política?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende os principais blocos de integração latino-americana, distingue suas lógicas (comercial vs. política) e analisa os obstáculos estruturais à integração regional.",
+    "observe": "Verifique se o aluno entende que integração regional não é ideologicamente neutra — reflete visões diferentes sobre inserção internacional, soberania e desenvolvimento. Mercosul e ALBA são projetos político-econômicos, não apenas acordos técnicos.",
+    "answer": "Mercosul: lógica comercial, regionalismo aberto, integração ao mercado global. ALBA: lógica política, solidariedade ideológica, contraposição ao imperialismo norte-americano. A diferença é de concepção: o que a integração regional deve alcançar?",
+    "mediation": "Proponha: 'Se você fosse negociador brasileiro, priorizaria o acordo com a UE (mais comércio global) ou o aprofundamento do Mercosul (mais integração regional)? O que cada opção implica para o Brasil?'",
+    "time": "50 minutos"
+  }
+}

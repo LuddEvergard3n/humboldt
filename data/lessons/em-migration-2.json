@@ -1,0 +1,55 @@
+{
+  "id": "em-migration-2",
+  "moduleId": "em-migration",
+  "title": "Muros, fronteiras e a política da exclusão",
+  "summary": "A proliferação de barreiras físicas e políticas à migração no século XXI.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "O mundo está se fechando",
+    "text": "Em 1989, a queda do Muro de Berlim foi celebrada como o fim da era dos muros. Em 2024, há mais de 70 muros e barreiras físicas entre países — três vezes mais do que havia em 1989. EUA-México (mais de 1.000 km de muro), Hungria-Sérvia, Espanha-Marrocos (Ceuta e Melilla), Índia-Bangladesh, Turquia-Síria, Israel-Gaza, Israel-Cisjordânia, Árabia Saudita-Iêmen. O paradoxo: o mundo nunca foi tão integrado economicamente, e nunca foi tão fragmentado para os corpos que se movem."
+  },
+  "guided": {
+    "title": "Por que os muros se multiplicam",
+    "text": "A proliferação de barreiras físicas reflete uma contradição estrutural do capitalismo globalizado: o capital, as mercadorias e a informação circulam livremente; as pessoas não. Essa assimetria é politicamente funcional — ela mantém baixos os salários nos países de origem (ao impedir a saída em massa) e pressiona salários nos países de destino (ao regular a entrada). Os muros não param a migração — estudos mostram que desviam rotas, tornando-as mais perigosas e mais caras, enriquecendo o crime organizado que oferece passagem.",
+    "points": [
+      "Externalização de fronteiras: a UE paga a Turquia (€6 bilhões), Líbia e Marrocos para conter migrantes antes que cheguem à Europa — transferindo a responsabilidade e o custo humanitário para países de trânsito.",
+      "Muros e mortalidade: o Mediterrâneo Central é a fronteira mais letal do mundo — mais de 25.000 mortos desde 2014. O deserto do Saara: 1.800 mortos por ano estimados.",
+      "Push-backs ilegais: devolução forçada de migrantes sem procedimento de asilo — prática documentada na Grécia, Croácia, Hungria e Espanha. Viola o non-refoulement.",
+      "Migração irregular e crime organizado: cada barreira eleva o preço cobrado por coiotes e passadores — financiando o crime organizado que os muros dizem combater."
+    ]
+  },
+  "relations": {
+    "title": "A política dos muros: eficácia e discurso",
+    "text": "Os muros têm eficácia política mesmo quando têm baixa eficácia prática. Não param a migração — mas mostram às populações nativas que o governo 'está fazendo algo'. O muro de Trump (que Obama também expandiu) não reduziu a migração irregular — que é determinada principalmente por condições nos países de origem. Mas é um símbolo poderoso de controle territorial em um momento em que muitos eleitores sentem que a globalização escapou ao controle. A instrumentalização da migração como ameaça ('invasão', 'substituição') é uma estratégia deliberada de polarização política com resultados eleitorais comprovados — em toda a Europa e nos EUA."
+  },
+  "caseStudy": {
+    "title": "O Mediterrâneo Central: a fronteira que mata",
+    "text": "A rota do Mediterrâneo Central — de Líbia e Tunísia para Itália e Malta — é a mais letal do mundo. Em 2023, mais de 2.500 mortes confirmadas; o número real é estimado em 3 a 4 vezes maior, pois muitos naufrágio não são registrados. Quem pega essa rota paga entre US$ 1.500 e US$ 5.000 a traficantes por uma passagem em bote inflável superlotado. A Guarda Costeira líbia — financiada pela UE — intercepta embarcações e devolve migrantes à Líbia, onde são frequentemente detidos em condições documentadas pela ONU como 'graves violações de direitos humanos'. A UE financia esse sistema enquanto proclama seus valores humanitários. Essa contradição é o núcleo da crise migratória europeia."
+  },
+  "application": "Pesquise o número de mortes na fronteira EUA-México em 2023. Compare com o número de mortos no Mediterrâneo no mesmo ano. O que explica a diferença de atenção midiática entre as duas rotas?",
+  "activity": {
+    "type": "flow-map",
+    "question": "Observe os principais fluxos migratórios rumo à Europa e à América do Norte. O que a direção dos fluxos revela sobre as causas da migração?",
+    "flows": [
+      { "from": "África Subsaariana", "to": "Europa (Mediterrâneo)", "value": 180, "label": "180.000/ano — rota mais letal" },
+      { "from": "Síria/Iraque/Afeganistão", "to": "Europa (Turquia)", "value": 250, "label": "Rota dos Bálcãs e Egeu" },
+      { "from": "América Central (Triângulo Norte)", "to": "EUA (México)", "value": 400, "label": "400.000 interceptados na fronteira/ano" },
+      { "from": "Venezuela",          "to": "Colômbia/Brasil/Peru", "value": 700, "label": "700.000 em 2023 — maior êxodo das Américas" },
+      { "from": "Ucrânia",            "to": "Europa (Leste)",       "value": 6000, "label": "6M após invasão russa de 2022" }
+    ],
+    "feedback": {
+      "correct": "Todos os grandes fluxos partem de regiões de conflito, pobreza extrema ou colapso de Estado em direção a países com maior segurança e renda. A direção dos fluxos mapeia a desigualdade global: as pessoas se movem para onde a vida é possível. A diferença de tratamento — ucranianos recebem acolhida automática na Europa; africanos e centro-americanos encontram muros — é também uma questão racial e geopolítica.",
+      "incorrect": "Observe a origem de cada fluxo: conflito (Síria, Ucrânia), colapso econômico (Venezuela, África Subsaariana), violência de gangues (Triângulo Norte). E observe o destino: países com maior segurança e renda. O que une todas as origens? O que une todos os destinos?"
+    },
+    "hints": [
+      { "type": "text", "content": "Síria tem guerra. Venezuela tem colapso econômico. Honduras tem violência de gangues. Ucrânia tem invasão militar. O que essas origens têm em comum? Para onde vão as pessoas? Por quê?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a proliferação de barreiras à migração, compreende sua lógica política e econômica, e avalia as consequências humanitárias das políticas de fechamento de fronteiras.",
+    "observe": "A questão migratória é politicamente polarizada. Mantenha o foco em dados e análise estrutural. Evite tanto a romantização da migração quanto a instrumentalização do 'problema da imigração'.",
+    "answer": "Os fluxos partem de zonas de conflito, pobreza e colapso de Estado e vão para países com maior segurança e renda — mapeando a desigualdade global. A diferença de tratamento entre fluxos (ucranianos vs. africanos) revela assimetrias raciais e geopolíticas no sistema de asilo.",
+    "mediation": "Proponha: 'Por que ucranianos que fugiram da guerra em 2022 receberam acolhida automática na Europa, enquanto sírios e afegãos que também fugiram de guerra encontraram muros e deportações? O que explica essa diferença?'",
+    "time": "50 minutos"
+  }
+}

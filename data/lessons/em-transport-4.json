@@ -1,0 +1,55 @@
+{
+  "id": "em-transport-4",
+  "moduleId": "em-transport",
+  "title": "Mobilidade urbana: tempo, desigualdade e o direito à cidade",
+  "summary": "Quem anda de carro, quem anda de ônibus e por que o tempo gasto no transporte é um indicador de desigualdade.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Por que um trabalhador da periferia de São Paulo passa 4 horas por dia no transporte?",
+    "text": "Em São Paulo, o tempo médio de deslocamento diário é de 2h43min — um dos maiores do mundo. Mas a média esconde uma desigualdade brutal: moradores do centro levam 40 minutos. Moradores da Zona Leste e do ABC levam 3 a 4 horas. O trabalhador que acorda às 4h30 para pegar o primeiro ônibus, que pega o metrô, que pega outro ônibus, e chega ao serviço às 7h30 — perde 4 horas de vida por dia que o seu chefe, que mora no Morumbi, não perde. Isso é transporte. Mas é também desigualdade, saúde, qualidade de vida, tempo com a família e acesso à cidade."
+  },
+  "guided": {
+    "title": "Mobilidade como questão de justiça territorial",
+    "text": "Mobilidade urbana não é apenas sobre engarrafamento ou pontualidade de metrô. É sobre quem tem acesso à cidade — aos empregos, escolas, hospitais, cultura — e quem é excluído por morar longe e depender de transporte lento e caro.",
+    "points": [
+      "Periferização e transporte: cidades brasileiras cresceram 'para fora' — habitação popular empurrada para periferia, emprego concentrado no centro. Resultado: longas distâncias obrigatórias para quem menos tem. O solo urbano barato da periferia tem um custo escondido: o tempo e o dinheiro do transporte.",
+      "Ônibus vs. metrô: o ônibus serve 70% dos usuários de transporte público no Brasil, mas é o mais lento e o mais vulnerável ao congestionamento. O metrô e o trem são mais rápidos — mas atendem apenas as linhas centrais. BRT (Bus Rapid Transit) — ônibus com faixa exclusiva e estações fechadas — é uma solução intermediária, mais barata que o metrô e mais rápida que o ônibus.",
+      "O carro individual: no Brasil, 60% dos deslocamentos urbanos são feitos de carro. O carro usa 15x mais espaço viário por passageiro que o ônibus. Subsídios ao carro (isenção de IPI, deduções fiscais, estacionamentos gratuitos) distorcem a escolha modal em favor de quem tem renda para comprar um carro.",
+      "Modelo DOTS (Desenvolvimento Orientado ao Transporte Sustentável): inverter a lógica — criar habitação densa ao redor das estações de metrô e BRT, misturando usos (moradia, trabalho, comércio, lazer) para reduzir a necessidade de deslocamento. Curitiba é o caso mais citado no Brasil; Bogotá, na América Latina."
+    ]
+  },
+  "relations": {
+    "title": "Curitiba, Bogotá e os limites do modelo BRT",
+    "text": "Curitiba ficou famosa mundialmente pelo BRT — ônibus com faixas exclusivas, estações tubo e integração tarifária — criado nos anos 1970 pelo prefeito Jaime Lerner. O modelo foi exportado para 200 cidades. Bogotá criou o TransMilenio em 2000, reduzindo o tempo de deslocamento e a emissão de CO2. Mas ambas as cidades mostram os limites: quando a cidade cresce além do BRT, o sistema satura. Bogotá tem o TransMilenio lotado e quilômetros de engarrafamento paralelo. Curitiba perdeu parte da eficiência com o crescimento metropolitano. O transporte público só funciona se a cidade cresce de forma orientada ao transporte — não de forma dispersa, como acontece com a maioria das cidades brasileiras."
+  },
+  "caseStudy": {
+    "title": "A tarifa zero e o debate sobre gratuidade do transporte",
+    "text": "Algumas cidades no mundo adotaram tarifa zero no transporte público — Tallin (Estônia), Dunquerque (França), Luxemburgo (inteiro). No Brasil, algumas cidades pequenas e médias adotaram. O argumento: a tarifa paga pelos usuários cobre apenas 30-50% dos custos reais; o restante já é subsidiado pelo poder público. Se o subsídio já existe, por que não zerar a tarifa e universalizar o acesso? Críticos argumentam que tarifa zero aumenta o uso, mas não necessariamente a eficiência — e pode transferir recursos de infraestrutura para custeio operacional. O debate é real: em 2013, a Revolta do Vinagre começou com o aumento de R$ 0,20 na tarifa de ônibus em São Paulo e virou crise política nacional. O transporte é o ponto em que desigualdade, mobilidade e direito à cidade se tornam explosivos."
+  },
+  "application": "Calcule o custo real do transporte para uma família da periferia de uma cidade brasileira: multiplique o gasto diário com transporte pelos dias úteis do mês. Compare com o salário mínimo. Que porcentagem da renda vai para o transporte? Pesquise o 'índice de acessibilidade urbana' da sua cidade.",
+  "activity": {
+    "type": "single-choice",
+    "question": "Por que o tempo de deslocamento é considerado um indicador de desigualdade urbana — e não apenas de eficiência do sistema de transporte?",
+    "correct": "c",
+    "options": [
+      { "value": "a", "label": "Porque pessoas ricas são mais impacientes e valorizam mais o seu tempo do que as pessoas pobres." },
+      { "value": "b", "label": "Porque o transporte público é sempre mais lento que o carro — então quem tem carro chega mais rápido independente de onde mora." },
+      { "value": "c", "label": "Porque a localização da moradia na cidade — determinada pela renda — define o tempo de deslocamento: quem mora na periferia por não poder pagar aluguel central perde horas por dia que moradores de áreas privilegiadas não perdem." },
+      { "value": "d", "label": "Porque o transporte público do Brasil é ruim para todo mundo, independente de onde a pessoa mora na cidade." }
+    ],
+    "feedback": {
+      "correct": "Correto. O tempo de deslocamento é desigual porque a localização na cidade é desigual — e a localização é determinada pela renda. Quem não pode pagar aluguel no centro mora na periferia e paga com tempo e saúde o que não paga com dinheiro de aluguel. O transporte revela e reproduz a desigualdade espacial da cidade: os empregos estão no centro, as casas dos trabalhadores estão na periferia, e o transporte entre os dois é caro, lento e degradante.",
+      "incorrect": "Pense não no transporte em si, mas em quem usa cada tipo de transporte e por quê. Por que um trabalhador mora longe do emprego? E quem mora perto? O que define onde cada pessoa pode morar numa cidade?"
+    },
+    "hints": [
+      { "type": "text", "content": "Por que um trabalhador que ganha salário mínimo mora na periferia, longe do emprego? Por que não mora perto? O que o impede? Essa resposta explica por que o deslocamento é desigual." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno relaciona mobilidade urbana com desigualdade socioespacial, compreende como a periferização e a estrutura viária afetam o acesso à cidade, e avalia diferentes modelos de transporte público.",
+    "observe": "Conecte com a experiência dos alunos — pergunte quanto tempo levam para chegar à escola. As diferenças dentro da sala de aula já podem revelar a desigualdade urbana.",
+    "answer": "O tempo de deslocamento é desigual porque a localização na cidade é desigual. Quem não pode pagar aluguel no centro mora na periferia — e paga com tempo o que não paga com dinheiro. O transporte revela e reproduz a separação espacial entre classes.",
+    "mediation": "Pergunte: 'Se o prefeito tivesse que escolher entre construir um metrô para o centro ou asfaltar estradas da periferia, quem seria beneficiado em cada caso? Qual seria mais justo? Qual seria mais eficiente?' Não existe resposta certa — o objetivo é o debate.",
+    "time": "50 minutos"
+  }
+}

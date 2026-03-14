@@ -1,0 +1,56 @@
+{
+  "id": "em-latin-america-2",
+  "moduleId": "em-latin-america",
+  "title": "Ciclo progressista e reação conservadora",
+  "summary": "A onda rosa dos anos 2000, suas conquistas, contradições e o refluxo pós-2015.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "Uma década em que a esquerda governou o continente",
+    "text": "Entre 1999 e 2010, uma sequência de eleições varreram a América Latina: Hugo Chávez (Venezuela), Lula (Brasil), Néstor Kirchner (Argentina), Tabaré Vázquez (Uruguai), Evo Morales (Bolívia), Rafael Correa (Equador), Fernando Lugo (Paraguai). A 'onda rosa' — governos de esquerda e centro-esquerda — implementou políticas sociais que reduziram a pobreza extrema em 70 milhões de pessoas em uma década. Depois, vieram o impeachment, a crise econômica, o escândalo de corrupção e a volta da direita. O que explica essa oscilação?"
+  },
+  "guided": {
+    "title": "A onda rosa: causas e conquistas",
+    "text": "A chegada da esquerda ao poder nos anos 2000 não foi coincidência — foi resultado de três fatores simultâneos: o fracasso do Consenso de Washington (ajuste fiscal, privatizações, abertura comercial nos anos 1990) em reduzir pobreza e desigualdade; o boom de commodities (2003-2013) que financiou políticas sociais sem reforma tributária profunda; e a organização de movimentos sociais (MST, movimento indígena boliviano, sem-teto urbanos) que pressionaram por mudanças.",
+    "points": [
+      "Redução da pobreza: Bolsa Família (Brasil), Bono Dignidad (Bolívia), Asignación Universal por Hijo (Argentina) — transferências condicionadas de renda que tiraram dezenas de milhões da miséria.",
+      "Ascensão da classe C: expansão do acesso a crédito, consumo e ensino superior para classes populares em toda a região.",
+      "Expansão de direitos: reconhecimento constitucional de direitos indígenas (Bolívia, Equador), ampliação de direitos LGBT (Argentina legalizou casamento igualitário em 2010).",
+      "Contradição central: financiamento via exportação de commodities reproduzia o modelo extrativista que se dizia combater. O neoextrativismo progressista."
+    ]
+  },
+  "relations": {
+    "title": "O refluxo: impeachments, crises e Bolsonaro",
+    "text": "A partir de 2013-2015, o ciclo se inverteu: o fim do boom de commodities reduziu a arrecadação e exposou a dependência do modelo; escândalos de corrupção (Lava Jato no Brasil, Odebrecht em vários países) desgastaram governos; classes médias que haviam ascendido se tornaram conservadoras na nova posição social. O impeachment de Dilma Rousseff (2016), a eleição de Bolsonaro (2018), Macri na Argentina, Piñera no Chile — a oscilação é estrutural: sem reformar o modelo econômico dependente, governos progressistas ficam reféns do preço das commodities e da aprovação do mercado financeiro."
+  },
+  "caseStudy": {
+    "title": "Bolívia: do MAS ao golpe e de volta",
+    "text": "Evo Morales governou a Bolívia de 2006 a 2019 — o mandato mais longo de um presidente boliviano, de um país com 187 golpes de Estado em sua história. Durante seu governo, o PIB triplicou, a pobreza extrema caiu de 38% para 17%, e pela primeira vez um indígena governou o país majoritariamente indígena. Em 2019, após eleições contestadas, Morales renunciou sob pressão militar e foi ao exílio (o governo interino chamou o evento de golpe; Morales e apoiadores, também). Seu sucessor do MAS, Luis Arce, venceu as eleições de 2020 com 55% dos votos — o MAS voltou ao poder. A Bolívia ilustra tanto as conquistas quanto as fragilidades do ciclo progressista: transformações reais, base social sólida, e vulnerabilidade institucional persistente."
+  },
+  "application": "Monte uma linha do tempo da política da América do Sul de 2000 a 2024. Marque as eleições de esquerda e direita nos principais países (Brasil, Argentina, Chile, Bolívia, Venezuela, Colômbia). Existe um padrão regional, ou cada país segue sua própria lógica?",
+  "activity": {
+    "question": "A principal contradição do 'ciclo progressista' latino-americano dos anos 2000 foi:",
+    "type": "single-choice",
+    "correct": "neoextrativismo",
+    "options": [
+      { "value": "neoextrativismo", "label": "Financiar políticas sociais redistributivas com a exportação de commodities — reproduzindo o modelo extrativista que se dizia combater" },
+      { "value": "corrupcao",       "label": "A corrupção sistemática que desviou recursos destinados às políticas sociais" },
+      { "value": "venezuela",       "label": "A influência desestabilizadora do modelo venezuelano sobre os demais governos progressistas" },
+      { "value": "eua",             "label": "A interferência dos EUA que desestabilizou sistematicamente os governos de esquerda" }
+    ],
+    "feedback": {
+      "correct": "Correto. O neoextrativismo progressista — expandir soja, minério e petróleo para financiar programas sociais — resolveu a pobreza de curto prazo sem transformar a estrutura produtiva. Quando o preço das commodities caiu (2013-2016), a arrecadação caiu, o déficit aumentou, e os programas ficaram ameaçados. A dependência do modelo extrativista foi o calcanhar de Aquiles do ciclo progressista.",
+      "incorrect": "Corrupção existiu, mas não é a contradição estrutural — houve corrupção também nos governos de direita. Venezuela teve influência limitada. Os EUA interferiram pontualmente, mas não explicam a oscilação regional. A contradição central é econômica: o modelo de financiamento.",
+      "incorrect_extra": "A contradição estrutural está no modelo econômico, não em atores externos ou no comportamento individual dos governantes."
+    },
+    "hints": [
+      { "type": "text", "content": "O que sustentou o Bolsa Família, o Bono Dignidad, os gastos sociais bolivianos? De onde vinha o dinheiro? O que aconteceu com esse financiamento quando o preço do petróleo e das commodities caiu em 2014-2015?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende o ciclo progressista latino-americano, suas conquistas sociais, sua contradição central (neoextrativismo) e o processo de refluxo conservador.",
+    "observe": "Evite julgamento moral dos governos — avalie consequências. O ciclo progressista produziu reduções reais de pobreza; também produziu dependência de commodities e, em alguns casos, erosão institucional. Ambos são verdadeiros.",
+    "answer": "Neoextrativismo: financiamento das políticas sociais via exportação de commodities, sem transformação da estrutura produtiva. Quando o boom terminou (2013-2016), os governos ficaram expostos fiscalmente e politicamente.",
+    "mediation": "Proponha: 'É possível fazer redistribuição social sem mudar o modelo econômico extrativista? Ou redistribuir dentro do modelo existente é sempre provisório?'",
+    "time": "50 minutos"
+  }
+}

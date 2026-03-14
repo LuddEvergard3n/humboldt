@@ -109,7 +109,6 @@ export class UI {
 
     this._state.on('fontSize', size => {
       // Escala conteúdo principal via zoom CSS (não afeta rem da interface)
-      const scale = size / 16;
       document.getElementById('main-content').style.fontSize = `${size}px`;
     });
   }

@@ -76,10 +76,16 @@ export class ActivityEngine {
   // 2. Scale — Slider de escala
   // -------------------------------------------------------
   async _mountScale() {
-    const config = this._lesson.activity?.scaleConfig || {};
+    const act    = this._lesson.activity || {};
+    const config = act.scaleConfig || {};
+    const steps  = config.steps || [];
+
+    // Detect whether any step carries its own question — enables per-step mode.
+    const hasPerStepQuestions = steps.some(s => s.question);
+
     this._el.innerHTML = `
       <p style="margin-bottom:var(--space-4);">
-        ${this._lesson.activity?.instruction || 'Ajuste a escala e observe como o mapa muda.'}
+        ${act.instruction || 'Ajuste a escala e observe como o mapa muda.'}
       </p>
       <div style="margin:var(--space-6) 0;">
         <label style="font-family:var(--font-mono);font-size:var(--size-xs);
@@ -97,22 +103,65 @@ export class ActivityEngine {
         </div>
         <p id="scale-desc" style="margin-top:var(--space-4);font-size:var(--size-sm);
                                    color:var(--color-text-mid);min-height:3em;"></p>
-      </div>`;
+      </div>
+      ${hasPerStepQuestions ? '<div id="scale-question" style="margin-top:var(--space-4);"></div>' : ''}`;
 
-    const slider = this._el.querySelector('#scale-slider');
-    const desc   = this._el.querySelector('#scale-desc');
-    const steps  = config.steps || [];
+    const slider   = this._el.querySelector('#scale-slider');
+    const desc     = this._el.querySelector('#scale-desc');
+    const qWrap    = this._el.querySelector('#scale-question');
+
+    // Track which step index is currently rendered to avoid redundant re-renders.
+    let _activeStepIdx = -1;
+
+    const renderStepQuestion = (step, stepIdx) => {
+      if (!qWrap || !step?.question) return;
+      if (stepIdx === _activeStepIdx) return;   // already showing this step
+      _activeStepIdx = stepIdx;
+
+      // Build a synthetic activity object compatible with FeedbackEngine.validate()
+      const stepAct = {
+        question:  step.question,
+        correct:   step.correct,
+        options:   step.options || [],
+        feedback:  step.feedback || act.feedback || {},
+        hints:     step.hints   || act.hints   || [],
+        hintAfter: step.hintAfter ?? act.hintAfter ?? 2,
+      };
+
+      qWrap.innerHTML = `
+        <p style="font-size:var(--size-md);font-weight:600;margin-bottom:var(--space-4);">
+          ${stepAct.question}
+        </p>
+        <div style="display:flex;flex-direction:column;gap:var(--space-2);">
+          ${stepAct.options.map(opt => `
+            <button class="btn btn-outline scale-opt"
+                    data-option="${opt.value}"
+                    style="text-align:left;justify-content:flex-start;">
+              ${opt.label}
+            </button>`).join('')}
+        </div>`;
+
+      qWrap.querySelectorAll('.scale-opt').forEach(btn => {
+        btn.addEventListener('click', () => {
+          this._feedback.validate(stepAct, btn.dataset.option);
+        });
+      });
+    };
 
     const update = () => {
-      const v = Number(slider.value);
-      const step = steps.find(s => v >= s.min && v <= s.max);
-      desc.textContent = step?.description || '';
+      const v    = Number(slider.value);
+      const idx  = steps.findIndex(s => v >= s.min && v <= s.max);
+      const step = idx >= 0 ? steps[idx] : null;
+      if (desc) desc.textContent = step?.description || '';
+      if (hasPerStepQuestions) renderStepQuestion(step, idx);
     };
 
     slider.addEventListener('input', update);
     update();
 
-    if (this._lesson.activity) this._mountSingleChoice();
+    // In per-step mode the question is rendered inline per step above.
+    // Only append the global single-choice block when steps carry no questions.
+    if (this._lesson.activity && !hasPerStepQuestions) this._mountSingleChoice();
   }
 
   // -------------------------------------------------------

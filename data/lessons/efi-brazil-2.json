@@ -30,7 +30,7 @@
   "application": "Escolha uma região do Brasil diferente da sua. Pesquise: qual é o clima, o bioma principal e a comida típica.",
   "activity": {
     "question": "Qual região do Brasil tem a maior floresta tropical do mundo?",
-    "type": "single-choice",
+    "type": "map-click",
     "hintAfter": 1,
     "correct": "norte",
     "options": [

@@ -1,0 +1,52 @@
+{
+  "id": "em-latin-america-1",
+  "moduleId": "em-latin-america",
+  "title": "América Latina: território, desigualdade e dependência",
+  "summary": "Estrutura territorial, herança colonial e a teoria da dependência na América Latina.",
+  "activityType": "map-click",
+  "phenomenon": {
+    "title": "A região mais desigual do mundo",
+    "text": "A América Latina tem 650 milhões de pessoas e é a região mais desigual do mundo — não a mais pobre. O Brasil, com coeficiente de Gini de 0,52, tem PIB maior que a Itália, mas sua riqueza está concentrada de forma que o 1% mais rico detém mais renda do que os 50% mais pobres. Essa desigualdade não é acidente histórico — é produto de uma estrutura colonial que durou 300 anos e foi preservada pelas elites locais após as independências. Entender a América Latina exige entender como essa estrutura funciona e por que é tão difícil de mudar."
+  },
+  "guided": {
+    "title": "Estrutura regional e herança colonial",
+    "text": "A América Latina foi colonizada por Espanha e Portugal a partir de 1492, com a lógica de extração de riqueza para a metrópole: metais preciosos (prata de Potosí, ouro de Minas Gerais), açúcar (Brasil, Caribe), algodão. Esse modelo organizou o território em torno de enclaves de exportação, ignorando o desenvolvimento de mercado interno e de integração regional. As independências (1810-1825 na América espanhola; 1822 no Brasil) transferiram o poder das metrópoles europeias para as elites locais — sem redistribuição de terra, sem abolição imediata da escravidão, sem inclusão de povos indígenas.",
+    "points": [
+      "Latifúndio: concentração fundiária herdada do período colonial. Brasil: 1% dos proprietários controlam 47% das terras agrícolas.",
+      "Exportação de commodities: soja, minério, petróleo, cobre — padrão colonial de inserção na economia mundial.",
+      "Teoria da dependência: Raúl Prebisch (CEPAL), Fernando Henrique Cardoso e Enzo Falleto — a América Latina está estruturalmente subordinada ao capitalismo central. Crescer exportando commodities reproduz a dependência, não a supera.",
+      "Mestiçagem e racismo estrutural: populações indígenas e afrodescendentes são desproporcionalmente pobres em todos os países da região."
+    ]
+  },
+  "relations": {
+    "title": "Integração regional: promessas e limites",
+    "text": "A América Latina tentou várias formas de integração regional: ALALC (1960), ALADI (1980), Mercosul (1991), ALBA (2004), UNASUL (2008), CELAC (2011). Nenhuma alcançou a profundidade da União Europeia. As razões são estruturais: economias que competem entre si (todos exportam commodities similares), instabilidade política que gera descontinuidade de políticas, soberanias ciosas de qualquer cessão de poder supranacional, e proximidade dos EUA — que historicamente interpretaram qualquer integração sul-americana como ameaça. O Mercosul, o bloco mais sólido, passou décadas estagnado pelas divergências entre Brasil e Argentina."
+  },
+  "caseStudy": {
+    "title": "A Venezuela: da abundância ao colapso",
+    "text": "A Venezuela tinha as maiores reservas de petróleo do mundo (300 bilhões de barris) e, nos anos 1970, era um dos países mais ricos da América do Sul. Em 2024, é o maior êxodo da história recente da região: mais de 7 milhões de venezolanos emigraram — para Colômbia (2,5 milhões), Peru, Chile, Brasil, EUA. A combinação de colapso econômico (hiperinflação de 65.000% em 2018), autoritarismo crescente, queda do preço do petróleo e má gestão econômica destruiu em 20 anos o que parecia ser uma história de sucesso do 'petróleo para o povo'. A Venezuela é um estudo de caso sobre como a abundância de recursos naturais pode ser uma maldição — a 'doença holandesa' — quando combinada com má governança e dependência de uma única commodity."
+  },
+  "application": "Pesquise o Índice de Gini dos países da América do Sul. Qual tem maior desigualdade? Qual tem menor? O que esses países têm em comum? Compare com os países europeus de menor desigualdade.",
+  "activity": {
+    "type": "map-click",
+    "mapId": "world-simple",
+    "instruction": "Clique na região do mapa onde fica a América do Sul — continente mais desigual do mundo e berço da teoria da dependência.",
+    "question": "Qual região do mapa corresponde à América do Sul, onde ficam Brasil, Argentina, Venezuela, Colômbia, Peru e os demais países da América Latina meridional?",
+    "correct": "america-sul",
+    "hintAfter": 1,
+    "feedback": {
+      "correct": "Correto. A América do Sul fica no hemisfério ocidental, ao sul do Caribe e da América Central. É o continente com maior desigualdade de renda do mundo e berço de importantes teorias do desenvolvimento — como a teoria da dependência formulada na CEPAL.",
+      "incorrect": "A América do Sul é o subcontinente abaixo da América Central e do Caribe. Brasil, Argentina, Chile, Colômbia, Venezuela, Peru, Bolívia e Paraguai ficam todos nessa região."
+    },
+    "hints": [
+      { "type": "text", "content": "Brasil, Argentina, Chile, Colômbia, Venezuela. Todos ficam no subcontinente ao sul do Caribe, no hemisfério ocidental. É a massa de terra que termina no Cabo Horn." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende a estrutura territorial e a herança colonial da América Latina, analisa a teoria da dependência e avalia os desafios da integração regional.",
+    "observe": "Verifique se o aluno distingue desigualdade (distribuição de renda) de pobreza (nível absoluto de renda). A América Latina não é a mais pobre — é a mais desigual. Essa distinção é fundamental para entender a política regional.",
+    "answer": "América do Sul (data-id: america-sul). Região com maior desigualdade do mundo, exportadora de commodities, marcada pela herança colonial latifundiária. Brasil como maior economia e maior país da região.",
+    "mediation": "Proponha: 'Se a América Latina tem enormes recursos naturais (petróleo, minério, soja, água), por que continua sendo a região mais desigual? O recurso é o problema ou a solução?'",
+    "time": "50 minutos"
+  }
+}

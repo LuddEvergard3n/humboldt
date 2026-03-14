@@ -1,0 +1,55 @@
+{
+  "id": "em-migration-4",
+  "moduleId": "em-migration",
+  "title": "Imigração, xenofobia e direitos",
+  "summary": "A política da imigração nos países de destino: integração, discriminação e extremismo.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "O imigrante que mantém a previdência europeia",
+    "text": "A Europa envelhece. Em 2050, haverá dois trabalhadores ativos para cada aposentado — era seis em 1960. Sem imigração, a previdência social colapsa: não há contribuintes suficientes. O paradoxo: os mesmos países que precisam de imigrantes para sustentar seus sistemas de bem-estar elegem partidos que prometem 'fechar as fronteiras'. A Alemanha precisa de 400.000 imigrantes por ano para manter sua força de trabalho; em 2022, a AfD — partido de extrema direita anti-imigração — tornou-se o segundo maior partido no país. O imigrante é, ao mesmo tempo, economicamente necessário e politicamente demonizado."
+  },
+  "guided": {
+    "title": "Integração e exclusão nos países de destino",
+    "text": "A experiência dos imigrantes nos países de destino varia enormemente dependendo da política de integração, da situação econômica do país receptor e das características do grupo migrante.",
+    "points": [
+      "Modelos de integração: multiculturalismo (Canadá, Reino Unido — reconhece diferenças culturais); assimilacionismo (França — exige adoção da cultura dominante); interculturalismo (Portugal, Escandinávia — diálogo entre culturas). Cada modelo tem defensores e críticos.",
+      "Discriminação estrutural: imigrantes têm maior desemprego, menor acesso a habitação de qualidade e maior sujeição a violência policial em todos os países europeus — independente do modelo.",
+      "Segunda geração: filhos de imigrantes nascidos no país de destino frequentemente vivem em 'entre-lugares' — não são plenamente aceitos no país dos pais nem no país onde nasceram.",
+      "Contribuição econômica: imigrantes pagam mais em impostos do que recebem em serviços públicos na maioria dos países desenvolvidos (FMI, 2016) — mas a percepção pública é frequentemente o oposto."
+    ]
+  },
+  "relations": {
+    "title": "Xenofobia e extremismo de direita",
+    "text": "O crescimento de partidos de extrema direita na Europa — AfD (Alemanha), Rassemblement National (França), Vox (Espanha), Fratelli d'Italia (Itália), Fidesz (Hungria) — tem na imigração seu tema central. A narrativa compartilhada: 'invasão', 'substituição' e ameaça à identidade cultural. Pesquisas mostram que o nível real de imigração não é o principal preditor do voto xenófobo — a percepção distorcida de quanto imigrante há no país é mais relevante. Em países como Hungria (pouquíssimos imigrantes), o discurso anti-imigrante é ainda mais intenso do que em países como Alemanha ou Suécia com imigração real. O imigrante é uma figura política — um bode expiatório — mais do que um fato demográfico nos países de menor imigração."
+  },
+  "caseStudy": {
+    "title": "O Brasil e os imigrantes: da acolhida ao racismo",
+    "text": "O Brasil tem histórico de imigração positivo — italianos, japoneses, alemães, libaneses construíram parte da identidade nacional. Mas o Brasil contemporâneo é também destino de imigrantes pobres e negros: haitianos (após o terremoto de 2010), venezuelanos (após 2015), congoleses e angolanos. Esses grupos enfrentam racismo explícito, dificuldade de regularização, exploração trabalhista e violência. Em Pacaraima (RR), em 2018, moradores queimaram acampamento de venezuelanos. Em São Paulo, haitianos relatam dificuldade de alugar imóveis — discriminação racial em nome do status migratório. O Brasil acolhe bem o imigrante europeu branco que construiu o século XX; tem mais dificuldade com o imigrante negro e caribenho do século XXI."
+  },
+  "application": "Pesquise qual é a política atual de imigração do Brasil (Lei de Migração de 2017). O que mudou em relação à lei anterior (Estatuto do Estrangeiro de 1980, da ditadura)? Quais direitos os imigrantes têm no Brasil?",
+  "activity": {
+    "question": "Pesquisas mostram que em países com discurso político anti-imigração intenso, a população tende a superestimar a porcentagem de imigrantes na população. Isso sugere que:",
+    "type": "single-choice",
+    "correct": "percepcao-politica",
+    "options": [
+      { "value": "percepcao-politica", "label": "O discurso político molda a percepção da realidade — a xenofobia alimenta percepções distorcidas que retroalimentam o discurso xenófobo" },
+      { "value": "dados-errados",     "label": "Os dados oficiais sobre imigração são incorretos — há mais imigrantes do que o governo reconhece" },
+      { "value": "racional",          "label": "A preocupação com imigração é racional — mesmo que os números sejam superestimados, os impactos são reais" },
+      { "value": "midia",             "label": "A mídia mainstream esconde dados reais de imigração, criando desinformação intencional" }
+    ],
+    "feedback": {
+      "correct": "Correto. Pesquisas do IPSOS em 40 países mostram que populações superestimam sistematicamente a proporção de imigrantes — em média, por fator de 3 a 4. Em países com forte discurso anti-imigração (Hungria, Itália), a superestimação é maior, mesmo com menos imigrantes reais. O discurso político cria percepções que independem dos fatos — e essas percepções distorcidas se tornam o fundamento de políticas reais.",
+      "incorrect": "Os dados oficiais são verificáveis — e as superestimações são consistentes e documentadas. A questão não é os dados serem errados, mas por que as percepções divergem tão sistematicamente dos dados reais."
+    },
+    "hints": [
+      { "type": "text", "content": "Na Hungria, 2% da população é imigrante — mas a Hungria tem um dos discursos anti-imigração mais intensos da Europa. Na Alemanha, 16% são imigrantes — e a resistência política é menor. Se o problema fosse o número real de imigrantes, esperaríamos o oposto. O que explica isso?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa as políticas de integração de imigrantes, compreende a relação entre discurso político e percepção da realidade, e avalia o papel da xenofobia no contexto das democracias contemporâneas.",
+    "observe": "A imigração é tema sensível com alta carga emocional. Mantenha o foco em dados e análise estrutural. Ajude o aluno a distinguir preocupações legítimas com política migratória de xenofobia instrumentalizada politicamente.",
+    "answer": "O discurso político molda percepções que se tornam desconectadas da realidade — e essas percepções distorcidas fundamentam políticas reais. É um exemplo de como a construção discursiva tem consequências materiais.",
+    "mediation": "Proponha: 'Por que o Brasil acolheu imigrantes europeus no século XIX com incentivos governamentais, e hoje trata imigrantes haitianos e venezuelanos com desconfiança? O que mudou — os imigrantes ou o Brasil?'",
+    "time": "50 minutos"
+  }
+}

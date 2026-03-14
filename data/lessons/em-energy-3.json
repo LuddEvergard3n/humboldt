@@ -1,0 +1,61 @@
+{
+  "id": "em-energy-3",
+  "moduleId": "em-energy",
+  "title": "Transição energética: velocidade, contradições e interesses",
+  "summary": "A substituição de combustíveis fósseis por renováveis — por que é urgente, por que é lenta e quem ganha e perde.",
+  "activityType": "before-after",
+  "phenomenon": {
+    "title": "Por que a Europa instalou mais energia solar em 2023 do que em toda a história anterior?",
+    "text": "Em 2023, a União Europeia instalou 56 gigawatts de energia solar — mais do que toda a capacidade instalada até 2020. A crise do gás russo de 2022 fez o que décadas de pressão ambiental não conseguiram: tornou a transição energética uma questão de segurança nacional. Quando energia cara ameaça a indústria e o aquecimento de casas, países agem rapidamente. O mesmo fenômeno acelerou a produção de carros elétricos, o investimento em hidrogênio verde e a expansão da eólica. A urgência climática era conhecida há décadas. O que faltava era a urgência econômica e geopolítica."
+  },
+  "guided": {
+    "title": "O que é a transição energética e por que é difícil",
+    "text": "Transição energética é a substituição progressiva de fontes de energia baseadas em carbono (petróleo, gás, carvão) por fontes renováveis (solar, eólica, hidrelétrica, hidrogênio verde). É tecnicamente viável — mas politicamente, economicamente e geograficamente complexa.",
+    "points": [
+      "Tecnologia existe: o custo do painel solar caiu 90% entre 2010 e 2023. A eólica offshore é hoje mais barata que qualquer termelétrica nova. O problema não é tecnológico — é de infraestrutura, financiamento e vontade política.",
+      "Interesses estabelecidos: países produtores de petróleo (Rússia, Arábia Saudita, Venezuela) e empresas do setor têm incentivo para retardar a transição. Estima-se que 80% das reservas provadas de petróleo precisariam ficar no subsolo para cumprir as metas do Acordo de Paris.",
+      "Novos minerais críticos: painéis solares precisam de silício, baterias de lítio precisam de lítio e cobalto, turbinas eólicas precisam de terras-raras. A transição energética criou uma nova geopolítica dos minerais — com China dominando o processamento de terras-raras e o Congo controlando 70% do cobalto mundial.",
+      "Desigualdade da transição: países ricos podem financiar a substituição de infraestrutura. Países pobres, que menos emitiram historicamente, sofrem mais com o clima — e têm menos recursos para se adaptar. A justiça climática questiona quem paga a conta da transição."
+    ]
+  },
+  "relations": {
+    "title": "Hidrogênio verde: a próxima disputa geopolítica",
+    "text": "O hidrogênio verde — produzido por eletrólise com energia renovável — é apontado como o combustível do futuro para indústria pesada, aviação e navios. Brasil, Chile e Austrália têm vantagem competitiva natural: sol, vento e espaço. Mas para exportar hidrogênio, é preciso infraestrutura de liquefação, navios especializados e terminais receptores. Quem constrói essa cadeia primeiro define quem domina o mercado. A Europa já fecha contratos com Marrocos, Namíbia e Brasil. A questão é se o Brasil conseguirá agregar valor — exportando o hidrogênio — ou apenas a eletricidade barata que o produz, repetindo o padrão do café e da soja."
+  },
+  "caseStudy": {
+    "title": "Ceará e Rio Grande do Norte: polo eólico do Brasil",
+    "text": "O Nordeste brasileiro tem os melhores ventos da América do Sul — consistentes, previsíveis, sem necessidade de armazenamento caro. Resultado: o Ceará e o Rio Grande do Norte concentram 60% da capacidade eólica instalada do Brasil, que já é o quinto maior produtor de energia eólica do mundo. Cidades como Osório (RS) e Caetité (BA) receberam turbinas eólicas que transformaram a economia local. Mas o modelo tem contradições: a terra onde ficam as turbinas é dos fazendeiros, não das comunidades tradicionais. O vento é de todos — a renda, nem sempre. E a energia gerada vai para a rede nacional, não necessariamente para iluminar as casas ao redor das turbinas."
+  },
+  "application": "Pesquise o custo do megawatt/hora de energia solar, eólica, gás natural e carvão no Brasil em 2024 (fonte: ANEEL ou EPE). Qual é hoje a fonte mais barata? Qual é a mais cara? Se a economia já favorece as renováveis, o que impede uma transição mais rápida?",
+  "activity": {
+    "type": "before-after",
+    "compareConfig": {
+      "beforeLabel": "Matriz elétrica global — 2000",
+      "afterLabel": "Matriz elétrica global — 2023",
+      "beforeSvg": "<svg viewBox=\"0 0 600 340\" style=\"width:100%;height:auto;background:#f2ede3\" aria-label=\"Matriz 2000\"><rect width=\"600\" height=\"340\" fill=\"#f2ede3\"/><rect x=\"40\" y=\"40\" width=\"120\" height=\"240\" fill=\"#3a3a3a\" rx=\"4\"/><text x=\"100\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Carvão 38%</text><rect x=\"180\" y=\"100\" width=\"100\" height=\"180\" fill=\"#8b5e2e\" rx=\"4\"/><text x=\"230\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Petróleo 27%</text><rect x=\"300\" y=\"130\" width=\"90\" height=\"150\" fill=\"#6fa8c4\" rx=\"4\"/><text x=\"345\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Gás 20%</text><rect x=\"410\" y=\"180\" width=\"70\" height=\"100\" fill=\"#4a7a5f\" rx=\"4\"/><text x=\"445\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Hídrica 15%</text><rect x=\"500\" y=\"260\" width=\"40\" height=\"20\" fill=\"#c4a35a\" rx=\"4\"/><text x=\"520\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"11\" fill=\"#1e3a5f\">Sol+V 0%</text><text x=\"300\" y=\"20\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e3a5f\">Matriz Elétrica Global — 2000</text></svg>",
+      "afterSvg": "<svg viewBox=\"0 0 600 340\" style=\"width:100%;height:auto;background:#f2ede3\" aria-label=\"Matriz 2023\"><rect width=\"600\" height=\"340\" fill=\"#f2ede3\"/><rect x=\"40\" y=\"80\" width=\"100\" height=\"200\" fill=\"#3a3a3a\" rx=\"4\"/><text x=\"90\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Carvão 30%</text><rect x=\"160\" y=\"140\" width=\"80\" height=\"140\" fill=\"#8b5e2e\" rx=\"4\"/><text x=\"200\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Petróleo 22%</text><rect x=\"260\" y=\"120\" width=\"80\" height=\"160\" fill=\"#6fa8c4\" rx=\"4\"/><text x=\"300\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Gás 24%</text><rect x=\"360\" y=\"170\" width=\"70\" height=\"110\" fill=\"#4a7a5f\" rx=\"4\"/><text x=\"395\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Hídrica 14%</text><rect x=\"450\" y=\"100\" width=\"90\" height=\"180\" fill=\"#c4a35a\" rx=\"4\"/><text x=\"495\" y=\"300\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"13\" fill=\"#1e3a5f\">Sol+Eól 10%</text><text x=\"300\" y=\"20\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e3a5f\">Matriz Elétrica Global — 2023</text><text x=\"495\" y=\"90\" text-anchor=\"middle\" font-family=\"Georgia,serif\" font-size=\"12\" fill=\"#8b5e2e\">+∞ desde 0%</text></svg>"
+    },
+    "question": "Comparando as matrizes de 2000 e 2023, qual mudança é mais significativa e o que ela revela sobre a transição energética?",
+    "correct": "c",
+    "options": [
+      { "value": "a", "label": "O carvão aumentou sua participação — provando que a transição não está acontecendo." },
+      { "value": "b", "label": "O petróleo ainda domina a matriz — a dependência não mudou nada em 23 anos." },
+      { "value": "c", "label": "Solar e eólica partiram de zero e já respondem por 10% — uma transformação acelerada, mas ainda insuficiente para as metas climáticas." },
+      { "value": "d", "label": "A energia hidrelétrica perdeu participação — prova que as renováveis estão substituindo as outras renováveis, não os fósseis." }
+    ],
+    "feedback": {
+      "correct": "Correto. Em 2000, solar e eólica eram irrelevantes na escala global. Em 2023, respondem por ~10% da geração elétrica mundial — uma transformação enorme em duas décadas. Mas os fósseis ainda respondem por 76% da eletricidade. Para zerar emissões líquidas até 2050 (meta do Acordo de Paris), precisaríamos eliminar essa participação em 27 anos — o equivalente a replicar os últimos 23 anos de crescimento das renováveis cinco vezes.",
+      "incorrect": "Observe a coluna solar+eólica: vai de praticamente zero em 2000 para 10% em 2023. Isso é crescimento exponencial — mas ainda insuficiente. Os fósseis (carvão, petróleo, gás) ainda dominam. A transição está acontecendo, mas lentamente."
+    },
+    "hints": [
+      { "type": "text", "content": "Procure a coluna que mais cresceu em termos relativos — não absolutos. O que partiu de perto de zero?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno analisa a transição energética como processo geográfico, econômico e geopolítico — identificando avanços, limites e contradições, incluindo a emergência de novos minerais críticos e de novas desigualdades.",
+    "observe": "Cuidado com o otimismo tecnológico ingênuo ('as renováveis vão resolver tudo') e com o pessimismo fatalista ('nada vai mudar'). A realidade é mais complexa: a transição está acontecendo — mas com desigualdades, lentidão e novos problemas.",
+    "answer": "Solar e eólica partem de zero e chegam a 10% em 23 anos — crescimento exponencial real. Mas os fósseis ainda dominam. A transição é desigual: países ricos lideram, países pobres sofrem mais com o clima e menos conseguem investir na transição.",
+    "mediation": "Pergunte: 'O Brasil tem vento, sol e rios em abundância. Isso significa que pode liderar a transição energética global? O que falta para isso acontecer — dinheiro, tecnologia, vontade política, mercado?'",
+    "time": "50 minutos"
+  }
+}

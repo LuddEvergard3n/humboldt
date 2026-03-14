@@ -1,0 +1,55 @@
+{
+  "id": "em-migration-1",
+  "moduleId": "em-migration",
+  "title": "Refugiados e deslocados: quem são e por que fogem",
+  "summary": "A crise global de deslocamento forçado: causas, números e o regime internacional de proteção.",
+  "activityType": "single-choice",
+  "phenomenon": {
+    "title": "100 milhões de deslocados — o maior número da história",
+    "text": "Em 2022, pela primeira vez na história, o número de pessoas deslocadas à força ultrapassou 100 milhões. Para dimensionar: seria o 14º país mais populoso do mundo. Fugindo de guerras (Ucrânia, Sudão, Myanmar), de perseguição (Afeganistão, Eritreia) e de colapso de Estado (Síria, Somália, Venezuela). A maioria — 76% — está deslocada dentro do próprio país ou em países vizinhos pobres. Menos de 1% chega à Europa ou à América do Norte que domina o debate político sobre 'a crise dos refugiados'."
+  },
+  "guided": {
+    "title": "Categorias jurídicas do deslocamento",
+    "text": "O direito internacional distingue categorias com proteções diferentes — e essa distinção tem consequências práticas enormes para quem foge.",
+    "points": [
+      "Refugiado (Convenção de 1951): pessoa com fundado temor de perseguição por raça, religião, nacionalidade, grupo social ou opinião política. Tem direito de não ser devolvida ao país de origem (non-refoulement).",
+      "Deslocado interno (IDP): pessoa que fugiu mas permanece dentro de seu país — sem proteção jurídica internacional específica.",
+      "Migrante econômico: quem deixa o país por razões econômicas — não tem direito a asilo sob a Convenção de 1951, mesmo que a miséria seja severa.",
+      "Deslocado climático: categoria ainda não reconhecida no direito internacional — quem foge de desastres climáticos (seca, inundação) não tem status legal definido. É o maior vazio jurídico do sistema internacional de proteção."
+    ]
+  },
+  "relations": {
+    "title": "O ACNUR e o sistema internacional de proteção",
+    "text": "O ACNUR (Alto Comissariado das Nações Unidas para Refugiados) foi criado em 1950 para lidar com os deslocados da Segunda Guerra Mundial — com mandato temporário de 3 anos. Tornou-se permanente e hoje atende 130 países. A Convenção de Genebra de 1951 e o Protocolo de 1967 formam o arcabouço jurídico. O sistema tem lacunas: a definição de refugiado é restrita (não inclui migrantes econômicos ou climáticos); o financiamento depende de contribuições voluntárias dos Estados; e os países com maiores capacidades de acolhimento são os que recebem proporcionalmente menos refugiados."
+  },
+  "caseStudy": {
+    "title": "A crise síria: 12 anos de deslocamento",
+    "text": "A guerra civil síria começou em 2011 — uma das ramificações da Primavera Árabe. Em 2023, a Síria tinha 6,8 milhões de refugiados fora do país (o maior grupo de refugiados do mundo) e 7 milhões de deslocados internos — de uma população de 22 milhões, dois terços foram deslocados. 90% dos refugiados sírios estão nos países vizinhos: Turquia (3,6 milhões — maior população de refugiados de um único país), Líbano (1,5 milhão — 25% da população total, a maior concentração per capita do mundo), Jordânia (700.000). A Europa recebeu cerca de 1,3 milhão de pedidos de asilo sírios entre 2015 e 2020 — o pico da 'crise dos refugiados' europeia que desencadeou ascensão de partidos anti-imigração em toda a UE."
+  },
+  "application": "Pesquise o procedimento de solicitação de asilo no Brasil. Quais documentos são necessários? Quanto tempo leva a análise? Quais direitos o solicitante tem durante o processo? O Brasil tem sido receptivo a refugiados?",
+  "activity": {
+    "question": "O 'non-refoulement' — princípio central do direito internacional dos refugiados — significa:",
+    "type": "single-choice",
+    "correct": "nao-devolucao",
+    "options": [
+      { "value": "nao-devolucao",  "label": "A proibição de devolver uma pessoa ao país onde corre risco de perseguição, independente de seu status legal" },
+      { "value": "livre-circulacao","label": "O direito do refugiado de circular livremente pelo país que o acolheu" },
+      { "value": "naturalizacao",  "label": "O direito automático à naturalização após cinco anos de residência como refugiado" },
+      { "value": "trabalho",       "label": "O direito ao trabalho formal imediato no país de destino" }
+    ],
+    "feedback": {
+      "correct": "Correto. O non-refoulement (do francês, 'não devolução') é a pedra angular do direito dos refugiados: nenhum Estado pode devolver uma pessoa a um território onde ela corra risco de perseguição, tortura ou morte — mesmo que ela não tenha status formal de refugiado reconhecido. É um princípio consuetudinário do direito internacional, vinculante mesmo para países que não assinaram a Convenção de 1951.",
+      "incorrect": "Non-refoulement é especificamente sobre não devolver — não sobre circulação, naturalização ou trabalho. É a proteção mais básica: você não pode mandar alguém de volta para onde vai ser perseguido."
+    },
+    "hints": [
+      { "type": "text", "content": "Em francês, 'refoulement' significa devolução forçada. 'Non' é 'não'. O princípio proíbe exatamente o que o nome sugere." }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno compreende as categorias jurídicas do deslocamento forçado, o sistema internacional de proteção e seus limites, com foco especial no non-refoulement.",
+    "observe": "Verifique se o aluno entende a distinção entre refugiado (perseguição) e migrante econômico (condições de vida). Essa distinção é central no debate político sobre imigração — e é frequentemente borrada propositalmente.",
+    "answer": "Non-refoulement: proibição de devolução de uma pessoa a país onde corre risco de perseguição. Princípio vinculante para todos os Estados, independente de assinatura da Convenção de 1951.",
+    "mediation": "Proponha: 'Se uma pessoa foge de seca extrema que destruiu sua colheita e sua fonte de renda, ela é refugiada climática ou migrante econômica? O direito internacional atual protege essa pessoa? Deveria?'",
+    "time": "50 minutos"
+  }
+}

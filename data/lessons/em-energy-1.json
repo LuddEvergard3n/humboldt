@@ -1,0 +1,56 @@
+{
+  "id": "em-energy-1",
+  "moduleId": "em-energy",
+  "title": "Matrizes energéticas: quem tem, quem consome, quem depende",
+  "summary": "Distribuição geográfica das fontes de energia e os desequilíbrios entre produção e consumo no mundo.",
+  "activityType": "flow-map",
+  "phenomenon": {
+    "title": "Por que a Europa entrou em crise de energia em 2022?",
+    "text": "Em fevereiro de 2022, quando a Rússia invadiu a Ucrânia, a Europa descobriu que dependia da Rússia para 40% do seu gás natural e 25% do seu petróleo. O resultado foi imediato: contas de energia que triplicaram, fábricas que pararam, governos que racionaram aquecimento no inverno. Uma decisão geopolítica em Moscou apagou luzes em Berlim. Isso não é coincidência — é a geografia da energia: os combustíveis fósseis estão concentrados em poucos lugares, mas o consumo está em outros."
+  },
+  "guided": {
+    "title": "A distribuição geográfica da energia",
+    "text": "A energia não está onde mais se consome. As reservas de petróleo e gás se concentram no Oriente Médio, Rússia e Venezuela. O carvão está na China, EUA e Austrália. Mas os maiores consumidores são China, EUA, União Europeia e Japão. Essa separação geográfica entre produção e consumo cria fluxos constantes de energia pelo planeta — e transforma rotas marítimas, gasodutos e terminais de GNL em objetos de disputa geopolítica.",
+    "points": [
+      "Petróleo: 50% das reservas provadas estão no Oriente Médio. Arábia Saudita, Irã, Iraque, Kuwait e EAU controlam o mercado global via OPEP+.",
+      "Gás natural: Rússia tem as maiores reservas (17% do total global). Irã e Qatar completam o pódio. O GNL (gás liquefeito) permite transporte por navios — reduzindo, mas não eliminando, a dependência de gasodutos fixos.",
+      "Renováveis: hidrelétrica domina no Brasil, Noruega e China. Solar e eólica crescem na Europa, EUA e China. São fontes locais — quem as tem não depende de importação.",
+      "Dependência energética: Japão importa 90% da energia que consome. A Coreia do Sul, 80%. A UE, antes da guerra, importava 55%. Brasil é excepcional: 47% da matriz é renovável — uma das mais limpas do mundo industrializado."
+    ]
+  },
+  "relations": {
+    "title": "Energia, poder e vulnerabilidade",
+    "text": "Quem controla o fornecimento de energia controla, em parte, quem pode produzir, aquecer casas e mover exércitos. A Rússia usou o gás como arma geopolítica contra a Ucrânia e contra a Europa. Os EUA usaram sanções sobre o petróleo iraniano como pressão econômica. A China garantiu contratos de petróleo na África e no Oriente Médio décadas antes de precisar deles. Energia não é apenas economia — é poder. Por isso países investem em fontes domésticas mesmo quando importar seria mais barato: soberania energética é segurança nacional."
+  },
+  "caseStudy": {
+    "title": "O Brasil e a excepcionalidade da matriz renovável",
+    "text": "O Brasil tem uma matriz elétrica que envergonha países ricos: 65% hidrelétrica, 12% eólica, 4% solar — 83% renovável total. Isso não foi acidente: foi a opção de Furnas, Itaipu e décadas de investimento público em hidrelétricas. O resultado é eletricidade mais barata e menos dependência de importação. Mas há contradições: o etanol de cana-de-açúcar é renovável, mas ocupa terra agricultável. O pré-sal deu ao Brasil petróleo em abundância — e o país se tornou exportador líquido em 2021. Ao mesmo tempo, populações de favelas e comunidades rurais ainda cozinham a gás ou lenha, sem acesso pleno à rede. A matriz limpa coexiste com pobreza energética."
+  },
+  "application": "Compare as matrizes energéticas do Brasil, da Alemanha e da China usando dados do Our World in Data (ourworldindata.org/energy). Para cada país: qual é a principal fonte? Qual a proporção de renováveis? Qual a dependência de importação? O que explica as diferenças?",
+  "activity": {
+    "type": "flow-map",
+    "question": "Observe os fluxos de petróleo e gás no mapa. O que esse padrão revela sobre as vulnerabilidades dos países importadores?",
+    "mapId": "world-simple",
+    "flows": [
+      { "from": [52, 40], "to": [15, 35], "value": 30, "label": "Petróleo Oriente Médio → Europa", "color": "#8b5e2e" },
+      { "from": [52, 40], "to": [75, 38], "value": 45, "label": "Petróleo Oriente Médio → Ásia", "color": "#8b5e2e" },
+      { "from": [40, 25], "to": [15, 35], "value": 25, "label": "Gás Rússia → Europa", "color": "#1e3a5f" },
+      { "from": [40, 25], "to": [75, 38], "value": 20, "label": "Gás/Petróleo Rússia → China", "color": "#1e3a5f" },
+      { "from": [20, 60], "to": [75, 38], "value": 15, "label": "GNL América do Sul → Ásia", "color": "#4a7a5f" }
+    ],
+    "feedback": {
+      "correct": "Os países importadores — Europa, Japão, Coreia do Sul — estão no extremo receptor de fluxos originados em regiões politicamente instáveis ou rivais. Qualquer ruptura nessas rotas (guerra, sanção, bloqueio naval) gera crise imediata. A crise europeia de 2022 é o exemplo mais recente: décadas de dependência do gás russo criaram uma vulnerabilidade estrutural que não se resolve em meses.",
+      "incorrect": "Observe de onde partem os fluxos (Oriente Médio, Rússia) e para onde chegam (Europa, Ásia). Os países que chegam à ponta dependem de regiões que não controlam. O que acontece se a fonte decide cortar o fornecimento — ou se uma guerra bloqueia a rota?"
+    },
+    "hints": [
+      { "type": "text", "content": "Quem depende de energia importada não controla o preço nem a continuidade do fornecimento. Pense: o que o importador pode fazer se o exportador decide elevar o preço ou cortar o suprimento?" }
+    ]
+  },
+  "teacher": {
+    "objective": "O aluno identifica os padrões geográficos de produção e consumo de energia e compreende como a dependência energética cria vulnerabilidades políticas e econômicas.",
+    "observe": "Alunos tendem a pensar em energia como questão ambiental, não geopolítica. O objetivo é mostrar que a localização das reservas é um fator de poder — tão importante quanto exércitos.",
+    "answer": "Os fluxos revelam dependência estrutural: Europa e Ásia importam de regiões que não controlam. Qualquer instabilidade no Oriente Médio, sanção à Rússia ou bloqueio do Estreito de Ormuz afeta diretamente o preço e a disponibilidade de energia a milhares de quilômetros.",
+    "mediation": "Pergunte: 'Se o Brasil depende de gás boliviano para parte da geração elétrica, e a Bolívia decide aumentar o preço, o que o Brasil pode fazer? E se depender 40% como a Europa dependia da Rússia?'",
+    "time": "50 minutos"
+  }
+}

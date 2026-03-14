@@ -181,9 +181,8 @@
     },
     {
       "id": "efii-europe",
-      "title": "Europa, Ásia e Oceania",
-      "tagline": "Industrialização, ascensão asiática e geopolítica do Pacífico.",
-      "objective": "O aluno descreve as principais dinâmicas geográficas da Europa, Ásia e Oceania e compreende como esses continentes moldam a ordem mundial contemporânea.",
+      "title": "Europa e Oceania",
+      "tagline": "Integração europeia, crise do multilateralismo e o Pacífico Sul.",
       "order": 11,
       "lessons": 5,
       "scales": [
@@ -191,12 +190,13 @@
         "global"
       ],
       "level": "efii",
-      "estimatedTime": "3 aulas de 50 min",
       "phenomena": [
         "migration",
-        "city",
-        "border"
-      ]
+        "border",
+        "water"
+      ],
+      "objective": "O aluno descreve as dinâmicas geográficas da Europa e da Oceania e compreende seus papéis na ordem mundial.",
+      "estimatedTime": "3 aulas de 50 min"
     },
     {
       "id": "geopolitics",
@@ -373,7 +373,7 @@
       "tagline": "Cartografia temática, geoprocessamento e análise espacial.",
       "objective": "O aluno aplica métodos de cartografia temática e análise espacial para interpretar fenômenos geográficos.",
       "order": 23,
-      "lessons": 5,
+      "lessons": 6,
       "scales": [
         "local",
         "regional",
@@ -468,7 +468,7 @@
       "tagline": "Massas de ar, climas do Brasil e mudanças climáticas globais.",
       "level": "em",
       "order": 29,
-      "lessons": 5,
+      "lessons": 6,
       "scales": [
         "regional",
         "global"
@@ -477,7 +477,9 @@
         "drought",
         "flood",
         "heat"
-      ]
+      ],
+      "objective": "O aluno analisa os sistemas climáticos globais, as mudanças em curso e seus impactos diferenciados no território.",
+      "estimatedTime": "4 aulas de 50 min"
     },
     {
       "id": "em-health-geo",
@@ -493,7 +495,9 @@
       "phenomena": [
         "inequality",
         "water"
-      ]
+      ],
+      "objective": "O aluno articula saúde, território e desigualdade, compreendendo como o espaço condiciona o acesso a serviços e a exposição a riscos.",
+      "estimatedTime": "3 aulas de 50 min"
     },
     {
       "id": "em-natural-resources",
@@ -510,7 +514,9 @@
         "water",
         "inequality",
         "border"
-      ]
+      ],
+      "objective": "O aluno analisa a distribuição, uso e conflito em torno dos recursos naturais, articulando geopolítica e sustentabilidade.",
+      "estimatedTime": "3 aulas de 50 min"
     },
     {
       "id": "es-economic-geography",
@@ -558,7 +564,9 @@
         "water",
         "border",
         "inequality"
-      ]
+      ],
+      "objective": "O aluno descreve as dinâmicas geográficas e geopolíticas da Ásia e compreende o papel do continente na ordem mundial contemporânea.",
+      "estimatedTime": "3 aulas de 50 min"
     },
     {
       "id": "es-urban-geography",
@@ -595,7 +603,141 @@
         "border",
         "energy",
         "inequality"
+      ],
+      "objective": "O aluno analisa a geopolítica do Indo-Pacífico, a rivalidade sino-americana e os conflitos territoriais no Mar do Sul da China.",
+      "estimatedTime": "3 aulas de 50 min"
+    },
+    {
+      "id": "em-africa",
+      "title": "África Contemporânea",
+      "tagline": "Descolonização, neocolonialismo, conflitos do Sahel e a ascensão da China em África.",
+      "level": "em",
+      "order": 37,
+      "lessons": 4,
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "border",
+        "inequality",
+        "migration"
+      ],
+      "objective": "O aluno analisa as heranças coloniais na África contemporânea, os conflitos do Sahel e a presença chinesa no continente.",
+      "estimatedTime": "3 aulas de 50 min"
+    },
+    {
+      "id": "em-latin-america",
+      "title": "América Latina",
+      "tagline": "Mercosul, ciclo progressista, dependência econômica e crises de governança.",
+      "level": "em",
+      "order": 38,
+      "lessons": 4,
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "inequality",
+        "migration",
+        "border"
+      ],
+      "objective": "O aluno analisa a estrutura territorial, os projetos de integração e os ciclos políticos da América Latina.",
+      "estimatedTime": "3 aulas de 50 min"
+    },
+    {
+      "id": "em-migration",
+      "title": "Migrações Contemporâneas",
+      "tagline": "Refugiados, muros, migração climática e políticas de asilo no século XXI.",
+      "level": "em",
+      "order": 39,
+      "lessons": 4,
+      "scales": [
+        "local",
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "migration",
+        "border",
+        "inequality"
+      ],
+      "objective": "O aluno compreende as causas e dinâmicas das migrações contemporâneas, o sistema internacional de proteção e as políticas de acolhimento.",
+      "estimatedTime": "3 aulas de 50 min"
+    },
+    {
+      "id": "es-physical-geography",
+      "title": "Sistemas Físicos da Terra",
+      "tagline": "Tectônica, ciclos biogeoquímicos, biogeografia e modelagem climática.",
+      "level": "es",
+      "format": "article",
+      "order": 40,
+      "lessons": 0,
+      "scales": [
+        "global"
+      ],
+      "phenomena": [
+        "water",
+        "climate"
       ]
+    },
+    {
+      "id": "es-postcolonial-feminist",
+      "title": "Geografias Pós-Coloniais e Feministas",
+      "tagline": "Subalternidade, espacialidades do corpo e crítica aos universalismos geográficos.",
+      "level": "es",
+      "format": "article",
+      "order": 41,
+      "lessons": 0,
+      "scales": [
+        "local",
+        "global"
+      ],
+      "phenomena": [
+        "inequality"
+      ]
+    },
+    {
+      "id": "em-energy",
+      "level": "em",
+      "order": 42,
+      "title": "Energia e Geopolítica",
+      "tagline": "Quem controla a energia controla o mundo — entenda os fluxos, as disputas e a transição que está mudando tudo.",
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min",
+      "objective": "O aluno analisa a distribuição geográfica das fontes de energia, compreende os mecanismos da maldição dos recursos, avalia a transição energética e relaciona acesso à energia com desigualdade global.",
+      "scales": [
+        "global",
+        "nacional"
+      ],
+      "phenomena": [
+        "energy",
+        "inequality",
+        "border"
+      ],
+      "format": "lesson"
+    },
+    {
+      "id": "em-transport",
+      "level": "em",
+      "order": 43,
+      "title": "Logística e Território",
+      "tagline": "Containers, rodovias, ferrovias e hidrovias — por que o transporte define quem produz, quem consome e quem fica para trás.",
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min",
+      "objective": "O aluno compreende a logística global como sistema geopolítico, analisa os desequilíbrios da matriz de transportes brasileira e relaciona mobilidade urbana com desigualdade socioespacial.",
+      "scales": [
+        "global",
+        "nacional",
+        "regional"
+      ],
+      "phenomena": [
+        "transport",
+        "inequality",
+        "border",
+        "city"
+      ],
+      "format": "lesson"
     }
   ]
 }

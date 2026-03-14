@@ -57,16 +57,29 @@
   --tracking-wide:  0.08em;
   --tracking-wider: 0.15em;
 
-  /* Espaçamento */
-  --space-1:  0.25rem;
-  --space-2:  0.5rem;
-  --space-3:  0.75rem;
-  --space-4:  1rem;
-  --space-6:  1.5rem;
-  --space-8:  2rem;
-  --space-12: 3rem;
-  --space-16: 4rem;
-  --space-24: 6rem;
+  /* Espaçamento — escala completa sem lacunas */
+  --space-1:  0.25rem;   /*  4px */
+  --space-2:  0.5rem;    /*  8px */
+  --space-3:  0.75rem;   /* 12px */
+  --space-4:  1rem;      /* 16px */
+  --space-5:  1.25rem;   /* 20px */
+  --space-6:  1.5rem;    /* 24px */
+  --space-8:  2rem;      /* 32px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+  --space-16: 4rem;      /* 64px */
+  --space-20: 5rem;      /* 80px */
+  --space-24: 6rem;      /* 96px */
+
+  /* Sistema de larguras — eixo único para toda a interface */
+  --container-max:  1280px;          /* wrapper principal */
+  --content-max:    760px;           /* colunas de conteúdo longo */
+  --reading-max:    70ch;            /* prosa — leitura confortável */
+  --gutter:         var(--space-8);  /* padding horizontal de todas as seções */
+
+  /* Ritmo vertical de seções */
+  --section-pad:    var(--space-20); /* padding-block de seções principais (80px) */
+  --section-gap:    var(--space-16); /* gap entre blocos internos de seção (64px) */
 
   /* Bordas */
   --radius-sm: 2px;
@@ -122,6 +135,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: var(--leading-tight);
   color: var(--color-primary);
   font-weight: 700;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  min-width: 0;
 }
 
 h1 { font-size: var(--size-4xl); }
@@ -134,6 +150,8 @@ h6 { font-size: var(--size-md); }
 p {
   line-height: var(--leading-loose);
   color: var(--color-text-mid);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 p + p { margin-top: var(--space-4); }
