@@ -53,9 +53,9 @@ Não há build necessário. Todos os arquivos são estáticos.
 
 ### Nova lição em módulo existente
 
-1. Abrir `data/lessons.json`
-2. Adicionar objeto de lição seguindo o schema em `docs/modules.md`
-3. O campo `moduleId` deve corresponder a um módulo existente
+1. Criar `data/lessons/{moduleId}-N.json` seguindo o schema em `docs/modules.md`
+2. Adicionar entrada em `data/lessons/index.json` (objeto plano `{ id: { moduleId, title, summary, activityType } }`)
+3. Incrementar `lessons` em `data/modules.json` para o módulo pai
 4. Executar `node tests/test-runner.js` — se passar, está ok
 
 ### Novo módulo
@@ -63,7 +63,7 @@ Não há build necessário. Todos os arquivos são estáticos.
 1. Adicionar ao `data/modules.json`
 2. Criar `modules/{id}/index.js` (copiar de um existente)
 3. Adicionar import em `js/module-loader.js`
-4. Adicionar lições em `data/lessons.json`
+4. Criar lições em `data/lessons/{id}-N.json` e adicionar ao `data/lessons/index.json`
 5. Criar SVGs em `assets/maps/` se necessário
 6. Executar testes
 
@@ -86,7 +86,9 @@ Não há build necessário. Todos os arquivos são estáticos.
 
 ## Variáveis CSS
 
-Todas as cores, fontes, espaçamentos e sombras estão definidos como variáveis CSS em `css/base.css`. **Nunca usar valores hardcoded em CSS** — sempre referenciar as variáveis.
+Todas as cores, fontes, espaçamentos e sombras estão em `css/base.css`. **Nunca usar valores hardcoded** — sempre referenciar variáveis. Consulte `docs/architecture.md` para a tabela completa de tokens.
+
+Tokens essenciais de largura: `--container-max`, `--content-max`, `--reading-max`, `--gutter`, `--section-pad`, `--section-gap`.
 
 ```css
 /* Correto */

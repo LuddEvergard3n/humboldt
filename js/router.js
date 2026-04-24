@@ -110,12 +110,12 @@ export class Router {
       }
     } catch (err) {
       console.error('[router] erro ao renderizar rota:', err);
-      this._container.innerHTML = `
-        <div style="padding:3rem;text-align:center">
-          <h2 style="color:var(--color-primary)">Erro ao carregar</h2>
-          <p style="margin:1rem 0;color:var(--color-text-mid)">${err.message}</p>
-          <a href="#home" class="btn btn-outline">Voltar ao início</a>
-        </div>`;
+      this._container.innerHTML =
+        '<div class="error-view">' +
+          '<h2>Erro ao carregar</h2>' +
+          '<p class="error-msg">' + err.message + '</p>' +
+          '<a href="#home" class="btn btn-outline">Voltar ao início</a>' +
+        '</div>';
     }
   }
 

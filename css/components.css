@@ -432,14 +432,6 @@ a.lesson-card:hover { border-bottom-color: var(--color-primary-lt); color: inher
   border-radius:  var(--radius-lg);
 }
 
-.legend-title {
-  font-family:    var(--font-mono);
-  font-size:      var(--size-xs);
-  letter-spacing: var(--tracking-wider);
-  text-transform: uppercase;
-  color:          var(--color-text-muted);
-  margin-bottom:  var(--space-3);
-}
 
 .legend-list {
   list-style: none;
@@ -594,49 +586,6 @@ body.teacher-mode .teacher-box {
   padding:       var(--space-8) var(--space-8);
 }
 
-.activity-question {
-  font-family:  var(--font-display);
-  font-size:    var(--size-lg);
-  color:        var(--color-primary);
-  font-weight:  700;
-  margin-bottom: var(--space-5);
-  line-height:  var(--leading-tight);
-}
-
-.activity-instruction {
-  font-size:    var(--size-sm);
-  color:        var(--color-text-muted);
-  font-style:   italic;
-  margin-bottom: var(--space-4);
-}
-
-.activity-options {
-  display:        flex;
-  flex-direction: column;
-  gap:            var(--space-3);
-  list-style:     none;
-  padding:        0;
-  margin:         0;
-}
-
-.option-btn {
-  width:          100%;
-  text-align:     left;
-  padding:        var(--space-4) var(--space-5);
-  background:     var(--color-bg);
-  border:         1px solid var(--color-border);
-  border-radius:  var(--radius);
-  font-family:    var(--font-body);
-  font-size:      var(--size-base);
-  color:          var(--color-text);
-  cursor:         pointer;
-  transition:     border-color var(--transition-fast),
-                  background var(--transition-fast);
-  line-height:    var(--leading-base);
-}
-.option-btn:hover { border-color: var(--color-primary-lt); background: var(--color-surface); }
-.option-btn.correct { border-color: var(--color-success); background: rgba(46,110,78,0.08); }
-.option-btn.incorrect { border-color: var(--color-error); background: rgba(122,31,31,0.06); }
 
 /* ==========================================================
    FEEDBACK E DICAS
@@ -744,87 +693,12 @@ body.teacher-mode .teacher-box {
   border-top:      1px solid var(--color-border);
 }
 
-/* ==========================================================
-   COMPARAÇÃO ANTES / DEPOIS
-   ========================================================== */
-
-.comparison-wrapper {
-  position:      relative;
-  overflow:      hidden;
-  border-radius: var(--radius-lg);
-  cursor:        ew-resize;
-}
-
-.comparison-handle {
-  position:   absolute;
-  top:        0;
-  bottom:     0;
-  width:      2px;
-  background: var(--color-accent-lt);
-  z-index:    10;
-  cursor:     ew-resize;
-}
-
-.comparison-handle::before {
-  content:         '';
-  position:        absolute;
-  top:             50%;
-  left:            50%;
-  transform:       translate(-50%, -50%);
-  width:           32px;
-  height:          32px;
-  background:      var(--color-accent-lt);
-  border-radius:   50%;
-  box-shadow:      var(--shadow);
-}
-
-.comparison-label {
-  position:       absolute;
-  bottom:         var(--space-3);
-  font-family:    var(--font-mono);
-  font-size:      var(--size-xs);
-  letter-spacing: var(--tracking-wide);
-  padding:        var(--space-1) var(--space-3);
-  background:     rgba(30,58,95,0.75);
-  color:          var(--color-text-inv);
-  border-radius:  var(--radius-sm);
-}
-.comparison-label.before { left:  var(--space-3); }
-.comparison-label.after  { right: var(--space-3); }
-
-/* ==========================================================
-   SLIDER DE ESCALA
-   ========================================================== */
-
-.scale-slider-wrapper {
-  display:        flex;
-  flex-direction: column;
-  gap:            var(--space-4);
-}
-
-.scale-slider-labels {
-  display:         flex;
-  justify-content: space-between;
-  font-family:     var(--font-mono);
-  font-size:       var(--size-xs);
-  color:           var(--color-text-muted);
-}
 
 input[type="range"] {
   width:  100%;
   accent-color: var(--color-primary);
 }
 
-.scale-description {
-  background:    var(--color-bg-panel);
-  border:        1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding:       var(--space-4);
-  font-size:     var(--size-sm);
-  color:         var(--color-text-mid);
-  line-height:   var(--leading-loose);
-  min-height:    4rem;
-}
 
 /* ==========================================================
    Article view — módulos de Ensino Superior
@@ -1265,4 +1139,121 @@ input[type="range"] {
   .thinkers-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ==========================================================
+   VIEWS DE ESCALA E FENÔMENO
+   ========================================================== */
+
+.view-nav-eyebrow {
+  font-family:    var(--font-mono);
+  font-size:      var(--size-xs);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color:          var(--color-accent);
+  margin-bottom:  var(--space-3);
+}
+
+.view-nav-filter {
+  display:    flex;
+  gap:        var(--space-2);
+  flex-wrap:  wrap;
+  margin-bottom: var(--space-12);
+}
+
+.view-nav-groups {
+  border-top:  1px solid var(--color-border);
+  padding-top: var(--space-8);
+}
+
+.view-nav-empty {
+  color:       var(--color-text-muted);
+  font-style:  italic;
+}
+
+/* ==========================================================
+   ACTIVITY ENGINE — componentes de atividade
+   ========================================================== */
+
+.activity-scale-label {
+  font-family:    var(--font-mono);
+  font-size:      var(--size-xs);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color:          var(--color-text-muted);
+  display:        block;
+  margin-bottom:  var(--space-3);
+}
+
+.activity-scale-limits {
+  display:         flex;
+  justify-content: space-between;
+  font-family:     var(--font-mono);
+  font-size:       var(--size-xs);
+  color:           var(--color-text-muted);
+  margin-top:      var(--space-2);
+}
+
+.activity-scale-desc {
+  margin-top:  var(--space-4);
+  font-size:   var(--size-sm);
+  color:       var(--color-text-mid);
+  min-height:  3em;
+}
+
+.activity-step-question {
+  font-size:     var(--size-md);
+  font-weight:   600;
+  margin-bottom: var(--space-4);
+}
+
+.activity-options-list {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-2);
+}
+
+.activity-question-wrap {
+  margin-top: var(--space-6);
+}
+
+.activity-compass-instruction {
+  margin-bottom: var(--space-4);
+}
+
+.activity-compass-globe {
+  display:         flex;
+  justify-content: center;
+  margin:          var(--space-6) 0;
+}
+
+.activity-map-wrap {
+  margin-bottom: var(--space-6);
+}
+
+.activity-question-text {
+  font-size:     var(--size-md);
+  font-weight:   600;
+  margin-bottom: var(--space-4);
+}
+
+.activity-empty {
+  color:      var(--color-text-muted);
+  font-style: italic;
+}
+
+.activity-map-instruction {
+  margin-bottom: var(--space-4);
+}
+
+.error-view {
+  padding:    var(--space-16) var(--gutter);
+  text-align: center;
+  max-width:  480px;
+  margin:     0 auto;
+}
+.error-view h2 { margin-bottom: var(--space-4); }
+.error-msg {
+  margin-bottom: var(--space-8);
+  color:         var(--color-text-mid);
 }

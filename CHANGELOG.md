@@ -3,6 +3,93 @@
 Todas as alterações significativas do projeto são documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
+## [1.6.0] — 2026-04-23
+
+### Alterado
+
+**`activity-engine.js` — 430 → 270 linhas (−160):**
+- `renderLayerControls()` e `renderLegend()` removidos — mortos desde a reescrita da sidebar em `lesson-view.js`
+- `_buildMap()` extraído: helper compartilhado para as 3 funções que carregavam SVG + montavam MapEngine com o mesmo padrão
+- `_appendSingleChoice()` substitui os 5 `if (this._lesson.activity) this._mountSingleChoice()` repetidos
+- 21 `style=""` inline substituídos por classes CSS: `.activity-compass-instruction`, `.activity-compass-globe`, `.activity-map-wrap`, `.activity-scale-label`, `.activity-scale-limits`, `.activity-scale-desc`, `.activity-step-question`, `.activity-options-list`, `.activity-question-wrap`, `.activity-question-text`, `.activity-empty`, `.activity-map-instruction`
+
+**`scale-view.js` — refatorado:**
+- `buildShell()` extraído como helper compartilhado entre `renderScale` e `renderPhenomenon`
+- 9 `style=""` inline substituídos por `.view-nav-eyebrow`, `.view-nav-filter`, `.view-nav-groups`, `.view-nav-empty`
+
+**`components.css` − 126 linhas — blocos mortos removidos:**
+- `.activity-question / instruction / options / option-btn` — markup semântica nunca implementada
+- `.comparison-wrapper / handle / label` — prefixo errado; engine usa `compare-*`
+- `.scale-slider-wrapper / labels / scale-description` — engine usa inline styles
+- `.legend-title` — substituído por `.sidebar-section-label`
+
+**`layout.css` −7 linhas:** `#site-header` duplicado removido (`theme.css` é o dono autoritativo)
+
+**`router.js`:** template de erro com inline styles → `.error-view` + `.error-msg`
+
+### Adicionado
+
+- Aristóteles adicionado ao ecossistema em `index.html`, `sobre.html`, `README.md` e `docs/architecture.md`
+- `docs/architecture.md`: reescrito com encoding correto, tokens CSS tabelados, ecossistema completo
+- `docs/modules.md`: atualizado para 41 módulos / 146 lições; todos os módulos listados; schemas atualizados
+- `docs/development-guide.md`: referências a `data/lessons.json` (inexistente) corrigidas para `data/lessons/index.json` + arquivos individuais
+
+### Testes
+
+- 512 ok / 0 falhou
+
+---
+
+## [1.5.0] — 2026-03-13
+
+### Corrigido
+
+**Layout da view de lição — dois bugs estruturais:**
+
+- `.lesson-main`: removido `max-width: var(--content-max)` (760px) dentro de coluna `1fr` — causava metade da tela em branco em todas as lições. Adicionado `min-width: 0` para prevenir grid blowout
+- `.lesson-sidebar`: era vazia em praticamente todas as lições porque o conteúdo dependia exclusivamente de `lesson.legend` (raro) ou `lesson.layers` (oculto com `teacher-only`)
+- `layer-controls`: removida classe `teacher-only` — controles de camada agora visíveis para todos os alunos nas lições `layer-toggle`
+
+**Overflow de texto:**
+- `base.css`: adicionado `overflow-wrap: break-word; word-break: break-word` em `p` e `h1–h6` — palavras longas não escapam mais de caixas em nenhum componente
+
+### Alterado
+
+**`lesson-view.js` — sidebar reescrita:**
+- Sidebar agora sempre populada: nome do módulo, título da lição, lista dos 7 passos com highlight ativo via IntersectionObserver e scroll suave ao clicar
+- Legenda e controles de camada aparecem abaixo quando existentes no JSON da lição
+- IDs `step-01` a `step-07` adicionados às `<section>` para navegação âncora
+
+---
+
+## [1.4.0] — 2026-03-13
+
+### Adicionado
+
+**Tokens de design em `base.css`:**
+- `--space-5` (1.25rem), `--space-10` (2.5rem), `--space-20` (5rem) — escala contínua sem lacunas. Antes ausentes, causavam `gap: 0` no `.ops-grid`, `margin-bottom: 0` no `.hero-title` e `padding: 0` no `.a11y-controls`
+- `--container-max` (1280px), `--content-max` (760px), `--reading-max` (70ch), `--gutter` (2rem) — sistema de larguras com eixo único
+- `--section-pad` (5rem), `--section-gap` (4rem) — ritmo vertical de seções
+
+### Alterado
+
+**`layout.css` — reescrito integralmente:**
+- Todo container usa `max-width: var(--container-max)` e `padding-inline: var(--gutter)` — zero larguras arbitrárias
+- Hero: `grid-template-columns: 1fr 400px`; `hero-lead` limitado a `56ch` (desktop) / `60ch` (tablet)
+- Seções com ritmo uniforme via `--section-pad` e `--section-gap`
+- Responsividade consolidada no mesmo arquivo — `mobile.css` mantido como stub
+
+**`components.css`:**
+- `view-article`: `max-width: 1140px` → `var(--container-max)`
+- Larguras de leitura dispersas (`60–72ch`) → `var(--reading-max)` (70ch)
+- Padding das caixas de conteúdo: `var(--space-8)` → `var(--space-8) var(--space-10)`
+- Avatar do pensador: `52px` → `3rem`
+- Novos estilos: `.sidebar-meta`, `.sidebar-lesson-title`, `.sidebar-steps`, `.sidebar-step-link`, `.sidebar-step-link--active`, `.sidebar-section-label`
+
+### Ecossistema
+
+- `index.html` e `README.md`: Aristóteles e Darwin adicionados (ecossistema completo: 9 projetos)
+
 ---
 
 ## [1.3.0] — 2026-03-13

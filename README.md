@@ -150,11 +150,11 @@ Cada módulo declara os fenômenos que cobre — usados na navegação "Por Fen�
 humboldt/
 ├── index.html
 ├── css/
-│   ├── base.css          # reset, tipografia, tokens de espaçamento
+│   ├── base.css          # reset, tipografia, tokens (--space-1..24, --container-max, --reading-max, --gutter)
 │   ├── theme.css         # paleta de cores e variáveis CSS
-│   ├── layout.css        # estrutura de página, header, footer
+│   ├── layout.css        # estrutura de página, header, footer, responsividade (1024/768/480px)
 │   ├── components.css    # cards, botões, lesson cards, article view
-│   └── mobile.css        # breakpoints responsivos (1024px, 768px, 480px)
+│   └── mobile.css        # stub — responsividade consolidada em layout.css
 ├── js/
 │   ├── main.js           # bootstrap: inicializa State, Router, UI, Accessibility
 │   ├── state.js          # store reativo com notificação por callbacks
@@ -317,7 +317,9 @@ Tipos de dica: `text`, `layer` (ativa camada SVG), `focus` (pulsa região no map
 
 - **Paleta:** `--color-bg: #f2ede3` · `--color-primary: #1e3a5f` · `--color-accent: #8b5e2e` · `--color-accent-lt: #c4a35a` · `--color-water: #6fa8c4`
 - **Tipografia:** Playfair Display · Source Serif 4 · DM Mono
-- **Tokens de espaçamento válidos:** `--space-1` a `--space-4`, `--space-6`, `--space-8`, `--space-12`, `--space-16`, `--space-24`
+- **Tokens de espaçamento:** `--space-1` a `--space-6`, `--space-8`, `--space-10`, `--space-12`, `--space-16`, `--space-20`, `--space-24`
+- **Tokens de largura:** `--container-max` (1280px) · `--content-max` (760px) · `--reading-max` (70ch) · `--gutter` (2rem)
+- **Ritmo vertical:** `--section-pad` (5rem) · `--section-gap` (4rem)
 - **Mobile-first:** breakpoints 1024px, 768px, 480px
 - `html { font-size: 16px }` fixo — slider de acessibilidade afeta apenas `#main-content`
 

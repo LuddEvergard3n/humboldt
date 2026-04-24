@@ -2,167 +2,181 @@
 
 ## Visão geral
 
-Aplicação web estática, 100% client-side, sem backend, sem build step obrigatório.
+Aplicação web estática, 100% client-side, sem backend, sem build step.
 Roda diretamente no GitHub Pages via arquivos HTML, CSS e JavaScript ES2022 modules.
 
 ```
-index.html          → shell HTML principal
-sobre.html          → sobre o projeto
-guia-professor.html → guia pedagógico
-plano-aula.html     → gerador de planos de aula (BNCC)
+index.html            — shell HTML principal
+sobre.html            — sobre o projeto e o ecossistema
+guia-professor.html   — guia pedagógico completo
+plano-aula.html       — gerador de planos de aula (BNCC)
 
 css/
-  base.css        → reset, tokens, tipografia, utilitários globais
-  theme.css       → variáveis de cor e espaçamento
-  layout.css      → estrutura de página (header, nav, main)
-  components.css  → todos os componentes: cards, mapas, artigos, atividades
-  mobile.css      → breakpoints responsivos
+  base.css            — reset, tokens de espaçamento, largura e tipografia
+  theme.css           — cores, alto contraste, animações, modo professor
+  layout.css          — estrutura de página, header, footer, responsividade
+  components.css      — todos os componentes: cards, atividades, artigos, sidebar
+  mobile.css          — stub (responsividade consolidada em layout.css)
 
 js/
-  main.js         → bootstrap: instancia State, Router, UI, Accessibility
-  state.js        → store reativo simples (get/set/on)
-  router.js       → roteamento hash-based (#home, #module/id, etc.)
-  ui.js           → interações globais (nav, font-size, teacher-mode)
-  accessibility.js → preferências de acessibilidade (localStorage)
-  data-loader.js  → fetch + cache em memória para JSON e SVG
-  module-loader.js → mapa de lazy imports de todos os módulos
+  main.js             — bootstrap: instancia State, Router, UI, Accessibility
+  state.js            — store reativo simples (get/set/on), sem proxies
+  router.js           — roteamento hash-based (#home, #module/id, etc.)
+  ui.js               — interações globais (nav, font-size, teacher-mode)
+  accessibility.js    — preferências de acessibilidade (localStorage)
+  data-loader.js      — fetch + cache em memória para JSON e SVG
+  module-loader.js    — mapa de lazy imports dos 41 módulos
 
 engine/
-  map-engine.js       → renderiza SVG, tooltip, clique em [data-name]
-  layer-engine.js     → controla visibilidade de camadas [data-layer]
-  comparison-engine.js → before/after com slider
-  flow-engine.js      → mapas de fluxo animados
-  feedback-engine.js  → valida respostas das atividades
-  hint-system.js      → sistema de dicas progressivas
+  map-engine.js         — renderiza SVG, tooltip, clique em [data-name]
+  layer-engine.js       — controla visibilidade de camadas [data-layer]
+  comparison-engine.js  — before/after com slider (mouse, touch, teclado)
+  flow-engine.js        — mapas de fluxo animados
+  feedback-engine.js    — valida respostas e exibe feedback contextual
+  hint-system.js        — sistema de dicas progressivas (text/layer/focus/reduce)
 
 components/
-  activity-engine.js  → orquestra todos os tipos de atividade
-  globe-decoration.js → decoração animada da home
+  activity-engine.js    — orquestra todos os tipos de atividade
+  globe-decoration.js   — globo decorativo da hero (Canvas 2D)
   views/
-    home-view.js       → tela inicial com grid de módulos por nível
-    module-view.js     → lista de lições de um módulo
-    lesson-view.js     → lição completa com atividade
-    article-view.js    → artigo longo para módulos ES
-    scale-view.js      → explorador de escalas
-    phenomenon-view.js → explorador de fenômenos
-
-modules/{id}/index.js → stub exportando id, level, [format]
+    home-view.js        — página inicial
+    module-view.js      — lista de lições do módulo
+    lesson-view.js      — lição: 7 passos com sidebar de navegação
+    article-view.js     — artigo ES com TOC sticky
+    scale-view.js       — navegação por escala geográfica
+    phenomenon-view.js  — re-exporta renderPhenomenon de scale-view
 
 data/
-  modules.json          → manifesto de todos os módulos
-  lessons/index.json    → índice leve das 115 lições (flat object)
-  lessons/{id}.json     → lição individual completa
-  es/{id}.json          → artigo completo para módulos ES
+  modules.json          — 41 módulos com metadados
+  lessons/
+    index.json          — índice plano { id: { moduleId, title, summary, activityType } }
+    {id}.json           — 146 arquivos individuais de lição
+  es/
+    {moduleId}.json     — 9 artigos de Ensino Superior
+
+modules/
+  {id}/index.js         — 41 stubs de módulo (lazy import)
 
 assets/
-  maps/
-    brazil-regions.svg  → 5 macrorregiões clicáveis (data-id)
-    world-simple.svg    → regiões mundiais clicáveis
-    brazil-layers.svg   → Brasil com 5 camadas temáticas (data-layer)
   globe.png
+  maps/
+    brazil-regions.svg  — 5 regiões clicáveis [data-id]
+    brazil-layers.svg   — biomas com camadas [data-layer]
+    world-simple.svg    — 10 regiões mundiais clicáveis [data-id]
+
+tests/
+  test-runner.js        — executor sem dependências externas
+  data-tests.js         — integridade de JSONs e índices
+  module-tests.js       — presença de arquivos e exports
+  ui-tests.js           — lógica de State e FeedbackEngine
 ```
+
+---
+
+## Sistema de tokens CSS
+
+### Espaçamento
+
+| Token | Valor |
+|-------|-------|
+| `--space-1` | 0.25rem (4px) |
+| `--space-2` | 0.5rem (8px) |
+| `--space-3` | 0.75rem (12px) |
+| `--space-4` | 1rem (16px) |
+| `--space-5` | 1.25rem (20px) |
+| `--space-6` | 1.5rem (24px) |
+| `--space-8` | 2rem (32px) |
+| `--space-10` | 2.5rem (40px) |
+| `--space-12` | 3rem (48px) |
+| `--space-16` | 4rem (64px) |
+| `--space-20` | 5rem (80px) |
+| `--space-24` | 6rem (96px) |
+
+### Sistema de larguras
+
+| Token | Valor | Uso |
+|-------|-------|-----|
+| `--container-max` | 1280px | wrapper principal de todas as seções |
+| `--content-max` | 760px | colunas de conteúdo longo |
+| `--reading-max` | 70ch | largura de prosa |
+| `--gutter` | `--space-8` | padding horizontal uniforme |
+| `--section-pad` | `--space-20` | padding-block das seções |
+| `--section-gap` | `--space-16` | gap interno entre blocos |
+
+### Paleta
+
+| Token | Valor | Uso |
+|-------|-------|-----|
+| `--color-bg` | `#f2ede3` | fundo geral |
+| `--color-primary` | `#1e3a5f` | navy — header, títulos, botões primários |
+| `--color-accent` | `#8b5e2e` | bronze — destaques, labels |
+| `--color-accent-lt` | `#c4a35a` | ouro — hover, links ativos |
+| `--color-water` | `#6fa8c4` | azul água — mapas |
+
+---
+
+## Fluxo de renderização
+
+```
+hashchange
+  └─ Router._route()
+       └─ Router._render(rendererFn, params)
+            ├─ State.set({ currentModule, currentLesson, ... })
+            ├─ viewContainer.innerHTML = ''
+            ├─ node = await rendererFn(params, state, router)
+            ├─ viewContainer.appendChild(node)
+            └─ emit('view:ready')
+```
+
+### Padrão de renderer
+
+Todo renderer segue a assinatura:
+
+```js
+export async function renderX(params, state, router) → Promise<Node>
+```
+
+O router espera receber um `Node` — nunca uma string de HTML.
 
 ---
 
 ## Roteamento
 
-Hash-based para compatibilidade com GitHub Pages (sem servidor).
-
-| Hash | View | Parâmetros |
-|------|------|------------|
-| `#home` | home-view | — |
-| `#module/{id}` | module-view | moduleId |
-| `#lesson/{moduleId}/{lessonId}` | lesson-view | moduleId, lessonId |
-| `#article/{id}` | article-view | moduleId (ES apenas) |
-| `#scale/{level}` | scale-view | level |
-| `#phenomenon/{slug}` | phenomenon-view | slug |
-
-`module-view` detecta `format === "article"` no módulo e redireciona automaticamente para `#article/{id}`.
+| Hash | Renderer | Params |
+|------|----------|--------|
+| `#home` | `renderHome` | — |
+| `#module/{id}` | `renderModule` | `{ moduleId }` |
+| `#lesson/{moduleId}/{id}` | `renderLesson` | `{ moduleId, lessonId }` |
+| `#article/{moduleId}` | `renderArticle` | `{ moduleId }` |
+| `#scale/{level}` | `renderScale` | `{ level }` |
+| `#phenomenon/{slug}` | `renderPhenomenon` | `{ slug }` |
 
 ---
 
-## Dois formatos de módulo
+## Carregamento de dados
 
-### Módulo pedagógico (lesson)
-- Dados: `data/modules.json` + `data/lessons/index.json` + `data/lessons/{id}.json`
-- Renderer: `module-view.js` → `lesson-view.js`
-- Suporta 7 tipos de atividade interativa
-
-### Módulo artigo (article — ES)
-- Dados: `data/modules.json` + `data/es/{id}.json`
-- Renderer: `article-view.js`
-- Layout: TOC sticky 220px + conteúdo principal
-- TOC com Intersection Observer para highlight da seção ativa
-- 5 tipos de seção: text, quote, thinkers, timeline, compare-table
-- Sem atividade, sem progresso — foco em leitura
-
----
-
-## Contratos SVG
-
-### Mapa com regiões clicáveis (map-engine)
-Cada região interativa precisa de:
-```xml
-<path data-id="centro-oeste" data-name="Centro-Oeste"
-      tabindex="0" role="button" aria-label="Centro-Oeste" .../>
-```
-- `data-id`: valor comparado com `activity.correct` nas lições
-- `data-name`: exibido no tooltip
-- `tabindex="0"` + `role="button"`: navegação por teclado
-
-### Mapa com camadas (layer-engine)
-Cada camada é um `<g>` com:
-```xml
-<g data-layer="biomas">...</g>
-<g data-layer="cidades" class="map-layer-hidden">...</g>
-```
-- `data-layer`: id usado em `LayerEngine.show/hide/toggle`
-- `.map-layer-hidden`: `display:none !important` (base.css)
-
----
-
-## Estado global (`state.js`)
+`data-loader.js` expõe duas funções com cache em memória:
 
 ```js
-state.get('key')             // lê
-state.set('key', value)      // escreve e notifica
-state.set({ k1: v1, k2: v2 }) // batch
-state.on('key', cb)          // observa mudanças
-state.snapshot()             // cópia imutável
+loadJSON(path)  → Promise<Object>   // usado por todos os módulos de view
+loadSVG(path)   → Promise<string>   // usado pelos engines de mapa
 ```
 
-Campos padrão:
-- `currentModule`, `currentLesson`, `teacherMode`, `activeLayers`
-- `fontSize`, `highContrast`, `reduceMotion`
+O cache evita re-fetches ao navegar entre views. É limpo apenas quando a página é recarregada.
 
 ---
 
-## Cache de dados
+## Ecossistema
 
-`data-loader.js` mantém cache em memória (`Map`) para todas as respostas de `fetch`.
-Chave: URL relativa. Sem expiração — os dados não mudam durante uma sessão.
+O Humboldt faz parte de uma plataforma de aplicativos educacionais estáticos:
 
-```js
-loadJSON('data/modules.json')         // módulos
-loadLessonsIndex()                    // data/lessons/index.json
-loadLesson('cartography-1')           // data/lessons/cartography-1.json
-loadSVG('assets/maps/brazil-regions.svg')
-```
-
----
-
-## Testes
-
-```bash
-node tests/test-runner.js
-```
-
-380 testes (base) cobrindo:
-- Integridade de `data/modules.json` (ids únicos, campos obrigatórios)
-- Integridade de `data/lessons/index.json` (moduleIds válidos)
-- Cada `data/lessons/{id}.json` (schema completo, `activity.correct` obrigatório exceto nos tipos sem resposta)
-- Existência de todos os arquivos de engine, JS, CSS e docs
-- Exportações dos módulos stub
-- Lógica do `feedback-engine` e do `state`
-
-M�dulos ES (`data/es/*.json`) não são validados pelos testes automatizados — são conteúdo livre e não têm schema obrigatório além dos campos de `sections`.
+| Projeto | Disciplina | Site |
+|---------|-----------|------|
+| Heródoto | História | https://luddevergard3n.github.io/Herodoto/index.html |
+| Euclides | Matemática | https://luddevergard3n.github.io/euclides/ |
+| Quintiliano | Língua Portuguesa | https://luddevergard3n.github.io/quintiliano/ |
+| Lavoisier | Ciências / Química | https://luddevergard3n.github.io/lavoisier/ |
+| **Humboldt** | **Geografia** | https://luddevergard3n.github.io/humboldt/ |
+| Archimedes | Física | https://luddevergard3n.github.io/archimedes/ |
+| Johnson | Inglês | https://luddevergard3n.github.io/johnson-english/ |
+| Aristóteles | Filosofia | https://luddevergard3n.github.io/aristoteles/ |
