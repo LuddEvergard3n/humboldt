@@ -97,7 +97,7 @@ O campo `format` distingue dois tipos:
 | `es-methodology` | Metodologia em Geografia |
 | `es-urban-geography` | Geografia Urbana e Direito à Cidade |
 | `es-physical-geography` | Sistemas Físicos da Terra |
-| `es-postcolonial-feminist` | Geografias Pós-Coloniais e Feministas |
+| `es-postcolonial-feminist` | Abordagens Contemporâneas e Debates |
 
 ---
 

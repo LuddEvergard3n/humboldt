@@ -1,10 +1,21 @@
 # Humboldt — Sistema de Mapas
 
+## Mapa editorial da página inicial
+
+A abertura usa `assets/maps/world-robinson-public-domain.png`, uma reprodução local do mapa político compacto em projeção Robinson disponibilizado em domínio público pelo Wikimedia Commons. A camada de rotas é apenas editorial e não representa fluxos quantitativos. Os mapas analíticos continuam separados em `assets/maps/*.svg`.
+
 ## Filosofia
 
 Os mapas do Humboldt são SVGs inline ou carregados via fetch. Não há biblioteca cartográfica externa. Isso mantém o projeto leve, controlável e sem dependências.
 
-Os mapas são **esquemáticos** — não são mapas de alta precisão topográfica. São instrumentos pedagógicos que priorizam legibilidade e interatividade sobre exatidão geométrica.
+As bases do Atlas são geradas localmente a partir do Natural Earth 1:110m
+(mundo) e da malha de Unidades da Federação do IBGE (Brasil). Os arquivos-fonte
+ficam em `tools/cartography-source/`; a versão publicada consome apenas SVGs
+estáticos e não depende de rede, API ou biblioteca cartográfica em execução.
+
+Os mapas temáticos são sínteses pedagógicas sobre geometrias geográficas reais.
+Eles priorizam legibilidade e interatividade e não devem ser usados para
+navegação ou medição precisa.
 
 ## Convenções SVG
 
@@ -61,11 +72,20 @@ const engine = new MapEngine(container, {
 engine.mount();
 ```
 
+No Atlas, o motor habilita zoom entre 100% e 400%, movimento opcional por
+ponteiro ou setas do teclado, redefinição e mensagens em região `aria-live`.
+O movimento precisa ser ativado explicitamente para não capturar a rolagem
+vertical em telas sensíveis ao toque.
+
 Após `mount()`, todos os elementos com `data-name` recebem:
 - Tooltip ao hover
 - Handler de click
 - `tabindex="0"` para navegação por teclado
 - `role="button"` para leitores de tela
+
+Elementos gerados pelo Atlas podem usar `data-territory` e `aria-label` no lugar
+de `data-name`. Títulos, fontes, avisos metodológicos e legendas ficam no catálogo
+central `js/map-catalog.js`.
 
 ## LayerEngine
 

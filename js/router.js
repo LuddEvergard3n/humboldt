@@ -18,6 +18,8 @@ import { renderLesson }     from '../components/views/lesson-view.js';
 import { renderScale }      from '../components/views/scale-view.js';
 import { renderPhenomenon } from '../components/views/phenomenon-view.js';
 import { renderArticle }    from '../components/views/article-view.js';
+import { renderAtlas }      from '../components/views/atlas-view.js';
+import { renderSearch }     from '../components/views/search-view.js';
 
 export class Router {
   /**
@@ -66,8 +68,10 @@ export class Router {
    */
   async _route() {
     const raw  = window.location.hash.replace(/^#\/?/, '') || 'home';
-    const parts = raw.split('/');
+    const [path, queryString = ''] = raw.split('?');
+    const parts = path.split('/');
     const view  = parts[0];
+    const query = new URLSearchParams(queryString);
 
     // Rola ao topo da área de conteúdo
     document.getElementById('main-content').focus({ preventScroll: true });
@@ -103,6 +107,14 @@ export class Router {
 
         case 'article':
           await this._render(renderArticle, { moduleId: parts[1] }, parts[1], null);
+          break;
+
+        case 'atlas':
+          await this._render(renderAtlas, { query }, null, null);
+          break;
+
+        case 'search':
+          await this._render(renderSearch, { query }, null, null);
           break;
 
         default:
@@ -157,7 +169,7 @@ export class Router {
     });
 
     const hash = window.location.hash.replace(/^#\/?/, '');
-    const view = hash.split('/')[0];
+    const view = hash.split(/[/?]/)[0];
 
     if (view === 'home' || view === '') {
       const el = document.querySelector('[data-nav="home"]');

@@ -24,6 +24,10 @@ export class State {
       comparePosition: 0.5,    // number: 0..1, posição do slider de comparação
       hintVisible:     false,  // boolean
       activityState:   null,   // any: estado da atividade corrente
+      atlasFilters:    {},     // filtros compartilháveis da rota #atlas
+      completedLessons: [],    // ids persistidos somente no navegador
+      favoriteLessons:  [],    // ids persistidos somente no navegador
+      lastLesson:       null,  // última lição visitada
     };
 
     /** @type {Map<string, Function[]>} */

@@ -12,7 +12,9 @@
       ],
       "level": "efi",
       "estimatedTime": "5 aulas de 50 min",
-      "phenomena": []
+      "phenomena": [],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efi-landscape",
@@ -30,7 +32,9 @@
       "phenomena": [
         "water",
         "climate"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efi-society",
@@ -48,7 +52,9 @@
       "phenomena": [
         "inequality",
         "migration"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efi-brazil",
@@ -66,7 +72,9 @@
         "inequality",
         "city",
         "migration"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efii-concepts",
@@ -83,7 +91,9 @@
       ],
       "level": "efii",
       "estimatedTime": "3 aulas de 50 min",
-      "phenomena": []
+      "phenomena": [],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "cartography",
@@ -100,7 +110,9 @@
       ],
       "level": "efii",
       "estimatedTime": "5 aulas de 50 min",
-      "phenomena": []
+      "phenomena": [],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efii-physical",
@@ -120,7 +132,9 @@
         "water",
         "climate",
         "energy"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "brazil",
@@ -139,7 +153,9 @@
         "city",
         "inequality",
         "transport"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efii-americas",
@@ -158,7 +174,9 @@
         "migration",
         "inequality",
         "border"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efii-africa",
@@ -177,7 +195,9 @@
         "migration",
         "inequality",
         "border"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efii-europe",
@@ -196,7 +216,9 @@
         "water"
       ],
       "objective": "O aluno descreve as dinâmicas geográficas da Europa e da Oceania e compreende seus papéis na ordem mundial.",
-      "estimatedTime": "3 aulas de 50 min"
+      "estimatedTime": "3 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "geopolitics",
@@ -214,7 +236,9 @@
         "border",
         "energy",
         "migration"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "population",
@@ -232,7 +256,9 @@
       "phenomena": [
         "migration",
         "inequality"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "landscape",
@@ -250,7 +276,9 @@
       "phenomena": [
         "climate",
         "water"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "urbanization",
@@ -269,7 +297,9 @@
         "city",
         "transport",
         "inequality"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "globalization",
@@ -289,7 +319,9 @@
         "inequality",
         "border",
         "transport"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "economy",
@@ -308,7 +340,9 @@
         "inequality",
         "energy",
         "transport"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-environment",
@@ -327,7 +361,9 @@
         "water",
         "climate",
         "energy"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-geopolitics",
@@ -345,7 +381,9 @@
         "border",
         "energy",
         "migration"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-urban-regional",
@@ -365,7 +403,9 @@
         "city",
         "transport",
         "inequality"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-cartography",
@@ -381,7 +421,9 @@
       ],
       "level": "em",
       "estimatedTime": "3 aulas de 50 min",
-      "phenomena": []
+      "phenomena": [],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-brazil-challenges",
@@ -401,7 +443,9 @@
         "water",
         "city",
         "transport"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-epistemology",
@@ -415,7 +459,9 @@
         "epistemológica"
       ],
       "phenomena": [],
-      "description": "As grandes correntes epistemológicas que definiram o objeto, o método e os debates da Geografia como disciplina científica."
+      "description": "As grandes correntes epistemológicas que definiram o objeto, o método e os debates da Geografia como disciplina científica.",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-space-theory",
@@ -429,7 +475,9 @@
         "teórica"
       ],
       "phenomena": [],
-      "description": "Fundamentos teóricos do espaço geográfico e suas categorias: território, lugar, região e escala."
+      "description": "Fundamentos teóricos do espaço geográfico e suas categorias: território, lugar, região e escala.",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-geopolitics-classic",
@@ -446,7 +494,9 @@
         "border",
         "inequality"
       ],
-      "description": "Teorias geopolíticas clássicas e contemporâneas, da tese do Heartland à geopolítica crítica."
+      "description": "Teorias geopolíticas clássicas e contemporâneas, da tese do Heartland à geopolítica crítica.",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-cartography-critic",
@@ -460,7 +510,9 @@
         "metodológica"
       ],
       "phenomena": [],
-      "description": "Análise crítica da produção cartográfica: projeções e distorção, semiótica gráfica, contramapeamento e SIG crítico."
+      "description": "Análise crítica da produção cartográfica: projeções e distorção, semiótica gráfica, contramapeamento e SIG crítico.",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-climatology",
@@ -479,7 +531,9 @@
         "heat"
       ],
       "objective": "O aluno analisa os sistemas climáticos globais, as mudanças em curso e seus impactos diferenciados no território.",
-      "estimatedTime": "4 aulas de 50 min"
+      "estimatedTime": "4 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-health-geo",
@@ -497,7 +551,9 @@
         "water"
       ],
       "objective": "O aluno articula saúde, território e desigualdade, compreendendo como o espaço condiciona o acesso a serviços e a exposição a riscos.",
-      "estimatedTime": "3 aulas de 50 min"
+      "estimatedTime": "3 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-natural-resources",
@@ -516,7 +572,9 @@
         "border"
       ],
       "objective": "O aluno analisa a distribuição, uso e conflito em torno dos recursos naturais, articulando geopolítica e sustentabilidade.",
-      "estimatedTime": "3 aulas de 50 min"
+      "estimatedTime": "3 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-economic-geography",
@@ -532,7 +590,9 @@
       "phenomena": [
         "inequality"
       ],
-      "description": "Como a economia global se organiza no espaço: sistema-mundo, NEG, cadeias globais de valor e desigualdade estrutural."
+      "description": "Como a economia global se organiza no espaço: sistema-mundo, NEG, cadeias globais de valor e desigualdade estrutural.",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-methodology",
@@ -546,7 +606,9 @@
         "metodológica"
       ],
       "phenomena": [],
-      "description": "Métodos de pesquisa geográfica: trabalho de campo, SIG, sensoriamento remoto, entrevista e análise do discurso."
+      "description": "Métodos de pesquisa geográfica: trabalho de campo, SIG, sensoriamento remoto, entrevista e análise do discurso.",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "efii-asia",
@@ -566,7 +628,9 @@
         "inequality"
       ],
       "objective": "O aluno descreve as dinâmicas geográficas e geopolíticas da Ásia e compreende o papel do continente na ordem mundial contemporânea.",
-      "estimatedTime": "3 aulas de 50 min"
+      "estimatedTime": "3 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-urban-geography",
@@ -586,7 +650,9 @@
         "migration",
         "city"
       ],
-      "description": "Teoria do urbano, segregação socioespacial, metropolização e urbanismo periférico no Sul Global."
+      "description": "Teoria do urbano, segregação socioespacial, metropolização e urbanismo periférico no Sul Global.",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-asia-pacific",
@@ -605,7 +671,9 @@
         "inequality"
       ],
       "objective": "O aluno analisa a geopolítica do Indo-Pacífico, a rivalidade sino-americana e os conflitos territoriais no Mar do Sul da China.",
-      "estimatedTime": "3 aulas de 50 min"
+      "estimatedTime": "3 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-africa",
@@ -624,7 +692,9 @@
         "migration"
       ],
       "objective": "O aluno analisa as heranças coloniais na África contemporânea, os conflitos do Sahel e a presença chinesa no continente.",
-      "estimatedTime": "3 aulas de 50 min"
+      "estimatedTime": "3 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-latin-america",
@@ -643,7 +713,9 @@
         "border"
       ],
       "objective": "O aluno analisa a estrutura territorial, os projetos de integração e os ciclos políticos da América Latina.",
-      "estimatedTime": "3 aulas de 50 min"
+      "estimatedTime": "3 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-migration",
@@ -663,7 +735,9 @@
         "inequality"
       ],
       "objective": "O aluno compreende as causas e dinâmicas das migrações contemporâneas, o sistema internacional de proteção e as políticas de acolhimento.",
-      "estimatedTime": "3 aulas de 50 min"
+      "estimatedTime": "3 aulas de 50 min",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-physical-geography",
@@ -679,12 +753,14 @@
       "phenomena": [
         "water",
         "climate"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "es-postcolonial-feminist",
-      "title": "Geografias Pós-Coloniais e Feministas",
-      "tagline": "Subalternidade, espacialidades do corpo e crítica aos universalismos geográficos.",
+      "title": "Abordagens Contemporâneas e Debates",
+      "tagline": "Perspectivas críticas, institucionais, quantitativas e culturais em comparação.",
       "level": "es",
       "format": "article",
       "order": 41,
@@ -695,7 +771,9 @@
       ],
       "phenomena": [
         "inequality"
-      ]
+      ],
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-energy",
@@ -715,7 +793,9 @@
         "inequality",
         "border"
       ],
-      "format": "lesson"
+      "format": "lesson",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
     },
     {
       "id": "em-transport",
@@ -737,7 +817,209 @@
         "border",
         "city"
       ],
-      "format": "lesson"
+      "format": "lesson",
+      "lastReviewed": null,
+      "reviewStatus": "pending"
+    },
+    {
+      "id": "em-demography",
+      "title": "Demografia e Transição Populacional",
+      "tagline": "Estrutura etária, fecundidade, mortalidade e migração sem determinismos.",
+      "objective": "Analisar mudanças populacionais, seus indicadores e implicações territoriais.",
+      "order": 44,
+      "level": "em",
+      "scales": [
+        "nacional",
+        "global"
+      ],
+      "phenomena": [
+        "migration",
+        "inequality"
+      ],
+      "sourceKey": "population",
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min",
+      "format": "lesson",
+      "lastReviewed": "2026-10-09",
+      "reviewStatus": "reviewed",
+      "evidenceStatus": "consensus",
+      "sources": [
+        {
+          "id": "un-wpp",
+          "title": "World Population Prospects",
+          "publisher": "United Nations DESA",
+          "url": "https://population.un.org/wpp/",
+          "year": 2024,
+          "accessedAt": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "em-agriculture-land",
+      "title": "Agricultura, Alimentos e Propriedade da Terra",
+      "tagline": "Produção, produtividade, segurança alimentar e regimes de posse.",
+      "objective": "Comparar sistemas agrícolas e instituições fundiárias, distinguindo produtividade, distribuição e sustentabilidade.",
+      "order": 45,
+      "level": "em",
+      "scales": [
+        "local",
+        "nacional",
+        "global"
+      ],
+      "phenomena": [
+        "inequality",
+        "water"
+      ],
+      "sourceKey": "land",
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min",
+      "format": "lesson",
+      "lastReviewed": "2026-10-09",
+      "reviewStatus": "reviewed",
+      "evidenceStatus": "consensus",
+      "sources": [
+        {
+          "id": "fao-tenure",
+          "title": "Governance of Land Tenure",
+          "publisher": "FAO",
+          "url": "https://www.fao.org/tenure/en",
+          "year": 2026,
+          "accessedAt": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "em-oceans",
+      "title": "Oceanos e Geografia Marítima",
+      "tagline": "Rotas, recursos, jurisdições e ecossistemas que conectam o planeta.",
+      "objective": "Interpretar o espaço marítimo por suas dimensões física, econômica, jurídica e estratégica.",
+      "order": 46,
+      "level": "em",
+      "scales": [
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "water",
+        "transport",
+        "border"
+      ],
+      "sourceKey": "oceans",
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min",
+      "format": "lesson",
+      "lastReviewed": "2026-10-09",
+      "reviewStatus": "reviewed",
+      "evidenceStatus": "consensus",
+      "sources": [
+        {
+          "id": "unclos",
+          "title": "United Nations Convention on the Law of the Sea",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
+          "year": 1982,
+          "accessedAt": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "em-risks-resilience",
+      "title": "Riscos Naturais e Resiliência",
+      "tagline": "Perigo, exposição, vulnerabilidade e capacidade de resposta.",
+      "objective": "Avaliar riscos sem tratar desastres como eventos puramente naturais.",
+      "order": 47,
+      "level": "em",
+      "scales": [
+        "local",
+        "regional",
+        "global"
+      ],
+      "phenomena": [
+        "climate",
+        "water",
+        "city"
+      ],
+      "sourceKey": "risks",
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min",
+      "format": "lesson",
+      "lastReviewed": "2026-10-09",
+      "reviewStatus": "reviewed",
+      "evidenceStatus": "consensus",
+      "sources": [
+        {
+          "id": "undrr-resilience",
+          "title": "Definition: Resilience",
+          "publisher": "UNDRR",
+          "url": "https://www.undrr.org/terminology/resilience",
+          "year": 2017,
+          "accessedAt": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "es-institutions-development",
+      "title": "Instituições, Desenvolvimento e Liberdade Econômica",
+      "tagline": "Regras, incentivos, capacidades estatais e limites dos indicadores.",
+      "objective": "Comparar explicações institucionais, históricas, geográficas e econômicas do desenvolvimento.",
+      "order": 48,
+      "level": "es",
+      "scales": [
+        "nacional",
+        "global"
+      ],
+      "phenomena": [
+        "inequality"
+      ],
+      "sourceKey": "institutions",
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min",
+      "format": "lesson",
+      "lastReviewed": "2026-10-09",
+      "reviewStatus": "reviewed",
+      "evidenceStatus": "consensus",
+      "sources": [
+        {
+          "id": "world-bank-wgi",
+          "title": "Worldwide Governance Indicators",
+          "publisher": "World Bank",
+          "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
+          "year": 2026,
+          "accessedAt": "2026-10-09",
+          "note": "Indicadores compostos baseados em múltiplas fontes; devem ser lidos como estimativas, não como avaliações definitivas."
+        }
+      ]
+    },
+    {
+      "id": "es-quantitative-geography",
+      "title": "Geografia Quantitativa e Análise Espacial",
+      "tagline": "Medir padrões territoriais sem perder contexto, escala e incerteza.",
+      "objective": "Aplicar conceitos de dados espaciais, autocorrelação, acessibilidade e comunicação cartográfica.",
+      "order": 49,
+      "level": "es",
+      "scales": [
+        "local",
+        "regional",
+        "global"
+      ],
+      "phenomena": [],
+      "sourceKey": "quantitative",
+      "lessons": 4,
+      "estimatedTime": "4 aulas de 50 min",
+      "format": "lesson",
+      "lastReviewed": "2026-10-09",
+      "reviewStatus": "reviewed",
+      "evidenceStatus": "consensus",
+      "sources": [
+        {
+          "id": "qgis-manual",
+          "title": "QGIS User Guide",
+          "publisher": "QGIS Project",
+          "url": "https://docs.qgis.org/latest/en/docs/user_manual/",
+          "year": 2026,
+          "accessedAt": "2026-10-09"
+        }
+      ]
     }
   ]
 }

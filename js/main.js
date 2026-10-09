@@ -16,6 +16,7 @@ import { State }         from './state.js';
 import { Router }        from './router.js';
 import { UI }            from './ui.js';
 import { Accessibility } from './accessibility.js';
+import { LocalProgress }  from './local-progress.js';
 
 /**
  * Esconde a tela de carregamento após o primeiro render.
@@ -34,6 +35,13 @@ async function init() {
 
   // 1. Estado global
   const state = new State();
+  const progress = new LocalProgress();
+  const saved = progress.read();
+  state.set({
+    completedLessons: saved.completed,
+    favoriteLessons: saved.favorites,
+    lastLesson: saved.lastLesson,
+  });
 
   // 2. Roteador
   const router = new Router(state);
@@ -54,7 +62,7 @@ async function init() {
 
   // Expor estado em desenvolvimento (facilita depuração via console)
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
-    window.__HUMBOLDT__ = { state, router, ui, a11y };
+    window.__HUMBOLDT__ = { state, router, ui, a11y, progress };
   }
 }
 

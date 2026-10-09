@@ -1,0 +1,97 @@
+{
+  "id": "es-quantitative-geography-4",
+  "moduleId": "es-quantitative-geography",
+  "title": "Incerteza e ética na análise espacial",
+  "summary": "Dados incompletos, geocodificação e modelos introduzem erros que afetam territórios e pessoas.",
+  "lastReviewed": "2026-10-09",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "estimatedDuration": 50,
+  "durationUnit": "minutes",
+  "scales": [
+    "local",
+    "regional",
+    "global"
+  ],
+  "sources": [
+    {
+      "id": "qgis-manual",
+      "title": "QGIS User Guide",
+      "publisher": "QGIS Project",
+      "url": "https://docs.qgis.org/latest/en/docs/user_manual/",
+      "year": 2026,
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Comparativa",
+      "thesis": "Privacidade, estigmatização e risco de reidentificação podem superar o benefício analítico.",
+      "evidence": "Comparação de mecanismos, casos e indicadores.",
+      "criticism": "Resultados dependem da seleção de casos e da qualidade dos dados.",
+      "limitations": "Não substitui estudos locais nem demonstra causalidade isoladamente."
+    }
+  ],
+  "phenomenon": {
+    "title": "Quando não publicar um mapa detalhado?",
+    "text": "Dados incompletos, geocodificação e modelos introduzem erros que afetam territórios e pessoas."
+  },
+  "guided": {
+    "title": "Conceito guiado",
+    "text": "Privacidade, estigmatização e risco de reidentificação podem superar o benefício analítico.",
+    "points": [
+      "Defina o fenômeno.",
+      "Identifique a escala.",
+      "Separe descrição, mecanismo e julgamento."
+    ]
+  },
+  "relations": {
+    "title": "Relações",
+    "text": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única."
+  },
+  "caseStudy": {
+    "title": "Estudo comparativo",
+    "text": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+    "location": "Definida pelo professor ou estudante",
+    "period": "Contemporâneo, com ano explicitado na atividade"
+  },
+  "application": "Defina uma política de generalização para dados sensíveis e justifique seus limites.",
+  "activityType": "single-choice",
+  "activity": {
+    "question": "Quando não publicar um mapa detalhado?",
+    "type": "single-choice",
+    "correct": "etica",
+    "options": [
+      {
+        "value": "etica",
+        "label": "Privacidade, estigmatização e risco de reidentificação podem superar o benefício analítico."
+      },
+      {
+        "value": "unica-causa",
+        "label": "O fenômeno pode ser explicado por uma causa única em qualquer território."
+      },
+      {
+        "value": "sem-escala",
+        "label": "A escala e o período não alteram a interpretação."
+      }
+    ],
+    "hintAfter": 1,
+    "feedback": {
+      "correct": "Correto. A resposta distingue o conceito, a escala e os limites da evidência.",
+      "incorrect": "Revise o conceito guiado e procure a alternativa que não transforme uma relação contextual em regra universal."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Procure a alternativa que reconhece múltiplas variáveis e limites de comparação."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "Aplicar conceitos de dados espaciais, autocorrelação, acessibilidade e comunicação cartográfica.",
+    "observe": "Verifique se descrição, interpretação e juízo de valor permanecem separados.",
+    "answer": "Privacidade, estigmatização e risco de reidentificação podem superar o benefício analítico.",
+    "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
+    "time": "50 minutos"
+  }
+}

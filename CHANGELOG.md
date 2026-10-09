@@ -3,6 +3,41 @@
 Todas as alterações significativas do projeto são documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
+## [Não publicado] — Atlas 2.0
+
+### Adicionado
+
+- Seis módulos e 24 lições revisadas, totalizando 47 módulos e 170 lições.
+- Busca local, rota `#atlas`, filtros compartilháveis e nove mapas SVG locais.
+- Comparação opcional de duas camadas no Atlas, com fonte, ano e descrição associados.
+- Nove mapas refeitos sobre bases geográficas reais do Natural Earth e do IBGE.
+- Sistema cartográfico com rosa dos ventos, escala, legendas temáticas, zoom, movimento e ampliação individual.
+- Progresso, favoritos e retomada de estudo armazenados somente no navegador.
+- Filtros recentes do Atlas e da busca persistidos localmente.
+- Fontes estruturadas, datas de revisão, marcadores editoriais e comparação de perspectivas.
+- Política editorial pluralista e contrato de dados documentados.
+- Servidor local em Node.js e geradores determinísticos de conteúdo e mapas.
+
+### Alterado
+
+- Página inicial prioriza busca, Atlas e continuação do estudo.
+- Lições exibem metadados, fontes, ações locais de progresso e navegação inferior no celular.
+- Guia do Professor, Plano de Aula e Sobre compartilham a mesma linguagem visual editorial.
+- Artigo "Geografias Pós-Coloniais e Feministas" ampliado para
+  "Abordagens Contemporâneas e Debates", com contrapontos metodológicos.
+- Navegação compacta ativada antes de ocorrer transbordamento horizontal.
+- Imports ESM dos testes usam URLs `file://` compatíveis com Windows.
+
+### Testes
+
+- 613 ok / 0 falhou no Windows.
+
+### Pendente
+
+- Construção visual e protótipo no arquivo Figma criado; integração bloqueada
+  temporariamente pelo limite de chamadas do plano Starter.
+- Auditoria editorial completa das 146 lições legadas, hoje marcadas como pendentes.
+
 ## [1.6.0] — 2026-04-23
 
 ### Alterado

@@ -1,0 +1,96 @@
+{
+  "id": "em-oceans-4",
+  "moduleId": "em-oceans",
+  "title": "Recursos marinhos e conservação",
+  "summary": "Pesca, energia, mineração e conservação disputam usos no mesmo espaço.",
+  "lastReviewed": "2026-10-09",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "estimatedDuration": 50,
+  "durationUnit": "minutes",
+  "scales": [
+    "regional",
+    "global"
+  ],
+  "sources": [
+    {
+      "id": "unclos",
+      "title": "United Nations Convention on the Law of the Sea",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
+      "year": 1982,
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Comparativa",
+      "thesis": "Regras eficazes dependem de informação, fiscalização, incentivos e cooperação entre jurisdições.",
+      "evidence": "Comparação de mecanismos, casos e indicadores.",
+      "criticism": "Resultados dependem da seleção de casos e da qualidade dos dados.",
+      "limitations": "Não substitui estudos locais nem demonstra causalidade isoladamente."
+    }
+  ],
+  "phenomenon": {
+    "title": "Como conciliar uso econômico e renovação dos ecossistemas?",
+    "text": "Pesca, energia, mineração e conservação disputam usos no mesmo espaço."
+  },
+  "guided": {
+    "title": "Conceito guiado",
+    "text": "Regras eficazes dependem de informação, fiscalização, incentivos e cooperação entre jurisdições.",
+    "points": [
+      "Defina o fenômeno.",
+      "Identifique a escala.",
+      "Separe descrição, mecanismo e julgamento."
+    ]
+  },
+  "relations": {
+    "title": "Relações",
+    "text": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única."
+  },
+  "caseStudy": {
+    "title": "Estudo comparativo",
+    "text": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+    "location": "Definida pelo professor ou estudante",
+    "period": "Contemporâneo, com ano explicitado na atividade"
+  },
+  "application": "Desenhe um zoneamento marinho com áreas de uso, proteção e monitoramento.",
+  "activityType": "single-choice",
+  "activity": {
+    "question": "Como conciliar uso econômico e renovação dos ecossistemas?",
+    "type": "single-choice",
+    "correct": "zoneamento",
+    "options": [
+      {
+        "value": "zoneamento",
+        "label": "Regras eficazes dependem de informação, fiscalização, incentivos e cooperação entre jurisdições."
+      },
+      {
+        "value": "unica-causa",
+        "label": "O fenômeno pode ser explicado por uma causa única em qualquer território."
+      },
+      {
+        "value": "sem-escala",
+        "label": "A escala e o período não alteram a interpretação."
+      }
+    ],
+    "hintAfter": 1,
+    "feedback": {
+      "correct": "Correto. A resposta distingue o conceito, a escala e os limites da evidência.",
+      "incorrect": "Revise o conceito guiado e procure a alternativa que não transforme uma relação contextual em regra universal."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Procure a alternativa que reconhece múltiplas variáveis e limites de comparação."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "Interpretar o espaço marítimo por suas dimensões física, econômica, jurídica e estratégica.",
+    "observe": "Verifique se descrição, interpretação e juízo de valor permanecem separados.",
+    "answer": "Regras eficazes dependem de informação, fiscalização, incentivos e cooperação entre jurisdições.",
+    "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
+    "time": "50 minutos"
+  }
+}

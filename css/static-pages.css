@@ -1,0 +1,101 @@
+/* Shared editorial shell for standalone Humboldt pages. */
+.static-page {
+  background: #f2ede3;
+  color-scheme: only light;
+}
+
+.static-page #site-header {
+  position: sticky;
+  top: 0;
+  z-index: 400;
+  border-bottom: 2px solid #c4a35a;
+  box-shadow: 0 10px 30px rgba(23, 50, 77, .12);
+}
+
+.static-page .header-inner {
+  max-width: 1320px;
+  min-height: 70px;
+  margin: 0 auto;
+  padding-inline: clamp(1rem, 4vw, 3rem);
+}
+
+.static-page .logo-name { letter-spacing: -.02em; }
+
+.static-page .static-hero,
+.static-page .guide-hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 88% 24%, rgba(196,163,90,.18), transparent 24%),
+    #17324d;
+  color: #fffaf0;
+  border-bottom: 1px solid rgba(196,163,90,.7);
+}
+
+.static-page .static-hero::after,
+.static-page .guide-hero::after {
+  content: '';
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  right: -120px;
+  bottom: -250px;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 50%;
+  box-shadow: 0 0 0 42px rgba(255,255,255,.025), 0 0 0 84px rgba(255,255,255,.018);
+}
+
+.static-hero__inner {
+  width: min(1180px, calc(100% - 64px));
+  margin: 0 auto;
+  padding: clamp(4rem, 8vw, 7.5rem) 0 clamp(3.5rem, 7vw, 6rem);
+}
+
+.static-hero__eyebrow {
+  margin: 0 0 1rem;
+  color: #d4bb6f;
+  font: .72rem var(--font-mono);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.static-hero h1 {
+  max-width: 850px;
+  margin: 0;
+  color: #fffaf0;
+  font-size: clamp(3rem, 7vw, 6.2rem);
+  line-height: .96;
+  letter-spacing: -.045em;
+}
+
+.static-hero__inner > p:last-child {
+  max-width: 720px;
+  margin-top: 1.5rem;
+  color: rgba(255,250,240,.74);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+.static-page .content-card,
+.static-page .form-panel,
+.static-page .preview-panel,
+.static-page .sidebar-panel {
+  border-radius: 0;
+  box-shadow: 0 18px 44px rgba(23,50,77,.1);
+}
+
+.static-page .content-card { max-width: 70ch; }
+.static-page--about .content-card { max-width: none; }
+
+@media (max-width: 768px) {
+  .static-page .header-inner { min-height: 58px; }
+  .static-hero__inner { width: min(100% - 32px, 1180px); padding-block: 4rem; }
+  .static-hero h1 { font-size: clamp(2.7rem, 14vw, 4.4rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .static-page *, .static-page *::before, .static-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+    animation-duration: 1ms !important;
+  }
+}

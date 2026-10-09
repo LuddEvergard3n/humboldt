@@ -48,6 +48,10 @@ export async function runDataTests() {
     assertEqual(new Set(ids).size, ids.length, 'ids duplicados');
   });
 
+  test('Atlas 2.0 possui 47 módulos', () => {
+    assertEqual(modules.modules.length, 47);
+  });
+
   test('possui os 8 módulos obrigatórios', () => {
     const required = ['cartography','landscape','brazil','population',
                       'urbanization','economy','geopolitics','globalization'];
@@ -83,6 +87,25 @@ export async function runDataTests() {
     }
   });
 
+  test('Atlas 2.0 possui 170 lições indexadas', () => {
+    assertEqual(Object.keys(index).length, 170);
+  });
+
+  test('novos módulos possuem data, fontes e quatro lições', () => {
+    const newIds = ['em-demography', 'em-agriculture-land', 'em-oceans',
+      'em-risks-resilience', 'es-institutions-development', 'es-quantitative-geography'];
+    for (const id of newIds) {
+      const module = modules.modules.find(item => item.id === id);
+      assert(module, `módulo ausente: ${id}`);
+      assert(/^\d{4}-\d{2}-\d{2}$/.test(module.lastReviewed), `data inválida: ${id}`);
+      assertEqual(module.lessons, 4, `quantidade de lições inválida: ${id}`);
+      assert(Array.isArray(module.sources) && module.sources.length > 0, `sem fontes: ${id}`);
+      for (const source of module.sources) {
+        assert(/^https:\/\//.test(source.url), `URL de fonte inválida: ${id}`);
+      }
+    }
+  });
+
   // ----------------------------------------------------------
   suite('data/lessons/{id}.json — arquivos individuais');
 
@@ -90,7 +113,7 @@ export async function runDataTests() {
     .filter(f => f.endsWith('.json') && f !== 'index.json');
 
   test(`existem ${lessonFiles.length} arquivos de lição`, () => {
-    assert(lessonFiles.length > 0, 'nenhum arquivo de lição encontrado');
+    assertEqual(lessonFiles.length, 170, 'inventário de lições divergente');
   });
 
   for (const file of lessonFiles) {

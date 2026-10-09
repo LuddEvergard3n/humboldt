@@ -350,8 +350,9 @@
       html, body { background-color: #f2ede3 !important; color: #1a1a1a !important; }
     }
   </style>
+  <link rel="stylesheet" href="css/static-pages.css" />
 </head>
-<body style="background:#f2ede3">
+<body class="static-page static-page--guide">
 
   <header id="site-header" role="banner">
     <div class="header-inner">
@@ -371,6 +372,18 @@
   </header>
 
   <main id="main-content">
+    <section class="guide-hero" aria-labelledby="guide-title">
+      <div class="guide-hero__inner">
+        <p class="guide-hero__eyebrow">Recursos para educadores</p>
+        <h1 id="guide-title">Ensine geografia por relações.</h1>
+        <p class="guide-hero__lede">Um guia prático para conduzir mapas, fenômenos, evidências e debates em 47 módulos e 170 lições.</p>
+        <div class="guide-hero__meta" aria-label="Resumo do guia">
+          <span>4 níveis de ensino</span>
+          <span>8 etapas por lição</span>
+          <span>Uso local e sem conta</span>
+        </div>
+      </div>
+    </section>
     <div class="guia-wrapper">
 
       <!-- ── Sidebar de navegação ───────────────────────── -->
@@ -405,7 +418,7 @@
           <!-- ── O que é ── -->
           <h2 id="o-que-e">O que é o Humboldt</h2>
 
-          <p>O Humboldt é um atlas interativo de Geografia para o Ensino Fundamental e Médio. Organizado em 22 módulos e 102 lições, cobre do 3º ano do EFI à 3ª série do EM — sem precisar de conta, login ou conexão permanente.</p>
+          <p>O Humboldt é um atlas interativo de Geografia do Ensino Fundamental ao Superior. Organizado em 47 módulos e 170 lições, cobre do 3º ano do EFI ao aprofundamento universitário — sem precisar de conta, login ou conexão permanente.</p>
 
           <p>Não é um livro didático digital. Não é um banco de exercícios. É uma ferramenta para o professor que quer partir de fenômenos reais em vez de definições — e quer que o aluno interaja com o conteúdo em vez de apenas lê-lo.</p>
 
@@ -416,7 +429,7 @@
           <!-- ── Estrutura ── -->
           <h2 id="estrutura">Estrutura de uma lição</h2>
 
-          <p>Todas as lições seguem a mesma sequência de seis camadas. O professor pode usar todas ou entrar em qualquer ponto dependendo do tempo e da turma.</p>
+          <p>As lições seguem uma sequência de oito etapas, incluindo atividade, fontes e perspectivas quando o tema exige debate. O professor pode usar todas ou entrar em qualquer ponto dependendo do tempo e da turma.</p>
 
           <div class="camadas-grid">
             <span class="camada-num">01</span>
@@ -658,7 +671,7 @@
           <h2 id="perguntas">Perguntas frequentes</h2>
 
           <h3>O Humboldt precisa de internet?</h3>
-          <p>Para a primeira abertura, sim — carrega as fontes do Google Fonts e os arquivos do projeto. Depois, funciona completamente offline se o browser tiver os arquivos em cache. Para garantir, abra o atlas com conexão antes da aula.</p>
+          <p>Na versão publicada, é preciso conexão para abrir os arquivos hospedados no GitHub Pages. Depois de carregada, a página já aberta continua utilizável enquanto permanecer no navegador, mas ainda não há garantia de funcionamento offline completo.</p>
 
           <h3>Posso usar apenas uma lição sem seguir a sequência do módulo?</h3>
           <p>Sim. Cada lição foi escrita para ser autossuficiente. Você pode abrir <em>Refugiados e deslocados</em> sem ter feito as outras lições de População. O conteúdo de cada lição não pressupõe que o aluno fez a anterior.</p>
@@ -680,8 +693,8 @@
           <ul>
             <li><strong>Os mapas são esquemáticos.</strong> Não são mapas de precisão cartográfica — são instrumentos pedagógicos. Fronteiras aproximadas, sem detalhamento topográfico.</li>
             <li><strong>O conteúdo é estático.</strong> Dados de PIB, população e conflitos têm data de corte. O professor deve contextualizar eventos muito recentes.</li>
-            <li><strong>Não há progressão automática.</strong> O Humboldt não rastreia o progresso do aluno entre sessões. Não há gamificação, pontos ou certificados.</li>
-            <li><strong>O currículo não é completo.</strong> 102 lições cobrem os conceitos centrais — não são o currículo inteiro de nenhum ano.</li>
+            <li><strong>O progresso é apenas local.</strong> Lições concluídas, favoritos e a última lição ficam neste navegador. Não há conta, sincronização entre aparelhos, gamificação, pontos ou certificados.</li>
+            <li><strong>O currículo não é completo.</strong> As 170 lições cobrem conceitos centrais — não são o currículo inteiro de nenhum ano.</li>
           </ul>
 
           <div class="aviso">Comunicar essas limitações para os alunos é parte do aprendizado. Um aluno que entende o que uma ferramenta pode e não pode fazer aprende mais do que um aluno que acredita que a ferramenta tem tudo.</div>
@@ -694,7 +707,7 @@
 
   <footer style="background:var(--color-bg-panel);border-top:1px solid var(--color-border);padding:var(--space-6);text-align:center;">
     <p style="font-family:var(--font-mono);font-size:var(--size-xs);color:var(--color-text-muted);margin:0;letter-spacing:var(--tracking-wide);">
-      Humboldt v0.8 &mdash; <a href="sobre.html" style="color:var(--color-primary);">Sobre o projeto</a> &mdash; <a href="plano-aula.html" style="color:var(--color-primary);">Gerar plano de aula</a>
+      Humboldt 2.0 &mdash; <a href="sobre.html" style="color:var(--color-primary);">Sobre o projeto</a> &mdash; <a href="plano-aula.html" style="color:var(--color-primary);">Gerar plano de aula</a>
     </p>
   </footer>
 

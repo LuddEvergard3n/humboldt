@@ -170,6 +170,39 @@
 .hamburger::before { top: -6px; }
 .hamburger::after  { top:  6px; }
 
+/* A navegação completa ultrapassa a largura antes do breakpoint de celular. */
+@media (max-width: 1460px) {
+  .header-inner { flex-wrap: wrap; }
+  .nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-inv);
+    z-index: 200;
+  }
+  #nav-links {
+    display: none;
+    position: fixed;
+    inset: 0;
+    top: 64px;
+    background: var(--color-primary);
+    flex-direction: column;
+    align-items: stretch;
+    padding: var(--space-6);
+    gap: var(--space-2);
+    z-index: 150;
+    overflow-y: auto;
+  }
+  #nav-links.open { display: flex; }
+  .nav-links a,
+  .nav-dropdown-btn,
+  .btn-teacher { display: flex; width: 100%; padding: var(--space-3); }
+  .nav-dropdown { position: static; margin-top: var(--space-2); }
+  .has-dropdown:hover .nav-dropdown,
+  .has-dropdown:focus-within .nav-dropdown { display: none; }
+  .has-dropdown.open .nav-dropdown { display: block; }
+}
+
 /* ==========================================================
    CONTEÚDO PRINCIPAL
    ========================================================== */

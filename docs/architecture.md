@@ -25,7 +25,7 @@ js/
   ui.js               — interações globais (nav, font-size, teacher-mode)
   accessibility.js    — preferências de acessibilidade (localStorage)
   data-loader.js      — fetch + cache em memória para JSON e SVG
-  module-loader.js    — mapa de lazy imports dos 41 módulos
+  module-loader.js    — mapa de lazy imports dos módulos legados com código próprio
 
 engine/
   map-engine.js         — renderiza SVG, tooltip, clique em [data-name]
@@ -47,7 +47,7 @@ components/
     phenomenon-view.js  — re-exporta renderPhenomenon de scale-view
 
 data/
-  modules.json          — 41 módulos com metadados
+  modules.json          — 47 módulos com metadados
   lessons/
     index.json          — índice plano { id: { moduleId, title, summary, activityType } }
     {id}.json           — 146 arquivos individuais de lição

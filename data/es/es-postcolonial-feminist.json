@@ -1,8 +1,8 @@
 {
   "id": "es-postcolonial-feminist",
-  "title": "Geografias Pós-Coloniais e Feministas",
-  "subtitle": "Subalternidade, espacialidades do corpo e a crítica aos universalismos geográficos",
-  "intro": "A geografia moderna foi construída, em grande medida, por homens europeus brancos que mapearam, classificaram e teorizaram o mundo a partir de uma posição que se pretendia universal. Essa posição não era neutra: refletia relações de poder coloniais, de gênero e de raça que moldaram o que era considerado digno de estudo, quem podia produzir conhecimento e quais espaços importavam. As geografias pós-coloniais e feministas não são 'adicionais' à geografia — são críticas ao seu próprio fundamento. Questionam: quem fala? De onde fala? Em nome de quem? Essas perguntas transformaram a disciplina e permanecem abertas.",
+  "title": "Abordagens Contemporâneas e Debates",
+  "subtitle": "Perspectivas pós-coloniais, feministas, institucionais, quantitativas e culturais em comparação",
+  "intro": "A geografia contemporânea reúne abordagens com perguntas, métodos e limites diferentes. Perspectivas pós-coloniais e feministas investigam como poder, gênero, raça e heranças imperiais afetam a produção do espaço e do conhecimento. Abordagens institucionais examinam regras e capacidades; métodos quantitativos testam padrões e hipóteses; tradições humanistas e culturais estudam experiência, sentido e identidade. Nenhuma dessas lentes explica sozinha todo fenômeno. Este artigo apresenta contribuições, evidências, críticas e alternativas para que o leitor compare argumentos sem confundir escola teórica com fato estabelecido.",
   "readingTime": "32 min",
   "sections": [
     {
@@ -133,7 +133,7 @@
     },
     {
       "id": "sec-compare-tradicoes",
-      "title": "Tradições das geografias críticas",
+      "title": "Comparação de abordagens e limites",
       "type": "compare-table",
       "columns": ["Tradição", "Objeto central", "Conceitos-chave", "Autoras/es de referência", "Limites e críticas"],
       "rows": [
@@ -141,7 +141,10 @@
         ["Geografias feministas", "Espaço e gênero; mobilidade; trabalho reprodutivo", "Geometrias do poder, olhar masculino, espaço doméstico/público, interseccionalidade", "Massey, Rose, McDowell, Monk", "Tensão entre feminismo universalista e atenção às diferenças de raça e classe"],
         ["Epistemologias do Sul", "Saberes subalternos; pluralidade epistemológica", "Sociologia das ausências, ecologia de saberes, pensamento abissal", "Boaventura de Sousa Santos, Mignolo", "Risco de romantizar saberes locais; difícil operacionalização acadêmica"],
         ["Geografias negras", "Espaço, raça e violência; necropolítica", "Necropolítica, segregação racial, periferização, branquitude espacial", "Mbembe, Katherine McKittrick, Beatriz Nascimento", "Campo em construção; tensão entre diagnóstico e proposta"],
-        ["Decolonialidade", "Colonialidade do poder/saber/ser; modernidade como projeto colonial", "Colonialidade, diferença colonial, pensamento fronteiriço", "Quijano, Mignolo, Lugones, Maldonado-Torres", "Tendência ao anti-ocidentalismo que dificulta diálogos; foco excessivo no diagnóstico"]
+        ["Decolonialidade", "Colonialidade do poder/saber/ser; modernidade como projeto colonial", "Colonialidade, diferença colonial, pensamento fronteiriço", "Quijano, Mignolo, Lugones, Maldonado-Torres", "Tendência ao anti-ocidentalismo que dificulta diálogos; foco excessivo no diagnóstico"],
+        ["Institucionalismo", "Regras formais e informais; capacidade estatal; incentivos territoriais", "Instituições, governança, custos de transação, bens públicos", "North, Ostrom, Acemoglu, Robinson", "Risco de causalidade reversa e de subestimar geografia, história e relações internacionais"],
+        ["Geografia quantitativa", "Padrões, localização, redes e relações espaciais mensuráveis", "Escala, autocorrelação, acessibilidade, modelagem e incerteza", "Haggett, Berry, Openshaw, Goodchild", "Resultados dependem da unidade de análise, da qualidade dos dados e das hipóteses do modelo"],
+        ["Geografia humanista e cultural", "Experiência do lugar, paisagem, identidade e produção de sentidos", "Lugar, percepção, representação, memória e territorialidade", "Tuan, Relph, Cosgrove, Claval", "Interpretações podem ser difíceis de generalizar e comparar em grande escala"]
       ]
     }
   ]

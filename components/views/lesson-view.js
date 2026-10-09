@@ -8,8 +8,12 @@
 import { loadLesson, loadJSON }  from '../../js/data-loader.js';
 import { ActivityEngine }         from '../activity-engine.js';
 import { HintSystem }             from '../../engine/hint-system.js';
+import { LocalProgress }          from '../../js/local-progress.js';
 
 export async function renderLesson({ moduleId, lessonId }, state, router) {
+  const progressStore = new LocalProgress();
+  progressStore.update({ lastLesson: lessonId });
+  state.set('lastLesson', lessonId);
   const [lesson, modulesData] = await Promise.all([
     loadLesson(lessonId).catch(() => null),
     loadJSON('data/modules.json'),
@@ -42,9 +46,15 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
 
     <div class="lesson-progress">
       <div class="progress-bar">
-        <div class="progress-fill" id="progress-fill" style="width:14%"></div>
+        <div class="progress-fill" id="progress-fill" style="width:12.5%"></div>
       </div>
-      <span class="progress-label" id="progress-label">1 / 7</span>
+      <span class="progress-label" id="progress-label">1 / 8</span>
+    </div>
+
+    <div class="lesson-metadata" aria-label="Metadados da lição">
+      <span>${lesson.estimatedDuration || 50} ${lesson.durationUnit === 'minutes' ? 'min' : ''}</span>
+      <span>Revisado em ${lesson.lastReviewed || 'revisão pendente'}</span>
+      <span class="editorial-marker">${lesson.evidenceStatus || 'conteúdo'}</span>
     </div>
 
     <!-- 01 Fenômeno -->
@@ -104,6 +114,13 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
       <div id="feedback-area" class="feedback-msg"></div>
     </section>
 
+    <section class="lesson-step lesson-sources" id="step-sources">
+      <p class="step-label">Fontes e perspectivas</p>
+      <h2>Como este conteúdo foi sustentado</h2>
+      ${lesson.sources?.length ? `<ul class="source-list">${lesson.sources.map(source => `<li><a href="${source.url}" target="_blank" rel="noopener noreferrer">${source.title}</a><span>${source.publisher} · ${source.year}</span>${source.note ? `<small>${source.note}</small>` : ''}</li>`).join('')}</ul>` : '<p>Conteúdo legado com revisão de fontes pendente.</p>'}
+      ${lesson.perspectives?.length ? `<div class="perspective-grid">${lesson.perspectives.map(item => `<article><h3>${item.name}</h3><p><strong>Tese:</strong> ${item.thesis}</p><p><strong>Evidência:</strong> ${item.evidence}</p><p><strong>Crítica:</strong> ${item.criticism}</p><p><strong>Limite:</strong> ${item.limitations}</p></article>`).join('')}</div>` : ''}
+    </section>
+
     <!-- Caixa do professor -->
     <div class="teacher-box teacher-only">
       <p class="teacher-box-label">Modo Professor</p>
@@ -119,6 +136,10 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
     <!-- Navegação de lição -->
     <div class="lesson-nav">
       <a href="#module/${moduleId}" class="btn btn-outline btn-sm">← Módulo</a>
+      <div class="lesson-local-actions">
+        <button type="button" class="btn btn-outline btn-sm" id="favorite-lesson">Favoritar</button>
+        <button type="button" class="btn btn-primary btn-sm" id="complete-lesson">Marcar como concluída</button>
+      </div>
     </div>
   `;
 
@@ -143,6 +164,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
         <li><a href="#step-05" class="sidebar-step-link">05 — Estudo de caso</a></li>
         <li><a href="#step-06" class="sidebar-step-link">06 — Aplicação</a></li>
         <li><a href="#step-07" class="sidebar-step-link">07 — Atividade</a></li>
+        <li><a href="#step-sources" class="sidebar-step-link">08 — Fontes</a></li>
       </ol>
     </nav>`;
 
@@ -180,6 +202,35 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
   el.appendChild(main);
   el.appendChild(sidebar);
 
+  const mobileNav = document.createElement('nav');
+  mobileNav.className = 'lesson-mobile-nav';
+  mobileNav.setAttribute('aria-label', 'Etapas da lição');
+  mobileNav.innerHTML = `<span class="lesson-mobile-nav__label">Etapas</span><div>${['01','02','03','04','05','06','07','08'].map((number, index) => `<a href="${index === 7 ? '#step-sources' : `#step-${number}`}" class="lesson-mobile-step" aria-label="Etapa ${number}">${number}</a>`).join('')}</div>`;
+  el.appendChild(mobileNav);
+
+  const saved = progressStore.read();
+  const favoriteButton = main.querySelector('#favorite-lesson');
+  const completeButton = main.querySelector('#complete-lesson');
+  const refreshActions = () => {
+    const current = progressStore.read();
+    favoriteButton.textContent = current.favorites.includes(lessonId) ? 'Remover dos favoritos' : 'Favoritar';
+    completeButton.textContent = current.completed.includes(lessonId) ? 'Concluída' : 'Marcar como concluída';
+    completeButton.setAttribute('aria-pressed', String(current.completed.includes(lessonId)));
+  };
+  favoriteButton.addEventListener('click', () => {
+    const next = progressStore.toggleFavorite(lessonId);
+    state.set('favoriteLessons', next.favorites);
+    refreshActions();
+  });
+  completeButton.addEventListener('click', () => {
+    const isCompleted = progressStore.read().completed.includes(lessonId);
+    const next = progressStore.setCompleted(lessonId, !isCompleted);
+    state.set('completedLessons', next.completed);
+    refreshActions();
+  });
+  if (saved.favorites.includes(lessonId) || saved.completed.includes(lessonId)) refreshActions();
+  else refreshActions();
+
   // --- Montar motores após injeção no DOM ---
   requestAnimationFrame(() => {
     const hintEl    = main.querySelector('#feedback-area');
@@ -201,7 +252,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
     const steps = main.querySelectorAll('.lesson-step');
     const fill  = main.querySelector('#progress-fill');
     const label = main.querySelector('#progress-label');
-    const stepLinks = sidebar.querySelectorAll('.sidebar-step-link');
+    const stepLinks = el.querySelectorAll('.sidebar-step-link, .lesson-mobile-step');
     const total = steps.length;
 
     const observer = new IntersectionObserver(entries => {
@@ -223,7 +274,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
     steps.forEach(s => observer.observe(s));
 
     // Scroll suave nos links da sidebar
-    sidebar.querySelectorAll('.sidebar-step-link').forEach(link => {
+    el.querySelectorAll('.sidebar-step-link, .lesson-mobile-step').forEach(link => {
       link.addEventListener('click', e => {
         e.preventDefault();
         const targetId = link.getAttribute('href').replace('#', '');

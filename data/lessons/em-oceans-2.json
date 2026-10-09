@@ -1,0 +1,88 @@
+{
+  "id": "em-oceans-2",
+  "moduleId": "em-oceans",
+  "title": "Direito do mar e zonas marítimas",
+  "summary": "Mar territorial, zona econômica exclusiva e alto-mar atribuem direitos diferentes.",
+  "lastReviewed": "2026-10-09",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "consensus",
+  "estimatedDuration": 50,
+  "durationUnit": "minutes",
+  "scales": [
+    "regional",
+    "global"
+  ],
+  "sources": [
+    {
+      "id": "unclos",
+      "title": "United Nations Convention on the Law of the Sea",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
+      "year": 1982,
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "perspectives": [],
+  "phenomenon": {
+    "title": "Soberania e direito de exploração significam a mesma coisa?",
+    "text": "Mar territorial, zona econômica exclusiva e alto-mar atribuem direitos diferentes."
+  },
+  "guided": {
+    "title": "Conceito guiado",
+    "text": "A jurisdição varia conforme a distância da costa e o tipo de atividade previsto no direito internacional.",
+    "points": [
+      "Defina o fenômeno.",
+      "Identifique a escala.",
+      "Separe descrição, mecanismo e julgamento."
+    ]
+  },
+  "relations": {
+    "title": "Relações",
+    "text": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única."
+  },
+  "caseStudy": {
+    "title": "Estudo comparativo",
+    "text": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+    "location": "Definida pelo professor ou estudante",
+    "period": "Contemporâneo, com ano explicitado na atividade"
+  },
+  "application": "Associe cada atividade à zona marítima e justifique pelo tipo de direito exercido.",
+  "activityType": "single-choice",
+  "activity": {
+    "question": "Soberania e direito de exploração significam a mesma coisa?",
+    "type": "single-choice",
+    "correct": "jurisdicao",
+    "options": [
+      {
+        "value": "jurisdicao",
+        "label": "A jurisdição varia conforme a distância da costa e o tipo de atividade previsto no direito internacional."
+      },
+      {
+        "value": "unica-causa",
+        "label": "O fenômeno pode ser explicado por uma causa única em qualquer território."
+      },
+      {
+        "value": "sem-escala",
+        "label": "A escala e o período não alteram a interpretação."
+      }
+    ],
+    "hintAfter": 1,
+    "feedback": {
+      "correct": "Correto. A resposta distingue o conceito, a escala e os limites da evidência.",
+      "incorrect": "Revise o conceito guiado e procure a alternativa que não transforme uma relação contextual em regra universal."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Procure a alternativa que reconhece múltiplas variáveis e limites de comparação."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "Interpretar o espaço marítimo por suas dimensões física, econômica, jurídica e estratégica.",
+    "observe": "Verifique se descrição, interpretação e juízo de valor permanecem separados.",
+    "answer": "A jurisdição varia conforme a distância da costa e o tipo de atividade previsto no direito internacional.",
+    "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
+    "time": "50 minutos"
+  }
+}

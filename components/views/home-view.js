@@ -17,8 +17,9 @@
  *                .module-card (definido em components.css)
  */
 
-import { createGlobeDecoration } from '../globe-decoration.js';
 import { loadJSON }               from '../../js/data-loader.js';
+import { loadLessonsIndex }       from '../../js/data-loader.js';
+import { LocalProgress }          from '../../js/local-progress.js';
 
 const LEVEL_LABEL = {
   efi:  'Ensino Fundamental I',
@@ -26,13 +27,6 @@ const LEVEL_LABEL = {
   em:   'Ensino Médio',
   es:   'Ensino Superior',
 };
-
-const COG_OPS = [
-  { symbol: '◎', title: 'Observar',    desc: 'Ler o espaço com atenção analítica.' },
-  { symbol: '⇄', title: 'Comparar',    desc: 'Encontrar semelhanças e diferenças entre lugares.' },
-  { symbol: '↗', title: 'Relacionar',  desc: 'Conectar fenômenos em diferentes escalas.' },
-  { symbol: '◈', title: 'Interpretar', desc: 'Construir explicações fundamentadas.' },
-];
 
 const SCALE_ITEMS = [
   { id: 'local',    name: 'Local',    desc: 'bairro, cidade' },
@@ -42,104 +36,71 @@ const SCALE_ITEMS = [
 ];
 
 export async function renderHome(_params, _state, router) {
-  const { modules } = await loadJSON('data/modules.json');
+  const [{ modules }, lessonIndex] = await Promise.all([loadJSON('data/modules.json'), loadLessonsIndex()]);
+  const saved = new LocalProgress().read();
+  const lastLesson = saved.lastLesson ? lessonIndex[saved.lastLesson] : null;
 
   const container = document.createElement('div');
-  container.className = 'home-root';
+  container.className = 'home-root atlas2-home';
+
+  const featuredIds = ['em-oceans', 'em-demography', 'em-risks-resilience', 'es-institutions-development'];
+  const featured = featuredIds.map(id => modules.find(module => module.id === id)).filter(Boolean);
+  const levelCounts = Object.fromEntries(Object.keys(LEVEL_LABEL).map(level => [level, modules.filter(module => module.level === level).length]));
 
   container.innerHTML = `
-
-    <!-- ── Hero ── -->
-    <section class="home-hero" aria-label="Introdução">
-      <div class="hero-inner">
-        <div class="hero-text">
-          <p class="hero-eyebrow">Atlas Interativo de Geografia</p>
-          <h1 class="hero-title">O espaço explica<br>o mundo.</h1>
-          <p class="hero-lead">
-            Atlas interativo para o Ensino Fundamental e Médio.
-            Fenômenos, mapas e análise geográfica em múltiplas escalas.
-          </p>
-          <div class="hero-actions">
-            <button class="btn btn-primary" data-nav="#module/efi-place">
-              Começar pelo EFI
-            </button>
-            <button class="btn btn-outline" data-nav="#module/efii-concepts">
-              Começar pelo EFII
-            </button>
-          </div>
+    <section class="atlas2-hero" aria-labelledby="home-title">
+      <div class="atlas2-hero-copy">
+        <p class="atlas2-kicker">Humboldt · Atlas Interativo 2.0</p>
+        <h1 id="home-title">Geografia para ver relações, não decorar listas.</h1>
+        <p class="atlas2-lead">Explore territórios, compare evidências e acompanhe como fenômenos físicos, humanos e institucionais se conectam em diferentes escalas.</p>
+        <form class="home-search atlas2-search" action="#search" role="search">
+          <label class="sr-only" for="home-search-input">Buscar no atlas</label>
+          <input id="home-search-input" type="search" placeholder="Busque por migração, clima, energia, cidade...">
+          <button type="submit">Buscar</button>
+        </form>
+        <div class="atlas2-hero-actions">
+          <button class="atlas2-primary-action" data-nav="#atlas">Abrir o Atlas</button>
+          <span>${modules.length} módulos</span><span>${Object.keys(lessonIndex).length} lições</span><span>dados locais</span>
         </div>
-        <div class="hero-globe" id="globe-slot" aria-hidden="true"></div>
+      </div>
+      <div class="atlas2-map-card" aria-label="Entrada visual para o Atlas">
+        <div class="atlas2-map-toolbar"><span>Visão global</span><span>Fonte e ano em cada camada</span></div>
+        <div class="atlas2-world" role="img" aria-label="Mapa político do mundo em projeção Robinson, com rotas temáticas ilustrativas">
+          <img src="assets/maps/world-robinson-public-domain.png" alt="" width="1280" height="567">
+          <svg class="atlas2-world-routes" viewBox="0 0 1280 567" aria-hidden="true">
+            <path d="M278 246C420 140 573 149 671 223S897 337 1052 213"/>
+            <path d="M444 389C520 337 616 353 690 435"/>
+            <g><circle cx="278" cy="246" r="7"/><circle cx="671" cy="223" r="7"/><circle cx="1052" cy="213" r="7"/><circle cx="444" cy="389" r="7"/><circle cx="690" cy="435" r="7"/></g>
+          </svg>
+        </div>
+        <div class="atlas2-map-caption"><strong>Camadas que contam uma história</strong><span>população · clima · energia · transportes</span></div>
       </div>
     </section>
 
-    <!-- ── Faixa de escalas ── -->
-    <section class="home-scale-strip" aria-label="Escalas geográficas">
-      <div class="scale-strip-inner">
-        <p class="scale-strip-label">Escalas de análise</p>
-        <div class="scale-grid" role="list">
-          ${SCALE_ITEMS.map(s => `
-            <div class="scale-item" data-nav="#scale/${s.id}"
-                 role="listitem button" tabindex="0"
-                 aria-label="Escala ${s.name}: ${s.desc}">
-              <span class="scale-item-name">${s.name}</span>
-              <span class="scale-item-desc">${s.desc}</span>
-            </div>`).join('')}
-        </div>
+    <section class="atlas2-resume" aria-label="Retomar estudo">
+      <div><p class="atlas2-section-label">Seu percurso neste dispositivo</p>${lastLesson ? `<h2>${lastLesson.title}</h2><p>${lastLesson.summary}</p>` : '<h2>Comece por uma pergunta</h2><p>Seu progresso fica apenas neste navegador.</p>'}</div>
+      <a class="atlas2-resume-link" href="${lastLesson ? `#lesson/${lastLesson.moduleId}/${saved.lastLesson}` : '#search'}">${lastLesson ? 'Retomar lição' : 'Escolher tema'} <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section class="atlas2-section" aria-labelledby="levels-title">
+      <div class="atlas2-section-head"><div><p class="atlas2-section-label">Percursos</p><h2 id="levels-title">Escolha a profundidade</h2></div><p>O mesmo mundo, perguntas adequadas a cada etapa.</p></div>
+      <div class="atlas2-level-grid">
+        ${Object.entries(LEVEL_LABEL).map(([level, label], index) => `<button data-nav="#search?level=${level}" class="atlas2-level-card"><span>0${index + 1}</span><strong>${label}</strong><small>${levelCounts[level]} módulos</small></button>`).join('')}
       </div>
     </section>
 
-    <!-- ── Operações cognitivas ── -->
-    <section class="home-ops" aria-label="Pensamento geográfico">
-      <div class="ops-inner">
-        <div class="ops-header">
-          <span class="ops-eyebrow">Pensamento geográfico</span>
-          <h2 class="ops-heading">Pensar geograficamente</h2>
-        </div>
-        <div class="ops-grid">
-          ${COG_OPS.map(op => `
-            <div class="ops-card">
-              <span class="ops-symbol" aria-hidden="true">${op.symbol}</span>
-              <h3 class="ops-card-title">${op.title}</h3>
-              <p class="ops-card-desc">${op.desc}</p>
-            </div>`).join('')}
-        </div>
+    <section class="atlas2-section atlas2-section--tint" aria-labelledby="featured-title">
+      <div class="atlas2-section-head"><div><p class="atlas2-section-label">Coleções em destaque</p><h2 id="featured-title">Questões para o presente</h2></div><a href="#search">Ver todo o acervo</a></div>
+      <div class="atlas2-feature-grid">
+        ${featured.map((module, index) => `<article class="atlas2-feature-card"><div class="atlas2-feature-index">${String(index + 1).padStart(2, '0')}</div><div class="atlas2-feature-visual" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><p>${module.level === 'es' ? 'Ensino Superior' : 'Ensino Médio'}</p><h3>${module.title}</h3><span>${module.tagline}</span><a href="#module/${module.id}">Explorar módulo →</a></article>`).join('')}
       </div>
     </section>
 
-    <!-- ── Módulos por nível ── -->
-    <section class="home-modules" aria-label="Módulos de estudo">
-      <div class="modules-inner">
-        <h2 class="modules-heading">Módulos</h2>
-        ${['efi', 'efii', 'em', 'es'].map(level => {
-          /* ES usa format:article — inclui mesmo com lessons:0 */
-          const mods = modules.filter(m => m.level === level && (m.lessons > 0 || m.format === 'article'));
-          if (!mods.length) return '';
-          return `
-            <div class="modules-level">
-              <span class="level-tag">${LEVEL_LABEL[level]}</span>
-              <div class="modules-grid">
-                ${mods.map(m => `
-                  <article class="module-card ${m.format === 'article' ? 'module-card--article' : ''}"
-                           data-nav="${m.format === 'article' ? '#article/' + m.id : '#module/' + m.id}"
-                           role="button" tabindex="0">
-                    <h4 class="module-card-title">${m.title}</h4>
-                    <p class="module-card-tagline">${m.tagline}</p>
-                    <div class="module-card-meta">
-                      <span class="module-card-count">${m.format === 'article' ? 'artigo' : m.lessons + ' lição' + (m.lessons !== 1 ? 'ões' : '')}</span>
-                      <span class="module-card-scales">${(m.scales || []).join(' · ')}</span>
-                    </div>
-                  </article>`).join('')}
-              </div>
-            </div>`;
-        }).join('')}
-      </div>
+    <section class="atlas2-section" aria-labelledby="scale-title">
+      <div class="atlas2-section-head"><div><p class="atlas2-section-label">Escala muda a resposta</p><h2 id="scale-title">Do bairro ao planeta</h2></div></div>
+      <div class="atlas2-scale-row">${SCALE_ITEMS.map(item => `<button data-nav="#scale/${item.id}"><strong>${item.name}</strong><span>${item.desc}</span></button>`).join('')}</div>
     </section>
-
   `;
-
-  // Globo decorativo
-  const slot = container.querySelector('#globe-slot');
-  if (slot) slot.appendChild(createGlobeDecoration());
 
   // Navegação por data-nav
   container.querySelectorAll('[data-nav]').forEach(el => {
@@ -155,6 +116,13 @@ export async function renderHome(_params, _state, router) {
     el.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); }
     });
+  });
+
+  const searchForm = container.querySelector('.home-search');
+  searchForm?.addEventListener('submit', event => {
+    event.preventDefault();
+    const term = searchForm.querySelector('input').value.trim();
+    router.navigate(`search${term ? `?q=${encodeURIComponent(term)}` : ''}`);
   });
 
   return container;

@@ -1,0 +1,88 @@
+{
+  "id": "em-demography-3",
+  "moduleId": "em-demography",
+  "title": "Envelhecimento, trabalho e proteção social",
+  "summary": "Mudanças na estrutura etária afetam cuidados, previdência e mercado de trabalho.",
+  "lastReviewed": "2026-10-09",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "consensus",
+  "estimatedDuration": 50,
+  "durationUnit": "minutes",
+  "scales": [
+    "nacional",
+    "global"
+  ],
+  "sources": [
+    {
+      "id": "un-wpp",
+      "title": "World Population Prospects",
+      "publisher": "United Nations DESA",
+      "url": "https://population.un.org/wpp/",
+      "year": 2024,
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "perspectives": [],
+  "phenomenon": {
+    "title": "Envelhecimento populacional significa necessariamente declínio econômico?",
+    "text": "Mudanças na estrutura etária afetam cuidados, previdência e mercado de trabalho."
+  },
+  "guided": {
+    "title": "Conceito guiado",
+    "text": "Resultados dependem de produtividade, saúde, participação no trabalho, migração e desenho institucional.",
+    "points": [
+      "Defina o fenômeno.",
+      "Identifique a escala.",
+      "Separe descrição, mecanismo e julgamento."
+    ]
+  },
+  "relations": {
+    "title": "Relações",
+    "text": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única."
+  },
+  "caseStudy": {
+    "title": "Estudo comparativo",
+    "text": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+    "location": "Definida pelo professor ou estudante",
+    "period": "Contemporâneo, com ano explicitado na atividade"
+  },
+  "application": "Proponha duas políticas com objetivos diferentes: elevar produtividade e ampliar o cuidado de longa duração.",
+  "activityType": "single-choice",
+  "activity": {
+    "question": "Envelhecimento populacional significa necessariamente declínio econômico?",
+    "type": "single-choice",
+    "correct": "politicas",
+    "options": [
+      {
+        "value": "politicas",
+        "label": "Resultados dependem de produtividade, saúde, participação no trabalho, migração e desenho institucional."
+      },
+      {
+        "value": "unica-causa",
+        "label": "O fenômeno pode ser explicado por uma causa única em qualquer território."
+      },
+      {
+        "value": "sem-escala",
+        "label": "A escala e o período não alteram a interpretação."
+      }
+    ],
+    "hintAfter": 1,
+    "feedback": {
+      "correct": "Correto. A resposta distingue o conceito, a escala e os limites da evidência.",
+      "incorrect": "Revise o conceito guiado e procure a alternativa que não transforme uma relação contextual em regra universal."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Procure a alternativa que reconhece múltiplas variáveis e limites de comparação."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "Analisar mudanças populacionais, seus indicadores e implicações territoriais.",
+    "observe": "Verifique se descrição, interpretação e juízo de valor permanecem separados.",
+    "answer": "Resultados dependem de produtividade, saúde, participação no trabalho, migração e desenho institucional.",
+    "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
+    "time": "50 minutos"
+  }
+}

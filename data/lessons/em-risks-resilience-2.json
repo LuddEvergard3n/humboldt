@@ -1,0 +1,89 @@
+{
+  "id": "em-risks-resilience-2",
+  "moduleId": "em-risks-resilience",
+  "title": "Mapeamento e comunicação de risco",
+  "summary": "Mapas de risco combinam dados físicos e sociais, mas carregam incerteza.",
+  "lastReviewed": "2026-10-09",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "consensus",
+  "estimatedDuration": 50,
+  "durationUnit": "minutes",
+  "scales": [
+    "local",
+    "regional",
+    "global"
+  ],
+  "sources": [
+    {
+      "id": "undrr-resilience",
+      "title": "Definition: Resilience",
+      "publisher": "UNDRR",
+      "url": "https://www.undrr.org/terminology/resilience",
+      "year": 2017,
+      "accessedAt": "2026-10-09"
+    }
+  ],
+  "perspectives": [],
+  "phenomenon": {
+    "title": "Como um mapa pode informar sem criar falsa precisão?",
+    "text": "Mapas de risco combinam dados físicos e sociais, mas carregam incerteza."
+  },
+  "guided": {
+    "title": "Conceito guiado",
+    "text": "Classes, data, resolução, limites e cenários precisam estar explícitos.",
+    "points": [
+      "Defina o fenômeno.",
+      "Identifique a escala.",
+      "Separe descrição, mecanismo e julgamento."
+    ]
+  },
+  "relations": {
+    "title": "Relações",
+    "text": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única."
+  },
+  "caseStudy": {
+    "title": "Estudo comparativo",
+    "text": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+    "location": "Definida pelo professor ou estudante",
+    "period": "Contemporâneo, com ano explicitado na atividade"
+  },
+  "application": "Escreva uma legenda que comunique probabilidade, período e incerteza.",
+  "activityType": "single-choice",
+  "activity": {
+    "question": "Como um mapa pode informar sem criar falsa precisão?",
+    "type": "single-choice",
+    "correct": "incerteza",
+    "options": [
+      {
+        "value": "incerteza",
+        "label": "Classes, data, resolução, limites e cenários precisam estar explícitos."
+      },
+      {
+        "value": "unica-causa",
+        "label": "O fenômeno pode ser explicado por uma causa única em qualquer território."
+      },
+      {
+        "value": "sem-escala",
+        "label": "A escala e o período não alteram a interpretação."
+      }
+    ],
+    "hintAfter": 1,
+    "feedback": {
+      "correct": "Correto. A resposta distingue o conceito, a escala e os limites da evidência.",
+      "incorrect": "Revise o conceito guiado e procure a alternativa que não transforme uma relação contextual em regra universal."
+    },
+    "hints": [
+      {
+        "type": "text",
+        "content": "Procure a alternativa que reconhece múltiplas variáveis e limites de comparação."
+      }
+    ]
+  },
+  "teacher": {
+    "objective": "Avaliar riscos sem tratar desastres como eventos puramente naturais.",
+    "observe": "Verifique se descrição, interpretação e juízo de valor permanecem separados.",
+    "answer": "Classes, data, resolução, limites e cenários precisam estar explícitos.",
+    "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
+    "time": "50 minutos"
+  }
+}

@@ -11,7 +11,7 @@
 
 import { suite, test, assert, assertEqual } from './test-runner.js';
 import { resolve, dirname }                  from 'node:path';
-import { fileURLToPath }                     from 'node:url';
+import { fileURLToPath, pathToFileURL }      from 'node:url';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const root  = resolve(__dir, '..');
@@ -21,7 +21,8 @@ export async function runUITests() {
   // ----------------------------------------------------------
   suite('State — get / set / on');
 
-  const { State } = await import(resolve(root, 'js/state.js'));
+  const stateURL = pathToFileURL(resolve(root, 'js/state.js'));
+  const { State } = await import(stateURL.href);
 
   test('get retorna valor inicial correto', () => {
     const s = new State();
@@ -73,6 +74,79 @@ export async function runUITests() {
     s.set({ fontSize: 18, highContrast: true });
     assertEqual(s.get('fontSize'),    18);
     assertEqual(s.get('highContrast'), true);
+  });
+
+  // ----------------------------------------------------------
+  suite('LocalProgress — persistência privada e determinística');
+
+  const progressURL = pathToFileURL(resolve(root, 'js/local-progress.js'));
+  const { LocalProgress } = await import(progressURL.href);
+  const values = new Map();
+  const storage = {
+    getItem: key => values.get(key) ?? null,
+    setItem: (key, value) => values.set(key, value),
+  };
+
+  test('estado inicial é vazio', () => {
+    const progress = new LocalProgress(storage);
+    assertEqual(progress.read().completed, []);
+    assertEqual(progress.read().favorites, []);
+  });
+
+  test('conclusão e favorito persistem sem duplicatas', () => {
+    const progress = new LocalProgress(storage);
+    progress.setCompleted('lesson-1');
+    progress.setCompleted('lesson-1');
+    progress.toggleFavorite('lesson-1');
+    assertEqual(progress.read().completed, ['lesson-1']);
+    assertEqual(progress.read().favorites, ['lesson-1']);
+    assertEqual(progress.read().lastLesson, 'lesson-1');
+  });
+
+  test('JSON inválido volta ao estado seguro', () => {
+    values.set('humboldt:atlas:v2', '{');
+    const progress = new LocalProgress(storage);
+    assertEqual(progress.read().completed, []);
+  });
+
+  test('filtros recentes do Atlas e da busca persistem localmente', () => {
+    const progress = new LocalProgress(storage);
+    progress.update({ recentFilters: { atlas: { map: 'climate', compare: '1' }, search: { q: 'oceanos', level: 'em' } } });
+    assertEqual(progress.read().recentFilters.atlas, { map: 'climate', compare: '1' });
+    assertEqual(progress.read().recentFilters.search, { q: 'oceanos', level: 'em' });
+  });
+
+  suite('Atlas — mapa padrão');
+
+  const atlasURL = pathToFileURL(resolve(root, 'components/views/atlas-view.js'));
+  const { resolveAtlasMapId } = await import(atlasURL.href);
+
+  test('hash sem mapa usa mundo político', () => {
+    assertEqual(resolveAtlasMapId(null), 'world-political');
+    assertEqual(resolveAtlasMapId(''), 'world-political');
+  });
+
+  test('mapa conhecido é preservado', () => {
+    assertEqual(resolveAtlasMapId('energy'), 'energy');
+  });
+
+  test('mapa desconhecido volta ao mundo político', () => {
+    assertEqual(resolveAtlasMapId('mapa-inexistente'), 'world-political');
+  });
+
+  test('catálogo possui nove mapas com legendas próprias', async () => {
+    const catalogURL = pathToFileURL(resolve(root, 'js/map-catalog.js'));
+    const { MAP_CATALOG } = await import(catalogURL.href);
+    assertEqual(Object.keys(MAP_CATALOG).length, 9);
+    assert(Object.values(MAP_CATALOG).every(map => map.legend.length >= 3 && map.source && map.notice));
+  });
+
+  test('zoom do mapa fica entre 100% e 400%', async () => {
+    const mapEngineURL = pathToFileURL(resolve(root, 'engine/map-engine.js'));
+    const { clampMapScale } = await import(mapEngineURL.href);
+    assertEqual(clampMapScale(0.2), 1);
+    assertEqual(clampMapScale(2.5), 2.5);
+    assertEqual(clampMapScale(9), 4);
   });
 
   // ----------------------------------------------------------
