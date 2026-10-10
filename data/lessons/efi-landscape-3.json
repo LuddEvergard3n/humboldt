@@ -68,5 +68,99 @@
     "answer": "Movimento contínuo da água entre oceanos, atmosfera e terra.",
     "mediation": "Demonstre o ciclo com recipiente fechado com água aquecida: o vapor condensa no plástico e forma 'chuva'.",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efi-landscape-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A Terra tem a mesma quantidade de água há bilhões de anos — ela só muda de lugar e de estado. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-3-guided-2",
+      "section": "guided",
+      "claim": "A água se move constantemente entre os oceanos, a atmosfera, o solo e os seres vivos.",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-3-relations-3",
+      "section": "relations",
+      "claim": "Apesar de 71% da Terra ser coberta por água, apenas 2,5% é doce — e a maior parte está congelada nos polos. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 2014-2015, a represa Cantareira — que abastece 9 milhões de pessoas — ficou com menos de 5% da capacidade. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-3-application-5",
+      "section": "application",
+      "claim": "Por um dia, preste atenção em cada vez que você usa água. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-3-activity-6",
+      "section": "activity",
+      "claim": "O que é o ciclo hidrológico?",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

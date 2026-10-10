@@ -39,7 +39,10 @@
       "incorrect": "A América do Sul é o subcontinente abaixo da América Central e do Caribe. Brasil, Argentina, Chile, Colômbia, Venezuela, Peru, Bolívia e Paraguai ficam todos nessa região."
     },
     "hints": [
-      { "type": "text", "content": "Brasil, Argentina, Chile, Colômbia, Venezuela. Todos ficam no subcontinente ao sul do Caribe, no hemisfério ocidental. É a massa de terra que termina no Cabo Horn." }
+      {
+        "type": "text",
+        "content": "Brasil, Argentina, Chile, Colômbia, Venezuela. Todos ficam no subcontinente ao sul do Caribe, no hemisfério ocidental. É a massa de terra que termina no Cabo Horn."
+      }
     ]
   },
   "teacher": {
@@ -48,5 +51,122 @@
     "answer": "América do Sul (data-id: america-sul). Região com maior desigualdade do mundo, exportadora de commodities, marcada pela herança colonial latifundiária. Brasil como maior economia e maior país da região.",
     "mediation": "Proponha: 'Se a América Latina tem enormes recursos naturais (petróleo, minério, soja, água), por que continua sendo a região mais desigual? O recurso é o problema ou a solução?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "imf-weo",
+      "title": "World Economic Outlook Database: Assumptions and Data Conventions",
+      "publisher": "International Monetary Fund",
+      "url": "https://www.imf.org/en/Publications/WEO/weo-database/assumptions-and-data-conventions",
+      "year": 2026,
+      "type": "estimativa macroeconômica",
+      "method": "Séries nacionais harmonizadas e projeções elaboradas por equipes do FMI.",
+      "scope": "Economias membros e agregados; histórico e projeções semestrais.",
+      "limitations": "Inclui estimativas e projeções; pode divergir de fontes nacionais e sofrer revisões.",
+      "institutionalContext": "Instituição financeira multilateral; análises seguem seu mandato macroeconômico.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-latin-america-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A América Latina tem 650 milhões de pessoas e é a região mais desigual do mundo — não a mais pobre. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-1-guided-2",
+      "section": "guided",
+      "claim": "A América Latina foi colonizada por Espanha e Portugal a partir de 1492, com a lógica de extração de riqueza para a metrópole: metais preciosos (prata de Potosí, ouro de Minas Gerais), açúcar (Brasil, Caribe), algodão. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-1-relations-3",
+      "section": "relations",
+      "claim": "A América Latina tentou várias formas de integração regional: ALALC (1960), ALADI (1980), Mercosul (1991), ALBA (2004), UNASUL (2008), CELAC (2011). ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A Venezuela tinha as maiores reservas de petróleo do mundo (300 bilhões de barris) e, nos anos 1970, era um dos países mais ricos da América do Sul. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-1-application-5",
+      "section": "application",
+      "claim": "Pesquise o Índice de Gini dos países da América do Sul. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-1-activity-6",
+      "section": "activity",
+      "claim": "Qual região do mapa corresponde à América do Sul, onde ficam Brasil, Argentina, Venezuela, Colômbia, Peru e os demais países da América Latina meridional?",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “América Latina: território, desigualdade e dependência” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “América Latina: território, desigualdade e dependência” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

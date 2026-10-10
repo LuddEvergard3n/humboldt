@@ -32,17 +32,32 @@
     "type": "single-choice",
     "correct": "pragmatica-custo",
     "options": [
-      { "value": "pragmatica-custo", "label": "Pragmática para evitar guerras de revisão territorial, mas ao custo de cimentar as divisões arbitrárias do colonialismo" },
-      { "value": "anticolonial",     "label": "Anticolonial — uma forma de resistência às fronteiras impostas pela Europa" },
-      { "value": "economica",        "label": "Econômica — fronteiras estáveis eram necessárias para atrair investimento estrangeiro" },
-      { "value": "imposta",          "label": "Imposta pelas antigas potências coloniais como condição para reconhecer as independências" }
+      {
+        "value": "pragmatica-custo",
+        "label": "Pragmática para evitar guerras de revisão territorial, mas ao custo de cimentar as divisões arbitrárias do colonialismo"
+      },
+      {
+        "value": "anticolonial",
+        "label": "Anticolonial — uma forma de resistência às fronteiras impostas pela Europa"
+      },
+      {
+        "value": "economica",
+        "label": "Econômica — fronteiras estáveis eram necessárias para atrair investimento estrangeiro"
+      },
+      {
+        "value": "imposta",
+        "label": "Imposta pelas antigas potências coloniais como condição para reconhecer as independências"
+      }
     ],
     "feedback": {
       "correct": "Correto. A inviolabilidade das fronteiras foi uma escolha pragmática dos próprios líderes africanos: se cada país pudesse reivindicar território dos vizinhos com base em etnias ou reinos pré-coloniais, a África seria consumida por guerras. Mas o custo foi perpetuar fronteiras artificiais que dividem etnias e culturas. É um dilema sem solução simples — estabilidade vs. legitimidade histórica.",
       "incorrect": "Foi uma decisão dos próprios líderes africanos — não imposta pela Europa. Não foi anticolonial (manteve o legado colonial). A motivação principal foi pragmática: evitar o caos de revisão territorial generalizada."
     },
     "hints": [
-      { "type": "text", "content": "Se cada país africano pudesse reivindicar terras dos vizinhos com base em etnias pré-coloniais, o que aconteceria? Qual era o problema que os líderes tentavam evitar em 1964?" }
+      {
+        "type": "text",
+        "content": "Se cada país africano pudesse reivindicar terras dos vizinhos com base em etnias pré-coloniais, o que aconteceria? Qual era o problema que os líderes tentavam evitar em 1964?"
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,135 @@
     "answer": "Pragmática para evitar guerras de revisão territorial — ao custo de perpetuar fronteiras artificiais. Os líderes africanos calcularam que a alternativa (revisão territorial) seria pior. É uma decisão defensável, mas com consequências duradouras.",
     "mediation": "Proponha: 'Se você fosse líder africano em 1964, o que escolheria: fronteiras estáveis herdadas do colonialismo, ou revisão territorial baseada em etnias e culturas pré-coloniais? Quais seriam as consequências de cada escolha?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-africa-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2018, a União Africana lançou o Passaporte Africano — um documento que, quando totalmente implementado, permitirá que qualquer cidadão africano viaje a qualquer país do continente sem visto. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-4-guided-2",
+      "section": "guided",
+      "claim": "A Organização da Unidade Africana (OUA) foi fundada em 1963 em Adis Abeba, Etiópia — um ano depois da maioria das independências anglófonas. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-4-relations-3",
+      "section": "relations",
+      "claim": "O pan-africanismo nasceu na diáspora — entre africanos escravizados e seus descendentes nas Américas e no Caribe. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Ruanda de 2024 é irreconhecível do Ruanda de 1994. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-4-application-5",
+      "section": "application",
+      "claim": "Pesquise o Índice de Desenvolvimento Humano (IDH) dos 10 países africanos mais bem posicionados. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-4-activity-6",
+      "section": "activity",
+      "claim": "O princípio da inviolabilidade das fronteiras coloniais, adotado pela OUA em 1964, foi uma decisão:",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “União Africana e o pan-africanismo” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “União Africana e o pan-africanismo” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

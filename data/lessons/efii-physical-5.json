@@ -69,5 +69,99 @@
     "answer": "Lençol freático nas chapadas alimenta os principais rios brasileiros.",
     "mediation": "Mostre mapa de vegetação do Brasil sobreposto ao mapa de clima. O que coincide? Por quê?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efii-physical-5-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A vegetação é o espelho do clima e do solo. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-physical-5-guided-2",
+      "section": "guided",
+      "claim": "As formações vegetais seguem padrões climáticos e se distribuem em bandas ao redor do planeta.",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-physical-5-relations-3",
+      "section": "relations",
+      "claim": "Quando a vegetação é removida, o ciclo da água se altera (menos evapotranspiração = menos chuva), o solo se expõe à erosão, a biodiversidade colapsa e o carbono armazenado é liberado como CO₂. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-physical-5-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A floresta amazônica transpira tanta umidade que cria rios voadores — correntes aéreas de vapor que viajam para o Sul e causam chuvas no Centro-Sul do Brasil e na Argentina. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-physical-5-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é a vegetação original da sua região? ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-physical-5-activity-6",
+      "section": "activity",
+      "claim": "Por que o Cerrado é chamado de 'berço das águas' mesmo sendo uma savana seca?",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

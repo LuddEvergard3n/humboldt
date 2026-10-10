@@ -67,5 +67,99 @@
     "answer": "Terciário — presta serviço.",
     "mediation": "Liste com a turma 10 profissões. Classifiquem juntos. Discuta casos difíceis.",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ilo-ilostat",
+      "title": "ILOSTAT: Sources and Methods",
+      "publisher": "International Labour Organization",
+      "url": "https://rshiny.ilo.org/dataexplorer34/?lang=en",
+      "year": 2026,
+      "type": "base de trabalho",
+      "method": "Harmonização de censos, pesquisas domiciliares e registros administrativos com metadados por indicador.",
+      "scope": "Mercados de trabalho nacionais e agregados; cobertura variável.",
+      "limitations": "Informalidade, conceitos de emprego e desenho amostral afetam comparações.",
+      "institutionalContext": "Agência tripartite da ONU com representação de governos, empregadores e trabalhadores.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efi-society-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Um lápis parece simples — mas envolve extração de madeira, mineração de grafite, fabricação, embalagem, transporte e venda. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-2-guided-2",
+      "section": "guided",
+      "claim": "As atividades de trabalho podem ser divididas em três grandes grupos.",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-2-relations-3",
+      "section": "relations",
+      "claim": "Nenhuma pessoa faz tudo sozinha — dividimos tarefas. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Vale do Silício, na Califórnia, era uma região de pomares até os anos 1950. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-2-application-5",
+      "section": "application",
+      "claim": "Pergunte para seus pais ou responsáveis: em que setor da economia eles trabalham? ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-2-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos de pessoas entre campo e cidade. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

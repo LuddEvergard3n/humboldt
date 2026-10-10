@@ -32,17 +32,32 @@
     "type": "single-choice",
     "correct": "saida-franca",
     "options": [
-      { "value": "saida-franca",  "label": "A expulsão da presença militar francesa e sua substituição por forças russas (Wagner/Africa Corps)" },
-      { "value": "intervencao-onu", "label": "A intervenção direta da ONU com forças de paz para estabilizar a região" },
-      { "value": "integracao",    "label": "A criação de um bloco de integração regional democrático para enfrentar o jihadismo coletivamente" },
-      { "value": "china",         "label": "A entrada da China como potência militar dominante substituindo todas as outras" }
+      {
+        "value": "saida-franca",
+        "label": "A expulsão da presença militar francesa e sua substituição por forças russas (Wagner/Africa Corps)"
+      },
+      {
+        "value": "intervencao-onu",
+        "label": "A intervenção direta da ONU com forças de paz para estabilizar a região"
+      },
+      {
+        "value": "integracao",
+        "label": "A criação de um bloco de integração regional democrático para enfrentar o jihadismo coletivamente"
+      },
+      {
+        "value": "china",
+        "label": "A entrada da China como potência militar dominante substituindo todas as outras"
+      }
     ],
     "feedback": {
       "correct": "Correto. Os três governos militares, legitimados por sentimento antifrancês popular, expulsaram tropas e embaixadores franceses e convidaram o grupo Wagner russo. A saída francesa do Sahel marca o fim de décadas de Françafrique — influência neocolonial francesa — e a entrada da Rússia como ator de segurança no corredor mais instável da África.",
       "incorrect": "A ONU não interveio militarmente. A China opera via investimento econômico, não presença militar. O 'bloco democrático' foi o oposto do que aconteceu — os três países formaram a AES, bloco de governos militares. A chave é o que substituiu a França."
     },
     "hints": [
-      { "type": "text", "content": "Os militares que tomaram o poder usaram sentimento antifrancês como legitimidade. Se expulsaram a França, quem chamaram para preencher o vácuo de segurança?" }
+      {
+        "type": "text",
+        "content": "Os militares que tomaram o poder usaram sentimento antifrancês como legitimidade. Se expulsaram a França, quem chamaram para preencher o vácuo de segurança?"
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,135 @@
     "answer": "Expulsão da presença militar francesa e entrada do grupo Wagner russo. Os governos militares da AES (Mali, Burkina Faso, Níger) expulsaram tropas francesas e convidaram forças russas como substituto, reorientando o alinhamento geopolítico do Sahel.",
     "mediation": "Proponha: 'Os países do Sahel trocaram a França pela Rússia. Isso é soberania ou é trocar uma dependência por outra? O que seria realmente soberania no contexto do Sahel?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-africa-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Sahel, em árabe, significa 'margem' — a faixa de transição entre o Saara e as savanas subsaarianas, atravessando Mauritânia, Mali, Burkina Faso, Níger, Chade e Sudão. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-2-guided-2",
+      "section": "guided",
+      "claim": "O conflito do Sahel não tem uma causa única — é uma crise multidimensional onde clima, etnia, religião, política e geopolítica se alimentam mutuamente. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-2-relations-3",
+      "section": "relations",
+      "claim": "O Sahel é um tabuleiro de competição entre França (ex-metrópole com interesses estratégicos e econômicos), EUA (bases militares no Níger, expulsas em 2024), Rússia (Wagner como instrumento de influência), China (investimentos em infraestrutura e mineração)…",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Lago Chade era o maior lago da África subsaariana nos anos 1960 — com 25.000 km² sustentava a pesca, a agricultura irrigada e a pecuária de 30 milhões de pessoas em quatro países (Chade, Níger, Nigéria, Camarões). ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-2-application-5",
+      "section": "application",
+      "claim": "Pesquise a situação atual do Sahel em um jornal internacional (The Guardian, Al Jazeera, Le Monde). ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-2-activity-6",
+      "section": "activity",
+      "claim": "A principal consequência geopolítica dos golpes militares no Mali, Burkina Faso e Níger (2021-2023) foi:",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Conflitos do Sahel e a crise do Estado” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Conflitos do Sahel e a crise do Estado” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

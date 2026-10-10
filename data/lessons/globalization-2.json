@@ -68,5 +68,135 @@
     "answer": "Cidades que concentram funções de controle da economia global.",
     "mediation": "Mapa de cabos de fibra óptica submarinos. Onde estão os nós? Coincide com as cidades globais? O que esse mapa diz sobre quem controla a informação?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "globalization-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O PIB do Brasil inteiro em 2023 foi de US$ 2,1 trilhões — em um ano. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "globalization-2-guided-2",
+      "section": "guided",
+      "claim": "A globalização pode ser entendida como a intensificação de diferentes tipos de fluxos entre países.",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "globalization-2-relations-3",
+      "section": "relations",
+      "claim": "As redes globais não conectam países — conectam cidades. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "globalization-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em setembro de 2008, o banco Lehman Brothers quebrou em Nova Iorque. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "globalization-2-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é a posição do Brasil no ranking de destinos de Investimento Estrangeiro Direto (IED)? ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "globalization-2-activity-6",
+      "section": "activity",
+      "claim": "O que são 'cidades globais'?",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Redes e fluxos: como o mundo se conecta” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Redes e fluxos: como o mundo se conecta” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

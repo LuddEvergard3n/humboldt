@@ -68,5 +68,99 @@
     "answer": "O tipo e o alcance geográfico dos serviços oferecidos.",
     "mediation": "Mapa da rede urbana brasileira (IBGE/REGIC). Visualize a concentração em SP/RJ e a dependência das cidades médias e pequenas.",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-habitat-wcr",
+      "title": "World Cities Report",
+      "publisher": "UN-Habitat",
+      "url": "https://unhabitat.org/wcr/",
+      "year": 2024,
+      "type": "relatório urbano",
+      "method": "Síntese de dados urbanos, estudos de caso e literatura internacional.",
+      "scope": "Cidades e sistemas urbanos globais; recortes variáveis.",
+      "limitations": "Definições de urbano e limites metropolitanos diferem entre países.",
+      "institutionalContext": "Programa da ONU para assentamentos humanos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "urbanization-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Uma aldeia de 500 pessoas tem uma mercearia. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-2-guided-2",
+      "section": "guided",
+      "claim": "As cidades se organizam em hierarquias segundo o tipo e alcance dos serviços que oferecem.",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-2-relations-3",
+      "section": "relations",
+      "claim": "O Brasil tem uma rede urbana macrocéfala: São Paulo e Rio concentram funções que em países comparáveis seriam distribuídas entre 5-6 metrópoles. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O agronegócio do Centro-Oeste criou cidades médias que crescem mais rápido que as metrópoles: Sinop (MT), Sorriso (MT), Lucas do Rio Verde (MT). ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-2-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é a cidade mais próxima da sua que oferece: (a) hospital de alta complexidade, (b) universidade federal, (c) tribunal de justiça. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-2-activity-6",
+      "section": "activity",
+      "claim": "O que define o nível de uma cidade na hierarquia urbana?",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

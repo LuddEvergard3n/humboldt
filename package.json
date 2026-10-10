@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node tools/serve.mjs",
     "content:expand": "node tools/expand-atlas-content.mjs",
+    "content:review": "node tools/review-editorial-content.mjs",
     "maps:generate": "node tools/generate-map-assets.mjs",
     "test": "node tests/test-runner.js"
   },

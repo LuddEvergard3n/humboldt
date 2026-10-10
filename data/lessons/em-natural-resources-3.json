@@ -66,5 +66,122 @@
     "answer": "Falhas sistemáticas de regulação e fiscalização. A autorregulação — empresas contratando seus próprios auditores — e a captura do Estado pelas mineradoras criaram condições para os desastres.",
     "mediation": "Proponha: 'Como um sistema de regulação poderia evitar conflitos de interesse nas auditorias de segurança de barragens?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-natural-resources-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 25 de janeiro de 2019, a barragem de rejeitos B1 da mina de Córrego do Feijão (Vale S.A.), em Brumadinho (MG), rompeu e liberou 12 milhões de m³ de lama de minério sobre o Vale do Paraopeba. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-3-guided-2",
+      "section": "guided",
+      "claim": "A mineração extrai recursos do subsolo, processa e vende como matéria-prima para a indústria global. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-3-relations-3",
+      "section": "relations",
+      "claim": "A 'maldição dos recursos' (resource curse) descreve a tendência de países ricos em recursos naturais de apresentar crescimento econômico menor, instituições mais frágeis e maior desigualdade do que países sem essa abundância. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A Floresta Nacional de Carajás (PA) abriga a maior jazida de minério de ferro do mundo — 7,2 bilhões de toneladas. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-3-application-5",
+      "section": "application",
+      "claim": "Pesquise o município de Parauapebas (PA) ou Itabira (MG): qual é o PIB per capita? ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-3-activity-6",
+      "section": "activity",
+      "claim": "O rompimento das barragens de Mariana (2015) e Brumadinho (2019) revelou principalmente:",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Mineração, território e conflitos” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Mineração, território e conflitos” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

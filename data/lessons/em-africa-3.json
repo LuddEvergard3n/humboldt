@@ -31,18 +31,46 @@
     "type": "flow-map",
     "question": "Observe os fluxos comerciais entre a China e a África. O que esse padrão revela sobre a natureza da relação econômica entre os dois?",
     "flows": [
-      { "from": "Angola",   "to": "China", "value": 28, "label": "US$ 28bi/ano em petróleo" },
-      { "from": "Congo RD", "to": "China", "value": 15, "label": "Cobre, cobalto — 70% do cobalto mundial" },
-      { "from": "África do Sul", "to": "China", "value": 20, "label": "Minério de ferro, ouro, platina" },
-      { "from": "China",    "to": "África", "value": 150, "label": "Manufaturados, máquinas, eletroeletrônicos" },
-      { "from": "China",    "to": "África", "value": 60,  "label": "Empréstimos e financiamento de infraestrutura" }
+      {
+        "from": "Angola",
+        "to": "China",
+        "value": 28,
+        "label": "US$ 28bi/ano em petróleo"
+      },
+      {
+        "from": "Congo RD",
+        "to": "China",
+        "value": 15,
+        "label": "Cobre, cobalto — 70% do cobalto mundial"
+      },
+      {
+        "from": "África do Sul",
+        "to": "China",
+        "value": 20,
+        "label": "Minério de ferro, ouro, platina"
+      },
+      {
+        "from": "China",
+        "to": "África",
+        "value": 150,
+        "label": "Manufaturados, máquinas, eletroeletrônicos"
+      },
+      {
+        "from": "China",
+        "to": "África",
+        "value": 60,
+        "label": "Empréstimos e financiamento de infraestrutura"
+      }
     ],
     "feedback": {
       "correct": "O padrão é familiar: a África exporta matérias-primas (petróleo, minerais) e importa manufaturados. A China substituiu a Europa como principal parceiro — mas o padrão de dependência estrutural permanece. O que muda é a identidade do parceiro, não a lógica da troca desigual. A questão é se a infraestrutura financiada pela China pode quebrar esse ciclo a longo prazo.",
       "incorrect": "Observe o que a África envia para a China (petróleo, minerais brutos) e o que recebe (manufaturados). Essa é a mesma lógica da divisão colonial: matéria-prima sai, produto industrializado entra. Quem agrega mais valor?"
     },
     "hints": [
-      { "type": "text", "content": "Petróleo, cobre, cobalto saem da África para a China. Máquinas e eletrônicos entram. Quem transforma a matéria-prima em produto? Quem fica com o maior valor agregado?" }
+      {
+        "type": "text",
+        "content": "Petróleo, cobre, cobalto saem da África para a China. Máquinas e eletrônicos entram. Quem transforma a matéria-prima em produto? Quem fica com o maior valor agregado?"
+      }
     ]
   },
   "teacher": {
@@ -51,5 +79,135 @@
     "answer": "Os fluxos reproduzem o padrão colonial: matérias-primas saem, manufaturados entram. A China substituiu as antigas metrópoles como parceiro dominante. A novidade são os investimentos em infraestrutura — mas financiados por dívida, com risco de transferência de ativos estratégicos.",
     "mediation": "Proponha: 'Se o Brasil exporta soja e minério para a China e importa manufaturados chineses, a relação Brasil-China tem o mesmo padrão que a China-África? O Brasil está em situação similar?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-africa-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2017, o Quênia inaugurou uma ferrovia de 480 km ligando Nairóbi ao porto de Mombaça — a maior infraestrutura do país desde a independência. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-3-guided-2",
+      "section": "guided",
+      "claim": "A China chegou à África com um argumento diferente das potências ocidentais: sem condicionalidades de governança (direitos humanos, democracia, transparência), empréstimos garantidos por recursos naturais, e projetos visíveis e rápidos que governantes afric…",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-3-relations-3",
+      "section": "relations",
+      "claim": "A avaliação da presença chinesa divide analistas. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Djibouti é um país de 980.000 habitantes no Chifre da África, na entrada do Mar Vermelho — rota de 12% do comércio mundial. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-3-application-5",
+      "section": "application",
+      "claim": "Pesquise um projeto de infraestrutura financiado pela China em um país africano. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-3-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos comerciais entre a China e a África. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “A China em África: parceria ou neocolonialismo?” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “A China em África: parceria ou neocolonialismo?” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

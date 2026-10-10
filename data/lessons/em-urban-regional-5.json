@@ -81,5 +81,99 @@
     "answer": "Nordeste → SP/RJ: resposta à desindustrialização regional. Sul → Centro-Oeste: atração da fronteira agrícola. Migração segue o gradiente de oportunidade.",
     "mediation": "Pergunte: \"Se o governo investisse em industrialização no Ceará tanto quanto investiu em São Paulo nos anos 1950, o Brasil seria igual hoje?\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-habitat-wcr",
+      "title": "World Cities Report",
+      "publisher": "UN-Habitat",
+      "url": "https://unhabitat.org/wcr/",
+      "year": 2024,
+      "type": "relatório urbano",
+      "method": "Síntese de dados urbanos, estudos de caso e literatura internacional.",
+      "scope": "Cidades e sistemas urbanos globais; recortes variáveis.",
+      "limitations": "Definições de urbano e limites metropolitanos diferem entre países.",
+      "institutionalContext": "Programa da ONU para assentamentos humanos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-urban-regional-5-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O Brasil é, internamente, um dos países mais desiguais do mundo em termos regionais. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-5-guided-2",
+      "section": "guided",
+      "claim": "A desigualdade regional brasileira é estrutural — produto de escolhas históricas de onde o Estado e o capital investiram.",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-5-relations-3",
+      "section": "relations",
+      "claim": "Durante o século XX, o Nordeste exportou mão de obra para o Sudeste — São Paulo tem mais nordestinos que qualquer cidade do Nordeste exceto Fortaleza e Salvador. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-5-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 1967, o governo criou a Zona Franca de Manaus — área com isenção fiscal para atrair indústrias para a Amazônia. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-5-application-5",
+      "section": "application",
+      "claim": "Pesquise: o que é o FUNDEB e o FPM (Fundo de Participação dos Municípios)? ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-5-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos migratórios internos do Brasil. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

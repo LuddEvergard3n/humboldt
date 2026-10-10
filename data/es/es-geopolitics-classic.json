@@ -143,15 +143,195 @@
       "id": "sec-compare-geo",
       "title": "Geopolítica clássica vs. crítica",
       "type": "compare-table",
-      "columns": ["Dimensão", "Geopolítica clássica", "Geopolítica crítica"],
+      "columns": [
+        "Dimensão",
+        "Geopolítica clássica",
+        "Geopolítica crítica"
+      ],
       "rows": [
-        ["Objeto", "Estado, território, poder militar", "Discurso, representações, atores múltiplos"],
-        ["Método", "Análise estratégica, história diplomática", "Análise do discurso, desconstrução, genealogia"],
-        ["Escala privilegiada", "Nacional / Global", "Local, corporal, transnacional"],
-        ["Concepção de espaço", "Espaço natural, recurso estratégico", "Espaço produzido, contestado, discursivo"],
-        ["Papel da teoria", "Instrumento de política externa", "Crítica do poder; emancipação"],
-        ["Limitação", "Naturaliza poder e estruturas existentes", "Dificuldade de propor alternativas concretas"]
+        [
+          "Objeto",
+          "Estado, território, poder militar",
+          "Discurso, representações, atores múltiplos"
+        ],
+        [
+          "Método",
+          "Análise estratégica, história diplomática",
+          "Análise do discurso, desconstrução, genealogia"
+        ],
+        [
+          "Escala privilegiada",
+          "Nacional / Global",
+          "Local, corporal, transnacional"
+        ],
+        [
+          "Concepção de espaço",
+          "Espaço natural, recurso estratégico",
+          "Espaço produzido, contestado, discursivo"
+        ],
+        [
+          "Papel da teoria",
+          "Instrumento de política externa",
+          "Crítica do poder; emancipação"
+        ],
+        [
+          "Limitação",
+          "Naturaliza poder e estruturas existentes",
+          "Dificuldade de propor alternativas concretas"
+        ]
       ]
+    }
+  ],
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "mackinder-pivot",
+      "title": "The Geographical Pivot of History",
+      "publisher": "The Geographical Journal",
+      "url": "https://doi.org/10.2307/1775498",
+      "year": 1904,
+      "type": "artigo acadêmico histórico",
+      "method": "Argumento estratégico baseado na geografia política e tecnológica do início do século XX.",
+      "scope": "Eurásia e equilíbrio imperial no contexto de 1904.",
+      "limitations": "É uma interpretação datada; tecnologia, Estados e economia mudaram profundamente.",
+      "institutionalContext": "Texto clássico da tradição geopolítica britânica, não uma lei territorial.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "year": 1945,
+      "type": "tratado internacional",
+      "method": "Texto constitutivo que estabelece princípios, órgãos e competências da ONU.",
+      "scope": "Relações internacionais entre Estados-membros.",
+      "limitations": "Prática estatal, resoluções e jurisprudência condicionam a aplicação; não mede poder material.",
+      "institutionalContext": "Documento fundador de organização intergovernamental.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "sipri-data",
+      "title": "SIPRI Databases",
+      "publisher": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "year": 2026,
+      "type": "base de pesquisa",
+      "method": "Compilação documentada de gastos militares, transferências de armas e conflitos a partir de fontes abertas.",
+      "scope": "Países e conflitos; cobertura varia por base e período.",
+      "limitations": "Sigilo, conversões cambiais e estimativas limitam precisão e comparabilidade.",
+      "institutionalContext": "Instituto independente de pesquisa financiado por fontes públicas e filantrópicas.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "es-geopolitics-classic-sec-mackinder-quote-1",
+      "section": "sec-mackinder-quote",
+      "claim": "Quem governa a Europa Oriental comanda o Heartland. ",
+      "sourceIds": [
+        "mackinder-pivot",
+        "un-charter"
+      ],
+      "status": "interpretação",
+      "locator": "Obra e ano indicados no bloco; conferir a edição utilizada."
+    },
+    {
+      "id": "es-geopolitics-classic-sec-fundamentos-2",
+      "section": "sec-fundamentos",
+      "claim": "Geopolítica não é sinônimo de política externa, nem de análise de conflitos internacionais. ",
+      "sourceIds": [
+        "mackinder-pivot",
+        "un-charter"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-geopolitics-classic-sec-classicos-3",
+      "section": "sec-classicos",
+      "claim": "Propôs a teoria do Heartland: a massa continental eurasiática é o 'pivô geográfico da história'. ",
+      "sourceIds": [
+        "mackinder-pivot",
+        "un-charter"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-geopolitics-classic-sec-heartland-4",
+      "section": "sec-heartland",
+      "claim": "A teoria do Heartland de Mackinder parte de uma observação geográfica simples: a massa continental da Eurásia é inacessível ao poder marítimo. ",
+      "sourceIds": [
+        "mackinder-pivot",
+        "un-charter"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-geopolitics-classic-sec-guerrafria-5",
+      "section": "sec-guerrafria",
+      "claim": "Geopolítica no século XX: da bipolaridade ao unipolarismo",
+      "sourceIds": [
+        "mackinder-pivot",
+        "un-charter"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-geopolitics-classic-sec-contemporaneos-6",
+      "section": "sec-contemporaneos",
+      "claim": "O grande tabuleiro: a Eurásia é o eixo do poder global, e manter a fragmentação do espaço pós-soviético é o objetivo central da estratégia norte-americana. ",
+      "sourceIds": [
+        "mackinder-pivot",
+        "un-charter"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-geopolitics-classic-sec-critica-7",
+      "section": "sec-critica",
+      "claim": "A geopolítica crítica, surgida nos anos 1990 com Gearóid Ó Tuathail, John Agnew e Simon Dalby, parte de uma constatação simples mas poderosa: as teorias geopolíticas clássicas não são descrições objetivas do espaço — são construções discursivas produzidas e…",
+      "sourceIds": [
+        "mackinder-pivot",
+        "un-charter"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-geopolitics-classic-sec-compare-geo-8",
+      "section": "sec-compare-geo",
+      "claim": "Objeto Estado, território, poder militar Discurso, representações, atores múltiplos Método Análise estratégica, história diplomática Análise do discurso, desconstrução, genealogia Escala privilegiada Nacional / Global Local, corporal, transnacional Concepçã…",
+      "sourceIds": [
+        "mackinder-pivot",
+        "un-charter"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Geopolítica Clássica e Contemporânea” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Geopolítica Clássica e Contemporânea” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
     }
   ]
 }

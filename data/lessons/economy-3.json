@@ -70,5 +70,135 @@
     "answer": "Desigualdade entre países é estrutural — resultado das relações centro-periferia na economia global.",
     "mediation": "Mapa do IDH mundial. Pergunte: o que esse mapa tem em comum com o mapa do colonialismo? E com o mapa das reservas minerais?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "economy-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2017, a Oxfam calculou que 8 indivíduos detinham riqueza equivalente à metade mais pobre da humanidade. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "economy-3-guided-2",
+      "section": "guided",
+      "claim": "A divisão Norte-Sul é um modelo geográfico para entender a desigualdade econômica global.",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "economy-3-relations-3",
+      "section": "relations",
+      "claim": "O sociólogo Immanuel Wallerstein propôs a teoria do sistema-mundo: a economia global é um único sistema com centro, semiperiferia e periferia. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "economy-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 1960, a Coreia do Sul tinha PIB per capita menor que o Ghana. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "economy-3-application-5",
+      "section": "application",
+      "claim": "Compare o IDH do Brasil, Coreia do Sul, Ghana e Noruega. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "economy-3-activity-6",
+      "section": "activity",
+      "claim": "Use as camadas para explorar: como se relacionam PIB per capita, IDH, expectativa de vida e emissões de CO₂ por habitante?",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Desigualdade econômica global: Norte, Sul e as exceções” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Desigualdade econômica global: Norte, Sul e as exceções” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

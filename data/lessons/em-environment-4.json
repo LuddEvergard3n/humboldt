@@ -56,5 +56,99 @@
     "answer": "Tecnologias renováveis dependem de minerais específicos concentrados em poucos países — criando novas dependências geopolíticas.",
     "mediation": "Compare o mapa de reservas de petróleo com o mapa de reservas de lítio e cobalto. Quais países ganham poder na transição? Quais perdem?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-environment-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Solar, eólica e hidrelétrica responderam por 50% da nova capacidade instalada globalmente em 2023 — a maior participação da história. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-environment-4-guided-2",
+      "section": "guided",
+      "claim": "A transição energética é a mudança da matriz energética global de combustíveis fósseis para fontes renováveis.",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-environment-4-relations-3",
+      "section": "relations",
+      "claim": "O petróleo criou uma geopolítica do Golfo Pérsico por 80 anos. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-environment-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Argentina, Bolívia e Chile têm 60% das reservas mundiais de lítio — mineral essencial para baterias de carros elétricos. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-environment-4-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é a matriz energética do Brasil (divisão entre fontes na geração de eletricidade e em energia total)? ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-environment-4-activity-6",
+      "section": "activity",
+      "claim": "Compare a matriz energética mundial em 2000 e a projeção para 2040. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

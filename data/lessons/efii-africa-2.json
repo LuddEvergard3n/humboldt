@@ -5,27 +5,26 @@
   "summary": "O paradoxo da riqueza natural e o subdesenvolvimento.",
   "activityType": "single-choice",
   "phenomenon": {
-    "title": "O Congo tem coltan — e por isso está em guerra",
-    "text": "O coltan é um mineral essencial para capacitores de celulares e laptops. A República Democrática do Congo tem a maior reserva do mundo. E também tem uma das guerras mais longas do século XXI. Essa coincidência não é acidente — é a 'maldição dos recursos': riqueza mineral pode financiar conflitos, não desenvolvimento."
+    "title": "Recursos minerais podem gerar resultados econômicos diferentes",
+    "text": "A República Democrática do Congo é produtora importante de cobalto e outros minerais usados em tecnologias. A exploração ocorre em um contexto de conflitos, informalidade e cadeias internacionais complexas. A presença de recursos pode ampliar receitas, disputas e riscos, mas não determina automaticamente guerra ou pobreza."
   },
   "guided": {
     "title": "Recursos e economia africana",
-    "text": "A África é riquíssima em recursos naturais — mas essa riqueza raramente beneficia sua população.",
+    "text": "O continente africano reúne economias e estruturas produtivas muito diferentes. Recursos minerais, agricultura, indústria e serviços têm pesos variados entre países.",
     "points": [
-      "Minérios: coltan, diamante, ouro, cromo, cobalto — África tem as maiores reservas mundiais de vários minerais.",
-      "Petróleo: Nigéria, Angola e Líbia são grandes produtores.",
-      "Terra: a África tem 60% das terras aráveis não cultivadas do mundo — alvo de 'land grabbing' por países estrangeiros.",
-      "A riqueza é exportada bruta, sem industrialização — esquema colonial que persiste.",
-      "Exceções: Marrocos (fosfato + turismo + energia), Quênia (tecnologia + horticultura)."
+      "Recursos: reservas geológicas não equivalem a produção, receita pública ou bem-estar.",
+      "Instituições: contratos, tributação, segurança, infraestrutura e prestação de contas condicionam resultados.",
+      "Cadeias: mineração, refino, fabricação e venda podem ocorrer em países diferentes.",
+      "Diversificação: vários países combinam recursos naturais com manufatura, turismo, finanças e serviços digitais."
     ]
   },
   "relations": {
     "title": "China na África",
-    "text": "Desde os anos 2000, a China investiu mais de US$ 300 bilhões na África em ferrovias, portos, usinas e minas. Em troca, acessa recursos naturais. Para os africanos: infraestrutura que os europeus nunca construíram, mas também dívidas crescentes. Um novo ator no continente — ou uma parceria de desenvolvimento? O debate é acirrado."
+    "text": "Financiamentos e obras chinesas tornaram-se relevantes em vários países africanos, mas contratos, benefícios e riscos variam. Estudos divergem sobre emprego local, transparência, endividamento e ganhos de infraestrutura. Avaliar um projeto exige dados do contrato, capacidade de pagamento e alternativas disponíveis, sem presumir parceria benéfica ou dependência automática."
   },
   "caseStudy": {
     "title": "Nairóbi: o Vale do Silício africano",
-    "text": "Nairóbi, capital do Quênia, abriga o maior hub de startups tecnológicas da África — apelidado de Silicon Savannah. O M-Pesa, sistema de pagamento via celular que revolucionou finanças na África, nasceu aqui. Uma inovação africana que o mundo depois copiou."
+    "text": "Nairóbi consolidou um ecossistema regional de tecnologia e serviços financeiros, do qual o M-Pesa é um caso conhecido. O exemplo mostra inovação local, mas não representa sozinho a diversidade econômica do Quênia nem de todo o continente."
   },
   "application": "Pesquise: de onde vêm os minerais do seu celular? Quais países africanos estão envolvidos na cadeia produtiva?",
   "activity": {
@@ -52,7 +51,7 @@
       }
     ],
     "feedback": {
-      "correct": "Correto! A 'maldição dos recursos' é o paradoxo em que países com grande riqueza mineral tendem a ter menos crescimento, mais corrupção e mais conflitos.",
+      "correct": "Correto. “Maldição dos recursos” é uma hipótese sobre mecanismos e riscos, não uma lei: instituições, diversificação e contexto alteram os resultados.",
       "incorrect": "O paradoxo é que ter muitos recursos pode ser uma desvantagem. Tente pensar: por que um recurso valioso pode causar conflito?"
     },
     "hints": [
@@ -65,8 +64,138 @@
   "teacher": {
     "objective": "O aluno analisa o paradoxo da riqueza natural africana e a persistência do subdesenvolvimento, identificando os mecanismos históricos e contemporâneos.",
     "observe": "Mostre exemplos positivos: Ruanda, Quênia, Marrocos. Evite visão homogênea e pessimista da África.",
-    "answer": "Paradoxo em que recursos naturais abundantes se associam a conflitos e subdesenvolvimento.",
+    "answer": "Hipótese segundo a qual receitas de recursos podem elevar riscos de captura, volatilidade e conflito; não é um destino inevitável.",
     "mediation": "Compare: Noruega tem petróleo e é rica. Venezuela tem petróleo e colapsou. O que diferencia os dois casos?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efii-africa-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A República Democrática do Congo é produtora importante de cobalto e outros minerais usados em tecnologias. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-africa-2-guided-2",
+      "section": "guided",
+      "claim": "O continente africano reúne economias e estruturas produtivas muito diferentes. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-africa-2-relations-3",
+      "section": "relations",
+      "claim": "Financiamentos e obras chinesas tornaram-se relevantes em vários países africanos, mas contratos, benefícios e riscos variam. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-africa-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Nairóbi consolidou um ecossistema regional de tecnologia e serviços financeiros, do qual o M-Pesa é um caso conhecido. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-africa-2-application-5",
+      "section": "application",
+      "claim": "Pesquise: de onde vêm os minerais do seu celular? ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-africa-2-activity-6",
+      "section": "activity",
+      "claim": "O que é 'maldição dos recursos'?",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “África: recursos naturais, economia e conflitos” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “África: recursos naturais, economia e conflitos” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

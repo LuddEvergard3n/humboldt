@@ -69,5 +69,99 @@
     "answer": "A paisagem acumula camadas históricas sobrepostas, como um texto reescrito por cima do original.",
     "mediation": "Mostre fotos de Roma com camadas visíveis. Pergunte: \"Se você fosse um arqueólogo do futuro, o que descobriria olhando para a paisagem da sua cidade?\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "landscape-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Quando você olha para uma cidade, vê camadas de história: igrejas barrocas que marcam o colonialismo ibérico, traçados urbanos em grade que revelam planejamento norte-americano, favelas que denunciam desigualdade, estádios que mostram cultura esportiva. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-4-guided-2",
+      "section": "guided",
+      "claim": "A paisagem cultural é o resultado da ação humana sobre o espaço natural ao longo do tempo.",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-4-relations-3",
+      "section": "relations",
+      "claim": "Roma tem camadas de dois mil anos visíveis ao mesmo tempo: ruínas romanas ao lado de igrejas medievais ao lado de prédios modernos. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Brasília foi inventada do zero em 1960 para ser a capital de uma nação moderna. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-4-application-5",
+      "section": "application",
+      "claim": "Analise a paisagem do bairro onde você mora: quais elementos revelam a história do lugar? ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-4-activity-6",
+      "section": "activity",
+      "claim": "O conceito de \"paisagem como palimpsesto\" significa que:",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

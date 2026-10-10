@@ -32,17 +32,32 @@
     "question": "O que melhor explica por que países como o Congo — com enorme potencial hidrelétrico — têm baixíssimo acesso à eletricidade para sua população?",
     "correct": "d",
     "options": [
-      { "value": "a", "label": "Falta de tecnologia disponível para construir usinas hidrelétricas em países em desenvolvimento." },
-      { "value": "b", "label": "O clima tropical inviabiliza a operação de usinas por causa das chuvas irregulares." },
-      { "value": "c", "label": "A população não tem interesse em energia elétrica, preferindo modos de vida tradicionais." },
-      { "value": "d", "label": "A falta de infraestrutura, capital, estabilidade política e Estado funcional impede transformar o recurso em energia acessível — mesmo quando o recurso existe em abundância." }
+      {
+        "value": "a",
+        "label": "Falta de tecnologia disponível para construir usinas hidrelétricas em países em desenvolvimento."
+      },
+      {
+        "value": "b",
+        "label": "O clima tropical inviabiliza a operação de usinas por causa das chuvas irregulares."
+      },
+      {
+        "value": "c",
+        "label": "A população não tem interesse em energia elétrica, preferindo modos de vida tradicionais."
+      },
+      {
+        "value": "d",
+        "label": "A falta de infraestrutura, capital, estabilidade política e Estado funcional impede transformar o recurso em energia acessível — mesmo quando o recurso existe em abundância."
+      }
     ],
     "feedback": {
       "correct": "Exato. O Congo tem o recurso — o Rio Congo. O que falta é a cadeia de condições para transformá-lo em energia elétrica acessível: capital para construir a usina, rede de distribuição para levar ao interior, Estado para regulamentar e subsidiar o acesso, paz para que as obras avancem. O potencial natural não se converte automaticamente em energia para as pessoas. Entre o rio e a luz, há décadas de investimento, instituições e política.",
       "incorrect": "A tecnologia existe e o recurso existe. O gargalo não é técnico nem climático. Pense nas condições não-físicas necessárias para transformar uma queda d'água em energia na tomada de uma casa rural no interior do Congo."
     },
     "hints": [
-      { "type": "text", "content": "O Congo tem o rio. Mas entre o rio e a luz elétrica numa casa, o que precisa existir além da água caindo? Pense em infraestrutura, finanças, política, paz." }
+      {
+        "type": "text",
+        "content": "O Congo tem o rio. Mas entre o rio e a luz elétrica numa casa, o que precisa existir além da água caindo? Pense em infraestrutura, finanças, política, paz."
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,122 @@
     "answer": "A falta de acesso à energia é resultado de fragilidade institucional, falta de capital para infraestrutura e ausência de estabilidade política — não de ausência do recurso. O Congo tem o maior potencial hidrelétrico da África e uma das menores taxas de eletrificação.",
     "mediation": "Pergunte: 'Se o custo de universalizar a eletricidade global é US$ 35 bilhões por ano — e o mundo gasta US$ 7 trilhões subsidiando fósseis — o que isso diz sobre as prioridades políticas globais? É um problema de dinheiro ou de vontade?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "epe-ben",
+      "title": "Balanço Energético Nacional",
+      "publisher": "Empresa de Pesquisa Energética",
+      "url": "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-ben",
+      "year": 2025,
+      "type": "balanço energético oficial",
+      "method": "Contabilidade anual da oferta, transformação e consumo de energia por fonte e setor.",
+      "scope": "Brasil; ano-base anterior à edição.",
+      "limitations": "Conversões, autoprodução e revisões metodológicas precisam ser consideradas em séries longas.",
+      "institutionalContext": "Empresa pública vinculada ao Ministério de Minas e Energia.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "iea-data",
+      "title": "Data and Statistics",
+      "publisher": "International Energy Agency",
+      "url": "https://www.iea.org/data-and-statistics",
+      "year": 2026,
+      "type": "estatística energética",
+      "method": "Balanços energéticos nacionais harmonizados e séries por fonte, setor e fluxo.",
+      "scope": "Países e agregados; cobertura depende da série e da participação institucional.",
+      "limitations": "Revisões, conversões energéticas e diferenças de cobertura afetam comparações.",
+      "institutionalContext": "Organização intergovernamental ligada à OCDE; análise reflete mandato de segurança e transição energética.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-energy-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A República Democrática do Congo tem o maior potencial hidrelétrico da África. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-4-guided-2",
+      "section": "guided",
+      "claim": "Pobreza energética é a falta de acesso a energia moderna, acessível, confiável e limpa. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-4-relations-3",
+      "section": "relations",
+      "claim": "Em 2022, governos ao redor do mundo gastaram US$ 7 trilhões em subsídios diretos e indiretos a combustíveis fósseis — segundo o FMI, a maior parte na forma de preços abaixo do custo real (incluindo saúde e clima). ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Bangladesh tem 170 milhões de pessoas em um território menor que o estado de São Paulo. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-4-application-5",
+      "section": "application",
+      "claim": "Pesquise o programa 'Luz para Todos' no Brasil: quando foi criado, quantas famílias conectou, quais regiões mais se beneficiaram e o que ainda falta. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-4-activity-6",
+      "section": "activity",
+      "claim": "O que melhor explica por que países como o Congo — com enorme potencial hidrelétrico — têm baixíssimo acesso à eletricidade para sua população?",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Pobreza energética: quando a luz não chega” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Pobreza energética: quando a luz não chega” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

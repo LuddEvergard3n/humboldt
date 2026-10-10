@@ -51,5 +51,99 @@
     "answer": "Processo histórico de urbanização e investimento público desigual. O Sul/Sudeste concentrou a industrialização e recebeu mais infraestrutura ao longo do século XX.",
     "mediation": "Proponha: 'Se o governo federal decidisse universalizar o saneamento até 2033, onde deveria concentrar os recursos? Que impactos na saúde seriam esperados?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "who-gho",
+      "title": "Global Health Observatory",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/data/gho/info/about-the-observatory",
+      "year": 2026,
+      "type": "base de saúde pública",
+      "method": "Compilação e modelagem de dados nacionais para indicadores comparáveis.",
+      "scope": "Países e territórios; cobertura temporal varia por indicador.",
+      "limitations": "Estimativas podem diferir das cifras nacionais e são revisadas quando surgem novos dados.",
+      "institutionalContext": "Agência especializada da ONU para saúde; métodos seguem mandatos de vigilância e comparabilidade.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-health-geo-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O Brasil tem 35 milhões de pessoas sem acesso à água tratada e 100 milhões sem coleta de esgoto — números da PNAD 2022. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-2-guided-2",
+      "section": "guided",
+      "claim": "No Brasil, o saneamento é desigualmente distribuído no espaço: capitais têm cobertura maior que municípios do interior; Sul e Sudeste têm cobertura maior que Norte e Nordeste; bairros ricos têm esgoto tratado, bairros pobres têm fossas sépticas ou nada.",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-2-relations-3",
+      "section": "relations",
+      "claim": "No Brasil, a falta de saneamento não é apenas geográfica — é racializada. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Toda vez que o Brasil enfrenta enchentes — Teresópolis (2011), São Sebastião (2023), Rio Grande do Sul (2024) — os casos de leptospirose explodem semanas depois. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-2-application-5",
+      "section": "application",
+      "claim": "Acesse o site do Sistema Nacional de Informações sobre Saneamento (SNIS) e compare os índices de cobertura de água e esgoto do seu município com a média nacional e com o município vizinho mais próximo.",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-2-activity-6",
+      "section": "activity",
+      "claim": "Qual macrorregião do Brasil tem menor proporção de domicílios com acesso a esgotamento sanitário adequado?",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

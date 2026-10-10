@@ -32,18 +32,81 @@
     "question": "Observe os fluxos de contêineres no mapa. Qual padrão geográfico eles revelam sobre a organização da produção e do consumo global?",
     "mapId": "world-simple",
     "flows": [
-      { "from": [75, 40], "to": [15, 35], "value": 40, "label": "Ásia → Europa via Suez (22 mil km)", "color": "#1e3a5f" },
-      { "from": [75, 40], "to": [88, 38], "value": 35, "label": "Ásia → América do Norte via Pacífico", "color": "#1e3a5f" },
-      { "from": [15, 35], "to": [75, 40], "value": 18, "label": "Europa → Ásia (maquinário, automóveis)", "color": "#8b5e2e" },
-      { "from": [88, 38], "to": [75, 40], "value": 12, "label": "América do Norte → Ásia (commodities)", "color": "#8b5e2e" },
-      { "from": [75, 40], "to": [30, 60], "value": 20, "label": "Ásia → África (manufaturados)", "color": "#4a7a5f" }
+      {
+        "from": [
+          75,
+          40
+        ],
+        "to": [
+          15,
+          35
+        ],
+        "value": 40,
+        "label": "Ásia → Europa via Suez (22 mil km)",
+        "color": "#1e3a5f"
+      },
+      {
+        "from": [
+          75,
+          40
+        ],
+        "to": [
+          88,
+          38
+        ],
+        "value": 35,
+        "label": "Ásia → América do Norte via Pacífico",
+        "color": "#1e3a5f"
+      },
+      {
+        "from": [
+          15,
+          35
+        ],
+        "to": [
+          75,
+          40
+        ],
+        "value": 18,
+        "label": "Europa → Ásia (maquinário, automóveis)",
+        "color": "#8b5e2e"
+      },
+      {
+        "from": [
+          88,
+          38
+        ],
+        "to": [
+          75,
+          40
+        ],
+        "value": 12,
+        "label": "América do Norte → Ásia (commodities)",
+        "color": "#8b5e2e"
+      },
+      {
+        "from": [
+          75,
+          40
+        ],
+        "to": [
+          30,
+          60
+        ],
+        "value": 20,
+        "label": "Ásia → África (manufaturados)",
+        "color": "#4a7a5f"
+      }
     ],
     "feedback": {
       "correct": "Os fluxos revelam um padrão claro: a Ásia — especialmente China, Coreia do Sul e Japão — é o centro manufatureiro global, exportando para Europa, Américas e África. O fluxo inverso (commodities e matérias-primas para a Ásia) é menor em contêineres mas enorme em tonelagem. Esse padrão é a materialização da divisão internacional do trabalho: quem produz o que e para quem.",
       "incorrect": "Observe a direção e o volume das setas. Quem envia mais? Para onde vai? O padrão revela onde estão as fábricas e onde estão os consumidores — a divisão geográfica da produção global."
     },
     "hints": [
-      { "type": "text", "content": "Qual região aparece como origem da maioria dos fluxos? O que isso diz sobre onde o mundo 'produz'? E quem aparece como destino — onde o mundo 'consome'?" }
+      {
+        "type": "text",
+        "content": "Qual região aparece como origem da maioria dos fluxos? O que isso diz sobre onde o mundo 'produz'? E quem aparece como destino — onde o mundo 'consome'?"
+      }
     ]
   },
   "teacher": {
@@ -52,5 +115,112 @@
     "answer": "Os fluxos revelam a Ásia como centro manufatureiro global — exportando para Europa, Américas e África. O padrão é a materialização da divisão internacional do trabalho. Os pontos de estrangulamento (Suez, Malaca, Panamá, Ormuz) são vulnerabilidades estruturais da globalização.",
     "mediation": "Pergunte: 'Se o Brasil quisesse parar de exportar soja em grão e passar a exportar óleo de soja processado, o que precisaria mudar na infraestrutura de transporte? E por que os países ricos preferem comprar o grão — não o produto industrializado?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-transport-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em março de 2021, o Ever Given — um navio porta-contêiner de 400 metros — encalhou no Canal de Suez por seis dias. ",
+      "sourceIds": [
+        "wto-stats"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-1-guided-2",
+      "section": "guided",
+      "claim": "Antes de 1956, carregar um navio levava dias e exigia centenas de trabalhadores. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-1-relations-3",
+      "section": "relations",
+      "claim": "A pandemia de Covid-19 expôs outra fragilidade: as cadeias just-in-time — projetadas para não ter estoques, reduzir custos e maximizar eficiência — colapsam quando a cadeia é interrompida. ",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 1965, Singapura foi expulsa da Malásia — uma cidade sem recursos naturais, sem água potável própria, sem agricultura, com apenas 2 milhões de habitantes numa ilha de 700 km². ",
+      "sourceIds": [
+        "wto-stats"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-1-application-5",
+      "section": "application",
+      "claim": "Vá ao site da MarineTraffic (marinetraffic.com) e observe em tempo real os navios no Canal de Suez e no Estreito de Malaca. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-1-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos de contêineres no mapa. ",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

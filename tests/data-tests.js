@@ -19,6 +19,43 @@ function readJSON(rel) {
   return JSON.parse(readFileSync(resolve(root, rel), 'utf-8'));
 }
 
+const SOURCE_FIELDS = ['id', 'title', 'publisher', 'url', 'year', 'type', 'method', 'scope',
+  'limitations', 'institutionalContext', 'accessedAt'];
+
+function assertEditorialContract(document, sections, label) {
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(document.lastReviewed), `lastReviewed inválido: ${label}`);
+  assert(document.reviewStatus === 'reviewed', `revisão pendente: ${label}`);
+  assert(['reviewed', 'consensus', 'debate'].includes(document.evidenceStatus), `evidenceStatus inválido: ${label}`);
+  assert(Array.isArray(document.sources) && document.sources.length >= 2, `fontes insuficientes: ${label}`);
+  const sourceIds = document.sources.map(source => source.id);
+  assertEqual(new Set(sourceIds).size, sourceIds.length, `sourceIds duplicados: ${label}`);
+  for (const source of document.sources) {
+    for (const field of SOURCE_FIELDS) assert(source[field] !== undefined && source[field] !== '', `fonte ${source.id} sem ${field}: ${label}`);
+    assert(/^https:\/\//.test(source.url), `URL inválida em ${source.id}: ${label}`);
+    assert(/^\d{4}-\d{2}-\d{2}$/.test(source.accessedAt), `acesso inválido em ${source.id}: ${label}`);
+  }
+  assert(Array.isArray(document.citations) && document.citations.length > 0, `sem citations: ${label}`);
+  const citationIds = document.citations.map(citation => citation.id);
+  assertEqual(new Set(citationIds).size, citationIds.length, `citation ids duplicados: ${label}`);
+  for (const citation of document.citations) {
+    assert(sections.includes(citation.section), `seção inexistente em ${citation.id}: ${label}`);
+    assert(citation.claim?.trim(), `claim vazio em ${citation.id}: ${label}`);
+    assert(['dado', 'consenso', 'interpretação', 'debate'].includes(citation.status), `status inválido em ${citation.id}: ${label}`);
+    assert(Array.isArray(citation.sourceIds) && citation.sourceIds.length > 0, `sem fonte em ${citation.id}: ${label}`);
+    for (const sourceId of citation.sourceIds) assert(sourceIds.includes(sourceId), `fonte ${sourceId} não existe: ${label}`);
+    if (citation.status === 'debate') assert(citation.sourceIds.length >= 2, `debate sem duas fontes: ${citation.id}`);
+  }
+  if (document.evidenceStatus === 'debate') {
+    assert(Array.isArray(document.perspectives) && document.perspectives.length >= 2, `debate sem perspectivas: ${label}`);
+  }
+  for (const statistic of document.statistics || []) {
+    for (const field of ['value', 'unit', 'year', 'territory', 'sourceId']) {
+      assert(statistic[field] !== undefined && statistic[field] !== '', `estatística sem ${field}: ${label}`);
+    }
+    assert(sourceIds.includes(statistic.sourceId), `estatística usa fonte inexistente: ${label}`);
+  }
+}
+
 export async function runDataTests() {
   suite('data/modules.json');
 
@@ -141,6 +178,27 @@ export async function runDataTests() {
 
     test(`${file} está listado no index.json`, () => {
       assert(index && index[id], `"${id}" ausente no index.json`);
+    });
+
+    test(`${file} cumpre o contrato editorial`, () => {
+      const lesson = readJSON(`data/lessons/${file}`);
+      assertEditorialContract(lesson, ['phenomenon', 'guided', 'relations', 'caseStudy', 'application', 'activity'], id);
+    });
+  }
+
+  suite('data/es/*.json — artigos do Ensino Superior');
+
+  const articleFiles = readdirSync(resolve(root, 'data/es')).filter(file => file.endsWith('.json'));
+
+  test('existem 9 artigos superiores', () => {
+    assertEqual(articleFiles.length, 9);
+  });
+
+  for (const file of articleFiles) {
+    test(`${file} cumpre o contrato editorial`, () => {
+      const article = readJSON(`data/es/${file}`);
+      assert(Array.isArray(article.sections) && article.sections.length > 0, `artigo sem seções: ${article.id}`);
+      assertEditorialContract(article, article.sections.map(section => section.id), article.id);
     });
   }
 }

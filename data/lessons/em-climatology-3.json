@@ -66,5 +66,99 @@
     "answer": "Desmatamento e uso do solo. Aproximadamente 50% das emissões brasileiras vêm do desflorestamento, principalmente na Amazônia e no Cerrado.",
     "mediation": "Proponha: 'Se o Brasil tem uma das matrizes energéticas mais limpas do mundo, como ainda tem responsabilidade climática relevante?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-climatology-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A temperatura média global aumentou 1,1°C desde o período pré-industrial (1850–1900). ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-3-guided-2",
+      "section": "guided",
+      "claim": "O efeito estufa é um fenômeno natural e essencial: sem ele, a temperatura média da Terra seria −18°C. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-3-relations-3",
+      "section": "relations",
+      "claim": "As projeções para o Brasil incluem aridização do semiárido nordestino (−20% de precipitação até 2050), intensificação das chuvas no Sudeste e Sul, branqueamento de corais na costa nordestina e deslocamento dos biomas. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Acordo de Paris (2015) estabeleceu o objetivo de limitar o aquecimento a 1,5°C acima dos níveis pré-industriais. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-3-application-5",
+      "section": "application",
+      "claim": "Calcule sua pegada de carbono usando uma calculadora online (Akatu ou WWF Brasil). ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-3-activity-6",
+      "section": "activity",
+      "claim": "Qual é a principal fonte das emissões brasileiras de gases de efeito estufa?",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

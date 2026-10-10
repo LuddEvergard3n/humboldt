@@ -66,5 +66,122 @@
     "answer": "Praticamente não-renovável. A taxa de extração supera a de recarga por fator de milhares. O Aquífero Guarani é exemplo: é água renovável geologicamente, mas não-renovável na prática humana.",
     "mediation": "Proponha: 'Como um país deveria decidir a taxa de extração de um recurso renovável de recarga lenta? Que critérios usar?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-natural-resources-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O pico do petróleo — o momento em que a produção global máxima é atingida e começa a declinar — foi previsto para as décadas de 1970, 1980, 1990, 2000 e 2010. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-1-guided-2",
+      "section": "guided",
+      "claim": "Recursos naturais são elementos da natureza que as sociedades utilizam para produzir bens, energia e serviços. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-1-relations-3",
+      "section": "relations",
+      "claim": "O Brasil está entre os países com maior dotação de recursos naturais do mundo: 13% da água doce superficial do planeta, maior biodiversidade, 17% das reservas mundiais de minério de ferro, petróleo do pré-sal, terras agrícolas e energia hídrica. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Aquífero Guarani é o maior reservatório de água subterrânea transfronteiriço do mundo — 1,2 milhão de km², espalhados por Brasil, Argentina, Paraguai e Uruguai. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-1-application-5",
+      "section": "application",
+      "claim": "Pesquise a matriz energética do Brasil. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-1-activity-6",
+      "section": "activity",
+      "claim": "Um aquífero fóssil — formado há dezenas de milhares de anos com taxa de recarga mínima — deve ser classificado como:",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Recursos naturais: conceitos e classificação” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Recursos naturais: conceitos e classificação” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

@@ -9,9 +9,16 @@ A abertura usa `assets/maps/world-robinson-public-domain.png`, uma reprodução 
 Os mapas do Humboldt são SVGs inline ou carregados via fetch. Não há biblioteca cartográfica externa. Isso mantém o projeto leve, controlável e sem dependências.
 
 As bases do Atlas são geradas localmente a partir do Natural Earth 1:110m
-(mundo) e da malha de Unidades da Federação do IBGE (Brasil). Os arquivos-fonte
-ficam em `tools/cartography-source/`; a versão publicada consome apenas SVGs
-estáticos e não depende de rede, API ou biblioteca cartográfica em execução.
+(mundo), da malha de Unidades da Federação do IBGE e dos polígonos de biomas do
+IBGE na escala 1:5.000.000. Os arquivos-fonte ficam em
+`tools/cartography-source/`; a versão publicada consome apenas SVGs estáticos e
+não depende de rede, API ou biblioteca cartográfica em execução.
+
+A fonte oficial dos biomas é `Biomas_5000mil.zip`, publicada no diretório de
+vetores ambientais do IBGE. O utilitário `tools/import-ibge-biomes.mjs` converte
+os arquivos SHP e DBF para o GeoJSON versionado, sem dependência externa. O
+gerador `tools/generate-map-assets.mjs` usa somente os seis biomas continentais;
+as quatro classes de água presentes na base não são apresentadas como biomas.
 
 Os mapas temáticos são sínteses pedagógicas sobre geometrias geográficas reais.
 Eles priorizam legibilidade e interatividade e não devem ser usados para

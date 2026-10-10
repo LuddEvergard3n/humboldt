@@ -32,17 +32,32 @@
     "type": "single-choice",
     "correct": "nao-devolucao",
     "options": [
-      { "value": "nao-devolucao",  "label": "A proibição de devolver uma pessoa ao país onde corre risco de perseguição, independente de seu status legal" },
-      { "value": "livre-circulacao","label": "O direito do refugiado de circular livremente pelo país que o acolheu" },
-      { "value": "naturalizacao",  "label": "O direito automático à naturalização após cinco anos de residência como refugiado" },
-      { "value": "trabalho",       "label": "O direito ao trabalho formal imediato no país de destino" }
+      {
+        "value": "nao-devolucao",
+        "label": "A proibição de devolver uma pessoa ao país onde corre risco de perseguição, independente de seu status legal"
+      },
+      {
+        "value": "livre-circulacao",
+        "label": "O direito do refugiado de circular livremente pelo país que o acolheu"
+      },
+      {
+        "value": "naturalizacao",
+        "label": "O direito automático à naturalização após cinco anos de residência como refugiado"
+      },
+      {
+        "value": "trabalho",
+        "label": "O direito ao trabalho formal imediato no país de destino"
+      }
     ],
     "feedback": {
       "correct": "Correto. O non-refoulement (do francês, 'não devolução') é a pedra angular do direito dos refugiados: nenhum Estado pode devolver uma pessoa a um território onde ela corra risco de perseguição, tortura ou morte — mesmo que ela não tenha status formal de refugiado reconhecido. É um princípio consuetudinário do direito internacional, vinculante mesmo para países que não assinaram a Convenção de 1951.",
       "incorrect": "Non-refoulement é especificamente sobre não devolver — não sobre circulação, naturalização ou trabalho. É a proteção mais básica: você não pode mandar alguém de volta para onde vai ser perseguido."
     },
     "hints": [
-      { "type": "text", "content": "Em francês, 'refoulement' significa devolução forçada. 'Non' é 'não'. O princípio proíbe exatamente o que o nome sugere." }
+      {
+        "type": "text",
+        "content": "Em francês, 'refoulement' significa devolução forçada. 'Non' é 'não'. O princípio proíbe exatamente o que o nome sugere."
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,122 @@
     "answer": "Non-refoulement: proibição de devolução de uma pessoa a país onde corre risco de perseguição. Princípio vinculante para todos os Estados, independente de assinatura da Convenção de 1951.",
     "mediation": "Proponha: 'Se uma pessoa foge de seca extrema que destruiu sua colheita e sua fonte de renda, ela é refugiada climática ou migrante econômica? O direito internacional atual protege essa pessoa? Deveria?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "unhcr-methods",
+      "title": "Refugee Data Finder: Methodology",
+      "publisher": "UNHCR",
+      "url": "https://www.unhcr.org/refugee-statistics/methodology/",
+      "year": 2026,
+      "type": "estatística humanitária",
+      "method": "Registros administrativos, dados governamentais, estimativas e pesquisas, documentados por população.",
+      "scope": "Deslocamento forçado internacional e interno; cobertura por país e ano.",
+      "limitations": "Registros incompletos, mudanças de definição e crises em curso geram revisões e subcontagem.",
+      "institutionalContext": "Agência da ONU com mandato de proteção de refugiados; categorias seguem definições jurídicas e operacionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "iom-wmr",
+      "title": "World Migration Report 2024",
+      "publisher": "International Organization for Migration",
+      "url": "https://worldmigrationreport.iom.int/wmr-2024-interactive/",
+      "year": 2024,
+      "type": "relatório de síntese",
+      "method": "Síntese de bases internacionais e literatura, distinguindo estoques, fluxos e deslocamentos.",
+      "scope": "Migração internacional e interna em escala mundial.",
+      "limitations": "Dados migratórios têm lacunas, definições nacionais diferentes e defasagem.",
+      "institutionalContext": "Organização intergovernamental da ONU voltada à migração.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-migration-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2022, pela primeira vez na história, o número de pessoas deslocadas à força ultrapassou 100 milhões. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-1-guided-2",
+      "section": "guided",
+      "claim": "O direito internacional distingue categorias com proteções diferentes — e essa distinção tem consequências práticas enormes para quem foge.",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-1-relations-3",
+      "section": "relations",
+      "claim": "O ACNUR (Alto Comissariado das Nações Unidas para Refugiados) foi criado em 1950 para lidar com os deslocados da Segunda Guerra Mundial — com mandato temporário de 3 anos. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A guerra civil síria começou em 2011 — uma das ramificações da Primavera Árabe. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-1-application-5",
+      "section": "application",
+      "claim": "Pesquise o procedimento de solicitação de asilo no Brasil. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-1-activity-6",
+      "section": "activity",
+      "claim": "O 'non-refoulement' — princípio central do direito internacional dos refugiados — significa:",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Refugiados e deslocados: quem são e por que fogem” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Refugiados e deslocados: quem são e por que fogem” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

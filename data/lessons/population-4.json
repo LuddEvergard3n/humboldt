@@ -87,5 +87,99 @@
     "answer": "Os países vizinhos às crises (Turquia, Colômbia, Paquistão) recebem muito mais refugiados que os países ricos.",
     "mediation": "Mostre o mapa de fluxos. Pergunte: \"Por que as pessoas não vão para a Europa ou EUA se podem?\" (distância, dinheiro, documentos, muros)",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-wpp",
+      "title": "World Population Prospects 2024",
+      "publisher": "United Nations DESA",
+      "url": "https://population.un.org/wpp/",
+      "year": 2024,
+      "type": "estimativa demográfica internacional",
+      "method": "Harmonização de censos, registros e pesquisas; estimativas e projeções por coorte.",
+      "scope": "Países e territórios; séries históricas e projeções até 2100.",
+      "limitations": "Estimativas são revisadas; qualidade e cobertura das fontes nacionais variam.",
+      "institutionalContext": "Divisão de População da ONU; produz estimativas comparáveis para uso internacional.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unsd-census",
+      "title": "Principles and Recommendations for Population and Housing Censuses",
+      "publisher": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/demographic-social/census/",
+      "year": 2025,
+      "type": "padrão metodológico",
+      "method": "Recomendações internacionais aprovadas pela Comissão de Estatística para planejar e avaliar censos.",
+      "scope": "Aplicação internacional; rodada censitária de 2030.",
+      "limitations": "Recomendações precisam ser adaptadas aos sistemas legais, recursos e conceitos de cada país.",
+      "institutionalContext": "Órgão técnico da ONU que coordena padrões estatísticos internacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "population-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2022, pela primeira vez na história, mais de 100 milhões de pessoas estavam forçadamente deslocadas de suas casas — fugindo de guerras, perseguições e catástrofes climáticas. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-4-guided-2",
+      "section": "guided",
+      "claim": "O termo \"refugiado\" tem definição jurídica precisa — e muita gente confunde com imigrante.",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-4-relations-3",
+      "section": "relations",
+      "claim": "O sistema internacional de refugiados foi criado após a 2ª Guerra Mundial — pensado para perseguição estatal, não para deslocamento climático em massa. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Desde 2015, mais de 700 mil venezuelanos cruzaram para o Brasil principalmente por Roraima — estado com menos de 700 mil habitantes que de repente recebeu um influxo equivalente à sua própria população. ",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-4-application-5",
+      "section": "application",
+      "claim": "Pesquise: quais são os três países que hospedam mais refugiados no mundo? ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-4-activity-6",
+      "section": "activity",
+      "claim": "Observe o mapa de fluxos de refugiados. ",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

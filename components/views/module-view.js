@@ -6,6 +6,7 @@
  */
 
 import { loadJSON, loadLessonsIndex } from '../../js/data-loader.js';
+import { LocalProgress } from '../../js/local-progress.js';
 
 export async function renderModule({ moduleId }, state, router) {
   const [modulesData, lessonsIndex] = await Promise.all([
@@ -17,7 +18,7 @@ export async function renderModule({ moduleId }, state, router) {
 
   if (!mod) {
     const el = document.createElement('div');
-    el.style.cssText = 'padding:3rem;text-align:center;';
+    el.className = 'system-state system-state--error';
     el.innerHTML = `<h2>Módulo não encontrado</h2>
                     <a href="#home" class="btn btn-outline">← Início</a>`;
     return el;
@@ -37,6 +38,8 @@ export async function renderModule({ moduleId }, state, router) {
   const moduleLessons = Object.entries(lessonsIndex)
     .filter(([, meta]) => meta.moduleId === moduleId)
     .map(([id, meta]) => ({ id, ...meta }));
+  const completed = new Set(new LocalProgress().read().completed);
+  const completedCount = moduleLessons.filter(lesson => completed.has(lesson.id)).length;
 
   const el = document.createElement('div');
   el.className = 'view-module';
@@ -57,6 +60,7 @@ export async function renderModule({ moduleId }, state, router) {
       <div class="module-meta">
         <span class="module-meta-item">${mod.lessons} lições</span>
         <span class="module-meta-item">${mod.estimatedTime || ''}</span>
+        <span class="module-meta-item">${completedCount} concluída${completedCount === 1 ? '' : 's'}</span>
       </div>
     </header>
 
@@ -80,15 +84,16 @@ export async function renderModule({ moduleId }, state, router) {
   const list = el.querySelector('#lessons-list');
 
   if (moduleLessons.length === 0) {
-    list.innerHTML = `<p style="color:var(--color-text-muted)">
+    list.innerHTML = `<p class="muted-message">
       Nenhuma lição disponível ainda para este módulo.</p>`;
   } else {
     moduleLessons.forEach((lesson, idx) => {
       const card = document.createElement('a');
       card.href = `#lesson/${moduleId}/${lesson.id}`;
-      card.className = 'lesson-card';
+      const isCompleted = completed.has(lesson.id);
+      card.className = `lesson-card${isCompleted ? ' is-complete' : ''}`;
       card.innerHTML = `
-        <span class="lesson-card-number">${String(idx + 1).padStart(2,'0')}</span>
+        <span class="lesson-card-number">${isCompleted ? '✓' : String(idx + 1).padStart(2,'0')}</span>
         <div class="lesson-card-body">
           <strong class="lesson-card-title">${lesson.title}</strong>
           <p class="lesson-card-summary">${lesson.summary}</p>

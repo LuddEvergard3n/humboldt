@@ -32,17 +32,32 @@
     "type": "single-choice",
     "correct": "mtc",
     "options": [
-      { "value": "mec",  "label": "Equatorial Continental (mEc) — quente e úmida" },
-      { "value": "mtc",  "label": "Tropical Continental (mTc) — quente e seca" },
-      { "value": "mpa",  "label": "Polar Atlântica (mPa) — fria e úmida" },
-      { "value": "mta",  "label": "Tropical Atlântica (mTa) — quente e úmida" }
+      {
+        "value": "mec",
+        "label": "Equatorial Continental (mEc) — quente e úmida"
+      },
+      {
+        "value": "mtc",
+        "label": "Tropical Continental (mTc) — quente e seca"
+      },
+      {
+        "value": "mpa",
+        "label": "Polar Atlântica (mPa) — fria e úmida"
+      },
+      {
+        "value": "mta",
+        "label": "Tropical Atlântica (mTa) — quente e úmida"
+      }
     ],
     "feedback": {
       "correct": "Correto. A mTc, originada no interior do continente, domina o Nordeste no inverno austral, bloqueando a entrada de umidade e impondo estiagem severa.",
       "incorrect": "Pense na origem da massa: o Nordeste seca quando o ar que o domina vem de uma região continental árida, sem umidade oceânica."
     },
     "hints": [
-      { "type": "text", "content": "Considere o nome da massa: 'Tropical Continental'. Continental significa originada sobre continente — portanto, seca." }
+      {
+        "type": "text",
+        "content": "Considere o nome da massa: 'Tropical Continental'. Continental significa originada sobre continente — portanto, seca."
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,99 @@
     "answer": "mTc (Tropical Continental). Originada no interior do continente sul-americano, domina o Nordeste no inverno, bloqueando a entrada de frentes frias e da umidade oceânica.",
     "mediation": "Pergunte: 'Se as massas de ar mudam de posição com as estações, o que acontece com as chuvas do Nordeste no verão?' (resposta: a mEc avança e traz chuvas frontais e convectivas).",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-climatology-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Duas cidades brasileiras, separadas por 3.000 km, vivem climas opostos: Manaus recebe 2.400 mm de chuva por ano, enquanto Quixadá (CE) recebe menos de 600 mm. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-1-guided-2",
+      "section": "guided",
+      "claim": "Uma massa de ar é um grande volume de ar com temperatura e umidade relativamente uniformes, adquiridas na região de origem. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-1-relations-3",
+      "section": "relations",
+      "claim": "O Brasil é influenciado por seis massas de ar principais: Equatorial Continental (mEc), Equatorial Atlântica (mEa), Tropical Atlântica (mTa), Tropical Continental (mTc), Polar Atlântica (mPa) e, marginalmente, a Polar Continental (mPc). ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "No verão, a ZCAS é uma banda de nebulosidade e chuva intensa que se estende do Amazonas ao Atlântico Sul. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-1-application-5",
+      "section": "application",
+      "claim": "Observe a previsão do tempo da sua cidade por 7 dias. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-1-activity-6",
+      "section": "activity",
+      "claim": "A massa de ar responsável pela estiagem prolongada no sertão nordestino durante o inverno é:",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

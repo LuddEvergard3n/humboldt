@@ -3,9 +3,9 @@
   "moduleId": "es-quantitative-geography",
   "title": "Autocorrelação e padrões espaciais",
   "summary": "Valores próximos podem ser semelhantes por difusão, contexto compartilhado ou construção do dado.",
-  "lastReviewed": "2026-10-09",
+  "lastReviewed": "2026-10-10",
   "reviewStatus": "reviewed",
-  "evidenceStatus": "consensus",
+  "evidenceStatus": "reviewed",
   "estimatedDuration": 50,
   "durationUnit": "minutes",
   "scales": [
@@ -15,12 +15,43 @@
   ],
   "sources": [
     {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    },
+    {
       "id": "qgis-manual",
       "title": "QGIS User Guide",
       "publisher": "QGIS Project",
       "url": "https://docs.qgis.org/latest/en/docs/user_manual/",
       "year": 2026,
-      "accessedAt": "2026-10-09"
+      "accessedAt": "2026-10-09",
+      "type": "fonte documental ou institucional",
+      "method": "Consultar a metodologia e os metadados publicados pela fonte para o indicador ou argumento utilizado.",
+      "scope": "Escopo definido no documento ou conjunto de dados referenciado.",
+      "limitations": "Cobertura, conceitos, período e comparabilidade devem ser verificados na edição citada.",
+      "institutionalContext": "QGIS Project responde pela seleção, produção e apresentação do material."
     }
   ],
   "perspectives": [],
@@ -85,5 +116,67 @@
     "answer": "Não; ele identifica estrutura espacial que exige hipótese e teste adicionais.",
     "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
     "time": "50 minutos"
-  }
+  },
+  "citations": [
+    {
+      "id": "es-quantitative-geography-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Valores próximos podem ser semelhantes por difusão, contexto compartilhado ou construção do dado.",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "es-quantitative-geography-2-guided-2",
+      "section": "guided",
+      "claim": "Não; ele identifica estrutura espacial que exige hipótese e teste adicionais.",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "es-quantitative-geography-2-relations-3",
+      "section": "relations",
+      "claim": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única.",
+      "sourceIds": [
+        "qgis-manual"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "es-quantitative-geography-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "es-quantitative-geography-2-application-5",
+      "section": "application",
+      "claim": "Diferencie padrão, mecanismo proposto e evidência necessária em um mapa de clusters.",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "es-quantitative-geography-2-activity-6",
+      "section": "activity",
+      "claim": "Um agrupamento espacial prova causalidade?",
+      "sourceIds": [
+        "qgis-manual"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ]
 }

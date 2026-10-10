@@ -54,5 +54,122 @@
     "answer": "Guatemala, Honduras e El Salvador — o Triângulo Norte.",
     "mediation": "Pergunte: \"Se as remessas são 25% do PIB, o que acontece com Honduras se os EUA deportar todos os imigrantes?\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-wpp",
+      "title": "World Population Prospects 2024",
+      "publisher": "United Nations DESA",
+      "url": "https://population.un.org/wpp/",
+      "year": 2024,
+      "type": "estimativa demográfica internacional",
+      "method": "Harmonização de censos, registros e pesquisas; estimativas e projeções por coorte.",
+      "scope": "Países e territórios; séries históricas e projeções até 2100.",
+      "limitations": "Estimativas são revisadas; qualidade e cobertura das fontes nacionais variam.",
+      "institutionalContext": "Divisão de População da ONU; produz estimativas comparáveis para uso internacional.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unsd-census",
+      "title": "Principles and Recommendations for Population and Housing Censuses",
+      "publisher": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/demographic-social/census/",
+      "year": 2025,
+      "type": "padrão metodológico",
+      "method": "Recomendações internacionais aprovadas pela Comissão de Estatística para planejar e avaliar censos.",
+      "scope": "Aplicação internacional; rodada censitária de 2030.",
+      "limitations": "Recomendações precisam ser adaptadas aos sistemas legais, recursos e conceitos de cada país.",
+      "institutionalContext": "Órgão técnico da ONU que coordena padrões estatísticos internacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efii-americas-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O Triângulo Norte da América Central — Guatemala, Honduras e El Salvador — é uma das regiões de maior emigração do planeta. ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-4-guided-2",
+      "section": "guided",
+      "claim": "Uma região de grande diversidade histórica, cultural e geográfica sob forte influência norte-americana.",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-4-relations-3",
+      "section": "relations",
+      "claim": "As MS-13 e Barrio 18, as maiores gangues da América Central, nasceram em Los Angeles nos anos 1980 — fundadas por imigrantes salvadorenhos. ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 2022–2023, Cuba viveu a maior onda emigratória de sua história: 300 mil cubanos saíram do país, em grande parte pela fronteira dos EUA com o México. ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-4-application-5",
+      "section": "application",
+      "claim": "Identifique no mapa da América Central: qual país faz fronteira com o México? ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-4-activity-6",
+      "section": "activity",
+      "claim": "Clique nos países do \"Triângulo Norte\" — a região de onde sai o maior fluxo de migrantes para os EUA.",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “América Central e Caribe: corredor de povos” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “América Central e Caribe: corredor de povos” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

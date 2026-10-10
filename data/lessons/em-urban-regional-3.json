@@ -68,5 +68,99 @@
     "answer": "Criou nova centralidade e reordenou o desenvolvimento do Centro-Oeste e do interior brasileiro.",
     "mediation": "Mapa do Brasil com as principais rodovias federais. Onde o desmatamento seguiu as estradas? O que isso diz sobre infraestrutura e território?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-habitat-wcr",
+      "title": "World Cities Report",
+      "publisher": "UN-Habitat",
+      "url": "https://unhabitat.org/wcr/",
+      "year": 2024,
+      "type": "relatório urbano",
+      "method": "Síntese de dados urbanos, estudos de caso e literatura internacional.",
+      "scope": "Cidades e sistemas urbanos globais; recortes variáveis.",
+      "limitations": "Definições de urbano e limites metropolitanos diferem entre países.",
+      "institutionalContext": "Programa da ONU para assentamentos humanos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-urban-regional-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 1960, o Brasil decidiu mover sua capital para o Cerrado — a 1.000 km das cidades mais importantes. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-3-guided-2",
+      "section": "guided",
+      "claim": "O Estado é o principal agente transformador do território — por meio de investimentos, regulações e políticas.",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-3-relations-3",
+      "section": "relations",
+      "claim": "Infraestrutura não é neutra: uma estrada abre uma região, mas também viabiliza o desmatamento. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A Iniciativa para a Integração da Infraestrutura Regional Sul-Americana (IIRSA, 2000) planejou eixos de integração física para o continente: estradas, portos, hidrovias e energia. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-3-application-5",
+      "section": "application",
+      "claim": "Identifique uma grande obra de infraestrutura da sua região. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-3-activity-6",
+      "section": "activity",
+      "claim": "Por que a construção de Brasília é um exemplo de como o Estado pode transformar o território?",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

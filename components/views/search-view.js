@@ -9,6 +9,14 @@ function escapeHTML(value) {
   return String(value).replace(/[&<>'"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
 }
 
+/** Destaca o termo pesquisado depois de escapar o conteúdo. */
+function highlight(value, term) {
+  const safe = escapeHTML(value);
+  if (!term) return safe;
+  const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return safe.replace(new RegExp(`(${escapedTerm})`, 'giu'), '<mark>$1</mark>');
+}
+
 /** @param {{query?:URLSearchParams}} params @returns {Promise<HTMLElement>} */
 export async function renderSearch({ query = new URLSearchParams() }) {
   const [{ modules }, index] = await Promise.all([loadJSON('data/modules.json'), loadLessonsIndex()]);
@@ -56,11 +64,17 @@ export async function renderSearch({ query = new URLSearchParams() }) {
       const module = moduleById.get(lesson.moduleId);
       return `<article class="result-card">
         <span class="editorial-marker">${escapeHTML(lesson.evidenceStatus || 'conteúdo')}</span>
-        <h2><a href="#lesson/${escapeHTML(lesson.moduleId)}/${escapeHTML(id)}">${escapeHTML(lesson.title)}</a></h2>
-        <p>${escapeHTML(lesson.summary)}</p>
+        <h2><a href="#lesson/${escapeHTML(lesson.moduleId)}/${escapeHTML(id)}">${highlight(lesson.title, term)}</a></h2>
+        <p>${highlight(lesson.summary, term)}</p>
         <small>${escapeHTML(module?.title || lesson.moduleId)} · ${escapeHTML(LEVELS[module?.level] || module?.level || '')}</small>
       </article>`;
-    }).join('') : '<div class="empty-state"><h2>Nenhum resultado</h2><p>Remova um filtro ou tente um termo mais amplo.</p></div>';
+    }).join('') : '<div class="empty-state"><span class="empty-state__symbol" aria-hidden="true">⌖</span><h2>Nenhum resultado</h2><p>Remova um filtro ou tente um termo mais amplo.</p><button class="btn btn-outline" type="button" data-clear-search>Limpar busca</button></div>';
+    grid.querySelector('[data-clear-search]')?.addEventListener('click', () => {
+      input.value = '';
+      level.value = '';
+      input.focus();
+      update();
+    });
     const params = new URLSearchParams();
     if (input.value.trim()) params.set('q', input.value.trim());
     if (selectedLevel) params.set('level', selectedLevel);

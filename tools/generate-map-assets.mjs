@@ -9,6 +9,7 @@ await mkdir(target, { recursive: true });
 
 const world = JSON.parse(await readFile(resolve(source, 'natural-earth-countries-110m.geojson'), 'utf8'));
 const brazil = JSON.parse(await readFile(resolve(source, 'ibge-brazil-states.geojson'), 'utf8'));
+const biomes = JSON.parse(await readFile(resolve(source, 'ibge-biomes-5000.geojson'), 'utf8'));
 const esc = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const round = value => Number(value.toFixed(1));
 const worldProject = ([lon, lat]) => [round((lon + 180) * (960 / 360)), round((90 - lat) * (480 / 180) + 30)];
@@ -37,12 +38,28 @@ function worldLand(fill = '#d6c58b') {
   }).join('')}</g>`;
 }
 
-function brazilLand(fillByRegion = false) {
-  const regions = { '1': '#6e9b68', '2': '#d7aa58', '3': '#c6a77a', '4': '#829fbd', '5': '#91a67b' };
+function brazilLand() {
   return `<g id="layer-base" stroke="#173650" stroke-width="1.25" stroke-linejoin="round">${brazil.features.map(feature => {
     const code = feature.properties.codarea;
-    return `<path id="state-${code}" class="map-territory" data-territory="${code}" aria-label="Unidade da Federação ${code}" tabindex="0" fill="${fillByRegion ? regions[code[0]] : '#d6c58b'}" d="${geometryPath(feature.geometry, brazilProject)}"/>`;
+    return `<path id="state-${code}" class="map-territory" data-territory="${code}" aria-label="Unidade da Federação ${code}" tabindex="0" fill="#d6c58b" d="${geometryPath(feature.geometry, brazilProject)}"/>`;
   }).join('')}</g>`;
+}
+
+function brazilBiomes() {
+  const palette = {
+    AMZ: '#4f7f68',
+    MAT: '#769b72',
+    CER: '#c7a85f',
+    CAAT: '#d7b86d',
+    PTN: '#72a7a1',
+    PMP: '#8d9a68',
+  };
+  const biomePaths = biomes.features.filter(feature => palette[feature.properties.code]).map(feature => {
+    const { code, name } = feature.properties;
+    return `<path id="biome-${code.toLowerCase()}" class="map-territory" data-territory="${esc(code)}" aria-label="Bioma ${esc(name)}" tabindex="0" fill="${palette[code]}" fill-rule="evenodd" d="${geometryPath(feature.geometry, brazilProject)}"/>`;
+  }).join('');
+  const stateBoundaries = brazil.features.map(feature => `<path d="${geometryPath(feature.geometry, brazilProject)}"/>`).join('');
+  return `<g id="layer-base" stroke="#173650" stroke-width="1.15" stroke-linejoin="round">${biomePaths}</g><g id="layer-state-boundaries" fill="none" stroke="#fffaf0" stroke-opacity=".72" stroke-width=".75" pointer-events="none">${stateBoundaries}</g>`;
 }
 
 const lonLat = (lon, lat) => worldProject([lon, lat]).join(' ');
@@ -79,7 +96,7 @@ const assets = {
   'world-political.svg': svg('Mundo político', 'Países do mundo em geometria simplificada de pequena escala.', 'Natural Earth 1:110m, versão 5.1.1', worldLand()),
   'world-physical.svg': svg('Mundo físico', 'Continentes, relevo relativo e grandes cadeias montanhosas.', 'Natural Earth 1:110m; síntese Humboldt', physicalRelief),
   'brazil-political.svg': svg('Brasil político', 'Unidades da Federação com limites oficiais simplificados.', 'IBGE Malhas, qualidade mínima', brazilLand()),
-  'brazil-physical-biomes.svg': svg('Brasil: regiões e biomas', 'Base estadual oficial agrupada por macrorregião; cores usadas como aproximação didática.', 'IBGE Malhas, qualidade mínima; síntese Humboldt', brazilLand(true)),
+  'brazil-physical-biomes.svg': svg('Brasil físico e biomas', 'Seis biomas continentais oficiais do Brasil com limites estaduais de referência.', 'IBGE, Biomas do Brasil 1:5.000.000; IBGE Malhas', brazilBiomes()),
   'oceans-routes.svg': svg('Oceanos e rotas', 'Base mundial real com rotas marítimas transoceânicas selecionadas.', 'Natural Earth 1:110m; rotas esquemáticas Humboldt', `${worldLand('#d8cc9b')}<g id="layer-routes">${route('south-atlantic',[[-47,-24],[-15,-8],[18,-34]])}${route('north-atlantic',[[-74,40],[-35,48],[4,52]])}${route('indian',[[18,-34],[55,-21],[104,1]])}${route('pacific',[[104,1],[140,20],[179,35]])}</g>`),
   'population.svg': svg('População', 'Base mundial real com concentrações populacionais relativas, sem escala quantitativa.', 'Natural Earth 1:110m; síntese Humboldt', `${worldLand('#d7cc9f')}${circles([[116,35,30],[78,23,28],[10,50,18],[-46,-23,14],[7,9,14],[-75,40,12]],'population','#9d4d39')}`),
   'climate.svg': svg('Clima', 'Base mundial real sob faixas climáticas latitudinais de referência.', 'Natural Earth 1:110m; síntese Humboldt', `${worldLand('#d8cc9b')}${climateBands}<path d="M0 270H960" stroke="#9d4d39" stroke-width="2" stroke-dasharray="7 6"/>`),
@@ -88,5 +105,5 @@ const assets = {
 };
 
 for (const [name, content] of Object.entries(assets)) await writeFile(resolve(target, name), content, 'utf8');
-if (Object.keys(assets).length !== 9 || world.features.length < 170 || brazil.features.length !== 27) throw new Error('Cartographic source validation failed.');
-console.log(`Generated ${Object.keys(assets).length} geographic SVG maps from ${world.features.length} countries and ${brazil.features.length} Brazilian units.`);
+if (Object.keys(assets).length !== 9 || world.features.length < 170 || brazil.features.length !== 27 || biomes.features.length !== 10) throw new Error('Cartographic source validation failed.');
+console.log(`Generated ${Object.keys(assets).length} geographic SVG maps from ${world.features.length} countries, ${brazil.features.length} Brazilian units and ${biomes.features.length} official biome/water features.`);

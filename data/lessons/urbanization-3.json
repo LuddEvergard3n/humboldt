@@ -68,5 +68,99 @@
     "answer": "Construir mais vias induz mais uso do automóvel — pode piorar o congestionamento.",
     "mediation": "Mostre o antes/depois de uma intervenção de mobilidade em alguma cidade: abertura de ciclovia, pedestrianização, BRT. Houve melhora?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-habitat-wcr",
+      "title": "World Cities Report",
+      "publisher": "UN-Habitat",
+      "url": "https://unhabitat.org/wcr/",
+      "year": 2024,
+      "type": "relatório urbano",
+      "method": "Síntese de dados urbanos, estudos de caso e literatura internacional.",
+      "scope": "Cidades e sistemas urbanos globais; recortes variáveis.",
+      "limitations": "Definições de urbano e limites metropolitanos diferem entre países.",
+      "institutionalContext": "Programa da ONU para assentamentos humanos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "urbanization-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "São Paulo tem uma das maiores frotas de automóveis do mundo. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-3-guided-2",
+      "section": "guided",
+      "claim": "As cidades contemporâneas enfrentam desafios que são, ao mesmo tempo, técnicos, sociais e políticos.",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-3-relations-3",
+      "section": "relations",
+      "claim": "Cidades consomem 78% da energia mundial e produzem 60% das emissões de CO₂ — apesar de ocuparem menos de 3% da superfície terrestre. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Curitiba é internacionalmente celebrada pelo seu sistema de ônibus de alta capacidade (RIT) e pelo urbanismo de Jaime Lerner nos anos 1970-90. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-3-application-5",
+      "section": "application",
+      "claim": "Identifique um problema urbano no município onde você mora. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-3-activity-6",
+      "section": "activity",
+      "claim": "O que é o 'paradoxo de Braess' aplicado ao trânsito urbano?",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

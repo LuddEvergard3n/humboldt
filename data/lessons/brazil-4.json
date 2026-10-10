@@ -68,5 +68,99 @@
     "answer": "Migração em massa do campo para a cidade.",
     "mediation": "Mostre crescimento de São Paulo em fotos aéreas: 1940, 1960, 1980, 2000, hoje. O que se expandiu? Para onde?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "brazil-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em apenas 40 anos, o Brasil fez o que países europeus levaram 200 anos para fazer: se urbanizou. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-4-guided-2",
+      "section": "guided",
+      "claim": "A urbanização acelerada do Brasil teve causas e consequências específicas.",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-4-relations-3",
+      "section": "relations",
+      "claim": "A urbanização brasileira criou cidades com extremos: condomínios fechados com piscina a poucos km de favelas sem esgoto. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Heliópolis tem 200.000 habitantes — maior que muitas cidades brasileiras. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-4-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é a taxa de urbanização do estado onde você mora? ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-4-activity-6",
+      "section": "activity",
+      "claim": "O que é êxodo rural?",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

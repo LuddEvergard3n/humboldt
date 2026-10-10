@@ -68,5 +68,99 @@
     "answer": "Desigualdades regionais são estruturais — concentração de poder que programas isolados não conseguem reverter.",
     "mediation": "Mapa de IDH municipal do Brasil. Peça que identifiquem os padrões: onde estão os municípios com menor IDH? O que eles têm em comum?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-habitat-wcr",
+      "title": "World Cities Report",
+      "publisher": "UN-Habitat",
+      "url": "https://unhabitat.org/wcr/",
+      "year": 2024,
+      "type": "relatório urbano",
+      "method": "Síntese de dados urbanos, estudos de caso e literatura internacional.",
+      "scope": "Cidades e sistemas urbanos globais; recortes variáveis.",
+      "limitations": "Definições de urbano e limites metropolitanos diferem entre países.",
+      "institutionalContext": "Programa da ONU para assentamentos humanos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-urban-regional-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O IBGE (2022) mostra que a renda média no Sudeste é 2,8 vezes maior que no Nordeste. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-2-guided-2",
+      "section": "guided",
+      "claim": "A desigualdade regional brasileira tem causas históricas e estruturais, e é objeto de políticas públicas específicas.",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-2-relations-3",
+      "section": "relations",
+      "claim": "O Nordeste financiou o Brasil colonial com o açúcar, e sua pobreza resulta de séculos de concentração fundiária, oligarquia política e investimento insuficiente — não de características culturais ou naturais. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Por décadas, a política para o semiárido era 'combater a seca' — grandes açudes e transposições. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-2-application-5",
+      "section": "application",
+      "claim": "Pesquise: quais são os indicadores sociais da sua região em comparação com a média nacional? ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-urban-regional-2-activity-6",
+      "section": "activity",
+      "claim": "Por que as políticas de desenvolvimento regional no Brasil historicamente tiveram resultados limitados?",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

@@ -9,7 +9,7 @@
       "id": "sec-campo-quote",
       "title": "A centralidade do campo",
       "type": "quote",
-      "text": "Você não pode entender o espaço de um lugar sem estar nele. A distância do laboratório produz abstração; a presença no campo produz conhecimento. O geógrafo que nunca saiu do computador conhece mapas — não lugares.",
+      "text": "Trabalho de campo, dados remotos, documentos, entrevistas e modelos oferecem observações diferentes. A pergunta de pesquisa deve orientar a combinação e os limites de cada método.",
       "author": "Yi-Fu Tuan",
       "work": "Topofilia (parafraseado)",
       "year": "1974"
@@ -81,14 +81,191 @@
       "id": "sec-compare-metodos",
       "title": "Comparação de abordagens metodológicas",
       "type": "compare-table",
-      "columns": ["Abordagem", "Tipo de dado", "Escala típica", "Produz", "Limitação"],
+      "columns": [
+        "Abordagem",
+        "Tipo de dado",
+        "Escala típica",
+        "Produz",
+        "Limitação"
+      ],
       "rows": [
-        ["Trabalho de campo etnográfico", "Qualitativo: narrativas, observações, entrevistas", "Local / micro", "Compreensão profunda do lugar e da experiência", "Difícil generalização; tempo intensivo"],
-        ["Análise espacial quantitativa", "Quantitativo: variáveis numéricas georreferenciadas", "Regional / nacional", "Padrões, modelos, previsões estatísticas", "Perde contexto e experiência vivida"],
-        ["Sensoriamento remoto / SIG", "Imagem de satélite, raster, vetorial", "Regional / global", "Monitoramento de mudanças ambientais e urbanas", "'Vê' superfície; não vê causas sociais"],
-        ["Cartografia participativa", "Co-produzido: comunidade + pesquisador", "Local", "Mapa e diagnóstico com validade política para pesquisados", "Escalabilidade limitada; risco de instrumentalização"],
-        ["Big Data geográfico", "Rastros digitais passivos (GPS, redes sociais)", "Urbano / global", "Mobilidade em tempo real; padrões de comportamento", "Viés para usuários de tecnologia; questões de privacidade"]
+        [
+          "Trabalho de campo etnográfico",
+          "Qualitativo: narrativas, observações, entrevistas",
+          "Local / micro",
+          "Compreensão profunda do lugar e da experiência",
+          "Difícil generalização; tempo intensivo"
+        ],
+        [
+          "Análise espacial quantitativa",
+          "Quantitativo: variáveis numéricas georreferenciadas",
+          "Regional / nacional",
+          "Padrões, modelos, previsões estatísticas",
+          "Perde contexto e experiência vivida"
+        ],
+        [
+          "Sensoriamento remoto / SIG",
+          "Imagem de satélite, raster, vetorial",
+          "Regional / global",
+          "Monitoramento de mudanças ambientais e urbanas",
+          "'Vê' superfície; não vê causas sociais"
+        ],
+        [
+          "Cartografia participativa",
+          "Co-produzido: comunidade + pesquisador",
+          "Local",
+          "Mapa e diagnóstico com validade política para pesquisados",
+          "Escalabilidade limitada; risco de instrumentalização"
+        ],
+        [
+          "Big Data geográfico",
+          "Rastros digitais passivos (GPS, redes sociais)",
+          "Urbano / global",
+          "Mobilidade em tempo real; padrões de comportamento",
+          "Viés para usuários de tecnologia; questões de privacidade"
+        ]
       ]
+    }
+  ],
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "creswell-design",
+      "title": "Research Design",
+      "publisher": "SAGE Publications",
+      "url": "https://us.sagepub.com/en-us/nam/research-design/book270550",
+      "year": 2023,
+      "type": "manual acadêmico",
+      "method": "Comparação de abordagens qualitativas, quantitativas e de métodos mistos.",
+      "scope": "Pesquisa social; aplicações dependem do campo e do desenho.",
+      "limitations": "Manual geral; não substitui protocolos específicos, ética ou conhecimento local.",
+      "institutionalContext": "Editora acadêmica; autores apresentam uma taxonomia metodológica entre várias possíveis.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "es-methodology-sec-campo-quote-1",
+      "section": "sec-campo-quote",
+      "claim": "Trabalho de campo, dados remotos, documentos, entrevistas e modelos oferecem observações diferentes. ",
+      "sourceIds": [
+        "creswell-design",
+        "ibge-atlas"
+      ],
+      "status": "interpretação",
+      "locator": "Obra e ano indicados no bloco; conferir a edição utilizada."
+    },
+    {
+      "id": "es-methodology-sec-o-que-e-metodo-2",
+      "section": "sec-o-que-e-metodo",
+      "claim": "Método não é neutro. ",
+      "sourceIds": [
+        "creswell-design",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-methodology-sec-trabalho-campo-3",
+      "section": "sec-trabalho-campo",
+      "claim": "O trabalho de campo é o método mais característico da Geografia — e o mais difícil de sistematizar. ",
+      "sourceIds": [
+        "creswell-design",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-methodology-sec-sig-geoprocessamento-4",
+      "section": "sec-sig-geoprocessamento",
+      "claim": "O geoprocessamento é o conjunto de técnicas computacionais para coletar, armazenar, processar, analisar e visualizar dados georreferenciados — dados que têm uma localização no espaço. ",
+      "sourceIds": [
+        "creswell-design",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-methodology-sec-metodos-tipos-5",
+      "section": "sec-metodos-tipos",
+      "claim": "Presença prolongada no lugar, observação participante, entrevistas em profundidade. ",
+      "sourceIds": [
+        "creswell-design",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-methodology-sec-big-data-6",
+      "section": "sec-big-data",
+      "claim": "A última década trouxe uma explosão de dados georreferenciados: GPS de celulares, geotagging de redes sociais, dados de transações com cartão de crédito, rastros de viagens de apps de mobilidade (Uber, Waze), IoT urbano (sensores de tráfego, câmeras, qualid…",
+      "sourceIds": [
+        "creswell-design",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-methodology-sec-compare-metodos-7",
+      "section": "sec-compare-metodos",
+      "claim": "Trabalho de campo etnográfico Qualitativo: narrativas, observações, entrevistas Local / micro Compreensão profunda do lugar e da experiência Difícil generalização; tempo intensivo Análise espacial quantitativa Quantitativo: variáveis numéricas georreferenci…",
+      "sourceIds": [
+        "creswell-design",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Metodologia em Geografia” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Metodologia em Geografia” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
     }
   ]
 }

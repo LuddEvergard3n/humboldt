@@ -56,5 +56,122 @@
     "answer": "Combinação de operações militares com ciberataques, desinformação e pressão econômica.",
     "mediation": "Analise um caso concreto de desinformação recente. Como se originou? Como se espalhou? Quais foram os efeitos? Como identificar?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "year": 1945,
+      "type": "tratado internacional",
+      "method": "Texto constitutivo que estabelece princípios, órgãos e competências da ONU.",
+      "scope": "Relações internacionais entre Estados-membros.",
+      "limitations": "Prática estatal, resoluções e jurisprudência condicionam a aplicação; não mede poder material.",
+      "institutionalContext": "Documento fundador de organização intergovernamental.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "sipri-data",
+      "title": "SIPRI Databases",
+      "publisher": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "year": 2026,
+      "type": "base de pesquisa",
+      "method": "Compilação documentada de gastos militares, transferências de armas e conflitos a partir de fontes abertas.",
+      "scope": "Países e conflitos; cobertura varia por base e período.",
+      "limitations": "Sigilo, conversões cambiais e estimativas limitam precisão e comparabilidade.",
+      "institutionalContext": "Instituto independente de pesquisa financiado por fontes públicas e filantrópicas.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-geopolitics-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2015 e 2016, hackers russos derrubaram partes da rede elétrica da Ucrânia deixando 230.000 pessoas sem luz no inverno. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-4-guided-2",
+      "section": "guided",
+      "claim": "O século XXI trouxe formas de conflito que escapam das categorias tradicionais da guerra.",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-4-relations-3",
+      "section": "relations",
+      "claim": "A guerra de informação não é nova — mas a internet a tornou massiva e barata. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Estado Islâmico (ISIS) chegou a controlar um território do tamanho da Grã-Bretanha no Iraque e na Síria (2014-2019). ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-4-application-5",
+      "section": "application",
+      "claim": "Pesquise: o Brasil já sofreu ataques cibernéticos significativos? ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-4-activity-6",
+      "section": "activity",
+      "claim": "Clique nas regiões onde há conflitos armados ativos ou tensões geopolíticas críticas em 2024.",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Conflitos do século XXI: novas formas de guerra” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Conflitos do século XXI: novas formas de guerra” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

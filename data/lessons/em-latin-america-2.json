@@ -32,10 +32,22 @@
     "type": "single-choice",
     "correct": "neoextrativismo",
     "options": [
-      { "value": "neoextrativismo", "label": "Financiar políticas sociais redistributivas com a exportação de commodities — reproduzindo o modelo extrativista que se dizia combater" },
-      { "value": "corrupcao",       "label": "A corrupção sistemática que desviou recursos destinados às políticas sociais" },
-      { "value": "venezuela",       "label": "A influência desestabilizadora do modelo venezuelano sobre os demais governos progressistas" },
-      { "value": "eua",             "label": "A interferência dos EUA que desestabilizou sistematicamente os governos de esquerda" }
+      {
+        "value": "neoextrativismo",
+        "label": "Financiar políticas sociais redistributivas com a exportação de commodities — reproduzindo o modelo extrativista que se dizia combater"
+      },
+      {
+        "value": "corrupcao",
+        "label": "A corrupção sistemática que desviou recursos destinados às políticas sociais"
+      },
+      {
+        "value": "venezuela",
+        "label": "A influência desestabilizadora do modelo venezuelano sobre os demais governos progressistas"
+      },
+      {
+        "value": "eua",
+        "label": "A interferência dos EUA que desestabilizou sistematicamente os governos de esquerda"
+      }
     ],
     "feedback": {
       "correct": "Correto. O neoextrativismo progressista — expandir soja, minério e petróleo para financiar programas sociais — resolveu a pobreza de curto prazo sem transformar a estrutura produtiva. Quando o preço das commodities caiu (2013-2016), a arrecadação caiu, o déficit aumentou, e os programas ficaram ameaçados. A dependência do modelo extrativista foi o calcanhar de Aquiles do ciclo progressista.",
@@ -43,7 +55,10 @@
       "incorrect_extra": "A contradição estrutural está no modelo econômico, não em atores externos ou no comportamento individual dos governantes."
     },
     "hints": [
-      { "type": "text", "content": "O que sustentou o Bolsa Família, o Bono Dignidad, os gastos sociais bolivianos? De onde vinha o dinheiro? O que aconteceu com esse financiamento quando o preço do petróleo e das commodities caiu em 2014-2015?" }
+      {
+        "type": "text",
+        "content": "O que sustentou o Bolsa Família, o Bono Dignidad, os gastos sociais bolivianos? De onde vinha o dinheiro? O que aconteceu com esse financiamento quando o preço do petróleo e das commodities caiu em 2014-2015?"
+      }
     ]
   },
   "teacher": {
@@ -52,5 +67,122 @@
     "answer": "Neoextrativismo: financiamento das políticas sociais via exportação de commodities, sem transformação da estrutura produtiva. Quando o boom terminou (2013-2016), os governos ficaram expostos fiscalmente e politicamente.",
     "mediation": "Proponha: 'É possível fazer redistribuição social sem mudar o modelo econômico extrativista? Ou redistribuir dentro do modelo existente é sempre provisório?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "imf-weo",
+      "title": "World Economic Outlook Database: Assumptions and Data Conventions",
+      "publisher": "International Monetary Fund",
+      "url": "https://www.imf.org/en/Publications/WEO/weo-database/assumptions-and-data-conventions",
+      "year": 2026,
+      "type": "estimativa macroeconômica",
+      "method": "Séries nacionais harmonizadas e projeções elaboradas por equipes do FMI.",
+      "scope": "Economias membros e agregados; histórico e projeções semestrais.",
+      "limitations": "Inclui estimativas e projeções; pode divergir de fontes nacionais e sofrer revisões.",
+      "institutionalContext": "Instituição financeira multilateral; análises seguem seu mandato macroeconômico.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-latin-america-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Entre 1999 e 2010, uma sequência de eleições varreram a América Latina: Hugo Chávez (Venezuela), Lula (Brasil), Néstor Kirchner (Argentina), Tabaré Vázquez (Uruguai), Evo Morales (Bolívia), Rafael Correa (Equador), Fernando Lugo (Paraguai). ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-2-guided-2",
+      "section": "guided",
+      "claim": "A chegada da esquerda ao poder nos anos 2000 não foi coincidência — foi resultado de três fatores simultâneos: o fracasso do Consenso de Washington (ajuste fiscal, privatizações, abertura comercial nos anos 1990) em reduzir pobreza e desigualdade; o boom de…",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-2-relations-3",
+      "section": "relations",
+      "claim": "A partir de 2013-2015, o ciclo se inverteu: o fim do boom de commodities reduziu a arrecadação e exposou a dependência do modelo; escândalos de corrupção (Lava Jato no Brasil, Odebrecht em vários países) desgastaram governos; classes médias que haviam ascen…",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Evo Morales governou a Bolívia de 2006 a 2019 — o mandato mais longo de um presidente boliviano, de um país com 187 golpes de Estado em sua história. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-2-application-5",
+      "section": "application",
+      "claim": "Monte uma linha do tempo da política da América do Sul de 2000 a 2024. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-2-activity-6",
+      "section": "activity",
+      "claim": "A principal contradição do 'ciclo progressista' latino-americano dos anos 2000 foi:",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Ciclo progressista e reação conservadora” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Ciclo progressista e reação conservadora” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

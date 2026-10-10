@@ -38,7 +38,10 @@
       "incorrect": "Pense onde está a nova fronteira agrícola do Brasil — Mato Grosso, Pará, Rondônia — e onde estão os portos de exportação tradicionais (Santos, Paranaguá). Qual a distância? Qual modal é usado? Quanto custa esse frete como proporção do valor da mercadoria?"
     },
     "hints": [
-      { "type": "text", "content": "A nova fronteira agrícola do Brasil está em qual direção — Norte/Centro-Oeste ou Sul/Sudeste? E os grandes portos de exportação (Santos, Paranaguá) ficam onde? A distância entre eles é o custo logístico." }
+      {
+        "type": "text",
+        "content": "A nova fronteira agrícola do Brasil está em qual direção — Norte/Centro-Oeste ou Sul/Sudeste? E os grandes portos de exportação (Santos, Paranaguá) ficam onde? A distância entre eles é o custo logístico."
+      }
     ]
   },
   "teacher": {
@@ -47,5 +50,102 @@
     "answer": "A Região Norte concentra a nova fronteira agrícola e está mais distante dos portos tradicionais do Sul/Sudeste. O frete rodoviário de Mato Grosso a Santos pode custar 40% do valor da soja — enquanto uma hidrovia ou ferrovia custaria um terço disso.",
     "mediation": "Pergunte: 'Se o Brasil tivesse investido em ferrovias e hidrovias em vez de rodovias nos anos 1950, a Amazônia teria sido desmatada da mesma forma? A infraestrutura de transporte determina quais terras são ocupadas?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-transport-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Uma saca de soja produzida em Lucas do Rio Verde (MT) percorre 1.800 km de estrada até o Porto de Santos (SP), pagando um frete que pode representar 40% do valor da mercadoria. ",
+      "sourceIds": [
+        "wto-stats"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-2-guided-2",
+      "section": "guided",
+      "claim": "Cada modal de transporte tem características físicas, econômicas e territoriais diferentes. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-2-relations-3",
+      "section": "relations",
+      "claim": "O Brasil é o maior exportador mundial de soja, açúcar e carne bovina. ",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A Ferrogrão é um projeto de ferrovia de 933 km ligando Sinop (MT) ao Porto de Miritituba (PA), às margens do Rio Tapajós. ",
+      "sourceIds": [
+        "wto-stats"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-2-application-5",
+      "section": "application",
+      "claim": "Escolha um produto agrícola exportado pelo Brasil (soja, carne, açúcar) e trace sua rota logística típica: da fazenda ao porto de saída. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

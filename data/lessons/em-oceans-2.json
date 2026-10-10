@@ -3,9 +3,9 @@
   "moduleId": "em-oceans",
   "title": "Direito do mar e zonas marítimas",
   "summary": "Mar territorial, zona econômica exclusiva e alto-mar atribuem direitos diferentes.",
-  "lastReviewed": "2026-10-09",
+  "lastReviewed": "2026-10-10",
   "reviewStatus": "reviewed",
-  "evidenceStatus": "consensus",
+  "evidenceStatus": "reviewed",
   "estimatedDuration": 50,
   "durationUnit": "minutes",
   "scales": [
@@ -19,7 +19,25 @@
       "publisher": "United Nations",
       "url": "https://www.un.org/depts/los/convention_agreements/convention_overview_convention.htm",
       "year": 1982,
-      "accessedAt": "2026-10-09"
+      "accessedAt": "2026-10-09",
+      "type": "fonte documental ou institucional",
+      "method": "Consultar a metodologia e os metadados publicados pela fonte para o indicador ou argumento utilizado.",
+      "scope": "Escopo definido no documento ou conjunto de dados referenciado.",
+      "limitations": "Cobertura, conceitos, período e comparabilidade devem ser verificados na edição citada.",
+      "institutionalContext": "United Nations responde pela seleção, produção e apresentação do material."
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
     }
   ],
   "perspectives": [],
@@ -84,5 +102,67 @@
     "answer": "A jurisdição varia conforme a distância da costa e o tipo de atividade previsto no direito internacional.",
     "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
     "time": "50 minutos"
-  }
+  },
+  "citations": [
+    {
+      "id": "em-oceans-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Mar territorial, zona econômica exclusiva e alto-mar atribuem direitos diferentes.",
+      "sourceIds": [
+        "unclos"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-oceans-2-guided-2",
+      "section": "guided",
+      "claim": "A jurisdição varia conforme a distância da costa e o tipo de atividade previsto no direito internacional.",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-oceans-2-relations-3",
+      "section": "relations",
+      "claim": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única.",
+      "sourceIds": [
+        "unclos"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-oceans-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-oceans-2-application-5",
+      "section": "application",
+      "claim": "Associe cada atividade à zona marítima e justifique pelo tipo de direito exercido.",
+      "sourceIds": [
+        "unclos"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-oceans-2-activity-6",
+      "section": "activity",
+      "claim": "Soberania e direito de exploração significam a mesma coisa?",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ]
 }

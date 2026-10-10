@@ -32,17 +32,31 @@
     "type": "single-choice",
     "correct": "sem-status",
     "options": [
-      { "value": "sem-status",    "label": "Migrante sem status de proteção internacional — o clima não é reconhecido como causa de refúgio pela Convenção de 1951" },
-      { "value": "refugiada",     "label": "Refugiada climática — categoria reconhecida pela ONU desde 2015" },
-      { "value": "deslocada-idu", "label": "Deslocada interna protegida pelos Princípios Orientadores da ONU sobre Deslocamento Interno" },
-      { "value": "apátrida",      "label": "Apátrida — perde a nacionalidade quando seu território fica inabitável" }
+      {
+        "value": "sem-status",
+        "label": "Migrante sem status de proteção internacional — o clima não é reconhecido como causa de refúgio pela Convenção de 1951"
+      },
+      {
+        "value": "refugiada",
+        "label": "Refugiada climática — categoria reconhecida pela ONU desde 2015"
+      },
+      {
+        "value": "deslocada-idu",
+        "label": "Deslocada interna protegida pelos Princípios Orientadores da ONU sobre Deslocamento Interno"
+      },
+      {
+        "value": "apátrida",
+        "label": "Apátrida — perde a nacionalidade quando seu território fica inabitável"
+      }
     ],
     "feedback": {
       "correct": "Correto. A Convenção de 1951 define refugiado como quem foge de perseguição por raça, religião, nacionalidade, grupo social ou opinião política. Mudanças climáticas não se enquadram em nenhuma dessas categorias. Quem migra por razões climáticas não tem status legal de proteção internacional — é uma das maiores lacunas do direito internacional contemporâneo.",
       "incorrect": "'Refugiado climático' não é uma categoria legal reconhecida pela ONU. Os Princípios sobre Deslocamento Interno são soft law (não vinculante) e cobrem apenas deslocados dentro do próprio país. Apátrida se perde a nacionalidade por outros motivos — o Bangladesh ainda existe como Estado."
     },
     "hints": [
-      { "type": "text", "content": "A Convenção de Refugiados lista cinco causas de proteção: raça, religião, nacionalidade, grupo social, opinião política. 'Mudança climática' não está nessa lista. Qual é o status de quem migra por uma causa não listada?"
+      {
+        "type": "text",
+        "content": "A Convenção de Refugiados lista cinco causas de proteção: raça, religião, nacionalidade, grupo social, opinião política. 'Mudança climática' não está nessa lista. Qual é o status de quem migra por uma causa não listada?"
       }
     ]
   },
@@ -52,5 +66,122 @@
     "answer": "Migrante sem status de proteção internacional. A Convenção de 1951 não reconhece o clima como causa de refúgio. Quem migra por razões climáticas está em vazio jurídico — sem direito a asilo, sem proteção formal.",
     "mediation": "Proponha: 'Se o Bangladesh emite 0,4% do CO₂ global e os EUA emitem 15%, quem tem responsabilidade sobre os migrantes climáticos bangladeshianos? Isso deveria se traduzir em obrigação legal de acolhimento?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "unhcr-methods",
+      "title": "Refugee Data Finder: Methodology",
+      "publisher": "UNHCR",
+      "url": "https://www.unhcr.org/refugee-statistics/methodology/",
+      "year": 2026,
+      "type": "estatística humanitária",
+      "method": "Registros administrativos, dados governamentais, estimativas e pesquisas, documentados por população.",
+      "scope": "Deslocamento forçado internacional e interno; cobertura por país e ano.",
+      "limitations": "Registros incompletos, mudanças de definição e crises em curso geram revisões e subcontagem.",
+      "institutionalContext": "Agência da ONU com mandato de proteção de refugiados; categorias seguem definições jurídicas e operacionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "iom-wmr",
+      "title": "World Migration Report 2024",
+      "publisher": "International Organization for Migration",
+      "url": "https://worldmigrationreport.iom.int/wmr-2024-interactive/",
+      "year": 2024,
+      "type": "relatório de síntese",
+      "method": "Síntese de bases internacionais e literatura, distinguindo estoques, fluxos e deslocamentos.",
+      "scope": "Migração internacional e interna em escala mundial.",
+      "limitations": "Dados migratórios têm lacunas, definições nacionais diferentes e defasagem.",
+      "institutionalContext": "Organização intergovernamental da ONU voltada à migração.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-migration-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O Banco Mundial estima que, no cenário de emissões atuais, 216 milhões de pessoas se tornarão migrantes climáticas até 2050 — dentro de seus próprios países. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-3-guided-2",
+      "section": "guided",
+      "claim": "A migração climática ocorre em múltiplas escalas e formas, nem sempre reconhecíveis como 'migração climática' porque o clima raramente é a única causa — combina-se com conflito, pobreza e fragilidade estatal.",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-3-relations-3",
+      "section": "relations",
+      "claim": "A Convenção de Refugiados de 1951 não reconhece o clima como causa de proteção internacional — foi escrita para proteger perseguidos políticos no contexto da Guerra Fria. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Dhaka tem 22 milhões de habitantes e é uma das cidades que mais crescem no mundo — não por natalidade, mas por migração. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-3-application-5",
+      "section": "application",
+      "claim": "Pesquise o conceito de 'refúgio climático' e a proposta de ampliação da Convenção de Refugiados de 1951 para incluir deslocados climáticos. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-3-activity-6",
+      "section": "activity",
+      "claim": "Uma família que abandona sua aldeia em Bangladesh após inundações que tornaram a terra improdutível é, no direito internacional atual, classificada como:",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Migração climática: o deslocamento do futuro” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Migração climática: o deslocamento do futuro” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

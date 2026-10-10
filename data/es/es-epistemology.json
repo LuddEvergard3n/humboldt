@@ -142,14 +142,56 @@
       "id": "sec-correntes-compare",
       "title": "Comparação entre correntes",
       "type": "compare-table",
-      "columns": ["Corrente", "Período", "Objeto central", "Método", "Limitação principal"],
+      "columns": [
+        "Corrente",
+        "Período",
+        "Objeto central",
+        "Método",
+        "Limitação principal"
+      ],
       "rows": [
-        ["Determinismo geográfico", "1870–1920", "Relação meio-sociedade", "Causalidade física", "Reducionismo; base ideológica colonial"],
-        ["Possibilismo", "1890–1950", "Gênero de vida, região", "Monografia regional", "Ateórico; enciclopedismo"],
-        ["Revolução quantitativa", "1950–1970", "Padrões espaciais", "Estatística, modelos", "Exclui conflito, poder, subjetividade"],
-        ["Geografia crítica marxista", "1970–", "Produção do espaço", "Materialismo histórico", "Tendência ao economicismo"],
-        ["Geografia humanista", "1970–", "Lugar, experiência, sentido", "Fenomenologia, hermenêutica", "Dificuldade de escala; individualismo"],
-        ["Pós-estruturalismo", "1990–", "Discurso, diferença, poder", "Análise do discurso, genealogia", "Fragmentação; dificuldade política"]
+        [
+          "Determinismo geográfico",
+          "1870–1920",
+          "Relação meio-sociedade",
+          "Causalidade física",
+          "Reducionismo; base ideológica colonial"
+        ],
+        [
+          "Possibilismo",
+          "1890–1950",
+          "Gênero de vida, região",
+          "Monografia regional",
+          "Ateórico; enciclopedismo"
+        ],
+        [
+          "Revolução quantitativa",
+          "1950–1970",
+          "Padrões espaciais",
+          "Estatística, modelos",
+          "Exclui conflito, poder, subjetividade"
+        ],
+        [
+          "Geografia crítica marxista",
+          "1970–",
+          "Produção do espaço",
+          "Materialismo histórico",
+          "Tendência ao economicismo"
+        ],
+        [
+          "Geografia humanista",
+          "1970–",
+          "Lugar, experiência, sentido",
+          "Fenomenologia, hermenêutica",
+          "Dificuldade de escala; individualismo"
+        ],
+        [
+          "Pós-estruturalismo",
+          "1990–",
+          "Discurso, diferença, poder",
+          "Análise do discurso, genealogia",
+          "Fragmentação; dificuldade política"
+        ]
       ]
     },
     {
@@ -157,6 +199,158 @@
       "title": "Pós-estruturalismo e as geografias da diferença",
       "type": "text",
       "body": "A partir dos anos 1990, a influência de Michel Foucault, Jacques Derrida e Judith Butler reconfigurou parte da produção geográfica. O foco deslocou-se do espaço como estrutura para o espaço como discurso — como as representações do espaço constroem realidades, legitimam poderes, produzem sujeitos.\n\nAs geografias da diferença exploraram dimensões antes invisíveis na disciplina: gênero (como o espaço é generificado?), raça (como o racismo opera espacialmente?), colonialidade (como os mapas e as categorias geográficas são instrumentos de dominação?). O trabalho de Edward Said sobre orientalismo — como o Ocidente construiu discursivamente o 'Oriente' para dominá-lo — encontrou ressonância forte nessa vertente.\n\nA crítica a essa corrente é dupla. Internamente: o risco de fragmentação em identidades incomunicáveis. Externamente: a dificuldade de articular análise discursiva com transformação material. O debate entre materialismo e pós-estruturalismo permanece aberto — e produtivo."
+    }
+  ],
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "sauer-landscape",
+      "title": "The Morphology of Landscape",
+      "publisher": "University of California Publications in Geography",
+      "url": "https://archive.org/details/morphologyofland00saue",
+      "year": 1925,
+      "type": "ensaio acadêmico histórico",
+      "method": "Formulação histórico-cultural da paisagem a partir de formas, processos e área.",
+      "scope": "Teoria geográfica do início do século XX.",
+      "limitations": "Vocabulário e pressupostos refletem seu período; tradições posteriores revisaram natureza e cultura.",
+      "institutionalContext": "Texto clássico da geografia cultural norte-americana.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "es-epistemology-sec-nascimento-1",
+      "section": "sec-nascimento",
+      "claim": "A institucionalização da Geografia como disciplina acadêmica ocorre no contexto específico do século XIX europeu: a expansão colonial exigia inventariar territórios; os Estados nacionais precisavam cartografar e controlar espaços; as universidades alemãs ne…",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-epistemology-sec-fundadores-2",
+      "section": "sec-fundadores",
+      "claim": "Concebeu a Geografia como ciência das relações entre fenômenos naturais e humanos. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-epistemology-sec-determinismo-3",
+      "section": "sec-determinismo",
+      "claim": "O determinismo geográfico sustentava que o meio físico — clima, relevo, solo — determina o comportamento, a cultura e o destino das sociedades. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-epistemology-sec-timeline-4",
+      "section": "sec-timeline",
+      "claim": "Correntes do pensamento geográfico",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-epistemology-sec-quantitativa-5",
+      "section": "sec-quantitativa",
+      "claim": "Nos anos 1950, a Geography norte-americana e britânica passou por uma transformação radical: a substituição da descrição regional exaustiva por modelos matemáticos, leis espaciais e análise estatística. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-epistemology-sec-criticos-6",
+      "section": "sec-criticos",
+      "claim": "Demonstrou que o capitalismo produz geografias desiguais como necessidade sistêmica, não como acidente. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-epistemology-sec-correntes-compare-7",
+      "section": "sec-correntes-compare",
+      "claim": "Determinismo geográfico 1870–1920 Relação meio-sociedade Causalidade física Reducionismo; base ideológica colonial Possibilismo 1890–1950 Gênero de vida, região Monografia regional Ateórico; enciclopedismo Revolução quantitativa 1950–1970 Padrões espaciais…",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-epistemology-sec-posestrutural-8",
+      "section": "sec-posestrutural",
+      "claim": "A partir dos anos 1990, a influência de Michel Foucault, Jacques Derrida e Judith Butler reconfigurou parte da produção geográfica. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Correntes do Pensamento Geográfico” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Correntes do Pensamento Geográfico” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
     }
   ]
 }

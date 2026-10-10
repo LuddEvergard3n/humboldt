@@ -44,16 +44,33 @@
           "question": "Nesta escala global, o que é possível afirmar sobre o desmatamento amazônico?",
           "correct": "tendencia-geral",
           "options": [
-            { "value": "tendencia-geral", "label": "A tendência geral e a localização aproximada da fronteira agrícola — mas não os responsáveis" },
-            { "value": "fazendas",        "label": "Quais fazendas estão desmatando ilegalmente" },
-            { "value": "especies",        "label": "Quais espécies de árvores estão sendo derrubadas" },
-            { "value": "municipios",      "label": "Quais municípios têm maior desmatamento" }
+            {
+              "value": "tendencia-geral",
+              "label": "A tendência geral e a localização aproximada da fronteira agrícola — mas não os responsáveis"
+            },
+            {
+              "value": "fazendas",
+              "label": "Quais fazendas estão desmatando ilegalmente"
+            },
+            {
+              "value": "especies",
+              "label": "Quais espécies de árvores estão sendo derrubadas"
+            },
+            {
+              "value": "municipios",
+              "label": "Quais municípios têm maior desmatamento"
+            }
           ],
           "feedback": {
             "correct": "Correto. Na escala global é possível ver tendências e padrões regionais — onde a fronteira está avançando, qual é a proporção relativa de cobertura. Mas fazendas, municípios e responsáveis são invisíveis nessa escala. É útil para acordos internacionais e comunicação pública; insuficiente para fiscalização.",
             "incorrect": "Nessa escala, detalhes como fazendas, espécies e municípios desaparecem. É como ver o Brasil de um satélite a 10.000 km de altura — você distingue o verde da floresta do marrom do desmatamento, mas não enxerga quem está com o machado na mão."
           },
-          "hints": [{ "type": "text", "content": "Em escala 1:10.000.000 um centímetro no mapa representa 100 km reais. Quantos centímetros tem uma fazenda de 1.000 hectares nessa escala?" }]
+          "hints": [
+            {
+              "type": "text",
+              "content": "Em escala 1:10.000.000 um centímetro no mapa representa 100 km reais. Quantos centímetros tem uma fazenda de 1.000 hectares nessa escala?"
+            }
+          ]
         },
         {
           "min": 4,
@@ -62,16 +79,33 @@
           "question": "Nesta escala regional, qual informação nova se torna disponível em relação à escala global?",
           "correct": "municipios-visiveis",
           "options": [
-            { "value": "municipios-visiveis", "label": "É possível identificar quais municípios têm maior desmatamento e traçar rotas de fiscalização" },
-            { "value": "proprietarios",       "label": "É possível identificar os proprietários responsáveis pelo desmatamento ilegal" },
-            { "value": "especies",            "label": "É possível identificar quais espécies de madeira estão sendo extraídas" },
-            { "value": "nada",                "label": "Nenhuma informação nova — a escala regional mostra o mesmo que a global" }
+            {
+              "value": "municipios-visiveis",
+              "label": "É possível identificar quais municípios têm maior desmatamento e traçar rotas de fiscalização"
+            },
+            {
+              "value": "proprietarios",
+              "label": "É possível identificar os proprietários responsáveis pelo desmatamento ilegal"
+            },
+            {
+              "value": "especies",
+              "label": "É possível identificar quais espécies de madeira estão sendo extraídas"
+            },
+            {
+              "value": "nada",
+              "label": "Nenhuma informação nova — a escala regional mostra o mesmo que a global"
+            }
           ],
           "feedback": {
             "correct": "Correto. Na escala regional é possível identificar municípios, concentração de desmatamento por área e rotas de acesso. Isso é suficiente para priorizar fiscalização por município — mas ainda não identifica o responsável individual. É a escala do PRODES/INPE.",
             "incorrect": "A mudança de escala sempre adiciona informação sobre detalhes locais. Na escala regional, a unidade visível é o município — não o planeta nem a propriedade individual. O que se pode fazer com informação municipal que não se podia com informação continental?"
           },
-          "hints": [{ "type": "text", "content": "Um município tem, em média, 2.000 km². Em 1:500.000, um centímetro = 5 km. Um município típico cabe em 10 cm × 8 cm. O que você consegue ver nesse espaço que não via no espaço de 1mm?" }]
+          "hints": [
+            {
+              "type": "text",
+              "content": "Um município tem, em média, 2.000 km². Em 1:500.000, um centímetro = 5 km. Um município típico cabe em 10 cm × 8 cm. O que você consegue ver nesse espaço que não via no espaço de 1mm?"
+            }
+          ]
         },
         {
           "min": 7,
@@ -80,16 +114,33 @@
           "question": "Na escala local, que mudança qualitativa ocorre em relação à escala regional?",
           "correct": "responsabilidade-individual",
           "options": [
-            { "value": "responsabilidade-individual", "label": "É possível atribuir responsabilidade individual — identificar o proprietário específico que desmatou" },
-            { "value": "mais-area",                   "label": "É possível ver uma área maior de floresta com mais detalhes" },
-            { "value": "satelite",                    "label": "Essa escala usa imagens de satélite mais antigas e menos precisas" },
-            { "value": "igual",                       "label": "A escala local e a regional mostram as mesmas informações, apenas ampliadas" }
+            {
+              "value": "responsabilidade-individual",
+              "label": "É possível atribuir responsabilidade individual — identificar o proprietário específico que desmatou"
+            },
+            {
+              "value": "mais-area",
+              "label": "É possível ver uma área maior de floresta com mais detalhes"
+            },
+            {
+              "value": "satelite",
+              "label": "Essa escala usa imagens de satélite mais antigas e menos precisas"
+            },
+            {
+              "value": "igual",
+              "label": "A escala local e a regional mostram as mesmas informações, apenas ampliadas"
+            }
           ],
           "feedback": {
             "correct": "Correto. Essa é a mudança qualitativa central: na escala local, o desmatamento deixa de ser um fenômeno difuso e passa a ter um endereço, um CPF e um CNPJ. É a escala da fiscalização, da multa, do processo judicial e da aplicação do Código Florestal. A escala determina não apenas o que vemos — determina quem pode ser responsabilizado.",
             "incorrect": "A diferença não é só de tamanho — é qualitativa. Na escala global e regional, o desmatamento é um padrão sem rosto. Na escala local, tem um proprietário identificável. Essa diferença muda completamente o que se pode fazer com a informação: análise vs. fiscalização."
           },
-          "hints": [{ "type": "text", "content": "Na escala 1:10.000, um centímetro = 100 metros. Uma propriedade de 100 hectares (1 km²) ocupa 10 cm × 10 cm no mapa. Você consegue ver não só o desmatamento, mas dentro de qual lote ele está." }]
+          "hints": [
+            {
+              "type": "text",
+              "content": "Na escala 1:10.000, um centímetro = 100 metros. Uma propriedade de 100 hectares (1 km²) ocupa 10 cm × 10 cm no mapa. Você consegue ver não só o desmatamento, mas dentro de qual lote ele está."
+            }
+          ]
         }
       ]
     }
@@ -100,5 +151,89 @@
     "answer": "Escala global: tendência geral, sem responsáveis. Escala regional: municípios, priorização de fiscalização. Escala local: propriedades individuais, responsabilização. A escala determina o nível de accountability possível.",
     "mediation": "Proponha: 'Por que governos que querem minimizar o desmatamento politicamente tendem a publicar dados em escala global? E por que ONGs de fiscalização investem em dados de alta resolução? A escolha de escala é técnica ou política?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-cartography-6-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Um mapa do desmatamento em escala global mostra manchas verdes e marrons que parecem pontos. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-6-guided-2",
+      "section": "guided",
+      "claim": "No vocabulário cartográfico, 'escala grande' e 'escala pequena' são contraintuitivos: escala grande (1:5.000) mostra pouca área com muito detalhe; escala pequena (1:50.000.000) mostra muita área com pouco detalhe. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-6-relations-3",
+      "section": "relations",
+      "claim": "Mauro Cetto e Brian Harley, entre outros cartógrafos críticos, mostraram que a escolha de escala não é inocente. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-6-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O PRODES (INPE) monitora o desmatamento amazônico desde 1988 em escala de 1:250.000 — resolução suficiente para identificar polígonos de corte raso acima de 6,25 hectares. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-6-application-5",
+      "section": "application",
+      "claim": "Abra o Google Earth. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

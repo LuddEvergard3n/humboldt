@@ -38,17 +38,32 @@
       "afterLabel": "2024 — ASEAN com 10 membros (inclui Vietnam e Laos comunistas)"
     },
     "options": [
-      { "value": "neutralidade-pragmatica", "label": "Prevalência do pragmatismo sobre a ideologia — a ASEAN incluiu antigos inimigos para fortalecer o bloco regional" },
-      { "value": "pressao-eua",             "label": "Pressão dos EUA para expandir a aliança anticomunista no Sudeste Asiático" },
-      { "value": "china-ingressou",         "label": "A China passou a fazer parte da ASEAN e influenciou a expansão" },
-      { "value": "onu-determinou",          "label": "A ONU determinou a criação de um bloco regional unificado no Sudeste Asiático" }
+      {
+        "value": "neutralidade-pragmatica",
+        "label": "Prevalência do pragmatismo sobre a ideologia — a ASEAN incluiu antigos inimigos para fortalecer o bloco regional"
+      },
+      {
+        "value": "pressao-eua",
+        "label": "Pressão dos EUA para expandir a aliança anticomunista no Sudeste Asiático"
+      },
+      {
+        "value": "china-ingressou",
+        "label": "A China passou a fazer parte da ASEAN e influenciou a expansão"
+      },
+      {
+        "value": "onu-determinou",
+        "label": "A ONU determinou a criação de um bloco regional unificado no Sudeste Asiático"
+      }
     ],
     "feedback": {
       "correct": "Correto. A ASEAN nasceu como bloco anticomunista em plena Guerra Fria. Depois da queda da URSS, incluiu Vietnam (1995) e Laos (1997) — países comunistas que eram inimigos ideológicos dos fundadores. O princípio da não-ingerência e o pragmatismo econômico prevaleceram sobre a ideologia. É um caso exemplar de como blocos regionais evoluem quando os interesses mudam.",
       "incorrect": "A ASEAN é independente dos EUA e a China não é membro. A ONU não determina blocos regionais. A chave está no que mudou no mundo entre 1967 e os anos 1990 — e por que países que eram inimigos ideológicos passaram a cooperar."
     },
     "hints": [
-      { "type": "text", "content": "Em 1967, Vietnam e Laos eram comunistas — inimigos dos fundadores da ASEAN. Em 1995 e 1997 entraram no bloco. O que mudou no mundo nesse período que tornou possível essa inclusão?" }
+      {
+        "type": "text",
+        "content": "Em 1967, Vietnam e Laos eram comunistas — inimigos dos fundadores da ASEAN. Em 1995 e 1997 entraram no bloco. O que mudou no mundo nesse período que tornou possível essa inclusão?"
+      }
     ]
   },
   "teacher": {
@@ -57,5 +72,122 @@
     "answer": "Prevalência do pragmatismo sobre a ideologia. A inclusão de Vietnam e Laos — antigos inimigos — demonstra que interesses econômicos e geopolíticos superaram as diferenças ideológicas no pós-Guerra Fria.",
     "mediation": "Proponha: 'A ASEAN não conseguiu forçar o Myanmar a restaurar a democracia após o golpe de 2021. Isso mostra um limite real do bloco. Vale a pena ter uma integração regional que não intervém em crises humanitárias? Quais seriam as alternativas?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "year": 1945,
+      "type": "tratado internacional",
+      "method": "Texto constitutivo que estabelece princípios, órgãos e competências da ONU.",
+      "scope": "Relações internacionais entre Estados-membros.",
+      "limitations": "Prática estatal, resoluções e jurisprudência condicionam a aplicação; não mede poder material.",
+      "institutionalContext": "Documento fundador de organização intergovernamental.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "sipri-data",
+      "title": "SIPRI Databases",
+      "publisher": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "year": 2026,
+      "type": "base de pesquisa",
+      "method": "Compilação documentada de gastos militares, transferências de armas e conflitos a partir de fontes abertas.",
+      "scope": "Países e conflitos; cobertura varia por base e período.",
+      "limitations": "Sigilo, conversões cambiais e estimativas limitam precisão e comparabilidade.",
+      "institutionalContext": "Instituto independente de pesquisa financiado por fontes públicas e filantrópicas.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-asia-pacific-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Todo ano, líderes de dez países com histórias, religiões, línguas e sistemas políticos radicalmente diferentes se reúnem na cúpula da ASEAN. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-4-guided-2",
+      "section": "guided",
+      "claim": "A Associação das Nações do Sudeste Asiático foi fundada em 1967 por cinco países (Indonésia, Malásia, Filipinas, Singapura, Tailândia) em plena Guerra Fria — originalmente como bloco anticomunista. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-4-relations-3",
+      "section": "relations",
+      "claim": "A ASEAN criou uma série de fóruns que incluem potências externas: o ASEAN+3 (China, Japão, Coreia), a Cúpula do Leste Asiático (EUA, Rússia também participam), o Fórum Regional da ASEAN. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Singapura tem 5,9 milhões de habitantes, 733 km² (menor que Brasília) e nenhum recurso natural. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-4-application-5",
+      "section": "application",
+      "claim": "Pesquise o PIB per capita dos 10 membros da ASEAN. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-4-activity-6",
+      "section": "activity",
+      "claim": "O que a expansão da ASEAN de 5 para 10 membros revela sobre a estratégia de integração regional do Sudeste Asiático?",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “ASEAN e o multilateralismo asiático” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “ASEAN e o multilateralismo asiático” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

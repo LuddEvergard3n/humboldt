@@ -39,7 +39,10 @@
       "incorrect": "Taiwan, o Mar do Sul da China e o Estreito de Malaca ficam todos na mesma região: o Leste e Sudeste Asiático, ao norte e nordeste do Oceano Índico."
     },
     "hints": [
-      { "type": "text", "content": "China, Japão, Coreia do Sul e Taiwan ficam no Leste Asiático. Vietnã, Malásia, Indonésia e Filipinas ficam no Sudeste. Encontre essa área no mapa — a leste do Oceano Índico e ao sul da Rússia." }
+      {
+        "type": "text",
+        "content": "China, Japão, Coreia do Sul e Taiwan ficam no Leste Asiático. Vietnã, Malásia, Indonésia e Filipinas ficam no Sudeste. Encontre essa área no mapa — a leste do Oceano Índico e ao sul da Rússia."
+      }
     ]
   },
   "teacher": {
@@ -48,5 +51,122 @@
     "answer": "Ásia Oriental (data-id: asia-oriental). Concentra Taiwan, o Mar do Sul da China e os principais atores da rivalidade sino-americana: China, Japão, Coreia do Sul e as rotas do Estreito de Malaca ao sul.",
     "mediation": "Proponha: 'Se a China invadisse Taiwan e os EUA interviessem militarmente, quais seriam as consequências econômicas para o Brasil? Pense nas cadeias de fornecimento de chips, nas exportações de soja e no sistema financeiro global.'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "year": 1945,
+      "type": "tratado internacional",
+      "method": "Texto constitutivo que estabelece princípios, órgãos e competências da ONU.",
+      "scope": "Relações internacionais entre Estados-membros.",
+      "limitations": "Prática estatal, resoluções e jurisprudência condicionam a aplicação; não mede poder material.",
+      "institutionalContext": "Documento fundador de organização intergovernamental.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "sipri-data",
+      "title": "SIPRI Databases",
+      "publisher": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "year": 2026,
+      "type": "base de pesquisa",
+      "method": "Compilação documentada de gastos militares, transferências de armas e conflitos a partir de fontes abertas.",
+      "scope": "Países e conflitos; cobertura varia por base e período.",
+      "limitations": "Sigilo, conversões cambiais e estimativas limitam precisão e comparabilidade.",
+      "institutionalContext": "Instituto independente de pesquisa financiado por fontes públicas e filantrópicas.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-asia-pacific-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2011, o presidente Obama anunciou o 'pivô para a Ásia': os EUA reorientariam sua política externa do Oriente Médio para o Indo-Pacífico. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-1-guided-2",
+      "section": "guided",
+      "claim": "Indo-Pacífico é um conceito geopolítico — não apenas geográfico — que designa o arco estratégico do Oceano Índico ao Pacífico Ocidental. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-1-relations-3",
+      "section": "relations",
+      "claim": "A competição entre EUA e China é multidimensional: tecnológica (quem lidera em IA, semicondutores, computação quântica), comercial (tarifas e barreiras desde 2018), militar (corrida armamentista naval no Pacífico), ideológica (democracia liberal vs. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Taiwan fabrica mais de 90% dos semicondutores mais avançados do mundo, através da TSMC (Taiwan Semiconductor Manufacturing Company). ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-1-application-5",
+      "section": "application",
+      "claim": "Pesquise o mapa do Indo-Pacífico. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-1-activity-6",
+      "section": "activity",
+      "claim": "Qual região do mapa corresponde ao Leste e Sudeste Asiático — epicentro das tensões geopolíticas entre China, EUA e potências regionais?",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “O Indo-Pacífico e a nova geopolítica asiática” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “O Indo-Pacífico e a nova geopolítica asiática” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

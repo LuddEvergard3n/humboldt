@@ -6,7 +6,7 @@
   "activityType": "single-choice",
   "phenomenon": {
     "title": "1% dos proprietários controla 48% das terras agrícolas do Brasil.",
-    "text": "O Brasil tem o terceiro índice de concentração fundiária mais alto do mundo — atrás apenas de alguns países africanos. Essa desigualdade na distribuição da terra não é natural: é produto de cinco séculos de sesmarias, escravidão, grilagem e legislação que favoreceu grandes proprietários. A questão agrária brasileira é uma ferida histórica que nunca cicatrizou."
+    "text": "A estrutura fundiária brasileira apresenta elevada concentração segundo medidas como o índice de Gini, mas comparações internacionais dependem de conceitos, cadastros e anos diferentes. Sua formação envolve sesmarias, escravidão, legislação de terras, expansão de fronteiras agrícolas e mercados contemporâneos. Nenhum indicador isolado explica toda a questão agrária."
   },
   "guided": {
     "title": "A estrutura fundiária brasileira",
@@ -68,5 +68,99 @@
     "answer": "Medida de concentração da terra — quanto mais próximo de 1, mais desigual.",
     "mediation": "Mapa do Brasil com propriedades rurais por tamanho (dados do IBGE/Censo Agropecuário). O que o mapa mostra sobre onde estão os latifúndios?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "brazil-5-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A estrutura fundiária brasileira apresenta elevada concentração segundo medidas como o índice de Gini, mas comparações internacionais dependem de conceitos, cadastros e anos diferentes. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-5-guided-2",
+      "section": "guided",
+      "claim": "Fundiário se refere à distribuição da terra. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-5-relations-3",
+      "section": "relations",
+      "claim": "O Movimento dos Trabalhadores Rurais Sem Terra (MST), fundado em 1984, é o maior movimento social da América Latina. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-5-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Brasil é o maior exportador mundial de soja, carne bovina, frango, café, açúcar e suco de laranja. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-5-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é o índice de Gini fundiário do estado onde você mora? ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-5-activity-6",
+      "section": "activity",
+      "claim": "O que é o índice de Gini fundiário?",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

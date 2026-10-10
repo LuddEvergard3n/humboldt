@@ -12,6 +12,7 @@
  */
 
 import { loadJSON } from '../../js/data-loader.js';
+import { renderCitations, renderPerspectives, renderSources } from '../editorial-evidence.js';
 
 /* ------------------------------------------------------------------ */
 /* Entrada pública                                                      */
@@ -22,7 +23,7 @@ export async function renderArticle({ moduleId }, _state, router) {
 
   if (!article) {
     const el = document.createElement('div');
-    el.style.cssText = 'padding:3rem;text-align:center';
+    el.className = 'system-state system-state--error';
     el.innerHTML = `<h2>Artigo não encontrado: ${moduleId}</h2>
                     <a href="#home" class="btn btn-outline">← Início</a>`;
     return el;
@@ -35,8 +36,13 @@ export async function renderArticle({ moduleId }, _state, router) {
   /* Renderiza cada seção */
   const contentEl = root.querySelector('.article-content');
   for (const sec of article.sections) {
-    contentEl.appendChild(_renderSection(sec));
+    contentEl.appendChild(_renderSection(sec, article));
   }
+  const evidence = document.createElement('section');
+  evidence.className = 'article-section article-evidence';
+  evidence.id = 'article-evidence';
+  evidence.innerHTML = `<h2 class="section-title">Fontes e perspectivas</h2>${renderSources(article.sources)}${renderPerspectives(article.perspectives)}`;
+  contentEl.appendChild(evidence);
 
   /* Ativa Intersection Observer após inserção no DOM */
   requestAnimationFrame(() => _initTOC(root));
@@ -84,6 +90,8 @@ function _buildShell(article, moduleId) {
           </ul>
           <div class="toc-meta">
             <span class="toc-reading-time">${article.readingTime}</span>
+            <span>Revisado em ${article.lastReviewed}</span>
+            <span class="editorial-marker">${article.evidenceStatus}</span>
           </div>
         </div>
       </aside>
@@ -106,7 +114,7 @@ function _buildShell(article, moduleId) {
 /* Renderizadores por tipo de seção                                     */
 /* ------------------------------------------------------------------ */
 
-function _renderSection(sec) {
+function _renderSection(sec, article) {
   const wrapper = document.createElement('section');
   wrapper.className = `article-section article-section--${sec.type}`;
   wrapper.id = sec.id;
@@ -134,6 +142,9 @@ function _renderSection(sec) {
       wrapper.appendChild(fallback);
     }
   }
+
+  const citations = renderCitations(article, sec.id);
+  if (citations) wrapper.insertAdjacentHTML('beforeend', citations);
 
   return wrapper;
 }

@@ -66,5 +66,99 @@
     "answer": "Nas cidades — Brasil é 87% urbano.",
     "mediation": "Mostre fotos de cidades e campos brasileiros. Peça que classifiquem e justifiquem.",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efi-landscape-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "No campo, o dia começa cedo com o canto do galo. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-2-guided-2",
+      "section": "guided",
+      "claim": "Os espaços geográficos podem ser classificados como rurais ou urbanos.",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-2-relations-3",
+      "section": "relations",
+      "claim": "Campo e cidade não são opostos que se excluem — são complementares. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O bairro de Pinheiros, em São Paulo, foi até o início do século XX uma área rural com sítios e hortas. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-2-application-5",
+      "section": "application",
+      "claim": "Pesquise: de onde vem o alimento que está na sua geladeira hoje? ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-2-activity-6",
+      "section": "activity",
+      "claim": "No Brasil de hoje, onde mora a maioria da população?",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

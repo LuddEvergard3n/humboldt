@@ -92,7 +92,7 @@ export async function renderHome(_params, _state, router) {
     <section class="atlas2-section atlas2-section--tint" aria-labelledby="featured-title">
       <div class="atlas2-section-head"><div><p class="atlas2-section-label">Coleções em destaque</p><h2 id="featured-title">Questões para o presente</h2></div><a href="#search">Ver todo o acervo</a></div>
       <div class="atlas2-feature-grid">
-        ${featured.map((module, index) => `<article class="atlas2-feature-card"><div class="atlas2-feature-index">${String(index + 1).padStart(2, '0')}</div><div class="atlas2-feature-visual" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><p>${module.level === 'es' ? 'Ensino Superior' : 'Ensino Médio'}</p><h3>${module.title}</h3><span>${module.tagline}</span><a href="#module/${module.id}">Explorar módulo →</a></article>`).join('')}
+        ${featured.map((module, index) => `<article class="atlas2-feature-card atlas2-feature-card--${index + 1}"><div class="atlas2-feature-index">${String(index + 1).padStart(2, '0')}</div><div class="atlas2-feature-visual" aria-hidden="true"><span class="atlas2-feature-coordinate">${['23°S · 43°W', '1°N · 38°E', '35°N · 139°E', '52°N · 13°E'][index]}</span></div><p>${module.level === 'es' ? 'Ensino Superior' : 'Ensino Médio'}</p><h3>${module.title}</h3><span>${module.tagline}</span><a href="#module/${module.id}">Explorar módulo <span aria-hidden="true">→</span></a></article>`).join('')}
       </div>
     </section>
 

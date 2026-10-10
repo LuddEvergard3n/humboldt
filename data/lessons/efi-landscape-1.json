@@ -67,5 +67,99 @@
     "answer": "A ponte — construída por pessoas.",
     "mediation": "Mostre fotos antes/depois de um lugar local que foi urbanizado. Peça que identifiquem o que mudou.",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efi-landscape-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Uma cidade é sempre uma mistura: o rio que existia antes das casas, a árvore que alguém plantou na calçada, o asfalto que cobriu a terra. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-1-guided-2",
+      "section": "guided",
+      "claim": "A paisagem é tudo o que podemos observar num determinado lugar — com os olhos, os ouvidos e os outros sentidos.",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-1-relations-3",
+      "section": "relations",
+      "claim": "Uma foto aérea de São Paulo de 1950 e uma de hoje parecem mostrar cidades diferentes. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Manaus é uma cidade de 2 milhões de habitantes rodeada pela floresta amazônica. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-1-application-5",
+      "section": "application",
+      "claim": "Tire três fotos do seu bairro (ou desenhe). ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-landscape-1-activity-6",
+      "section": "activity",
+      "claim": "O que transforma uma paisagem natural em paisagem humanizada?",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

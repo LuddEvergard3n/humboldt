@@ -83,5 +83,146 @@
       "type": "text",
       "body": "Um dos contributos mais originais de Milton Santos é a incorporação da técnica como categoria central da análise geográfica. Para Santos, cada período histórico é definido por um conjunto de técnicas dominantes, e são essas técnicas que permitem compreender como o espaço é produzido.\n\nA técnica é o elo entre o passado e o futuro, entre o global e o local, entre o abstrato e o concreto. Não se trata de tecnologia apenas — mas de toda forma de fazer, de todo sistema instrumental que medeia a ação humana sobre o mundo. O arado, a estrada de ferro, a internet — cada um deles produz espaços diferentes, distribui poder de formas diferentes, cria novas centralidades e periferias.\n\nA globalização, para Santos, não é apenas uma ideologia (o que ela frequentemente é, ao naturalizar a dominação transnacional), mas um período técnico específico: o período técnico-científico-informacional, no qual a informação torna-se o vetor primário de transformação do espaço. Mas a técnica não determina os usos: o mesmo satélite que monitora desmatamento pode guiar bombas. O que define o uso da técnica é a política — e a política do espaço é sempre uma disputa."
     }
+  ],
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "sauer-landscape",
+      "title": "The Morphology of Landscape",
+      "publisher": "University of California Publications in Geography",
+      "url": "https://archive.org/details/morphologyofland00saue",
+      "year": 1925,
+      "type": "ensaio acadêmico histórico",
+      "method": "Formulação histórico-cultural da paisagem a partir de formas, processos e área.",
+      "scope": "Teoria geográfica do início do século XX.",
+      "limitations": "Vocabulário e pressupostos refletem seu período; tradições posteriores revisaram natureza e cultura.",
+      "institutionalContext": "Texto clássico da geografia cultural norte-americana.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "es-space-theory-sec-lefebvre-quote-1",
+      "section": "sec-lefebvre-quote",
+      "claim": "O espaço (social) é um produto (social). ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "interpretação",
+      "locator": "Obra e ano indicados no bloco; conferir a edição utilizada."
+    },
+    {
+      "id": "es-space-theory-sec-o-que-e-espaco-2",
+      "section": "sec-o-que-e-espaco",
+      "claim": "A resposta mais simples — o espaço geográfico é a superfície da Terra — é também a mais enganosa. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-space-theory-sec-lefebvre-3",
+      "section": "sec-lefebvre",
+      "claim": "Henri Lefebvre propôs, em A Produção do Espaço (1974), uma tríade conceitual que permanece referência obrigatória. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-space-theory-sec-teoricos-4",
+      "section": "sec-teoricos",
+      "claim": "Desenvolveu a tese da produção social do espaço, rompendo com a concepção do espaço como receptáculo neutro. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-space-theory-sec-conceitos-5",
+      "section": "sec-conceitos",
+      "claim": "A Geografia opera com pelo menos quatro categorias espaciais fundamentais, frequentemente confundidas: Espaço é o conceito mais geral e abstrato — o produto social acumulado das relações humanas com o meio, mediado pela técnica. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-space-theory-sec-escalas-6",
+      "section": "sec-escalas",
+      "claim": "A escala não é apenas um recurso cartográfico — a relação entre o tamanho do mapa e o tamanho do território. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-space-theory-sec-tecnica-7",
+      "section": "sec-tecnica",
+      "claim": "Um dos contributos mais originais de Milton Santos é a incorporação da técnica como categoria central da análise geográfica. ",
+      "sourceIds": [
+        "sauer-landscape",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Teoria do Espaço Geográfico” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Teoria do Espaço Geográfico” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
   ]
 }

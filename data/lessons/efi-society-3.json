@@ -67,5 +67,99 @@
     "answer": "Espaço de uso coletivo, acessível a qualquer pessoa.",
     "mediation": "Leve a turma para observar a praça mais próxima. Discuta: quem usa? Quem cuida? O que precisa melhorar?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ilo-ilostat",
+      "title": "ILOSTAT: Sources and Methods",
+      "publisher": "International Labour Organization",
+      "url": "https://rshiny.ilo.org/dataexplorer34/?lang=en",
+      "year": 2026,
+      "type": "base de trabalho",
+      "method": "Harmonização de censos, pesquisas domiciliares e registros administrativos com metadados por indicador.",
+      "scope": "Mercados de trabalho nacionais e agregados; cobertura variável.",
+      "limitations": "Informalidade, conceitos de emprego e desenho amostral afetam comparações.",
+      "institutionalContext": "Agência tripartite da ONU com representação de governos, empregadores e trabalhadores.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efi-society-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Uma praça é pública: qualquer pessoa pode entrar. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-3-guided-2",
+      "section": "guided",
+      "claim": "Os espaços se organizam entre o que é privado (de alguém) e o que é público (de todos).",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-3-relations-3",
+      "section": "relations",
+      "claim": "Quando as pessoas se sentem parte de um lugar, cuidam dele. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Minhocão é um elevado de concreto em São Paulo. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-3-application-5",
+      "section": "application",
+      "claim": "Identifique um espaço público no seu bairro. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-3-activity-6",
+      "section": "activity",
+      "claim": "O que é um espaço público?",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

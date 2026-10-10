@@ -56,5 +56,99 @@
     "answer": "Processo pelo qual países passam de alta para baixa natalidade e mortalidade com o desenvolvimento.",
     "mediation": "Mostre pirâmide etária do Brasil em 1960, 1990, 2020 e projeção 2050. Peça que descrevam a mudança com palavras.",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-wpp",
+      "title": "World Population Prospects 2024",
+      "publisher": "United Nations DESA",
+      "url": "https://population.un.org/wpp/",
+      "year": 2024,
+      "type": "estimativa demográfica internacional",
+      "method": "Harmonização de censos, registros e pesquisas; estimativas e projeções por coorte.",
+      "scope": "Países e territórios; séries históricas e projeções até 2100.",
+      "limitations": "Estimativas são revisadas; qualidade e cobertura das fontes nacionais variam.",
+      "institutionalContext": "Divisão de População da ONU; produz estimativas comparáveis para uso internacional.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unsd-census",
+      "title": "Principles and Recommendations for Population and Housing Censuses",
+      "publisher": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/demographic-social/census/",
+      "year": 2025,
+      "type": "padrão metodológico",
+      "method": "Recomendações internacionais aprovadas pela Comissão de Estatística para planejar e avaliar censos.",
+      "scope": "Aplicação internacional; rodada censitária de 2030.",
+      "limitations": "Recomendações precisam ser adaptadas aos sistemas legais, recursos e conceitos de cada país.",
+      "institutionalContext": "Órgão técnico da ONU que coordena padrões estatísticos internacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "population-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 1800, a Terra tinha 1 bilhão de pessoas. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-1-guided-2",
+      "section": "guided",
+      "claim": "A demografia estuda a composição, distribuição e dinâmica das populações.",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-1-relations-3",
+      "section": "relations",
+      "claim": "A pirâmide etária é um gráfico que mostra a distribuição da população por sexo e faixa etária. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Japão tem a população mais velha do mundo: 30% tem mais de 65 anos. ",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-1-application-5",
+      "section": "application",
+      "claim": "Pesquise a pirâmide etária do Brasil em 1980 e em 2023. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-1-activity-6",
+      "section": "activity",
+      "claim": "Compare a pirâmide etária do Brasil em 1980 e em 2020. ",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

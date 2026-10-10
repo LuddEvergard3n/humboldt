@@ -73,5 +73,122 @@
     "answer": "Geopolítica da água. O Egito depende do Nilo para 90% de seu abastecimento. A barragem etíope altera o regime de fluxo e cria dependência. É uma disputa pelo controle de recurso vital compartilhado.",
     "mediation": "Proponha: 'Como um tratado internacional poderia distribuir o fluxo do Nilo de forma equitativa entre três países com necessidades diferentes?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-natural-resources-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2011, o ex-secretário-geral da ONU Boutros Boutros-Ghali declarou: 'A próxima guerra no Oriente Médio será pela água, não pela política.' A Síria passou por uma seca severa entre 2007 e 2010 — a pior em 900 anos — que deslocou 1,5 milhão de camponeses pa…",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-2-guided-2",
+      "section": "guided",
+      "claim": "A crise da água é ao mesmo tempo física (escassez absoluta em regiões áridas), econômica (distribuição desigual do acesso) e geopolítica (disputas entre países por rios e aquíferos compartilhados). ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-2-relations-3",
+      "section": "relations",
+      "claim": "O Nilo alimenta Egito, Sudão e Etiópia — mas o Egito concentrou historicamente o controle do rio. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Projeto de Integração do Rio São Francisco com as Bacias Hidrográficas do Nordeste Setentrional (PISF) é a maior obra de infraestrutura hídrica do Brasil: 477 km de canais, 13 aquedutos, 9 túneis. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-2-application-5",
+      "section": "application",
+      "claim": "Pesquise a situação hídrica de um grande reservatório próximo a você (Cantareira em SP, Castanhão no CE, Sobradinho na BA). ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-2-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos de exportação de água virtual embutida na soja brasileira. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Conflitos por água no século XXI” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Conflitos por água no século XXI” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

@@ -57,5 +57,99 @@
     "answer": "São Paulo cresceu de 2,5M para 12M, expandiu sua área urbana, criou policentralidade e integrou município a outras cidades da Grande SP.",
     "mediation": "Pergunte: \"Se São Paulo parasse por uma semana, o que aconteceria com a economia brasileira? E se Belém parasse?\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-habitat-wcr",
+      "title": "World Cities Report",
+      "publisher": "UN-Habitat",
+      "url": "https://unhabitat.org/wcr/",
+      "year": 2024,
+      "type": "relatório urbano",
+      "method": "Síntese de dados urbanos, estudos de caso e literatura internacional.",
+      "scope": "Cidades e sistemas urbanos globais; recortes variáveis.",
+      "limitations": "Definições de urbano e limites metropolitanos diferem entre países.",
+      "institutionalContext": "Programa da ONU para assentamentos humanos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "urbanization-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Sede de 40% dos bancos brasileiros, 60% das sedes de multinacionais e a maior bolsa de valores do país, São Paulo comanda a economia nacional sem ser capital política. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-4-guided-2",
+      "section": "guided",
+      "claim": "As cidades não são iguais: existem níveis de importância e influência no sistema urbano.",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-4-relations-3",
+      "section": "relations",
+      "claim": "São Paulo é o maior caso de dissociação entre poder político e econômico no Brasil: Brasília é a capital, mas São Paulo é o comando econômico. ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Cingapura tem 6 milhões de habitantes e 728 km² — menor que o município de São Paulo. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-4-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é a diferença entre megacidade (por população) e cidade global (por influência)? ",
+      "sourceIds": [
+        "un-habitat-wcr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "urbanization-4-activity-6",
+      "section": "activity",
+      "claim": "Compare São Paulo em 1950 e 2020. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

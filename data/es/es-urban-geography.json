@@ -126,14 +126,196 @@
       "id": "sec-compare-urbanismo",
       "title": "Abordagens do urbanismo",
       "type": "compare-table",
-      "columns": ["Abordagem", "Diagnóstico da cidade", "Solução proposta", "Crítica"],
+      "columns": [
+        "Abordagem",
+        "Diagnóstico da cidade",
+        "Solução proposta",
+        "Crítica"
+      ],
       "rows": [
-        ["Urbanismo modernista (Le Corbusier)", "Cidade caótica, insalubre, ineficiente", "Tabula rasa: demolir e reconstruir racionalmente (zoneamento funcional, torres no verde)", "Destruição de comunidades, segregação funcional, desumanização do espaço público"],
-        ["Urbanismo neoliberal (anos 1980–)", "Cidade bloqueada por regulação excessiva", "Privatizar, desregular, atrair investimento privado (renovação urbana por mercado)", "Gentrificação, expulsão de pobres, agravamento da segregação"],
-        ["Planejamento comunicativo (Habermas)", "Cidade sem participação — decisões tecnocráticas", "Plano diretor participativo, audiências públicas, gestão democrática", "Participação formal sem poder real; captura por interesses imobiliários"],
-        ["Direito à cidade (Lefebvre/Harvey)", "Cidade como produto do capital, não obra dos habitantes", "Reconquista coletiva do espaço urbano; função social da propriedade; habitação como direito", "Dificuldade de implementação sem transformação estrutural do capitalismo"],
-        ["Urbanismo tático / acupuntura urbana", "Cidade rígida que não aprende com o uso cotidiano", "Intervenções pequenas e reversíveis que ativam espaços subutilizados (parklets, ciclofaixas)", "Escala insuficiente para problemas estruturais; pode servir à gentrificação"]
+        [
+          "Urbanismo modernista (Le Corbusier)",
+          "Cidade caótica, insalubre, ineficiente",
+          "Tabula rasa: demolir e reconstruir racionalmente (zoneamento funcional, torres no verde)",
+          "Destruição de comunidades, segregação funcional, desumanização do espaço público"
+        ],
+        [
+          "Urbanismo neoliberal (anos 1980–)",
+          "Cidade bloqueada por regulação excessiva",
+          "Privatizar, desregular, atrair investimento privado (renovação urbana por mercado)",
+          "Gentrificação, expulsão de pobres, agravamento da segregação"
+        ],
+        [
+          "Planejamento comunicativo (Habermas)",
+          "Cidade sem participação — decisões tecnocráticas",
+          "Plano diretor participativo, audiências públicas, gestão democrática",
+          "Participação formal sem poder real; captura por interesses imobiliários"
+        ],
+        [
+          "Direito à cidade (Lefebvre/Harvey)",
+          "Cidade como produto do capital, não obra dos habitantes",
+          "Reconquista coletiva do espaço urbano; função social da propriedade; habitação como direito",
+          "Dificuldade de implementação sem transformação estrutural do capitalismo"
+        ],
+        [
+          "Urbanismo tático / acupuntura urbana",
+          "Cidade rígida que não aprende com o uso cotidiano",
+          "Intervenções pequenas e reversíveis que ativam espaços subutilizados (parklets, ciclofaixas)",
+          "Escala insuficiente para problemas estruturais; pode servir à gentrificação"
+        ]
       ]
+    }
+  ],
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-habitat-rights",
+      "title": "World Cities Report 2022: Envisaging the Future of Cities",
+      "publisher": "UN-Habitat",
+      "url": "https://unhabitat.org/wcr/",
+      "year": 2022,
+      "type": "relatório urbano",
+      "method": "Síntese comparativa de tendências urbanas e políticas com estudos de caso.",
+      "scope": "Cidades globais; dados disponíveis até a preparação do relatório.",
+      "limitations": "Definições urbanas e evidência causal variam; propostas de política não são consenso automático.",
+      "institutionalContext": "Programa intergovernamental da ONU para assentamentos humanos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "un-habitat-wcr",
+      "title": "World Cities Report",
+      "publisher": "UN-Habitat",
+      "url": "https://unhabitat.org/wcr/",
+      "year": 2024,
+      "type": "relatório urbano",
+      "method": "Síntese de dados urbanos, estudos de caso e literatura internacional.",
+      "scope": "Cidades e sistemas urbanos globais; recortes variáveis.",
+      "limitations": "Definições de urbano e limites metropolitanos diferem entre países.",
+      "institutionalContext": "Programa da ONU para assentamentos humanos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "es-urban-geography-sec-lefebvre-cidade-1",
+      "section": "sec-lefebvre-cidade",
+      "claim": "O direito à cidade não pode ser concebido como um simples direito de visita ou de retorno às cidades tradicionais. ",
+      "sourceIds": [
+        "un-habitat-rights",
+        "un-habitat-wcr"
+      ],
+      "status": "interpretação",
+      "locator": "Obra e ano indicados no bloco; conferir a edição utilizada."
+    },
+    {
+      "id": "es-urban-geography-sec-lefebvre-urbano-2",
+      "section": "sec-lefebvre-urbano",
+      "claim": "Henri Lefebvre publicou O Direito à Cidade em 1968 — o mesmo ano das revoltas estudantis em Paris — e A Revolução Urbana em 1970. ",
+      "sourceIds": [
+        "un-habitat-rights",
+        "un-habitat-wcr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-urban-geography-sec-teoricos-urbanos-3",
+      "section": "sec-teoricos-urbanos",
+      "claim": "Formulou o direito à cidade como exigência política de transformação radical do espaço urbano. ",
+      "sourceIds": [
+        "un-habitat-rights",
+        "un-habitat-wcr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-urban-geography-sec-metropolizacao-4",
+      "section": "sec-metropolizacao",
+      "claim": "Metropolização é o processo pelo qual as grandes cidades crescem absorvendo municípios vizinhos, formando regiões metropolitanas policêntricas com dezenas ou centenas de municípios funcionalmente integrados mas politicamente fragmentados. ",
+      "sourceIds": [
+        "un-habitat-rights",
+        "un-habitat-wcr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-urban-geography-sec-segregacao-5",
+      "section": "sec-segregacao",
+      "claim": "Segregação socioespacial é a tendência das classes sociais a ocupar porções distintas do espaço urbano — processo que se retroalimenta: quem mora em bairro rico tem acesso a escolas, serviços e redes de contato que reproduzem a riqueza; quem mora na perifer…",
+      "sourceIds": [
+        "un-habitat-rights",
+        "un-habitat-wcr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-urban-geography-sec-timeline-urbano-6",
+      "section": "sec-timeline-urbano",
+      "claim": "Urbanização no Brasil",
+      "sourceIds": [
+        "un-habitat-rights",
+        "un-habitat-wcr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-urban-geography-sec-urbanismo-periferico-7",
+      "section": "sec-urbanismo-periferico",
+      "claim": "A periferia das metrópoles do Sul Global não é o oposto da cidade — é uma outra forma de cidade, com sua própria lógica, economia e urbanidade. ",
+      "sourceIds": [
+        "un-habitat-rights",
+        "un-habitat-wcr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-urban-geography-sec-compare-urbanismo-8",
+      "section": "sec-compare-urbanismo",
+      "claim": "Urbanismo modernista (Le Corbusier) Cidade caótica, insalubre, ineficiente Tabula rasa: demolir e reconstruir racionalmente (zoneamento funcional, torres no verde) Destruição de comunidades, segregação funcional, desumanização do espaço público Urbanismo ne…",
+      "sourceIds": [
+        "un-habitat-rights",
+        "un-habitat-wcr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Geografia Urbana e Direito à Cidade” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Geografia Urbana e Direito à Cidade” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
     }
   ]
 }

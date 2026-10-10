@@ -42,6 +42,7 @@ const REQUIRED_JS_FILES = [
 
 const REQUIRED_COMPONENT_FILES = [
   'components/activity-engine.js',
+  'components/editorial-evidence.js',
   'components/globe-decoration.js',
   'components/views/home-view.js',
   'components/views/module-view.js',
@@ -130,6 +131,24 @@ export async function runModuleTests() {
     assert(map.includes('data-source="IBGE'), 'fonte IBGE ausente da base brasileira');
   });
 
+  test('fonte de biomas contém os seis biomas continentais oficiais', () => {
+    const source = JSON.parse(readFileSync(resolve(root, 'tools/cartography-source/ibge-biomes-5000.geojson'), 'utf8'));
+    const names = new Set(source.features.map(feature => feature.properties.name));
+    for (const name of ['Amazônia', 'Mata Atlântica', 'Cerrado', 'Caatinga', 'Pantanal', 'Pampa']) {
+      assert(names.has(name), `bioma oficial ausente: ${name}`);
+    }
+    assert(source.metadata.source.includes('IBGE'), 'metadado de fonte do IBGE ausente');
+  });
+
+  test('mapa de biomas usa polígonos oficiais e limites estaduais de referência', () => {
+    const map = readFileSync(resolve(root, 'assets/maps/brazil-physical-biomes.svg'), 'utf8');
+    for (const code of ['amz', 'mat', 'cer', 'caat', 'ptn', 'pmp']) {
+      assert(map.includes(`id="biome-${code}"`), `polígono de bioma ausente: ${code}`);
+    }
+    assert(map.includes('id="layer-state-boundaries"'), 'limites estaduais de referência ausentes');
+    assert(map.includes('Biomas do Brasil 1:5.000.000'), 'fonte oficial dos biomas ausente');
+  });
+
   test('nove mapas possuem grupos cartográficos e decoração padronizados', () => {
     for (const mapPath of requiredMaps.filter(path => /world-political|world-physical|brazil-political|brazil-physical-biomes|oceans-routes|population|climate|energy|trade-transport/.test(path))) {
       const map = readFileSync(resolve(root, mapPath), 'utf8');
@@ -148,6 +167,7 @@ export async function runModuleTests() {
     'css/components.css',
     'css/mobile.css',
     'css/static-pages.css',
+    'css/refinement.css',
   ];
 
   for (const css of requiredCSS) {
@@ -155,6 +175,19 @@ export async function runModuleTests() {
       assert(existsSync(resolve(root, css)), `CSS ausente: ${css}`);
     });
   }
+
+  test('refinamento visual permanece nativo e respeita redução de movimento', () => {
+    const css = readFileSync(resolve(root, 'css/refinement.css'), 'utf8');
+    assert(css.includes('@media (prefers-reduced-motion: reduce)'), 'redução de movimento ausente');
+    assert(!/tailwind|radix|framer-motion|react/i.test(css), 'dependência de interface externa detectada');
+  });
+
+  test('páginas públicas carregam a camada visual compartilhada', () => {
+    for (const file of ['index.html', 'guia-professor.html', 'plano-aula.html', 'sobre.html']) {
+      const html = readFileSync(resolve(root, file), 'utf8');
+      assert(html.includes('css/refinement.css'), `${file} não carrega refinement.css`);
+    }
+  });
 
   suite('Documentação');
 

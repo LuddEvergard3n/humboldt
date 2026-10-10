@@ -32,18 +32,81 @@
     "question": "Observe os fluxos da Iniciativa do Cinto e Rota no mapa. Qual padrão estratégico esses projetos revelam para a China?",
     "mapId": "world-simple",
     "flows": [
-      { "from": [75, 38], "to": [52, 40], "value": 30, "label": "BRI: China → Oriente Médio (portos, ferrovias)", "color": "#c4a35a" },
-      { "from": [75, 38], "to": [40, 25], "value": 25, "label": "BRI: China → Ásia Central → Europa", "color": "#c4a35a" },
-      { "from": [75, 38], "to": [30, 55], "value": 20, "label": "BRI: China → África (portos, estradas)", "color": "#c4a35a" },
-      { "from": [75, 38], "to": [68, 55], "value": 15, "label": "BRI: China → Sul/Sudeste Asiático", "color": "#c4a35a" },
-      { "from": [75, 38], "to": [15, 35], "value": 12, "label": "BRI: China → Europa via rota marítima", "color": "#c4a35a" }
+      {
+        "from": [
+          75,
+          38
+        ],
+        "to": [
+          52,
+          40
+        ],
+        "value": 30,
+        "label": "BRI: China → Oriente Médio (portos, ferrovias)",
+        "color": "#c4a35a"
+      },
+      {
+        "from": [
+          75,
+          38
+        ],
+        "to": [
+          40,
+          25
+        ],
+        "value": 25,
+        "label": "BRI: China → Ásia Central → Europa",
+        "color": "#c4a35a"
+      },
+      {
+        "from": [
+          75,
+          38
+        ],
+        "to": [
+          30,
+          55
+        ],
+        "value": 20,
+        "label": "BRI: China → África (portos, estradas)",
+        "color": "#c4a35a"
+      },
+      {
+        "from": [
+          75,
+          38
+        ],
+        "to": [
+          68,
+          55
+        ],
+        "value": 15,
+        "label": "BRI: China → Sul/Sudeste Asiático",
+        "color": "#c4a35a"
+      },
+      {
+        "from": [
+          75,
+          38
+        ],
+        "to": [
+          15,
+          35
+        ],
+        "value": 12,
+        "label": "BRI: China → Europa via rota marítima",
+        "color": "#c4a35a"
+      }
     ],
     "feedback": {
       "correct": "Os fluxos da BRI revelam uma estratégia de diversificação de rotas: a China tenta criar caminhos terrestres e marítimos que não dependam do Pacífico — onde a Marinha dos EUA é dominante. Cada porto e ferrovia é também uma presença física que cria dependência econômica dos países receptores em relação à China. O padrão é o de uma potência que usa infraestrutura para projetar poder — como o Império Britânico fez com ferrovias na Índia no século XIX.",
       "incorrect": "Observe para onde os fluxos apontam: Oriente Médio, Ásia Central, África, Europa. Agora pense: o que une esses destinos? O que a China ganha ao ter infraestrutura em todos esses lugares? E o que ficaria bloqueado se o Pacífico fosse fechado pelos EUA?"
     },
     "hints": [
-      { "type": "text", "content": "A China tem uma fronteira marítima leste controlada pela presença americana. Se quisesse exportar sem depender desse caminho, que rotas alternativas precisaria criar? Olhe para oeste, sul e norte no mapa." }
+      {
+        "type": "text",
+        "content": "A China tem uma fronteira marítima leste controlada pela presença americana. Se quisesse exportar sem depender desse caminho, que rotas alternativas precisaria criar? Olhe para oeste, sul e norte no mapa."
+      }
     ]
   },
   "teacher": {
@@ -52,5 +115,112 @@
     "answer": "A BRI revela uma estratégia de diversificação de rotas — criar caminhos terrestres e marítimos que não dependam do Pacífico. Cada porto e ferrovia também cria dependência dos países receptores em relação à China. O padrão repete o que potências históricas fizeram com infraestrutura colonial.",
     "mediation": "Pergunte: 'Se o Brasil precisasse de uma ferrovia nova e só houvesse três ofertas — China, EUA e Banco Mundial — com condições diferentes, como comparar? Qual critério usar: taxa de juros, quem constrói, quais cláusulas, qual impacto ambiental?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-transport-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Entre 2013 e 2023, a China investiu mais de US$ 1 trilhão em infraestrutura em 140 países — a Iniciativa do Cinto e Rota (BRI, na sigla em inglês). ",
+      "sourceIds": [
+        "wto-stats"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-3-guided-2",
+      "section": "guided",
+      "claim": "Infraestrutura de transporte não é politicamente neutra. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-3-relations-3",
+      "section": "relations",
+      "claim": "O caso do Porto de Hambantota no Sri Lanka tornou-se símbolo do debate: o país pediu empréstimo à China para construir o porto, não conseguiu pagar e cedeu o controle por 99 anos à empresa estatal chinesa. ",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A Estrada Interoceânica Sul liga o Brasil (Acre) ao Peru (costa do Pacífico) através dos Andes — 2.600 km de asfalto. ",
+      "sourceIds": [
+        "wto-stats"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-3-application-5",
+      "section": "application",
+      "claim": "Pesquise um projeto da Iniciativa do Cinto e Rota em um país africano ou asiático. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-3-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos da Iniciativa do Cinto e Rota no mapa. ",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

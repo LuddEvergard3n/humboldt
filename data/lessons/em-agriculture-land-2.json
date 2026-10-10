@@ -3,9 +3,9 @@
   "moduleId": "em-agriculture-land",
   "title": "Segurança alimentar e cadeias de abastecimento",
   "summary": "Produzir alimentos não garante acesso regular a alimentação adequada.",
-  "lastReviewed": "2026-10-09",
+  "lastReviewed": "2026-10-10",
   "reviewStatus": "reviewed",
-  "evidenceStatus": "consensus",
+  "evidenceStatus": "debate",
   "estimatedDuration": 50,
   "durationUnit": "minutes",
   "scales": [
@@ -15,15 +15,63 @@
   ],
   "sources": [
     {
+      "id": "ibge-agro",
+      "title": "Censo Agropecuário 2017",
+      "publisher": "IBGE",
+      "url": "https://censoagro2017.ibge.gov.br/",
+      "year": 2017,
+      "type": "censo oficial",
+      "method": "Levantamento censitário de estabelecimentos agropecuários com conceitos e período de referência próprios.",
+      "scope": "Brasil; estabelecimentos agropecuários; ano-base 2017.",
+      "limitations": "Não descreve automaticamente propriedade jurídica, poder político ou mudanças posteriores a 2017.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas agropecuárias.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "fao-methods",
+      "title": "Methods and Standards for Food and Agriculture Statistics",
+      "publisher": "FAO",
+      "url": "https://www.fao.org/statistics/methods-and-standards/agriculture/en",
+      "year": 2026,
+      "type": "padrão estatístico",
+      "method": "Conceitos, classificações e orientações para censos, pesquisas e estimativas agroalimentares.",
+      "scope": "Aplicação internacional; agricultura, alimentos e uso da terra.",
+      "limitations": "Qualidade e periodicidade dependem dos sistemas estatísticos nacionais.",
+      "institutionalContext": "Agência especializada da ONU para alimentação e agricultura.",
+      "accessedAt": "2026-10-10"
+    },
+    {
       "id": "fao-tenure",
       "title": "Governance of Land Tenure",
       "publisher": "FAO",
       "url": "https://www.fao.org/tenure/en",
       "year": 2026,
-      "accessedAt": "2026-10-09"
+      "accessedAt": "2026-10-09",
+      "type": "fonte documental ou institucional",
+      "method": "Consultar a metodologia e os metadados publicados pela fonte para o indicador ou argumento utilizado.",
+      "scope": "Escopo definido no documento ou conjunto de dados referenciado.",
+      "limitations": "Cobertura, conceitos, período e comparabilidade devem ser verificados na edição citada.",
+      "institutionalContext": "FAO responde pela seleção, produção e apresentação do material."
     }
   ],
-  "perspectives": [],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Segurança alimentar e cadeias de abastecimento” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Segurança alimentar e cadeias de abastecimento” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ],
   "phenomenon": {
     "title": "Por que pode haver insegurança alimentar em regiões produtoras?",
     "text": "Produzir alimentos não garante acesso regular a alimentação adequada."
@@ -85,5 +133,73 @@
     "answer": "Renda, preços, logística, perdas, conflitos e políticas influenciam o acesso.",
     "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
     "time": "50 minutos"
-  }
+  },
+  "citations": [
+    {
+      "id": "em-agriculture-land-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Produzir alimentos não garante acesso regular a alimentação adequada.",
+      "sourceIds": [
+        "ibge-agro",
+        "fao-methods"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-agriculture-land-2-guided-2",
+      "section": "guided",
+      "claim": "Renda, preços, logística, perdas, conflitos e políticas influenciam o acesso.",
+      "sourceIds": [
+        "ibge-agro",
+        "fao-methods"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-agriculture-land-2-relations-3",
+      "section": "relations",
+      "claim": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única.",
+      "sourceIds": [
+        "ibge-agro",
+        "fao-methods"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-agriculture-land-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+      "sourceIds": [
+        "ibge-agro",
+        "fao-methods"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-agriculture-land-2-application-5",
+      "section": "application",
+      "claim": "Monte uma cadeia do campo ao consumidor e identifique três pontos de risco.",
+      "sourceIds": [
+        "ibge-agro",
+        "fao-methods"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-agriculture-land-2-activity-6",
+      "section": "activity",
+      "claim": "Por que pode haver insegurança alimentar em regiões produtoras?",
+      "sourceIds": [
+        "ibge-agro",
+        "fao-methods"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ]
 }

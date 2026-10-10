@@ -31,18 +31,46 @@
     "type": "flow-map",
     "question": "Observe os fluxos da cadeia global de cocaína. O que esses fluxos revelam sobre a relação entre narcotráfico e território?",
     "flows": [
-      { "from": "Colômbia/Peru/Bolívia", "to": "México",         "value": 500, "label": "500t cocaína/ano — cartéis controlam passagem" },
-      { "from": "México",               "to": "EUA",            "value": 450, "label": "Destino final — US$ 90bi no varejo" },
-      { "from": "Colômbia",             "to": "Brasil",         "value": 120, "label": "Rota atlântica — parte fica no Brasil" },
-      { "from": "Brasil",               "to": "Europa (África)","value": 80,  "label": "Via portos de Luanda e Dacar" },
-      { "from": "Europa",               "to": "Lavagem global", "value": 200, "label": "Lucros re-investidos em imóveis e negócios" }
+      {
+        "from": "Colômbia/Peru/Bolívia",
+        "to": "México",
+        "value": 500,
+        "label": "500t cocaína/ano — cartéis controlam passagem"
+      },
+      {
+        "from": "México",
+        "to": "EUA",
+        "value": 450,
+        "label": "Destino final — US$ 90bi no varejo"
+      },
+      {
+        "from": "Colômbia",
+        "to": "Brasil",
+        "value": 120,
+        "label": "Rota atlântica — parte fica no Brasil"
+      },
+      {
+        "from": "Brasil",
+        "to": "Europa (África)",
+        "value": 80,
+        "label": "Via portos de Luanda e Dacar"
+      },
+      {
+        "from": "Europa",
+        "to": "Lavagem global",
+        "value": 200,
+        "label": "Lucros re-investidos em imóveis e negócios"
+      }
     ],
     "feedback": {
       "correct": "Os fluxos mostram que o narcotráfico é uma cadeia produtiva transnacional: matéria-prima produzida no Sul, processada, transportada por rotas controladas militarmente por cartéis, e consumida no Norte. O valor se acumula no destino final — EUA e Europa — mas a violência e a erosão do Estado se concentram nos países de produção e trânsito. É uma inversão da lógica do comércio: os países mais afetados são os que menos lucram.",
       "incorrect": "Observe onde a droga é produzida, onde é consumida e onde fica o maior lucro. Qual é a relação entre concentração de violência e posição na cadeia? Os produtores (Colômbia, Peru) ficam com qual parte do valor?"
     },
     "hints": [
-      { "type": "text", "content": "Coca cultivada na Colômbia vale US$ 1.500/kg. A mesma cocaína processada e entregue nos EUA vale US$ 30.000/kg. Quem fica com a diferença? Quem sofre a violência?" }
+      {
+        "type": "text",
+        "content": "Coca cultivada na Colômbia vale US$ 1.500/kg. A mesma cocaína processada e entregue nos EUA vale US$ 30.000/kg. Quem fica com a diferença? Quem sofre a violência?"
+      }
     ]
   },
   "teacher": {
@@ -51,5 +79,122 @@
     "answer": "Os fluxos revelam divisão internacional do narcotráfico: produção no Sul, consumo e lucro no Norte. A violência se concentra nos nós de produção e trânsito (Colômbia, México, Brasil) — que ficam com pequena parte do valor gerado.",
     "mediation": "Proponha: 'Se os EUA e a Europa descriminalizassem a cocaína, o que aconteceria com os cartéis? Com as comunidades produtoras? Com a violência no México e no Brasil?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "imf-weo",
+      "title": "World Economic Outlook Database: Assumptions and Data Conventions",
+      "publisher": "International Monetary Fund",
+      "url": "https://www.imf.org/en/Publications/WEO/weo-database/assumptions-and-data-conventions",
+      "year": 2026,
+      "type": "estimativa macroeconômica",
+      "method": "Séries nacionais harmonizadas e projeções elaboradas por equipes do FMI.",
+      "scope": "Economias membros e agregados; histórico e projeções semestrais.",
+      "limitations": "Inclui estimativas e projeções; pode divergir de fontes nacionais e sofrer revisões.",
+      "institutionalContext": "Instituição financeira multilateral; análises seguem seu mandato macroeconômico.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-latin-america-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A Colômbia, o Peru e a Bolívia produzem praticamente toda a cocaína consumida no mundo — cerca de 2.000 toneladas por ano. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-3-guided-2",
+      "section": "guided",
+      "claim": "O narcotráfico é uma cadeia de valor global com fases territorialmente distintas: produção, processamento, transporte e varejo. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-3-relations-3",
+      "section": "relations",
+      "claim": "O tráfico de drogas corrói a soberania estatal de múltiplas formas: captura de agentes do Estado (policiais, juízes, políticos pagos), substituição do Estado em territórios marginalizados (favelas, zona rural remota), geração de violência que sobrecarrega s…",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 1991, Medellín era a cidade mais violenta do mundo: 381 homicídios por 100.000 habitantes. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-3-application-5",
+      "section": "application",
+      "claim": "Pesquise o conceito de 'guerra às drogas' lançado por Nixon em 1971. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-latin-america-3-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos da cadeia global de cocaína. ",
+      "sourceIds": [
+        "imf-weo",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Narcotráfico, Estado e território” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Narcotráfico, Estado e território” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

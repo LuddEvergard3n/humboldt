@@ -57,5 +57,99 @@
     "answer": "O Cerrado perdeu ~50% da cobertura nativa entre 2000 e 2020; o sensoriamento remoto quantifica área, velocidade e localização das mudanças.",
     "mediation": "Pergunte: \"Se um fazendeiro desmata ilegalmente na Amazônia, como o governo sabe? Sem satélites, seria possível controlar 5 milhões de km² de floresta?\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-cartography-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O sistema PRODES do INPE monitora o desmatamento da Amazônia por imagens de satélite desde 1988. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-4-guided-2",
+      "section": "guided",
+      "claim": "Sensoriamento remoto é a obtenção de informações sobre objetos e fenômenos sem contato físico direto — por satélites, aviões ou drones.",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-4-relations-3",
+      "section": "relations",
+      "claim": "O acesso a imagens de alta resolução é desigual: agências governamentais (NASA, ESA) oferecem dados gratuitos de média resolução. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 2019, o INPE divulgou dados mostrando aceleração do desmatamento na Amazônia. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-4-application-5",
+      "section": "application",
+      "claim": "Acesse o Google Earth e compare imagens de uma mesma área no tempo (recurso de linha do tempo). ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-4-activity-6",
+      "section": "activity",
+      "claim": "Compare imagens de satélite de uma área do Cerrado em 2000 e 2020. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

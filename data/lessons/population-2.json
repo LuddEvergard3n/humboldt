@@ -69,5 +69,99 @@
     "answer": "Refugiado foge de perseguição/guerra com proteção legal; migrante econômico busca melhores condições.",
     "mediation": "Mapeie com os alunos: de onde vieram os avós de cada um? Isso é migração. Quais foram as causas?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-wpp",
+      "title": "World Population Prospects 2024",
+      "publisher": "United Nations DESA",
+      "url": "https://population.un.org/wpp/",
+      "year": 2024,
+      "type": "estimativa demográfica internacional",
+      "method": "Harmonização de censos, registros e pesquisas; estimativas e projeções por coorte.",
+      "scope": "Países e territórios; séries históricas e projeções até 2100.",
+      "limitations": "Estimativas são revisadas; qualidade e cobertura das fontes nacionais variam.",
+      "institutionalContext": "Divisão de População da ONU; produz estimativas comparáveis para uso internacional.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unsd-census",
+      "title": "Principles and Recommendations for Population and Housing Censuses",
+      "publisher": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/demographic-social/census/",
+      "year": 2025,
+      "type": "padrão metodológico",
+      "method": "Recomendações internacionais aprovadas pela Comissão de Estatística para planejar e avaliar censos.",
+      "scope": "Aplicação internacional; rodada censitária de 2030.",
+      "limitations": "Recomendações precisam ser adaptadas aos sistemas legais, recursos e conceitos de cada país.",
+      "institutionalContext": "Órgão técnico da ONU que coordena padrões estatísticos internacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "population-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Segundo a ONU (2022), nunca houve tantas pessoas fora de seus países ou deslocadas dentro deles: refugiados de guerra, migrantes climáticos, deslocados por perseguição. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-2-guided-2",
+      "section": "guided",
+      "claim": "As migrações são movimentos de pessoas de um lugar para outro — temporários ou permanentes.",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-2-relations-3",
+      "section": "relations",
+      "claim": "Migrações têm impactos no lugar de origem (perda de população jovem, mas remessas financeiras) e no destino (aumento de mão de obra, demanda por serviços, diversidade cultural). ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Desde 2015, mais de 500.000 venezuelanos migraram para o Brasil fugindo da crise econômica e política. ",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-2-application-5",
+      "section": "application",
+      "claim": "Pesquise: quais países hoje recebem mais migrantes? ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-2-activity-6",
+      "section": "activity",
+      "claim": "O que diferencia um refugiado de um migrante econômico?",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

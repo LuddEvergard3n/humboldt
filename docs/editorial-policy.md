@@ -11,9 +11,9 @@ não substitui um viés político por outro.
 Todo conteúdo contemporâneo, político ou econômico deve identificar a natureza
 da afirmação quando ela não for evidente pelo contexto:
 
-- `data`: medida, série estatística ou localização verificável;
-- `consensus`: síntese apoiada por evidência convergente;
-- `interpretation`: explicação associada a uma abordagem identificada;
+- `dado`: medida, série estatística ou localização verificável;
+- `consenso`: síntese apoiada por evidência convergente;
+- `interpretação`: explicação associada a uma abordagem identificada;
 - `debate`: questão com interpretações concorrentes relevantes.
 
 Estimativas devem informar fonte, ano, unidade e território. Conteúdos sujeitos
@@ -44,13 +44,20 @@ Priorizar, nesta ordem:
 3. artigos revisados por pares e livros acadêmicos identificados;
 4. fontes secundárias apenas quando agregarem contexto indispensável.
 
-Uma fonte registra `title`, `publisher`, `url`, `year` e `accessedAt`. O campo
-`note` explica limites ou o uso específico da referência quando necessário.
+Uma fonte registra `id`, `title`, `publisher`, `url`, `year`, `type`, `method`,
+`scope`, `limitations`, `institutionalContext` e `accessedAt`. Fontes
+institucionais são evidências sujeitas a método, incentivos e limites, não selos
+de verdade.
+
+Cada afirmação rastreável usa uma entrada em `citations`, ligada ao bloco por
+`section`. A entrada registra a alegação, os `sourceIds`, a classificação
+editorial e um localizador. Debates políticos, econômicos e sociais usam pelo
+menos duas fontes independentes e uma matriz com perspectivas concorrentes.
 
 ## Revisão e correção
 
 - Conteúdo novo deve ser revisado antes da publicação.
-- Conteúdo legado sem auditoria completa recebe `reviewStatus: pending`.
+- Nenhuma lição ou artigo pode ser publicado com revisão pendente.
 - Alterações quantitativas devem preservar a fonte anterior no histórico Git.
 - Erros factuais têm prioridade sobre ajustes de estilo.
 - A interface deve exibir fontes, data de revisão e o marcador editorial sem

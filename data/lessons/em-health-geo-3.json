@@ -66,5 +66,99 @@
     "answer": "Expansão do garimpo ilegal. O garimpo cria criadouros do Anopheles e introduz o parasita em territórios sem imunidade adquirida. A conexão entre economia e epidemia é direta.",
     "mediation": "Proponha: 'Se o garimpo fosse erradicado amanhã, quanto tempo levaria para os casos de malária voltarem aos níveis anteriores?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "who-gho",
+      "title": "Global Health Observatory",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/data/gho/info/about-the-observatory",
+      "year": 2026,
+      "type": "base de saúde pública",
+      "method": "Compilação e modelagem de dados nacionais para indicadores comparáveis.",
+      "scope": "Países e territórios; cobertura temporal varia por indicador.",
+      "limitations": "Estimativas podem diferir das cifras nacionais e são revisadas quando surgem novos dados.",
+      "institutionalContext": "Agência especializada da ONU para saúde; métodos seguem mandatos de vigilância e comparabilidade.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-health-geo-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A leishmaniose visceral mata mais de 20.000 pessoas por ano no mundo. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-3-guided-2",
+      "section": "guided",
+      "claim": "A OMS reconhece 20 doenças tropicais negligenciadas — afecções parasitárias, bacterianas e virais que afetam principalmente populações pobres em regiões tropicais. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-3-relations-3",
+      "section": "relations",
+      "claim": "Entre 2019 e 2022, os casos de malária em Yanomami (RR) explodiram. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A esquistossomose (xistose) é causada por um parasita que parte de seu ciclo de vida em caramujos de água doce. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-3-application-5",
+      "section": "application",
+      "claim": "Pesquise o mapa de distribuição de dengue no Brasil no DataSUS ou no InfoDengue. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-3-activity-6",
+      "section": "activity",
+      "claim": "A expansão recente dos casos de malária em territórios indígenas de Roraima está associada principalmente a:",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

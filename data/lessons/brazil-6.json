@@ -68,5 +68,99 @@
     "answer": "Produzir internamente o que antes era importado, protegendo a indústria com tarifas e investimento estatal.",
     "mediation": "Mapa industrial do Brasil: onde estão as fábricas? O que é produzido em cada região? Compare 1970 e hoje — o que mudou?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "brazil-6-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "São Paulo sozinha produz 32% de todo o PIB do Brasil — mais que os 16 estados do Norte, Nordeste e Centro-Oeste juntos. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-6-guided-2",
+      "section": "guided",
+      "claim": "A indústria brasileira tem desenvolvimento tardio e concentrado geograficamente.",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-6-relations-3",
+      "section": "relations",
+      "claim": "Estados e municípios oferecem isenções de impostos para atrair empresas — a chamada 'guerra fiscal'. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-6-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A Zona Franca de Manaus, criada em 1967, oferece isenção de impostos para indústrias que se instalam na cidade. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-6-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é o PIB do estado onde você mora? ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "brazil-6-activity-6",
+      "section": "activity",
+      "claim": "O que é 'substituição de importações' como política de industrialização?",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

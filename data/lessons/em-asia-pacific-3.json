@@ -32,17 +32,32 @@
     "type": "single-choice",
     "correct": "viola-zee",
     "options": [
-      { "value": "viola-zee",   "label": "Sobrepõe-se às Zonas Econômicas Exclusivas de cinco países vizinhos, violando a UNCLOS" },
-      { "value": "historica",   "label": "A China não tem base histórica na região — os outros países chegaram antes" },
-      { "value": "ilhas-nao",   "label": "Ilhas artificiais não existem no direito internacional e não podem ser reivindicadas" },
-      { "value": "onu",         "label": "A ONU não reconhece reivindicações marítimas baseadas em histórico de navegação" }
+      {
+        "value": "viola-zee",
+        "label": "Sobrepõe-se às Zonas Econômicas Exclusivas de cinco países vizinhos, violando a UNCLOS"
+      },
+      {
+        "value": "historica",
+        "label": "A China não tem base histórica na região — os outros países chegaram antes"
+      },
+      {
+        "value": "ilhas-nao",
+        "label": "Ilhas artificiais não existem no direito internacional e não podem ser reivindicadas"
+      },
+      {
+        "value": "onu",
+        "label": "A ONU não reconhece reivindicações marítimas baseadas em histórico de navegação"
+      }
     ],
     "feedback": {
       "correct": "Correto. A UNCLOS define ZEEs de 200 milhas náuticas a partir da costa de cada país — direito exclusivo sobre recursos marinhos nessa faixa. A linha das nove pontas avança profundamente sobre as ZEEs do Vietnam, Filipinas, Malásia e Brunei, ignorando esses direitos. É por isso que o Tribunal de Haia a declarou incompatível com o direito internacional em 2016.",
       "incorrect": "A questão central não é histórica nem sobre ilhas artificiais em si — é sobre as ZEEs. A UNCLOS garante a cada Estado costeiro 200 milhas de direitos exclusivos sobre recursos. A linha das nove pontas cancela esses direitos para cinco países."
     },
     "hints": [
-      { "type": "text", "content": "UNCLOS dá a cada país 200 milhas náuticas de Zona Econômica Exclusiva a partir de sua costa. A linha das nove pontas da China entra nessas zonas de países vizinhos. O que significa violar a ZEE de outro país?" }
+      {
+        "type": "text",
+        "content": "UNCLOS dá a cada país 200 milhas náuticas de Zona Econômica Exclusiva a partir de sua costa. A linha das nove pontas da China entra nessas zonas de países vizinhos. O que significa violar a ZEE de outro país?"
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,122 @@
     "answer": "A linha das nove pontas viola as ZEEs de cinco países signatários da UNCLOS — Vietnam, Filipinas, Malásia, Brunei e Indonesia. O Tribunal de Haia confirmou isso em 2016. A China recusou-se a reconhecer a decisão.",
     "mediation": "Proponha: 'Se um país mais fraco pode ter sua ZEE ignorada por uma potência maior, o que isso significa para o conceito de soberania no direito internacional? A soberania é igual para todos os países?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "year": 1945,
+      "type": "tratado internacional",
+      "method": "Texto constitutivo que estabelece princípios, órgãos e competências da ONU.",
+      "scope": "Relações internacionais entre Estados-membros.",
+      "limitations": "Prática estatal, resoluções e jurisprudência condicionam a aplicação; não mede poder material.",
+      "institutionalContext": "Documento fundador de organização intergovernamental.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "sipri-data",
+      "title": "SIPRI Databases",
+      "publisher": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "year": 2026,
+      "type": "base de pesquisa",
+      "method": "Compilação documentada de gastos militares, transferências de armas e conflitos a partir de fontes abertas.",
+      "scope": "Países e conflitos; cobertura varia por base e período.",
+      "limitations": "Sigilo, conversões cambiais e estimativas limitam precisão e comparabilidade.",
+      "institutionalContext": "Instituto independente de pesquisa financiado por fontes públicas e filantrópicas.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-asia-pacific-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Entre 2014 e 2016, a China construiu sete ilhas artificiais sobre recifes e atóis no Mar do Sul da China — dragando areia do fundo do oceano para criar terra onde não havia. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-3-guided-2",
+      "section": "guided",
+      "claim": "A Convenção das Nações Unidas sobre o Direito do Mar (UNCLOS, 1982) estabelece a estrutura legal para o uso dos oceanos. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-3-relations-3",
+      "section": "relations",
+      "claim": "O Estreito de Malaca, entre a Península Malaia e a ilha de Sumatra, tem 800 km de comprimento e apenas 2,7 km de largura em seu ponto mais estreito. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 2013, as Filipinas iniciaram um processo arbitral contra a China no Tribunal Permanente de Arbitragem, contestando as reivindicações da linha das nove pontas. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-3-application-5",
+      "section": "application",
+      "claim": "No mapa, identifique o Estreito de Malaca. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-3-activity-6",
+      "section": "activity",
+      "claim": "A 'linha das nove pontas' reivindicada pela China no Mar do Sul da China é problemática para o direito internacional porque:",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Disputas marítimas: soberania sobre o oceano” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Disputas marítimas: soberania sobre o oceano” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

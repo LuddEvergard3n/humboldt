@@ -66,5 +66,99 @@
     "answer": "Secas mais intensas. El Niño inibe a formação da ZCIT, principal mecanismo de chuvas do semiárido nordestino.",
     "mediation": "Pergunte: 'Se o El Niño sempre existiu, por que os seus impactos parecem piores hoje do que há 50 anos?' (resposta: interação com o aquecimento de base).",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-climatology-5-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 1983 e 1997, o sertão nordestino sofreu secas devastadoras enquanto o Sul do Brasil era inundado. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-5-guided-2",
+      "section": "guided",
+      "claim": "O ENOS (El Niño–Oscilação Sul) é a principal fonte de variabilidade climática interanual do planeta. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-5-relations-3",
+      "section": "relations",
+      "claim": "Os impactos do El Niño no Brasil não são uniformes. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-5-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O El Niño de 2023–2024 foi classificado como 'muito forte' — o mais intenso desde 1997–1998. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-5-application-5",
+      "section": "application",
+      "claim": "Pesquise o estado atual do ENOS (El Niño ou La Niña?) no site do INMET ou NOAA. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-climatology-5-activity-6",
+      "section": "activity",
+      "claim": "Durante um evento de El Niño, o efeito mais típico sobre o Nordeste brasileiro é:",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

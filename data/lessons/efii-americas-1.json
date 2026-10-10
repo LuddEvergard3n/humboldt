@@ -67,5 +67,122 @@
     "answer": "Herança da colonização ibérica e uso de línguas latinas.",
     "mediation": "Compare colonização de exploração (Brasil/Peru) vs. colonização de povoamento (EUA/Canadá). Quais as consequências para o desenvolvimento?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-wpp",
+      "title": "World Population Prospects 2024",
+      "publisher": "United Nations DESA",
+      "url": "https://population.un.org/wpp/",
+      "year": 2024,
+      "type": "estimativa demográfica internacional",
+      "method": "Harmonização de censos, registros e pesquisas; estimativas e projeções por coorte.",
+      "scope": "Países e territórios; séries históricas e projeções até 2100.",
+      "limitations": "Estimativas são revisadas; qualidade e cobertura das fontes nacionais variam.",
+      "institutionalContext": "Divisão de População da ONU; produz estimativas comparáveis para uso internacional.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unsd-census",
+      "title": "Principles and Recommendations for Population and Housing Censuses",
+      "publisher": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/demographic-social/census/",
+      "year": 2025,
+      "type": "padrão metodológico",
+      "method": "Recomendações internacionais aprovadas pela Comissão de Estatística para planejar e avaliar censos.",
+      "scope": "Aplicação internacional; rodada censitária de 2030.",
+      "limitations": "Recomendações precisam ser adaptadas aos sistemas legais, recursos e conceitos de cada país.",
+      "institutionalContext": "Órgão técnico da ONU que coordena padrões estatísticos internacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efii-americas-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Essa divisão linguística reflete séculos de colonização: ibérica (Portugal e Espanha) ao sul, inglesa ao norte. ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-1-guided-2",
+      "section": "guided",
+      "claim": "O continente americano é frequentemente dividido com base em critérios históricos e culturais.",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-1-relations-3",
+      "section": "relations",
+      "claim": "A América tem os países mais ricos (EUA, Canadá) e alguns dos mais desiguais do mundo (Brasil, Guatemala, Honduras). ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 1994, o México entrou no NAFTA — acordo de livre comércio com EUA e Canadá. ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-1-application-5",
+      "section": "application",
+      "claim": "Compare: qual é o IDH (Índice de Desenvolvimento Humano) do Brasil, dos EUA e do Haiti? ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-1-activity-6",
+      "section": "activity",
+      "claim": "O que define a América Latina como um conjunto?",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “As Américas: formação e divisão” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “As Américas: formação e divisão” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

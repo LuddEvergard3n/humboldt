@@ -55,5 +55,122 @@
     "answer": "Taiwan fabrica a maior parte dos chips avançados mundiais — sua posse significaria controle de componente crítico da economia global.",
     "mediation": "Mapa de cadeias produtivas de chips: de onde vêm os materiais, onde são projetados, onde fabricados, onde vendidos. Quantos países dependem de Taiwan?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "year": 1945,
+      "type": "tratado internacional",
+      "method": "Texto constitutivo que estabelece princípios, órgãos e competências da ONU.",
+      "scope": "Relações internacionais entre Estados-membros.",
+      "limitations": "Prática estatal, resoluções e jurisprudência condicionam a aplicação; não mede poder material.",
+      "institutionalContext": "Documento fundador de organização intergovernamental.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "sipri-data",
+      "title": "SIPRI Databases",
+      "publisher": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "year": 2026,
+      "type": "base de pesquisa",
+      "method": "Compilação documentada de gastos militares, transferências de armas e conflitos a partir de fontes abertas.",
+      "scope": "Países e conflitos; cobertura varia por base e período.",
+      "limitations": "Sigilo, conversões cambiais e estimativas limitam precisão e comparabilidade.",
+      "institutionalContext": "Instituto independente de pesquisa financiado por fontes públicas e filantrópicas.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-geopolitics-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2023, EUA e China trocaram US$ 665 bilhões em comércio — a maior parceria bilateral do planeta. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-2-guided-2",
+      "section": "guided",
+      "claim": "A competição EUA-China é multidimensional — tecnológica, econômica, militar e ideológica.",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-2-relations-3",
+      "section": "relations",
+      "claim": "O historiador grego Tucídides observou que quando uma potência ascendente ameaça o domínio de uma potência estabelecida, guerra é o resultado mais provável. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Taiwan fabrica 90% dos chips mais avançados do mundo (TSMC). ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-2-application-5",
+      "section": "application",
+      "claim": "Pesquise: como a rivalidade EUA-China afeta o Brasil? ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-geopolitics-2-activity-6",
+      "section": "activity",
+      "claim": "Clique nos países que fazem parte da \"Iniciativa Cinturão e Rota\" (Belt and Road Initiative) da China — o maior projeto de infraestrutura geopolítica do século XXI.",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “China e EUA: a rivalidade que define o século XXI” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “China e EUA: a rivalidade que define o século XXI” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

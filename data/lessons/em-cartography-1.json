@@ -68,5 +68,99 @@
     "answer": "Mapa com tamanho das áreas proporcional ao dado — evita distorção por área geográfica.",
     "mediation": "Compare dois mapas do mesmo fenômeno com representações diferentes. O que cada um enfatiza? O que cada um esconde? Qual induz qual conclusão?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-cartography-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Quando você mapeia renda per capita por município e depois mapeia esperança de vida por município, os dois mapas têm padrões espaciais muito similares — municípios ricos vivem mais, municípios pobres vivem menos. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-1-guided-2",
+      "section": "guided",
+      "claim": "A cartografia temática representa fenômenos específicos sobre uma base geográfica.",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-1-relations-3",
+      "section": "relations",
+      "claim": "Todo mapa é uma simplificação com escolhas: de projeção, de escala, de variável, de cor, de legenda. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 2024, o Brasil enfrentou a maior epidemia de dengue da história. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-1-application-5",
+      "section": "application",
+      "claim": "Acesse o Atlas Brasil (atlasbrasil.org.br) e compare o IDH do seu município com municípios vizinhos. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-1-activity-6",
+      "section": "activity",
+      "claim": "O que é um cartograma e qual é sua principal vantagem sobre o mapa convencional?",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

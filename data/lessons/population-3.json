@@ -69,5 +69,99 @@
     "answer": "Fase 2: mortalidade cai, natalidade ainda alta, crescimento acelerado.",
     "mediation": "Mostre pirâmides do Brasil de 1970, 2000 e 2023. Pergunte: \"O que mudou? O que vai acontecer com a previdência?\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "un-wpp",
+      "title": "World Population Prospects 2024",
+      "publisher": "United Nations DESA",
+      "url": "https://population.un.org/wpp/",
+      "year": 2024,
+      "type": "estimativa demográfica internacional",
+      "method": "Harmonização de censos, registros e pesquisas; estimativas e projeções por coorte.",
+      "scope": "Países e territórios; séries históricas e projeções até 2100.",
+      "limitations": "Estimativas são revisadas; qualidade e cobertura das fontes nacionais variam.",
+      "institutionalContext": "Divisão de População da ONU; produz estimativas comparáveis para uso internacional.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unsd-census",
+      "title": "Principles and Recommendations for Population and Housing Censuses",
+      "publisher": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/demographic-social/census/",
+      "year": 2025,
+      "type": "padrão metodológico",
+      "method": "Recomendações internacionais aprovadas pela Comissão de Estatística para planejar e avaliar censos.",
+      "scope": "Aplicação internacional; rodada censitária de 2030.",
+      "limitations": "Recomendações precisam ser adaptadas aos sistemas legais, recursos e conceitos de cada país.",
+      "institutionalContext": "Órgão técnico da ONU que coordena padrões estatísticos internacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "population-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 1960, a Coreia do Sul tinha taxa de fecundidade de 6 filhos por mulher. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-3-guided-2",
+      "section": "guided",
+      "claim": "Todos os países passam pelas mesmas fases de transição — mas em ritmos diferentes.",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-3-relations-3",
+      "section": "relations",
+      "claim": "Populações envelhecidas criam desafios econômicos: menos trabalhadores sustentando mais aposentados. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "China impôs a política do filho único (1980–2015): funcionou em reduzir a natalidade, mas criou desequilíbrio de gênero e envelhecimento acelerado. ",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-3-application-5",
+      "section": "application",
+      "claim": "Pesquise a pirâmide etária do Brasil em 1980 e em 2023. ",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "population-3-activity-6",
+      "section": "activity",
+      "claim": "Um país está na Fase 2 da transição demográfica quando:",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

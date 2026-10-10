@@ -38,17 +38,32 @@
       "afterLabel": "1914 — África completamente partilhada"
     },
     "options": [
-      { "value": "ocupacao-total", "label": "Ocupação quase total do continente em 30 anos, com fronteiras artificiais que ignoraram realidades étnicas e políticas africanas" },
-      { "value": "gradual",        "label": "Expansão gradual e negociada com líderes africanos ao longo de um século" },
-      { "value": "resistencia",    "label": "Resistência africana bem-sucedida que limitou a expansão europeia a zonas costeiras" },
-      { "value": "voluntaria",     "label": "Incorporação voluntária de reinos africanos em troca de proteção militar europeia" }
+      {
+        "value": "ocupacao-total",
+        "label": "Ocupação quase total do continente em 30 anos, com fronteiras artificiais que ignoraram realidades étnicas e políticas africanas"
+      },
+      {
+        "value": "gradual",
+        "label": "Expansão gradual e negociada com líderes africanos ao longo de um século"
+      },
+      {
+        "value": "resistencia",
+        "label": "Resistência africana bem-sucedida que limitou a expansão europeia a zonas costeiras"
+      },
+      {
+        "value": "voluntaria",
+        "label": "Incorporação voluntária de reinos africanos em troca de proteção militar europeia"
+      }
     ],
     "feedback": {
       "correct": "Correto. Em 1880, apenas costas africanas estavam ocupadas por europeus; o interior era independente. Em 1914 — 30 anos depois — apenas Etiópia e Libéria permaneciam formalmente independentes. A Conferência de Berlim acelerou uma corrida que ocupou 90% do continente em três décadas, traçando fronteiras geométricas sem nenhuma consulta às populações locais.",
       "incorrect": "A partilha foi rápida e unilateral, não gradual ou negociada. Em 1880, a maior parte do interior africano era governada por reinos e impérios independentes. Em 1914, quase nada restava deles."
     },
     "hints": [
-      { "type": "text", "content": "Em 1880: África independente no interior. Em 1914: quase totalmente colorida pelas cores das potências europeias. O que aconteceu nos 30 anos entre os dois mapas?" }
+      {
+        "type": "text",
+        "content": "Em 1880: África independente no interior. Em 1914: quase totalmente colorida pelas cores das potências europeias. O que aconteceu nos 30 anos entre os dois mapas?"
+      }
     ]
   },
   "teacher": {
@@ -57,5 +72,135 @@
     "answer": "Ocupação quase total do continente em 30 anos. Fronteiras artificiais — 40% são linhas retas — que dividem etnias, línguas e reinos históricos sem correspondência com realidades sociais pré-coloniais.",
     "mediation": "Proponha: 'Se as fronteiras africanas fossem redesenhadas para corresponder a grupos étnicos e linguísticos reais, quantos países existiriam? Isso resolveria os conflitos ou criaria novos?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-africa-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A África tem 54 países com fronteiras que cortam etnias, línguas e reinos históricos em pedaços arbitrários. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-1-guided-2",
+      "section": "guided",
+      "claim": "A Conferência de Berlim (1884-1885) formalizou a corrida europeia por território africano. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-1-relations-3",
+      "section": "relations",
+      "claim": "A independência política não eliminou a dependência econômica. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 1994, em 100 dias, cerca de 800.000 tutsis foram assassinados por hutus no Ruanda — o genocídio mais rápido da história. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-1-application-5",
+      "section": "application",
+      "claim": "Pesquise o mapa político da África. ",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-africa-1-activity-6",
+      "section": "activity",
+      "claim": "O que a comparação entre os mapas da África em 1880 e 1914 revela sobre o impacto da Conferência de Berlim?",
+      "sourceIds": [
+        "wto-stats",
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Descolonização e heranças do colonialismo” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Descolonização e heranças do colonialismo” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

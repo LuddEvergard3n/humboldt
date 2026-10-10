@@ -32,19 +32,52 @@
     "type": "flow-map",
     "question": "Observe os fluxos da cadeia global de semicondutores. O que esse mapa revela sobre a dependência mútua entre países rivais?",
     "flows": [
-      { "from": "EUA (design)",      "to": "TSMC Taiwan",       "value": 300, "label": "Projetos Nvidia/Apple/Qualcomm" },
-      { "from": "Holanda (ASML)",    "to": "TSMC Taiwan",       "value": 200, "label": "Máquinas EUV — monopólio absoluto" },
-      { "from": "Japão (materiais)", "to": "TSMC Taiwan",       "value": 150, "label": "Silício puro, gases, fotomáscaras" },
-      { "from": "TSMC Taiwan",       "to": "China (montagem)",  "value": 180, "label": "Chips para montagem de produtos" },
-      { "from": "TSMC Taiwan",       "to": "EUA",               "value": 250, "label": "Chips acabados para iPhones, servidores" },
-      { "from": "China",             "to": "Mundo",             "value": 400, "label": "Produtos eletrônicos montados" }
+      {
+        "from": "EUA (design)",
+        "to": "TSMC Taiwan",
+        "value": 300,
+        "label": "Projetos Nvidia/Apple/Qualcomm"
+      },
+      {
+        "from": "Holanda (ASML)",
+        "to": "TSMC Taiwan",
+        "value": 200,
+        "label": "Máquinas EUV — monopólio absoluto"
+      },
+      {
+        "from": "Japão (materiais)",
+        "to": "TSMC Taiwan",
+        "value": 150,
+        "label": "Silício puro, gases, fotomáscaras"
+      },
+      {
+        "from": "TSMC Taiwan",
+        "to": "China (montagem)",
+        "value": 180,
+        "label": "Chips para montagem de produtos"
+      },
+      {
+        "from": "TSMC Taiwan",
+        "to": "EUA",
+        "value": 250,
+        "label": "Chips acabados para iPhones, servidores"
+      },
+      {
+        "from": "China",
+        "to": "Mundo",
+        "value": 400,
+        "label": "Produtos eletrônicos montados"
+      }
     ],
     "feedback": {
       "correct": "Os fluxos revelam interdependência estrutural: os EUA precisam da TSMC taiwanesa para fabricar seus chips mais avançados; a China monta produtos que chegam aos consumidores americanos; a Holanda fornece equipamentos indispensáveis para todos. A rivalidade sino-americana não é entre economias desconectadas — é entre parceiros dependentes que tentam se desacoplar sem destruir suas próprias cadeias produtivas.",
       "incorrect": "Observe de onde chegam os insumos para a TSMC e para onde vão seus chips. Quantos países diferentes estão envolvidos nesse fluxo? Isso é interdependência — o oposto de autossuficiência."
     },
     "hints": [
-      { "type": "text", "content": "Se os EUA cortam chips para a China, a China pode cortar terras raras para os EUA. Se a China invade Taiwan, os EUA perdem acesso à TSMC. Quem perde mais com o desacoplamento?" }
+      {
+        "type": "text",
+        "content": "Se os EUA cortam chips para a China, a China pode cortar terras raras para os EUA. Se a China invade Taiwan, os EUA perdem acesso à TSMC. Quem perde mais com o desacoplamento?"
+      }
     ]
   },
   "teacher": {
@@ -53,5 +86,122 @@
     "answer": "A cadeia é altamente fragmentada e interdependente: EUA (design) → ASML Holanda (máquinas) → Japão (materiais) → TSMC Taiwan (fabricação) → China/Sudeste Asiático (montagem) → mercado global. Nenhum ator pode se isolar sem custo enorme.",
     "mediation": "Proponha: 'O Brasil tem minerais estratégicos como nióbio e lítio usados em eletrônicos. Como o Brasil poderia usar esses recursos na disputa geopolítica dos chips?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "year": 1945,
+      "type": "tratado internacional",
+      "method": "Texto constitutivo que estabelece princípios, órgãos e competências da ONU.",
+      "scope": "Relações internacionais entre Estados-membros.",
+      "limitations": "Prática estatal, resoluções e jurisprudência condicionam a aplicação; não mede poder material.",
+      "institutionalContext": "Documento fundador de organização intergovernamental.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "sipri-data",
+      "title": "SIPRI Databases",
+      "publisher": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "year": 2026,
+      "type": "base de pesquisa",
+      "method": "Compilação documentada de gastos militares, transferências de armas e conflitos a partir de fontes abertas.",
+      "scope": "Países e conflitos; cobertura varia por base e período.",
+      "limitations": "Sigilo, conversões cambiais e estimativas limitam precisão e comparabilidade.",
+      "institutionalContext": "Instituto independente de pesquisa financiado por fontes públicas e filantrópicas.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-asia-pacific-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2021, a falta de chips paralisou fábricas de automóveis no Brasil, Alemanha e EUA. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-2-guided-2",
+      "section": "guided",
+      "claim": "A produção de semicondutores é a cadeia de valor mais geograficamente concentrada e tecnologicamente complexa do mundo. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-2-relations-3",
+      "section": "relations",
+      "claim": "Em 2022, os EUA lançaram os controles de exportação mais amplos da história contra a China: proibiram a venda de chips avançados (acima de um threshold de desempenho), de equipamentos de fabricação (máquinas ASML) e de software de design (EDA tools) para em…",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A Taiwan Semiconductor Manufacturing Company fabrica chips para Apple, Nvidia, AMD, Qualcomm, Google e centenas de outras empresas. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-2-application-5",
+      "section": "application",
+      "claim": "Pesquise o chip do seu celular. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-asia-pacific-2-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos da cadeia global de semicondutores. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Semicondutores: a geopolítica do chip” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Semicondutores: a geopolítica do chip” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

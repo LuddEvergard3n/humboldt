@@ -1,52 +1,172 @@
 {
   "id": "efii-europe-3",
   "moduleId": "efii-europe",
-  "title": "Oriente Médio: petróleo, conflitos e religião",
-  "summary": "A região mais instável do mundo: recursos estratégicos, disputas territoriais e diversidade religiosa.",
+  "title": "Oriente Médio: recursos, Estados e conflitos",
+  "summary": "Uma região diversa analisada por recursos estratégicos, formação dos Estados, rivalidades e intervenções.",
   "activityType": "map-click",
   "phenomenon": {
-    "title": "Por que o Oriente Médio nunca para de ser notícia",
-    "text": "Desde 1948, o Oriente Médio esteve no centro da política mundial: criação de Israel, guerras árabe-israelenses, Revolução Iraniana, invasão do Kuwait, guerras do Iraque, Primavera Árabe, surgimento do Estado Islâmico, guerra no Iêmen, conflito em Gaza. A região concentra 50% das reservas mundiais de petróleo, três religiões monoteístas, e fronteiras desenhadas por potências coloniais em 1916 ignorando etnias, tribos e tradições locais. Essa combinação torna o Oriente Médio o palco mais complexo da geopolítica contemporânea."
+    "title": "Por que conflitos diferentes não têm uma causa única?",
+    "text": "O Oriente Médio reúne Estados, povos e instituições muito diferentes. Petróleo e gás, rotas marítimas, segurança regional, disputas territoriais, rivalidades entre governos e intervenções externas ajudam a explicar sua relevância. Nenhum desses fatores, isoladamente, explica todos os conflitos."
   },
   "guided": {
     "title": "Elementos estruturantes da região",
-    "text": "O Oriente Médio é uma construção geopolítica europeia, não uma identidade regional autoevidente. Engloba países radicalmente diferentes: monarquias absolutas ricas em petróleo (Arábia Saudita, Emirados), repúblicas laicas em colapso (Síria, Iêmen, Líbia), democracias com tensões étnicas (Israel, Líbano), e teocracias (Irã). O que os une são as fronteiras impostas pelo Acordo Sykes-Picot (1916) — divisão franco-britânica do Império Otomano sem consultar as populações locais.",
+    "text": "“Oriente Médio” é um recorte geopolítico de limites variáveis. O fim do Império Otomano, mandatos europeus, independências, formação de Israel e instituições políticas nacionais contribuíram para as fronteiras atuais; reduzi-las apenas ao acordo Sykes-Picot apaga decisões e processos posteriores.",
     "points": [
-      "Petróleo: 50% das reservas mundiais no Golfo Pérsico — base do poder político da região e causa de interferência externa constante.",
-      "Conflito árabe-israelense: desde 1948, com raízes no sionismo, Holocausto, Mandato Britânico e rejeição árabe à partilha da Palestina.",
-      "Sunitas vs. Xiitas: divisão do Islã com 1.400 anos que estrutura alianças regionais — Arábia Saudita (sunita) vs. Irã (xiita).",
-      "Curdos: 30-40 milhões de pessoas sem Estado próprio, divididos entre Turquia, Iraque, Síria e Irã — maior povo sem Estado do mundo."
+      "Energia e rotas: produção, reservas e gargalos marítimos têm pesos diferentes conforme o mercado e o período.",
+      "Israel e Palestina: narrativas nacionais, segurança, ocupação, refugiados, fronteiras e direitos formam uma disputa histórica e jurídica.",
+      "Sunitas e xiitas: identidades religiosas importam, mas alianças também respondem a interesses de Estado e conjunturas.",
+      "Curdos: populações distribuídas por vários Estados apresentam projetos políticos diversos; não formam um ator único."
     ]
   },
   "relations": {
     "title": "Intervenção externa e instabilidade",
-    "text": "Nenhuma crise do Oriente Médio é puramente interna. EUA, Rússia, Turquia, Irã e potências do Golfo interferem sistematicamente nos conflitos regionais, cada um apoiando facções distintas. A invasão americana do Iraque (2003), baseada em inteligência falsa sobre armas de destruição em massa, desmantelou o Estado iraquiano e criou o vácuo de poder que o Estado Islâmico preencheu em 2014. A Primavera Árabe (2011) derrubou ditadores no Egito, Tunísia e Líbia — mas apenas a Tunísia transitou para democracia. O Egito voltou ao autoritarismo; a Líbia fragmentou-se em guerra civil."
+    "text": "Potências regionais e externas influenciam guerras e negociações, mas atores locais preservam agência. No Iraque, decisões tomadas após a invasão de 2003 contribuíram para fragilidade institucional e violência; não constituem, sozinhas, explicação suficiente para a ascensão do Estado Islâmico. Os resultados das revoltas iniciadas em 2010–2011 variaram muito entre países."
   },
   "caseStudy": {
     "title": "Gaza e a questão palestina",
-    "text": "A Faixa de Gaza tem 365 km² e 2,3 milhões de habitantes — uma das maiores densidades populacionais do mundo. Sob bloqueio israelense desde 2007, quando o Hamas tomou o controle, Gaza enfrenta desemprego de 46%, escassez crônica de água e energia, e acesso restrito a medicamentos e materiais de construção. O conflito de outubro de 2023, iniciado pelo ataque do Hamas com mais de 1.200 mortos israelenses, e a resposta militar israelense com mais de 40.000 mortos palestinos em Gaza, recolocou a questão palestina no centro da agenda global. A ausência de solução para os dois Estados — Israel e Palestina vivendo em paz com fronteiras reconhecidas — é o fracasso político mais duradouro da ordem internacional do pós-Segunda Guerra."
+    "text": "Israel e o Hamas entraram em guerra após os ataques de 7 de outubro de 2023. Mortes, deslocamentos, destruição e acesso humanitário mudam rapidamente e devem ser consultados em fontes datadas, distinguindo registros confirmados, estimativas e alegações das partes. A análise deve incluir segurança de civis israelenses e palestinos, direito internacional, decisões políticas e propostas concorrentes de solução."
   },
-  "application": "No mapa do Oriente Médio, identifique os países produtores de petróleo do Golfo Pérsico. Pesquise o que é o Acordo Sykes-Picot de 1916. Como ele contribuiu para os conflitos atuais da região?",
+  "application": "Construa uma linha do tempo com cinco eventos e duas fontes. Para cada evento, separe fato confirmado, interpretação e questão ainda disputada.",
   "activity": {
     "type": "map-click",
     "mapId": "world-simple",
-    "instruction": "Clique na região do mapa onde se concentram as maiores reservas de petróleo do mundo e os principais conflitos geopolíticos do Oriente Médio.",
-    "question": "Qual região do mapa corresponde ao Oriente Médio — área com 50% das reservas mundiais de petróleo e epicentro de conflitos como o árabe-israelense e a rivalidade sunita-xiita?",
+    "instruction": "Localize a região e relacione escala, período, atores e fontes.",
+    "question": "Qual abordagem é mais adequada para analisar os conflitos do Oriente Médio?",
     "correct": "oriente-medio",
     "hintAfter": 1,
     "feedback": {
-      "correct": "Correto. O Oriente Médio — entre a África, a Europa e a Ásia — concentra Arábia Saudita, Irã, Iraque, Emirados Árabes, Israel, Palestina, Síria e Iêmen. É a região com maior concentração de petróleo e de conflitos geopolíticos ativos do planeta.",
+      "correct": "Correto. A localização é apenas o início: conflitos distintos exigem atores, períodos, evidências e explicações próprios.",
       "incorrect": "O Oriente Médio fica entre a Península Arábica e o Mar Mediterrâneo, a leste da África e a sul da Europa. Procure a região entre o Egito e o Irã no mapa."
     },
     "hints": [
-      { "type": "text", "content": "Arábia Saudita, Irã, Iraque, Israel, Síria. Todos ficam entre a África do Norte, a Turquia e o Golfo Pérsico. Essa é a área do Oriente Médio." }
+      {
+        "type": "text",
+        "content": "Arábia Saudita, Irã, Iraque, Israel, Síria. Todos ficam entre a África do Norte, a Turquia e o Golfo Pérsico. Essa é a área do Oriente Médio."
+      }
     ]
   },
   "teacher": {
     "objective": "O aluno identifica o Oriente Médio no mapa e compreende os elementos estruturantes da instabilidade regional: petróleo, fronteiras coloniais, divisão religiosa e interferência externa.",
     "observe": "O conflito em Gaza tem alta carga emocional. Mantenha o foco na análise estrutural (fronteiras, recursos, conflito árabe-israelense histórico) sem tomar partido ou simplificar.",
-    "answer": "Oriente Médio (data-id: oriente-medio). Concentra 50% das reservas mundiais de petróleo; fronteiras definidas pelo Acordo Sykes-Picot (1916); divisão sunita-xiita; conflito árabe-israelense desde 1948.",
+    "answer": "Localize o recorte entre Mediterrâneo oriental, Península Arábica e áreas vizinhas e trate cada conflito com período, atores e fontes específicos.",
     "mediation": "Proponha: 'Se o petróleo do Oriente Médio acabasse, a região ainda seria tão importante para a geopolítica mundial? O que muda quando um recurso estratégico se esgota?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/un-charter/full-text",
+      "year": 1945,
+      "type": "tratado internacional",
+      "method": "Texto constitutivo que estabelece princípios, órgãos e competências da ONU.",
+      "scope": "Relações internacionais entre Estados-membros.",
+      "limitations": "Prática estatal, resoluções e jurisprudência condicionam a aplicação; não mede poder material.",
+      "institutionalContext": "Documento fundador de organização intergovernamental.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "sipri-data",
+      "title": "SIPRI Databases",
+      "publisher": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "year": 2026,
+      "type": "base de pesquisa",
+      "method": "Compilação documentada de gastos militares, transferências de armas e conflitos a partir de fontes abertas.",
+      "scope": "Países e conflitos; cobertura varia por base e período.",
+      "limitations": "Sigilo, conversões cambiais e estimativas limitam precisão e comparabilidade.",
+      "institutionalContext": "Instituto independente de pesquisa financiado por fontes públicas e filantrópicas.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efii-europe-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O Oriente Médio reúne Estados, povos e instituições muito diferentes. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-europe-3-guided-2",
+      "section": "guided",
+      "claim": "“Oriente Médio” é um recorte geopolítico de limites variáveis. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-europe-3-relations-3",
+      "section": "relations",
+      "claim": "Potências regionais e externas influenciam guerras e negociações, mas atores locais preservam agência. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-europe-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Israel e o Hamas entraram em guerra após os ataques de 7 de outubro de 2023. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-europe-3-application-5",
+      "section": "application",
+      "claim": "Construa uma linha do tempo com cinco eventos e duas fontes. ",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-europe-3-activity-6",
+      "section": "activity",
+      "claim": "Qual abordagem é mais adequada para analisar os conflitos do Oriente Médio?",
+      "sourceIds": [
+        "un-charter",
+        "sipri-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Oriente Médio: recursos, Estados e conflitos” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Oriente Médio: recursos, Estados e conflitos” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

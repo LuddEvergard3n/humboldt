@@ -66,5 +66,122 @@
     "answer": "Dependência geopolítica estratégica. A China controla o processamento — não apenas a extração. Cortou exportações em 2010 como pressão diplomática. É recurso de poder.",
     "mediation": "Proponha: 'Um país que queira produzir carros elétricos precisaria de lítio, cobalto e terras raras. Como garante o fornecimento sem criar novas dependências?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-natural-resources-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Um carro elétrico usa 6× mais minerais que um carro a combustão. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-4-guided-2",
+      "section": "guided",
+      "claim": "Minerais críticos são aqueles essenciais para tecnologias de baixo carbono (baterias, painéis solares, turbinas eólicas, veículos elétricos) e com cadeia de suprimento concentrada em poucos países, criando risco geopolítico.",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-4-relations-3",
+      "section": "relations",
+      "claim": "O Brasil tem reservas significativas de vários minerais críticos: nióbio (92% do mundo), lítio (5ª maior reserva mundial, principalmente em MG), grafite (2ª reserva mundial), terras raras (Minas Gerais) e cobalto (PA). ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A região de Araçuaí–Itinga, no Vale do Jequitinhonha (MG), concentra uma das maiores reservas de lítio do mundo. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-4-application-5",
+      "section": "application",
+      "claim": "Pesquise onde está o maior depósito de lítio do Brasil (Araçuaí, MG). ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-natural-resources-4-activity-6",
+      "section": "activity",
+      "claim": "A concentração da produção de terras raras na China representa principalmente:",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Transição energética e geopolítica dos minerais críticos” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Transição energética e geopolítica dos minerais críticos” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

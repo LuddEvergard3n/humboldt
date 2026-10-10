@@ -31,18 +31,46 @@
     "type": "flow-map",
     "question": "Observe os principais fluxos migratórios rumo à Europa e à América do Norte. O que a direção dos fluxos revela sobre as causas da migração?",
     "flows": [
-      { "from": "África Subsaariana", "to": "Europa (Mediterrâneo)", "value": 180, "label": "180.000/ano — rota mais letal" },
-      { "from": "Síria/Iraque/Afeganistão", "to": "Europa (Turquia)", "value": 250, "label": "Rota dos Bálcãs e Egeu" },
-      { "from": "América Central (Triângulo Norte)", "to": "EUA (México)", "value": 400, "label": "400.000 interceptados na fronteira/ano" },
-      { "from": "Venezuela",          "to": "Colômbia/Brasil/Peru", "value": 700, "label": "700.000 em 2023 — maior êxodo das Américas" },
-      { "from": "Ucrânia",            "to": "Europa (Leste)",       "value": 6000, "label": "6M após invasão russa de 2022" }
+      {
+        "from": "África Subsaariana",
+        "to": "Europa (Mediterrâneo)",
+        "value": 180,
+        "label": "180.000/ano — rota mais letal"
+      },
+      {
+        "from": "Síria/Iraque/Afeganistão",
+        "to": "Europa (Turquia)",
+        "value": 250,
+        "label": "Rota dos Bálcãs e Egeu"
+      },
+      {
+        "from": "América Central (Triângulo Norte)",
+        "to": "EUA (México)",
+        "value": 400,
+        "label": "400.000 interceptados na fronteira/ano"
+      },
+      {
+        "from": "Venezuela",
+        "to": "Colômbia/Brasil/Peru",
+        "value": 700,
+        "label": "700.000 em 2023 — maior êxodo das Américas"
+      },
+      {
+        "from": "Ucrânia",
+        "to": "Europa (Leste)",
+        "value": 6000,
+        "label": "6M após invasão russa de 2022"
+      }
     ],
     "feedback": {
       "correct": "Todos os grandes fluxos partem de regiões de conflito, pobreza extrema ou colapso de Estado em direção a países com maior segurança e renda. A direção dos fluxos mapeia a desigualdade global: as pessoas se movem para onde a vida é possível. A diferença de tratamento — ucranianos recebem acolhida automática na Europa; africanos e centro-americanos encontram muros — é também uma questão racial e geopolítica.",
       "incorrect": "Observe a origem de cada fluxo: conflito (Síria, Ucrânia), colapso econômico (Venezuela, África Subsaariana), violência de gangues (Triângulo Norte). E observe o destino: países com maior segurança e renda. O que une todas as origens? O que une todos os destinos?"
     },
     "hints": [
-      { "type": "text", "content": "Síria tem guerra. Venezuela tem colapso econômico. Honduras tem violência de gangues. Ucrânia tem invasão militar. O que essas origens têm em comum? Para onde vão as pessoas? Por quê?" }
+      {
+        "type": "text",
+        "content": "Síria tem guerra. Venezuela tem colapso econômico. Honduras tem violência de gangues. Ucrânia tem invasão militar. O que essas origens têm em comum? Para onde vão as pessoas? Por quê?"
+      }
     ]
   },
   "teacher": {
@@ -51,5 +79,122 @@
     "answer": "Os fluxos partem de zonas de conflito, pobreza e colapso de Estado e vão para países com maior segurança e renda — mapeando a desigualdade global. A diferença de tratamento entre fluxos (ucranianos vs. africanos) revela assimetrias raciais e geopolíticas no sistema de asilo.",
     "mediation": "Proponha: 'Por que ucranianos que fugiram da guerra em 2022 receberam acolhida automática na Europa, enquanto sírios e afegãos que também fugiram de guerra encontraram muros e deportações? O que explica essa diferença?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "unhcr-methods",
+      "title": "Refugee Data Finder: Methodology",
+      "publisher": "UNHCR",
+      "url": "https://www.unhcr.org/refugee-statistics/methodology/",
+      "year": 2026,
+      "type": "estatística humanitária",
+      "method": "Registros administrativos, dados governamentais, estimativas e pesquisas, documentados por população.",
+      "scope": "Deslocamento forçado internacional e interno; cobertura por país e ano.",
+      "limitations": "Registros incompletos, mudanças de definição e crises em curso geram revisões e subcontagem.",
+      "institutionalContext": "Agência da ONU com mandato de proteção de refugiados; categorias seguem definições jurídicas e operacionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "iom-wmr",
+      "title": "World Migration Report 2024",
+      "publisher": "International Organization for Migration",
+      "url": "https://worldmigrationreport.iom.int/wmr-2024-interactive/",
+      "year": 2024,
+      "type": "relatório de síntese",
+      "method": "Síntese de bases internacionais e literatura, distinguindo estoques, fluxos e deslocamentos.",
+      "scope": "Migração internacional e interna em escala mundial.",
+      "limitations": "Dados migratórios têm lacunas, definições nacionais diferentes e defasagem.",
+      "institutionalContext": "Organização intergovernamental da ONU voltada à migração.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-migration-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 1989, a queda do Muro de Berlim foi celebrada como o fim da era dos muros. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-2-guided-2",
+      "section": "guided",
+      "claim": "A proliferação de barreiras físicas reflete uma contradição estrutural do capitalismo globalizado: o capital, as mercadorias e a informação circulam livremente; as pessoas não. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-2-relations-3",
+      "section": "relations",
+      "claim": "Os muros têm eficácia política mesmo quando têm baixa eficácia prática. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A rota do Mediterrâneo Central — de Líbia e Tunísia para Itália e Malta — é a mais letal do mundo. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-2-application-5",
+      "section": "application",
+      "claim": "Pesquise o número de mortes na fronteira EUA-México em 2023. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-2-activity-6",
+      "section": "activity",
+      "claim": "Observe os principais fluxos migratórios rumo à Europa e à América do Norte. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Muros, fronteiras e a política da exclusão” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Muros, fronteiras e a política da exclusão” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

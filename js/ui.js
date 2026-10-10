@@ -26,6 +26,7 @@ export class UI {
     this._bindTeacherMode();
     this._bindDropdowns();
     this._bindStateSync();
+    this._router.on('view:ready', () => this._syncRoute());
   }
 
   /** Botão hamburguer (mobile). */
@@ -34,27 +35,38 @@ export class UI {
     const links = document.getElementById('nav-links');
     if (!btn || !links) return;
 
-    btn.addEventListener('click', () => {
-      const open = links.classList.toggle('open');
+    const setOpen = open => {
+      links.classList.toggle('open', open);
+      document.body.classList.toggle('nav-open', open);
       btn.setAttribute('aria-expanded', String(open));
-    });
+      if (open) links.querySelector('a, button')?.focus();
+    };
+
+    btn.addEventListener('click', () => setOpen(!links.classList.contains('open')));
 
     // Fecha ao clicar em qualquer link da nav
     links.addEventListener('click', e => {
       if (e.target.tagName === 'A') {
-        links.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
+        setOpen(false);
       }
     });
 
     // Fecha ao pressionar Escape
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape' && links.classList.contains('open')) {
-        links.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
+        setOpen(false);
         btn.focus();
       }
     });
+  }
+
+  /** Mantém rota ativa e nome da view disponíveis para CSS e leitores de tela. */
+  _syncRoute() {
+    const view = window.location.hash.replace(/^#\/?/, '').split(/[/?]/)[0] || 'home';
+    document.body.dataset.view = view;
+    document.querySelectorAll('[data-nav]').forEach(item => item.removeAttribute('aria-current'));
+    const target = document.querySelector(`[data-nav="${view}"]`);
+    target?.setAttribute('aria-current', 'page');
   }
 
   /** Modo Professor: toggle via botão e via estado. */

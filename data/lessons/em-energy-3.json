@@ -38,17 +38,32 @@
     "question": "Comparando as matrizes de 2000 e 2023, qual mudança é mais significativa e o que ela revela sobre a transição energética?",
     "correct": "c",
     "options": [
-      { "value": "a", "label": "O carvão aumentou sua participação — provando que a transição não está acontecendo." },
-      { "value": "b", "label": "O petróleo ainda domina a matriz — a dependência não mudou nada em 23 anos." },
-      { "value": "c", "label": "Solar e eólica partiram de zero e já respondem por 10% — uma transformação acelerada, mas ainda insuficiente para as metas climáticas." },
-      { "value": "d", "label": "A energia hidrelétrica perdeu participação — prova que as renováveis estão substituindo as outras renováveis, não os fósseis." }
+      {
+        "value": "a",
+        "label": "O carvão aumentou sua participação — provando que a transição não está acontecendo."
+      },
+      {
+        "value": "b",
+        "label": "O petróleo ainda domina a matriz — a dependência não mudou nada em 23 anos."
+      },
+      {
+        "value": "c",
+        "label": "Solar e eólica partiram de zero e já respondem por 10% — uma transformação acelerada, mas ainda insuficiente para as metas climáticas."
+      },
+      {
+        "value": "d",
+        "label": "A energia hidrelétrica perdeu participação — prova que as renováveis estão substituindo as outras renováveis, não os fósseis."
+      }
     ],
     "feedback": {
       "correct": "Correto. Em 2000, solar e eólica eram irrelevantes na escala global. Em 2023, respondem por ~10% da geração elétrica mundial — uma transformação enorme em duas décadas. Mas os fósseis ainda respondem por 76% da eletricidade. Para zerar emissões líquidas até 2050 (meta do Acordo de Paris), precisaríamos eliminar essa participação em 27 anos — o equivalente a replicar os últimos 23 anos de crescimento das renováveis cinco vezes.",
       "incorrect": "Observe a coluna solar+eólica: vai de praticamente zero em 2000 para 10% em 2023. Isso é crescimento exponencial — mas ainda insuficiente. Os fósseis (carvão, petróleo, gás) ainda dominam. A transição está acontecendo, mas lentamente."
     },
     "hints": [
-      { "type": "text", "content": "Procure a coluna que mais cresceu em termos relativos — não absolutos. O que partiu de perto de zero?" }
+      {
+        "type": "text",
+        "content": "Procure a coluna que mais cresceu em termos relativos — não absolutos. O que partiu de perto de zero?"
+      }
     ]
   },
   "teacher": {
@@ -57,5 +72,122 @@
     "answer": "Solar e eólica partem de zero e chegam a 10% em 23 anos — crescimento exponencial real. Mas os fósseis ainda dominam. A transição é desigual: países ricos lideram, países pobres sofrem mais com o clima e menos conseguem investir na transição.",
     "mediation": "Pergunte: 'O Brasil tem vento, sol e rios em abundância. Isso significa que pode liderar a transição energética global? O que falta para isso acontecer — dinheiro, tecnologia, vontade política, mercado?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "epe-ben",
+      "title": "Balanço Energético Nacional",
+      "publisher": "Empresa de Pesquisa Energética",
+      "url": "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-ben",
+      "year": 2025,
+      "type": "balanço energético oficial",
+      "method": "Contabilidade anual da oferta, transformação e consumo de energia por fonte e setor.",
+      "scope": "Brasil; ano-base anterior à edição.",
+      "limitations": "Conversões, autoprodução e revisões metodológicas precisam ser consideradas em séries longas.",
+      "institutionalContext": "Empresa pública vinculada ao Ministério de Minas e Energia.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "iea-data",
+      "title": "Data and Statistics",
+      "publisher": "International Energy Agency",
+      "url": "https://www.iea.org/data-and-statistics",
+      "year": 2026,
+      "type": "estatística energética",
+      "method": "Balanços energéticos nacionais harmonizados e séries por fonte, setor e fluxo.",
+      "scope": "Países e agregados; cobertura depende da série e da participação institucional.",
+      "limitations": "Revisões, conversões energéticas e diferenças de cobertura afetam comparações.",
+      "institutionalContext": "Organização intergovernamental ligada à OCDE; análise reflete mandato de segurança e transição energética.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-energy-3-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 2023, a União Europeia instalou 56 gigawatts de energia solar — mais do que toda a capacidade instalada até 2020. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-3-guided-2",
+      "section": "guided",
+      "claim": "Transição energética é a substituição progressiva de fontes de energia baseadas em carbono (petróleo, gás, carvão) por fontes renováveis (solar, eólica, hidrelétrica, hidrogênio verde). ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-3-relations-3",
+      "section": "relations",
+      "claim": "O hidrogênio verde — produzido por eletrólise com energia renovável — é apontado como o combustível do futuro para indústria pesada, aviação e navios. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-3-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Nordeste brasileiro tem os melhores ventos da América do Sul — consistentes, previsíveis, sem necessidade de armazenamento caro. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-3-application-5",
+      "section": "application",
+      "claim": "Pesquise o custo do megawatt/hora de energia solar, eólica, gás natural e carvão no Brasil em 2024 (fonte: ANEEL ou EPE). ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-3-activity-6",
+      "section": "activity",
+      "claim": "Comparando as matrizes de 2000 e 2023, qual mudança é mais significativa e o que ela revela sobre a transição energética?",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Transição energética: velocidade, contradições e interesses” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Transição energética: velocidade, contradições e interesses” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

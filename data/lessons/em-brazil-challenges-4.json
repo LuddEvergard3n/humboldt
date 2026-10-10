@@ -68,5 +68,122 @@
     "answer": "Capacidade de influenciar por atração cultural, valores e exemplos — oposto ao hard power.",
     "mediation": "Mapa dos acordos bilaterais e multilaterais do Brasil. Com quem o Brasil tem acordos? Quais blocos? O que esses acordos revelam sobre a estratégia brasileira?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-brazil-challenges-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "O Brasil é uma potência em potencial: 8,5 milhões de km², 215 milhões de habitantes, economias diversificada, recursos naturais imensos, energia renovável abundante. ",
+      "sourceIds": [
+        "ibge-censo",
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-brazil-challenges-4-guided-2",
+      "section": "guided",
+      "claim": "A política externa do Brasil tem princípios constitucionais e estratégias que variam por governo.",
+      "sourceIds": [
+        "ibge-censo",
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-brazil-challenges-4-relations-3",
+      "section": "relations",
+      "claim": "Soft power é a capacidade de influenciar outros países por atração — cultura, valores, exemplos — e não pela força. ",
+      "sourceIds": [
+        "ibge-censo",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-brazil-challenges-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 2024, o Brasil presidiu o G20 — o fórum dos 19 maiores países mais a UE. ",
+      "sourceIds": [
+        "ibge-censo",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-brazil-challenges-4-application-5",
+      "section": "application",
+      "claim": "Pesquise: quais são os 5 principais parceiros comerciais do Brasil? ",
+      "sourceIds": [
+        "ibge-censo",
+        "ibge-atlas"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-brazil-challenges-4-activity-6",
+      "section": "activity",
+      "claim": "O que é 'soft power' e como o Brasil o exerce?",
+      "sourceIds": [
+        "ibge-censo",
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “O Brasil no mundo: inserção internacional e política externa” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “O Brasil no mundo: inserção internacional e política externa” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

@@ -69,5 +69,122 @@
     "answer": "A Corrente de Humboldt esfria o ar oceânico, que perde umidade antes de atingir o continente.",
     "mediation": "Mostre o mapa da Corrente de Humboldt. Pergunte: \"Se a corrente esquentar (El Niño), o que acontece com o Atacama?\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "un-wpp",
+      "title": "World Population Prospects 2024",
+      "publisher": "United Nations DESA",
+      "url": "https://population.un.org/wpp/",
+      "year": 2024,
+      "type": "estimativa demográfica internacional",
+      "method": "Harmonização de censos, registros e pesquisas; estimativas e projeções por coorte.",
+      "scope": "Países e territórios; séries históricas e projeções até 2100.",
+      "limitations": "Estimativas são revisadas; qualidade e cobertura das fontes nacionais variam.",
+      "institutionalContext": "Divisão de População da ONU; produz estimativas comparáveis para uso internacional.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unsd-census",
+      "title": "Principles and Recommendations for Population and Housing Censuses",
+      "publisher": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/demographic-social/census/",
+      "year": 2025,
+      "type": "padrão metodológico",
+      "method": "Recomendações internacionais aprovadas pela Comissão de Estatística para planejar e avaliar censos.",
+      "scope": "Aplicação internacional; rodada censitária de 2030.",
+      "limitations": "Recomendações precisam ser adaptadas aos sistemas legais, recursos e conceitos de cada país.",
+      "institutionalContext": "Órgão técnico da ONU que coordena padrões estatísticos internacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efii-americas-5-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Quando chove em São Paulo, parte dessa chuva veio da Amazônia. ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-5-guided-2",
+      "section": "guided",
+      "claim": "América do Sul abriga dois dos ambientes mais extremos do planeta.",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-5-relations-3",
+      "section": "relations",
+      "claim": "A Amazônia concentra 20% da água doce do planeta e reservas imensas de minérios, petróleo e biodiversidade. ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-5-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Salar de Atacama, no Chile, tem as maiores reservas de lítio do mundo — mineral essencial para baterias de carros elétricos. ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-5-application-5",
+      "section": "application",
+      "claim": "Pesquise: o que são os \"rios voadores\" e como eles foram descobertos? ",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efii-americas-5-activity-6",
+      "section": "activity",
+      "claim": "O que explica a existência do Atacama — o deserto mais árido do mundo — ao lado do Oceano Pacífico?",
+      "sourceIds": [
+        "un-wpp",
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Amazon e Patagônia: extremos da América do Sul” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Amazon e Patagônia: extremos da América do Sul” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

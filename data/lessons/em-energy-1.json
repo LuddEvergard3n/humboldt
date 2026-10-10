@@ -32,18 +32,81 @@
     "question": "Observe os fluxos de petróleo e gás no mapa. O que esse padrão revela sobre as vulnerabilidades dos países importadores?",
     "mapId": "world-simple",
     "flows": [
-      { "from": [52, 40], "to": [15, 35], "value": 30, "label": "Petróleo Oriente Médio → Europa", "color": "#8b5e2e" },
-      { "from": [52, 40], "to": [75, 38], "value": 45, "label": "Petróleo Oriente Médio → Ásia", "color": "#8b5e2e" },
-      { "from": [40, 25], "to": [15, 35], "value": 25, "label": "Gás Rússia → Europa", "color": "#1e3a5f" },
-      { "from": [40, 25], "to": [75, 38], "value": 20, "label": "Gás/Petróleo Rússia → China", "color": "#1e3a5f" },
-      { "from": [20, 60], "to": [75, 38], "value": 15, "label": "GNL América do Sul → Ásia", "color": "#4a7a5f" }
+      {
+        "from": [
+          52,
+          40
+        ],
+        "to": [
+          15,
+          35
+        ],
+        "value": 30,
+        "label": "Petróleo Oriente Médio → Europa",
+        "color": "#8b5e2e"
+      },
+      {
+        "from": [
+          52,
+          40
+        ],
+        "to": [
+          75,
+          38
+        ],
+        "value": 45,
+        "label": "Petróleo Oriente Médio → Ásia",
+        "color": "#8b5e2e"
+      },
+      {
+        "from": [
+          40,
+          25
+        ],
+        "to": [
+          15,
+          35
+        ],
+        "value": 25,
+        "label": "Gás Rússia → Europa",
+        "color": "#1e3a5f"
+      },
+      {
+        "from": [
+          40,
+          25
+        ],
+        "to": [
+          75,
+          38
+        ],
+        "value": 20,
+        "label": "Gás/Petróleo Rússia → China",
+        "color": "#1e3a5f"
+      },
+      {
+        "from": [
+          20,
+          60
+        ],
+        "to": [
+          75,
+          38
+        ],
+        "value": 15,
+        "label": "GNL América do Sul → Ásia",
+        "color": "#4a7a5f"
+      }
     ],
     "feedback": {
       "correct": "Os países importadores — Europa, Japão, Coreia do Sul — estão no extremo receptor de fluxos originados em regiões politicamente instáveis ou rivais. Qualquer ruptura nessas rotas (guerra, sanção, bloqueio naval) gera crise imediata. A crise europeia de 2022 é o exemplo mais recente: décadas de dependência do gás russo criaram uma vulnerabilidade estrutural que não se resolve em meses.",
       "incorrect": "Observe de onde partem os fluxos (Oriente Médio, Rússia) e para onde chegam (Europa, Ásia). Os países que chegam à ponta dependem de regiões que não controlam. O que acontece se a fonte decide cortar o fornecimento — ou se uma guerra bloqueia a rota?"
     },
     "hints": [
-      { "type": "text", "content": "Quem depende de energia importada não controla o preço nem a continuidade do fornecimento. Pense: o que o importador pode fazer se o exportador decide elevar o preço ou cortar o suprimento?" }
+      {
+        "type": "text",
+        "content": "Quem depende de energia importada não controla o preço nem a continuidade do fornecimento. Pense: o que o importador pode fazer se o exportador decide elevar o preço ou cortar o suprimento?"
+      }
     ]
   },
   "teacher": {
@@ -52,5 +115,122 @@
     "answer": "Os fluxos revelam dependência estrutural: Europa e Ásia importam de regiões que não controlam. Qualquer instabilidade no Oriente Médio, sanção à Rússia ou bloqueio do Estreito de Ormuz afeta diretamente o preço e a disponibilidade de energia a milhares de quilômetros.",
     "mediation": "Pergunte: 'Se o Brasil depende de gás boliviano para parte da geração elétrica, e a Bolívia decide aumentar o preço, o que o Brasil pode fazer? E se depender 40% como a Europa dependia da Rússia?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "epe-ben",
+      "title": "Balanço Energético Nacional",
+      "publisher": "Empresa de Pesquisa Energética",
+      "url": "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-ben",
+      "year": 2025,
+      "type": "balanço energético oficial",
+      "method": "Contabilidade anual da oferta, transformação e consumo de energia por fonte e setor.",
+      "scope": "Brasil; ano-base anterior à edição.",
+      "limitations": "Conversões, autoprodução e revisões metodológicas precisam ser consideradas em séries longas.",
+      "institutionalContext": "Empresa pública vinculada ao Ministério de Minas e Energia.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "iea-data",
+      "title": "Data and Statistics",
+      "publisher": "International Energy Agency",
+      "url": "https://www.iea.org/data-and-statistics",
+      "year": 2026,
+      "type": "estatística energética",
+      "method": "Balanços energéticos nacionais harmonizados e séries por fonte, setor e fluxo.",
+      "scope": "Países e agregados; cobertura depende da série e da participação institucional.",
+      "limitations": "Revisões, conversões energéticas e diferenças de cobertura afetam comparações.",
+      "institutionalContext": "Organização intergovernamental ligada à OCDE; análise reflete mandato de segurança e transição energética.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-energy-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em fevereiro de 2022, quando a Rússia invadiu a Ucrânia, a Europa descobriu que dependia da Rússia para 40% do seu gás natural e 25% do seu petróleo. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-1-guided-2",
+      "section": "guided",
+      "claim": "A energia não está onde mais se consome. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-1-relations-3",
+      "section": "relations",
+      "claim": "Quem controla o fornecimento de energia controla, em parte, quem pode produzir, aquecer casas e mover exércitos. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Brasil tem uma matriz elétrica que envergonha países ricos: 65% hidrelétrica, 12% eólica, 4% solar — 83% renovável total. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-1-application-5",
+      "section": "application",
+      "claim": "Compare as matrizes energéticas do Brasil, da Alemanha e da China usando dados do Our World in Data (ourworldindata.org/energy). ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-1-activity-6",
+      "section": "activity",
+      "claim": "Observe os fluxos de petróleo e gás no mapa. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Matrizes energéticas: quem tem, quem consome, quem depende” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Matrizes energéticas: quem tem, quem consome, quem depende” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

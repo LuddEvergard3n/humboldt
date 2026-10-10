@@ -66,5 +66,99 @@
     "answer": "Determinante socioambiental. A distribuição espacial da dengue segue a distribuição espacial da precariedade urbana — não é aleatória.",
     "mediation": "Proponha: 'Se a dengue fosse uma questão de cuidado individual, por que ela é tão mais prevalente em algumas regiões do que em outras?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "who-gho",
+      "title": "Global Health Observatory",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/data/gho/info/about-the-observatory",
+      "year": 2026,
+      "type": "base de saúde pública",
+      "method": "Compilação e modelagem de dados nacionais para indicadores comparáveis.",
+      "scope": "Países e territórios; cobertura temporal varia por indicador.",
+      "limitations": "Estimativas podem diferir das cifras nacionais e são revisadas quando surgem novos dados.",
+      "institutionalContext": "Agência especializada da ONU para saúde; métodos seguem mandatos de vigilância e comparabilidade.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-health-geo-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em 1854, uma epidemia de cólera matou 616 pessoas no bairro de Soho, em Londres. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-1-guided-2",
+      "section": "guided",
+      "claim": "A epidemiologia espacial estuda como a distribuição geográfica de doenças, fatores de risco e serviços de saúde se relaciona com as características do espaço — físicas, sociais e históricas. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-1-relations-3",
+      "section": "relations",
+      "claim": "A Organização Mundial da Saúde define determinantes sociais da saúde como as condições em que as pessoas nascem, crescem, vivem, trabalham e envelhecem. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "No Brasil, 38 milhões de pessoas vivem em 'desertos alimentares' — áreas sem supermercados ou feiras a distância razoável, onde só há acesso a ultraprocessados em mercadinhos de bairro. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-1-application-5",
+      "section": "application",
+      "claim": "Mapeie os serviços de saúde a até 2 km da sua casa ou escola: UBS, hospital, pronto-socorro, farmácia. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-1-activity-6",
+      "section": "activity",
+      "claim": "A concentração de casos de dengue em bairros periurbanos com lotes abandonados e saneamento precário é exemplo de:",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

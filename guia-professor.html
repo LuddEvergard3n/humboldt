@@ -351,6 +351,7 @@
     }
   </style>
   <link rel="stylesheet" href="css/static-pages.css" />
+  <link rel="stylesheet" href="css/refinement.css" />
 </head>
 <body class="static-page static-page--guide">
 
@@ -361,11 +362,11 @@
         <span class="logo-name">Humboldt</span>
       </a>
       <nav role="navigation" aria-label="Navegação principal">
-        <ul class="nav-links" style="display:flex;list-style:none;margin:0;padding:0;gap:var(--space-2);align-items:center;">
-          <li><a href="index.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Atlas</a></li>
-          <li><a href="guia-professor.html" style="color:var(--color-accent-lt);text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Guia do Professor</a></li>
-          <li><a href="plano-aula.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Plano de Aula</a></li>
-          <li><a href="sobre.html" style="color:var(--color-text-inv);opacity:.75;text-decoration:none;font-family:var(--font-body);font-size:var(--size-sm);padding:var(--space-2) var(--space-3);">Sobre</a></li>
+        <ul class="static-nav">
+          <li><a href="index.html">Atlas</a></li>
+          <li><a href="guia-professor.html" aria-current="page">Guia do Professor</a></li>
+          <li><a href="plano-aula.html">Plano de Aula</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
         </ul>
       </nav>
     </div>
@@ -705,9 +706,9 @@
     </div><!-- /.guia-wrapper -->
   </main>
 
-  <footer style="background:var(--color-bg-panel);border-top:1px solid var(--color-border);padding:var(--space-6);text-align:center;">
-    <p style="font-family:var(--font-mono);font-size:var(--size-xs);color:var(--color-text-muted);margin:0;letter-spacing:var(--tracking-wide);">
-      Humboldt 2.0 &mdash; <a href="sobre.html" style="color:var(--color-primary);">Sobre o projeto</a> &mdash; <a href="plano-aula.html" style="color:var(--color-primary);">Gerar plano de aula</a>
+  <footer class="static-footer">
+    <p>
+      Humboldt 2.0 &mdash; <a href="sobre.html">Sobre o projeto</a> &mdash; <a href="plano-aula.html">Gerar plano de aula</a>
     </p>
   </footer>
 

@@ -9,6 +9,7 @@ import { loadLesson, loadJSON }  from '../../js/data-loader.js';
 import { ActivityEngine }         from '../activity-engine.js';
 import { HintSystem }             from '../../engine/hint-system.js';
 import { LocalProgress }          from '../../js/local-progress.js';
+import { renderCitations, renderPerspectives, renderSources } from '../editorial-evidence.js';
 
 export async function renderLesson({ moduleId, lessonId }, state, router) {
   const progressStore = new LocalProgress();
@@ -23,7 +24,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
 
   if (!lesson) {
     const el = document.createElement('div');
-    el.style.cssText = 'padding:3rem;text-align:center;';
+    el.className = 'system-state system-state--error';
     el.innerHTML = `<h2>Lição não encontrada: ${lessonId}</h2>
                     <a href="#module/${moduleId}" class="btn btn-outline">Voltar ao módulo</a>`;
     return el;
@@ -65,6 +66,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
         <p class="phenomenon-title">${lesson.phenomenon.title}</p>
         <p>${lesson.phenomenon.text}</p>
       </div>
+      ${renderCitations(lesson, 'phenomenon')}
     </section>
 
     <!-- 02 Visualização -->
@@ -79,6 +81,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
       <h2>${lesson.guided?.title || ''}</h2>
       <p>${lesson.guided?.text || ''}</p>
       ${lesson.guided?.points ? `<ul>${lesson.guided.points.map(p => `<li>${p}</li>`).join('')}</ul>` : ''}
+      ${renderCitations(lesson, 'guided')}
     </section>
 
     <!-- 04 Relação -->
@@ -88,6 +91,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
         <p class="case-study-title">${lesson.relations?.title || ''}</p>
         <p>${lesson.relations?.text || ''}</p>
       </div>
+      ${renderCitations(lesson, 'relations')}
     </section>
 
     <!-- 05 Estudo de caso -->
@@ -97,6 +101,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
         <p class="case-study-title">${lesson.caseStudy?.title || ''}</p>
         <p>${lesson.caseStudy?.text || ''}</p>
       </div>
+      ${renderCitations(lesson, 'caseStudy')}
     </section>
 
     <!-- 06 Aplicação -->
@@ -105,6 +110,7 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
       <div class="application-box">
         <p>${lesson.application || ''}</p>
       </div>
+      ${renderCitations(lesson, 'application')}
     </section>
 
     <!-- 07 Atividade -->
@@ -112,13 +118,14 @@ export async function renderLesson({ moduleId, lessonId }, state, router) {
       <p class="step-label">07 — Atividade</p>
       <div id="activity-area" class="activity-area"></div>
       <div id="feedback-area" class="feedback-msg"></div>
+      ${renderCitations(lesson, 'activity')}
     </section>
 
     <section class="lesson-step lesson-sources" id="step-sources">
       <p class="step-label">Fontes e perspectivas</p>
       <h2>Como este conteúdo foi sustentado</h2>
-      ${lesson.sources?.length ? `<ul class="source-list">${lesson.sources.map(source => `<li><a href="${source.url}" target="_blank" rel="noopener noreferrer">${source.title}</a><span>${source.publisher} · ${source.year}</span>${source.note ? `<small>${source.note}</small>` : ''}</li>`).join('')}</ul>` : '<p>Conteúdo legado com revisão de fontes pendente.</p>'}
-      ${lesson.perspectives?.length ? `<div class="perspective-grid">${lesson.perspectives.map(item => `<article><h3>${item.name}</h3><p><strong>Tese:</strong> ${item.thesis}</p><p><strong>Evidência:</strong> ${item.evidence}</p><p><strong>Crítica:</strong> ${item.criticism}</p><p><strong>Limite:</strong> ${item.limitations}</p></article>`).join('')}</div>` : ''}
+      ${renderSources(lesson.sources)}
+      ${renderPerspectives(lesson.perspectives)}
     </section>
 
     <!-- Caixa do professor -->

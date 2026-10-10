@@ -3,9 +3,9 @@
   "moduleId": "em-demography",
   "title": "Indicadores demográficos e suas escalas",
   "summary": "Taxas, estoques e pirâmides etárias descrevem dimensões diferentes da população.",
-  "lastReviewed": "2026-10-09",
+  "lastReviewed": "2026-10-10",
   "reviewStatus": "reviewed",
-  "evidenceStatus": "consensus",
+  "evidenceStatus": "reviewed",
   "estimatedDuration": 50,
   "durationUnit": "minutes",
   "scales": [
@@ -19,7 +19,25 @@
       "publisher": "United Nations DESA",
       "url": "https://population.un.org/wpp/",
       "year": 2024,
-      "accessedAt": "2026-10-09"
+      "accessedAt": "2026-10-09",
+      "type": "fonte documental ou institucional",
+      "method": "Consultar a metodologia e os metadados publicados pela fonte para o indicador ou argumento utilizado.",
+      "scope": "Escopo definido no documento ou conjunto de dados referenciado.",
+      "limitations": "Cobertura, conceitos, período e comparabilidade devem ser verificados na edição citada.",
+      "institutionalContext": "United Nations DESA responde pela seleção, produção e apresentação do material."
+    },
+    {
+      "id": "unsd-census",
+      "title": "Principles and Recommendations for Population and Housing Censuses",
+      "publisher": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/demographic-social/census/",
+      "year": 2025,
+      "type": "padrão metodológico",
+      "method": "Recomendações internacionais aprovadas pela Comissão de Estatística para planejar e avaliar censos.",
+      "scope": "Aplicação internacional; rodada censitária de 2030.",
+      "limitations": "Recomendações precisam ser adaptadas aos sistemas legais, recursos e conceitos de cada país.",
+      "institutionalContext": "Órgão técnico da ONU que coordena padrões estatísticos internacionais.",
+      "accessedAt": "2026-10-10"
     }
   ],
   "perspectives": [],
@@ -84,5 +102,67 @@
     "answer": "Indicadores precisam de denominador, período e território; números absolutos isolados raramente bastam.",
     "mediation": "Peça evidências para cada mecanismo proposto e compare ao menos duas explicações.",
     "time": "50 minutos"
-  }
+  },
+  "citations": [
+    {
+      "id": "em-demography-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Taxas, estoques e pirâmides etárias descrevem dimensões diferentes da população.",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-demography-1-guided-2",
+      "section": "guided",
+      "claim": "Indicadores precisam de denominador, período e território; números absolutos isolados raramente bastam.",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-demography-1-relations-3",
+      "section": "relations",
+      "claim": "Analise fatores físicos, sociais, econômicos, institucionais e culturais sem presumir uma causa única.",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-demography-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Aplique o conceito a dois territórios e registre localização, período, evidência e limites da comparação.",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-demography-1-application-5",
+      "section": "application",
+      "claim": "Compare uma pirâmide jovem com uma envelhecida e identifique demandas prováveis de educação, trabalho e saúde.",
+      "sourceIds": [
+        "un-wpp"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-demography-1-activity-6",
+      "section": "activity",
+      "claim": "Por que dois territórios com a mesma população podem ter necessidades distintas?",
+      "sourceIds": [
+        "unsd-census"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ]
 }

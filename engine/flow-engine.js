@@ -87,7 +87,7 @@ export class FlowEngine {
     // Tooltip de label
     if (flow.label) {
       const title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
-      title.textContent = `${flow.label}: ${flow.value}`;
+      title.textContent = flow.unit === 'schematic' ? flow.label : `${flow.label}: ${flow.value}`;
       path.appendChild(title);
     }
 

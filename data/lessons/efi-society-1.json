@@ -67,5 +67,99 @@
     "answer": "A combinação de ambiente, cultura e história.",
     "mediation": "Mostre fotos de moradias no mundo. Pergunte: o que essa casa nos conta sobre o ambiente e a cultura desse lugar?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ilo-ilostat",
+      "title": "ILOSTAT: Sources and Methods",
+      "publisher": "International Labour Organization",
+      "url": "https://rshiny.ilo.org/dataexplorer34/?lang=en",
+      "year": 2026,
+      "type": "base de trabalho",
+      "method": "Harmonização de censos, pesquisas domiciliares e registros administrativos com metadados por indicador.",
+      "scope": "Mercados de trabalho nacionais e agregados; cobertura variável.",
+      "limitations": "Informalidade, conceitos de emprego e desenho amostral afetam comparações.",
+      "institutionalContext": "Agência tripartite da ONU com representação de governos, empregadores e trabalhadores.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efi-society-1-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "No Ártico, Inuit constroem iglus de gelo. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-1-guided-2",
+      "section": "guided",
+      "claim": "Modo de vida é a forma como um grupo de pessoas se organiza para viver: o que comem, onde moram, como trabalham e como se relacionam.",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-1-relations-3",
+      "section": "relations",
+      "claim": "O lugar onde crescemos molda quem somos: o sotaque, a comida favorita, as brincadeiras da infância. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-1-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "As comunidades ribeirinhas do Amazonas vivem em ritmo das cheias e secas do rio. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-1-application-5",
+      "section": "application",
+      "claim": "Entreviste um familiar mais velho: como era a vida dele quando criança? ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-1-activity-6",
+      "section": "activity",
+      "claim": "O que determina o modo de vida de uma comunidade?",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

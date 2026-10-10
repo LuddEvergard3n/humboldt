@@ -32,17 +32,32 @@
     "type": "single-choice",
     "correct": "percepcao-politica",
     "options": [
-      { "value": "percepcao-politica", "label": "O discurso político molda a percepção da realidade — a xenofobia alimenta percepções distorcidas que retroalimentam o discurso xenófobo" },
-      { "value": "dados-errados",     "label": "Os dados oficiais sobre imigração são incorretos — há mais imigrantes do que o governo reconhece" },
-      { "value": "racional",          "label": "A preocupação com imigração é racional — mesmo que os números sejam superestimados, os impactos são reais" },
-      { "value": "midia",             "label": "A mídia mainstream esconde dados reais de imigração, criando desinformação intencional" }
+      {
+        "value": "percepcao-politica",
+        "label": "O discurso político molda a percepção da realidade — a xenofobia alimenta percepções distorcidas que retroalimentam o discurso xenófobo"
+      },
+      {
+        "value": "dados-errados",
+        "label": "Os dados oficiais sobre imigração são incorretos — há mais imigrantes do que o governo reconhece"
+      },
+      {
+        "value": "racional",
+        "label": "A preocupação com imigração é racional — mesmo que os números sejam superestimados, os impactos são reais"
+      },
+      {
+        "value": "midia",
+        "label": "A mídia mainstream esconde dados reais de imigração, criando desinformação intencional"
+      }
     ],
     "feedback": {
       "correct": "Correto. Pesquisas do IPSOS em 40 países mostram que populações superestimam sistematicamente a proporção de imigrantes — em média, por fator de 3 a 4. Em países com forte discurso anti-imigração (Hungria, Itália), a superestimação é maior, mesmo com menos imigrantes reais. O discurso político cria percepções que independem dos fatos — e essas percepções distorcidas se tornam o fundamento de políticas reais.",
       "incorrect": "Os dados oficiais são verificáveis — e as superestimações são consistentes e documentadas. A questão não é os dados serem errados, mas por que as percepções divergem tão sistematicamente dos dados reais."
     },
     "hints": [
-      { "type": "text", "content": "Na Hungria, 2% da população é imigrante — mas a Hungria tem um dos discursos anti-imigração mais intensos da Europa. Na Alemanha, 16% são imigrantes — e a resistência política é menor. Se o problema fosse o número real de imigrantes, esperaríamos o oposto. O que explica isso?" }
+      {
+        "type": "text",
+        "content": "Na Hungria, 2% da população é imigrante — mas a Hungria tem um dos discursos anti-imigração mais intensos da Europa. Na Alemanha, 16% são imigrantes — e a resistência política é menor. Se o problema fosse o número real de imigrantes, esperaríamos o oposto. O que explica isso?"
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,122 @@
     "answer": "O discurso político molda percepções que se tornam desconectadas da realidade — e essas percepções distorcidas fundamentam políticas reais. É um exemplo de como a construção discursiva tem consequências materiais.",
     "mediation": "Proponha: 'Por que o Brasil acolheu imigrantes europeus no século XIX com incentivos governamentais, e hoje trata imigrantes haitianos e venezuelanos com desconfiança? O que mudou — os imigrantes ou o Brasil?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "unhcr-methods",
+      "title": "Refugee Data Finder: Methodology",
+      "publisher": "UNHCR",
+      "url": "https://www.unhcr.org/refugee-statistics/methodology/",
+      "year": 2026,
+      "type": "estatística humanitária",
+      "method": "Registros administrativos, dados governamentais, estimativas e pesquisas, documentados por população.",
+      "scope": "Deslocamento forçado internacional e interno; cobertura por país e ano.",
+      "limitations": "Registros incompletos, mudanças de definição e crises em curso geram revisões e subcontagem.",
+      "institutionalContext": "Agência da ONU com mandato de proteção de refugiados; categorias seguem definições jurídicas e operacionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "iom-wmr",
+      "title": "World Migration Report 2024",
+      "publisher": "International Organization for Migration",
+      "url": "https://worldmigrationreport.iom.int/wmr-2024-interactive/",
+      "year": 2024,
+      "type": "relatório de síntese",
+      "method": "Síntese de bases internacionais e literatura, distinguindo estoques, fluxos e deslocamentos.",
+      "scope": "Migração internacional e interna em escala mundial.",
+      "limitations": "Dados migratórios têm lacunas, definições nacionais diferentes e defasagem.",
+      "institutionalContext": "Organização intergovernamental da ONU voltada à migração.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-migration-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A Europa envelhece. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-4-guided-2",
+      "section": "guided",
+      "claim": "A experiência dos imigrantes nos países de destino varia enormemente dependendo da política de integração, da situação econômica do país receptor e das características do grupo migrante.",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-4-relations-3",
+      "section": "relations",
+      "claim": "O crescimento de partidos de extrema direita na Europa — AfD (Alemanha), Rassemblement National (França), Vox (Espanha), Fratelli d'Italia (Itália), Fidesz (Hungria) — tem na imigração seu tema central. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Brasil tem histórico de imigração positivo — italianos, japoneses, alemães, libaneses construíram parte da identidade nacional. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-4-application-5",
+      "section": "application",
+      "claim": "Pesquise qual é a política atual de imigração do Brasil (Lei de Migração de 2017). ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-migration-4-activity-6",
+      "section": "activity",
+      "claim": "Pesquisas mostram que em países com discurso político anti-imigração intenso, a população tende a superestimar a porcentagem de imigrantes na população. ",
+      "sourceIds": [
+        "unhcr-methods",
+        "iom-wmr"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Imigração, xenofobia e direitos” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Imigração, xenofobia e direitos” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

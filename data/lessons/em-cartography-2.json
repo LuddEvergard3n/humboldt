@@ -68,5 +68,99 @@
     "answer": "Análise computacional de múltiplas camadas de dados espaciais — identificando padrões impossíveis de ver manualmente.",
     "mediation": "Acesse o MapBiomas na sala e explore a cobertura vegetal do município. Mostre como cruzar camadas de dados. O que o aluno consegue descobrir em 10 minutos?",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ibge-atlas",
+      "title": "Atlas Geográfico Escolar",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/geociencias/atlas/nacional/2402-np-atlas-geografico-escolar/16633-atlas-geografico-escolar.html",
+      "year": 2024,
+      "type": "atlas institucional",
+      "method": "Síntese cartográfica e estatística baseada em levantamentos do IBGE e fontes identificadas.",
+      "scope": "Brasil e mundo; séries com períodos distintos.",
+      "limitations": "Mapas e sínteses escolares simplificam fenômenos e devem ser lidos com a data de cada camada.",
+      "institutionalContext": "Instituto público brasileiro responsável por estatísticas oficiais e geociências.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth Data",
+      "publisher": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "year": 2026,
+      "type": "base cartográfica pública",
+      "method": "Generalização cartográfica colaborativa em escalas pequenas, com dados físicos e culturais.",
+      "scope": "Mundo; escalas 1:10m, 1:50m e 1:110m.",
+      "limitations": "Generalização e disputas de fronteira tornam a base inadequada para cadastro ou delimitação legal.",
+      "institutionalContext": "Projeto cartográfico público mantido por colaboradores; dados em domínio público.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-cartography-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Quando o iFood calcula a rota do entregador, estima o tempo de chegada e sugere o restaurante mais próximo, está processando dados geográficos em tempo real. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-2-guided-2",
+      "section": "guided",
+      "claim": "Sistema de Informação Geográfica (SIG) é um conjunto de ferramentas para coletar, armazenar, processar, analisar e visualizar dados espaciais.",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-2-relations-3",
+      "section": "relations",
+      "claim": "Smartphones geram trilhões de pontos geoespaciais por dia — onde estamos, onde compramos, como nos movemos. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O INPE usa imagens do satélite Landsat para monitorar o desmatamento amazônico desde 1988 — o sistema PRODES. ",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-2-application-5",
+      "section": "application",
+      "claim": "Acesse o MapBiomas (mapbiomas.org) e explore a cobertura vegetal do município onde você mora ao longo de 30 anos. ",
+      "sourceIds": [
+        "ibge-atlas"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-cartography-2-activity-6",
+      "section": "activity",
+      "claim": "O que diferencia o geoprocessamento do simples uso de mapas?",
+      "sourceIds": [
+        "natural-earth"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

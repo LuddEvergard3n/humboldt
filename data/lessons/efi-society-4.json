@@ -68,5 +68,99 @@
     "answer": "Patrimônio imaterial: tradições, festas, músicas e saberes transmitidos de geração em geração.",
     "mediation": "Pergunte: \"O que tem na sua família que veio dos seus avós? Uma receita, uma história, uma tradição? Isso também é patrimônio cultural.\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ilo-ilostat",
+      "title": "ILOSTAT: Sources and Methods",
+      "publisher": "International Labour Organization",
+      "url": "https://rshiny.ilo.org/dataexplorer34/?lang=en",
+      "year": 2026,
+      "type": "base de trabalho",
+      "method": "Harmonização de censos, pesquisas domiciliares e registros administrativos com metadados por indicador.",
+      "scope": "Mercados de trabalho nacionais e agregados; cobertura variável.",
+      "limitations": "Informalidade, conceitos de emprego e desenho amostral afetam comparações.",
+      "institutionalContext": "Agência tripartite da ONU com representação de governos, empregadores e trabalhadores.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "efi-society-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Carnaval no Rio, Bumba Meu Boi no Maranhão, Festa Junina no Nordeste, Oktoberfest em Blumenau, Festa do Divino em Paraty. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-4-guided-2",
+      "section": "guided",
+      "claim": "Cada comunidade tem formas próprias de viver, celebrar e se expressar.",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-4-relations-3",
+      "section": "relations",
+      "claim": "O Brasil é um país de encontros culturais: povos indígenas que já estavam aqui, africanos trazidos à força, europeus e asiáticos que vieram depois. ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Blumenau, em Santa Catarina, foi fundada por imigrantes alemães em 1850. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-4-application-5",
+      "section": "application",
+      "claim": "Pesquise: qual é a festa mais tradicional da cidade onde você mora? ",
+      "sourceIds": [
+        "ilo-ilostat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "efi-society-4-activity-6",
+      "section": "activity",
+      "claim": "O que é \"patrimônio cultural imaterial\"?",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

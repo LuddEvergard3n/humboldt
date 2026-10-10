@@ -66,5 +66,99 @@
     "answer": "Concentração dos médicos onde há maior renda e infraestrutura. A lógica de mercado distribui profissionais de saúde inversamente à necessidade.",
     "mediation": "Proponha: 'Que políticas públicas poderiam redistribuir médicos para onde há mais necessidade? Que incentivos seriam necessários?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "who-gho",
+      "title": "Global Health Observatory",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/data/gho/info/about-the-observatory",
+      "year": 2026,
+      "type": "base de saúde pública",
+      "method": "Compilação e modelagem de dados nacionais para indicadores comparáveis.",
+      "scope": "Países e territórios; cobertura temporal varia por indicador.",
+      "limitations": "Estimativas podem diferir das cifras nacionais e são revisadas quando surgem novos dados.",
+      "institutionalContext": "Agência especializada da ONU para saúde; métodos seguem mandatos de vigilância e comparabilidade.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "ibge-censo",
+      "title": "Censo Demográfico 2022",
+      "publisher": "IBGE",
+      "url": "https://censo2022.ibge.gov.br/",
+      "year": 2022,
+      "type": "censo oficial",
+      "method": "Enumeração domiciliar nacional, tratamento estatístico e divulgação territorial conforme documentação do censo.",
+      "scope": "Brasil; referência em 1º de agosto de 2022.",
+      "limitations": "Revisões, não resposta, imputação e diferenças conceituais afetam comparações com pesquisas amostrais.",
+      "institutionalContext": "Instituto público com mandato legal para produzir estatísticas nacionais.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-health-geo-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "No Brasil, a mortalidade infantil em Alagoas é 4× maior do que em Santa Catarina. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-4-guided-2",
+      "section": "guided",
+      "claim": "O Sistema Único de Saúde (SUS), criado pela Constituição de 1988, é um dos maiores sistemas públicos de saúde do mundo — com 6.780 hospitais, 46.000 Unidades Básicas de Saúde (UBS) e cobertura formal de 100% do território. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-4-relations-3",
+      "section": "relations",
+      "claim": "Desertos de saúde são áreas geográficas com cobertura assistencial insuficiente em relação à população. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Em 2013, o programa Mais Médicos levou 18.240 médicos a municípios prioritários, principalmente no interior amazônico, semiárido nordestino e periferias das grandes cidades. ",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-4-application-5",
+      "section": "application",
+      "claim": "Acesse o site do IBGE Cidades e pesquise quantos médicos por 1.000 habitantes têm o seu município e dois municípios vizinores. ",
+      "sourceIds": [
+        "who-gho"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-health-geo-4-activity-6",
+      "section": "activity",
+      "claim": "A principal causa da distribuição desigual de médicos no território brasileiro é:",
+      "sourceIds": [
+        "ibge-censo"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

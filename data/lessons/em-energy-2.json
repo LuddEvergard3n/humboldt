@@ -32,17 +32,32 @@
     "question": "O que é a 'maldição dos recursos naturais' e qual mecanismo melhor explica por que países ricos em petróleo frequentemente têm baixo desenvolvimento humano?",
     "correct": "b",
     "options": [
-      { "value": "a", "label": "O petróleo contamina o solo e a água, tornando a agricultura impossível e empobrecendo a população rural." },
-      { "value": "b", "label": "A riqueza gerada pelo petróleo concentra poder em elites e no Estado, reduz a necessidade de tributar a população e enfraquece as pressões por democracia e diversificação econômica." },
-      { "value": "c", "label": "Países ricos em petróleo são invadidos por potências estrangeiras que levam a riqueza, empobrecendo a população local." },
-      { "value": "d", "label": "O petróleo cria dependência tecnológica de empresas multinacionais, que levam o lucro para fora do país sem pagar impostos." }
+      {
+        "value": "a",
+        "label": "O petróleo contamina o solo e a água, tornando a agricultura impossível e empobrecendo a população rural."
+      },
+      {
+        "value": "b",
+        "label": "A riqueza gerada pelo petróleo concentra poder em elites e no Estado, reduz a necessidade de tributar a população e enfraquece as pressões por democracia e diversificação econômica."
+      },
+      {
+        "value": "c",
+        "label": "Países ricos em petróleo são invadidos por potências estrangeiras que levam a riqueza, empobrecendo a população local."
+      },
+      {
+        "value": "d",
+        "label": "O petróleo cria dependência tecnológica de empresas multinacionais, que levam o lucro para fora do país sem pagar impostos."
+      }
     ],
     "feedback": {
       "correct": "Exato. A 'maldição dos recursos' não é natural — é política. Quando o Estado tem renda independente da tributação popular (pelo petróleo), perde o incentivo de ser responsivo. Elites capturam as receitas. A moeda valoriza e desindustrializa o país. O resultado é riqueza na conta do Estado — e miséria na população. A Noruega escapou porque construiu instituições robustas antes do petróleo.",
       "incorrect": "A maldição dos recursos é principalmente um fenômeno político-econômico, não ambiental ou militar. O mecanismo central é a captura das receitas por elites e a desindustrialização causada pela valorização cambial — não a contaminação ou invasão estrangeira."
     },
     "hints": [
-      { "type": "text", "content": "Pense no papel dos impostos na democracia. Se o governo não precisa taxar a população para ter receita, que tipo de pressão perde? Quem fica com a riqueza do petróleo quando as instituições são fracas?" }
+      {
+        "type": "text",
+        "content": "Pense no papel dos impostos na democracia. Se o governo não precisa taxar a população para ter receita, que tipo de pressão perde? Quem fica com a riqueza do petróleo quando as instituições são fracas?"
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,122 @@
     "answer": "A maldição dos recursos opera via dois mecanismos principais: (1) doença holandesa — valorização cambial que desindustrializa; (2) captura do Estado — governos sem necessidade de tributar têm menos incentivo para ser democráticos. Noruega escapou por ter criado instituições fortes antes do petróleo chegar.",
     "mediation": "Pergunte: 'Se o Brasil receber trilhões do pré-sal nas próximas décadas, quem deve decidir como usar esse dinheiro? O governo federal? Os estados produtores? Um fundo soberano independente? Quais os riscos de cada opção?'",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "epe-ben",
+      "title": "Balanço Energético Nacional",
+      "publisher": "Empresa de Pesquisa Energética",
+      "url": "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-ben",
+      "year": 2025,
+      "type": "balanço energético oficial",
+      "method": "Contabilidade anual da oferta, transformação e consumo de energia por fonte e setor.",
+      "scope": "Brasil; ano-base anterior à edição.",
+      "limitations": "Conversões, autoprodução e revisões metodológicas precisam ser consideradas em séries longas.",
+      "institutionalContext": "Empresa pública vinculada ao Ministério de Minas e Energia.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "iea-data",
+      "title": "Data and Statistics",
+      "publisher": "International Energy Agency",
+      "url": "https://www.iea.org/data-and-statistics",
+      "year": 2026,
+      "type": "estatística energética",
+      "method": "Balanços energéticos nacionais harmonizados e séries por fonte, setor e fluxo.",
+      "scope": "Países e agregados; cobertura depende da série e da participação institucional.",
+      "limitations": "Revisões, conversões energéticas e diferenças de cobertura afetam comparações.",
+      "institutionalContext": "Organização intergovernamental ligada à OCDE; análise reflete mandato de segurança e transição energética.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-energy-2-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "A Nigéria tem as maiores reservas de petróleo da África. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-2-guided-2",
+      "section": "guided",
+      "claim": "O economista Richard Auty cunhou o termo 'maldição dos recursos' (resource curse) em 1993 para descrever um paradoxo: países com grandes reservas de recursos naturais tendem a ter crescimento econômico mais lento, mais desigualdade e mais instabilidade polí…",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-2-relations-3",
+      "section": "relations",
+      "claim": "A descoberta do pré-sal em 2006-2007 gerou euforia no Brasil. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-2-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "A Noruega descobriu petróleo no Mar do Norte em 1969. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-2-application-5",
+      "section": "application",
+      "claim": "Compare o Índice de Desenvolvimento Humano (IDH) de três países produtores de petróleo: Noruega, Arábia Saudita e Nigéria. ",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-energy-2-activity-6",
+      "section": "activity",
+      "claim": "O que é a 'maldição dos recursos naturais' e qual mecanismo melhor explica por que países ricos em petróleo frequentemente têm baixo desenvolvimento humano?",
+      "sourceIds": [
+        "epe-ben",
+        "iea-data"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Petróleo e geopolítica: a maldição dos recursos” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Petróleo e geopolítica: a maldição dos recursos” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
+    }
+  ]
 }

@@ -141,15 +141,189 @@
       "id": "sec-compare-sistemas",
       "title": "Sistemas físicos e impactos humanos",
       "type": "compare-table",
-      "columns": ["Sistema", "Processos naturais dominantes", "Perturbação humana principal", "Consequências"],
+      "columns": [
+        "Sistema",
+        "Processos naturais dominantes",
+        "Perturbação humana principal",
+        "Consequências"
+      ],
       "rows": [
-        ["Ciclo do carbono", "Fotossíntese, respiração, intemperismo, vulcanismo", "Queima de combustíveis fósseis, desmatamento", "Aquecimento global, acidificação dos oceanos, eventos extremos"],
-        ["Ciclo hidrológico", "Evaporação, precipitação, escoamento, percolação", "Captação de rios, irrigação, impermeabilização urbana, perfuração de aquíferos", "Escassez hídrica, seca, enchentes urbanas, subsidência de cidades"],
-        ["Ciclo do nitrogênio", "Fixação biológica, nitrificação, denitrificação", "Fertilizantes sintéticos (Haber-Bosch), queima de combustíveis fósseis", "Eutrofização de rios e oceanos, zonas hipóxicas, chuva ácida"],
-        ["Tectônica de placas", "Subducção, rifteamento, orogenia, vulcanismo", "Extração de petróleo e gás (colapso de cavidades), mineração, barragens (redistribuição de peso)", "Subsidência induzida, sismicidade induzida — impactos locais, não globais"],
-        ["Biodiversidade / biosfera", "Evolução, especiação, extinção natural, sucessão ecológica", "Destruição de habitat, caça, espécies invasoras, poluição, mudança climática", "6ª extinção em massa, perda de serviços ecossistêmicos, desequilíbrios tróficos"],
-        ["Clima atmosférico", "Circulação de Hadley, correntes oceânicas, ciclos de Milankovitch", "Emissão de GEE, aerossóis, mudança de uso do solo (albedo)", "Aquecimento diferencial, acidificação, desorganização da circulação oceânica"]
+        [
+          "Ciclo do carbono",
+          "Fotossíntese, respiração, intemperismo, vulcanismo",
+          "Queima de combustíveis fósseis, desmatamento",
+          "Aquecimento global, acidificação dos oceanos, eventos extremos"
+        ],
+        [
+          "Ciclo hidrológico",
+          "Evaporação, precipitação, escoamento, percolação",
+          "Captação de rios, irrigação, impermeabilização urbana, perfuração de aquíferos",
+          "Escassez hídrica, seca, enchentes urbanas, subsidência de cidades"
+        ],
+        [
+          "Ciclo do nitrogênio",
+          "Fixação biológica, nitrificação, denitrificação",
+          "Fertilizantes sintéticos (Haber-Bosch), queima de combustíveis fósseis",
+          "Eutrofização de rios e oceanos, zonas hipóxicas, chuva ácida"
+        ],
+        [
+          "Tectônica de placas",
+          "Subducção, rifteamento, orogenia, vulcanismo",
+          "Extração de petróleo e gás (colapso de cavidades), mineração, barragens (redistribuição de peso)",
+          "Subsidência induzida, sismicidade induzida — impactos locais, não globais"
+        ],
+        [
+          "Biodiversidade / biosfera",
+          "Evolução, especiação, extinção natural, sucessão ecológica",
+          "Destruição de habitat, caça, espécies invasoras, poluição, mudança climática",
+          "6ª extinção em massa, perda de serviços ecossistêmicos, desequilíbrios tróficos"
+        ],
+        [
+          "Clima atmosférico",
+          "Circulação de Hadley, correntes oceânicas, ciclos de Milankovitch",
+          "Emissão de GEE, aerossóis, mudança de uso do solo (albedo)",
+          "Aquecimento diferencial, acidificação, desorganização da circulação oceânica"
+        ]
       ]
+    }
+  ],
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "es-physical-geography-sec-tectonica-quote-1",
+      "section": "sec-tectonica-quote",
+      "claim": "A semelhança entre os contornos do Atlântico Sul nos dois lados não pode ser acidental. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "interpretação",
+      "locator": "Obra e ano indicados no bloco; conferir a edição utilizada."
+    },
+    {
+      "id": "es-physical-geography-sec-tectonica-2",
+      "section": "sec-tectonica",
+      "claim": "A teoria da tectônica de placas é para a geologia o que a evolução é para a biologia: a teoria unificadora que explica uma enorme variedade de fenômenos antes desconexos. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-physical-geography-sec-ciclos-biogeoquimicos-3",
+      "section": "sec-ciclos-biogeoquimicos",
+      "claim": "A matéria na Terra não se cria nem se destrói — circula. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-physical-geography-sec-teoricos-fisicos-4",
+      "section": "sec-teoricos-fisicos",
+      "claim": "Propôs a teoria da deriva continental em 1912, baseada na semelhança dos contornos continentais, de fósseis e de formações rochosas em continentes separados. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-physical-geography-sec-biogeografia-5",
+      "section": "sec-biogeografia",
+      "claim": "A biogeografia estuda a distribuição dos seres vivos no espaço e no tempo — e a explicação para padrões biogeográficos integra tectônica, clima, evolução e ecologia. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-physical-geography-sec-clima-modelagem-6",
+      "section": "sec-clima-modelagem",
+      "claim": "Modelos climáticos são representações matemáticas do sistema climático que simulam interações entre atmosfera, oceano, criosfera, superfície terrestre e biosfera. ",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-physical-geography-sec-timeline-terra-7",
+      "section": "sec-timeline-terra",
+      "claim": "Linha do tempo da Terra",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-physical-geography-sec-compare-sistemas-8",
+      "section": "sec-compare-sistemas",
+      "claim": "Ciclo do carbono Fotossíntese, respiração, intemperismo, vulcanismo Queima de combustíveis fósseis, desmatamento Aquecimento global, acidificação dos oceanos, eventos extremos Ciclo hidrológico Evaporação, precipitação, escoamento, percolação Captação de ri…",
+      "sourceIds": [
+        "ipcc-ar6",
+        "inpe-terrabrasilis"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Sistemas Físicos da Terra” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Sistemas Físicos da Terra” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
     }
   ]
 }

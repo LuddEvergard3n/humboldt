@@ -2,7 +2,7 @@
   "id": "es-economic-geography",
   "title": "Geografia Econômica",
   "subtitle": "Sistemas-mundo, cadeias de valor e a divisão internacional do trabalho",
-  "intro": "Por que alguns países fabricam aviões e outros exportam soja? Por que o tênis que você compra por R$ 500 foi costurado por um trabalhador pago R$ 50 por mês numa fábrica na Indonésia? A Geografia Econômica estuda como as atividades econômicas se distribuem no espaço, por que essa distribuição é desigual e como ela se reproduz ao longo do tempo. Os conceitos de sistema-mundo, divisão internacional do trabalho e cadeia global de valor são as ferramentas para responder a essas perguntas.",
+  "intro": "A Geografia Econômica investiga onde atividades se localizam, como cadeias produtivas conectam territórios e por que renda, tecnologia e emprego se distribuem de modo desigual. Teoria do sistema-mundo, estruturalismo, Nova Geografia Econômica, economia institucional e cadeias globais de valor oferecem explicações concorrentes e parcialmente complementares.",
   "readingTime": "29 min",
   "sections": [
     {
@@ -18,7 +18,7 @@
       "id": "sec-sistema-mundo",
       "title": "A teoria do sistema-mundo",
       "type": "text",
-      "body": "Immanuel Wallerstein desenvolveu, a partir dos anos 1970, uma teoria que recolocou a economia global como unidade de análise: o capitalismo não funciona em economias nacionais separadas — funciona como um sistema integrado em escala mundial desde o século XVI.\n\nO sistema-mundo capitalista é estruturado em três zonas. O centro é formado pelos países que concentram as atividades econômicas mais lucrativas, de maior valor agregado e controle tecnológico — historicamente a Europa Ocidental, depois os EUA e o Japão. A periferia são os territórios que fornecem mão de obra barata e matérias-primas. A semiperiferia são países em posição intermediária — como Brasil, México, China, Índia — que realizam algumas funções do centro e algumas da periferia.\n\nO insight central de Wallerstein é que o subdesenvolvimento não é um estado anterior ao desenvolvimento — é produto do mesmo processo que gerou o desenvolvimento do centro. A riqueza do centro foi construída, em parte, pela exploração da periferia. Isso tem consequências diretas para a análise das desigualdades geográficas: elas não são 'naturais' nem resultado de 'atraso' — são produto de relações de poder que estruturam o sistema desde o início."
+      "body": "A teoria do sistema-mundo, associada a Immanuel Wallerstein, toma a economia mundial como unidade histórica de análise e descreve posições de centro, semiperiferia e periferia. Ela destaca relações de poder, especialização e dependência ao longo do tempo.\n\nAs categorias são analíticas, não uma classificação estatística fixa. Países mudam de posição, combinam setores de alta e baixa produtividade e mantêm desigualdades internas. Críticas apontam que a teoria pode reduzir instituições nacionais, inovação, cultura e escolhas políticas a uma estrutura global ampla demais. Modelos de aglomeração, abordagens institucionais e estudos de cadeias de valor testam mecanismos mais específicos."
     },
     {
       "id": "sec-teoricos-eco",
@@ -63,32 +63,222 @@
       "id": "sec-divisao-trabalho",
       "title": "Divisão internacional do trabalho",
       "type": "text",
-      "body": "A divisão internacional do trabalho (DIT) descreve a especialização de países e regiões em diferentes etapas e tipos de produção dentro da economia global. A DIT não é fixa — ela se transforma com as mudanças tecnológicas, geopolíticas e nos custos relativos de produção.\n\nA DIT clássica (séculos XIX–XX) era simples: países industrializados fabricavam bens manufaturados; países colonizados forneciam matérias-primas e produtos agrícolas. Essa estrutura está na base do que Raul Prebisch e a CEPAL chamaram de 'deterioração dos termos de troca': ao longo do tempo, os preços dos produtos primários caem em relação aos manufaturados — tornando os países exportadores de commodities progressivamente mais pobres em termos relativos.\n\nA nova DIT (décadas de 1970 em diante) é mais complexa: as cadeias produtivas se fragmentam globalmente. Uma jaqueta 'made in Vietnam' pode ter tecido da China, zíper do Japão, design da Itália e ser vendida por uma marca americana. Cada etapa da cadeia tem uma lógica de localização diferente: design e P&D em países com alta qualificação; manufatura labor-intensive em países com salários baixos; distribuição e varejo perto dos consumidores ricos."
+      "body": "A divisão internacional do trabalho descreve a distribuição de atividades produtivas entre territórios. Custos relativos, escala, conhecimento, infraestrutura, regras comerciais, segurança e decisões empresariais influenciam essa distribuição.\n\nA hipótese Prebisch–Singer propõe deterioração de longo prazo nos termos de troca de certos produtos primários, mas o resultado não é uniforme entre commodities, períodos ou países. A fragmentação contemporânea das cadeias permite que pesquisa, insumos, montagem, logística e venda ocorram em lugares distintos. Para avaliar ganhos, é preciso medir valor adicionado, emprego, aprendizado, risco e distribuição, e não apenas identificar o país exportador final."
     },
     {
       "id": "sec-cadeias-valor",
       "title": "Cadeias globais de valor e o sorriso de Stan Shih",
       "type": "text",
-      "body": "O fundador da Acer, Stan Shih, descreveu em 1992 o 'sorriso da curva de valor': numa cadeia produtiva, as etapas que geram mais valor ficam nas pontas (pesquisa, design, marketing, varejo) — não no meio (fabricação). A curva, quando desenhada, forma um sorriso.\n\nIsso tem implicações geopolíticas profundas. Os países que montam o iPhone (China) capturam cerca de 5% do valor. Os que projetam os chips e o sistema operacional (EUA) e os que vendem (varejistas ocidentais) capturam 95%. 'Made in China' é enganoso: a China é o local de montagem, não o criador de valor.\n\nPara países em desenvolvimento, 'entrar na cadeia global' pode ser armadilha se a entrada for apenas pela manufatura de baixo valor. A estratégia de upgrading industrial — mover-se para etapas de maior valor — é o objetivo central das políticas industriais da Coreia do Sul, China e Japão. Não é automático: exige investimento público em educação, pesquisa e políticas industriais deliberadas — exatamente o tipo de intervenção que os acordos de livre-comércio frequentemente proíbem."
+      "body": "A “curva sorriso”, popularizada por Stan Shih, sugere que algumas cadeias concentram margens em pesquisa, design, marca e serviços, enquanto a montagem captura parcela menor. É uma heurística, não uma lei: a distribuição varia por produto, empresa, poder de mercado, propriedade intelectual e período.\n\nEstudos de produtos eletrônicos mostram que o país de montagem não recebe automaticamente todo o valor registrado na exportação. Percentuais devem ser atribuídos a um produto, ano e método específicos; por isso, a antiga divisão fixa de 5% contra 95% foi removida. Estratégias de upgrading podem envolver qualificação, fornecedores, infraestrutura, concorrência, pesquisa e política industrial, cujos custos e resultados são debatidos."
     },
     {
       "id": "sec-brasil-economia",
       "title": "A inserção do Brasil na economia global",
       "type": "text",
-      "body": "A trajetória econômica do Brasil na economia global é marcada por uma tensão não resolvida: entre a inserção como exportador de commodities (padrão histórico desde a colônia) e a aspiração à industrialização e à produção de maior valor agregado.\n\nO ciclo de commodities dos anos 2000–2012 (China comprando soja, minério e petróleo em volume recorde) gerou crescimento, mas aprofundou a reprimarização — o aumento da participação das commodities na pauta exportadora em detrimento da indústria. A desindustrialização relativa do Brasil, iniciada nos anos 1990 com a abertura econômica, se acelerou nesse período.\n\nA China é o principal parceiro comercial do Brasil desde 2009 — mas a estrutura do intercâmbio reproduz a DIT clássica: o Brasil exporta soja, minério de ferro e petróleo bruto; importa produtos industrializados e bens de capital. É uma relação periferia-centro, mesmo que o 'centro' agora seja o Sul.\n\nO debate sobre a doença holandesa e a necessidade de política industrial para superar a armadilha da renda média é o debate econômico central do Brasil contemporâneo — com raízes diretas na Geografia Econômica."
+      "body": "A inserção externa brasileira combina grande produção agropecuária e mineral com manufaturas e serviços. China, Estados Unidos, União Europeia, Argentina e outros parceiros têm pautas diferentes, que mudam com preços, câmbio e demanda.\n\nA perda relativa de peso de parte da indústria de transformação e o aumento de produtos básicos nas exportações alimentam o debate sobre desindustrialização. As explicações incluem produtividade, tributação, juros, câmbio, concorrência, infraestrutura e mudança da demanda. Leituras estruturalistas enfatizam dependência e política industrial; leituras liberais enfatizam competição, integração e ambiente de negócios; abordagens institucionais comparam capacidades e incentivos. Nenhuma série isolada resolve o debate."
     },
     {
       "id": "sec-compare-dit",
       "title": "Modelos de inserção na economia global",
       "type": "compare-table",
-      "columns": ["País/Região", "Especialização", "Posição na curva de valor", "Estratégia de upgrading", "Resultado"],
+      "columns": [
+        "País/Região",
+        "Especialização",
+        "Posição na curva de valor",
+        "Estratégia de upgrading",
+        "Resultado"
+      ],
       "rows": [
-        ["Coreia do Sul", "Eletrônicos, automotivo, semicondutores", "Design, manufatura avançada, marcas próprias", "Chaebol + investimento público massivo em P&D", "Saiu da periferia em 3 décadas; renda per capita similar à Espanha"],
-        ["China", "Manufatura para exportação → tecnologia", "Manufatura → acumulação de P&D → marcas globais", "Política industrial deliberada, absorção tecnológica", "Maior fabricante mundial; disputando liderança em IA e EV"],
-        ["Brasil", "Commodities agrícolas e minerais", "Produção primária; manufatura em declínio relativo", "Tentativas interrompidas (BNDES, política industrial 2003–2014)", "Renda média; desindustrialização relativa; reprimarização"],
-        ["Bangladesh", "Confecções (têxteis e vestuário)", "Manufatura labor-intensive de baixo valor", "Limitado por dependência de compradores globais (fast fashion)", "Crescimento do emprego, mas aprisionamento no baixo valor"],
-        ["Alemanha", "Máquinas, químicos, automotivo premium", "Engenharia, marcas, serviços industriais (Industrie 4.0)", "Especialização em Mittelstand de alto valor agregado", "Centro persistente; superávit comercial estrutural"]
+        [
+          "Coreia do Sul",
+          "Eletrônicos, automotivo, semicondutores",
+          "Design, manufatura avançada, marcas próprias",
+          "Chaebol + investimento público massivo em P&D",
+          "Saiu da periferia em 3 décadas; renda per capita similar à Espanha"
+        ],
+        [
+          "China",
+          "Manufatura para exportação → tecnologia",
+          "Manufatura → acumulação de P&D → marcas globais",
+          "Política industrial deliberada, absorção tecnológica",
+          "Maior fabricante mundial; disputando liderança em IA e EV"
+        ],
+        [
+          "Brasil",
+          "Commodities agrícolas e minerais",
+          "Produção primária; manufatura em declínio relativo",
+          "Tentativas interrompidas (BNDES, política industrial 2003–2014)",
+          "Renda média; desindustrialização relativa; reprimarização"
+        ],
+        [
+          "Bangladesh",
+          "Confecções (têxteis e vestuário)",
+          "Manufatura labor-intensive de baixo valor",
+          "Limitado por dependência de compradores globais (fast fashion)",
+          "Crescimento do emprego, mas aprisionamento no baixo valor"
+        ],
+        [
+          "Alemanha",
+          "Máquinas, químicos, automotivo premium",
+          "Engenharia, marcas, serviços industriais (Industrie 4.0)",
+          "Especialização em Mittelstand de alto valor agregado",
+          "Centro persistente; superávit comercial estrutural"
+        ]
       ]
+    }
+  ],
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "krugman-geography",
+      "title": "Increasing Returns and Economic Geography",
+      "publisher": "Journal of Political Economy",
+      "url": "https://doi.org/10.1086/261763",
+      "year": 1991,
+      "type": "artigo acadêmico",
+      "method": "Modelo formal de localização com rendimentos crescentes, custos de transporte e mobilidade.",
+      "scope": "Economia espacial teórica com ilustrações estilizadas.",
+      "limitations": "Resultados dependem de hipóteses simplificadoras e não explicam sozinhos trajetórias históricas.",
+      "institutionalContext": "Artigo revisado por pares ligado à Nova Geografia Econômica.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "es-economic-geography-sec-wallerstein-quote-1",
+      "section": "sec-wallerstein-quote",
+      "claim": "O capitalismo histórico existe como sistema-mundo. ",
+      "sourceIds": [
+        "krugman-geography",
+        "wto-stats"
+      ],
+      "status": "interpretação",
+      "locator": "Obra e ano indicados no bloco; conferir a edição utilizada."
+    },
+    {
+      "id": "es-economic-geography-sec-sistema-mundo-2",
+      "section": "sec-sistema-mundo",
+      "claim": "A teoria do sistema-mundo, associada a Immanuel Wallerstein, toma a economia mundial como unidade histórica de análise e descreve posições de centro, semiperiferia e periferia. ",
+      "sourceIds": [
+        "krugman-geography",
+        "wto-stats"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-economic-geography-sec-teoricos-eco-3",
+      "section": "sec-teoricos-eco",
+      "claim": "Desenvolveu a análise do sistema-mundo capitalista, introduzindo as categorias de centro, semiperiferia e periferia. ",
+      "sourceIds": [
+        "krugman-geography",
+        "wto-stats"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-economic-geography-sec-divisao-trabalho-4",
+      "section": "sec-divisao-trabalho",
+      "claim": "A divisão internacional do trabalho descreve a distribuição de atividades produtivas entre territórios. ",
+      "sourceIds": [
+        "krugman-geography",
+        "wto-stats"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-economic-geography-sec-cadeias-valor-5",
+      "section": "sec-cadeias-valor",
+      "claim": "A “curva sorriso”, popularizada por Stan Shih, sugere que algumas cadeias concentram margens em pesquisa, design, marca e serviços, enquanto a montagem captura parcela menor. ",
+      "sourceIds": [
+        "krugman-geography",
+        "wto-stats"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-economic-geography-sec-brasil-economia-6",
+      "section": "sec-brasil-economia",
+      "claim": "A inserção externa brasileira combina grande produção agropecuária e mineral com manufaturas e serviços. ",
+      "sourceIds": [
+        "krugman-geography",
+        "wto-stats"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-economic-geography-sec-compare-dit-7",
+      "section": "sec-compare-dit",
+      "claim": "Coreia do Sul Eletrônicos, automotivo, semicondutores Design, manufatura avançada, marcas próprias Chaebol + investimento público massivo em P&D Saiu da periferia em 3 décadas; renda per capita similar à Espanha China Manufatura para exportação → tecnologia…",
+      "sourceIds": [
+        "krugman-geography",
+        "wto-stats"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Geografia Econômica” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Geografia Econômica” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
     }
   ]
 }

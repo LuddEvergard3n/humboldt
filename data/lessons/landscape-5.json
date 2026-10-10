@@ -71,5 +71,99 @@
     "answer": "Rochas antigas (Pré-Cambriano) → minérios metálicos; bacias sedimentares jovens → petróleo e gás. Geologia determina recursos.",
     "mediation": "Mostre mapa geológico sobreposto ao mapa de mineração. Pergunte: \"Por que o Pará e Minas Gerais têm minério de ferro?\"",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "ipcc-ar6",
+      "title": "AR6 Synthesis Report",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "url": "https://www.ipcc.ch/report/ar6/syr/",
+      "year": 2023,
+      "type": "avaliação científica",
+      "method": "Síntese revisada de literatura científica, com linguagem calibrada de confiança e probabilidade.",
+      "scope": "Sistema climático global, impactos e respostas; literatura disponível até os cortes do AR6.",
+      "limitations": "Não produz observações originais; resultados dependem dos estudos avaliados e de cenários.",
+      "institutionalContext": "Painel intergovernamental científico; governos aprovam o resumo, sem reescrever os capítulos técnicos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "inpe-terrabrasilis",
+      "title": "TerraBrasilis: PRODES e DETER",
+      "publisher": "INPE",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "year": 2026,
+      "type": "monitoramento por sensoriamento remoto",
+      "method": "Classificação e interpretação de imagens orbitais conforme metodologias PRODES e DETER.",
+      "scope": "Amazônia Legal e outros biomas conforme produto; períodos próprios.",
+      "limitations": "Resolução, cobertura de nuvens e definição de corte raso limitam a leitura; DETER é alerta, não taxa anual.",
+      "institutionalContext": "Instituto público brasileiro de pesquisa espacial.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "landscape-5-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "As montanhas do Quadrilátero Ferrífero em Minas Gerais têm 2 bilhões de anos — eram tão altas quanto o Himalaia. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-5-guided-2",
+      "section": "guided",
+      "claim": "A paisagem é o resultado de forças internas (endógenas) e externas (exógenas) atuando ao longo do tempo geológico.",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-5-relations-3",
+      "section": "relations",
+      "claim": "O petróleo do pré-sal brasileiro formou-se há 120 milhões de anos quando o Atlântico Sul ainda estava se abrindo. ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-5-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "O Pantanal é a maior planície de inundação do mundo: 150 mil km² que alagam todo ano quando os rios transbordam, depositando sedimentos que renovam os nutrientes do solo. ",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-5-application-5",
+      "section": "application",
+      "claim": "Pesquise: o que é o Aquífero Guarani? ",
+      "sourceIds": [
+        "ipcc-ar6"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "landscape-5-activity-6",
+      "section": "activity",
+      "claim": "Use as camadas para identificar: como a geologia do Brasil se relaciona com seus recursos naturais?",
+      "sourceIds": [
+        "inpe-terrabrasilis"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

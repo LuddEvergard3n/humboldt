@@ -75,7 +75,7 @@ export class Router {
 
     // Rola ao topo da área de conteúdo
     document.getElementById('main-content').focus({ preventScroll: true });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
 
     try {
       switch (view) {
@@ -171,9 +171,8 @@ export class Router {
     const hash = window.location.hash.replace(/^#\/?/, '');
     const view = hash.split(/[/?]/)[0];
 
-    if (view === 'home' || view === '') {
-      const el = document.querySelector('[data-nav="home"]');
-      if (el) el.setAttribute('aria-current', 'page');
-    }
+    const navView = view === '' ? 'home' : view;
+    const el = document.querySelector(`[data-nav="${navView}"]`);
+    if (el) el.setAttribute('aria-current', 'page');
   }
 }

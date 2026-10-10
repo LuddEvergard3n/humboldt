@@ -1,8 +1,8 @@
 {
   "id": "es-postcolonial-feminist",
   "title": "Abordagens Contemporâneas e Debates",
-  "subtitle": "Perspectivas pós-coloniais, feministas, institucionais, quantitativas e culturais em comparação",
-  "intro": "A geografia contemporânea reúne abordagens com perguntas, métodos e limites diferentes. Perspectivas pós-coloniais e feministas investigam como poder, gênero, raça e heranças imperiais afetam a produção do espaço e do conhecimento. Abordagens institucionais examinam regras e capacidades; métodos quantitativos testam padrões e hipóteses; tradições humanistas e culturais estudam experiência, sentido e identidade. Nenhuma dessas lentes explica sozinha todo fenômeno. Este artigo apresenta contribuições, evidências, críticas e alternativas para que o leitor compare argumentos sem confundir escola teórica com fato estabelecido.",
+  "subtitle": "Contribuições, evidências, críticas e limites de correntes contemporâneas",
+  "intro": "Abordagens pós-coloniais, feministas, decoloniais e culturais perguntam quem produz conhecimento geográfico, quais experiências ficam de fora e como espaço e poder se relacionam. O artigo apresenta essas contribuições como tradições identificadas, junto de críticas sobre evidência, generalização, linguagem e aplicabilidade.",
   "readingTime": "32 min",
   "sections": [
     {
@@ -135,17 +135,199 @@
       "id": "sec-compare-tradicoes",
       "title": "Comparação de abordagens e limites",
       "type": "compare-table",
-      "columns": ["Tradição", "Objeto central", "Conceitos-chave", "Autoras/es de referência", "Limites e críticas"],
+      "columns": [
+        "Tradição",
+        "Objeto central",
+        "Conceitos-chave",
+        "Autoras/es de referência",
+        "Limites e críticas"
+      ],
       "rows": [
-        ["Orientalismo / Pós-colonialismo", "Representação do 'outro' colonial; discurso imperial", "Orientalismo, hibridismo, terceiro espaço, subalternidade", "Said, Bhabha, Spivak, Fanon", "Risco de essencialismo inverso; foco no discurso pode obscurecer as condições materiais"],
-        ["Geografias feministas", "Espaço e gênero; mobilidade; trabalho reprodutivo", "Geometrias do poder, olhar masculino, espaço doméstico/público, interseccionalidade", "Massey, Rose, McDowell, Monk", "Tensão entre feminismo universalista e atenção às diferenças de raça e classe"],
-        ["Epistemologias do Sul", "Saberes subalternos; pluralidade epistemológica", "Sociologia das ausências, ecologia de saberes, pensamento abissal", "Boaventura de Sousa Santos, Mignolo", "Risco de romantizar saberes locais; difícil operacionalização acadêmica"],
-        ["Geografias negras", "Espaço, raça e violência; necropolítica", "Necropolítica, segregação racial, periferização, branquitude espacial", "Mbembe, Katherine McKittrick, Beatriz Nascimento", "Campo em construção; tensão entre diagnóstico e proposta"],
-        ["Decolonialidade", "Colonialidade do poder/saber/ser; modernidade como projeto colonial", "Colonialidade, diferença colonial, pensamento fronteiriço", "Quijano, Mignolo, Lugones, Maldonado-Torres", "Tendência ao anti-ocidentalismo que dificulta diálogos; foco excessivo no diagnóstico"],
-        ["Institucionalismo", "Regras formais e informais; capacidade estatal; incentivos territoriais", "Instituições, governança, custos de transação, bens públicos", "North, Ostrom, Acemoglu, Robinson", "Risco de causalidade reversa e de subestimar geografia, história e relações internacionais"],
-        ["Geografia quantitativa", "Padrões, localização, redes e relações espaciais mensuráveis", "Escala, autocorrelação, acessibilidade, modelagem e incerteza", "Haggett, Berry, Openshaw, Goodchild", "Resultados dependem da unidade de análise, da qualidade dos dados e das hipóteses do modelo"],
-        ["Geografia humanista e cultural", "Experiência do lugar, paisagem, identidade e produção de sentidos", "Lugar, percepção, representação, memória e territorialidade", "Tuan, Relph, Cosgrove, Claval", "Interpretações podem ser difíceis de generalizar e comparar em grande escala"]
+        [
+          "Orientalismo / Pós-colonialismo",
+          "Representação do 'outro' colonial; discurso imperial",
+          "Orientalismo, hibridismo, terceiro espaço, subalternidade",
+          "Said, Bhabha, Spivak, Fanon",
+          "Risco de essencialismo inverso; foco no discurso pode obscurecer as condições materiais"
+        ],
+        [
+          "Geografias feministas",
+          "Espaço e gênero; mobilidade; trabalho reprodutivo",
+          "Geometrias do poder, olhar masculino, espaço doméstico/público, interseccionalidade",
+          "Massey, Rose, McDowell, Monk",
+          "Tensão entre feminismo universalista e atenção às diferenças de raça e classe"
+        ],
+        [
+          "Epistemologias do Sul",
+          "Saberes subalternos; pluralidade epistemológica",
+          "Sociologia das ausências, ecologia de saberes, pensamento abissal",
+          "Boaventura de Sousa Santos, Mignolo",
+          "Risco de romantizar saberes locais; difícil operacionalização acadêmica"
+        ],
+        [
+          "Geografias negras",
+          "Espaço, raça e violência; necropolítica",
+          "Necropolítica, segregação racial, periferização, branquitude espacial",
+          "Mbembe, Katherine McKittrick, Beatriz Nascimento",
+          "Campo em construção; tensão entre diagnóstico e proposta"
+        ],
+        [
+          "Decolonialidade",
+          "Colonialidade do poder/saber/ser; modernidade como projeto colonial",
+          "Colonialidade, diferença colonial, pensamento fronteiriço",
+          "Quijano, Mignolo, Lugones, Maldonado-Torres",
+          "Tendência ao anti-ocidentalismo que dificulta diálogos; foco excessivo no diagnóstico"
+        ],
+        [
+          "Institucionalismo",
+          "Regras formais e informais; capacidade estatal; incentivos territoriais",
+          "Instituições, governança, custos de transação, bens públicos",
+          "North, Ostrom, Acemoglu, Robinson",
+          "Risco de causalidade reversa e de subestimar geografia, história e relações internacionais"
+        ],
+        [
+          "Geografia quantitativa",
+          "Padrões, localização, redes e relações espaciais mensuráveis",
+          "Escala, autocorrelação, acessibilidade, modelagem e incerteza",
+          "Haggett, Berry, Openshaw, Goodchild",
+          "Resultados dependem da unidade de análise, da qualidade dos dados e das hipóteses do modelo"
+        ],
+        [
+          "Geografia humanista e cultural",
+          "Experiência do lugar, paisagem, identidade e produção de sentidos",
+          "Lugar, percepção, representação, memória e territorialidade",
+          "Tuan, Relph, Cosgrove, Claval",
+          "Interpretações podem ser difíceis de generalizar e comparar em grande escala"
+        ]
       ]
+    }
+  ],
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "debate",
+  "sources": [
+    {
+      "id": "world-bank-wgi",
+      "title": "Worldwide Governance Indicators: Documentation",
+      "publisher": "World Bank",
+      "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators/documentation",
+      "year": 2025,
+      "type": "indicador composto",
+      "method": "Agregação de fontes de percepção e experiência por modelo estatístico de componentes não observados.",
+      "scope": "Mais de 200 economias; série anual.",
+      "limitations": "Margens de erro são substanciais; percepções não equivalem diretamente a desempenho institucional.",
+      "institutionalContext": "Instituição financeira multilateral; a escolha de dimensões é normativa e metodológica.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "vdem-method",
+      "title": "V-Dem Methodology",
+      "publisher": "V-Dem Institute",
+      "url": "https://www.v-dem.net/about/v-dem-project/methodology/",
+      "year": 2026,
+      "type": "base acadêmica",
+      "method": "Codificação por especialistas, agregação bayesiana e divulgação de incerteza.",
+      "scope": "Países e territórios; série histórica ampla.",
+      "limitations": "Julgamentos de especialistas e cobertura desigual introduzem incerteza; índices dependem da conceituação.",
+      "institutionalContext": "Consórcio acadêmico internacional sediado na Universidade de Gotemburgo.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "es-postcolonial-feminist-sec-fanon-quote-1",
+      "section": "sec-fanon-quote",
+      "claim": "O mundo colonial é um mundo compartimentado. ",
+      "sourceIds": [
+        "world-bank-wgi",
+        "vdem-method"
+      ],
+      "status": "interpretação",
+      "locator": "Obra e ano indicados no bloco; conferir a edição utilizada."
+    },
+    {
+      "id": "es-postcolonial-feminist-sec-pos-colonial-intro-2",
+      "section": "sec-pos-colonial-intro",
+      "claim": "O colonialismo não foi apenas um sistema político e econômico de dominação — foi também um projeto epistemológico: a produção sistemática de conhecimento sobre os colonizados que os posicionava como inferiores, primitivos, sem história ou como 'natureza' a…",
+      "sourceIds": [
+        "world-bank-wgi",
+        "vdem-method"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-postcolonial-feminist-sec-teoricos-poscoloniais-3",
+      "section": "sec-teoricos-poscoloniais",
+      "claim": "Em Os Condenados da Terra (1961) e Pele Negra, Máscaras Brancas (1952), analisou a violência colonial como constitutiva — não acidental — do sistema colonial. ",
+      "sourceIds": [
+        "world-bank-wgi",
+        "vdem-method"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-postcolonial-feminist-sec-geografia-feminista-4",
+      "section": "sec-geografia-feminista",
+      "claim": "A geografia feminista emergiu nos anos 1970 a partir de uma constatação simples: a disciplina geográfica havia sistematicamente ignorado a experiência das mulheres no espaço. ",
+      "sourceIds": [
+        "world-bank-wgi",
+        "vdem-method"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-postcolonial-feminist-sec-geografias-sul-5",
+      "section": "sec-geografias-sul",
+      "claim": "Boaventura de Sousa Santos desenvolveu o conceito de 'epistemologias do Sul' para designar formas de conhecimento produzidas a partir de experiências de resistência ao capitalismo global e ao colonialismo — conhecimentos que o sistema acadêmico hegemônico c…",
+      "sourceIds": [
+        "world-bank-wgi",
+        "vdem-method"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-postcolonial-feminist-sec-timeline-geografias-criticas-6",
+      "section": "sec-timeline-geografias-criticas",
+      "claim": "Marcos das geografias críticas",
+      "sourceIds": [
+        "world-bank-wgi",
+        "vdem-method"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    },
+    {
+      "id": "es-postcolonial-feminist-sec-compare-tradicoes-7",
+      "section": "sec-compare-tradicoes",
+      "claim": "Orientalismo / Pós-colonialismo Representação do 'outro' colonial; discurso imperial Orientalismo, hibridismo, terceiro espaço, subalternidade Said, Bhabha, Spivak, Fanon Risco de essencialismo inverso; foco no discurso pode obscurecer as condições materiai…",
+      "sourceIds": [
+        "world-bank-wgi",
+        "vdem-method"
+      ],
+      "status": "debate",
+      "locator": "Consulte a seção temática e os metadados das fontes."
+    }
+  ],
+  "perspectives": [
+    {
+      "name": "Abordagem institucional e empírica",
+      "thesis": "Explica “Abordagens Contemporâneas e Debates” por regras, incentivos, capacidades estatais e resultados observáveis.",
+      "evidence": "Indicadores documentados, comparação histórica e avaliação de políticas.",
+      "criticism": "Indicadores podem incorporar escolhas normativas e reduzir processos históricos complexos.",
+      "limitations": "Associação estatística não demonstra causalidade sem desenho de pesquisa adequado.",
+      "alternatives": "Abordagens históricas, culturais, críticas e geopolíticas."
+    },
+    {
+      "name": "Abordagem histórica e crítica",
+      "thesis": "Interpreta “Abordagens Contemporâneas e Debates” a partir de trajetória, distribuição de poder e conflitos de interesse.",
+      "evidence": "Arquivos, estudos de caso, mudanças institucionais e efeitos distributivos.",
+      "criticism": "Pode generalizar casos, subestimar variação local ou atribuir causalidade ampla demais.",
+      "limitations": "Interpretações dependem do recorte temporal, da escala e da seleção de casos.",
+      "alternatives": "Modelos quantitativos, análise institucional e explicações culturais."
     }
   ]
 }

@@ -13,8 +13,8 @@ export const MAP_CATALOG = Object.freeze({
     legend: [['area', '#d6c58b', 'Unidades federativas'], ['line', '#173650', 'Limites estaduais'], ['area', '#9fc9d7', 'Entorno']],
   },
   'brazil-physical-biomes': {
-    title: 'Brasil físico e regiões', subtitle: 'Macrorregiões e limites estaduais', extent: 'Brasil', source: 'IBGE Malhas; síntese Humboldt', period: 'revisão 2026', kind: 'Mapa regional', notice: 'As cores representam macrorregiões, não polígonos oficiais de biomas.',
-    legend: [['area', '#6e9b68', 'Norte'], ['area', '#d7aa58', 'Nordeste'], ['area', '#c6a77a', 'Centro-Oeste'], ['area', '#829fbd', 'Sudeste'], ['area', '#91a67b', 'Sul'], ['line', '#173650', 'Limites estaduais']],
+    title: 'Brasil físico e biomas', subtitle: 'Biomas continentais e limites estaduais', extent: 'Brasil', source: 'IBGE, Biomas do Brasil 1:5.000.000; IBGE Malhas', period: 'metadado 2011; revisão 2026', kind: 'Mapa de biomas', notice: 'Polígonos oficiais generalizados para a escala 1:5.000.000; limites estaduais servem apenas como referência.',
+    legend: [['area', '#4f7f68', 'Amazônia'], ['area', '#769b72', 'Mata Atlântica'], ['area', '#c7a85f', 'Cerrado'], ['area', '#d7b86d', 'Caatinga'], ['area', '#72a7a1', 'Pantanal'], ['area', '#8d9a68', 'Pampa'], ['line', '#fffaf0', 'Limites estaduais']],
   },
   'oceans-routes': {
     title: 'Oceanos e rotas', subtitle: 'Corredores marítimos selecionados', extent: 'Global', source: 'Natural Earth; síntese Humboldt', period: 'revisão 2026', kind: 'Rede qualitativa', notice: 'Rotas esquemáticas, sem volume ou frequência associados.',

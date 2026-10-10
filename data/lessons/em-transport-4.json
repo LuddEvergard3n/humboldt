@@ -32,17 +32,32 @@
     "question": "Por que o tempo de deslocamento é considerado um indicador de desigualdade urbana — e não apenas de eficiência do sistema de transporte?",
     "correct": "c",
     "options": [
-      { "value": "a", "label": "Porque pessoas ricas são mais impacientes e valorizam mais o seu tempo do que as pessoas pobres." },
-      { "value": "b", "label": "Porque o transporte público é sempre mais lento que o carro — então quem tem carro chega mais rápido independente de onde mora." },
-      { "value": "c", "label": "Porque a localização da moradia na cidade — determinada pela renda — define o tempo de deslocamento: quem mora na periferia por não poder pagar aluguel central perde horas por dia que moradores de áreas privilegiadas não perdem." },
-      { "value": "d", "label": "Porque o transporte público do Brasil é ruim para todo mundo, independente de onde a pessoa mora na cidade." }
+      {
+        "value": "a",
+        "label": "Porque pessoas ricas são mais impacientes e valorizam mais o seu tempo do que as pessoas pobres."
+      },
+      {
+        "value": "b",
+        "label": "Porque o transporte público é sempre mais lento que o carro — então quem tem carro chega mais rápido independente de onde mora."
+      },
+      {
+        "value": "c",
+        "label": "Porque a localização da moradia na cidade — determinada pela renda — define o tempo de deslocamento: quem mora na periferia por não poder pagar aluguel central perde horas por dia que moradores de áreas privilegiadas não perdem."
+      },
+      {
+        "value": "d",
+        "label": "Porque o transporte público do Brasil é ruim para todo mundo, independente de onde a pessoa mora na cidade."
+      }
     ],
     "feedback": {
       "correct": "Correto. O tempo de deslocamento é desigual porque a localização na cidade é desigual — e a localização é determinada pela renda. Quem não pode pagar aluguel no centro mora na periferia e paga com tempo e saúde o que não paga com dinheiro de aluguel. O transporte revela e reproduz a desigualdade espacial da cidade: os empregos estão no centro, as casas dos trabalhadores estão na periferia, e o transporte entre os dois é caro, lento e degradante.",
       "incorrect": "Pense não no transporte em si, mas em quem usa cada tipo de transporte e por quê. Por que um trabalhador mora longe do emprego? E quem mora perto? O que define onde cada pessoa pode morar numa cidade?"
     },
     "hints": [
-      { "type": "text", "content": "Por que um trabalhador que ganha salário mínimo mora na periferia, longe do emprego? Por que não mora perto? O que o impede? Essa resposta explica por que o deslocamento é desigual." }
+      {
+        "type": "text",
+        "content": "Por que um trabalhador que ganha salário mínimo mora na periferia, longe do emprego? Por que não mora perto? O que o impede? Essa resposta explica por que o deslocamento é desigual."
+      }
     ]
   },
   "teacher": {
@@ -51,5 +66,112 @@
     "answer": "O tempo de deslocamento é desigual porque a localização na cidade é desigual. Quem não pode pagar aluguel no centro mora na periferia — e paga com tempo o que não paga com dinheiro. O transporte revela e reproduz a separação espacial entre classes.",
     "mediation": "Pergunte: 'Se o prefeito tivesse que escolher entre construir um metrô para o centro ou asfaltar estradas da periferia, quem seria beneficiado em cada caso? Qual seria mais justo? Qual seria mais eficiente?' Não existe resposta certa — o objetivo é o debate.",
     "time": "50 minutos"
-  }
+  },
+  "lastReviewed": "2026-10-10",
+  "reviewStatus": "reviewed",
+  "evidenceStatus": "reviewed",
+  "sources": [
+    {
+      "id": "wto-stats",
+      "title": "Trade Profiles and Statistics",
+      "publisher": "World Trade Organization",
+      "url": "https://www.wto.org/english/res_e/statis_e/trade_profiles_list_e.htm",
+      "year": 2026,
+      "type": "estatística de comércio",
+      "method": "Compilação de comércio de bens e serviços segundo notas técnicas e dados de membros e organismos parceiros.",
+      "scope": "Membros da OMC; anos variam por indicador.",
+      "limitations": "Reexportações, valoração, defasagem e diferenças nacionais afetam comparações.",
+      "institutionalContext": "Organização intergovernamental que administra acordos comerciais; dados não avaliam sozinhos efeitos distributivos.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "world-bank-wdi",
+      "title": "World Development Indicators: Sources and Methods",
+      "publisher": "World Bank",
+      "url": "https://datatopics.worldbank.org/world-development-indicators/sources-and-methods.html",
+      "year": 2026,
+      "type": "base de indicadores",
+      "method": "Compilação e harmonização de fontes nacionais e internacionais, com metadados por indicador.",
+      "scope": "Economias e agregados mundiais; séries com cobertura variável.",
+      "limitations": "Definições, cobertura e qualidade diferem; comparabilidade plena não é garantida.",
+      "institutionalContext": "Instituição financeira multilateral; seleção e agregação de indicadores refletem convenções institucionais.",
+      "accessedAt": "2026-10-10"
+    },
+    {
+      "id": "unctad-stat",
+      "title": "UNCTADstat Data Centre",
+      "publisher": "UN Trade and Development",
+      "url": "https://unctadstat.unctad.org/",
+      "year": 2026,
+      "type": "base de comércio e desenvolvimento",
+      "method": "Compilação de comércio, investimento, economia marítima e desenvolvimento com metadados temáticos.",
+      "scope": "Países e agregados; séries e cobertura variam.",
+      "limitations": "Agregados dependem das fontes nacionais e das classificações escolhidas.",
+      "institutionalContext": "Organismo intergovernamental da ONU voltado a comércio e desenvolvimento.",
+      "accessedAt": "2026-10-10"
+    }
+  ],
+  "citations": [
+    {
+      "id": "em-transport-4-phenomenon-1",
+      "section": "phenomenon",
+      "claim": "Em São Paulo, o tempo médio de deslocamento diário é de 2h43min — um dos maiores do mundo. ",
+      "sourceIds": [
+        "wto-stats"
+      ],
+      "status": "dado",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-4-guided-2",
+      "section": "guided",
+      "claim": "Mobilidade urbana não é apenas sobre engarrafamento ou pontualidade de metrô. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-4-relations-3",
+      "section": "relations",
+      "claim": "Curitiba ficou famosa mundialmente pelo BRT — ônibus com faixas exclusivas, estações tubo e integração tarifária — criado nos anos 1970 pelo prefeito Jaime Lerner. ",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-4-caseStudy-4",
+      "section": "caseStudy",
+      "claim": "Algumas cidades no mundo adotaram tarifa zero no transporte público — Tallin (Estônia), Dunquerque (França), Luxemburgo (inteiro). ",
+      "sourceIds": [
+        "wto-stats"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-4-application-5",
+      "section": "application",
+      "claim": "Calcule o custo real do transporte para uma família da periferia de uma cidade brasileira: multiplique o gasto diário com transporte pelos dias úteis do mês. ",
+      "sourceIds": [
+        "world-bank-wdi"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    },
+    {
+      "id": "em-transport-4-activity-6",
+      "section": "activity",
+      "claim": "Por que o tempo de deslocamento é considerado um indicador de desigualdade urbana — e não apenas de eficiência do sistema de transporte?",
+      "sourceIds": [
+        "unctad-stat"
+      ],
+      "status": "consenso",
+      "locator": "Consulte a seção temática e os metadados da fonte."
+    }
+  ],
+  "perspectives": []
 }

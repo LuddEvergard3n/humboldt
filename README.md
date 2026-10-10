@@ -3,7 +3,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES2022-F7DF1E?logo=javascript&logoColor=111111)
 ![SVG](https://img.shields.io/badge/SVG-Interactive_Maps-FFB13B?logo=svg&logoColor=111111)
 ![Lessons](https://img.shields.io/badge/Lessons-170-7C3AED)
-![Tests](https://img.shields.io/badge/Tests-613-2563EB)
+![Tests](https://img.shields.io/badge/Tests-799-2563EB)
 
 Interactive geography atlas designed to connect maps, spatial scales, human systems, and real-world geographic processes.
 
@@ -23,6 +23,11 @@ Learners can investigate questions such as why neighborhoods flood, why food pri
 | Content | JSON |
 | Tests | Node.js 18 or later |
 
+The visual system is implemented locally with native CSS and small JavaScript
+controllers. shadcn/ui, Motion Primitives, Cult UI, and 21st.dev were used only
+as references for interaction patterns and component states; no code, runtime,
+registry, framework, or external UI dependency from those projects is shipped.
+
 ## Features
 
 - Interactive maps across multiple spatial scales.
@@ -33,7 +38,7 @@ Learners can investigate questions such as why neighborhoods flood, why food pri
 - Static deployment with no backend.
 - Local-only study progress, favorites, recent filters, and accessibility preferences.
 - Global search and a URL-shareable atlas route (`#atlas`).
-- Structured sources, review dates, and editorial evidence markers for new content.
+- Traceable citations, source methodology, review dates, and comparative perspectives across all content.
 
 ## Run locally
 
@@ -49,7 +54,7 @@ Open `http://localhost:8080`.
 node tests/test-runner.js
 ```
 
-Expected result: 613 passing checks and no failures.
+Expected result: 799 passing checks and no failures.
 
 ## Editorial model
 

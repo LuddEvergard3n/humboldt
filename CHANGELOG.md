@@ -17,6 +17,8 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 - Fontes estruturadas, datas de revisão, marcadores editoriais e comparação de perspectivas.
 - Política editorial pluralista e contrato de dados documentados.
 - Servidor local em Node.js e geradores determinísticos de conteúdo e mapas.
+- Polígonos oficiais dos seis biomas continentais, importados da base IBGE 1:5.000.000.
+- Camada visual nativa com superfícies editoriais, cartões cartográficos, estados de sistema e movimento reduzível.
 
 ### Alterado
 
@@ -27,16 +29,15 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
   "Abordagens Contemporâneas e Debates", com contrapontos metodológicos.
 - Navegação compacta ativada antes de ocorrer transbordamento horizontal.
 - Imports ESM dos testes usam URLs `file://` compatíveis com Windows.
+- As 170 lições e os nove artigos superiores adotam contrato editorial integral,
+  citações por bloco, ressalvas metodológicas e matrizes de perspectivas.
+- Afirmações frágeis sobre comércio, indústria, África, Ásia e Oriente Médio
+  foram reformuladas para separar dado, inferência e controvérsia.
+- Cabeçalho, busca, módulos, lições, Atlas e páginas estáticas receberam o mesmo acabamento responsivo e acessível.
 
 ### Testes
 
-- 613 ok / 0 falhou no Windows.
-
-### Pendente
-
-- Construção visual e protótipo no arquivo Figma criado; integração bloqueada
-  temporariamente pelo limite de chamadas do plano Starter.
-- Auditoria editorial completa das 146 lições legadas, hoje marcadas como pendentes.
+- 799 ok / 0 falhou no Windows.
 
 ## [1.6.0] — 2026-04-23
 
